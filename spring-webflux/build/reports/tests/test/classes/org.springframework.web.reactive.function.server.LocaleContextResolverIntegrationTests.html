@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - LocaleContextResolverIntegrationTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>LocaleContextResolverIntegrationTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.springframework.web.reactive.function.server.html">org.springframework.web.reactive.function.server</a> &gt; LocaleContextResolverIntegrationTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">4</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">11.277s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Method name</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">[1] org.springframework.web.testfixture.http.server.reactive.bootstrap.JettyHttpServer@65a6bb5</td>
+<td class="success">fixedLocale(HttpServer)[1]</td>
+<td class="success">0.023s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[2] org.springframework.web.testfixture.http.server.reactive.bootstrap.ReactorHttpServer@62ad32e1</td>
+<td class="success">fixedLocale(HttpServer)[2]</td>
+<td class="success">0.015s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[3] org.springframework.web.testfixture.http.server.reactive.bootstrap.TomcatHttpServer@5858c15d</td>
+<td class="success">fixedLocale(HttpServer)[3]</td>
+<td class="success">11.219s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[4] org.springframework.web.testfixture.http.server.reactive.bootstrap.UndertowHttpServer@40eeefb1</td>
+<td class="success">fixedLocale(HttpServer)[4]</td>
+<td class="success">0.020s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>16:41:22.394 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+16:41:22.394 [Test worker] WARN  o.e.j.s.h.ContextHandler - Empty contextPath
+16:41:22.394 [Test worker] INFO  o.e.j.s.h.ContextHandler - Started o.e.j.s.ServletContextHandler@26be34c{/,null,AVAILABLE}
+16:41:22.395 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Starting JettyHttpServer...
+16:41:22.395 [Test worker] INFO  o.e.j.s.Server - jetty-9.4.39.v20210325; built: 2021-03-25T14:42:11.471Z; git: 9fc7ca5a922f2a37b84ec9dbc26a5168cee7e667; jvm 11.0.9+7-LTS
+16:41:22.396 [Test worker] INFO  o.e.j.s.AbstractConnector - Started ServerConnector@7176c174{HTTP/1.1, (http/1.1)}{0.0.0.0:63995}
+16:41:22.396 [Test worker] INFO  o.e.j.s.Server - Started @570808ms
+16:41:22.396 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Server started on port 63995(0 millis).
+16:41:22.397 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [c43d917] HTTP GET http://localhost:63995/
+16:41:22.405 [qtp1103108577-2276] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [86133cd] HTTP GET &quot;/&quot;
+16:41:22.406 [qtp1103108577-2276] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [86133cd] Completed 200 OK
+16:41:22.406 [reactor-http-nio-12] DEBUG o.s.w.r.f.c.ExchangeFunctions - [c43d917] [834b2645-1, L:/127.0.0.1:63996 - R:localhost/127.0.0.1:63995] Response 200 OK
+16:41:22.408 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Stopping JettyHttpServer...
+16:41:22.408 [Test worker] INFO  o.e.j.s.h.ContextHandler - Stopped o.e.j.s.ServletContextHandler@26be34c{/,null,STOPPED}
+16:41:22.410 [Test worker] INFO  o.e.j.s.AbstractConnector - Stopped ServerConnector@7176c174{HTTP/1.1, (http/1.1)}{0.0.0.0:0}
+16:41:22.410 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Server stopped (0 millis).
+16:41:22.417 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+16:41:22.417 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Starting ReactorHttpServer...
+16:41:22.417 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Server started on port 63997(0 millis).
+16:41:22.418 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [70b4c4c2] HTTP GET http://localhost:63997/
+16:41:22.424 [reactor-http-nio-15] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [93764530-1, L:/127.0.0.1:63997 - R:/127.0.0.1:63998] HTTP GET &quot;/&quot;
+16:41:22.424 [reactor-http-nio-15] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [93764530-1, L:/127.0.0.1:63997 - R:/127.0.0.1:63998] Completed 200 OK
+16:41:22.425 [reactor-http-nio-14] DEBUG o.s.w.r.f.c.ExchangeFunctions - [70b4c4c2] [5ab2f5ba-1, L:/127.0.0.1:63998 - R:localhost/127.0.0.1:63997] Response 200 OK
+16:41:22.425 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Stopping ReactorHttpServer...
+16:41:22.425 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Server stopped (0 millis).
+16:41:22.431 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+16:41:22.431 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Starting TomcatHttpServer...
+16:41:22.436 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Server started on port 63999(0 millis).
+16:41:22.436 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [697e85f9] HTTP GET http://localhost:63999/
+16:41:22.442 [http-nio-auto-50-exec-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [1361a292] HTTP GET &quot;/&quot;
+16:41:22.442 [http-nio-auto-50-exec-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [1361a292] Completed 200 OK
+16:41:22.443 [reactor-http-nio-16] DEBUG o.s.w.r.f.c.ExchangeFunctions - [697e85f9] [1be70f0a-1, L:/127.0.0.1:64000 - R:localhost/127.0.0.1:63999] Response 200 OK
+16:41:22.443 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Stopping TomcatHttpServer...
+16:41:33.643 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Server stopped (0 millis).
+16:41:33.650 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+16:41:33.650 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Starting UndertowHttpServer...
+16:41:33.650 [Test worker] INFO  i.undertow - starting server: Undertow - 2.2.7.Final
+16:41:33.653 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Server started on port 64006(0 millis).
+16:41:33.653 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [59b964bb] HTTP GET http://localhost:64006/
+16:41:33.661 [XNIO-50 I/O-7] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [5300e38c-51] HTTP GET &quot;/&quot;
+16:41:33.661 [XNIO-50 I/O-7] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [5300e38c-51] Completed 200 OK
+16:41:33.662 [reactor-http-nio-1] DEBUG o.s.w.r.f.c.ExchangeFunctions - [59b964bb] [a8c08846-1, L:/127.0.0.1:64007 - R:localhost/127.0.0.1:64006] Response 200 OK
+16:41:33.662 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Stopping UndertowHttpServer...
+16:41:33.662 [Test worker] INFO  i.undertow - stopping server: Undertow - 2.2.7.Final
+16:41:33.663 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Server stopped (0 millis).
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 6.8.3</a> at 2021年4月26日 下午4:46:32</p>
+</div>
+</div>
+</body>
+</html>

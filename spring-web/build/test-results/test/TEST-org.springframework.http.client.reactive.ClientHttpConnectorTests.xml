@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.http.client.reactive.ClientHttpConnectorTests" tests="30" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:44:17" hostname="wangweilideMacBook-Pro.local" time="0.504">
+  <properties/>
+  <testcase name="[1] connector=org.springframework.http.client.reactive.ReactorClientHttpConnector@1510def5, method=GET" classname="org.springframework.http.client.reactive.ClientHttpConnectorTests" time="0.099"/>
+  <testcase name="[2] connector=org.springframework.http.client.reactive.ReactorClientHttpConnector@1510def5, method=HEAD" classname="org.springframework.http.client.reactive.ClientHttpConnectorTests" time="0.008"/>
+  <testcase name="[3] connector=org.springframework.http.client.reactive.ReactorClientHttpConnector@1510def5, method=POST" classname="org.springframework.http.client.reactive.ClientHttpConnectorTests" time="0.008"/>
+  <testcase name="[4] connector=org.springframework.http.client.reactive.ReactorClientHttpConnector@1510def5, method=PUT" classname="org.springframework.http.client.reactive.ClientHttpConnectorTests" time="0.007"/>
+  <testcase name="[5] connector=org.springframework.http.client.reactive.ReactorClientHttpConnector@1510def5, method=PATCH" classname="org.springframework.http.client.reactive.ClientHttpConnectorTests" time="0.007"/>
+  <testcase name="[6] connector=org.springframework.http.client.reactive.ReactorClientHttpConnector@1510def5, method=DELETE" classname="org.springframework.http.client.reactive.ClientHttpConnectorTests" time="0.015"/>
+  <testcase name="[7] connector=org.springframework.http.client.reactive.ReactorClientHttpConnector@1510def5, method=OPTIONS" classname="org.springframework.http.client.reactive.ClientHttpConnectorTests" time="0.007"/>
+  <testcase name="[8] connector=org.springframework.http.client.reactive.ReactorClientHttpConnector@1510def5, method=TRACE" classname="org.springframework.http.client.reactive.ClientHttpConnectorTests" time="0.005"/>
+  <testcase name="[9] connector=org.springframework.http.client.reactive.JettyClientHttpConnector@134e5da0, method=GET" classname="org.springframework.http.client.reactive.ClientHttpConnectorTests" time="0.087"/>
+  <testcase name="[10] connector=org.springframework.http.client.reactive.JettyClientHttpConnector@134e5da0, method=HEAD" classname="org.springframework.http.client.reactive.ClientHttpConnectorTests" time="0.008"/>
+  <testcase name="[11] connector=org.springframework.http.client.reactive.JettyClientHttpConnector@134e5da0, method=POST" classname="org.springframework.http.client.reactive.ClientHttpConnectorTests" time="0.017"/>
+  <testcase name="[12] connector=org.springframework.http.client.reactive.JettyClientHttpConnector@134e5da0, method=PUT" classname="org.springframework.http.client.reactive.ClientHttpConnectorTests" time="0.013"/>
+  <testcase name="[13] connector=org.springframework.http.client.reactive.JettyClientHttpConnector@134e5da0, method=PATCH" classname="org.springframework.http.client.reactive.ClientHttpConnectorTests" time="0.01"/>
+  <testcase name="[14] connector=org.springframework.http.client.reactive.JettyClientHttpConnector@134e5da0, method=DELETE" classname="org.springframework.http.client.reactive.ClientHttpConnectorTests" time="0.009"/>
+  <testcase name="[15] connector=org.springframework.http.client.reactive.JettyClientHttpConnector@134e5da0, method=OPTIONS" classname="org.springframework.http.client.reactive.ClientHttpConnectorTests" time="0.011"/>
+  <testcase name="[16] connector=org.springframework.http.client.reactive.JettyClientHttpConnector@134e5da0, method=TRACE" classname="org.springframework.http.client.reactive.ClientHttpConnectorTests" time="0.009"/>
+  <testcase name="[17] connector=org.springframework.http.client.reactive.HttpComponentsClientHttpConnector@fd50a50, method=GET" classname="org.springframework.http.client.reactive.ClientHttpConnectorTests" time="0.081"/>
+  <testcase name="[18] connector=org.springframework.http.client.reactive.HttpComponentsClientHttpConnector@fd50a50, method=HEAD" classname="org.springframework.http.client.reactive.ClientHttpConnectorTests" time="0.003"/>
+  <testcase name="[19] connector=org.springframework.http.client.reactive.HttpComponentsClientHttpConnector@fd50a50, method=POST" classname="org.springframework.http.client.reactive.ClientHttpConnectorTests" time="0.007"/>
+  <testcase name="[20] connector=org.springframework.http.client.reactive.HttpComponentsClientHttpConnector@fd50a50, method=PUT" classname="org.springframework.http.client.reactive.ClientHttpConnectorTests" time="0.008"/>
+  <testcase name="[21] connector=org.springframework.http.client.reactive.HttpComponentsClientHttpConnector@fd50a50, method=PATCH" classname="org.springframework.http.client.reactive.ClientHttpConnectorTests" time="0.009"/>
+  <testcase name="[22] connector=org.springframework.http.client.reactive.HttpComponentsClientHttpConnector@fd50a50, method=DELETE" classname="org.springframework.http.client.reactive.ClientHttpConnectorTests" time="0.004"/>
+  <testcase name="[23] connector=org.springframework.http.client.reactive.HttpComponentsClientHttpConnector@fd50a50, method=OPTIONS" classname="org.springframework.http.client.reactive.ClientHttpConnectorTests" time="0.003"/>
+  <testcase name="[24] connector=org.springframework.http.client.reactive.HttpComponentsClientHttpConnector@fd50a50, method=TRACE" classname="org.springframework.http.client.reactive.ClientHttpConnectorTests" time="0.009"/>
+  <testcase name="[1] connector=org.springframework.http.client.reactive.ReactorClientHttpConnector@30c5399" classname="org.springframework.http.client.reactive.ClientHttpConnectorTests" time="0.012"/>
+  <testcase name="[2] connector=org.springframework.http.client.reactive.JettyClientHttpConnector@2e4cbc60" classname="org.springframework.http.client.reactive.ClientHttpConnectorTests" time="0.012"/>
+  <testcase name="[3] connector=org.springframework.http.client.reactive.HttpComponentsClientHttpConnector@c34ba08" classname="org.springframework.http.client.reactive.ClientHttpConnectorTests" time="0.006"/>
+  <testcase name="[1] connector=org.springframework.http.client.reactive.ReactorClientHttpConnector@6b4f2717" classname="org.springframework.http.client.reactive.ClientHttpConnectorTests" time="0.006"/>
+  <testcase name="[2] connector=org.springframework.http.client.reactive.JettyClientHttpConnector@17fd86a0" classname="org.springframework.http.client.reactive.ClientHttpConnectorTests" time="0.002"/>
+  <testcase name="[3] connector=org.springframework.http.client.reactive.HttpComponentsClientHttpConnector@7110cbff" classname="org.springframework.http.client.reactive.ClientHttpConnectorTests" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Apr 26, 2021 3:44:17 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[49272] starting to accept connections
+Apr 26, 2021 3:44:17 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[49272] received request: GET / HTTP/1.1 and responded: HTTP/1.1 200 OK
+Apr 26, 2021 3:44:17 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[49272] done accepting connections: Socket closed
+Apr 26, 2021 3:44:17 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[49274] starting to accept connections
+Apr 26, 2021 3:44:17 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[49274] received request: HEAD / HTTP/1.1 and responded: HTTP/1.1 200 OK
+Apr 26, 2021 3:44:17 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[49274] done accepting connections: Socket closed
+Apr 26, 2021 3:44:17 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[49276] starting to accept connections
+Apr 26, 2021 3:44:17 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[49276] received request: POST / HTTP/1.1 and responded: HTTP/1.1 200 OK
+Apr 26, 2021 3:44:17 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[49276] done accepting connections: Socket closed
+Apr 26, 2021 3:44:17 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[49278] starting to accept connections
+Apr 26, 2021 3:44:17 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[49278] received request: PUT / HTTP/1.1 and responded: HTTP/1.1 200 OK
+Apr 26, 2021 3:44:17 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[49278] done accepting connections: Socket closed
+Apr 26, 2021 3:44:17 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[49280] starting to accept connections
+Apr 26, 2021 3:44:17 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[49280] received request: PATCH / HTTP/1.1 and responded: HTTP/1.1 200 OK
+Apr 26, 2021 3:44:17 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[49280] done accepting connections: Socket closed
+Apr 26, 2021 3:44:17 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[49282] starting to accept connections
+Apr 26, 2021 3:44:17 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[49282] received request: DELETE / HTTP/1.1 and responded: HTTP/1.1 200 OK
+Apr 26, 2021 3:44:17 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[49282] done accepting connections: Socket closed
+Apr 26, 2021 3:44:17 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[49284] starting to accept connections
+Apr 26, 2021 3:44:17 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[49284] received request: OPTIONS / HTTP/1.1 and responded: HTTP/1.1 200 OK
+Apr 26, 2021 3:44:17 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[49284] done accepting connections: Socket closed
+Apr 26, 2021 3:44:17 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[49286] starting to accept connections
+Apr 26, 2021 3:44:17 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[49286] received request: TRACE / HTTP/1.1 and responded: HTTP/1.1 200 OK
+Apr 26, 2021 3:44:17 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[49286] done accepting connections: Socket closed
+Apr 26, 2021 3:44:17 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[49288] starting to accept connections
+Apr 26, 2021 3:44:18 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[49288] received request: GET / HTTP/1.1 and responded: HTTP/1.1 200 OK
+Apr 26, 2021 3:44:18 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[49288] done accepting connections: Socket closed
+Apr 26, 2021 3:44:18 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[49294] starting to accept connections
+Apr 26, 2021 3:44:18 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[49294] received request: HEAD / HTTP/1.1 and responded: HTTP/1.1 200 OK
+Apr 26, 2021 3:44:18 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[49294] done accepting connections: Socket closed
+Apr 26, 2021 3:44:18 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[49296] starting to accept connections
+Apr 26, 2021 3:44:18 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[49296] received request: POST / HTTP/1.1 and responded: HTTP/1.1 200 OK
+Apr 26, 2021 3:44:18 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[49296] done accepting connections: Socket closed
+Apr 26, 2021 3:44:18 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[49298] starting to accept connections
+Apr 26, 2021 3:44:18 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[49298] received request: PUT / HTTP/1.1 and responded: HTTP/1.1 200 OK
+Apr 26, 2021 3:44:18 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[49298] done accepting connections: Socket closed
+Apr 26, 2021 3:44:18 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[49302] starting to accept connections
+Apr 26, 2021 3:44:18 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[49302] received request: PATCH / HTTP/1.1 and responded: HTTP/1.1 200 OK
+Apr 26, 2021 3:44:18 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[49302] done accepting connections: Socket closed
+Apr 26, 2021 3:44:18 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[49304] starting to accept connections
+Apr 26, 2021 3:44:18 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[49304] received request: DELETE / HTTP/1.1 and responded: HTTP/1.1 200 OK
+Apr 26, 2021 3:44:18 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[49304] done accepting connections: Socket closed
+Apr 26, 2021 3:44:18 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[49306] starting to accept connections
+Apr 26, 2021 3:44:18 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[49306] received request: OPTIONS / HTTP/1.1 and responded: HTTP/1.1 200 OK
+Apr 26, 2021 3:44:18 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[49306] done accepting connections: Socket closed
+Apr 26, 2021 3:44:18 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[49308] starting to accept connections
+Apr 26, 2021 3:44:18 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[49308] received request: TRACE / HTTP/1.1 and responded: HTTP/1.1 200 OK
+Apr 26, 2021 3:44:18 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[49308] done accepting connections: Socket closed
+Apr 26, 2021 3:44:18 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[49310] starting to accept connections
+Apr 26, 2021 3:44:18 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[49310] received request: GET / HTTP/1.1 and responded: HTTP/1.1 200 OK
+Apr 26, 2021 3:44:18 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[49310] done accepting connections: Socket closed
+Apr 26, 2021 3:44:18 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[49316] starting to accept connections
+Apr 26, 2021 3:44:18 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[49316] received request: HEAD / HTTP/1.1 and responded: HTTP/1.1 200 OK
+Apr 26, 2021 3:44:18 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[49316] done accepting connections: Socket closed
+Apr 26, 2021 3:44:18 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[49318] starting to accept connections
+Apr 26, 2021 3:44:18 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[49318] received request: POST / HTTP/1.1 and responded: HTTP/1.1 200 OK
+Apr 26, 2021 3:44:18 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[49318] done accepting connections: Socket closed
+Apr 26, 2021 3:44:18 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[49320] starting to accept connections
+Apr 26, 2021 3:44:18 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[49320] received request: PUT / HTTP/1.1 and responded: HTTP/1.1 200 OK
+Apr 26, 2021 3:44:18 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[49320] done accepting connections: Socket closed
+Apr 26, 2021 3:44:18 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[49322] starting to accept connections
+Apr 26, 2021 3:44:18 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[49322] received request: PATCH / HTTP/1.1 and responded: HTTP/1.1 200 OK
+Apr 26, 2021 3:44:18 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[49322] done accepting connections: Socket closed
+Apr 26, 2021 3:44:18 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[49324] starting to accept connections
+Apr 26, 2021 3:44:18 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[49324] received request: DELETE / HTTP/1.1 and responded: HTTP/1.1 200 OK
+Apr 26, 2021 3:44:18 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[49324] done accepting connections: Socket closed
+Apr 26, 2021 3:44:18 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[49326] starting to accept connections
+Apr 26, 2021 3:44:18 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[49326] received request: OPTIONS / HTTP/1.1 and responded: HTTP/1.1 200 OK
+Apr 26, 2021 3:44:18 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[49326] done accepting connections: Socket closed
+Apr 26, 2021 3:44:18 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[49328] starting to accept connections
+Apr 26, 2021 3:44:18 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[49328] received request: TRACE / HTTP/1.1 and responded: HTTP/1.1 200 OK
+Apr 26, 2021 3:44:18 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[49328] done accepting connections: Socket closed
+Apr 26, 2021 3:44:18 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[49330] starting to accept connections
+Apr 26, 2021 3:44:18 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[49330] received request: POST / HTTP/1.1 and responded: HTTP/1.1 200 OK
+Apr 26, 2021 3:44:18 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[49330] done accepting connections: Socket closed
+Apr 26, 2021 3:44:18 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[49332] starting to accept connections
+Apr 26, 2021 3:44:18 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[49332] received request: POST / HTTP/1.1 and responded: HTTP/1.1 200 OK
+Apr 26, 2021 3:44:18 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[49332] done accepting connections: Socket closed
+Apr 26, 2021 3:44:18 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[49334] starting to accept connections
+Apr 26, 2021 3:44:18 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[49334] received request: POST / HTTP/1.1 and responded: HTTP/1.1 200 OK
+Apr 26, 2021 3:44:18 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[49334] done accepting connections: Socket closed
+Apr 26, 2021 3:44:18 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[49336] starting to accept connections
+Apr 26, 2021 3:44:18 PM okhttp3.mockwebserver.MockWebServer$4 execute
+INFO: MockWebServer[49336] connection from /127.0.0.1 failed: java.io.EOFException: \n not found: limit=0 content=…
+Apr 26, 2021 3:44:18 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[49336] done accepting connections: Socket closed
+Apr 26, 2021 3:44:18 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[49338] starting to accept connections
+Apr 26, 2021 3:44:18 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[49338] done accepting connections: Socket closed
+Apr 26, 2021 3:44:18 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[49339] starting to accept connections
+Apr 26, 2021 3:44:18 PM okhttp3.mockwebserver.MockWebServer$4 processConnection
+WARNING: MockWebServer[49339] connection from /127.0.0.1 didn't make a request
+Apr 26, 2021 3:44:18 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[49339] done accepting connections: Socket closed
+]]></system-err>
+</testsuite>

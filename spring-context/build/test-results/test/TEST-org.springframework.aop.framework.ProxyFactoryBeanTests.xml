@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.aop.framework.ProxyFactoryBeanTests" tests="31" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:41:23" hostname="wangweilideMacBook-Pro.local" time="0.699">
+  <properties/>
+  <testcase name="testDetectsInterfaces()" classname="org.springframework.aop.framework.ProxyFactoryBeanTests" time="0.007"/>
+  <testcase name="testTargetSourceNotAtEndOfInterceptorNamesIsRejected()" classname="org.springframework.aop.framework.ProxyFactoryBeanTests" time="0.017"/>
+  <testcase name="testSingletonInstancesAreEqual()" classname="org.springframework.aop.framework.ProxyFactoryBeanTests" time="0.078"/>
+  <testcase name="testGetObjectTypeWithNoTargetOrTargetSource()" classname="org.springframework.aop.framework.ProxyFactoryBeanTests" time="0.01"/>
+  <testcase name="testSerializableSingletonProxyFactoryBean()" classname="org.springframework.aop.framework.ProxyFactoryBeanTests" time="0.051"/>
+  <testcase name="testPrototypeAdvisor()" classname="org.springframework.aop.framework.ProxyFactoryBeanTests" time="0.053"/>
+  <testcase name="testIsDynamicProxyWhenInterfaceSpecifiedForPrototype()" classname="org.springframework.aop.framework.ProxyFactoryBeanTests" time="0.009"/>
+  <testcase name="testGlobalsWithoutTarget()" classname="org.springframework.aop.framework.ProxyFactoryBeanTests" time="0.012"/>
+  <testcase name="testIsDynamicProxyWhenAutodetectingInterfacesForPrototype()" classname="org.springframework.aop.framework.ProxyFactoryBeanTests" time="0.007"/>
+  <testcase name="testInnerBeanTargetUsingAutowiring()" classname="org.springframework.aop.framework.ProxyFactoryBeanTests" time="0.055"/>
+  <testcase name="testTargetAsInnerBean()" classname="org.springframework.aop.framework.ProxyFactoryBeanTests" time="0.012"/>
+  <testcase name="testCanAddAndRemoveAspectInterfacesOnPrototype()" classname="org.springframework.aop.framework.ProxyFactoryBeanTests" time="0.021"/>
+  <testcase name="testGlobalsCanAddAspectInterfaces()" classname="org.springframework.aop.framework.ProxyFactoryBeanTests" time="0.054"/>
+  <testcase name="testAutoInvoker()" classname="org.springframework.aop.framework.ProxyFactoryBeanTests" time="0.008"/>
+  <testcase name="testPrototypeInterceptorSingletonTarget()" classname="org.springframework.aop.framework.ProxyFactoryBeanTests" time="0.013"/>
+  <testcase name="testSerializableSingletonProxy()" classname="org.springframework.aop.framework.ProxyFactoryBeanTests" time="0.014"/>
+  <testcase name="testCanGetFactoryReferenceAndManipulate()" classname="org.springframework.aop.framework.ProxyFactoryBeanTests" time="0.013"/>
+  <testcase name="testIsDynamicProxyWhenInterfaceSpecified()" classname="org.springframework.aop.framework.ProxyFactoryBeanTests" time="0.007"/>
+  <testcase name="testDoubleTargetSourcesAreRejected()" classname="org.springframework.aop.framework.ProxyFactoryBeanTests" time="0.018"/>
+  <testcase name="testSerializablePrototypeProxy()" classname="org.springframework.aop.framework.ProxyFactoryBeanTests" time="0.011"/>
+  <testcase name="testIsDynamicProxyWhenAutodetectingInterfaces()" classname="org.springframework.aop.framework.ProxyFactoryBeanTests" time="0.007"/>
+  <testcase name="testCglibPrototypeInstance()" classname="org.springframework.aop.framework.ProxyFactoryBeanTests" time="0.022"/>
+  <testcase name="testEmptyInterceptorNames()" classname="org.springframework.aop.framework.ProxyFactoryBeanTests" time="0.01"/>
+  <testcase name="testGetObjectTypeWithTargetViaTargetSource()" classname="org.springframework.aop.framework.ProxyFactoryBeanTests" time="0.034"/>
+  <testcase name="testGetObjectTypeWithDirectTarget()" classname="org.springframework.aop.framework.ProxyFactoryBeanTests" time="0.035"/>
+  <testcase name="testProxyNotSerializableBecauseOfAdvice()" classname="org.springframework.aop.framework.ProxyFactoryBeanTests" time="0.019"/>
+  <testcase name="testMethodPointcuts()" classname="org.springframework.aop.framework.ProxyFactoryBeanTests" time="0.008"/>
+  <testcase name="testCanAddAndRemoveAdvicesOnSingleton()" classname="org.springframework.aop.framework.ProxyFactoryBeanTests" time="0.006"/>
+  <testcase name="testCanAddThrowsAdviceWithoutAdvisor()" classname="org.springframework.aop.framework.ProxyFactoryBeanTests" time="0.024"/>
+  <testcase name="testPrototypeInstancesAreNotEqual()" classname="org.springframework.aop.framework.ProxyFactoryBeanTests" time="0.007"/>
+  <testcase name="testFrozenFactoryBean()" classname="org.springframework.aop.framework.ProxyFactoryBeanTests" time="0.041"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

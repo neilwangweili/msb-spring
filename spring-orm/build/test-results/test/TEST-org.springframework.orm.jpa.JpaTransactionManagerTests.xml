@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.orm.jpa.JpaTransactionManagerTests" tests="21" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:39:46" hostname="wangweilideMacBook-Pro.local" time="0.35">
+  <properties/>
+  <testcase name="testTransactionRollbackOnly()" classname="org.springframework.orm.jpa.JpaTransactionManagerTests" time="0.034"/>
+  <testcase name="testTransactionCommitWithRollbackException()" classname="org.springframework.orm.jpa.JpaTransactionManagerTests" time="0.022"/>
+  <testcase name="testTransactionRollbackWithPropagationSupports()" classname="org.springframework.orm.jpa.JpaTransactionManagerTests" time="0.015"/>
+  <testcase name="testInvalidIsolation()" classname="org.springframework.orm.jpa.JpaTransactionManagerTests" time="0.023"/>
+  <testcase name="testTransactionCommitWithPreboundAndPropagationSupports()" classname="org.springframework.orm.jpa.JpaTransactionManagerTests" time="0.003"/>
+  <testcase name="testTransactionFlush()" classname="org.springframework.orm.jpa.JpaTransactionManagerTests" time="0.023"/>
+  <testcase name="testTransactionCommitWithPropagationSupports()" classname="org.springframework.orm.jpa.JpaTransactionManagerTests" time="0.005"/>
+  <testcase name="testTransactionCommit()" classname="org.springframework.orm.jpa.JpaTransactionManagerTests" time="0.008"/>
+  <testcase name="testTransactionCommitWithPrebound()" classname="org.springframework.orm.jpa.JpaTransactionManagerTests" time="0.007"/>
+  <testcase name="testParticipatingTransactionWithRollback()" classname="org.springframework.orm.jpa.JpaTransactionManagerTests" time="0.008"/>
+  <testcase name="testParticipatingTransactionWithCommit()" classname="org.springframework.orm.jpa.JpaTransactionManagerTests" time="0.026"/>
+  <testcase name="testTransactionRollback()" classname="org.springframework.orm.jpa.JpaTransactionManagerTests" time="0.015"/>
+  <testcase name="testTransactionRollbackWithAlreadyRolledBack()" classname="org.springframework.orm.jpa.JpaTransactionManagerTests" time="0.007"/>
+  <testcase name="testPropagationSupportsAndRequiresNew()" classname="org.springframework.orm.jpa.JpaTransactionManagerTests" time="0.008"/>
+  <testcase name="testParticipatingTransactionWithRequiresNewAndPrebound()" classname="org.springframework.orm.jpa.JpaTransactionManagerTests" time="0.009"/>
+  <testcase name="testTransactionRollbackWithPrebound()" classname="org.springframework.orm.jpa.JpaTransactionManagerTests" time="0.023"/>
+  <testcase name="testTransactionWithRequiresNewInAfterCompletion()" classname="org.springframework.orm.jpa.JpaTransactionManagerTests" time="0.022"/>
+  <testcase name="testParticipatingTransactionWithRollbackOnly()" classname="org.springframework.orm.jpa.JpaTransactionManagerTests" time="0.01"/>
+  <testcase name="testPropagationSupportsAndRequiresNewAndEarlyAccess()" classname="org.springframework.orm.jpa.JpaTransactionManagerTests" time="0.03"/>
+  <testcase name="testParticipatingTransactionWithRequiresNew()" classname="org.springframework.orm.jpa.JpaTransactionManagerTests" time="0.031"/>
+  <testcase name="testTransactionRollbackWithPreboundAndPropagationSupports()" classname="org.springframework.orm.jpa.JpaTransactionManagerTests" time="0.004"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

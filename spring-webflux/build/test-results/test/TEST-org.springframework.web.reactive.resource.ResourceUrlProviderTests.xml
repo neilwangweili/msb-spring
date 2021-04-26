@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.reactive.resource.ResourceUrlProviderTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-04-26T08:41:35" hostname="wangweilideMacBook-Pro.local" time="0.076">
+  <properties/>
+  <testcase name="getStaticResourceUrl()" classname="org.springframework.web.reactive.resource.ResourceUrlProviderTests" time="0.001"/>
+  <testcase name="getVersionedResourceUrl()" classname="org.springframework.web.reactive.resource.ResourceUrlProviderTests" time="0.002"/>
+  <testcase name="initializeOnCurrentContext()" classname="org.springframework.web.reactive.resource.ResourceUrlProviderTests" time="0.05"/>
+  <testcase name="getStaticResourceUrlRequestWithQueryOrHash()" classname="org.springframework.web.reactive.resource.ResourceUrlProviderTests" time="0.0"/>
+  <testcase name="bestPatternMatch()" classname="org.springframework.web.reactive.resource.ResourceUrlProviderTests" time="0.002"/>
+  <testcase name="initializeOnce()" classname="org.springframework.web.reactive.resource.ResourceUrlProviderTests" time="0.002"/>
+  <system-out><![CDATA[16:41:35.224 [Test worker] DEBUG o.s.w.c.s.AnnotationConfigWebApplicationContext - Refreshing Root WebApplicationContext
+16:41:35.226 [Test worker] DEBUG o.s.w.c.s.AnnotationConfigWebApplicationContext - Registering component classes: [class org.springframework.web.reactive.resource.ResourceUrlProviderTests$ParentHandlerMappingConfiguration]
+16:41:35.238 [Test worker] DEBUG o.s.w.c.s.AnnotationConfigWebApplicationContext - Refreshing Root WebApplicationContext
+16:41:35.238 [Test worker] DEBUG o.s.w.c.s.AnnotationConfigWebApplicationContext - Registering component classes: [class org.springframework.web.reactive.resource.ResourceUrlProviderTests$HandlerMappingConfiguration]
+16:41:35.245 [Test worker] DEBUG o.s.w.r.h.SimpleUrlHandlerMapping - Patterns [/resources/**] in 'simpleUrlHandlerMapping'
+16:41:35.260 [Test worker] DEBUG o.s.w.c.s.AnnotationConfigWebApplicationContext - Refreshing Root WebApplicationContext
+16:41:35.261 [Test worker] DEBUG o.s.w.c.s.AnnotationConfigWebApplicationContext - Registering component classes: [class org.springframework.web.reactive.resource.ResourceUrlProviderTests$HandlerMappingConfiguration]
+16:41:35.263 [Test worker] DEBUG o.s.w.r.h.SimpleUrlHandlerMapping - Patterns [/resources/**] in 'simpleUrlHandlerMapping'
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

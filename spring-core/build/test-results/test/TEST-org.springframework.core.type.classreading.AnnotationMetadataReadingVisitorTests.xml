@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.core.type.classreading.AnnotationMetadataReadingVisitorTests" tests="35" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:37:46" hostname="wangweilideMacBook-Pro.local" time="0.056">
+  <properties/>
+  <testcase name="isAnnotationWhenAnnotationReturnsTrue()" classname="org.springframework.core.type.classreading.AnnotationMetadataReadingVisitorTests" time="0.005"/>
+  <testcase name="getEnclosingClassNameWhenHasNoEnclosingClassReturnsNull()" classname="org.springframework.core.type.classreading.AnnotationMetadataReadingVisitorTests" time="0.007"/>
+  <testcase name="hasAnnotatedMethodsWhenMatchesDirectAnnotationReturnsTrue()" classname="org.springframework.core.type.classreading.AnnotationMetadataReadingVisitorTests" time="0.001"/>
+  <testcase name="isAnnotatedWhenMatchesDirectAnnotationReturnsTrue()" classname="org.springframework.core.type.classreading.AnnotationMetadataReadingVisitorTests" time="0.001"/>
+  <testcase name="getAnnotationTypesReturnsDirectAnnotations()" classname="org.springframework.core.type.classreading.AnnotationMetadataReadingVisitorTests" time="0.001"/>
+  <testcase name="isFinalWhenFinalReturnsTrue()" classname="org.springframework.core.type.classreading.AnnotationMetadataReadingVisitorTests" time="0.0"/>
+  <testcase name="isAnnotationWhenNotAnnotationReturnsFalse()" classname="org.springframework.core.type.classreading.AnnotationMetadataReadingVisitorTests" time="0.001"/>
+  <testcase name="isIndependentWhenIndependentReturnsTrue()" classname="org.springframework.core.type.classreading.AnnotationMetadataReadingVisitorTests" time="0.005"/>
+  <testcase name="hasAnnotationWhenDoesNotMatchDirectOrMetaAnnotationReturnsFalse()" classname="org.springframework.core.type.classreading.AnnotationMetadataReadingVisitorTests" time="0.0"/>
+  <testcase name="hasAnnotatedMethodsWhenDoesNotMatchAnyAnnotationReturnsFalse()" classname="org.springframework.core.type.classreading.AnnotationMetadataReadingVisitorTests" time="0.001"/>
+  <testcase name="getAllAnnotationAttributesReturnsAllAttributes()" classname="org.springframework.core.type.classreading.AnnotationMetadataReadingVisitorTests" time="0.003"/>
+  <testcase name="hasAnnotationWhenMatchesMetaAnnotationReturnsFalse()" classname="org.springframework.core.type.classreading.AnnotationMetadataReadingVisitorTests" time="0.002"/>
+  <testcase name="hasMetaAnnotationWhenMatchesDirectReturnsFalse()" classname="org.springframework.core.type.classreading.AnnotationMetadataReadingVisitorTests" time="0.001"/>
+  <testcase name="getSuperClassNameWhenHasNoSuperClassReturnsNull()" classname="org.springframework.core.type.classreading.AnnotationMetadataReadingVisitorTests" time="0.003"/>
+  <testcase name="getEnclosingClassNameWhenHasEnclosingClassReturnsEnclosingClass()" classname="org.springframework.core.type.classreading.AnnotationMetadataReadingVisitorTests" time="0.001"/>
+  <testcase name="getMemberClassNamesWhenHasMemberClassesReturnsNames()" classname="org.springframework.core.type.classreading.AnnotationMetadataReadingVisitorTests" time="0.001"/>
+  <testcase name="getClassNameReturnsClassName()" classname="org.springframework.core.type.classreading.AnnotationMetadataReadingVisitorTests" time="0.001"/>
+  <testcase name="hasAnnotationWhenMatchesDirectAnnotationReturnsTrue()" classname="org.springframework.core.type.classreading.AnnotationMetadataReadingVisitorTests" time="0.001"/>
+  <testcase name="getAnnotationAttributesReturnsAttributes()" classname="org.springframework.core.type.classreading.AnnotationMetadataReadingVisitorTests" time="0.001"/>
+  <testcase name="getSuperClassNameWhenHasSuperClassReturnsName()" classname="org.springframework.core.type.classreading.AnnotationMetadataReadingVisitorTests" time="0.001"/>
+  <testcase name="isAnnotatedWhenDoesNotMatchDirectOrMetaAnnotationReturnsFalse()" classname="org.springframework.core.type.classreading.AnnotationMetadataReadingVisitorTests" time="0.001"/>
+  <testcase name="isIndependentWhenNotIndependentReturnsFalse()" classname="org.springframework.core.type.classreading.AnnotationMetadataReadingVisitorTests" time="0.001"/>
+  <testcase name="isAnnotatedWhenMatchesMetaAnnotationReturnsTrue()" classname="org.springframework.core.type.classreading.AnnotationMetadataReadingVisitorTests" time="0.001"/>
+  <testcase name="hasMetaAnnotationWhenDoesNotMatchDirectOrMetaAnnotationReturnsFalse()" classname="org.springframework.core.type.classreading.AnnotationMetadataReadingVisitorTests" time="0.001"/>
+  <testcase name="getAnnotatedMethodsReturnsMatchingAnnotatedAndMetaAnnotatedMethods()" classname="org.springframework.core.type.classreading.AnnotationMetadataReadingVisitorTests" time="0.001"/>
+  <testcase name="getMetaAnnotationTypesReturnsMetaAnnotations()" classname="org.springframework.core.type.classreading.AnnotationMetadataReadingVisitorTests" time="0.001"/>
+  <testcase name="isFinalWhenNonFinalReturnsFalse()" classname="org.springframework.core.type.classreading.AnnotationMetadataReadingVisitorTests" time="0.001"/>
+  <testcase name="hasMetaAnnotationWhenMatchesMetaAnnotationReturnsTrue()" classname="org.springframework.core.type.classreading.AnnotationMetadataReadingVisitorTests" time="0.001"/>
+  <testcase name="getInterfaceNamesWhenHasNoInterfacesReturnsEmptyArray()" classname="org.springframework.core.type.classreading.AnnotationMetadataReadingVisitorTests" time="0.001"/>
+  <testcase name="isInterfaceWhenNotInterfaceReturnsFalse()" classname="org.springframework.core.type.classreading.AnnotationMetadataReadingVisitorTests" time="0.0"/>
+  <testcase name="getMemberClassNamesWhenHasNoMemberClassesReturnsEmptyArray()" classname="org.springframework.core.type.classreading.AnnotationMetadataReadingVisitorTests" time="0.0"/>
+  <testcase name="getInterfaceNamesWhenHasInterfacesReturnsNames()" classname="org.springframework.core.type.classreading.AnnotationMetadataReadingVisitorTests" time="0.001"/>
+  <testcase name="isInterfaceWhenInterfaceReturnsTrue()" classname="org.springframework.core.type.classreading.AnnotationMetadataReadingVisitorTests" time="0.001"/>
+  <testcase name="hasAnnotatedMethodsWhenMatchesMetaAnnotationReturnsTrue()" classname="org.springframework.core.type.classreading.AnnotationMetadataReadingVisitorTests" time="0.0"/>
+  <testcase name="getAnnotationsReturnsDirectAnnotations()" classname="org.springframework.core.type.classreading.AnnotationMetadataReadingVisitorTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.scheduling.support.CronExpressionTests" tests="61" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:41:13" hostname="wangweilideMacBook-Pro.local" time="0.052">
+  <properties/>
+  <testcase name="quartzFifthWednesdayOfTheMonth()" classname="org.springframework.scheduling.support.CronExpressionTests" time="0.004"/>
+  <testcase name="quartzLastWeekdayOfMonth()" classname="org.springframework.scheduling.support.CronExpressionTests" time="0.002"/>
+  <testcase name="incrementHourAndRollover()" classname="org.springframework.scheduling.support.CronExpressionTests" time="0.01"/>
+  <testcase name="dayOfMonthListWithQuartz()" classname="org.springframework.scheduling.support.CronExpressionTests" time="0.001"/>
+  <testcase name="incrementMonthAndRollover()" classname="org.springframework.scheduling.support.CronExpressionTests" time="0.0"/>
+  <testcase name="specificMinuteSecond()" classname="org.springframework.scheduling.support.CronExpressionTests" time="0.001"/>
+  <testcase name="midnight()" classname="org.springframework.scheduling.support.CronExpressionTests" time="0.0"/>
+  <testcase name="specificMinuteHour()" classname="org.springframework.scheduling.support.CronExpressionTests" time="0.0"/>
+  <testcase name="daylightSaving()" classname="org.springframework.scheduling.support.CronExpressionTests" time="0.011"/>
+  <testcase name="quartzLastDayOfWeekOffset()" classname="org.springframework.scheduling.support.CronExpressionTests" time="0.0"/>
+  <testcase name="incrementMinuteAndRollover()" classname="org.springframework.scheduling.support.CronExpressionTests" time="0.0"/>
+  <testcase name="weekDaySequence()" classname="org.springframework.scheduling.support.CronExpressionTests" time="0.0"/>
+  <testcase name="hourly()" classname="org.springframework.scheduling.support.CronExpressionTests" time="0.0"/>
+  <testcase name="specificDate()" classname="org.springframework.scheduling.support.CronExpressionTests" time="0.0"/>
+  <testcase name="dailyTriggerOnDaylightSavingBoundary()" classname="org.springframework.scheduling.support.CronExpressionTests" time="0.001"/>
+  <testcase name="incrementDayOfMonthAndRollover()" classname="org.springframework.scheduling.support.CronExpressionTests" time="0.0"/>
+  <testcase name="monthlyTriggerInShortMonth()" classname="org.springframework.scheduling.support.CronExpressionTests" time="0.0"/>
+  <testcase name="quartz5thFridayOfTheMonthEveryHour()" classname="org.springframework.scheduling.support.CronExpressionTests" time="0.0"/>
+  <testcase name="incrementDayOfWeekByOne()" classname="org.springframework.scheduling.support.CronExpressionTests" time="0.0"/>
+  <testcase name="weekly()" classname="org.springframework.scheduling.support.CronExpressionTests" time="0.0"/>
+  <testcase name="yearly()" classname="org.springframework.scheduling.support.CronExpressionTests" time="0.001"/>
+  <testcase name="monthlyTriggerInLongMonth()" classname="org.springframework.scheduling.support.CronExpressionTests" time="0.0"/>
+  <testcase name="annually()" classname="org.springframework.scheduling.support.CronExpressionTests" time="0.0"/>
+  <testcase name="incrementHour()" classname="org.springframework.scheduling.support.CronExpressionTests" time="0.0"/>
+  <testcase name="dailyTriggerInShortMonth()" classname="org.springframework.scheduling.support.CronExpressionTests" time="0.001"/>
+  <testcase name="nonExistentSpecificDate()" classname="org.springframework.scheduling.support.CronExpressionTests" time="0.003"/>
+  <testcase name="quartzWeekdayNearestTo15()" classname="org.springframework.scheduling.support.CronExpressionTests" time="0.0"/>
+  <testcase name="quartzWeekdayNearestTo31()" classname="org.springframework.scheduling.support.CronExpressionTests" time="0.001"/>
+  <testcase name="incrementMinute()" classname="org.springframework.scheduling.support.CronExpressionTests" time="0.0"/>
+  <testcase name="quartzLastDayOfMonthEveryHour()" classname="org.springframework.scheduling.support.CronExpressionTests" time="0.0"/>
+  <testcase name="daily()" classname="org.springframework.scheduling.support.CronExpressionTests" time="0.001"/>
+  <testcase name="leapYearSpecificDate()" classname="org.springframework.scheduling.support.CronExpressionTests" time="0.0"/>
+  <testcase name="secondRange()" classname="org.springframework.scheduling.support.CronExpressionTests" time="0.0"/>
+  <testcase name="matchAll()" classname="org.springframework.scheduling.support.CronExpressionTests" time="0.001"/>
+  <testcase name="quartzLastWeekdayOfMonthEveryHour()" classname="org.springframework.scheduling.support.CronExpressionTests" time="0.0"/>
+  <testcase name="sundayToFriday()" classname="org.springframework.scheduling.support.CronExpressionTests" time="0.0"/>
+  <testcase name="incrementSecondByOne()" classname="org.springframework.scheduling.support.CronExpressionTests" time="0.0"/>
+  <testcase name="quartz2ndFridayOfTheMonthDayName()" classname="org.springframework.scheduling.support.CronExpressionTests" time="0.0"/>
+  <testcase name="monthSequence()" classname="org.springframework.scheduling.support.CronExpressionTests" time="0.001"/>
+  <testcase name="incrementDayOfMonth()" classname="org.springframework.scheduling.support.CronExpressionTests" time="0.0"/>
+  <testcase name="fixedDays()" classname="org.springframework.scheduling.support.CronExpressionTests" time="0.0"/>
+  <testcase name="quartzLastDayOfMonthOffset()" classname="org.springframework.scheduling.support.CronExpressionTests" time="0.0"/>
+  <testcase name="incrementDayOfMonthByOne()" classname="org.springframework.scheduling.support.CronExpressionTests" time="0.0"/>
+  <testcase name="quartzLastDayOfMonth()" classname="org.springframework.scheduling.support.CronExpressionTests" time="0.001"/>
+  <testcase name="dayOfWeekListWithQuartz()" classname="org.springframework.scheduling.support.CronExpressionTests" time="0.0"/>
+  <testcase name="incrementSecondAndRollover()" classname="org.springframework.scheduling.support.CronExpressionTests" time="0.0"/>
+  <testcase name="monthly()" classname="org.springframework.scheduling.support.CronExpressionTests" time="0.001"/>
+  <testcase name="quartzWeekdayNearestTo1()" classname="org.springframework.scheduling.support.CronExpressionTests" time="0.0"/>
+  <testcase name="matchLastSecond()" classname="org.springframework.scheduling.support.CronExpressionTests" time="0.0"/>
+  <testcase name="quartz2ndFridayOfTheMonth()" classname="org.springframework.scheduling.support.CronExpressionTests" time="0.001"/>
+  <testcase name="friday13th()" classname="org.springframework.scheduling.support.CronExpressionTests" time="0.0"/>
+  <testcase name="specificDayOfMonthSecond()" classname="org.springframework.scheduling.support.CronExpressionTests" time="0.0"/>
+  <testcase name="specificHourSecond()" classname="org.springframework.scheduling.support.CronExpressionTests" time="0.001"/>
+  <testcase name="quartzLastFridayOfTheMonthEveryHour()" classname="org.springframework.scheduling.support.CronExpressionTests" time="0.0"/>
+  <testcase name="incrementDayOfWeekAndRollover()" classname="org.springframework.scheduling.support.CronExpressionTests" time="0.0"/>
+  <testcase name="quartzLastDayOfMonthOffsetEveryHour()" classname="org.springframework.scheduling.support.CronExpressionTests" time="0.0"/>
+  <testcase name="incrementMonth()" classname="org.springframework.scheduling.support.CronExpressionTests" time="0.0"/>
+  <testcase name="matchSpecificSecond()" classname="org.springframework.scheduling.support.CronExpressionTests" time="0.0"/>
+  <testcase name="quartzFirstWeekdayOfMonthEveryHour()" classname="org.springframework.scheduling.support.CronExpressionTests" time="0.0"/>
+  <testcase name="dailyTriggerInLongMonth()" classname="org.springframework.scheduling.support.CronExpressionTests" time="0.0"/>
+  <testcase name="incrementMinuteByOne()" classname="org.springframework.scheduling.support.CronExpressionTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

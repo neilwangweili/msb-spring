@@ -1,0 +1,285 @@
+org/springframework/web/socket/config/annotation/WebSocketMessageBrokerConfigurationSupportTests.java
+ org.springframework.web.socket.config.annotation.WebSocketMessageBrokerConfigurationSupportTests
+ org.springframework.web.socket.config.annotation.WebSocketMessageBrokerConfigurationSupportTests$1
+ org.springframework.web.socket.config.annotation.WebSocketMessageBrokerConfigurationSupportTests$TestChannel
+ org.springframework.web.socket.config.annotation.WebSocketMessageBrokerConfigurationSupportTests$TestChannelConfig
+ org.springframework.web.socket.config.annotation.WebSocketMessageBrokerConfigurationSupportTests$TestConfigurer
+ org.springframework.web.socket.config.annotation.WebSocketMessageBrokerConfigurationSupportTests$TestController
+ org.springframework.web.socket.config.annotation.WebSocketMessageBrokerConfigurationSupportTests$WebSocketHandlerDecoratorConfig
+ org.springframework.web.socket.config.annotation.WebSocketMessageBrokerConfigurationSupportTests$WebSocketHandlerDecoratorConfig$1
+ org.springframework.web.socket.config.annotation.WebSocketMessageBrokerConfigurationSupportTests$WebSocketHandlerDecoratorConfig$1$1
+org/springframework/web/socket/sockjs/client/JettySockJsIntegrationTests.java
+ org.springframework.web.socket.sockjs.client.JettySockJsIntegrationTests
+ org.springframework.web.socket.sockjs.client.JettySockJsIntegrationTests$JettyTestConfig
+org/springframework/web/socket/config/annotation/WebMvcStompEndpointRegistryTests.java
+ org.springframework.web.socket.config.annotation.WebMvcStompEndpointRegistryTests
+org/springframework/web/socket/config/annotation/WebMvcStompWebSocketEndpointRegistrationTests.java
+ org.springframework.web.socket.config.annotation.WebMvcStompWebSocketEndpointRegistrationTests
+org/springframework/web/socket/server/support/WebSocketHandlerMappingTests.java
+ org.springframework.web.socket.server.support.WebSocketHandlerMappingTests
+org/springframework/web/socket/sockjs/client/UndertowSockJsIntegrationTests.java
+ org.springframework.web.socket.sockjs.client.UndertowSockJsIntegrationTests
+ org.springframework.web.socket.sockjs.client.UndertowSockJsIntegrationTests$UndertowTestConfig
+org/springframework/web/socket/messaging/DefaultSimpUserRegistryTests.java
+ org.springframework.web.socket.messaging.DefaultSimpUserRegistryTests
+ org.springframework.web.socket.messaging.DefaultSimpUserRegistryTests$1
+org/springframework/web/socket/sockjs/transport/session/HttpSockJsSessionTests.java
+ org.springframework.web.socket.sockjs.transport.session.HttpSockJsSessionTests
+ org.springframework.web.socket.sockjs.transport.session.HttpSockJsSessionTests$TestAbstractHttpSockJsSession
+org/springframework/web/socket/WebSocketExtensionTests.java
+ org.springframework.web.socket.WebSocketExtensionTests
+org/springframework/web/socket/sockjs/client/DefaultTransportRequestTests.java
+ org.springframework.web.socket.sockjs.client.DefaultTransportRequestTests
+org/springframework/web/socket/server/support/HttpSessionHandshakeInterceptorTests.java
+ org.springframework.web.socket.server.support.HttpSessionHandshakeInterceptorTests
+org/springframework/web/socket/server/standard/ServerEndpointRegistrationTests.java
+ org.springframework.web.socket.server.standard.ServerEndpointRegistrationTests
+ org.springframework.web.socket.server.standard.ServerEndpointRegistrationTests$1
+ org.springframework.web.socket.server.standard.ServerEndpointRegistrationTests$Config
+ org.springframework.web.socket.server.standard.ServerEndpointRegistrationTests$EchoEndpoint
+ org.springframework.web.socket.server.standard.ServerEndpointRegistrationTests$EchoService
+org/springframework/web/socket/messaging/SubProtocolWebSocketHandlerTests.java
+ org.springframework.web.socket.messaging.SubProtocolWebSocketHandlerTests
+org/springframework/web/socket/adapter/standard/ConvertingEncoderDecoderSupportTests.java
+ org.springframework.web.socket.adapter.standard.ConvertingEncoderDecoderSupportTests
+ org.springframework.web.socket.adapter.standard.ConvertingEncoderDecoderSupportTests$1
+ org.springframework.web.socket.adapter.standard.ConvertingEncoderDecoderSupportTests$BytesToMyTypeConverter
+ org.springframework.web.socket.adapter.standard.ConvertingEncoderDecoderSupportTests$Config
+ org.springframework.web.socket.adapter.standard.ConvertingEncoderDecoderSupportTests$MyBinaryDecoder
+ org.springframework.web.socket.adapter.standard.ConvertingEncoderDecoderSupportTests$MyBinaryEncoder
+ org.springframework.web.socket.adapter.standard.ConvertingEncoderDecoderSupportTests$MyBinaryEncoderDecoder
+ org.springframework.web.socket.adapter.standard.ConvertingEncoderDecoderSupportTests$MyTextDecoder
+ org.springframework.web.socket.adapter.standard.ConvertingEncoderDecoderSupportTests$MyTextEncoder
+ org.springframework.web.socket.adapter.standard.ConvertingEncoderDecoderSupportTests$MyTextEncoderDecoder
+ org.springframework.web.socket.adapter.standard.ConvertingEncoderDecoderSupportTests$MyType
+ org.springframework.web.socket.adapter.standard.ConvertingEncoderDecoderSupportTests$MyTypeToBytesConverter
+ org.springframework.web.socket.adapter.standard.ConvertingEncoderDecoderSupportTests$MyTypeToStringConverter
+ org.springframework.web.socket.adapter.standard.ConvertingEncoderDecoderSupportTests$NoConfig
+ org.springframework.web.socket.adapter.standard.ConvertingEncoderDecoderSupportTests$NoConvertersConfig
+ org.springframework.web.socket.adapter.standard.ConvertingEncoderDecoderSupportTests$StringToMyTypeConverter
+ org.springframework.web.socket.adapter.standard.ConvertingEncoderDecoderSupportTests$WithAutowire
+org/springframework/web/socket/sockjs/transport/handler/DefaultSockJsServiceTests.java
+ org.springframework.web.socket.sockjs.transport.handler.DefaultSockJsServiceTests
+ org.springframework.web.socket.sockjs.transport.handler.DefaultSockJsServiceTests$HandshakeTransportHandler
+ org.springframework.web.socket.sockjs.transport.handler.DefaultSockJsServiceTests$SessionCreatingTransportHandler
+org/springframework/web/socket/messaging/StompSubProtocolHandlerTests.java
+ org.springframework.web.socket.messaging.StompSubProtocolHandlerTests
+ org.springframework.web.socket.messaging.StompSubProtocolHandlerTests$1
+ org.springframework.web.socket.messaging.StompSubProtocolHandlerTests$2
+ org.springframework.web.socket.messaging.StompSubProtocolHandlerTests$3
+ org.springframework.web.socket.messaging.StompSubProtocolHandlerTests$AuthenticationInterceptor
+ org.springframework.web.socket.messaging.StompSubProtocolHandlerTests$TestMessageHandler
+ org.springframework.web.socket.messaging.StompSubProtocolHandlerTests$TestPublisher
+ org.springframework.web.socket.messaging.StompSubProtocolHandlerTests$UniqueUser
+org/springframework/web/socket/sockjs/support/SockJsServiceTests.java
+ org.springframework.web.socket.sockjs.support.SockJsServiceTests
+ org.springframework.web.socket.sockjs.support.SockJsServiceTests$TestSockJsService
+org/springframework/web/socket/messaging/StompTextMessageBuilder.java
+ org.springframework.web.socket.messaging.StompTextMessageBuilder
+org/springframework/web/socket/sockjs/client/AbstractSockJsIntegrationTests.java
+ org.springframework.web.socket.sockjs.client.AbstractSockJsIntegrationTests
+ org.springframework.web.socket.sockjs.client.AbstractSockJsIntegrationTests$1
+ org.springframework.web.socket.sockjs.client.AbstractSockJsIntegrationTests$EchoHandler
+ org.springframework.web.socket.sockjs.client.AbstractSockJsIntegrationTests$TestClientHandler
+ org.springframework.web.socket.sockjs.client.AbstractSockJsIntegrationTests$TestConfig
+ org.springframework.web.socket.sockjs.client.AbstractSockJsIntegrationTests$TestFilter
+ org.springframework.web.socket.sockjs.client.AbstractSockJsIntegrationTests$TestServerHandler
+org/springframework/web/socket/handler/BlockingWebSocketSession.java
+ org.springframework.web.socket.handler.BlockingWebSocketSession
+org/springframework/web/socket/WebSocketTestServer.java
+ org.springframework.web.socket.WebSocketTestServer
+org/springframework/web/socket/config/annotation/WebSocketHandlerRegistrationTests.java
+ org.springframework.web.socket.config.annotation.WebSocketHandlerRegistrationTests
+ org.springframework.web.socket.config.annotation.WebSocketHandlerRegistrationTests$1
+ org.springframework.web.socket.config.annotation.WebSocketHandlerRegistrationTests$Mapping
+ org.springframework.web.socket.config.annotation.WebSocketHandlerRegistrationTests$TestWebSocketHandlerRegistration
+org/springframework/web/socket/config/HandlersBeanDefinitionParserTests.java
+ org.springframework.web.socket.config.BarTestInterceptor
+ org.springframework.web.socket.config.FooTestInterceptor
+ org.springframework.web.socket.config.FooWebSocketHandler
+ org.springframework.web.socket.config.HandlersBeanDefinitionParserTests
+ org.springframework.web.socket.config.TestChannelInterceptor
+ org.springframework.web.socket.config.TestHandshakeHandler
+ org.springframework.web.socket.config.TestMessageCodec
+ org.springframework.web.socket.config.TestTaskScheduler
+ org.springframework.web.socket.config.TestWebSocketHandler
+org/springframework/web/socket/messaging/StompSubProtocolErrorHandlerTests.java
+ org.springframework.web.socket.messaging.StompSubProtocolErrorHandlerTests
+org/springframework/web/socket/adapter/standard/StandardWebSocketHandlerAdapterTests.java
+ org.springframework.web.socket.adapter.standard.StandardWebSocketHandlerAdapterTests
+org/springframework/web/socket/server/standard/ServerEndpointExporterTests.java
+ org.springframework.web.socket.server.standard.ServerEndpointExporterTests
+ org.springframework.web.socket.server.standard.ServerEndpointExporterTests$1
+ org.springframework.web.socket.server.standard.ServerEndpointExporterTests$AnnotatedDummyEndpoint
+ org.springframework.web.socket.server.standard.ServerEndpointExporterTests$AnnotatedDummyEndpointBean
+ org.springframework.web.socket.server.standard.ServerEndpointExporterTests$Config
+ org.springframework.web.socket.server.standard.ServerEndpointExporterTests$DummyEndpoint
+org/springframework/web/socket/server/standard/SpringConfiguratorTests.java
+ org.springframework.web.socket.server.standard.SpringConfiguratorTests
+ org.springframework.web.socket.server.standard.SpringConfiguratorTests$1
+ org.springframework.web.socket.server.standard.SpringConfiguratorTests$ComponentEchoEndpoint
+ org.springframework.web.socket.server.standard.SpringConfiguratorTests$Config
+ org.springframework.web.socket.server.standard.SpringConfiguratorTests$EchoEndpoint
+ org.springframework.web.socket.server.standard.SpringConfiguratorTests$EchoService
+ org.springframework.web.socket.server.standard.SpringConfiguratorTests$PerConnectionEchoEndpoint
+org/springframework/web/socket/ContextLoaderTestUtils.java
+ org.springframework.web.socket.ContextLoaderTestUtils
+org/springframework/web/socket/sockjs/client/XhrTransportTests.java
+ org.springframework.web.socket.sockjs.client.XhrTransportTests
+ org.springframework.web.socket.sockjs.client.XhrTransportTests$1
+ org.springframework.web.socket.sockjs.client.XhrTransportTests$TestXhrTransport
+org/springframework/web/socket/handler/WebSocketHttpHeadersTests.java
+ org.springframework.web.socket.handler.WebSocketHttpHeadersTests
+org/springframework/web/socket/sockjs/client/ClientSockJsSessionTests.java
+ org.springframework.web.socket.sockjs.client.ClientSockJsSessionTests
+ org.springframework.web.socket.sockjs.client.ClientSockJsSessionTests$TestClientSockJsSession
+org/springframework/web/socket/sockjs/transport/session/AbstractSockJsSessionTests.java
+ org.springframework.web.socket.sockjs.transport.session.AbstractSockJsSessionTests
+org/springframework/web/socket/client/WebSocketConnectionManagerTests.java
+ org.springframework.web.socket.client.WebSocketConnectionManagerTests
+ org.springframework.web.socket.client.WebSocketConnectionManagerTests$TestLifecycleWebSocketClient
+org/springframework/web/socket/server/support/WebSocketHttpRequestHandlerTests.java
+ org.springframework.web.socket.server.support.WebSocketHttpRequestHandlerTests
+ org.springframework.web.socket.server.support.WebSocketHttpRequestHandlerTests$1
+ org.springframework.web.socket.server.support.WebSocketHttpRequestHandlerTests$TestInterceptor
+org/springframework/web/socket/sockjs/transport/handler/HttpSendingTransportHandlerTests.java
+ org.springframework.web.socket.sockjs.transport.handler.HttpSendingTransportHandlerTests
+org/springframework/web/socket/sockjs/client/RestTemplateXhrTransportTests.java
+ org.springframework.web.socket.sockjs.client.RestTemplateXhrTransportTests
+ org.springframework.web.socket.sockjs.client.RestTemplateXhrTransportTests$1
+ org.springframework.web.socket.sockjs.client.RestTemplateXhrTransportTests$TestRestTemplate
+org/springframework/web/socket/handler/BeanCreatingHandlerProviderTests.java
+ org.springframework.web.socket.handler.BeanCreatingHandlerProviderTests
+ org.springframework.web.socket.handler.BeanCreatingHandlerProviderTests$1
+ org.springframework.web.socket.handler.BeanCreatingHandlerProviderTests$Config
+ org.springframework.web.socket.handler.BeanCreatingHandlerProviderTests$EchoHandler
+ org.springframework.web.socket.handler.BeanCreatingHandlerProviderTests$EchoService
+ org.springframework.web.socket.handler.BeanCreatingHandlerProviderTests$SimpleEchoHandler
+org/springframework/web/socket/config/annotation/WebSocketConfigurationTests.java
+ org.springframework.web.socket.config.annotation.WebSocketConfigurationTests
+ org.springframework.web.socket.config.annotation.WebSocketConfigurationTests$1
+ org.springframework.web.socket.config.annotation.WebSocketConfigurationTests$2
+ org.springframework.web.socket.config.annotation.WebSocketConfigurationTests$TestConfig
+ org.springframework.web.socket.config.annotation.WebSocketConfigurationTests$TestHandler
+org/springframework/web/socket/TomcatWebSocketTestServer.java
+ org.springframework.web.socket.TomcatWebSocketTestServer
+org/springframework/web/socket/JettyWebSocketTestServer.java
+ org.springframework.web.socket.JettyWebSocketTestServer
+org/springframework/web/socket/adapter/jetty/JettyWebSocketHandlerAdapterTests.java
+ org.springframework.web.socket.adapter.jetty.JettyWebSocketHandlerAdapterTests
+org/springframework/web/socket/sockjs/transport/session/TestHttpSockJsSession.java
+ org.springframework.web.socket.sockjs.transport.session.TestHttpSockJsSession
+org/springframework/web/socket/client/standard/StandardWebSocketClientTests.java
+ org.springframework.web.socket.client.standard.StandardWebSocketClientTests
+ org.springframework.web.socket.client.standard.StandardWebSocketClientTests$1
+org/springframework/web/socket/TextMessageTests.java
+ org.springframework.web.socket.TextMessageTests
+org/springframework/web/socket/sockjs/transport/TransportTypeTests.java
+ org.springframework.web.socket.sockjs.transport.TransportTypeTests
+org/springframework/web/socket/client/jetty/JettyWebSocketClientTests.java
+ org.springframework.web.socket.client.jetty.JettyWebSocketClientTests
+ org.springframework.web.socket.client.jetty.JettyWebSocketClientTests$TestJettyWebSocketServer
+ org.springframework.web.socket.client.jetty.JettyWebSocketClientTests$TestJettyWebSocketServer$1
+ org.springframework.web.socket.client.jetty.JettyWebSocketClientTests$TestJettyWebSocketServer$1$1
+org/springframework/web/socket/messaging/OrderedMessageSendingIntegrationTests.java
+ org.springframework.web.socket.messaging.OrderedMessageSendingIntegrationTests
+ org.springframework.web.socket.messaging.OrderedMessageSendingIntegrationTests$TestMessageHandler
+org/springframework/web/socket/sockjs/frame/SockJsFrameTests.java
+ org.springframework.web.socket.sockjs.frame.SockJsFrameTests
+org/springframework/web/socket/UndertowTestServer.java
+ org.springframework.web.socket.UndertowTestServer
+ org.springframework.web.socket.UndertowTestServer$1
+ org.springframework.web.socket.UndertowTestServer$DispatcherServletInstanceFactory
+ org.springframework.web.socket.UndertowTestServer$DispatcherServletInstanceFactory$1
+ org.springframework.web.socket.UndertowTestServer$FilterInstanceFactory
+ org.springframework.web.socket.UndertowTestServer$FilterInstanceFactory$1
+org/springframework/web/socket/sockjs/transport/handler/SockJsWebSocketHandlerTests.java
+ org.springframework.web.socket.sockjs.transport.handler.SockJsWebSocketHandlerTests
+org/springframework/web/socket/messaging/WebSocketStompClientIntegrationTests.java
+ org.springframework.web.socket.messaging.WebSocketStompClientIntegrationTests
+ org.springframework.web.socket.messaging.WebSocketStompClientIntegrationTests$TestConfig
+ org.springframework.web.socket.messaging.WebSocketStompClientIntegrationTests$TestHandler
+ org.springframework.web.socket.messaging.WebSocketStompClientIntegrationTests$TestHandler$1
+org/springframework/web/socket/sockjs/transport/session/StubSockJsServiceConfig.java
+ org.springframework.web.socket.sockjs.transport.session.StubSockJsServiceConfig
+org/springframework/web/socket/messaging/WebSocketStompClientTests.java
+ org.springframework.web.socket.messaging.WebSocketStompClientTests
+ org.springframework.web.socket.messaging.WebSocketStompClientTests$TestWebSocketStompClient
+org/springframework/web/socket/sockjs/client/SockJsClientTests.java
+ org.springframework.web.socket.sockjs.client.SockJsClientTests
+org/springframework/web/socket/handler/TestWebSocketSession.java
+ org.springframework.web.socket.handler.TestWebSocketSession
+org/springframework/web/socket/messaging/WebSocketAnnotationMethodMessageHandlerTests.java
+ org.springframework.web.socket.messaging.WebSocketAnnotationMethodMessageHandlerTests
+ org.springframework.web.socket.messaging.WebSocketAnnotationMethodMessageHandlerTests$TestController
+ org.springframework.web.socket.messaging.WebSocketAnnotationMethodMessageHandlerTests$TestControllerAdvice
+ org.springframework.web.socket.messaging.WebSocketAnnotationMethodMessageHandlerTests$TestWebSocketAnnotationMethodMessageHandler
+org/springframework/web/socket/handler/ConcurrentWebSocketSessionDecoratorTests.java
+ org.springframework.web.socket.handler.ConcurrentWebSocketSessionDecoratorTests
+org/springframework/web/socket/adapter/standard/StandardWebSocketSessionTests.java
+ org.springframework.web.socket.adapter.standard.StandardWebSocketSessionTests
+org/springframework/web/socket/messaging/StompWebSocketIntegrationTests.java
+ org.springframework.web.socket.messaging.StompWebSocketIntegrationTests
+ org.springframework.web.socket.messaging.StompWebSocketIntegrationTests$IncrementController
+ org.springframework.web.socket.messaging.StompWebSocketIntegrationTests$IntegrationTestController
+ org.springframework.web.socket.messaging.StompWebSocketIntegrationTests$ScopedBean
+ org.springframework.web.socket.messaging.StompWebSocketIntegrationTests$ScopedBeanController
+ org.springframework.web.socket.messaging.StompWebSocketIntegrationTests$ScopedBeanImpl
+ org.springframework.web.socket.messaging.StompWebSocketIntegrationTests$SimpleController
+ org.springframework.web.socket.messaging.StompWebSocketIntegrationTests$TestClientWebSocketHandler
+ org.springframework.web.socket.messaging.StompWebSocketIntegrationTests$TestMessageBrokerConfiguration
+ org.springframework.web.socket.messaging.StompWebSocketIntegrationTests$TestMessageBrokerConfigurer
+org/springframework/web/socket/handler/WebSocketHandlerDecoratorTests.java
+ org.springframework.web.socket.handler.WebSocketHandlerDecoratorTests
+ org.springframework.web.socket.handler.WebSocketHandlerDecoratorTests$1
+org/springframework/web/socket/server/support/HandshakeInterceptorChainTests.java
+ org.springframework.web.socket.server.support.HandshakeInterceptorChainTests
+org/springframework/web/socket/server/DefaultHandshakeHandlerTests.java
+ org.springframework.web.socket.server.DefaultHandshakeHandlerTests
+ org.springframework.web.socket.server.DefaultHandshakeHandlerTests$SubProtocolCapableHandler
+org/springframework/web/socket/config/MessageBrokerBeanDefinitionParserTests.java
+ org.springframework.web.socket.config.CustomArgumentResolver
+ org.springframework.web.socket.config.CustomReturnValueHandler
+ org.springframework.web.socket.config.MessageBrokerBeanDefinitionParserTests
+ org.springframework.web.socket.config.TestStompErrorHandler
+ org.springframework.web.socket.config.TestValidator
+ org.springframework.web.socket.config.TestWebSocketHandlerDecorator
+ org.springframework.web.socket.config.TestWebSocketHandlerDecoratorFactory
+org/springframework/web/socket/WebSocketHandshakeTests.java
+ org.springframework.web.socket.WebSocketHandshakeTests
+ org.springframework.web.socket.WebSocketHandshakeTests$1
+ org.springframework.web.socket.WebSocketHandshakeTests$TestConfig
+ org.springframework.web.socket.WebSocketHandshakeTests$TestWebSocketHandler
+org/springframework/web/socket/handler/ExceptionWebSocketHandlerDecoratorTests.java
+ org.springframework.web.socket.handler.ExceptionWebSocketHandlerDecoratorTests
+org/springframework/web/socket/handler/PerConnectionWebSocketHandlerTests.java
+ org.springframework.web.socket.handler.PerConnectionWebSocketHandlerTests
+ org.springframework.web.socket.handler.PerConnectionWebSocketHandlerTests$EchoHandler
+org/springframework/web/socket/server/support/OriginHandshakeInterceptorTests.java
+ org.springframework.web.socket.server.support.OriginHandshakeInterceptorTests
+org/springframework/web/socket/AbstractHttpRequestTests.java
+ org.springframework.web.socket.AbstractHttpRequestTests
+org/springframework/web/socket/AbstractWebSocketIntegrationTests.java
+ org.springframework.web.socket.AbstractWebSocketIntegrationTests
+ org.springframework.web.socket.AbstractWebSocketIntegrationTests$AbstractRequestUpgradeStrategyConfig
+ org.springframework.web.socket.AbstractWebSocketIntegrationTests$JettyUpgradeStrategyConfig
+ org.springframework.web.socket.AbstractWebSocketIntegrationTests$ParameterizedWebSocketTest
+ org.springframework.web.socket.AbstractWebSocketIntegrationTests$TomcatUpgradeStrategyConfig
+ org.springframework.web.socket.AbstractWebSocketIntegrationTests$UndertowUpgradeStrategyConfig
+org/springframework/web/socket/sockjs/transport/session/TestSockJsSession.java
+ org.springframework.web.socket.sockjs.transport.session.TestSockJsSession
+org/springframework/web/socket/sockjs/client/TestTransport.java
+ org.springframework.web.socket.sockjs.client.TestTransport
+ org.springframework.web.socket.sockjs.client.TestTransport$XhrTestTransport
+org/springframework/web/socket/adapter/jetty/JettyWebSocketSessionTests.java
+ org.springframework.web.socket.adapter.jetty.JettyWebSocketSessionTests
+org/springframework/web/socket/sockjs/transport/session/SockJsSessionTests.java
+ org.springframework.web.socket.sockjs.transport.session.SockJsSessionTests
+org/springframework/web/socket/sockjs/client/SockJsUrlInfoTests.java
+ org.springframework.web.socket.sockjs.client.SockJsUrlInfoTests
+org/springframework/web/socket/sockjs/transport/session/WebSocketServerSockJsSessionTests.java
+ org.springframework.web.socket.sockjs.transport.session.WebSocketServerSockJsSessionTests
+ org.springframework.web.socket.sockjs.transport.session.WebSocketServerSockJsSessionTests$1
+ org.springframework.web.socket.sockjs.transport.session.WebSocketServerSockJsSessionTests$TestWebSocketServerSockJsSession
+org/springframework/web/socket/sockjs/transport/handler/HttpReceivingTransportHandlerTests.java
+ org.springframework.web.socket.sockjs.transport.handler.HttpReceivingTransportHandlerTests

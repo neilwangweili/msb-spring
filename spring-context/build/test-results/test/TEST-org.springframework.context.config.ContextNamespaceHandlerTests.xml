@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.context.config.ContextNamespaceHandlerTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:40:32" hostname="wangweilideMacBook-Pro.local" time="0.674">
+  <properties/>
+  <testcase name="propertyPlaceholderLocationWithSystemPropertyForMultipleLocations()" classname="org.springframework.context.config.ContextNamespaceHandlerTests" time="0.253"/>
+  <testcase name="propertyPlaceholderLocationWithSystemPropertyMissing()" classname="org.springframework.context.config.ContextNamespaceHandlerTests" time="0.063"/>
+  <testcase name="propertyPlaceholderLocation()" classname="org.springframework.context.config.ContextNamespaceHandlerTests" time="0.06"/>
+  <testcase name="propertyPlaceholderLocationWithSystemPropertyForOneLocation()" classname="org.springframework.context.config.ContextNamespaceHandlerTests" time="0.048"/>
+  <testcase name="propertyPlaceholderIgnored()" classname="org.springframework.context.config.ContextNamespaceHandlerTests" time="0.079"/>
+  <testcase name="propertyOverride()" classname="org.springframework.context.config.ContextNamespaceHandlerTests" time="0.056"/>
+  <testcase name="propertyPlaceholderEnvironmentProperties()" classname="org.springframework.context.config.ContextNamespaceHandlerTests" time="0.034"/>
+  <testcase name="propertyPlaceholderSystemProperties()" classname="org.springframework.context.config.ContextNamespaceHandlerTests" time="0.04"/>
+  <testcase name="propertyPlaceholder()" classname="org.springframework.context.config.ContextNamespaceHandlerTests" time="0.036"/>
+  <system-out><![CDATA[15:40:32.697 [Test worker] WARN  o.s.c.s.ClassPathXmlApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Invalid bean definition with name 'foo' defined in class path resource [org/springframework/context/config/contextNamespaceHandlerTests-location-placeholder.xml]: Could not resolve placeholder 'foo' in value "${foo}"; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'foo' in value "${foo}"
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

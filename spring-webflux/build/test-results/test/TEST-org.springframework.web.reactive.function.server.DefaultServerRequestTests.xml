@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.reactive.function.server.DefaultServerRequestTests" tests="43" skipped="0" failures="0" errors="0" timestamp="2021-04-26T08:38:19" hostname="wangweilideMacBook-Pro.local" time="0.245">
+  <properties/>
+  <testcase name="[1] GET" classname="org.springframework.web.reactive.function.server.DefaultServerRequestTests" time="0.005"/>
+  <testcase name="[2] HEAD" classname="org.springframework.web.reactive.function.server.DefaultServerRequestTests" time="0.005"/>
+  <testcase name="bodyUnacceptable()" classname="org.springframework.web.reactive.function.server.DefaultServerRequestTests" time="0.006"/>
+  <testcase name="bodyToFluxParameterizedTypeReference()" classname="org.springframework.web.reactive.function.server.DefaultServerRequestTests" time="0.005"/>
+  <testcase name="absentQueryParam()" classname="org.springframework.web.reactive.function.server.DefaultServerRequestTests" time="0.004"/>
+  <testcase name="[1] GET" classname="org.springframework.web.reactive.function.server.DefaultServerRequestTests" time="0.003"/>
+  <testcase name="[2] HEAD" classname="org.springframework.web.reactive.function.server.DefaultServerRequestTests" time="0.004"/>
+  <testcase name="multipartData()" classname="org.springframework.web.reactive.function.server.DefaultServerRequestTests" time="0.018"/>
+  <testcase name="queryParams()" classname="org.springframework.web.reactive.function.server.DefaultServerRequestTests" time="0.004"/>
+  <testcase name="header()" classname="org.springframework.web.reactive.function.server.DefaultServerRequestTests" time="0.005"/>
+  <testcase name="uriBuilder()" classname="org.springframework.web.reactive.function.server.DefaultServerRequestTests" time="0.004"/>
+  <testcase name="method()" classname="org.springframework.web.reactive.function.server.DefaultServerRequestTests" time="0.004"/>
+  <testcase name="[1] GET" classname="org.springframework.web.reactive.function.server.DefaultServerRequestTests" time="0.005"/>
+  <testcase name="[2] HEAD" classname="org.springframework.web.reactive.function.server.DefaultServerRequestTests" time="0.005"/>
+  <testcase name="[1] GET" classname="org.springframework.web.reactive.function.server.DefaultServerRequestTests" time="0.004"/>
+  <testcase name="[2] HEAD" classname="org.springframework.web.reactive.function.server.DefaultServerRequestTests" time="0.004"/>
+  <testcase name="[1] GET" classname="org.springframework.web.reactive.function.server.DefaultServerRequestTests" time="0.005"/>
+  <testcase name="[2] HEAD" classname="org.springframework.web.reactive.function.server.DefaultServerRequestTests" time="0.004"/>
+  <testcase name="bodyToFlux()" classname="org.springframework.web.reactive.function.server.DefaultServerRequestTests" time="0.004"/>
+  <testcase name="bodyToMono()" classname="org.springframework.web.reactive.function.server.DefaultServerRequestTests" time="0.004"/>
+  <testcase name="uri()" classname="org.springframework.web.reactive.function.server.DefaultServerRequestTests" time="0.005"/>
+  <testcase name="body()" classname="org.springframework.web.reactive.function.server.DefaultServerRequestTests" time="0.003"/>
+  <testcase name="attribute()" classname="org.springframework.web.reactive.function.server.DefaultServerRequestTests" time="0.004"/>
+  <testcase name="[1] GET" classname="org.springframework.web.reactive.function.server.DefaultServerRequestTests" time="0.004"/>
+  <testcase name="[2] HEAD" classname="org.springframework.web.reactive.function.server.DefaultServerRequestTests" time="0.004"/>
+  <testcase name="formData()" classname="org.springframework.web.reactive.function.server.DefaultServerRequestTests" time="0.005"/>
+  <testcase name="pathVariableNotFound()" classname="org.springframework.web.reactive.function.server.DefaultServerRequestTests" time="0.004"/>
+  <testcase name="[1] GET" classname="org.springframework.web.reactive.function.server.DefaultServerRequestTests" time="0.004"/>
+  <testcase name="[2] HEAD" classname="org.springframework.web.reactive.function.server.DefaultServerRequestTests" time="0.004"/>
+  <testcase name="cookies()" classname="org.springframework.web.reactive.function.server.DefaultServerRequestTests" time="0.004"/>
+  <testcase name="emptyQueryParam()" classname="org.springframework.web.reactive.function.server.DefaultServerRequestTests" time="0.003"/>
+  <testcase name="[1] GET" classname="org.springframework.web.reactive.function.server.DefaultServerRequestTests" time="0.004"/>
+  <testcase name="[2] HEAD" classname="org.springframework.web.reactive.function.server.DefaultServerRequestTests" time="0.004"/>
+  <testcase name="[1] GET" classname="org.springframework.web.reactive.function.server.DefaultServerRequestTests" time="0.003"/>
+  <testcase name="[2] HEAD" classname="org.springframework.web.reactive.function.server.DefaultServerRequestTests" time="0.003"/>
+  <testcase name="pathVariables()" classname="org.springframework.web.reactive.function.server.DefaultServerRequestTests" time="0.004"/>
+  <testcase name="pathVariable()" classname="org.springframework.web.reactive.function.server.DefaultServerRequestTests" time="0.004"/>
+  <testcase name="[1] GET" classname="org.springframework.web.reactive.function.server.DefaultServerRequestTests" time="0.004"/>
+  <testcase name="[2] HEAD" classname="org.springframework.web.reactive.function.server.DefaultServerRequestTests" time="0.004"/>
+  <testcase name="bodyToMonoParameterizedTypeReference()" classname="org.springframework.web.reactive.function.server.DefaultServerRequestTests" time="0.004"/>
+  <testcase name="[1] GET" classname="org.springframework.web.reactive.function.server.DefaultServerRequestTests" time="0.004"/>
+  <testcase name="[2] HEAD" classname="org.springframework.web.reactive.function.server.DefaultServerRequestTests" time="0.004"/>
+  <testcase name="bodyToMonoDecodingException()" classname="org.springframework.web.reactive.function.server.DefaultServerRequestTests" time="0.006"/>
+  <system-out><![CDATA[16:38:20.023 [Test worker] DEBUG o.s.c.c.StringDecoder - [10043b3d] Decoded "foo"
+16:38:20.058 [Test worker] DEBUG o.s.h.c.m.MultipartHttpMessageReader - [31aafd3] Parsed parts [foo, baz] (content masked)
+16:38:20.118 [Test worker] DEBUG o.s.c.c.StringDecoder - [7fb5b5dd] Decoded "foo"
+16:38:20.123 [Test worker] DEBUG o.s.c.c.StringDecoder - [7614807c] Decoded "foo"
+16:38:20.133 [Test worker] DEBUG o.s.c.c.StringDecoder - [2ea95386] Decoded "foo"
+16:38:20.155 [Test worker] DEBUG o.s.h.c.FormHttpMessageReader - [480126d0] Read form fields [foo, baz] (content masked)
+16:38:20.225 [Test worker] DEBUG o.s.c.c.StringDecoder - [567d97fe] Decoded "foo"
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitterReturnValueHandlerTests" tests="12" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:41:11" hostname="wangweilideMacBook-Pro.local" time="0.165">
+  <properties/>
+  <testcase name="responseBodyFluxWithError()" classname="org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitterReturnValueHandlerTests" time="0.066"/>
+  <testcase name="responseBodyEmitter()" classname="org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitterReturnValueHandlerTests" time="0.007"/>
+  <testcase name="responseBodyEmitterWithErrorValue()" classname="org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitterReturnValueHandlerTests" time="0.051"/>
+  <testcase name="responseBodyFlux()" classname="org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitterReturnValueHandlerTests" time="0.006"/>
+  <testcase name="responseEntityFlux()" classname="org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitterReturnValueHandlerTests" time="0.004"/>
+  <testcase name="responseEntitySseNoContent()" classname="org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitterReturnValueHandlerTests" time="0.003"/>
+  <testcase name="responseBodyEmitterWithTimeoutValue()" classname="org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitterReturnValueHandlerTests" time="0.005"/>
+  <testcase name="supportsReturnTypes()" classname="org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitterReturnValueHandlerTests" time="0.004"/>
+  <testcase name="sseEmitter()" classname="org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitterReturnValueHandlerTests" time="0.004"/>
+  <testcase name="doesNotSupportReturnTypes()" classname="org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitterReturnValueHandlerTests" time="0.003"/>
+  <testcase name="responseEntitySse()" classname="org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitterReturnValueHandlerTests" time="0.003"/>
+  <testcase name="responseEntityFluxWithCustomHeader()" classname="org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitterReturnValueHandlerTests" time="0.006"/>
+  <system-out><![CDATA[15:41:11.851 [Test worker] WARN  o.s.w.s.m.m.a.ReactiveTypeHandler - 
+!!!
+Streaming through a reactive type requires an Executor to write to the response.
+Please, configure a TaskExecutor in the MVC config under "async support".
+The SyncTaskExecutor currently in use is not suitable under load.
+-------------------------------
+Controller:	org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitterReturnValueHandlerTests$TestController
+Method:		h8
+Returning:	reactor.core.publisher.Flux<java.lang.String>
+!!!
+15:41:11.931 [Test worker] WARN  o.s.w.s.m.m.a.ReactiveTypeHandler - 
+!!!
+Streaming through a reactive type requires an Executor to write to the response.
+Please, configure a TaskExecutor in the MVC config under "async support".
+The SyncTaskExecutor currently in use is not suitable under load.
+-------------------------------
+Controller:	org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitterReturnValueHandlerTests$TestController
+Method:		h8
+Returning:	reactor.core.publisher.Flux<java.lang.String>
+!!!
+15:41:11.937 [Test worker] WARN  o.s.w.s.m.m.a.ReactiveTypeHandler - 
+!!!
+Streaming through a reactive type requires an Executor to write to the response.
+Please, configure a TaskExecutor in the MVC config under "async support".
+The SyncTaskExecutor currently in use is not suitable under load.
+-------------------------------
+Controller:	org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitterReturnValueHandlerTests$TestController
+Method:		h9
+Returning:	reactor.core.publisher.Flux<java.lang.String>
+!!!
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

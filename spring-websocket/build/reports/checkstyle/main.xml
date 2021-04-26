@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.22">
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/AbstractWebSocketMessage.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/BinaryMessage.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/CloseStatus.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/PingMessage.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/PongMessage.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/SubProtocolCapable.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/TextMessage.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/WebSocketExtension.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/WebSocketHandler.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/WebSocketHttpHeaders.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/WebSocketMessage.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/WebSocketSession.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/adapter/AbstractWebSocketSession.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/adapter/NativeWebSocketSession.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/adapter/jetty/Jetty10WebSocketHandlerAdapter.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/adapter/jetty/JettyWebSocketHandlerAdapter.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/adapter/jetty/JettyWebSocketSession.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/adapter/jetty/WebSocketToJettyExtensionConfigAdapter.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/adapter/jetty/package-info.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/adapter/package-info.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/adapter/standard/ConvertingEncoderDecoderSupport.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/adapter/standard/StandardToWebSocketExtensionAdapter.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/adapter/standard/StandardWebSocketHandlerAdapter.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/adapter/standard/StandardWebSocketSession.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/adapter/standard/WebSocketToStandardExtensionAdapter.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/adapter/standard/package-info.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/client/AbstractWebSocketClient.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/client/ConnectionManagerSupport.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/client/WebSocketClient.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/client/WebSocketConnectionManager.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/client/jetty/JettyWebSocketClient.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/client/jetty/package-info.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/client/package-info.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/client/standard/AnnotatedEndpointConnectionManager.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/client/standard/EndpointConnectionManager.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/client/standard/StandardWebSocketClient.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/client/standard/WebSocketContainerFactoryBean.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/client/standard/package-info.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/config/HandlersBeanDefinitionParser.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/config/MessageBrokerBeanDefinitionParser.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/config/WebSocketMessageBrokerStats.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/config/WebSocketNamespaceHandler.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/config/WebSocketNamespaceUtils.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/config/annotation/AbstractWebSocketHandlerRegistration.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/config/annotation/AbstractWebSocketMessageBrokerConfigurer.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/config/annotation/DelegatingWebSocketConfiguration.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/config/annotation/DelegatingWebSocketMessageBrokerConfiguration.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/config/annotation/EnableWebSocket.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/config/annotation/EnableWebSocketMessageBroker.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/config/annotation/ServletWebSocketHandlerRegistration.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/config/annotation/ServletWebSocketHandlerRegistry.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/config/annotation/SockJsServiceRegistration.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/config/annotation/StompEndpointRegistry.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/config/annotation/StompWebSocketEndpointRegistration.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/config/annotation/WebMvcStompEndpointRegistry.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/config/annotation/WebMvcStompWebSocketEndpointRegistration.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/config/annotation/WebSocketConfigurationSupport.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/config/annotation/WebSocketConfigurer.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/config/annotation/WebSocketHandlerRegistration.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/config/annotation/WebSocketHandlerRegistry.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/config/annotation/WebSocketMessageBrokerConfigurationSupport.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/config/annotation/WebSocketMessageBrokerConfigurer.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/config/annotation/WebSocketTransportRegistration.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/config/annotation/package-info.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/config/package-info.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/handler/AbstractWebSocketHandler.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/handler/BeanCreatingHandlerProvider.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/handler/BinaryWebSocketHandler.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/handler/ConcurrentWebSocketSessionDecorator.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/handler/ExceptionWebSocketHandlerDecorator.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/handler/LoggingWebSocketHandlerDecorator.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/handler/PerConnectionWebSocketHandler.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/handler/SessionLimitExceededException.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/handler/TextWebSocketHandler.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/handler/WebSocketHandlerDecorator.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/handler/WebSocketHandlerDecoratorFactory.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/handler/WebSocketSessionDecorator.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/handler/package-info.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/messaging/AbstractSubProtocolEvent.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/messaging/DefaultSimpUserRegistry.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/messaging/SessionConnectEvent.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/messaging/SessionConnectedEvent.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/messaging/SessionDisconnectEvent.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/messaging/SessionSubscribeEvent.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/messaging/SessionUnsubscribeEvent.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/messaging/StompSubProtocolErrorHandler.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/messaging/StompSubProtocolHandler.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/messaging/SubProtocolErrorHandler.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/messaging/SubProtocolHandler.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/messaging/SubProtocolWebSocketHandler.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/messaging/WebSocketAnnotationMethodMessageHandler.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/messaging/WebSocketStompClient.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/messaging/package-info.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/package-info.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/server/HandshakeFailureException.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/server/HandshakeHandler.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/server/HandshakeInterceptor.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/server/RequestUpgradeStrategy.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/server/jetty/Jetty10RequestUpgradeStrategy.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/server/jetty/JettyRequestUpgradeStrategy.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/server/jetty/package-info.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/server/package-info.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/server/standard/AbstractStandardUpgradeStrategy.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/server/standard/AbstractTyrusRequestUpgradeStrategy.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/server/standard/GlassFishRequestUpgradeStrategy.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/server/standard/ServerEndpointExporter.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/server/standard/ServerEndpointRegistration.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/server/standard/ServletServerContainerFactoryBean.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/server/standard/SpringConfigurator.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/server/standard/TomcatRequestUpgradeStrategy.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/server/standard/UndertowRequestUpgradeStrategy.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/server/standard/WebLogicRequestUpgradeStrategy.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/server/standard/WebSphereRequestUpgradeStrategy.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/server/standard/package-info.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/server/support/AbstractHandshakeHandler.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/server/support/DefaultHandshakeHandler.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/server/support/HandshakeInterceptorChain.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/server/support/HttpSessionHandshakeInterceptor.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/server/support/OriginHandshakeInterceptor.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/server/support/WebSocketHandlerMapping.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/server/support/WebSocketHttpRequestHandler.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/server/support/package-info.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/sockjs/SockJsException.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/sockjs/SockJsMessageDeliveryException.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/sockjs/SockJsService.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/sockjs/SockJsTransportFailureException.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/sockjs/client/AbstractClientSockJsSession.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/sockjs/client/AbstractXhrTransport.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/sockjs/client/DefaultTransportRequest.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/sockjs/client/InfoReceiver.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/sockjs/client/JettyXhrTransport.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/sockjs/client/RestTemplateXhrTransport.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/sockjs/client/SockJsClient.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/sockjs/client/SockJsUrlInfo.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/sockjs/client/Transport.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/sockjs/client/TransportRequest.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/sockjs/client/UndertowXhrTransport.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/sockjs/client/WebSocketClientSockJsSession.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/sockjs/client/WebSocketTransport.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/sockjs/client/XhrClientSockJsSession.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/sockjs/client/XhrTransport.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/sockjs/client/package-info.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/sockjs/frame/AbstractSockJsMessageCodec.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/sockjs/frame/DefaultSockJsFrameFormat.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/sockjs/frame/Jackson2SockJsMessageCodec.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/sockjs/frame/SockJsFrame.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/sockjs/frame/SockJsFrameFormat.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/sockjs/frame/SockJsFrameType.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/sockjs/frame/SockJsMessageCodec.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/sockjs/frame/package-info.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/sockjs/package-info.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/sockjs/support/AbstractSockJsService.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/sockjs/support/SockJsHttpRequestHandler.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/sockjs/support/package-info.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/sockjs/transport/SockJsServiceConfig.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/sockjs/transport/SockJsSession.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/sockjs/transport/SockJsSessionFactory.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/sockjs/transport/TransportHandler.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/sockjs/transport/TransportHandlingSockJsService.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/sockjs/transport/TransportType.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/sockjs/transport/handler/AbstractHttpReceivingTransportHandler.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/sockjs/transport/handler/AbstractHttpSendingTransportHandler.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/sockjs/transport/handler/AbstractTransportHandler.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/sockjs/transport/handler/DefaultSockJsService.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/sockjs/transport/handler/EventSourceTransportHandler.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/sockjs/transport/handler/HtmlFileTransportHandler.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/sockjs/transport/handler/SockJsWebSocketHandler.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/sockjs/transport/handler/WebSocketTransportHandler.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/sockjs/transport/handler/XhrPollingTransportHandler.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/sockjs/transport/handler/XhrReceivingTransportHandler.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/sockjs/transport/handler/XhrStreamingTransportHandler.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/sockjs/transport/handler/package-info.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/sockjs/transport/package-info.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/sockjs/transport/session/AbstractHttpSockJsSession.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/sockjs/transport/session/AbstractSockJsSession.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/sockjs/transport/session/PollingSockJsSession.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/sockjs/transport/session/StreamingSockJsSession.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/sockjs/transport/session/WebSocketServerSockJsSession.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-websocket/src/main/java/org/springframework/web/socket/sockjs/transport/session/package-info.java">
+</file>
+</checkstyle>

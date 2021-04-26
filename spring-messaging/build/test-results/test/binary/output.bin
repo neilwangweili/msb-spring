@@ -1,0 +1,252 @@
+	³15:39:44.373 [Test worker] WARN  o.s.m.h.i.r.MethodMessageHandlerTests$TestMethodMessageHandler - No ApplicationContext for auto-detection of beans with message handling methods.
+CJ\15:39:46.915 [Test worker] ERROR o.s.m.h.i.r.InvocableHelper - No exception handling method
+CJ€org.springframework.messaging.handler.invocation.MethodArgumentResolutionException: Could not resolve method parameter at index 0 in java.lang.String org.springframework.messaging.handler.annotation.reactive.MessageMappingMessageHandlerTests$TestController.handleString(java.lang.String): Expected DataBuffer or Publisher<DataBuffer> for the Message payload, actual: java.lang.Object
+CJÇ	at org.springframework.messaging.handler.annotation.reactive.PayloadMethodArgumentResolver.getUnexpectedPayloadError(PayloadMethodArgumentResolver.java:193) ~[spring-messaging-5.3.7-SNAPSHOT.jar:?]
+CJ¼	at org.springframework.messaging.handler.annotation.reactive.PayloadMethodArgumentResolver.extractContent(PayloadMethodArgumentResolver.java:187) ~[spring-messaging-5.3.7-SNAPSHOT.jar:?]
+CJ½	at org.springframework.messaging.handler.annotation.reactive.PayloadMethodArgumentResolver.resolveArgument(PayloadMethodArgumentResolver.java:168) ~[spring-messaging-5.3.7-SNAPSHOT.jar:?]
+CJÏ	at org.springframework.messaging.handler.invocation.reactive.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:119) ~[spring-messaging-5.3.7-SNAPSHOT.jar:?]
+CJ·	at org.springframework.messaging.handler.invocation.reactive.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:182) ~[spring-messaging-5.3.7-SNAPSHOT.jar:?]
+CJ¦	at org.springframework.messaging.handler.invocation.reactive.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:128) ~[spring-messaging-5.3.7-SNAPSHOT.jar:?]
+CJŸ	at org.springframework.messaging.handler.invocation.reactive.InvocableHelper.handleMessage(InvocableHelper.java:194) ~[spring-messaging-5.3.7-SNAPSHOT.jar:?]
+CJ·	at org.springframework.messaging.handler.invocation.reactive.AbstractMethodMessageHandler.handleMatch(AbstractMethodMessageHandler.java:458) ~[spring-messaging-5.3.7-SNAPSHOT.jar:?]
+CJ·	at org.springframework.messaging.handler.annotation.reactive.MessageMappingMessageHandler.handleMatch(MessageMappingMessageHandler.java:365) ~[spring-messaging-5.3.7-SNAPSHOT.jar:?]
+CJ¶	at org.springframework.messaging.handler.annotation.reactive.MessageMappingMessageHandler.handleMatch(MessageMappingMessageHandler.java:84) ~[spring-messaging-5.3.7-SNAPSHOT.jar:?]
+CJ¹	at org.springframework.messaging.handler.invocation.reactive.AbstractMethodMessageHandler.handleMessage(AbstractMethodMessageHandler.java:453) ~[spring-messaging-5.3.7-SNAPSHOT.jar:?]
+CJ»	at org.springframework.messaging.handler.annotation.reactive.MessageMappingMessageHandlerTests.unhandledExceptionShouldFlowThrough(MessageMappingMessageHandlerTests.java:121) ~[test/:?]
+CJP	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+CJb	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+CJj	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+CJ<	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+CJ…	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:688) ~[junit-platform-commons-1.7.1.jar:1.7.1]
+CJ‚	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60) ~[junit-jupiter-engine-5.7.1.jar:5.7.1]
+CJ¬	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131) ~[junit-jupiter-engine-5.7.1.jar:5.7.1]
+CJ…	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:149) ~[junit-jupiter-engine-5.7.1.jar:5.7.1]
+CJ“	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:140) ~[junit-jupiter-engine-5.7.1.jar:5.7.1]
+CJŽ	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:84) ~[junit-jupiter-engine-5.7.1.jar:5.7.1]
+CJ­	at org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115) ~[junit-jupiter-engine-5.7.1.jar:5.7.1]
+CJ	at org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105) ~[junit-jupiter-engine-5.7.1.jar:5.7.1]
+CJ­	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106) ~[junit-jupiter-engine-5.7.1.jar:5.7.1]
+CJ–	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64) ~[junit-jupiter-engine-5.7.1.jar:5.7.1]
+CJ	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45) ~[junit-jupiter-engine-5.7.1.jar:5.7.1]
+CJ•	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37) ~[junit-jupiter-engine-5.7.1.jar:5.7.1]
+CJ„	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104) ~[junit-jupiter-engine-5.7.1.jar:5.7.1]
+CJƒ	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98) ~[junit-jupiter-engine-5.7.1.jar:5.7.1]
+CJ¦	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:210) ~[junit-jupiter-engine-5.7.1.jar:5.7.1]
+CJ“	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.7.1.jar:1.7.1]
+CJ	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:206) ~[junit-jupiter-engine-5.7.1.jar:5.7.1]
+CJ”	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:131) ~[junit-jupiter-engine-5.7.1.jar:5.7.1]
+CJ“	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:65) ~[junit-jupiter-engine-5.7.1.jar:5.7.1]
+CJœ	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139) ~[junit-platform-engine-1.7.1.jar:1.7.1]
+CJ“	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.7.1.jar:1.7.1]
+CJœ	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129) ~[junit-platform-engine-1.7.1.jar:1.7.1]
+CJw	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.7.1.jar:1.7.1]
+CJœ	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127) ~[junit-platform-engine-1.7.1.jar:1.7.1]
+CJ“	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.7.1.jar:1.7.1]
+CJ“	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126) ~[junit-platform-engine-1.7.1.jar:1.7.1]
+CJ‡	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84) ~[junit-platform-engine-1.7.1.jar:1.7.1]
+CJ<	at java.util.ArrayList.forEach(ArrayList.java:1541) ~[?:?]
+CJÃ	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38) ~[junit-platform-engine-1.7.1.jar:1.7.1]
+CJœ	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143) ~[junit-platform-engine-1.7.1.jar:1.7.1]
+CJ“	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.7.1.jar:1.7.1]
+CJœ	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129) ~[junit-platform-engine-1.7.1.jar:1.7.1]
+CJw	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.7.1.jar:1.7.1]
+CJœ	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127) ~[junit-platform-engine-1.7.1.jar:1.7.1]
+CJ“	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.7.1.jar:1.7.1]
+CJ“	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126) ~[junit-platform-engine-1.7.1.jar:1.7.1]
+CJ‡	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84) ~[junit-platform-engine-1.7.1.jar:1.7.1]
+CJ<	at java.util.ArrayList.forEach(ArrayList.java:1541) ~[?:?]
+CJÃ	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38) ~[junit-platform-engine-1.7.1.jar:1.7.1]
+CJœ	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143) ~[junit-platform-engine-1.7.1.jar:1.7.1]
+CJ“	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.7.1.jar:1.7.1]
+CJœ	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129) ~[junit-platform-engine-1.7.1.jar:1.7.1]
+CJw	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.7.1.jar:1.7.1]
+CJœ	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127) ~[junit-platform-engine-1.7.1.jar:1.7.1]
+CJ“	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.7.1.jar:1.7.1]
+CJ“	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126) ~[junit-platform-engine-1.7.1.jar:1.7.1]
+CJ‡	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84) ~[junit-platform-engine-1.7.1.jar:1.7.1]
+CJÀ	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32) ~[junit-platform-engine-1.7.1.jar:1.7.1]
+CJŸ	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57) ~[junit-platform-engine-1.7.1.jar:1.7.1]
+CJ›	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51) ~[junit-platform-engine-1.7.1.jar:1.7.1]
+CJš	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:108) ~[junit-platform-launcher-1.7.1.jar:1.7.1]
+CJ™	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88) ~[junit-platform-launcher-1.7.1.jar:1.7.1]
+CJ¢	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54) ~[junit-platform-launcher-1.7.1.jar:1.7.1]
+CJ§	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67) [junit-platform-launcher-1.7.1.jar:1.7.1]
+CJ˜	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52) [junit-platform-launcher-1.7.1.jar:1.7.1]
+CJ€	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:96) [junit-platform-launcher-1.7.1.jar:1.7.1]
+CJ€	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:75) [junit-platform-launcher-1.7.1.jar:1.7.1]
+CJå	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.processAllTestClasses(JUnitPlatformTestClassProcessor.java:99) [gradle-testing-junit-platform-6.8.3.jar:6.8.3]
+CJÚ	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:79) [gradle-testing-junit-platform-6.8.3.jar:6.8.3]
+CJ¶	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:75) [gradle-testing-junit-platform-6.8.3.jar:6.8.3]
+CJŽ	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61) [gradle-testing-base-6.8.3.jar:6.8.3]
+CJP	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+CJb	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+CJj	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+CJ<	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+CJ|	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36) [gradle-messaging-6.8.3.jar:6.8.3]
+CJ|	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) [gradle-messaging-6.8.3.jar:6.8.3]
+CJŒ	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33) [gradle-messaging-6.8.3.jar:6.8.3]
+CJ›	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94) [gradle-messaging-6.8.3.jar:6.8.3]
+CJ5	at com.sun.proxy.$Proxy2.stop(Unknown Source) [?:?]
+CJ|	at org.gradle.api.internal.tasks.testing.worker.TestWorker.stop(TestWorker.java:133) [gradle-testing-base-6.8.3.jar:6.8.3]
+CJP	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+CJb	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+CJj	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+CJ<	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+CJ|	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36) [gradle-messaging-6.8.3.jar:6.8.3]
+CJ|	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) [gradle-messaging-6.8.3.jar:6.8.3]
+CJ´	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:182) [gradle-messaging-6.8.3.jar:6.8.3]
+CJ´	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:164) [gradle-messaging-6.8.3.jar:6.8.3]
+CJ{	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:414) [gradle-messaging-6.8.3.jar:6.8.3]
+CJ’	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64) [gradle-base-services-6.8.3.jar:6.8.3]
+CJ	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48) [gradle-base-services-6.8.3.jar:6.8.3]
+CJZ	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+CJZ	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+CJ‘	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56) [gradle-base-services-6.8.3.jar:6.8.3]
+CJ0	at java.lang.Thread.run(Thread.java:834) [?:?]
+´³¢15:39:48.939 [ThreadPoolTaskExecutor-1] WARN  o.s.m.c.GenericMessagingTemplate$TemporaryReplyChannel - Reply message received but the receiving thread has exited due to a timeout: GenericMessage [payload=response, headers={id=69999e18-2498-439f-09f3-56d66dcd2d86, timestamp=1619422788939}]
+´¶¢15:39:49.461 [ThreadPoolTaskExecutor-1] WARN  o.s.m.c.GenericMessagingTemplate$TemporaryReplyChannel - Reply message received but the receiving thread has exited due to a timeout: GenericMessage [payload=response, headers={id=898ac722-00dd-0d36-9fa1-f7ee0ab0e0ed, timestamp=1619422789461}]
+´º¢15:39:49.978 [ThreadPoolTaskExecutor-1] WARN  o.s.m.c.GenericMessagingTemplate$TemporaryReplyChannel - Reply message received but the receiving thread has exited due to a timeout: GenericMessage [payload=response, headers={id=7b7c70a8-6533-5cf0-ee6f-158f2f81e2b9, timestamp=1619422789978}]
+ÞíÊ15:39:52.169 [Test worker] ERROR o.s.m.s.b.DefaultSubscriptionRegistry - No sessionId in  GenericMessage [payload=, headers={simpMessageType=SUBSCRIBE, simpSubscriptionId=subs01, simpDestination=/foo}]
+ÞíÉ15:39:52.169 [Test worker] ERROR o.s.m.s.b.DefaultSubscriptionRegistry - No subscriptionId in GenericMessage [payload=, headers={simpMessageType=SUBSCRIBE, simpSessionId=sess01, simpDestination=/foo}]
+ÞíË15:39:52.170 [Test worker] ERROR o.s.m.s.b.DefaultSubscriptionRegistry - No destination in GenericMessage [payload=, headers={simpMessageType=SUBSCRIBE, simpSubscriptionId=subs01, simpSessionId=sess01}]
+­¬m15:39:55.725 [Test worker] INFO  o.a.a.b.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+­¬¡15:39:55.914 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.16.1 (localhost, ID:wangweilideMacBook-Pro.local-63400-1619422795767-0:1) is starting
+­¬~15:39:55.924 [Test worker] INFO  o.a.a.t.TransportServerThreadSupport - Listening for connections at: stomp://localhost:64230
+­¬h15:39:55.925 [Test worker] INFO  o.a.a.b.TransportConnector - Connector stomp://localhost:64230 started
+­¬15:39:55.927 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.16.1 (localhost, ID:wangweilideMacBook-Pro.local-63400-1619422795767-0:1) started
+­¬}15:39:55.927 [Test worker] INFO  o.a.a.b.BrokerService - For help or more information please see: http://activemq.apache.org
+­¬¦15:39:56.665 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.16.1 (localhost, ID:wangweilideMacBook-Pro.local-63400-1619422795767-0:1) is shutting down
+­¬h15:39:56.666 [Test worker] INFO  o.a.a.b.TransportConnector - Connector stomp://localhost:64230 stopped
+­¬ª15:39:56.677 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.16.1 (localhost, ID:wangweilideMacBook-Pro.local-63400-1619422795767-0:1) uptime 0.968 seconds
+­¬¡15:39:56.677 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.16.1 (localhost, ID:wangweilideMacBook-Pro.local-63400-1619422795767-0:1) is shutdown
+óòm15:39:56.901 [Test worker] INFO  o.a.a.b.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+óò¡15:39:56.902 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.16.1 (localhost, ID:wangweilideMacBook-Pro.local-63400-1619422795767-0:2) is starting
+óò~15:39:56.903 [Test worker] INFO  o.a.a.t.TransportServerThreadSupport - Listening for connections at: stomp://localhost:64990
+óòh15:39:56.904 [Test worker] INFO  o.a.a.b.TransportConnector - Connector stomp://localhost:64990 started
+óò15:39:56.904 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.16.1 (localhost, ID:wangweilideMacBook-Pro.local-63400-1619422795767-0:2) started
+óò}15:39:56.910 [Test worker] INFO  o.a.a.b.BrokerService - For help or more information please see: http://activemq.apache.org
+óò¦15:39:56.936 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.16.1 (localhost, ID:wangweilideMacBook-Pro.local-63400-1619422795767-0:2) is shutting down
+óòh15:39:56.940 [Test worker] INFO  o.a.a.b.TransportConnector - Connector stomp://localhost:64990 stopped
+óòª15:39:56.942 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.16.1 (localhost, ID:wangweilideMacBook-Pro.local-63400-1619422795767-0:2) uptime 0.042 seconds
+óò¡15:39:56.942 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.16.1 (localhost, ID:wangweilideMacBook-Pro.local-63400-1619422795767-0:2) is shutdown
+óôm15:39:58.991 [Test worker] INFO  o.a.a.b.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+óô¡15:39:58.992 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.16.1 (localhost, ID:wangweilideMacBook-Pro.local-63400-1619422795767-0:3) is starting
+óô~15:39:58.992 [Test worker] INFO  o.a.a.t.TransportServerThreadSupport - Listening for connections at: stomp://localhost:62153
+óôh15:39:58.993 [Test worker] INFO  o.a.a.b.TransportConnector - Connector stomp://localhost:62153 started
+óô15:39:58.993 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.16.1 (localhost, ID:wangweilideMacBook-Pro.local-63400-1619422795767-0:3) started
+óô}15:39:58.993 [Test worker] INFO  o.a.a.b.BrokerService - For help or more information please see: http://activemq.apache.org
+óô¦15:40:01.087 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.16.1 (localhost, ID:wangweilideMacBook-Pro.local-63400-1619422795767-0:3) is shutting down
+óôh15:40:01.090 [Test worker] INFO  o.a.a.b.TransportConnector - Connector stomp://localhost:62153 stopped
+óôª15:40:01.092 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.16.1 (localhost, ID:wangweilideMacBook-Pro.local-63400-1619422795767-0:3) uptime 2.101 seconds
+óô¡15:40:01.093 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.16.1 (localhost, ID:wangweilideMacBook-Pro.local-63400-1619422795767-0:3) is shutdown
+óõm15:40:01.094 [Test worker] INFO  o.a.a.b.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+óõ¡15:40:01.095 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.16.1 (localhost, ID:wangweilideMacBook-Pro.local-63400-1619422795767-0:4) is starting
+óõ~15:40:01.096 [Test worker] INFO  o.a.a.t.TransportServerThreadSupport - Listening for connections at: stomp://localhost:64457
+óõh15:40:01.097 [Test worker] INFO  o.a.a.b.TransportConnector - Connector stomp://localhost:64457 started
+óõ15:40:01.097 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.16.1 (localhost, ID:wangweilideMacBook-Pro.local-63400-1619422795767-0:4) started
+óõ}15:40:01.097 [Test worker] INFO  o.a.a.b.BrokerService - For help or more information please see: http://activemq.apache.org
+óõ¦15:40:01.139 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.16.1 (localhost, ID:wangweilideMacBook-Pro.local-63400-1619422795767-0:4) is shutting down
+óõh15:40:01.143 [Test worker] INFO  o.a.a.b.TransportConnector - Connector stomp://localhost:64457 stopped
+óõª15:40:01.143 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.16.1 (localhost, ID:wangweilideMacBook-Pro.local-63400-1619422795767-0:4) uptime 0.049 seconds
+óõ¡15:40:01.143 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.16.1 (localhost, ID:wangweilideMacBook-Pro.local-63400-1619422795767-0:4) is shutdown
+óöm15:40:03.217 [Test worker] INFO  o.a.a.b.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+óö¡15:40:03.217 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.16.1 (localhost, ID:wangweilideMacBook-Pro.local-63400-1619422795767-0:5) is starting
+óö~15:40:03.218 [Test worker] INFO  o.a.a.t.TransportServerThreadSupport - Listening for connections at: stomp://localhost:64600
+óöh15:40:03.218 [Test worker] INFO  o.a.a.b.TransportConnector - Connector stomp://localhost:64600 started
+óö15:40:03.219 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.16.1 (localhost, ID:wangweilideMacBook-Pro.local-63400-1619422795767-0:5) started
+óö}15:40:03.219 [Test worker] INFO  o.a.a.b.BrokerService - For help or more information please see: http://activemq.apache.org
+óö¦15:40:03.259 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.16.1 (localhost, ID:wangweilideMacBook-Pro.local-63400-1619422795767-0:5) is shutting down
+óöh15:40:03.268 [Test worker] INFO  o.a.a.b.TransportConnector - Connector stomp://localhost:64600 stopped
+óöª15:40:03.269 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.16.1 (localhost, ID:wangweilideMacBook-Pro.local-63400-1619422795767-0:5) uptime 0.053 seconds
+óö¡15:40:03.269 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.16.1 (localhost, ID:wangweilideMacBook-Pro.local-63400-1619422795767-0:5) is shutdown
+óöm15:40:03.270 [Test worker] INFO  o.a.a.b.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+óö¡15:40:03.271 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.16.1 (localhost, ID:wangweilideMacBook-Pro.local-63400-1619422795767-0:6) is starting
+óö~15:40:03.272 [Test worker] INFO  o.a.a.t.TransportServerThreadSupport - Listening for connections at: stomp://localhost:64600
+óöh15:40:03.272 [Test worker] INFO  o.a.a.b.TransportConnector - Connector stomp://localhost:64600 started
+óö15:40:03.272 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.16.1 (localhost, ID:wangweilideMacBook-Pro.local-63400-1619422795767-0:6) started
+óö}15:40:03.272 [Test worker] INFO  o.a.a.b.BrokerService - For help or more information please see: http://activemq.apache.org
+óö¦15:40:10.395 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.16.1 (localhost, ID:wangweilideMacBook-Pro.local-63400-1619422795767-0:6) is shutting down
+óöh15:40:10.396 [Test worker] INFO  o.a.a.b.TransportConnector - Connector stomp://localhost:64600 stopped
+óöª15:40:10.397 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.16.1 (localhost, ID:wangweilideMacBook-Pro.local-63400-1619422795767-0:6) uptime 7.127 seconds
+óö¡15:40:10.397 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.16.1 (localhost, ID:wangweilideMacBook-Pro.local-63400-1619422795767-0:6) is shutdown
+ó÷m15:40:10.399 [Test worker] INFO  o.a.a.b.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+ó÷¡15:40:10.399 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.16.1 (localhost, ID:wangweilideMacBook-Pro.local-63400-1619422795767-0:7) is starting
+ó÷~15:40:10.400 [Test worker] INFO  o.a.a.t.TransportServerThreadSupport - Listening for connections at: stomp://localhost:65509
+ó÷h15:40:10.400 [Test worker] INFO  o.a.a.b.TransportConnector - Connector stomp://localhost:65509 started
+ó÷15:40:10.401 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.16.1 (localhost, ID:wangweilideMacBook-Pro.local-63400-1619422795767-0:7) started
+ó÷}15:40:10.401 [Test worker] INFO  o.a.a.b.BrokerService - For help or more information please see: http://activemq.apache.org
+ó÷¦15:40:10.430 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.16.1 (localhost, ID:wangweilideMacBook-Pro.local-63400-1619422795767-0:7) is shutting down
+ó÷h15:40:10.436 [Test worker] INFO  o.a.a.b.TransportConnector - Connector stomp://localhost:65509 stopped
+ó÷ª15:40:10.436 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.16.1 (localhost, ID:wangweilideMacBook-Pro.local-63400-1619422795767-0:7) uptime 0.038 seconds
+ó÷¡15:40:10.436 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.16.1 (localhost, ID:wangweilideMacBook-Pro.local-63400-1619422795767-0:7) is shutdown
+óøm15:40:12.494 [Test worker] INFO  o.a.a.b.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+óø¡15:40:12.495 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.16.1 (localhost, ID:wangweilideMacBook-Pro.local-63400-1619422795767-0:8) is starting
+óø~15:40:12.495 [Test worker] INFO  o.a.a.t.TransportServerThreadSupport - Listening for connections at: stomp://localhost:64397
+óøh15:40:12.496 [Test worker] INFO  o.a.a.b.TransportConnector - Connector stomp://localhost:64397 started
+óø15:40:12.496 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.16.1 (localhost, ID:wangweilideMacBook-Pro.local-63400-1619422795767-0:8) started
+óø}15:40:12.496 [Test worker] INFO  o.a.a.b.BrokerService - For help or more information please see: http://activemq.apache.org
+óø¦15:40:14.582 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.16.1 (localhost, ID:wangweilideMacBook-Pro.local-63400-1619422795767-0:8) is shutting down
+óøh15:40:14.583 [Test worker] INFO  o.a.a.b.TransportConnector - Connector stomp://localhost:64397 stopped
+óøª15:40:14.584 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.16.1 (localhost, ID:wangweilideMacBook-Pro.local-63400-1619422795767-0:8) uptime 2.090 seconds
+óø¡15:40:14.584 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.16.1 (localhost, ID:wangweilideMacBook-Pro.local-63400-1619422795767-0:8) is shutdown
+¶µ–15:40:15.824 [Test worker] WARN  o.s.m.r.a.s.RSocketMessageHandler - No ApplicationContext for auto-detection of beans with message handling methods.
+¶µ–15:40:15.825 [Test worker] WARN  o.s.m.r.a.s.RSocketMessageHandler - No ApplicationContext for auto-detection of beans with message handling methods.
+¶µ–15:40:15.826 [Test worker] WARN  o.s.m.r.a.s.RSocketMessageHandler - No ApplicationContext for auto-detection of beans with message handling methods.
+¶µl15:40:15.826 [Test worker] WARN  o.s.m.r.a.s.RSocketMessageHandler - No handler for fireAndForget to 'path'
+¶µ–15:40:15.827 [Test worker] WARN  o.s.m.r.a.s.RSocketMessageHandler - No ApplicationContext for auto-detection of beans with message handling methods.
+¶¹–15:40:15.834 [Test worker] WARN  o.s.m.r.a.s.RSocketMessageHandler - No ApplicationContext for auto-detection of beans with message handling methods.
+¶ºs15:40:15.836 [Test worker] WARN  o.s.m.r.a.s.RSocketMessageHandler - No handler for fireAndForget to 'mono-string'
+¶»–15:40:15.838 [Test worker] WARN  o.s.m.r.a.s.RSocketMessageHandler - No ApplicationContext for auto-detection of beans with message handling methods.
+ãæc15:40:16.409 [reactor-tcp-nio-16] ERROR o.s.m.h.i.r.InvocableHelper - No exception handling method
+ãæœorg.springframework.messaging.handler.invocation.MethodArgumentResolutionException: Could not resolve method parameter at index 0 in void org.springframework.messaging.rsocket.RSocketBufferLeakTests$ServerController.notDecodable(org.springframework.core.io.Resource): Cannot decode to [org.springframework.core.io.Resource]GenericMessage [payload=FluxPeekFuseable, headers={dataBufferFactory=NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true)), rsocketRequester=org.springframework.messaging.rsocket.DefaultRSocketRequester@4f83ee6b, rsocketResponse=null, lookupDestination=not-decodable, contentType=text/plain, rsocketFrameType=REQUEST_RESPONSE}]
+ãæ»	at org.springframework.messaging.handler.annotation.reactive.PayloadMethodArgumentResolver.decodeContent(PayloadMethodArgumentResolver.java:264) ~[spring-messaging-5.3.7-SNAPSHOT.jar:?]
+ãæ½	at org.springframework.messaging.handler.annotation.reactive.PayloadMethodArgumentResolver.resolveArgument(PayloadMethodArgumentResolver.java:169) ~[spring-messaging-5.3.7-SNAPSHOT.jar:?]
+ãæÏ	at org.springframework.messaging.handler.invocation.reactive.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:119) ~[spring-messaging-5.3.7-SNAPSHOT.jar:?]
+ãæ·	at org.springframework.messaging.handler.invocation.reactive.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:182) ~[spring-messaging-5.3.7-SNAPSHOT.jar:?]
+ãæ¦	at org.springframework.messaging.handler.invocation.reactive.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:128) ~[spring-messaging-5.3.7-SNAPSHOT.jar:?]
+ãæŸ	at org.springframework.messaging.handler.invocation.reactive.InvocableHelper.handleMessage(InvocableHelper.java:194) ~[spring-messaging-5.3.7-SNAPSHOT.jar:?]
+ãæ·	at org.springframework.messaging.handler.invocation.reactive.AbstractMethodMessageHandler.handleMatch(AbstractMethodMessageHandler.java:458) ~[spring-messaging-5.3.7-SNAPSHOT.jar:?]
+ãæ·	at org.springframework.messaging.handler.annotation.reactive.MessageMappingMessageHandler.handleMatch(MessageMappingMessageHandler.java:365) ~[spring-messaging-5.3.7-SNAPSHOT.jar:?]
+ãæ¶	at org.springframework.messaging.handler.annotation.reactive.MessageMappingMessageHandler.handleMatch(MessageMappingMessageHandler.java:84) ~[spring-messaging-5.3.7-SNAPSHOT.jar:?]
+ãæ¹	at org.springframework.messaging.handler.invocation.reactive.AbstractMethodMessageHandler.handleMessage(AbstractMethodMessageHandler.java:453) ~[spring-messaging-5.3.7-SNAPSHOT.jar:?]
+ãæª	at org.springframework.messaging.rsocket.annotation.support.MessagingRSocket.lambda$handleAndReply$4(MessagingRSocket.java:172) ~[spring-messaging-5.3.7-SNAPSHOT.jar:?]
+ãæb	at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:44) ~[reactor-core-3.4.5.jar:3.4.5]
+ãæZ	at reactor.core.publisher.Mono.subscribe(Mono.java:4150) ~[reactor-core-3.4.5.jar:3.4.5]
+ãæ†	at reactor.core.publisher.FluxConcatArray$ConcatArraySubscriber.onComplete(FluxConcatArray.java:208) ~[reactor-core-3.4.5.jar:3.4.5]
+ãæn	at reactor.core.publisher.FluxConcatArray.subscribe(FluxConcatArray.java:80) ~[reactor-core-3.4.5.jar:3.4.5]
+ãæx	at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:64) ~[reactor-core-3.4.5.jar:3.4.5]
+ãær	at io.rsocket.core.RSocketResponder.handleRequestResponse(RSocketResponder.java:345) ~[rsocket-core-1.1.0.jar:?]
+ãæh	at io.rsocket.core.RSocketResponder.handleFrame(RSocketResponder.java:200) ~[rsocket-core-1.1.0.jar:?]
+ãæm	at reactor.core.publisher.LambdaSubscriber.onNext(LambdaSubscriber.java:160) [reactor-core-3.4.5.jar:3.4.5]
+ãæ“	at io.rsocket.core.ClientServerInputMultiplexer$InternalDuplexConnection.onNext(ClientServerInputMultiplexer.java:248) [rsocket-core-1.1.0.jar:?]
+ãæz	at io.rsocket.core.ClientServerInputMultiplexer.onNext(ClientServerInputMultiplexer.java:129) [rsocket-core-1.1.0.jar:?]
+ãæy	at io.rsocket.core.ClientServerInputMultiplexer.onNext(ClientServerInputMultiplexer.java:48) [rsocket-core-1.1.0.jar:?]
+ãæ|	at io.rsocket.core.SetupHandlingDuplexConnection.onNext(SetupHandlingDuplexConnection.java:118) [rsocket-core-1.1.0.jar:?]
+ãæ{	at io.rsocket.core.SetupHandlingDuplexConnection.onNext(SetupHandlingDuplexConnection.java:19) [rsocket-core-1.1.0.jar:?]
+ãæi	at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:120) [reactor-core-3.4.5.jar:3.4.5]
+ãæi	at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:120) [reactor-core-3.4.5.jar:3.4.5]
+ãæo	at reactor.netty.channel.FluxReceive.drainReceiver(FluxReceive.java:280) [reactor-netty-core-1.0.6.jar:1.0.6]
+ãæo	at reactor.netty.channel.FluxReceive.onInboundNext(FluxReceive.java:389) [reactor-netty-core-1.0.6.jar:1.0.6]
+ãæ{	at reactor.netty.channel.ChannelOperations.onInboundNext(ChannelOperations.java:401) [reactor-netty-core-1.0.6.jar:1.0.6]
+ãæ†	at reactor.netty.channel.ChannelOperationsHandler.channelRead(ChannelOperationsHandler.java:94) [reactor-netty-core-1.0.6.jar:1.0.6]
+ãæ	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.63.Final.jar:4.1.63.Final]
+ãæ	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.63.Final.jar:4.1.63.Final]
+ãæ›	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.63.Final.jar:4.1.63.Final]
+ãæ‹	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:324) [netty-codec-4.1.63.Final.jar:4.1.63.Final]
+ãæ‡	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:296) [netty-codec-4.1.63.Final.jar:4.1.63.Final]
+ãæ	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.63.Final.jar:4.1.63.Final]
+ãæ	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.63.Final.jar:4.1.63.Final]
+ãæ›	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.63.Final.jar:4.1.63.Final]
+ãæ–	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) [netty-transport-4.1.63.Final.jar:4.1.63.Final]
+ãæ	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.63.Final.jar:4.1.63.Final]
+ãæ	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.63.Final.jar:4.1.63.Final]
+ãæ	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) [netty-transport-4.1.63.Final.jar:4.1.63.Final]
+ãæ”	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166) [netty-transport-4.1.63.Final.jar:4.1.63.Final]
+ãæ€	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [netty-transport-4.1.63.Final.jar:4.1.63.Final]
+ãæŠ	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-transport-4.1.63.Final.jar:4.1.63.Final]
+ãæ	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-transport-4.1.63.Final.jar:4.1.63.Final]
+ãæq	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-transport-4.1.63.Final.jar:4.1.63.Final]
+ãæŽ	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989) [netty-common-4.1.63.Final.jar:4.1.63.Final]
+ãæ{	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.63.Final.jar:4.1.63.Final]
+ãæ‡	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.63.Final.jar:4.1.63.Final]
+ãæ0	at java.lang.Thread.run(Thread.java:834) [?:?]

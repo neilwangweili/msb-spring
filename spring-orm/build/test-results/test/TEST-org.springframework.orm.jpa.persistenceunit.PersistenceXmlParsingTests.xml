@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.orm.jpa.persistenceunit.PersistenceXmlParsingTests" tests="14" skipped="2" failures="0" errors="0" timestamp="2021-04-26T07:39:49" hostname="wangweilideMacBook-Pro.local" time="0.066">
+  <properties/>
+  <testcase name="testExample1()" classname="org.springframework.orm.jpa.persistenceunit.PersistenceXmlParsingTests" time="0.021"/>
+  <testcase name="testExample2()" classname="org.springframework.orm.jpa.persistenceunit.PersistenceXmlParsingTests" time="0.004"/>
+  <testcase name="testExample3()" classname="org.springframework.orm.jpa.persistenceunit.PersistenceXmlParsingTests" time="0.005"/>
+  <testcase name="testExample4()" classname="org.springframework.orm.jpa.persistenceunit.PersistenceXmlParsingTests" time="0.006"/>
+  <testcase name="testExample5()" classname="org.springframework.orm.jpa.persistenceunit.PersistenceXmlParsingTests" time="0.003"/>
+  <testcase name="testExample6()" classname="org.springframework.orm.jpa.persistenceunit.PersistenceXmlParsingTests" time="0.002"/>
+  <testcase name="testNoSchemaPersistence()" classname="org.springframework.orm.jpa.persistenceunit.PersistenceXmlParsingTests" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testJpa2ExcludeUnlisted()" classname="org.springframework.orm.jpa.persistenceunit.PersistenceXmlParsingTests" time="0.002"/>
+  <testcase name="testExampleComplex()" classname="org.springframework.orm.jpa.persistenceunit.PersistenceXmlParsingTests" time="0.006"/>
+  <testcase name="testMetaInfCase()" classname="org.springframework.orm.jpa.persistenceunit.PersistenceXmlParsingTests" time="0.003"/>
+  <testcase name="testJpa1ExcludeUnlisted()" classname="org.springframework.orm.jpa.persistenceunit.PersistenceXmlParsingTests" time="0.002"/>
+  <testcase name="testInvalidPersistence()" classname="org.springframework.orm.jpa.persistenceunit.PersistenceXmlParsingTests" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testPersistenceUnitRootUrl()" classname="org.springframework.orm.jpa.persistenceunit.PersistenceXmlParsingTests" time="0.001"/>
+  <testcase name="testPersistenceUnitRootUrlWithJar()" classname="org.springframework.orm.jpa.persistenceunit.PersistenceXmlParsingTests" time="0.002"/>
+  <system-out><![CDATA[15:39:49.092 [Test worker] WARN  o.s.o.j.p.PersistenceUnitReader - Cannot resolve jar-file entry [order-*.jar] in persistence unit 'pu2' without root URL
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

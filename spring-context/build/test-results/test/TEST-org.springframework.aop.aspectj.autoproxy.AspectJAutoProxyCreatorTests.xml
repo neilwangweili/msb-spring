@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.aop.aspectj.autoproxy.AspectJAutoProxyCreatorTests" tests="16" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:41:26" hostname="wangweilideMacBook-Pro.local" time="0.322">
+  <properties/>
+  <testcase name="testTwoAdviceAspectPrototype()" classname="org.springframework.aop.aspectj.autoproxy.AspectJAutoProxyCreatorTests" time="0.021"/>
+  <testcase name="testAspectsAreApplied()" classname="org.springframework.aop.aspectj.autoproxy.AspectJAutoProxyCreatorTests" time="0.023"/>
+  <testcase name="testIncludeMechanism()" classname="org.springframework.aop.aspectj.autoproxy.AspectJAutoProxyCreatorTests" time="0.015"/>
+  <testcase name="testForceProxyTargetClass()" classname="org.springframework.aop.aspectj.autoproxy.AspectJAutoProxyCreatorTests" time="0.013"/>
+  <testcase name="testAspectsAreAppliedInDefinedOrder()" classname="org.springframework.aop.aspectj.autoproxy.AspectJAutoProxyCreatorTests" time="0.018"/>
+  <testcase name="testMultipleAspectsWithParameterApplied()" classname="org.springframework.aop.aspectj.autoproxy.AspectJAutoProxyCreatorTests" time="0.035"/>
+  <testcase name="testAspectsAndAdvisorAreApplied()" classname="org.springframework.aop.aspectj.autoproxy.AspectJAutoProxyCreatorTests" time="0.01"/>
+  <testcase name="testAdviceUsingJoinPoint()" classname="org.springframework.aop.aspectj.autoproxy.AspectJAutoProxyCreatorTests" time="0.008"/>
+  <testcase name="testTwoAdviceAspect()" classname="org.springframework.aop.aspectj.autoproxy.AspectJAutoProxyCreatorTests" time="0.015"/>
+  <testcase name="testTwoAdviceAspectSingleton()" classname="org.springframework.aop.aspectj.autoproxy.AspectJAutoProxyCreatorTests" time="0.011"/>
+  <testcase name="testPerThisAspect()" classname="org.springframework.aop.aspectj.autoproxy.AspectJAutoProxyCreatorTests" time="0.017"/>
+  <testcase name="testAspectsAndAdvisorAreAppliedEvenIfComingFromParentFactory()" classname="org.springframework.aop.aspectj.autoproxy.AspectJAutoProxyCreatorTests" time="0.008"/>
+  <testcase name="testPerTargetAspect()" classname="org.springframework.aop.aspectj.autoproxy.AspectJAutoProxyCreatorTests" time="0.021"/>
+  <testcase name="testRetryAspect()" classname="org.springframework.aop.aspectj.autoproxy.AspectJAutoProxyCreatorTests" time="0.022"/>
+  <testcase name="testWithAbstractFactoryBeanAreApplied()" classname="org.springframework.aop.aspectj.autoproxy.AspectJAutoProxyCreatorTests" time="0.011"/>
+  <testcase name="testWithBeanNameAutoProxyCreator()" classname="org.springframework.aop.aspectj.autoproxy.AspectJAutoProxyCreatorTests" time="0.07"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

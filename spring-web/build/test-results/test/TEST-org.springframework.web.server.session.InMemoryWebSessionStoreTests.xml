@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.server.session.InMemoryWebSessionStoreTests" tests="8" skipped="1" failures="0" errors="0" timestamp="2021-04-26T07:42:07" hostname="wangweilideMacBook-Pro.local" time="0.274">
+  <properties/>
+  <testcase name="startsSessionExplicitly()" classname="org.springframework.web.server.session.InMemoryWebSessionStoreTests" time="0.0"/>
+  <testcase name="createSessionDoesNotBlock()" classname="org.springframework.web.server.session.InMemoryWebSessionStoreTests" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="maxSessions()" classname="org.springframework.web.server.session.InMemoryWebSessionStoreTests" time="0.264"/>
+  <testcase name="sessionInvalidatedBeforeSave()" classname="org.springframework.web.server.session.InMemoryWebSessionStoreTests" time="0.0"/>
+  <testcase name="startsSessionImplicitly()" classname="org.springframework.web.server.session.InMemoryWebSessionStoreTests" time="0.0"/>
+  <testcase name="retrieveExpiredSession()" classname="org.springframework.web.server.session.InMemoryWebSessionStoreTests" time="0.0"/>
+  <testcase name="expirationCheckPeriod()" classname="org.springframework.web.server.session.InMemoryWebSessionStoreTests" time="0.005"/>
+  <testcase name="lastAccessTimeIsUpdatedOnRetrieve()" classname="org.springframework.web.server.session.InMemoryWebSessionStoreTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

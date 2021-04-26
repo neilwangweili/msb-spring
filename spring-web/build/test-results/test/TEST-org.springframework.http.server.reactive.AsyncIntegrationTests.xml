@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.http.server.reactive.AsyncIntegrationTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:43:25" hostname="wangweilideMacBook-Pro.local" time="13.279">
+  <properties/>
+  <testcase name="[1] org.springframework.web.testfixture.http.server.reactive.bootstrap.JettyHttpServer@334ea43f" classname="org.springframework.http.server.reactive.AsyncIntegrationTests" time="0.532"/>
+  <testcase name="[2] org.springframework.web.testfixture.http.server.reactive.bootstrap.ReactorHttpServer@12507769" classname="org.springframework.http.server.reactive.AsyncIntegrationTests" time="0.522"/>
+  <testcase name="[3] org.springframework.web.testfixture.http.server.reactive.bootstrap.TomcatHttpServer@117b6e8c" classname="org.springframework.http.server.reactive.AsyncIntegrationTests" time="11.692"/>
+  <testcase name="[4] org.springframework.web.testfixture.http.server.reactive.bootstrap.UndertowHttpServer@4ff96f82" classname="org.springframework.http.server.reactive.AsyncIntegrationTests" time="0.532"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Apr 26, 2021 3:43:26 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Tomcat]
+Apr 26, 2021 3:43:26 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet engine: [Apache Tomcat/9.0.45]
+Apr 26, 2021 3:43:26 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-auto-12"]
+Apr 26, 2021 3:43:26 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-auto-12-65253"]
+Apr 26, 2021 3:43:27 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-nio-auto-12-65253"]
+Apr 26, 2021 3:43:28 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service [Tomcat]
+Apr 26, 2021 3:43:28 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+WARNING: The web application [ROOT] appears to have started a thread named [parallel-14] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.9/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@11.0.9/java.util.concurrent.locks.LockSupport.park(LockSupport.java:194)
+ java.base@11.0.9/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2081)
+ java.base@11.0.9/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1170)
+ java.base@11.0.9/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@11.0.9/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1054)
+ java.base@11.0.9/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+ java.base@11.0.9/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@11.0.9/java.lang.Thread.run(Thread.java:834)
+Apr 26, 2021 3:43:28 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+WARNING: The web application [ROOT] appears to have started a thread named [parallel-15] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.9/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@11.0.9/java.util.concurrent.locks.LockSupport.park(LockSupport.java:194)
+ java.base@11.0.9/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2081)
+ java.base@11.0.9/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1170)
+ java.base@11.0.9/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@11.0.9/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1054)
+ java.base@11.0.9/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+ java.base@11.0.9/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@11.0.9/java.lang.Thread.run(Thread.java:834)
+Apr 26, 2021 3:43:28 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+WARNING: The web application [ROOT] appears to have started a thread named [parallel-16] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.9/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@11.0.9/java.util.concurrent.locks.LockSupport.park(LockSupport.java:194)
+ java.base@11.0.9/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2081)
+ java.base@11.0.9/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1170)
+ java.base@11.0.9/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@11.0.9/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1054)
+ java.base@11.0.9/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+ java.base@11.0.9/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@11.0.9/java.lang.Thread.run(Thread.java:834)
+Apr 26, 2021 3:43:28 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-nio-auto-12-65253"]
+Apr 26, 2021 3:43:38 PM org.apache.tomcat.util.net.Acceptor stop
+WARNING: The acceptor thread [http-nio-auto-12-Acceptor] did not stop cleanly
+Apr 26, 2021 3:43:38 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-nio-auto-12-65253"]
+]]></system-err>
+</testsuite>

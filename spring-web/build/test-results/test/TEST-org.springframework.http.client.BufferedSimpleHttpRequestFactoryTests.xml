@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.http.client.BufferedSimpleHttpRequestFactoryTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:44:20" hostname="wangweilideMacBook-Pro.local" time="0.016">
+  <properties/>
+  <testcase name="headersAfterExecute()" classname="org.springframework.http.client.BufferedSimpleHttpRequestFactoryTests" time="0.003"/>
+  <testcase name="status()" classname="org.springframework.http.client.BufferedSimpleHttpRequestFactoryTests" time="0.003"/>
+  <testcase name="echo()" classname="org.springframework.http.client.BufferedSimpleHttpRequestFactoryTests" time="0.002"/>
+  <testcase name="multipleWrites()" classname="org.springframework.http.client.BufferedSimpleHttpRequestFactoryTests" time="0.002"/>
+  <testcase name="queryParameters()" classname="org.springframework.http.client.BufferedSimpleHttpRequestFactoryTests" time="0.002"/>
+  <testcase name="prepareConnectionWithRequestBody()" classname="org.springframework.http.client.BufferedSimpleHttpRequestFactoryTests" time="0.001"/>
+  <testcase name="deleteWithoutBodyDoesNotRaiseException()" classname="org.springframework.http.client.BufferedSimpleHttpRequestFactoryTests" time="0.001"/>
+  <testcase name="httpMethods()" classname="org.springframework.http.client.BufferedSimpleHttpRequestFactoryTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Apr 26, 2021 3:44:20 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[49437] starting to accept connections
+Apr 26, 2021 3:44:20 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[49437] received request: POST /status/ok HTTP/1.1 and responded: HTTP/1.1 200 OK
+Apr 26, 2021 3:44:20 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[49437] done accepting connections: Socket closed
+Apr 26, 2021 3:44:20 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[49439] starting to accept connections
+Apr 26, 2021 3:44:20 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[49439] received request: GET /status/notfound HTTP/1.1 and responded: HTTP/1.1 404 Client Error
+Apr 26, 2021 3:44:20 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[49439] done accepting connections: Socket closed
+Apr 26, 2021 3:44:20 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[49441] starting to accept connections
+Apr 26, 2021 3:44:20 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[49441] received request: PUT /echo HTTP/1.1 and responded: HTTP/1.1 200 OK
+Apr 26, 2021 3:44:20 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[49441] done accepting connections: Socket closed
+Apr 26, 2021 3:44:20 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[49444] starting to accept connections
+Apr 26, 2021 3:44:20 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[49444] done accepting connections: Socket closed
+Apr 26, 2021 3:44:20 PM okhttp3.mockwebserver.MockWebServer$4 execute
+INFO: MockWebServer[49444] connection from /127.0.0.1 failed: java.net.SocketException: Socket closed
+Apr 26, 2021 3:44:20 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[49446] starting to accept connections
+Apr 26, 2021 3:44:20 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[49446] received request: GET /params?param1=value&param2=value1&param2=value2 HTTP/1.1 and responded: HTTP/1.1 200 OK
+Apr 26, 2021 3:44:20 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[49446] done accepting connections: Socket closed
+Apr 26, 2021 3:44:20 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[49448] starting to accept connections
+Apr 26, 2021 3:44:20 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[49448] done accepting connections: Socket closed
+Apr 26, 2021 3:44:20 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[49449] starting to accept connections
+Apr 26, 2021 3:44:20 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[49449] done accepting connections: Socket closed
+Apr 26, 2021 3:44:20 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[49450] starting to accept connections
+Apr 26, 2021 3:44:20 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[49450] done accepting connections: Socket is closed
+]]></system-err>
+</testsuite>

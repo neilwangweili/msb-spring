@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.jmx.export.assembler.MethodNameBasedMBeanInfoAssemblerTests" tests="15" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:41:20" hostname="wangweilideMacBook-Pro.local" time="0.088">
+  <properties/>
+  <testcase name="testDescriptionNotNull()" classname="org.springframework.jmx.export.assembler.MethodNameBasedMBeanInfoAssemblerTests" time="0.006"/>
+  <testcase name="testGetMBeanAttributeInfo()" classname="org.springframework.jmx.export.assembler.MethodNameBasedMBeanInfoAssemblerTests" time="0.006"/>
+  <testcase name="testSetAttribute()" classname="org.springframework.jmx.export.assembler.MethodNameBasedMBeanInfoAssemblerTests" time="0.005"/>
+  <testcase name="testAttributeInfoHasDescriptors()" classname="org.springframework.jmx.export.assembler.MethodNameBasedMBeanInfoAssemblerTests" time="0.007"/>
+  <testcase name="testGetMBeanInfo()" classname="org.springframework.jmx.export.assembler.MethodNameBasedMBeanInfoAssemblerTests" time="0.007"/>
+  <testcase name="testGetMBeanOperationInfo()" classname="org.springframework.jmx.export.assembler.MethodNameBasedMBeanInfoAssemblerTests" time="0.006"/>
+  <testcase name="testRegisterOperations()" classname="org.springframework.jmx.export.assembler.MethodNameBasedMBeanInfoAssemblerTests" time="0.004"/>
+  <testcase name="testRegisterAttributes()" classname="org.springframework.jmx.export.assembler.MethodNameBasedMBeanInfoAssemblerTests" time="0.006"/>
+  <testcase name="testNotificationMetadata()" classname="org.springframework.jmx.export.assembler.MethodNameBasedMBeanInfoAssemblerTests" time="0.004"/>
+  <testcase name="testAttributeHasCorrespondingOperations()" classname="org.springframework.jmx.export.assembler.MethodNameBasedMBeanInfoAssemblerTests" time="0.006"/>
+  <testcase name="testMBeanRegistration()" classname="org.springframework.jmx.export.assembler.MethodNameBasedMBeanInfoAssemblerTests" time="0.005"/>
+  <testcase name="testGetAttribute()" classname="org.springframework.jmx.export.assembler.MethodNameBasedMBeanInfoAssemblerTests" time="0.006"/>
+  <testcase name="testOperationInvocation()" classname="org.springframework.jmx.export.assembler.MethodNameBasedMBeanInfoAssemblerTests" time="0.009"/>
+  <testcase name="testGetAgeIsReadOnly()" classname="org.springframework.jmx.export.assembler.MethodNameBasedMBeanInfoAssemblerTests" time="0.004"/>
+  <testcase name="testSetNameParameterIsNamed()" classname="org.springframework.jmx.export.assembler.MethodNameBasedMBeanInfoAssemblerTests" time="0.004"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Apr. 26, 2021 3:41:20 P.M. ClientIntermediary close
+INFO: java.io.IOException: The connection is not currently established.
+java.io.IOException: The connection is not currently established.
+	at com.sun.jmx.remote.generic.ClientSynchroMessageConnectionImpl.checkState(ClientSynchroMessageConnectionImpl.java:617)
+	at com.sun.jmx.remote.generic.ClientSynchroMessageConnectionImpl.sendOneWay(ClientSynchroMessageConnectionImpl.java:202)
+	at javax.management.remote.generic.GenericConnector.close(GenericConnector.java:300)
+	at javax.management.remote.generic.GenericConnector.close(GenericConnector.java:271)
+	at javax.management.remote.generic.ClientIntermediary$GenericClientCommunicatorAdmin.doStop(ClientIntermediary.java:897)
+	at com.sun.jmx.remote.opt.internal.ClientCommunicatorAdmin.restart(ClientCommunicatorAdmin.java:172)
+	at com.sun.jmx.remote.opt.internal.ClientCommunicatorAdmin.gotIOException(ClientCommunicatorAdmin.java:73)
+	at javax.management.remote.generic.GenericConnector$RequestHandler.execute(GenericConnector.java:662)
+	at com.sun.jmx.remote.generic.ClientSynchroMessageConnectionImpl$RemoteJob.run(ClientSynchroMessageConnectionImpl.java:568)
+	at com.sun.jmx.remote.opt.util.ThreadService$ThreadServiceJob.run(ThreadService.java:248)
+	at com.sun.jmx.remote.opt.util.JobExecutor.run(JobExecutor.java:99)
+
+Apr. 26, 2021 3:41:20 P.M. ClientIntermediary close
+INFO: java.io.IOException: The connection is not currently established.
+java.io.IOException: The connection is not currently established.
+	at com.sun.jmx.remote.generic.ClientSynchroMessageConnectionImpl.checkState(ClientSynchroMessageConnectionImpl.java:617)
+	at com.sun.jmx.remote.generic.ClientSynchroMessageConnectionImpl.sendOneWay(ClientSynchroMessageConnectionImpl.java:202)
+	at javax.management.remote.generic.GenericConnector.close(GenericConnector.java:300)
+	at javax.management.remote.generic.GenericConnector.close(GenericConnector.java:271)
+	at javax.management.remote.generic.ClientIntermediary$GenericClientCommunicatorAdmin.doStop(ClientIntermediary.java:897)
+	at com.sun.jmx.remote.opt.internal.ClientCommunicatorAdmin.restart(ClientCommunicatorAdmin.java:172)
+	at com.sun.jmx.remote.opt.internal.ClientCommunicatorAdmin.gotIOException(ClientCommunicatorAdmin.java:73)
+	at javax.management.remote.generic.GenericConnector$RequestHandler.execute(GenericConnector.java:662)
+	at com.sun.jmx.remote.generic.ClientSynchroMessageConnectionImpl$RemoteJob.run(ClientSynchroMessageConnectionImpl.java:568)
+	at com.sun.jmx.remote.opt.util.ThreadService$ThreadServiceJob.run(ThreadService.java:248)
+	at com.sun.jmx.remote.opt.util.JobExecutor.run(JobExecutor.java:99)
+
+]]></system-err>
+</testsuite>

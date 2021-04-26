@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.aop.framework.JdkDynamicProxyTests" tests="58" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:41:24" hostname="wangweilideMacBook-Pro.local" time="0.106">
+  <properties/>
+  <testcase name="testNoContext()" classname="org.springframework.aop.framework.JdkDynamicProxyTests" time="0.0"/>
+  <testcase name="testDynamicMethodPointcutThatAppliesStaticallyOnlyToSetters()" classname="org.springframework.aop.framework.JdkDynamicProxyTests" time="0.001"/>
+  <testcase name="testCanChangeArgumentsIndependentlyOnClonedInvocation()" classname="org.springframework.aop.framework.JdkDynamicProxyTests" time="0.0"/>
+  <testcase name="testCannotAddInterceptorWhenFrozen()" classname="org.springframework.aop.framework.JdkDynamicProxyTests" time="0.001"/>
+  <testcase name="testReentrance()" classname="org.springframework.aop.framework.JdkDynamicProxyTests" time="0.0"/>
+  <testcase name="testTargetCanGetInvocationEvenIfNoAdviceChain()" classname="org.springframework.aop.framework.JdkDynamicProxyTests" time="0.005"/>
+  <testcase name="testMultiAdvice()" classname="org.springframework.aop.framework.JdkDynamicProxyTests" time="0.003"/>
+  <testcase name="testIntroductionThrowsUncheckedException()" classname="org.springframework.aop.framework.JdkDynamicProxyTests" time="0.008"/>
+  <testcase name="testTargetCanGetProxy()" classname="org.springframework.aop.framework.JdkDynamicProxyTests" time="0.0"/>
+  <testcase name="testReplaceArgument()" classname="org.springframework.aop.framework.JdkDynamicProxyTests" time="0.001"/>
+  <testcase name="testUndeclaredUncheckedException()" classname="org.springframework.aop.framework.JdkDynamicProxyTests" time="0.0"/>
+  <testcase name="testUndeclaredCheckedException()" classname="org.springframework.aop.framework.JdkDynamicProxyTests" time="0.001"/>
+  <testcase name="testValuesStick()" classname="org.springframework.aop.framework.JdkDynamicProxyTests" time="0.0"/>
+  <testcase name="testAdviceSupportListeners()" classname="org.springframework.aop.framework.JdkDynamicProxyTests" time="0.0"/>
+  <testcase name="testSerializableTargetAndAdvice()" classname="org.springframework.aop.framework.JdkDynamicProxyTests" time="0.003"/>
+  <testcase name="testDeclaredException()" classname="org.springframework.aop.framework.JdkDynamicProxyTests" time="0.001"/>
+  <testcase name="testBeforeAdviceThrowsException()" classname="org.springframework.aop.framework.JdkDynamicProxyTests" time="0.0"/>
+  <testcase name="testAdviceImplementsIntroductionInfo()" classname="org.springframework.aop.framework.JdkDynamicProxyTests" time="0.008"/>
+  <testcase name="testProxyConfigString()" classname="org.springframework.aop.framework.JdkDynamicProxyTests" time="0.0"/>
+  <testcase name="testUseAsHashKey()" classname="org.springframework.aop.framework.JdkDynamicProxyTests" time="0.0"/>
+  <testcase name="testOverloadedMethodsWithDifferentAdvice()" classname="org.springframework.aop.framework.JdkDynamicProxyTests" time="0.005"/>
+  <testcase name="testCanCastProxyToProxyConfig()" classname="org.springframework.aop.framework.JdkDynamicProxyTests" time="0.0"/>
+  <testcase name="testThrowsAdvisorIsInvoked()" classname="org.springframework.aop.framework.JdkDynamicProxyTests" time="0.0"/>
+  <testcase name="testAfterReturningAdvisorIsNotInvokedOnException()" classname="org.springframework.aop.framework.JdkDynamicProxyTests" time="0.001"/>
+  <testcase name="testCanPreventCastToAdvisedUsingOpaque()" classname="org.springframework.aop.framework.JdkDynamicProxyTests" time="0.004"/>
+  <testcase name="testUserAttributes()" classname="org.springframework.aop.framework.JdkDynamicProxyTests" time="0.0"/>
+  <testcase name="testSerializationAdviceNotSerializable()" classname="org.springframework.aop.framework.JdkDynamicProxyTests" time="0.003"/>
+  <testcase name="testTargetReturnsThis()" classname="org.springframework.aop.framework.JdkDynamicProxyTests" time="0.0"/>
+  <testcase name="testDynamicMethodPointcutThatAlwaysAppliesStatically()" classname="org.springframework.aop.framework.JdkDynamicProxyTests" time="0.0"/>
+  <testcase name="testOneAdvisedObjectCallsAnother()" classname="org.springframework.aop.framework.JdkDynamicProxyTests" time="0.0"/>
+  <testcase name="testCloneInvocationToProceedThreeTimes()" classname="org.springframework.aop.framework.JdkDynamicProxyTests" time="0.0"/>
+  <testcase name="testSerializationAdviceAndTargetNotSerializable()" classname="org.springframework.aop.framework.JdkDynamicProxyTests" time="0.003"/>
+  <testcase name="testContext()" classname="org.springframework.aop.framework.JdkDynamicProxyTests" time="0.001"/>
+  <testcase name="testStaticMethodPointcut()" classname="org.springframework.aop.framework.JdkDynamicProxyTests" time="0.0"/>
+  <testcase name="testBeforeAdvisorIsInvoked()" classname="org.springframework.aop.framework.JdkDynamicProxyTests" time="0.001"/>
+  <testcase name="testNoInterceptorsAndNoTarget()" classname="org.springframework.aop.framework.JdkDynamicProxyTests" time="0.0"/>
+  <testcase name="testMixinWithIntroductionInfo()" classname="org.springframework.aop.framework.JdkDynamicProxyTests" time="0.006"/>
+  <testcase name="testCannotAddIntroductionAdviceToIntroduceClass()" classname="org.springframework.aop.framework.JdkDynamicProxyTests" time="0.0"/>
+  <testcase name="testRejectsBogusDynamicIntroductionAdviceWithNoAdapter()" classname="org.springframework.aop.framework.JdkDynamicProxyTests" time="0.001"/>
+  <testcase name="testAddThrowsAdviceWithoutAdvisor()" classname="org.springframework.aop.framework.JdkDynamicProxyTests" time="0.001"/>
+  <testcase name="testExistingProxyChangesTarget()" classname="org.springframework.aop.framework.JdkDynamicProxyTests" time="0.0"/>
+  <testcase name="testEquals()" classname="org.springframework.aop.framework.JdkDynamicProxyTests" time="0.004"/>
+  <testcase name="testCannotAddIntroductionAdviceWithUnimplementedInterface()" classname="org.springframework.aop.framework.JdkDynamicProxyTests" time="0.0"/>
+  <testcase name="testCannotRemoveAdvisorWhenFrozen()" classname="org.springframework.aop.framework.JdkDynamicProxyTests" time="0.001"/>
+  <testcase name="testProxyIsBoundBeforeTargetSourceInvoked()" classname="org.springframework.aop.framework.JdkDynamicProxyTests" time="0.001"/>
+  <testcase name="testAfterReturningAdvisorIsInvoked()" classname="org.springframework.aop.framework.JdkDynamicProxyTests" time="0.0"/>
+  <testcase name="testTargetCanGetInvocation()" classname="org.springframework.aop.framework.JdkDynamicProxyTests" time="0.007"/>
+  <testcase name="testCannotAddDynamicIntroductionAdviceExceptInIntroductionAdvice()" classname="org.springframework.aop.framework.JdkDynamicProxyTests" time="0.001"/>
+  <testcase name="testTargetCantGetProxyByDefault()" classname="org.springframework.aop.framework.JdkDynamicProxyTests" time="0.0"/>
+  <testcase name="testMixinWithIntroductionAdvisor()" classname="org.springframework.aop.framework.JdkDynamicProxyTests" time="0.0"/>
+  <testcase name="testCannotAddAdvisorWhenFrozenUsingCast()" classname="org.springframework.aop.framework.JdkDynamicProxyTests" time="0.0"/>
+  <testcase name="testTargetCanGetInvocationWithPrivateClass()" classname="org.springframework.aop.framework.JdkDynamicProxyTests" time="0.001"/>
+  <testcase name="testInterceptorIsInvokedWithNoTarget()" classname="org.springframework.aop.framework.JdkDynamicProxyTests" time="0.0"/>
+  <testcase name="testEqualsAndHashCodeDefined()" classname="org.springframework.aop.framework.JdkDynamicProxyTests" time="0.004"/>
+  <testcase name="testProxyNotWrappedIfIncompatible()" classname="org.springframework.aop.framework.JdkDynamicProxyTests" time="0.004"/>
+  <testcase name="testProxyIsJustInterface()" classname="org.springframework.aop.framework.JdkDynamicProxyTests" time="0.0"/>
+  <testcase name="testVarargsWithEnumArray()" classname="org.springframework.aop.framework.JdkDynamicProxyTests" time="0.004"/>
+  <testcase name="testNullConfig()" classname="org.springframework.aop.framework.JdkDynamicProxyTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

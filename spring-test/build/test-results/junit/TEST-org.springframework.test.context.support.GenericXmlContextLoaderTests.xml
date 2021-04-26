@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.test.context.support.GenericXmlContextLoaderTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:40:55" hostname="wangweilideMacBook-Pro.local" time="0.0">
+  <properties/>
+  <testcase name="configMustNotContainAnnotatedClasses()" classname="org.springframework.test.context.support.GenericXmlContextLoaderTests" time="0.0"/>
+  <system-out><![CDATA[15:40:55.836 [Test worker] ERROR o.s.t.c.s.AbstractGenericContextLoader - Test class [org.springframework.test.context.support.GenericXmlContextLoaderTests] has been configured with @ContextConfiguration's 'classes' attribute {class org.springframework.test.context.support.GenericXmlContextLoaderTests}, but GenericXmlContextLoader does not support annotated classes.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

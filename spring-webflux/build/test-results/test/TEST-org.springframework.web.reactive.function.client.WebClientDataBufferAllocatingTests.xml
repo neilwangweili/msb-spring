@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" tests="54" skipped="0" failures="0" errors="0" timestamp="2021-04-26T08:39:27" hostname="wangweilideMacBook-Pro.local" time="0.752">
+  <properties/>
+  <testcase name="[1] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = true" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.067"/>
+  <testcase name="[2] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = false" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.009"/>
+  <testcase name="[3] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = true" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.008"/>
+  <testcase name="[4] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = false" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.06"/>
+  <testcase name="[5] DefaultDataBufferFactory - preferDirect = true" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.007"/>
+  <testcase name="[6] DefaultDataBufferFactory - preferDirect = false" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.005"/>
+  <testcase name="[1] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = true" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.01"/>
+  <testcase name="[2] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = false" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.007"/>
+  <testcase name="[3] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = true" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.007"/>
+  <testcase name="[4] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = false" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.007"/>
+  <testcase name="[5] DefaultDataBufferFactory - preferDirect = true" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.005"/>
+  <testcase name="[6] DefaultDataBufferFactory - preferDirect = false" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.005"/>
+  <testcase name="[1] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = true" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.007"/>
+  <testcase name="[2] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = false" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.005"/>
+  <testcase name="[3] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = true" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.004"/>
+  <testcase name="[4] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = false" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.004"/>
+  <testcase name="[5] DefaultDataBufferFactory - preferDirect = true" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.004"/>
+  <testcase name="[6] DefaultDataBufferFactory - preferDirect = false" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.003"/>
+  <testcase name="[1] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = true" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.004"/>
+  <testcase name="[2] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = false" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.004"/>
+  <testcase name="[3] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = true" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.057"/>
+  <testcase name="[4] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = false" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.062"/>
+  <testcase name="[5] DefaultDataBufferFactory - preferDirect = true" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.006"/>
+  <testcase name="[6] DefaultDataBufferFactory - preferDirect = false" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.004"/>
+  <testcase name="[1] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = true" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.006"/>
+  <testcase name="[2] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = false" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.006"/>
+  <testcase name="[3] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = true" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.007"/>
+  <testcase name="[4] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = false" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.006"/>
+  <testcase name="[5] DefaultDataBufferFactory - preferDirect = true" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.005"/>
+  <testcase name="[6] DefaultDataBufferFactory - preferDirect = false" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.005"/>
+  <testcase name="[1] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = true" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.005"/>
+  <testcase name="[2] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = false" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.004"/>
+  <testcase name="[3] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = true" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.004"/>
+  <testcase name="[4] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = false" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.004"/>
+  <testcase name="[5] DefaultDataBufferFactory - preferDirect = true" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.003"/>
+  <testcase name="[6] DefaultDataBufferFactory - preferDirect = false" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.003"/>
+  <testcase name="[1] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = true" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.005"/>
+  <testcase name="[2] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = false" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.005"/>
+  <testcase name="[3] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = true" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.059"/>
+  <testcase name="[4] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = false" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.061"/>
+  <testcase name="[5] DefaultDataBufferFactory - preferDirect = true" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.005"/>
+  <testcase name="[6] DefaultDataBufferFactory - preferDirect = false" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.004"/>
+  <testcase name="[1] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = true" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.005"/>
+  <testcase name="[2] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = false" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.005"/>
+  <testcase name="[3] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = true" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.059"/>
+  <testcase name="[4] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = false" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.062"/>
+  <testcase name="[5] DefaultDataBufferFactory - preferDirect = true" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.006"/>
+  <testcase name="[6] DefaultDataBufferFactory - preferDirect = false" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.005"/>
+  <testcase name="[1] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = true" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.006"/>
+  <testcase name="[2] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = false" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.005"/>
+  <testcase name="[3] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = true" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.006"/>
+  <testcase name="[4] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = false" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.006"/>
+  <testcase name="[5] DefaultDataBufferFactory - preferDirect = true" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.004"/>
+  <testcase name="[6] DefaultDataBufferFactory - preferDirect = false" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.005"/>
+  <system-out><![CDATA[16:39:27.759 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [23f75335] HTTP GET http://localhost:63552/sample
+16:39:27.770 [reactor-http-nio-5] DEBUG o.s.w.r.f.c.ExchangeFunctions - [23f75335] [684f3b02-1, L:/127.0.0.1:63553 - R:localhost/127.0.0.1:63552] Response 202 ACCEPTED
+16:39:27.781 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [2283f88d] HTTP GET http://localhost:63554/sample
+16:39:27.787 [reactor-http-nio-7] DEBUG o.s.w.r.f.c.ExchangeFunctions - [2283f88d] [636909fd-1, L:/127.0.0.1:63555 - R:localhost/127.0.0.1:63554] Response 202 ACCEPTED
+16:39:27.790 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [285956d9] HTTP GET http://localhost:63556/sample
+16:39:27.794 [reactor-http-nio-9] DEBUG o.s.w.r.f.c.ExchangeFunctions - [285956d9] [29f1f352-1, L:/127.0.0.1:63557 - R:localhost/127.0.0.1:63556] Response 202 ACCEPTED
+16:39:27.798 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [180720f6] HTTP GET http://localhost:63558/sample
+16:39:27.803 [reactor-http-nio-11] DEBUG o.s.w.r.f.c.ExchangeFunctions - [180720f6] [f8b3cfaa-1, L:/127.0.0.1:63559 - R:localhost/127.0.0.1:63558] Response 202 ACCEPTED
+16:39:27.859 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [39aa1de0] HTTP GET http://localhost:63560/sample
+16:39:27.863 [reactor-http-nio-12] DEBUG o.s.w.r.f.c.ExchangeFunctions - [39aa1de0] [20a7ea16-1, L:/127.0.0.1:63561 - R:localhost/127.0.0.1:63560] Response 202 ACCEPTED
+16:39:27.865 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [475d85a6] HTTP GET http://localhost:63562/sample
+16:39:27.869 [reactor-http-nio-13] DEBUG o.s.w.r.f.c.ExchangeFunctions - [475d85a6] [b62f7b03-1, L:/127.0.0.1:63563 - R:localhost/127.0.0.1:63562] Response 202 ACCEPTED
+16:39:27.873 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [4d80915c] HTTP GET http://localhost:63564/json
+16:39:27.877 [reactor-http-nio-15] DEBUG o.s.w.r.f.c.ExchangeFunctions - [4d80915c] [639de9bc-1, L:/127.0.0.1:63565 - R:localhost/127.0.0.1:63564] Response 502 BAD_GATEWAY
+16:39:27.882 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [60d4af90] HTTP GET http://localhost:63566/json
+16:39:27.885 [reactor-http-nio-1] DEBUG o.s.w.r.f.c.ExchangeFunctions - [60d4af90] [8340d146-1, L:/127.0.0.1:63567 - R:localhost/127.0.0.1:63566] Response 502 BAD_GATEWAY
+16:39:27.888 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [7d97932b] HTTP GET http://localhost:63568/json
+16:39:27.892 [reactor-http-nio-3] DEBUG o.s.w.r.f.c.ExchangeFunctions - [7d97932b] [0bb100b4-1, L:/127.0.0.1:63569 - R:localhost/127.0.0.1:63568] Response 502 BAD_GATEWAY
+16:39:27.896 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [746a06a6] HTTP GET http://localhost:63570/json
+16:39:27.899 [reactor-http-nio-5] DEBUG o.s.w.r.f.c.ExchangeFunctions - [746a06a6] [9f6a8fa3-1, L:/127.0.0.1:63571 - R:localhost/127.0.0.1:63570] Response 502 BAD_GATEWAY
+16:39:27.902 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [98cb4d0] HTTP GET http://localhost:63572/json
+16:39:27.905 [reactor-http-nio-6] DEBUG o.s.w.r.f.c.ExchangeFunctions - [98cb4d0] [68206c42-1, L:/127.0.0.1:63573 - R:localhost/127.0.0.1:63572] Response 502 BAD_GATEWAY
+16:39:27.907 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [20c28c28] HTTP GET http://localhost:63574/json
+16:39:27.910 [reactor-http-nio-7] DEBUG o.s.w.r.f.c.ExchangeFunctions - [20c28c28] [3bc420ad-1, L:/127.0.0.1:63575 - R:localhost/127.0.0.1:63574] Response 502 BAD_GATEWAY
+16:39:27.914 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [f27840c] HTTP GET http://localhost:63576/
+16:39:27.918 [reactor-http-nio-9] DEBUG o.s.w.r.f.c.ExchangeFunctions - [f27840c] [33976d49-1, L:/127.0.0.1:63577 - R:localhost/127.0.0.1:63576] Response 201 CREATED
+16:39:27.921 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [255beadc] HTTP GET http://localhost:63578/
+16:39:27.924 [reactor-http-nio-11] DEBUG o.s.w.r.f.c.ExchangeFunctions - [255beadc] [2225db29-1, L:/127.0.0.1:63579 - R:localhost/127.0.0.1:63578] Response 201 CREATED
+16:39:27.926 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [126a785c] HTTP GET http://localhost:63580/
+16:39:27.928 [reactor-http-nio-13] DEBUG o.s.w.r.f.c.ExchangeFunctions - [126a785c] [a2807fb5-1, L:/127.0.0.1:63581 - R:localhost/127.0.0.1:63580] Response 201 CREATED
+16:39:27.930 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [1cf04f97] HTTP GET http://localhost:63582/
+16:39:27.932 [reactor-http-nio-15] DEBUG o.s.w.r.f.c.ExchangeFunctions - [1cf04f97] [97a7e40d-1, L:/127.0.0.1:63583 - R:localhost/127.0.0.1:63582] Response 201 CREATED
+16:39:27.934 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [244999f9] HTTP GET http://localhost:63584/
+16:39:27.936 [reactor-http-nio-16] DEBUG o.s.w.r.f.c.ExchangeFunctions - [244999f9] [5ed4e510-1, L:/127.0.0.1:63585 - R:localhost/127.0.0.1:63584] Response 201 CREATED
+16:39:27.937 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [7d5193f3] HTTP GET http://localhost:63586/
+16:39:27.940 [reactor-http-nio-1] DEBUG o.s.w.r.f.c.ExchangeFunctions - [7d5193f3] [fe20e8d7-1, L:/127.0.0.1:63587 - R:localhost/127.0.0.1:63586] Response 201 CREATED
+16:39:27.942 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [702fd8de] HTTP GET http://localhost:63588/json
+16:39:27.944 [reactor-http-nio-3] DEBUG o.s.w.r.f.c.ExchangeFunctions - [702fd8de] [6869d727-1, L:/127.0.0.1:63589 - R:localhost/127.0.0.1:63588] Response 201 CREATED
+16:39:27.946 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [79486ad1] HTTP GET http://localhost:63590/json
+16:39:27.948 [reactor-http-nio-5] DEBUG o.s.w.r.f.c.ExchangeFunctions - [79486ad1] [1106dbe6-1, L:/127.0.0.1:63591 - R:localhost/127.0.0.1:63590] Response 201 CREATED
+16:39:27.950 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [466e02ab] HTTP GET http://localhost:63592/json
+16:39:27.953 [reactor-http-nio-7] DEBUG o.s.w.r.f.c.ExchangeFunctions - [466e02ab] [5e626059-1, L:/127.0.0.1:63593 - R:localhost/127.0.0.1:63592] Response 201 CREATED
+16:39:28.009 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [11a87bd6] HTTP GET http://localhost:63594/json
+16:39:28.013 [reactor-http-nio-9] DEBUG o.s.w.r.f.c.ExchangeFunctions - [11a87bd6] [b2356939-1, L:/127.0.0.1:63595 - R:localhost/127.0.0.1:63594] Response 201 CREATED
+16:39:28.071 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [37673186] HTTP GET http://localhost:63596/json
+16:39:28.075 [reactor-http-nio-10] DEBUG o.s.w.r.f.c.ExchangeFunctions - [37673186] [bc6dec44-1, L:/127.0.0.1:63597 - R:localhost/127.0.0.1:63596] Response 201 CREATED
+16:39:28.077 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [6e9170eb] HTTP GET http://localhost:63598/json
+16:39:28.080 [reactor-http-nio-11] DEBUG o.s.w.r.f.c.ExchangeFunctions - [6e9170eb] [927bc3e8-1, L:/127.0.0.1:63599 - R:localhost/127.0.0.1:63598] Response 201 CREATED
+16:39:28.083 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [94b638d] HTTP GET http://localhost:63600/json
+16:39:28.085 [reactor-http-nio-13] DEBUG o.s.w.r.f.c.ExchangeFunctions - [94b638d] [48cc7cd6-1, L:/127.0.0.1:63601 - R:localhost/127.0.0.1:63600] Response 502 BAD_GATEWAY
+16:39:28.089 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [1fba5f86] HTTP GET http://localhost:63602/json
+16:39:28.091 [reactor-http-nio-15] DEBUG o.s.w.r.f.c.ExchangeFunctions - [1fba5f86] [484b59ec-1, L:/127.0.0.1:63603 - R:localhost/127.0.0.1:63602] Response 502 BAD_GATEWAY
+16:39:28.095 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [4181095] HTTP GET http://localhost:63604/json
+16:39:28.098 [reactor-http-nio-1] DEBUG o.s.w.r.f.c.ExchangeFunctions - [4181095] [a19b7e47-1, L:/127.0.0.1:63605 - R:localhost/127.0.0.1:63604] Response 502 BAD_GATEWAY
+16:39:28.102 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [41f25049] HTTP GET http://localhost:63606/json
+16:39:28.105 [reactor-http-nio-3] DEBUG o.s.w.r.f.c.ExchangeFunctions - [41f25049] [6165bdfc-1, L:/127.0.0.1:63607 - R:localhost/127.0.0.1:63606] Response 502 BAD_GATEWAY
+16:39:28.108 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [375653d3] HTTP GET http://localhost:63608/json
+16:39:28.110 [reactor-http-nio-4] DEBUG o.s.w.r.f.c.ExchangeFunctions - [375653d3] [02e16a3f-1, L:/127.0.0.1:63609 - R:localhost/127.0.0.1:63608] Response 502 BAD_GATEWAY
+16:39:28.113 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [5ee37b93] HTTP GET http://localhost:63610/json
+16:39:28.115 [reactor-http-nio-5] DEBUG o.s.w.r.f.c.ExchangeFunctions - [5ee37b93] [a92d1537-1, L:/127.0.0.1:63611 - R:localhost/127.0.0.1:63610] Response 502 BAD_GATEWAY
+16:39:28.119 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [7988a072] HTTP GET http://localhost:63612/
+16:39:28.122 [reactor-http-nio-7] DEBUG o.s.w.r.f.c.ExchangeFunctions - [7988a072] [95d67d42-1, L:/127.0.0.1:63613 - R:localhost/127.0.0.1:63612] Response 200 OK
+16:39:28.124 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [6deeb408] HTTP GET http://localhost:63614/
+16:39:28.126 [reactor-http-nio-9] DEBUG o.s.w.r.f.c.ExchangeFunctions - [6deeb408] [ef25f644-1, L:/127.0.0.1:63615 - R:localhost/127.0.0.1:63614] Response 200 OK
+16:39:28.128 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [3b6970e7] HTTP GET http://localhost:63616/
+16:39:28.131 [reactor-http-nio-11] DEBUG o.s.w.r.f.c.ExchangeFunctions - [3b6970e7] [214f245c-1, L:/127.0.0.1:63617 - R:localhost/127.0.0.1:63616] Response 200 OK
+16:39:28.132 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [1a6909d6] HTTP GET http://localhost:63618/
+16:39:28.135 [reactor-http-nio-13] DEBUG o.s.w.r.f.c.ExchangeFunctions - [1a6909d6] [45b4db9e-1, L:/127.0.0.1:63619 - R:localhost/127.0.0.1:63618] Response 200 OK
+16:39:28.136 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [682ef2fe] HTTP GET http://localhost:63620/
+16:39:28.139 [reactor-http-nio-14] DEBUG o.s.w.r.f.c.ExchangeFunctions - [682ef2fe] [b6822604-1, L:/127.0.0.1:63621 - R:localhost/127.0.0.1:63620] Response 200 OK
+16:39:28.140 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [77cad8f7] HTTP GET http://localhost:63622/
+16:39:28.142 [reactor-http-nio-15] DEBUG o.s.w.r.f.c.ExchangeFunctions - [77cad8f7] [1f44551d-1, L:/127.0.0.1:63623 - R:localhost/127.0.0.1:63622] Response 200 OK
+16:39:28.145 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [3e4de51e] HTTP GET http://localhost:63624/json
+16:39:28.147 [reactor-http-nio-1] DEBUG o.s.w.r.f.c.ExchangeFunctions - [3e4de51e] [0f49d785-1, L:/127.0.0.1:63625 - R:localhost/127.0.0.1:63624] Response 502 BAD_GATEWAY
+16:39:28.150 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [64906b16] HTTP GET http://localhost:63626/json
+16:39:28.152 [reactor-http-nio-3] DEBUG o.s.w.r.f.c.ExchangeFunctions - [64906b16] [153845fd-1, L:/127.0.0.1:63627 - R:localhost/127.0.0.1:63626] Response 502 BAD_GATEWAY
+16:39:28.154 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [3099ca1c] HTTP GET http://localhost:63628/json
+16:39:28.156 [reactor-http-nio-5] DEBUG o.s.w.r.f.c.ExchangeFunctions - [3099ca1c] [a8c9edbd-1, L:/127.0.0.1:63629 - R:localhost/127.0.0.1:63628] Response 502 BAD_GATEWAY
+16:39:28.215 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [b94eb58] HTTP GET http://localhost:63630/json
+16:39:28.219 [reactor-http-nio-7] DEBUG o.s.w.r.f.c.ExchangeFunctions - [b94eb58] [6b42dcaa-1, L:/127.0.0.1:63631 - R:localhost/127.0.0.1:63630] Response 502 BAD_GATEWAY
+16:39:28.275 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [4fe2a306] HTTP GET http://localhost:63632/json
+16:39:28.277 [reactor-http-nio-8] DEBUG o.s.w.r.f.c.ExchangeFunctions - [4fe2a306] [6456aa67-1, L:/127.0.0.1:63633 - R:localhost/127.0.0.1:63632] Response 502 BAD_GATEWAY
+16:39:28.280 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [e4856ec] HTTP GET http://localhost:63634/json
+16:39:28.282 [reactor-http-nio-9] DEBUG o.s.w.r.f.c.ExchangeFunctions - [e4856ec] [61dec459-1, L:/127.0.0.1:63635 - R:localhost/127.0.0.1:63634] Response 502 BAD_GATEWAY
+16:39:28.286 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [33a78fe6] HTTP GET http://localhost:63636/json
+16:39:28.288 [reactor-http-nio-11] DEBUG o.s.w.r.f.c.ExchangeFunctions - [33a78fe6] [2745ee75-1, L:/127.0.0.1:63637 - R:localhost/127.0.0.1:63636] Response 502 BAD_GATEWAY
+16:39:28.291 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [29191098] HTTP GET http://localhost:63638/json
+16:39:28.293 [reactor-http-nio-13] DEBUG o.s.w.r.f.c.ExchangeFunctions - [29191098] [400376c4-1, L:/127.0.0.1:63639 - R:localhost/127.0.0.1:63638] Response 502 BAD_GATEWAY
+16:39:28.296 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [2446a522] HTTP GET http://localhost:63640/json
+16:39:28.298 [reactor-http-nio-15] DEBUG o.s.w.r.f.c.ExchangeFunctions - [2446a522] [4192f6d6-1, L:/127.0.0.1:63641 - R:localhost/127.0.0.1:63640] Response 502 BAD_GATEWAY
+16:39:28.356 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [1f658aa6] HTTP GET http://localhost:63642/json
+16:39:28.360 [reactor-http-nio-1] DEBUG o.s.w.r.f.c.ExchangeFunctions - [1f658aa6] [a868c629-1, L:/127.0.0.1:63643 - R:localhost/127.0.0.1:63642] Response 502 BAD_GATEWAY
+16:39:28.419 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [50db0082] HTTP GET http://localhost:63644/json
+16:39:28.422 [reactor-http-nio-2] DEBUG o.s.w.r.f.c.ExchangeFunctions - [50db0082] [6661322f-1, L:/127.0.0.1:63645 - R:localhost/127.0.0.1:63644] Response 502 BAD_GATEWAY
+16:39:28.425 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [7836e0c3] HTTP GET http://localhost:63646/json
+16:39:28.428 [reactor-http-nio-3] DEBUG o.s.w.r.f.c.ExchangeFunctions - [7836e0c3] [aaea7c2e-1, L:/127.0.0.1:63647 - R:localhost/127.0.0.1:63646] Response 502 BAD_GATEWAY
+16:39:28.432 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [6b8a6ab6] HTTP GET http://localhost:63648/json
+16:39:28.434 [reactor-http-nio-5] DEBUG o.s.w.r.f.c.ExchangeFunctions - [6b8a6ab6] [9676836b-1, L:/127.0.0.1:63649 - R:localhost/127.0.0.1:63648] Response 502 BAD_GATEWAY
+16:39:28.437 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [2ad06543] HTTP GET http://localhost:63650/json
+16:39:28.439 [reactor-http-nio-7] DEBUG o.s.w.r.f.c.ExchangeFunctions - [2ad06543] [49b93a17-1, L:/127.0.0.1:63651 - R:localhost/127.0.0.1:63650] Response 502 BAD_GATEWAY
+16:39:28.443 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [2620fa51] HTTP GET http://localhost:63652/json
+16:39:28.445 [reactor-http-nio-9] DEBUG o.s.w.r.f.c.ExchangeFunctions - [2620fa51] [843dcba2-1, L:/127.0.0.1:63653 - R:localhost/127.0.0.1:63652] Response 502 BAD_GATEWAY
+16:39:28.449 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [7caf5703] HTTP GET http://localhost:63654/json
+16:39:28.452 [reactor-http-nio-11] DEBUG o.s.w.r.f.c.ExchangeFunctions - [7caf5703] [9df73efa-1, L:/127.0.0.1:63655 - R:localhost/127.0.0.1:63654] Response 502 BAD_GATEWAY
+16:39:28.454 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [4e119bda] HTTP GET http://localhost:63656/json
+16:39:28.456 [reactor-http-nio-12] DEBUG o.s.w.r.f.c.ExchangeFunctions - [4e119bda] [c092dc96-1, L:/127.0.0.1:63657 - R:localhost/127.0.0.1:63656] Response 502 BAD_GATEWAY
+16:39:28.459 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [146be67f] HTTP GET http://localhost:63658/json
+16:39:28.461 [reactor-http-nio-13] DEBUG o.s.w.r.f.c.ExchangeFunctions - [146be67f] [2a411cca-1, L:/127.0.0.1:63659 - R:localhost/127.0.0.1:63658] Response 502 BAD_GATEWAY
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

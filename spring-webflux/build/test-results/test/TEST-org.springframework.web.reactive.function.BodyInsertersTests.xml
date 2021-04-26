@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.reactive.function.BodyInsertersTests" tests="16" skipped="0" failures="0" errors="0" timestamp="2021-04-26T08:39:27" hostname="wangweilideMacBook-Pro.local" time="0.061">
+  <properties/>
+  <testcase name="fromMultipartData()" classname="org.springframework.web.reactive.function.BodyInsertersTests" time="0.013"/>
+  <testcase name="ofDataBuffers()" classname="org.springframework.web.reactive.function.BodyInsertersTests" time="0.002"/>
+  <testcase name="ofObject()" classname="org.springframework.web.reactive.function.BodyInsertersTests" time="0.003"/>
+  <testcase name="fromFormDataMap()" classname="org.springframework.web.reactive.function.BodyInsertersTests" time="0.005"/>
+  <testcase name="ofPublisher()" classname="org.springframework.web.reactive.function.BodyInsertersTests" time="0.002"/>
+  <testcase name="ofString()" classname="org.springframework.web.reactive.function.BodyInsertersTests" time="0.002"/>
+  <testcase name="ofObjectWithHints()" classname="org.springframework.web.reactive.function.BodyInsertersTests" time="0.003"/>
+  <testcase name="ofResource()" classname="org.springframework.web.reactive.function.BodyInsertersTests" time="0.005"/>
+  <testcase name="fromMultipartDataWithMultipleValues()" classname="org.springframework.web.reactive.function.BodyInsertersTests" time="0.003"/>
+  <testcase name="ofProducerWithFlux()" classname="org.springframework.web.reactive.function.BodyInsertersTests" time="0.002"/>
+  <testcase name="ofProducerWithMono()" classname="org.springframework.web.reactive.function.BodyInsertersTests" time="0.003"/>
+  <testcase name="ofResourceRange()" classname="org.springframework.web.reactive.function.BodyInsertersTests" time="0.006"/>
+  <testcase name="fromFormDataWith()" classname="org.springframework.web.reactive.function.BodyInsertersTests" time="0.002"/>
+  <testcase name="ofProducerWithSingle()" classname="org.springframework.web.reactive.function.BodyInsertersTests" time="0.002"/>
+  <testcase name="ofServerSentEventFlux()" classname="org.springframework.web.reactive.function.BodyInsertersTests" time="0.004"/>
+  <testcase name="ofResourceWithExplicitMediaType()" classname="org.springframework.web.reactive.function.BodyInsertersTests" time="0.003"/>
+  <system-out><![CDATA[16:39:27.652 [Test worker] DEBUG o.s.h.c.m.MultipartHttpMessageWriter - Encoding parts [name 1, name 2, name 3] (content masked)
+16:39:27.662 [Test worker] DEBUG o.s.h.c.j.Jackson2JsonEncoder - Encoding [org.springframework.web.reactive.function.BodyInsertersTests$User@32337321]
+16:39:27.665 [Test worker] DEBUG o.s.h.c.FormHttpMessageWriter - Writing form fields [name 1, name 2, name 3] (content masked)
+16:39:27.669 [Test worker] DEBUG o.s.c.c.CharSequenceEncoder - Writing "foo"
+16:39:27.671 [Test worker] DEBUG o.s.c.c.CharSequenceEncoder - Writing "foo"
+16:39:27.673 [Test worker] DEBUG o.s.h.c.j.Jackson2JsonEncoder - Encoding [org.springframework.web.reactive.function.BodyInsertersTests$User@630ccad8]
+16:39:27.676 [Test worker] DEBUG o.s.h.c.ResourceHttpMessageWriter - Resource associated with 'text/plain'
+16:39:27.677 [Test worker] DEBUG o.s.c.c.ResourceEncoder - Writing [class path resource [org/springframework/web/reactive/function/response.txt]]
+16:39:27.680 [Test worker] DEBUG o.s.h.c.m.MultipartHttpMessageWriter - Encoding parts [name] (content masked)
+16:39:27.684 [Test worker] DEBUG o.s.c.c.CharSequenceEncoder - Writing "foo"
+16:39:27.686 [Test worker] DEBUG o.s.h.c.j.Jackson2JsonEncoder - Encoding [org.springframework.web.reactive.function.BodyInsertersTests$User@e86c7f0]
+16:39:27.689 [Test worker] DEBUG o.s.h.c.ResourceHttpMessageWriter - Resource associated with 'text/plain'
+16:39:27.690 [Test worker] DEBUG o.s.c.c.ResourceRegionEncoder - Writing region 10-49 of [class path resource [org/springframework/web/reactive/function/response.txt]]
+16:39:27.695 [Test worker] DEBUG o.s.h.c.FormHttpMessageWriter - Writing form fields [name 1, name 2, name 3] (content masked)
+16:39:27.697 [Test worker] DEBUG o.s.h.c.j.Jackson2JsonEncoder - Encoding [org.springframework.web.reactive.function.BodyInsertersTests$User@5ca59762]
+16:39:27.703 [Test worker] DEBUG o.s.c.c.ResourceEncoder - Writing [class path resource [org/springframework/web/reactive/function/response.txt]]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

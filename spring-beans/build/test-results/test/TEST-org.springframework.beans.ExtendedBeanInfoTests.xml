@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.beans.ExtendedBeanInfoTests" tests="39" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:39:26" hostname="wangweilideMacBook-Pro.local" time="0.358">
+  <properties/>
+  <testcase name="indexedReadAndIndexedWriteMethods()" classname="org.springframework.beans.ExtendedBeanInfoTests" time="0.006"/>
+  <testcase name="nonStandardReadMethodAndStandardWriteMethod()" classname="org.springframework.beans.ExtendedBeanInfoTests" time="0.004"/>
+  <testcase name="cornerSpr8949()" classname="org.springframework.beans.ExtendedBeanInfoTests" time="0.004"/>
+  <testcase name="cornerSpr9414()" classname="org.springframework.beans.ExtendedBeanInfoTests" time="0.005"/>
+  <testcase name="cornerSpr9453()" classname="org.springframework.beans.ExtendedBeanInfoTests" time="0.006"/>
+  <testcase name="cornerSpr9702()" classname="org.springframework.beans.ExtendedBeanInfoTests" time="0.005"/>
+  <testcase name="nonPublicStandardReadAndWriteMethods()" classname="org.springframework.beans.ExtendedBeanInfoTests" time="0.003"/>
+  <testcase name="indexedReadAndNonStandardWriteAndNonStandardIndexedWrite()" classname="org.springframework.beans.ExtendedBeanInfoTests" time="0.004"/>
+  <testcase name="standardReadMethodsAndOverloadedNonStandardWriteMethods()" classname="org.springframework.beans.ExtendedBeanInfoTests" time="0.003"/>
+  <testcase name="indexedReadMethodReturnsSubtypeOfIndexedWriteMethodParameter()" classname="org.springframework.beans.ExtendedBeanInfoTests" time="0.003"/>
+  <testcase name="standardReadAndNonStandardWriteMethods()" classname="org.springframework.beans.ExtendedBeanInfoTests" time="0.003"/>
+  <testcase name="indexedWriteMethodOnly()" classname="org.springframework.beans.ExtendedBeanInfoTests" time="0.003"/>
+  <testcase name="cornerSpr8937AndSpr12582()" classname="org.springframework.beans.ExtendedBeanInfoTests" time="0.003"/>
+  <testcase name="propertyCountsWithNonStandardWriteMethod()" classname="org.springframework.beans.ExtendedBeanInfoTests" time="0.052"/>
+  <testcase name="readAndWriteAndIndexedReadAndIndexedWriteMethods()" classname="org.springframework.beans.ExtendedBeanInfoTests" time="0.015"/>
+  <testcase name="standardWriteMethodOnly()" classname="org.springframework.beans.ExtendedBeanInfoTests" time="0.004"/>
+  <testcase name="indexedReadMethodReturnsSupertypeOfIndexedWriteMethodParameter()" classname="org.springframework.beans.ExtendedBeanInfoTests" time="0.003"/>
+  <testcase name="propertyCountsMatch()" classname="org.springframework.beans.ExtendedBeanInfoTests" time="0.001"/>
+  <testcase name="standardReadMethodOnly()" classname="org.springframework.beans.ExtendedBeanInfoTests" time="0.003"/>
+  <testcase name="shouldDetectValidPropertiesAndIgnoreInvalidProperties()" classname="org.springframework.beans.ExtendedBeanInfoTests" time="0.092"/>
+  <testcase name="nonStandardWriteMethodOnly()" classname="org.springframework.beans.ExtendedBeanInfoTests" time="0.003"/>
+  <testcase name="reproSpr8522()" classname="org.springframework.beans.ExtendedBeanInfoTests" time="0.003"/>
+  <testcase name="reproSpr8806()" classname="org.springframework.beans.ExtendedBeanInfoTests" time="0.004"/>
+  <testcase name="standardReadAndWriteMethods()" classname="org.springframework.beans.ExtendedBeanInfoTests" time="0.003"/>
+  <testcase name="standardReadAndNonStandardIndexedWriteMethod()" classname="org.springframework.beans.ExtendedBeanInfoTests" time="0.003"/>
+  <testcase name="indexedReadAndNonStandardIndexedWrite()" classname="org.springframework.beans.ExtendedBeanInfoTests" time="0.002"/>
+  <testcase name="overloadedNonStandardWriteMethodsOnly_orderA()" classname="org.springframework.beans.ExtendedBeanInfoTests" time="0.003"/>
+  <testcase name="overloadedNonStandardWriteMethodsOnly_orderB()" classname="org.springframework.beans.ExtendedBeanInfoTests" time="0.003"/>
+  <testcase name="propertyDescriptorComparator()" classname="org.springframework.beans.ExtendedBeanInfoTests" time="0.004"/>
+  <testcase name="cornerSpr10111()" classname="org.springframework.beans.ExtendedBeanInfoTests" time="0.04"/>
+  <testcase name="readMethodReturnsSubtypeOfWriteMethodParameter()" classname="org.springframework.beans.ExtendedBeanInfoTests" time="0.008"/>
+  <testcase name="propertyDescriptorOrderIsEqual()" classname="org.springframework.beans.ExtendedBeanInfoTests" time="0.002"/>
+  <testcase name="standardReadMethodInSuperclassAndNonStandardWriteMethodInSubclass()" classname="org.springframework.beans.ExtendedBeanInfoTests" time="0.006"/>
+  <testcase name="standardReadMethodInSuperAndSubclassesAndGenericBuilderStyleNonStandardWriteMethodInSuperAndSubclasses()" classname="org.springframework.beans.ExtendedBeanInfoTests" time="0.005"/>
+  <testcase name="indexedReadMethodOnly()" classname="org.springframework.beans.ExtendedBeanInfoTests" time="0.003"/>
+  <testcase name="subclassWriteMethodWithCovariantReturnType()" classname="org.springframework.beans.ExtendedBeanInfoTests" time="0.004"/>
+  <testcase name="shouldSupportStaticWriteMethod()" classname="org.springframework.beans.ExtendedBeanInfoTests" time="0.003"/>
+  <testcase name="emptyPropertiesIgnored()" classname="org.springframework.beans.ExtendedBeanInfoTests" time="0.003"/>
+  <testcase name="readMethodReturnsSupertypeOfWriteMethodParameter()" classname="org.springframework.beans.ExtendedBeanInfoTests" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

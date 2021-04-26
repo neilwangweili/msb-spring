@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.test.web.reactive.server.HeaderAssertionTests" tests="12" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:41:25" hostname="wangweilideMacBook-Pro.local" time="0.021">
+  <properties/>
+  <testcase name="valueEquals()" classname="org.springframework.test.web.reactive.server.HeaderAssertionTests" time="0.003"/>
+  <testcase name="cacheControl()" classname="org.springframework.test.web.reactive.server.HeaderAssertionTests" time="0.002"/>
+  <testcase name="expires()" classname="org.springframework.test.web.reactive.server.HeaderAssertionTests" time="0.002"/>
+  <testcase name="exists()" classname="org.springframework.test.web.reactive.server.HeaderAssertionTests" time="0.002"/>
+  <testcase name="valuesMatch()" classname="org.springframework.test.web.reactive.server.HeaderAssertionTests" time="0.003"/>
+  <testcase name="doesNotExist()" classname="org.springframework.test.web.reactive.server.HeaderAssertionTests" time="0.002"/>
+  <testcase name="contentTypeCompatibleWith()" classname="org.springframework.test.web.reactive.server.HeaderAssertionTests" time="0.001"/>
+  <testcase name="valuesMatcher()" classname="org.springframework.test.web.reactive.server.HeaderAssertionTests" time="0.001"/>
+  <testcase name="valueEqualsWithMultipleValues()" classname="org.springframework.test.web.reactive.server.HeaderAssertionTests" time="0.001"/>
+  <testcase name="valueMatcher()" classname="org.springframework.test.web.reactive.server.HeaderAssertionTests" time="0.001"/>
+  <testcase name="valueMatches()" classname="org.springframework.test.web.reactive.server.HeaderAssertionTests" time="0.001"/>
+  <testcase name="lastModified()" classname="org.springframework.test.web.reactive.server.HeaderAssertionTests" time="0.001"/>
+  <system-out><![CDATA[15:41:25.271 [Test worker] ERROR o.s.t.w.r.s.ExchangeResult - Request details for assertion failure:
+
+> GET /
+> 
+
+No content
+
+< 200 OK OK
+< foo: [bar]
+
+No content
+
+15:41:25.272 [Test worker] ERROR o.s.t.w.r.s.ExchangeResult - Request details for assertion failure:
+
+> GET /
+> 
+
+No content
+
+< 200 OK OK
+< foo: [bar]
+
+No content
+
+15:41:25.273 [Test worker] ERROR o.s.t.w.r.s.ExchangeResult - Request details for assertion failure:
+
+> GET /
+> 
+
+No content
+
+< 200 OK OK
+< foo: [bar]
+
+No content
+
+15:41:25.275 [Test worker] ERROR o.s.t.w.r.s.ExchangeResult - Request details for assertion failure:
+
+> GET /
+> 
+
+No content
+
+< 200 OK OK
+< Cache-Control: [max-age=3600, no-transform]
+
+No content
+
+15:41:25.277 [Test worker] ERROR o.s.t.w.r.s.ExchangeResult - Request details for assertion failure:
+
+> GET /
+> 
+
+No content
+
+< 200 OK OK
+< Expires: [Mon, 01 Jan 2018 00:00:00 GMT]
+
+No content
+
+15:41:25.278 [Test worker] ERROR o.s.t.w.r.s.ExchangeResult - Request details for assertion failure:
+
+> GET /
+> 
+
+No content
+
+< 200 OK OK
+< Content-Type: [application/json]
+
+No content
+
+15:41:25.281 [Test worker] ERROR o.s.t.w.r.s.ExchangeResult - Request details for assertion failure:
+
+> GET /
+> 
+
+No content
+
+< 200 OK OK
+< foo: [value1, value2, value3]
+
+No content
+
+15:41:25.282 [Test worker] ERROR o.s.t.w.r.s.ExchangeResult - Request details for assertion failure:
+
+> GET /
+> 
+
+No content
+
+< 200 OK OK
+< foo: [value1, value2, value3]
+
+No content
+
+15:41:25.284 [Test worker] ERROR o.s.t.w.r.s.ExchangeResult - Request details for assertion failure:
+
+> GET /
+> 
+
+No content
+
+< 200 OK OK
+< Content-Type: [application/json;charset=UTF-8]
+
+No content
+
+15:41:25.285 [Test worker] ERROR o.s.t.w.r.s.ExchangeResult - Request details for assertion failure:
+
+> GET /
+> 
+
+No content
+
+< 200 OK OK
+< Content-Type: [application/xml]
+
+No content
+
+15:41:25.287 [Test worker] ERROR o.s.t.w.r.s.ExchangeResult - Request details for assertion failure:
+
+> GET /
+> 
+
+No content
+
+< 200 OK OK
+< foo: [bar, baz]
+
+No content
+
+15:41:25.287 [Test worker] ERROR o.s.t.w.r.s.ExchangeResult - Request details for assertion failure:
+
+> GET /
+> 
+
+No content
+
+< 200 OK OK
+< foo: [bar, baz]
+
+No content
+
+15:41:25.289 [Test worker] ERROR o.s.t.w.r.s.ExchangeResult - Request details for assertion failure:
+
+> GET /
+> 
+
+No content
+
+< 200 OK OK
+< Content-Type: [application/json;charset=UTF-8]
+
+No content
+
+15:41:25.291 [Test worker] ERROR o.s.t.w.r.s.ExchangeResult - Request details for assertion failure:
+
+> GET /
+> 
+
+No content
+
+< 200 OK OK
+< Last-Modified: [Mon, 01 Jan 2018 00:00:00 GMT]
+
+No content
+
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

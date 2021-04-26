@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.jms.core.JmsTemplateTests" tests="48" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:39:24" hostname="wangweilideMacBook-Pro.local" time="0.721">
+  <properties/>
+  <testcase name="testMessageNotWriteableException()" classname="org.springframework.jms.core.JmsTemplateTests" time="0.005"/>
+  <testcase name="testReceiveAndConvertDefaultDestination()" classname="org.springframework.jms.core.JmsTemplateTests" time="0.028"/>
+  <testcase name="testMessageFormatException()" classname="org.springframework.jms.core.JmsTemplateTests" time="0.014"/>
+  <testcase name="testTransactionRolledBackException()" classname="org.springframework.jms.core.JmsTemplateTests" time="0.006"/>
+  <testcase name="testReceiveDestinationWithSelector()" classname="org.springframework.jms.core.JmsTemplateTests" time="0.013"/>
+  <testcase name="testReceiveAndConvertDefaultDestinationName()" classname="org.springframework.jms.core.JmsTemplateTests" time="0.011"/>
+  <testcase name="testReceiveDefaultDestinationName()" classname="org.springframework.jms.core.JmsTemplateTests" time="0.01"/>
+  <testcase name="testSendDefaultDestination()" classname="org.springframework.jms.core.JmsTemplateTests" time="0.006"/>
+  <testcase name="testReceiveAndConvertDefaultDestinationWithSelector()" classname="org.springframework.jms.core.JmsTemplateTests" time="0.018"/>
+  <testcase name="testReceiveDestinationWithClientAcknowledge()" classname="org.springframework.jms.core.JmsTemplateTests" time="0.013"/>
+  <testcase name="testJmsSecurityException()" classname="org.springframework.jms.core.JmsTemplateTests" time="0.006"/>
+  <testcase name="testSendDestinationName()" classname="org.springframework.jms.core.JmsTemplateTests" time="0.007"/>
+  <testcase name="testSendDestinationWithQOS()" classname="org.springframework.jms.core.JmsTemplateTests" time="0.006"/>
+  <testcase name="testReceiveDefaultDestinationNameWithSelector()" classname="org.springframework.jms.core.JmsTemplateTests" time="0.006"/>
+  <testcase name="testSessionCallback()" classname="org.springframework.jms.core.JmsTemplateTests" time="0.003"/>
+  <testcase name="testReceiveDestinationName()" classname="org.springframework.jms.core.JmsTemplateTests" time="0.018"/>
+  <testcase name="testExceptionStackTrace()" classname="org.springframework.jms.core.JmsTemplateTests" time="0.003"/>
+  <testcase name="testReceiveDestinationNameWithSelector()" classname="org.springframework.jms.core.JmsTemplateTests" time="0.035"/>
+  <testcase name="testSendDefaultDestinationNameWithQOS()" classname="org.springframework.jms.core.JmsTemplateTests" time="0.005"/>
+  <testcase name="testInvalidSelectorException()" classname="org.springframework.jms.core.JmsTemplateTests" time="0.02"/>
+  <testcase name="testReceiveAndConvertDestination()" classname="org.springframework.jms.core.JmsTemplateTests" time="0.032"/>
+  <testcase name="testTransactionInProgressException()" classname="org.springframework.jms.core.JmsTemplateTests" time="0.005"/>
+  <testcase name="testUncategorizedJmsException()" classname="org.springframework.jms.core.JmsTemplateTests" time="0.012"/>
+  <testcase name="testMessageEOFException()" classname="org.springframework.jms.core.JmsTemplateTests" time="0.007"/>
+  <testcase name="testIllegalStateException()" classname="org.springframework.jms.core.JmsTemplateTests" time="0.021"/>
+  <testcase name="testReceiveAndConvertDestinationName()" classname="org.springframework.jms.core.JmsTemplateTests" time="0.007"/>
+  <testcase name="testSendAndReceiveDestinationName()" classname="org.springframework.jms.core.JmsTemplateTests" time="0.022"/>
+  <testcase name="testSendDestination()" classname="org.springframework.jms.core.JmsTemplateTests" time="0.014"/>
+  <testcase name="testSendAndReceiveDefaultDestination()" classname="org.springframework.jms.core.JmsTemplateTests" time="0.013"/>
+  <testcase name="testProducerCallback()" classname="org.springframework.jms.core.JmsTemplateTests" time="0.006"/>
+  <testcase name="testSendAndReceiveDefaultDestinationName()" classname="org.springframework.jms.core.JmsTemplateTests" time="0.036"/>
+  <testcase name="testConverter()" classname="org.springframework.jms.core.JmsTemplateTests" time="0.005"/>
+  <testcase name="testResourceAllocationException()" classname="org.springframework.jms.core.JmsTemplateTests" time="0.011"/>
+  <testcase name="testSendDefaultDestinationName()" classname="org.springframework.jms.core.JmsTemplateTests" time="0.022"/>
+  <testcase name="testInvalidDestinationException()" classname="org.springframework.jms.core.JmsTemplateTests" time="0.005"/>
+  <testcase name="testReceiveAndConvertDestinationWithSelector()" classname="org.springframework.jms.core.JmsTemplateTests" time="0.006"/>
+  <testcase name="testProducerCallbackWithIdAndTimestampDisabled()" classname="org.springframework.jms.core.JmsTemplateTests" time="0.039"/>
+  <testcase name="testInvalidClientIDException()" classname="org.springframework.jms.core.JmsTemplateTests" time="0.006"/>
+  <testcase name="testReceiveAndConvertDestinationNameWithSelector()" classname="org.springframework.jms.core.JmsTemplateTests" time="0.043"/>
+  <testcase name="testSendAndReceiveDestination()" classname="org.springframework.jms.core.JmsTemplateTests" time="0.008"/>
+  <testcase name="testReceiveDefaultDestination()" classname="org.springframework.jms.core.JmsTemplateTests" time="0.008"/>
+  <testcase name="testReceiveDefaultDestinationWithSelector()" classname="org.springframework.jms.core.JmsTemplateTests" time="0.006"/>
+  <testcase name="testSendDestinationNameWithQOS()" classname="org.springframework.jms.core.JmsTemplateTests" time="0.021"/>
+  <testcase name="testReceiveDestination()" classname="org.springframework.jms.core.JmsTemplateTests" time="0.005"/>
+  <testcase name="testSendDefaultDestinationWithQOS()" classname="org.springframework.jms.core.JmsTemplateTests" time="0.021"/>
+  <testcase name="testSessionCallbackWithinSynchronizedTransaction()" classname="org.springframework.jms.core.JmsTemplateTests" time="0.004"/>
+  <testcase name="testReceiveDestinationWithClientAcknowledgeWithSelector()" classname="org.springframework.jms.core.JmsTemplateTests" time="0.025"/>
+  <testcase name="testMessageNotReadableException()" classname="org.springframework.jms.core.JmsTemplateTests" time="0.024"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

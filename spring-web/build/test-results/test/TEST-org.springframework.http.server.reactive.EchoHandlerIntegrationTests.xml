@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.http.server.reactive.EchoHandlerIntegrationTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:42:18" hostname="wangweilideMacBook-Pro.local" time="11.225">
+  <properties/>
+  <testcase name="[1] org.springframework.web.testfixture.http.server.reactive.bootstrap.JettyHttpServer@5f1c871d" classname="org.springframework.http.server.reactive.EchoHandlerIntegrationTests" time="0.029"/>
+  <testcase name="[2] org.springframework.web.testfixture.http.server.reactive.bootstrap.ReactorHttpServer@de43c36" classname="org.springframework.http.server.reactive.EchoHandlerIntegrationTests" time="0.017"/>
+  <testcase name="[3] org.springframework.web.testfixture.http.server.reactive.bootstrap.TomcatHttpServer@128eab78" classname="org.springframework.http.server.reactive.EchoHandlerIntegrationTests" time="11.157"/>
+  <testcase name="[4] org.springframework.web.testfixture.http.server.reactive.bootstrap.UndertowHttpServer@a3d3fdc" classname="org.springframework.http.server.reactive.EchoHandlerIntegrationTests" time="0.02"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Apr 26, 2021 3:42:18 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Tomcat]
+Apr 26, 2021 3:42:18 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet engine: [Apache Tomcat/9.0.45]
+Apr 26, 2021 3:42:18 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-auto-6"]
+Apr 26, 2021 3:42:18 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-auto-6-64808"]
+Apr 26, 2021 3:42:18 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-nio-auto-6-64808"]
+Apr 26, 2021 3:42:19 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service [Tomcat]
+Apr 26, 2021 3:42:19 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-nio-auto-6-64808"]
+Apr 26, 2021 3:42:29 PM org.apache.tomcat.util.net.Acceptor stop
+WARNING: The acceptor thread [http-nio-auto-6-Acceptor] did not stop cleanly
+Apr 26, 2021 3:42:29 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-nio-auto-6-64808"]
+]]></system-err>
+</testsuite>

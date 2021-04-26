@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.scheduling.concurrent.ScheduledExecutorFactoryBeanTests" tests="11" skipped="5" failures="0" errors="0" timestamp="2021-04-26T07:41:17" hostname="wangweilideMacBook-Pro.local" time="0.019">
+  <properties/>
+  <testcase name="throwsExceptionIfPoolSizeIsLessThanZero()" classname="org.springframework.scheduling.concurrent.ScheduledExecutorFactoryBeanTests" time="0.001"/>
+  <testcase name="withInitialDelayRepeatedExecutionIsSetUpAndFiresCorrectly()" classname="org.springframework.scheduling.concurrent.ScheduledExecutorFactoryBeanTests" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="withInitialDelayRepeatedExecutionIsSetUpAndFiresCorrectlyAfterException()" classname="org.springframework.scheduling.concurrent.ScheduledExecutorFactoryBeanTests" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="settingThreadFactoryToNullForcesUseOfDefaultButIsOtherwiseCool()" classname="org.springframework.scheduling.concurrent.ScheduledExecutorFactoryBeanTests" time="0.001"/>
+  <testcase name="shutdownIsPropagatedToTheExecutorOnDestroy()" classname="org.springframework.scheduling.concurrent.ScheduledExecutorFactoryBeanTests" time="0.014"/>
+  <testcase name="fixedRepeatedExecutionIsSetUpAndFiresCorrectlyAfterException()" classname="org.springframework.scheduling.concurrent.ScheduledExecutorFactoryBeanTests" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="settingRejectedExecutionHandlerToNullForcesUseOfDefaultButIsOtherwiseCool()" classname="org.springframework.scheduling.concurrent.ScheduledExecutorFactoryBeanTests" time="0.001"/>
+  <testcase name="fixedRepeatedExecutionIsSetUpAndFiresCorrectly()" classname="org.springframework.scheduling.concurrent.ScheduledExecutorFactoryBeanTests" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="oneTimeExecutionIsSetUpAndFiresCorrectly()" classname="org.springframework.scheduling.concurrent.ScheduledExecutorFactoryBeanTests" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="objectTypeReportsCorrectType()" classname="org.springframework.scheduling.concurrent.ScheduledExecutorFactoryBeanTests" time="0.0"/>
+  <testcase name="shutdownNowIsPropagatedToTheExecutorOnDestroy()" classname="org.springframework.scheduling.concurrent.ScheduledExecutorFactoryBeanTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

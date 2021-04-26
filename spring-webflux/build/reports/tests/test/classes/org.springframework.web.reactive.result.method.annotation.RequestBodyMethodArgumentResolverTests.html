@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - RequestBodyMethodArgumentResolverTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>RequestBodyMethodArgumentResolverTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.springframework.web.reactive.result.method.annotation.html">org.springframework.web.reactive.result.method.annotation</a> &gt; RequestBodyMethodArgumentResolverTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">11</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.126s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">emptyBodyWithCompletableFuture()</td>
+<td class="success">0.018s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">emptyBodyWithFlux()</td>
+<td class="success">0.014s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">emptyBodyWithMaybe()</td>
+<td class="success">0.014s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">emptyBodyWithMono()</td>
+<td class="success">0.012s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">emptyBodyWithObservable()</td>
+<td class="success">0.021s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">emptyBodyWithSingle()</td>
+<td class="success">0.015s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">emptyBodyWithString()</td>
+<td class="success">0.007s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">emptyBodyWithStringNotRequired()</td>
+<td class="success">0.006s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">emptyBodyWithoutContentType()</td>
+<td class="success">0.007s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">stringBody()</td>
+<td class="success">0.008s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">supports()</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>16:32:14.569 [Test worker] DEBUG o.s.w.r.r.m.a.RequestBodyMethodArgumentResolver - [342372f1] No Content-Type, using application/octet-stream
+16:32:14.569 [Test worker] DEBUG o.s.w.r.r.m.a.RequestBodyMethodArgumentResolver - [342372f1] 0..1 [java.lang.String]
+16:32:14.570 [Test worker] DEBUG o.s.c.c.StringDecoder - [342372f1] Decoded &quot;line1&quot;
+16:32:14.577 [Test worker] DEBUG o.s.w.r.r.m.a.RequestBodyMethodArgumentResolver - [172ab805] No Content-Type, using application/octet-stream
+16:32:14.584 [Test worker] DEBUG o.s.w.r.r.m.a.RequestBodyMethodArgumentResolver - [a2c5f0f] No Content-Type, using application/octet-stream
+16:32:14.584 [Test worker] DEBUG o.s.w.r.r.m.a.RequestBodyMethodArgumentResolver - [a2c5f0f] 0..1 [java.lang.String]
+16:32:14.593 [Test worker] DEBUG o.s.w.r.r.m.a.RequestBodyMethodArgumentResolver - [7d5103e7] No Content-Type, using application/octet-stream
+16:32:14.593 [Test worker] DEBUG o.s.w.r.r.m.a.RequestBodyMethodArgumentResolver - [7d5103e7] 0..1 [java.lang.String]
+16:32:14.600 [Test worker] DEBUG o.s.w.r.r.m.a.RequestBodyMethodArgumentResolver - [762cf095] No Content-Type, using application/octet-stream
+16:32:14.600 [Test worker] DEBUG o.s.w.r.r.m.a.RequestBodyMethodArgumentResolver - [762cf095] 0..1 [java.lang.String]
+16:32:14.606 [Test worker] DEBUG o.s.w.r.r.m.a.RequestBodyMethodArgumentResolver - [3979b8c] No Content-Type, using application/octet-stream
+16:32:14.606 [Test worker] DEBUG o.s.w.r.r.m.a.RequestBodyMethodArgumentResolver - [3979b8c] 0..1 [java.lang.String]
+16:32:14.613 [Test worker] DEBUG o.s.w.r.r.m.a.RequestBodyMethodArgumentResolver - [1f6dcf23] No Content-Type, using application/octet-stream
+16:32:14.613 [Test worker] DEBUG o.s.w.r.r.m.a.RequestBodyMethodArgumentResolver - [1f6dcf23] 0..1 [java.lang.String]
+16:32:14.625 [Test worker] DEBUG o.s.w.r.r.m.a.RequestBodyMethodArgumentResolver - [2360079d] No Content-Type, using application/octet-stream
+16:32:14.626 [Test worker] DEBUG o.s.w.r.r.m.a.RequestBodyMethodArgumentResolver - [2360079d] 0..N [java.lang.String]
+16:32:14.632 [Test worker] DEBUG o.s.w.r.r.m.a.RequestBodyMethodArgumentResolver - [4a824024] No Content-Type, using application/octet-stream
+16:32:14.633 [Test worker] DEBUG o.s.w.r.r.m.a.RequestBodyMethodArgumentResolver - [4a824024] 0..N [java.lang.String]
+16:32:14.639 [Test worker] DEBUG o.s.w.r.r.m.a.RequestBodyMethodArgumentResolver - [69fdea06] No Content-Type, using application/octet-stream
+16:32:14.639 [Test worker] DEBUG o.s.w.r.r.m.a.RequestBodyMethodArgumentResolver - [69fdea06] 0..1 [java.lang.String]
+16:32:14.645 [Test worker] DEBUG o.s.w.r.r.m.a.RequestBodyMethodArgumentResolver - [4a7831e9] No Content-Type, using application/octet-stream
+16:32:14.646 [Test worker] DEBUG o.s.w.r.r.m.a.RequestBodyMethodArgumentResolver - [4a7831e9] 0..1 [java.lang.String]
+16:32:14.652 [Test worker] DEBUG o.s.w.r.r.m.a.RequestBodyMethodArgumentResolver - [2ffbf404] No Content-Type, using application/octet-stream
+16:32:14.652 [Test worker] DEBUG o.s.w.r.r.m.a.RequestBodyMethodArgumentResolver - [2ffbf404] 0..1 [java.lang.String]
+16:32:14.660 [Test worker] DEBUG o.s.w.r.r.m.a.RequestBodyMethodArgumentResolver - [110675a1] No Content-Type, using application/octet-stream
+16:32:14.661 [Test worker] DEBUG o.s.w.r.r.m.a.RequestBodyMethodArgumentResolver - [110675a1] 0..1 [java.lang.String]
+16:32:14.668 [Test worker] DEBUG o.s.w.r.r.m.a.RequestBodyMethodArgumentResolver - [2226ae5e] No Content-Type, using application/octet-stream
+16:32:14.668 [Test worker] DEBUG o.s.w.r.r.m.a.RequestBodyMethodArgumentResolver - [2226ae5e] 0..1 [java.lang.String]
+16:32:14.675 [Test worker] DEBUG o.s.w.r.r.m.a.RequestBodyMethodArgumentResolver - [7e472a57] No Content-Type, using application/octet-stream
+16:32:14.675 [Test worker] DEBUG o.s.w.r.r.m.a.RequestBodyMethodArgumentResolver - [7e472a57] 0..N [java.lang.String]
+16:32:14.689 [Test worker] DEBUG o.s.w.r.r.m.a.RequestBodyMethodArgumentResolver - [44d9244b] No Content-Type, using application/octet-stream
+16:32:14.689 [Test worker] DEBUG o.s.w.r.r.m.a.RequestBodyMethodArgumentResolver - [44d9244b] 0..N [java.lang.String]
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 6.8.3</a> at 2021年4月26日 下午4:46:32</p>
+</div>
+</div>
+</body>
+</html>

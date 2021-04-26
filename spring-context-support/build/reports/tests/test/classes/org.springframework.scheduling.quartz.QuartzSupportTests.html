@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - QuartzSupportTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>QuartzSupportTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.springframework.scheduling.quartz.html">org.springframework.scheduling.quartz</a> &gt; QuartzSupportTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">16</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">8</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">1.216s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox skipped" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">jobDetailWithRunnableInsteadOfJob()</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">multipleSchedulers()</td>
+<td class="success">0.016s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">multipleSchedulersWithQuartzProperties()</td>
+<td class="success">0.060s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="skipped">schedulerAccessorBean()</td>
+<td class="skipped">-</td>
+<td class="skipped">ignored</td>
+</tr>
+<tr>
+<td class="success">schedulerAutoStartsOnContextRefreshedEventByDefault()</td>
+<td class="success">0.014s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">schedulerAutoStartupFalse()</td>
+<td class="success">0.009s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">schedulerFactoryBeanWithApplicationContext()</td>
+<td class="success">0.120s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">schedulerRepositoryExposure()</td>
+<td class="success">0.063s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">schedulerWithHsqlDataSource()</td>
+<td class="success">0.933s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="skipped">schedulerWithQuartzJobBean()</td>
+<td class="skipped">-</td>
+<td class="skipped">ignored</td>
+</tr>
+<tr>
+<td class="skipped">schedulerWithSpringBeanJobFactory()</td>
+<td class="skipped">-</td>
+<td class="skipped">ignored</td>
+</tr>
+<tr>
+<td class="skipped">schedulerWithSpringBeanJobFactoryAndJobSchedulingData()</td>
+<td class="skipped">-</td>
+<td class="skipped">ignored</td>
+</tr>
+<tr>
+<td class="skipped">schedulerWithSpringBeanJobFactoryAndParamMismatchNotIgnored()</td>
+<td class="skipped">-</td>
+<td class="skipped">ignored</td>
+</tr>
+<tr>
+<td class="skipped">schedulerWithSpringBeanJobFactoryAndQuartzJobBean()</td>
+<td class="skipped">-</td>
+<td class="skipped">ignored</td>
+</tr>
+<tr>
+<td class="skipped">schedulerWithTaskExecutor()</td>
+<td class="skipped">-</td>
+<td class="skipped">ignored</td>
+</tr>
+<tr>
+<td class="skipped">twoAnonymousMethodInvokingJobDetailFactoryBeans()</td>
+<td class="skipped">-</td>
+<td class="skipped">ignored</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>15:39:44.714 [scheduler_QuartzSchedulerThread] ERROR o.q.c.ErrorLogger - An error occurred while scanning for the next triggers to fire.
+org.quartz.JobPersistenceException: Couldn't acquire next trigger: user lacks privilege or object not found: SCHED_TIME in statement [INSERT INTO QRTZ_FIRED_TRIGGERS (SCHED_NAME, ENTRY_ID, TRIGGER_NAME, TRIGGER_GROUP, INSTANCE_NAME, FIRED_TIME, SCHED_TIME, STATE, JOB_NAME, JOB_GROUP, IS_NONCONCURRENT, REQUESTS_RECOVERY, PRIORITY) VALUES('scheduler', ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport.acquireNextTrigger(JobStoreSupport.java:2923) ~[quartz-2.3.2.jar:?]
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport$41.execute(JobStoreSupport.java:2805) ~[quartz-2.3.2.jar:?]
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport$41.execute(JobStoreSupport.java:2803) ~[quartz-2.3.2.jar:?]
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport.executeInNonManagedTXLock(JobStoreSupport.java:3864) ~[quartz-2.3.2.jar:?]
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport.acquireNextTriggers(JobStoreSupport.java:2802) ~[quartz-2.3.2.jar:?]
+	at org.quartz.core.QuartzSchedulerThread.run(QuartzSchedulerThread.java:287) [quartz-2.3.2.jar:?]
+Caused by: java.sql.SQLSyntaxErrorException: user lacks privilege or object not found: SCHED_TIME in statement [INSERT INTO QRTZ_FIRED_TRIGGERS (SCHED_NAME, ENTRY_ID, TRIGGER_NAME, TRIGGER_GROUP, INSTANCE_NAME, FIRED_TIME, SCHED_TIME, STATE, JOB_NAME, JOB_GROUP, IS_NONCONCURRENT, REQUESTS_RECOVERY, PRIORITY) VALUES('scheduler', ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+	at org.hsqldb.jdbc.JDBCUtil.sqlException(Unknown Source) ~[hsqldb-2.5.1.jar:2.5.1]
+	at org.hsqldb.jdbc.JDBCUtil.sqlException(Unknown Source) ~[hsqldb-2.5.1.jar:2.5.1]
+	at org.hsqldb.jdbc.JDBCPreparedStatement.&lt;init&gt;(Unknown Source) ~[hsqldb-2.5.1.jar:2.5.1]
+	at org.hsqldb.jdbc.JDBCConnection.prepareStatement(Unknown Source) ~[hsqldb-2.5.1.jar:2.5.1]
+	at jdk.internal.reflect.GeneratedMethodAccessor142.invoke(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.quartz.impl.jdbcjobstore.AttributeRestoringConnectionInvocationHandler.invoke(AttributeRestoringConnectionInvocationHandler.java:73) ~[quartz-2.3.2.jar:?]
+	at com.sun.proxy.$Proxy83.prepareStatement(Unknown Source) ~[?:?]
+	at org.quartz.impl.jdbcjobstore.StdJDBCDelegate.insertFiredTrigger(StdJDBCDelegate.java:2645) ~[quartz-2.3.2.jar:?]
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport.acquireNextTrigger(JobStoreSupport.java:2906) ~[quartz-2.3.2.jar:?]
+	... 5 more
+Caused by: org.hsqldb.HsqlException: user lacks privilege or object not found: SCHED_TIME
+	at org.hsqldb.error.Error.error(Unknown Source) ~[hsqldb-2.5.1.jar:2.5.1]
+	at org.hsqldb.error.Error.error(Unknown Source) ~[hsqldb-2.5.1.jar:2.5.1]
+	at org.hsqldb.ParserDQL.readSimpleColumnName(Unknown Source) ~[hsqldb-2.5.1.jar:2.5.1]
+	at org.hsqldb.ParserDQL.readSimpleColumnNames(Unknown Source) ~[hsqldb-2.5.1.jar:2.5.1]
+	at org.hsqldb.ParserDML.compileInsertStatement(Unknown Source) ~[hsqldb-2.5.1.jar:2.5.1]
+	at org.hsqldb.ParserCommand.compilePart(Unknown Source) ~[hsqldb-2.5.1.jar:2.5.1]
+	at org.hsqldb.ParserCommand.compileStatement(Unknown Source) ~[hsqldb-2.5.1.jar:2.5.1]
+	at org.hsqldb.Session.compileStatement(Unknown Source) ~[hsqldb-2.5.1.jar:2.5.1]
+	at org.hsqldb.StatementManager.compile(Unknown Source) ~[hsqldb-2.5.1.jar:2.5.1]
+	at org.hsqldb.Session.execute(Unknown Source) ~[hsqldb-2.5.1.jar:2.5.1]
+	at org.hsqldb.jdbc.JDBCPreparedStatement.&lt;init&gt;(Unknown Source) ~[hsqldb-2.5.1.jar:2.5.1]
+	at org.hsqldb.jdbc.JDBCConnection.prepareStatement(Unknown Source) ~[hsqldb-2.5.1.jar:2.5.1]
+	at jdk.internal.reflect.GeneratedMethodAccessor142.invoke(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.quartz.impl.jdbcjobstore.AttributeRestoringConnectionInvocationHandler.invoke(AttributeRestoringConnectionInvocationHandler.java:73) ~[quartz-2.3.2.jar:?]
+	at com.sun.proxy.$Proxy83.prepareStatement(Unknown Source) ~[?:?]
+	at org.quartz.impl.jdbcjobstore.StdJDBCDelegate.insertFiredTrigger(StdJDBCDelegate.java:2645) ~[quartz-2.3.2.jar:?]
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport.acquireNextTrigger(JobStoreSupport.java:2906) ~[quartz-2.3.2.jar:?]
+	... 5 more
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 6.8.3</a> at 2021年4月26日 下午3:39:48</p>
+</div>
+</div>
+</body>
+</html>

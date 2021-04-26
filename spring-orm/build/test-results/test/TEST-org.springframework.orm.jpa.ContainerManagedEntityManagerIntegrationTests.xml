@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.orm.jpa.ContainerManagedEntityManagerIntegrationTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:39:46" hostname="wangweilideMacBook-Pro.local" time="0.319">
+  <properties/>
+  <testcase name="testEntityManagerProxyRejectsProgrammaticTxManagement()" classname="org.springframework.orm.jpa.ContainerManagedEntityManagerIntegrationTests" time="0.215"/>
+  <testcase name="testContainerEntityManagerProxyAllowsJoinTransactionInTransaction()" classname="org.springframework.orm.jpa.ContainerManagedEntityManagerIntegrationTests" time="0.002"/>
+  <testcase name="testExceptionTranslationWithDialectFoundOnIntroducedEntityManagerInfo()" classname="org.springframework.orm.jpa.ContainerManagedEntityManagerIntegrationTests" time="0.001"/>
+  <testcase name="testExceptionTranslationWithDialectFoundOnEntityManagerFactoryBean()" classname="org.springframework.orm.jpa.ContainerManagedEntityManagerIntegrationTests" time="0.001"/>
+  <testcase name="testCommitOccurs()" classname="org.springframework.orm.jpa.ContainerManagedEntityManagerIntegrationTests" time="0.026"/>
+  <testcase name="testContainerEntityManagerProxyRejectsJoinTransactionWithoutTransaction()" classname="org.springframework.orm.jpa.ContainerManagedEntityManagerIntegrationTests" time="0.008"/>
+  <testcase name="testEntityManagerProxyIsProxy()" classname="org.springframework.orm.jpa.ContainerManagedEntityManagerIntegrationTests" time="0.004"/>
+  <testcase name="testRollbackOccurs()" classname="org.springframework.orm.jpa.ContainerManagedEntityManagerIntegrationTests" time="0.02"/>
+  <testcase name="testReuseInNewTransaction()" classname="org.springframework.orm.jpa.ContainerManagedEntityManagerIntegrationTests" time="0.029"/>
+  <testcase name="testInstantiateAndSave()" classname="org.springframework.orm.jpa.ContainerManagedEntityManagerIntegrationTests" time="0.005"/>
+  <system-out><![CDATA[[EL Info]: 2021-04-26 15:39:46.81--ServerSession(575069879)--EclipseLink, version: Eclipse Persistence Services - 2.7.8.v20201217-ecdf3c32c4
+[EL Warning]: metadata: 2021-04-26 15:39:46.811--ServerSession(575069879)--Reverting the lazy setting on the OneToOne or ManyToOne attribute [driversLicense] for the entity class [class org.springframework.orm.jpa.domain.Person] since weaving was not enabled or did not occur.
+[EL Fine]: sql: 2021-04-26 15:39:46.819--ServerSession(575069879)--Connection(1419060803)--SELECT * FROM SEQUENCE WHERE SEQ_NAME = 'SEQ_GEN'
+[EL Fine]: sql: 2021-04-26 15:39:46.886--ClientSession(233526455)--Connection(1539707419)--SELECT COUNT(0) FROM person
+[EL Fine]: sql: 2021-04-26 15:39:46.888--ClientSession(233526455)--Connection(1539707419)--UPDATE SEQUENCE SET SEQ_COUNT = SEQ_COUNT + ? WHERE SEQ_NAME = ?
+	bind => [50, SEQ_GEN]
+[EL Fine]: sql: 2021-04-26 15:39:46.889--ClientSession(233526455)--Connection(1539707419)--SELECT SEQ_COUNT FROM SEQUENCE WHERE SEQ_NAME = ?
+	bind => [SEQ_GEN]
+[EL Fine]: sql: 2021-04-26 15:39:46.891--ClientSession(233526455)--Connection(1539707419)--INSERT INTO PERSON (ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID) VALUES (?, ?, ?, ?)
+	bind => [51, Tony, Blair, null]
+[EL Fine]: sql: 2021-04-26 15:39:46.892--ClientSession(233526455)--Connection(1539707419)--SELECT COUNT(0) FROM person
+[EL Fine]: sql: 2021-04-26 15:39:46.894--ServerSession(575069879)--Connection(1754770174)--SELECT COUNT(0) FROM person
+[EL Fine]: sql: 2021-04-26 15:39:46.912--ServerSession(575069879)--Connection(1361861746)--SELECT ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID FROM PERSON
+[EL Fine]: sql: 2021-04-26 15:39:46.916--ClientSession(877702326)--Connection(547145204)--SELECT COUNT(0) FROM person
+[EL Fine]: sql: 2021-04-26 15:39:46.928--ClientSession(877702326)--Connection(547145204)--INSERT INTO PERSON (ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID) VALUES (?, ?, ?, ?)
+	bind => [52, Tony, Blair, null]
+[EL Fine]: sql: 2021-04-26 15:39:46.929--ClientSession(877702326)--Connection(547145204)--SELECT COUNT(0) FROM person
+[EL Fine]: sql: 2021-04-26 15:39:46.931--ServerSession(575069879)--Connection(359507082)--SELECT COUNT(0) FROM person
+[EL Fine]: sql: 2021-04-26 15:39:46.937--ClientSession(736779249)--Connection(1205071220)--SELECT COUNT(0) FROM person
+[EL Fine]: sql: 2021-04-26 15:39:46.938--ClientSession(736779249)--Connection(1205071220)--INSERT INTO PERSON (ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID) VALUES (?, ?, ?, ?)
+	bind => [53, Tony, Blair, null]
+[EL Fine]: sql: 2021-04-26 15:39:46.94--ClientSession(736779249)--Connection(1205071220)--SELECT COUNT(0) FROM person
+[EL Fine]: sql: 2021-04-26 15:39:46.942--ClientSession(1956879606)--Connection(713229896)--SELECT COUNT(0) FROM person
+[EL Fine]: sql: 2021-04-26 15:39:46.943--ClientSession(1956879606)--Connection(713229896)--INSERT INTO PERSON (ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID) VALUES (?, ?, ?, ?)
+	bind => [54, Tony, Blair, null]
+[EL Fine]: sql: 2021-04-26 15:39:46.945--ClientSession(1956879606)--Connection(713229896)--SELECT COUNT(0) FROM person
+[EL Fine]: sql: 2021-04-26 15:39:46.963--ServerSession(575069879)--Connection(1554635294)--SELECT COUNT(0) FROM person
+[EL Fine]: sql: 2021-04-26 15:39:46.967--ClientSession(775788024)--Connection(1590295517)--SELECT COUNT(0) FROM person
+[EL Fine]: sql: 2021-04-26 15:39:46.968--ClientSession(775788024)--Connection(1590295517)--INSERT INTO PERSON (ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID) VALUES (?, ?, ?, ?)
+	bind => [55, Tony, Blair, null]
+[EL Fine]: sql: 2021-04-26 15:39:46.969--ClientSession(775788024)--Connection(1590295517)--SELECT COUNT(0) FROM person
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

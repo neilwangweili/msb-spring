@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.transaction.reactive.TransactionalOperatorTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:39:25" hostname="wangweilideMacBook-Pro.local" time="0.327">
+  <properties/>
+  <testcase name="commitWithFlux()" classname="org.springframework.transaction.reactive.TransactionalOperatorTests" time="0.236"/>
+  <testcase name="commitWithMono()" classname="org.springframework.transaction.reactive.TransactionalOperatorTests" time="0.016"/>
+  <testcase name="cancellationPropagatedToFlux()" classname="org.springframework.transaction.reactive.TransactionalOperatorTests" time="0.034"/>
+  <testcase name="cancellationPropagatedToMono()" classname="org.springframework.transaction.reactive.TransactionalOperatorTests" time="0.007"/>
+  <testcase name="rollbackWithFlux()" classname="org.springframework.transaction.reactive.TransactionalOperatorTests" time="0.005"/>
+  <testcase name="rollbackWithMono()" classname="org.springframework.transaction.reactive.TransactionalOperatorTests" time="0.019"/>
+  <testcase name="monoSubscriptionNotCancelled()" classname="org.springframework.transaction.reactive.TransactionalOperatorTests" time="0.004"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

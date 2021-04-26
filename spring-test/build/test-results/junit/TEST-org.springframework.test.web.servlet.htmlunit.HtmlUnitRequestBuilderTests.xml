@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.test.web.servlet.htmlunit.HtmlUnitRequestBuilderTests" tests="90" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:41:19" hostname="wangweilideMacBook-Pro.local" time="0.21">
+  <properties/>
+  <testcase name="setContextPathNull()" classname="org.springframework.test.web.servlet.htmlunit.HtmlUnitRequestBuilderTests" time="0.002"/>
+  <testcase name="buildRequestSessionFalseWithExistingSession()" classname="org.springframework.test.web.servlet.htmlunit.HtmlUnitRequestBuilderTests" time="0.001"/>
+  <testcase name="buildRequestSessionFalseIsNull()" classname="org.springframework.test.web.servlet.htmlunit.HtmlUnitRequestBuilderTests" time="0.001"/>
+  <testcase name="constructorNullSessions()" classname="org.springframework.test.web.servlet.htmlunit.HtmlUnitRequestBuilderTests" time="0.001"/>
+  <testcase name="constructorNullWebClient()" classname="org.springframework.test.web.servlet.htmlunit.HtmlUnitRequestBuilderTests" time="0.001"/>
+  <testcase name="buildRequestContentType()" classname="org.springframework.test.web.servlet.htmlunit.HtmlUnitRequestBuilderTests" time="0.0"/>
+  <testcase name="buildRequestParameterMapFromSingleQueryParamWithValueSetToEncodedSpace()" classname="org.springframework.test.web.servlet.htmlunit.HtmlUnitRequestBuilderTests" time="0.001"/>
+  <testcase name="buildRequestBasicAuth()" classname="org.springframework.test.web.servlet.htmlunit.HtmlUnitRequestBuilderTests" time="0.002"/>
+  <testcase name="buildRequestProtocol()" classname="org.springframework.test.web.servlet.htmlunit.HtmlUnitRequestBuilderTests" time="0.0"/>
+  <testcase name="buildRequestInputStream()" classname="org.springframework.test.web.servlet.htmlunit.HtmlUnitRequestBuilderTests" time="0.001"/>
+  <testcase name="buildRequestQueryWithMultipleQueryParams()" classname="org.springframework.test.web.servlet.htmlunit.HtmlUnitRequestBuilderTests" time="0.0"/>
+  <testcase name="buildRequestServerName()" classname="org.springframework.test.web.servlet.htmlunit.HtmlUnitRequestBuilderTests" time="0.0"/>
+  <testcase name="buildRequestServerPort()" classname="org.springframework.test.web.servlet.htmlunit.HtmlUnitRequestBuilderTests" time="0.001"/>
+  <testcase name="buildRequestContentLength()" classname="org.springframework.test.web.servlet.htmlunit.HtmlUnitRequestBuilderTests" time="0.001"/>
+  <testcase name="buildRequestContextPathEmpty()" classname="org.springframework.test.web.servlet.htmlunit.HtmlUnitRequestBuilderTests" time="0.0"/>
+  <testcase name="buildRequestContextPathMulti()" classname="org.springframework.test.web.servlet.htmlunit.HtmlUnitRequestBuilderTests" time="0.001"/>
+  <testcase name="buildRequestSessionTrue()" classname="org.springframework.test.web.servlet.htmlunit.HtmlUnitRequestBuilderTests" time="0.001"/>
+  <testcase name="buildRequestLocalAddr()" classname="org.springframework.test.web.servlet.htmlunit.HtmlUnitRequestBuilderTests" time="0.0"/>
+  <testcase name="buildRequestLocalName()" classname="org.springframework.test.web.servlet.htmlunit.HtmlUnitRequestBuilderTests" time="0.001"/>
+  <testcase name="buildRequestLocalPort()" classname="org.springframework.test.web.servlet.htmlunit.HtmlUnitRequestBuilderTests" time="0.0"/>
+  <testcase name="buildRequestQueryWithSingleQueryParamWithoutValueButWithEqualsSign()" classname="org.springframework.test.web.servlet.htmlunit.HtmlUnitRequestBuilderTests" time="0.001"/>
+  <testcase name="buildRequestSession()" classname="org.springframework.test.web.servlet.htmlunit.HtmlUnitRequestBuilderTests" time="0.0"/>
+  <testcase name="buildRequestParameterMapFromSingleQueryParamWithoutValueAndWithoutEqualsSign()" classname="org.springframework.test.web.servlet.htmlunit.HtmlUnitRequestBuilderTests" time="0.0"/>
+  <testcase name="mergeRequestAttribute()" classname="org.springframework.test.web.servlet.htmlunit.HtmlUnitRequestBuilderTests" time="0.022"/>
+  <testcase name="constructorNullWebRequest()" classname="org.springframework.test.web.servlet.htmlunit.HtmlUnitRequestBuilderTests" time="0.0"/>
+  <testcase name="buildRequestDefaultCharacterEncoding()" classname="org.springframework.test.web.servlet.htmlunit.HtmlUnitRequestBuilderTests" time="0.0"/>
+  <testcase name="buildRequestSessionWithExistingSession()" classname="org.springframework.test.web.servlet.htmlunit.HtmlUnitRequestBuilderTests" time="0.001"/>
+  <testcase name="buildRequestCharacterEncoding()" classname="org.springframework.test.web.servlet.htmlunit.HtmlUnitRequestBuilderTests" time="0.001"/>
+  <testcase name="buildRequestContextPathInvalid()" classname="org.springframework.test.web.servlet.htmlunit.HtmlUnitRequestBuilderTests" time="0.001"/>
+  <testcase name="buildRequestParameterMapDecodesParameterName()" classname="org.springframework.test.web.servlet.htmlunit.HtmlUnitRequestBuilderTests" time="0.0"/>
+  <testcase name="buildRequestServletPath()" classname="org.springframework.test.web.servlet.htmlunit.HtmlUnitRequestBuilderTests" time="0.0"/>
+  <testcase name="buildRequestServletContext()" classname="org.springframework.test.web.servlet.htmlunit.HtmlUnitRequestBuilderTests" time="0.0"/>
+  <testcase name="buildRequestServerPortDefault()" classname="org.springframework.test.web.servlet.htmlunit.HtmlUnitRequestBuilderTests" time="0.0"/>
+  <testcase name="mergeDoesNotCorruptPathInfoOnParent()" classname="org.springframework.test.web.servlet.htmlunit.HtmlUnitRequestBuilderTests" time="0.019"/>
+  <testcase name="buildRequestQueryWithSingleQueryParam()" classname="org.springframework.test.web.servlet.htmlunit.HtmlUnitRequestBuilderTests" time="0.0"/>
+  <testcase name="buildRequestParameterMapFromMultipleQueryParams()" classname="org.springframework.test.web.servlet.htmlunit.HtmlUnitRequestBuilderTests" time="0.001"/>
+  <testcase name="buildRequestRemotePort8080()" classname="org.springframework.test.web.servlet.htmlunit.HtmlUnitRequestBuilderTests" time="0.0"/>
+  <testcase name="mergeParameter()" classname="org.springframework.test.web.servlet.htmlunit.HtmlUnitRequestBuilderTests" time="0.02"/>
+  <testcase name="buildRequestParameterMapViaWebRequestDotSetRequestParametersWithSingleRequestParamWithValueSetToSpace()" classname="org.springframework.test.web.servlet.htmlunit.HtmlUnitRequestBuilderTests" time="0.001"/>
+  <testcase name="buildRequestSchemeHttp()" classname="org.springframework.test.web.servlet.htmlunit.HtmlUnitRequestBuilderTests" time="0.0"/>
+  <testcase name="setContextPathEmptyString()" classname="org.springframework.test.web.servlet.htmlunit.HtmlUnitRequestBuilderTests" time="0.001"/>
+  <testcase name="buildRequestContextPathUsesFirstSegmentByDefault()" classname="org.springframework.test.web.servlet.htmlunit.HtmlUnitRequestBuilderTests" time="0.0"/>
+  <testcase name="buildRequestSessionInvalidate()" classname="org.springframework.test.web.servlet.htmlunit.HtmlUnitRequestBuilderTests" time="0.001"/>
+  <testcase name="buildRequestParameterMapFromSingleQueryParam()" classname="org.springframework.test.web.servlet.htmlunit.HtmlUnitRequestBuilderTests" time="0.0"/>
+  <testcase name="mergeCookie()" classname="org.springframework.test.web.servlet.htmlunit.HtmlUnitRequestBuilderTests" time="0.018"/>
+  <testcase name="buildRequestParameterMapFromSingleQueryParamWithoutValueButWithEqualsSign()" classname="org.springframework.test.web.servlet.htmlunit.HtmlUnitRequestBuilderTests" time="0.0"/>
+  <testcase name="buildRequestRequestedSessionId()" classname="org.springframework.test.web.servlet.htmlunit.HtmlUnitRequestBuilderTests" time="0.001"/>
+  <testcase name="mergeHeader()" classname="org.springframework.test.web.servlet.htmlunit.HtmlUnitRequestBuilderTests" time="0.016"/>
+  <testcase name="buildRequestQueryWithSingleQueryParamWithoutValueAndWithoutEqualsSign()" classname="org.springframework.test.web.servlet.htmlunit.HtmlUnitRequestBuilderTests" time="0.0"/>
+  <testcase name="buildRequestParameterMapViaWebRequestDotSetRequestParametersWithSingleRequestParamWithNullValue()" classname="org.springframework.test.web.servlet.htmlunit.HtmlUnitRequestBuilderTests" time="0.001"/>
+  <testcase name="buildRequestAndAntPathRequestMatcher()" classname="org.springframework.test.web.servlet.htmlunit.HtmlUnitRequestBuilderTests" time="0.0"/>
+  <testcase name="setContextPathDoesNotStartWithSlash()" classname="org.springframework.test.web.servlet.htmlunit.HtmlUnitRequestBuilderTests" time="0.001"/>
+  <testcase name="buildRequestPathInfo()" classname="org.springframework.test.web.servlet.htmlunit.HtmlUnitRequestBuilderTests" time="0.0"/>
+  <testcase name="buildRequestParameterMapDecodesParameterValue()" classname="org.springframework.test.web.servlet.htmlunit.HtmlUnitRequestBuilderTests" time="0.0"/>
+  <testcase name="buildRequestLocaleEnQ07()" classname="org.springframework.test.web.servlet.htmlunit.HtmlUnitRequestBuilderTests" time="0.018"/>
+  <testcase name="buildRequestLocaleMulti()" classname="org.springframework.test.web.servlet.htmlunit.HtmlUnitRequestBuilderTests" time="0.001"/>
+  <testcase name="buildRequestCookiesSingle()" classname="org.springframework.test.web.servlet.htmlunit.HtmlUnitRequestBuilderTests" time="0.0"/>
+  <testcase name="buildRequestLocaleDefault()" classname="org.springframework.test.web.servlet.htmlunit.HtmlUnitRequestBuilderTests" time="0.0"/>
+  <testcase name="mergeSessionNotInitialized()" classname="org.springframework.test.web.servlet.htmlunit.HtmlUnitRequestBuilderTests" time="0.018"/>
+  <testcase name="buildRequestRemotePort80WithDefault()" classname="org.springframework.test.web.servlet.htmlunit.HtmlUnitRequestBuilderTests" time="0.0"/>
+  <testcase name="setContextPathEndsWithSlash()" classname="org.springframework.test.web.servlet.htmlunit.HtmlUnitRequestBuilderTests" time="0.001"/>
+  <testcase name="buildRequestCookiesMulti()" classname="org.springframework.test.web.servlet.htmlunit.HtmlUnitRequestBuilderTests" time="0.0"/>
+  <testcase name="buildRequestParameterMapViaWebRequestDotSetRequestParametersWithSingleRequestParam()" classname="org.springframework.test.web.servlet.htmlunit.HtmlUnitRequestBuilderTests" time="0.0"/>
+  <testcase name="buildRequestLocaleDa()" classname="org.springframework.test.web.servlet.htmlunit.HtmlUnitRequestBuilderTests" time="0.001"/>
+  <testcase name="buildRequestLocaleFr()" classname="org.springframework.test.web.servlet.htmlunit.HtmlUnitRequestBuilderTests" time="0.0"/>
+  <testcase name="buildRequestRemoteAddr()" classname="org.springframework.test.web.servlet.htmlunit.HtmlUnitRequestBuilderTests" time="0.001"/>
+  <testcase name="buildRequestRemoteHost()" classname="org.springframework.test.web.servlet.htmlunit.HtmlUnitRequestBuilderTests" time="0.0"/>
+  <testcase name="buildRequestRemotePort()" classname="org.springframework.test.web.servlet.htmlunit.HtmlUnitRequestBuilderTests" time="0.001"/>
+  <testcase name="buildRequestCookiesNull()" classname="org.springframework.test.web.servlet.htmlunit.HtmlUnitRequestBuilderTests" time="0.0"/>
+  <testcase name="buildRequestParameterMapViaWebRequestDotSetRequestParametersWithMultipleRequestParams()" classname="org.springframework.test.web.servlet.htmlunit.HtmlUnitRequestBuilderTests" time="0.001"/>
+  <testcase name="buildRequestPathInfoNull()" classname="org.springframework.test.web.servlet.htmlunit.HtmlUnitRequestBuilderTests" time="0.0"/>
+  <testcase name="buildRequestReader()" classname="org.springframework.test.web.servlet.htmlunit.HtmlUnitRequestBuilderTests" time="0.0"/>
+  <testcase name="buildRequestParameterMapViaWebRequestDotSetRequestParametersWithSingleRequestParamWithEmptyValue()" classname="org.springframework.test.web.servlet.htmlunit.HtmlUnitRequestBuilderTests" time="0.0"/>
+  <testcase name="buildRequestRequestedSessionIdNull()" classname="org.springframework.test.web.servlet.htmlunit.HtmlUnitRequestBuilderTests" time="0.0"/>
+  <testcase name="mergeSession()" classname="org.springframework.test.web.servlet.htmlunit.HtmlUnitRequestBuilderTests" time="0.018"/>
+  <testcase name="buildRequestParameterMapViaWebRequestDotSetFileToUploadAsParameter()" classname="org.springframework.test.web.servlet.htmlunit.HtmlUnitRequestBuilderTests" time="0.002"/>
+  <testcase name="buildRequestLocaleEnUs()" classname="org.springframework.test.web.servlet.htmlunit.HtmlUnitRequestBuilderTests" time="0.001"/>
+  <testcase name="buildRequestUri()" classname="org.springframework.test.web.servlet.htmlunit.HtmlUnitRequestBuilderTests" time="0.0"/>
+  <testcase name="buildRequestUrl()" classname="org.springframework.test.web.servlet.htmlunit.HtmlUnitRequestBuilderTests" time="0.001"/>
+  <testcase name="buildRequestQueryWithSingleQueryParamWithValueSetToEncodedSpace()" classname="org.springframework.test.web.servlet.htmlunit.HtmlUnitRequestBuilderTests" time="0.0"/>
+  <testcase name="buildRequestSessionIsNew()" classname="org.springframework.test.web.servlet.htmlunit.HtmlUnitRequestBuilderTests" time="0.001"/>
+  <testcase name="buildRequestLocaleEnGbQ08()" classname="org.springframework.test.web.servlet.htmlunit.HtmlUnitRequestBuilderTests" time="0.0"/>
+  <testcase name="setContextPath()" classname="org.springframework.test.web.servlet.htmlunit.HtmlUnitRequestBuilderTests" time="0.0"/>
+  <testcase name="buildRequestLocalMissing()" classname="org.springframework.test.web.servlet.htmlunit.HtmlUnitRequestBuilderTests" time="0.001"/>
+  <testcase name="buildRequestSchemeHttps()" classname="org.springframework.test.web.servlet.htmlunit.HtmlUnitRequestBuilderTests" time="0.0"/>
+  <testcase name="buildRequestContextPathUsesNoFirstSegmentWithDefault()" classname="org.springframework.test.web.servlet.htmlunit.HtmlUnitRequestBuilderTests" time="0.001"/>
+  <testcase name="buildRequestContextPathExplicit()" classname="org.springframework.test.web.servlet.htmlunit.HtmlUnitRequestBuilderTests" time="0.0"/>
+  <testcase name="buildRequestContentTypeWithFormSubmission()" classname="org.springframework.test.web.servlet.htmlunit.HtmlUnitRequestBuilderTests" time="0.001"/>
+  <testcase name="buildRequestMethods()" classname="org.springframework.test.web.servlet.htmlunit.HtmlUnitRequestBuilderTests" time="0.001"/>
+  <testcase name="buildRequestSessionIsNewFalse()" classname="org.springframework.test.web.servlet.htmlunit.HtmlUnitRequestBuilderTests" time="0.0"/>
+  <system-out><![CDATA[15:41:19.855 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Getting field 'contextPath' from target object [org.springframework.test.web.servlet.htmlunit.HtmlUnitRequestBuilder@2d877af2] or target class [class org.springframework.test.web.servlet.htmlunit.HtmlUnitRequestBuilder]
+15:41:19.947 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Getting field 'contextPath' from target object [org.springframework.test.web.servlet.htmlunit.HtmlUnitRequestBuilder@cc78fcb] or target class [class org.springframework.test.web.servlet.htmlunit.HtmlUnitRequestBuilder]
+15:41:20.060 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Getting field 'contextPath' from target object [org.springframework.test.web.servlet.htmlunit.HtmlUnitRequestBuilder@287b9de8] or target class [class org.springframework.test.web.servlet.htmlunit.HtmlUnitRequestBuilder]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

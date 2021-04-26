@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.r2dbc.core.NamedParameterUtilsUnitTests" tests="24" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:39:19" hostname="wangweilideMacBook-Pro.local" time="0.077">
+  <properties/>
+  <testcase name="parseSqlStatementWithEmptyBracketsOrBracketsInQuotes()" classname="org.springframework.r2dbc.core.NamedParameterUtilsUnitTests" time="0.005"/>
+  <testcase name="shouldAllowParsingMultipleUseOfParameter()" classname="org.springframework.r2dbc.core.NamedParameterUtilsUnitTests" time="0.03"/>
+  <testcase name="parseSqlStatementWithPostgresAnyArrayStringsExistsOperator()" classname="org.springframework.r2dbc.core.NamedParameterUtilsUnitTests" time="0.001"/>
+  <testcase name="parseSqlStatementWithQuotedSingleQuote()" classname="org.springframework.r2dbc.core.NamedParameterUtilsUnitTests" time="0.001"/>
+  <testcase name="parseSqlStatementWithPostgresCasting()" classname="org.springframework.r2dbc.core.NamedParameterUtilsUnitTests" time="0.001"/>
+  <testcase name="parseSqlStatementWithSingleLetterInBrackets()" classname="org.springframework.r2dbc.core.NamedParameterUtilsUnitTests" time="0.001"/>
+  <testcase name="parseSqlStatementWithPostgresContainedOperator()" classname="org.springframework.r2dbc.core.NamedParameterUtilsUnitTests" time="0.001"/>
+  <testcase name="parseSqlStatementWithPostgresAllArrayStringsExistsOperator()" classname="org.springframework.r2dbc.core.NamedParameterUtilsUnitTests" time="0.001"/>
+  <testcase name="substituteObjectArray()" classname="org.springframework.r2dbc.core.NamedParameterUtilsUnitTests" time="0.004"/>
+  <testcase name="parseSqlStatementWithQuotesAndCommentBefore()" classname="org.springframework.r2dbc.core.NamedParameterUtilsUnitTests" time="0.001"/>
+  <testcase name="parseSqlContainingComments()" classname="org.springframework.r2dbc.core.NamedParameterUtilsUnitTests" time="0.001"/>
+  <testcase name="parseSqlStatementWithEscapedColon()" classname="org.springframework.r2dbc.core.NamedParameterUtilsUnitTests" time="0.001"/>
+  <testcase name="substituteNamedParameters()" classname="org.springframework.r2dbc.core.NamedParameterUtilsUnitTests" time="0.0"/>
+  <testcase name="parseSqlStatementWithBracketDelimitedParameterNames()" classname="org.springframework.r2dbc.core.NamedParameterUtilsUnitTests" time="0.0"/>
+  <testcase name="variableAssignmentOperator()" classname="org.springframework.r2dbc.core.NamedParameterUtilsUnitTests" time="0.0"/>
+  <testcase name="shouldParseSql()" classname="org.springframework.r2dbc.core.NamedParameterUtilsUnitTests" time="0.001"/>
+  <testcase name="multipleEqualParameterReferencesBindsNullOnce()" classname="org.springframework.r2dbc.core.NamedParameterUtilsUnitTests" time="0.001"/>
+  <testcase name="multipleEqualParameterReferencesBindsValueOnce()" classname="org.springframework.r2dbc.core.NamedParameterUtilsUnitTests" time="0.002"/>
+  <testcase name="shouldBindObjectArray()" classname="org.springframework.r2dbc.core.NamedParameterUtilsUnitTests" time="0.004"/>
+  <testcase name="multipleEqualCollectionParameterReferencesBindsValueOnce()" classname="org.springframework.r2dbc.core.NamedParameterUtilsUnitTests" time="0.004"/>
+  <testcase name="multipleEqualParameterReferencesForAnonymousMarkersBindsValueMultipleTimes()" classname="org.springframework.r2dbc.core.NamedParameterUtilsUnitTests" time="0.002"/>
+  <testcase name="substituteNamedParametersWithLogicalAnd()" classname="org.springframework.r2dbc.core.NamedParameterUtilsUnitTests" time="0.001"/>
+  <testcase name="parseSqlStatementWithQuotesAndCommentAfter()" classname="org.springframework.r2dbc.core.NamedParameterUtilsUnitTests" time="0.001"/>
+  <testcase name="parseSqlStatementWithLogicalAnd()" classname="org.springframework.r2dbc.core.NamedParameterUtilsUnitTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

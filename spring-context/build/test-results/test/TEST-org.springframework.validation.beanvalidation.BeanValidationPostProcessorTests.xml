@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.validation.beanvalidation.BeanValidationPostProcessorTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:41:30" hostname="wangweilideMacBook-Pro.local" time="0.122">
+  <properties/>
+  <testcase name="testNotNullConstraintAfterInitializationWithProxy()" classname="org.springframework.validation.beanvalidation.BeanValidationPostProcessorTests" time="0.047"/>
+  <testcase name="testSizeConstraintSatisfied()" classname="org.springframework.validation.beanvalidation.BeanValidationPostProcessorTests" time="0.015"/>
+  <testcase name="testNotNullConstraintAfterInitialization()" classname="org.springframework.validation.beanvalidation.BeanValidationPostProcessorTests" time="0.007"/>
+  <testcase name="testNotNullConstraintSatisfied()" classname="org.springframework.validation.beanvalidation.BeanValidationPostProcessorTests" time="0.008"/>
+  <testcase name="testSizeConstraint()" classname="org.springframework.validation.beanvalidation.BeanValidationPostProcessorTests" time="0.035"/>
+  <testcase name="testNotNullConstraint()" classname="org.springframework.validation.beanvalidation.BeanValidationPostProcessorTests" time="0.008"/>
+  <system-out><![CDATA[15:41:30.676 [Test worker] WARN  o.s.c.s.GenericApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'bean': Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanInitializationException: Bean state is invalid: stringValue - size must be between 2 and 2147483647
+15:41:30.684 [Test worker] WARN  o.s.c.s.GenericApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'bean': Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanInitializationException: Bean state is invalid: testBean - may not be null
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

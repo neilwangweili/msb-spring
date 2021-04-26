@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.reactive.resource.CssLinkResourceTransformerTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-04-26T08:41:35" hostname="wangweilideMacBook-Pro.local" time="0.094">
+  <properties/>
+  <testcase name="transformSkippedForNonCssResource()" classname="org.springframework.web.reactive.resource.CssLinkResourceTransformerTests" time="0.007"/>
+  <testcase name="transformEmptyUrlFunction()" classname="org.springframework.web.reactive.resource.CssLinkResourceTransformerTests" time="0.012"/>
+  <testcase name="transformSkippedForGzippedResource(GzippedFiles)" classname="org.springframework.web.reactive.resource.CssLinkResourceTransformerTests" time="0.008"/>
+  <testcase name="transformNoLinks()" classname="org.springframework.web.reactive.resource.CssLinkResourceTransformerTests" time="0.006"/>
+  <testcase name="transformExtLinksNotAllowed()" classname="org.springframework.web.reactive.resource.CssLinkResourceTransformerTests" time="0.04"/>
+  <testcase name="transform()" classname="org.springframework.web.reactive.resource.CssLinkResourceTransformerTests" time="0.021"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

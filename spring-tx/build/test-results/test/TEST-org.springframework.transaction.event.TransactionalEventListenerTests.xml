@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.transaction.event.TransactionalEventListenerTests" tests="19" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:39:29" hostname="wangweilideMacBook-Pro.local" time="1.215">
+  <properties/>
+  <testcase name="immediately()" classname="org.springframework.transaction.event.TransactionalEventListenerTests" time="0.219"/>
+  <testcase name="afterCompletionRollback()" classname="org.springframework.transaction.event.TransactionalEventListenerTests" time="0.073"/>
+  <testcase name="noTransaction()" classname="org.springframework.transaction.event.TransactionalEventListenerTests" time="0.054"/>
+  <testcase name="transactionDemarcationWithSupportsPropagationAndNoTransaction()" classname="org.springframework.transaction.event.TransactionalEventListenerTests" time="0.056"/>
+  <testcase name="noTransactionWithFallbackExecution()" classname="org.springframework.transaction.event.TransactionalEventListenerTests" time="0.086"/>
+  <testcase name="transactionDemarcationWithRequiredPropagation()" classname="org.springframework.transaction.event.TransactionalEventListenerTests" time="0.099"/>
+  <testcase name="beforeCommit()" classname="org.springframework.transaction.event.TransactionalEventListenerTests" time="0.035"/>
+  <testcase name="afterCommitMetaAnnotation()" classname="org.springframework.transaction.event.TransactionalEventListenerTests" time="0.047"/>
+  <testcase name="afterCommit()" classname="org.springframework.transaction.event.TransactionalEventListenerTests" time="0.063"/>
+  <testcase name="transactionDemarcationWithSupportsPropagationAndExistingTransaction()" classname="org.springframework.transaction.event.TransactionalEventListenerTests" time="0.035"/>
+  <testcase name="afterCompletionCommit()" classname="org.springframework.transaction.event.TransactionalEventListenerTests" time="0.04"/>
+  <testcase name="conditionFoundOnMetaAnnotation()" classname="org.springframework.transaction.event.TransactionalEventListenerTests" time="0.049"/>
+  <testcase name="regularTransaction()" classname="org.springframework.transaction.event.TransactionalEventListenerTests" time="0.062"/>
+  <testcase name="transactionDemarcationWithNotSupportedPropagation()" classname="org.springframework.transaction.event.TransactionalEventListenerTests" time="0.044"/>
+  <testcase name="conditionFoundOnTransactionalEventListener()" classname="org.springframework.transaction.event.TransactionalEventListenerTests" time="0.053"/>
+  <testcase name="afterRollback()" classname="org.springframework.transaction.event.TransactionalEventListenerTests" time="0.064"/>
+  <testcase name="beforeCommitWithException()" classname="org.springframework.transaction.event.TransactionalEventListenerTests" time="0.037"/>
+  <testcase name="immediatelyImpactsCurrentTransaction()" classname="org.springframework.transaction.event.TransactionalEventListenerTests" time="0.052"/>
+  <testcase name="afterCommitWithTransactionalComponentListenerProxiedViaDynamicProxy()" classname="org.springframework.transaction.event.TransactionalEventListenerTests" time="0.039"/>
+  <system-out><![CDATA[15:39:29.655 [Test worker] WARN  o.s.t.e.TransactionalApplicationListenerMethodAdapter - Processing org.springframework.context.PayloadApplicationEvent[source=org.springframework.context.annotation.AnnotationConfigApplicationContext@2b949b85, started on Mon Apr 26 15:39:29 CST 2021] as a fallback execution on AFTER_ROLLBACK phase
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

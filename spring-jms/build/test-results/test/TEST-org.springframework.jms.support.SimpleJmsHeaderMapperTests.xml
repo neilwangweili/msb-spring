@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.jms.support.SimpleJmsHeaderMapperTests" tests="41" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:39:31" hostname="wangweilideMacBook-Pro.local" time="0.072">
+  <properties/>
+  <testcase name="userDefinedPropertyWithUnsupportedType()" classname="org.springframework.jms.support.SimpleJmsHeaderMapperTests" time="0.01"/>
+  <testcase name="jmsTimestampMappedToHeader()" classname="org.springframework.jms.support.SimpleJmsHeaderMapperTests" time="0.0"/>
+  <testcase name="attemptToReadDisallowedReplyToPropertyIsNotFatal()" classname="org.springframework.jms.support.SimpleJmsHeaderMapperTests" time="0.002"/>
+  <testcase name="jmsTypeMappedToHeader()" classname="org.springframework.jms.support.SimpleJmsHeaderMapperTests" time="0.001"/>
+  <testcase name="attemptToReadDisallowedTimestampPropertyIsNotFatal()" classname="org.springframework.jms.support.SimpleJmsHeaderMapperTests" time="0.003"/>
+  <testcase name="attemptToReadDisallowedCorrelationIdPropertyIsNotFatal()" classname="org.springframework.jms.support.SimpleJmsHeaderMapperTests" time="0.002"/>
+  <testcase name="userDefinedPropertyMappedFromHeader()" classname="org.springframework.jms.support.SimpleJmsHeaderMapperTests" time="0.0"/>
+  <testcase name="userDefinedPropertyMappedFromHeaderWithCustomPrefix()" classname="org.springframework.jms.support.SimpleJmsHeaderMapperTests" time="0.0"/>
+  <testcase name="attemptToWriteDisallowedReplyToPropertyIsNotFatal()" classname="org.springframework.jms.support.SimpleJmsHeaderMapperTests" time="0.002"/>
+  <testcase name="jmsTypeMappedFromHeader()" classname="org.springframework.jms.support.SimpleJmsHeaderMapperTests" time="0.0"/>
+  <testcase name="attemptToReadDisallowedMessageIdPropertyIsNotFatal()" classname="org.springframework.jms.support.SimpleJmsHeaderMapperTests" time="0.001"/>
+  <testcase name="attemptToReadDisallowedDeliveryModePropertyIsNotFatal()" classname="org.springframework.jms.support.SimpleJmsHeaderMapperTests" time="0.003"/>
+  <testcase name="userDefinedPropertyMappedToHeader()" classname="org.springframework.jms.support.SimpleJmsHeaderMapperTests" time="0.0"/>
+  <testcase name="jmsTypeIgnoredIfIncorrectType()" classname="org.springframework.jms.support.SimpleJmsHeaderMapperTests" time="0.001"/>
+  <testcase name="JmsReplyToIgnoredIfIncorrectType()" classname="org.springframework.jms.support.SimpleJmsHeaderMapperTests" time="0.0"/>
+  <testcase name="jmsExpirationMappedToHeader()" classname="org.springframework.jms.support.SimpleJmsHeaderMapperTests" time="0.0"/>
+  <testcase name="jmsCorrelationIdMappedToHeader()" classname="org.springframework.jms.support.SimpleJmsHeaderMapperTests" time="0.0"/>
+  <testcase name="jmsCorrelationIdNumberConvertsToString()" classname="org.springframework.jms.support.SimpleJmsHeaderMapperTests" time="0.0"/>
+  <testcase name="jmsReadOnlyPropertiesNotMapped()" classname="org.springframework.jms.support.SimpleJmsHeaderMapperTests" time="0.001"/>
+  <testcase name="attemptToReadDisallowedUserPropertyIsNotFatal()" classname="org.springframework.jms.support.SimpleJmsHeaderMapperTests" time="0.001"/>
+  <testcase name="jmsPriorityMappedToHeader()" classname="org.springframework.jms.support.SimpleJmsHeaderMapperTests" time="0.0"/>
+  <testcase name="jmsCorrelationIdIgnoredIfIncorrectType()" classname="org.springframework.jms.support.SimpleJmsHeaderMapperTests" time="0.001"/>
+  <testcase name="jmsReplyToMappedFromHeader()" classname="org.springframework.jms.support.SimpleJmsHeaderMapperTests" time="0.001"/>
+  <testcase name="attemptToReadDisallowedExpirationPropertyIsNotFatal()" classname="org.springframework.jms.support.SimpleJmsHeaderMapperTests" time="0.001"/>
+  <testcase name="destinationMappedToHeader()" classname="org.springframework.jms.support.SimpleJmsHeaderMapperTests" time="0.009"/>
+  <testcase name="propertyMappingExceptionIsNotFatal()" classname="org.springframework.jms.support.SimpleJmsHeaderMapperTests" time="0.004"/>
+  <testcase name="attemptToWriteDisallowedCorrelationIdStringPropertyIsNotFatal()" classname="org.springframework.jms.support.SimpleJmsHeaderMapperTests" time="0.003"/>
+  <testcase name="contentTypePropertyMappedToHeader()" classname="org.springframework.jms.support.SimpleJmsHeaderMapperTests" time="0.001"/>
+  <testcase name="jmsMessageIdMappedToHeader()" classname="org.springframework.jms.support.SimpleJmsHeaderMapperTests" time="0.001"/>
+  <testcase name="attemptToWriteDisallowedCorrelationIdNumberPropertyIsNotFatal()" classname="org.springframework.jms.support.SimpleJmsHeaderMapperTests" time="0.001"/>
+  <testcase name="contentTypePropertyMappedFromHeader()" classname="org.springframework.jms.support.SimpleJmsHeaderMapperTests" time="0.0"/>
+  <testcase name="illegalArgumentExceptionIsNotFatal()" classname="org.springframework.jms.support.SimpleJmsHeaderMapperTests" time="0.001"/>
+  <testcase name="attemptToReadDisallowedTypePropertyIsNotFatal()" classname="org.springframework.jms.support.SimpleJmsHeaderMapperTests" time="0.001"/>
+  <testcase name="jmsCorrelationIdMappedFromHeader()" classname="org.springframework.jms.support.SimpleJmsHeaderMapperTests" time="0.0"/>
+  <testcase name="attemptToReadDisallowedRedeliveredPropertyIsNotFatal()" classname="org.springframework.jms.support.SimpleJmsHeaderMapperTests" time="0.001"/>
+  <testcase name="attemptToWriteDisallowedTypePropertyIsNotFatal()" classname="org.springframework.jms.support.SimpleJmsHeaderMapperTests" time="0.002"/>
+  <testcase name="attemptToReadDisallowedDestinationPropertyIsNotFatal()" classname="org.springframework.jms.support.SimpleJmsHeaderMapperTests" time="0.001"/>
+  <testcase name="jmsDeliveryModeMappedToHeader()" classname="org.springframework.jms.support.SimpleJmsHeaderMapperTests" time="0.0"/>
+  <testcase name="userDefinedPropertyMappedToHeaderWithCustomPrefix()" classname="org.springframework.jms.support.SimpleJmsHeaderMapperTests" time="0.0"/>
+  <testcase name="jmsReplyToMappedToHeader()" classname="org.springframework.jms.support.SimpleJmsHeaderMapperTests" time="0.001"/>
+  <testcase name="attemptToReadDisallowedPriorityPropertyIsNotFatal()" classname="org.springframework.jms.support.SimpleJmsHeaderMapperTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

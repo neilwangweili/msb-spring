@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.test.web.reactive.server.StatusAssertionTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:41:25" hostname="wangweilideMacBook-Pro.local" time="0.027">
+  <properties/>
+  <testcase name="isEqualTo()" classname="org.springframework.test.web.reactive.server.StatusAssertionTests" time="0.016"/>
+  <testcase name="matchesCustomStatusValue()" classname="org.springframework.test.web.reactive.server.StatusAssertionTests" time="0.0"/>
+  <testcase name="reasonEquals()" classname="org.springframework.test.web.reactive.server.StatusAssertionTests" time="0.001"/>
+  <testcase name="statusSeries1xx()" classname="org.springframework.test.web.reactive.server.StatusAssertionTests" time="0.001"/>
+  <testcase name="statusSeries2xx()" classname="org.springframework.test.web.reactive.server.StatusAssertionTests" time="0.0"/>
+  <testcase name="statusSeries3xx()" classname="org.springframework.test.web.reactive.server.StatusAssertionTests" time="0.001"/>
+  <testcase name="statusSeries4xx()" classname="org.springframework.test.web.reactive.server.StatusAssertionTests" time="0.001"/>
+  <testcase name="statusSeries5xx()" classname="org.springframework.test.web.reactive.server.StatusAssertionTests" time="0.001"/>
+  <testcase name="matchesStatusValue()" classname="org.springframework.test.web.reactive.server.StatusAssertionTests" time="0.004"/>
+  <testcase name="isEqualToWithCustomStatus()" classname="org.springframework.test.web.reactive.server.StatusAssertionTests" time="0.0"/>
+  <system-out><![CDATA[15:41:25.202 [Test worker] ERROR o.s.t.w.r.s.ExchangeResult - Request details for assertion failure:
+
+> GET /
+> 
+
+No content
+
+< 409 CONFLICT Conflict
+< 
+
+No content
+
+15:41:25.202 [Test worker] ERROR o.s.t.w.r.s.ExchangeResult - Request details for assertion failure:
+
+> GET /
+> 
+
+No content
+
+< 409 CONFLICT Conflict
+< 
+
+No content
+
+15:41:25.204 [Test worker] ERROR o.s.t.w.r.s.ExchangeResult - Request details for assertion failure:
+
+> GET /
+> 
+
+No content
+
+< 409 CONFLICT Conflict
+< 
+
+No content
+
+15:41:25.205 [Test worker] ERROR o.s.t.w.r.s.ExchangeResult - Request details for assertion failure:
+
+> GET /
+> 
+
+No content
+
+< 100 CONTINUE Continue
+< 
+
+No content
+
+15:41:25.206 [Test worker] ERROR o.s.t.w.r.s.ExchangeResult - Request details for assertion failure:
+
+> GET /
+> 
+
+No content
+
+< 200 OK OK
+< 
+
+No content
+
+15:41:25.207 [Test worker] ERROR o.s.t.w.r.s.ExchangeResult - Request details for assertion failure:
+
+> GET /
+> 
+
+No content
+
+< 308 PERMANENT_REDIRECT Permanent Redirect
+< 
+
+No content
+
+15:41:25.208 [Test worker] ERROR o.s.t.w.r.s.ExchangeResult - Request details for assertion failure:
+
+> GET /
+> 
+
+No content
+
+< 400 BAD_REQUEST Bad Request
+< 
+
+No content
+
+15:41:25.209 [Test worker] ERROR o.s.t.w.r.s.ExchangeResult - Request details for assertion failure:
+
+> GET /
+> 
+
+No content
+
+< 500 INTERNAL_SERVER_ERROR Internal Server Error
+< 
+
+No content
+
+15:41:25.214 [Test worker] ERROR o.s.t.w.r.s.ExchangeResult - Request details for assertion failure:
+
+> GET /
+> 
+
+No content
+
+< 409 CONFLICT Conflict
+< 
+
+No content
+
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

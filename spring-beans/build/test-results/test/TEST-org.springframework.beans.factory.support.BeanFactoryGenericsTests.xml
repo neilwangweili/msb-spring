@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.beans.factory.support.BeanFactoryGenericsTests" tests="43" skipped="1" failures="0" errors="0" timestamp="2021-04-26T07:39:40" hostname="wangweilideMacBook-Pro.local" time="0.18">
+  <properties/>
+  <testcase name="testGenericListProperty()" classname="org.springframework.beans.factory.support.BeanFactoryGenericsTests" time="0.001"/>
+  <testcase name="testGenericSetFactoryMethod()" classname="org.springframework.beans.factory.support.BeanFactoryGenericsTests" time="0.002"/>
+  <testcase name="testGenericMapWithKeyTypeConstructor()" classname="org.springframework.beans.factory.support.BeanFactoryGenericsTests" time="0.002"/>
+  <testcase name="testGenericMapMapConstructorWithSameRefAndNoConversion()" classname="org.springframework.beans.factory.support.BeanFactoryGenericsTests" time="0.003"/>
+  <testcase name="testGenericSetMapFactoryMethod()" classname="org.springframework.beans.factory.support.BeanFactoryGenericsTests" time="0.001"/>
+  <testcase name="testGenericMapMapConstructor()" classname="org.springframework.beans.factory.support.BeanFactoryGenericsTests" time="0.001"/>
+  <testcase name="testGenericMapResourceFactoryMethod()" classname="org.springframework.beans.factory.support.BeanFactoryGenericsTests" time="0.001"/>
+  <testcase name="parameterizedInstanceFactoryMethod()" classname="org.springframework.beans.factory.support.BeanFactoryGenericsTests" time="0.003"/>
+  <testcase name="parameterizedInstanceFactoryMethodWithIndexedArgument()" classname="org.springframework.beans.factory.support.BeanFactoryGenericsTests" time="0.0"/>
+  <testcase name="testGenericMatchingWithBeanNameDifferentiation()" classname="org.springframework.beans.factory.support.BeanFactoryGenericsTests" time="0.001"/>
+  <testcase name="parameterizedInstanceFactoryMethodWithNonResolvedClassName()" classname="org.springframework.beans.factory.support.BeanFactoryGenericsTests" time="0.0"/>
+  <testcase name="testGenericListPropertyWithInvalidElementType()" classname="org.springframework.beans.factory.support.BeanFactoryGenericsTests" time="0.001"/>
+  <testcase name="testGenericMapMapConstructorWithSameRefAndConversion()" classname="org.springframework.beans.factory.support.BeanFactoryGenericsTests" time="0.001"/>
+  <testcase name="parameterizedInstanceFactoryMethodWithTempClassLoader()" classname="org.springframework.beans.factory.support.BeanFactoryGenericsTests" time="0.001"/>
+  <testcase name="testGenericListPropertyWithAutowiring()" classname="org.springframework.beans.factory.support.BeanFactoryGenericsTests" time="0.008"/>
+  <testcase name="testGenericSetProperty()" classname="org.springframework.beans.factory.support.BeanFactoryGenericsTests" time="0.0"/>
+  <testcase name="testGenericListBean()" classname="org.springframework.beans.factory.support.BeanFactoryGenericsTests" time="0.021"/>
+  <testcase name="testGenericallyTypedSetOfIntegerBean()" classname="org.springframework.beans.factory.support.BeanFactoryGenericsTests" time="0.004"/>
+  <testcase name="testGenericallyTypedIntegerBean()" classname="org.springframework.beans.factory.support.BeanFactoryGenericsTests" time="0.009"/>
+  <testcase name="testGenericListOfArraysProperty()" classname="org.springframework.beans.factory.support.BeanFactoryGenericsTests" time="0.004"/>
+  <testcase name="testGenericSetConstructorWithOptionalAutowiring()" classname="org.springframework.beans.factory.support.BeanFactoryGenericsTests" time="0.002"/>
+  <testcase name="parameterizedStaticFactoryMethod()" classname="org.springframework.beans.factory.support.BeanFactoryGenericsTests" time="0.041"/>
+  <testcase name="testGenericMapBean()" classname="org.springframework.beans.factory.support.BeanFactoryGenericsTests" time="0.007"/>
+  <testcase name="parameterizedInstanceFactoryMethodWithWrappedClassName()" classname="org.springframework.beans.factory.support.BeanFactoryGenericsTests" time="0.002"/>
+  <testcase name="testGenericSetConstructorWithAutowiring()" classname="org.springframework.beans.factory.support.BeanFactoryGenericsTests" time="0.002"/>
+  <testcase name="testGenericSetListConstructorWithOptionalAutowiring()" classname="org.springframework.beans.factory.support.BeanFactoryGenericsTests" time="0.002"/>
+  <testcase name="testGenericMapWithCollectionValueFactoryMethod()" classname="org.springframework.beans.factory.support.BeanFactoryGenericsTests" time="0.002"/>
+  <testcase name="parameterizedInstanceFactoryMethodWithInvalidClassName()" classname="org.springframework.beans.factory.support.BeanFactoryGenericsTests" time="0.003"/>
+  <testcase name="testGenericMapResourceConstructor()" classname="org.springframework.beans.factory.support.BeanFactoryGenericsTests" time="0.002"/>
+  <testcase name="testGenericListPropertyWithOptionalAutowiring()" classname="org.springframework.beans.factory.support.BeanFactoryGenericsTests" time="0.001"/>
+  <testcase name="testGenericSetListConstructor()" classname="org.springframework.beans.factory.support.BeanFactoryGenericsTests" time="0.001"/>
+  <testcase name="testGenericMapWithKeyTypeFactoryMethod()" classname="org.springframework.beans.factory.support.BeanFactoryGenericsTests" time="0.002"/>
+  <testcase name="testGenericMatchingWithFullTypeDifferentiation()" classname="org.springframework.beans.factory.support.BeanFactoryGenericsTests" time="0.01"/>
+  <testcase name="testGenericMapProperty()" classname="org.springframework.beans.factory.support.BeanFactoryGenericsTests" time="0.0"/>
+  <testcase name="testGenericSetListFactoryMethod()" classname="org.springframework.beans.factory.support.BeanFactoryGenericsTests" time="0.002"/>
+  <testcase name="testGenericSetBean()" classname="org.springframework.beans.factory.support.BeanFactoryGenericsTests" time="0.004"/>
+  <testcase name="testGenericSetListConstructorWithAutowiring()" classname="org.springframework.beans.factory.support.BeanFactoryGenericsTests" time="0.008"/>
+  <testcase name="testGenericMapWithCollectionValueConstructor()" classname="org.springframework.beans.factory.support.BeanFactoryGenericsTests" time="0.006"/>
+  <testcase name="testSetBean()" classname="org.springframework.beans.factory.support.BeanFactoryGenericsTests" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testGenericMatchingWithUnresolvedOrderedStream()" classname="org.springframework.beans.factory.support.BeanFactoryGenericsTests" time="0.0"/>
+  <testcase name="testGenericSetConstructor()" classname="org.springframework.beans.factory.support.BeanFactoryGenericsTests" time="0.001"/>
+  <testcase name="testGenericMapMapFactoryMethod()" classname="org.springframework.beans.factory.support.BeanFactoryGenericsTests" time="0.001"/>
+  <testcase name="testGenericSetMapConstructor()" classname="org.springframework.beans.factory.support.BeanFactoryGenericsTests" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

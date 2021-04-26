@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.mock.web.MockHttpServletRequestTests" tests="68" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:41:26" hostname="wangweilideMacBook-Pro.local" time="0.033">
+  <properties/>
+  <testcase name="setContentTypeUTF8()" classname="org.springframework.mock.web.MockHttpServletRequestTests" time="0.0"/>
+  <testcase name="getServerPortViaHostHeaderWithoutPort()" classname="org.springframework.mock.web.MockHttpServletRequestTests" time="0.0"/>
+  <testcase name="getRequestURLWithIpv6AddressViaHostHeaderWithoutPort()" classname="org.springframework.mock.web.MockHttpServletRequestTests" time="0.002"/>
+  <testcase name="getServerPortWithCustomPort()" classname="org.springframework.mock.web.MockHttpServletRequestTests" time="0.0"/>
+  <testcase name="protocolAndScheme()" classname="org.springframework.mock.web.MockHttpServletRequestTests" time="0.0"/>
+  <testcase name="getRequestURLWithIpv6AddressViaHostHeaderWithPort()" classname="org.springframework.mock.web.MockHttpServletRequestTests" time="0.0"/>
+  <testcase name="httpHeaderTimestamp()" classname="org.springframework.mock.web.MockHttpServletRequestTests" time="0.0"/>
+  <testcase name="getServerNameViaHostHeaderWithPort()" classname="org.springframework.mock.web.MockHttpServletRequestTests" time="0.0"/>
+  <testcase name="httpHeaderFormattedDateError()" classname="org.springframework.mock.web.MockHttpServletRequestTests" time="0.001"/>
+  <testcase name="httpHeaderFirstVariantFormattedDate()" classname="org.springframework.mock.web.MockHttpServletRequestTests" time="0.001"/>
+  <testcase name="getServerNameViaHostHeaderAsIpv6AddressWithPort()" classname="org.springframework.mock.web.MockHttpServletRequestTests" time="0.0"/>
+  <testcase name="setMultipleParameters()" classname="org.springframework.mock.web.MockHttpServletRequestTests" time="0.001"/>
+  <testcase name="setPreferredLocalesWithNullList()" classname="org.springframework.mock.web.MockHttpServletRequestTests" time="0.001"/>
+  <testcase name="getRequestURLWithDefaultsAndHttps()" classname="org.springframework.mock.web.MockHttpServletRequestTests" time="0.0"/>
+  <testcase name="getServerNameViaHostHeaderAsIpv6AddressWithoutPort()" classname="org.springframework.mock.web.MockHttpServletRequestTests" time="0.0"/>
+  <testcase name="getServerNameViaHostHeaderWithoutPort()" classname="org.springframework.mock.web.MockHttpServletRequestTests" time="0.0"/>
+  <testcase name="httpHeaderSecondVariantFormattedDate()" classname="org.springframework.mock.web.MockHttpServletRequestTests" time="0.001"/>
+  <testcase name="httpHeaderNameCasingIsPreserved()" classname="org.springframework.mock.web.MockHttpServletRequestTests" time="0.0"/>
+  <testcase name="getServerPortViaHostHeaderWithPort()" classname="org.springframework.mock.web.MockHttpServletRequestTests" time="0.0"/>
+  <testcase name="getServerNameWithInvalidIpv6AddressViaHostHeader()" classname="org.springframework.mock.web.MockHttpServletRequestTests" time="0.001"/>
+  <testcase name="getServerPortViaHostHeaderAsIpv6AddressWithPort()" classname="org.springframework.mock.web.MockHttpServletRequestTests" time="0.0"/>
+  <testcase name="setPreferredLocales()" classname="org.springframework.mock.web.MockHttpServletRequestTests" time="0.0"/>
+  <testcase name="getInputStreamTwice()" classname="org.springframework.mock.web.MockHttpServletRequestTests" time="0.004"/>
+  <testcase name="setContentAndGetReader()" classname="org.springframework.mock.web.MockHttpServletRequestTests" time="0.0"/>
+  <testcase name="httpHeaderRfcFormattedDate()" classname="org.springframework.mock.web.MockHttpServletRequestTests" time="0.001"/>
+  <testcase name="getServerPortWithInvalidIpv6AddressViaHostHeader()" classname="org.springframework.mock.web.MockHttpServletRequestTests" time="0.001"/>
+  <testcase name="contentTypeHeader()" classname="org.springframework.mock.web.MockHttpServletRequestTests" time="0.0"/>
+  <testcase name="setContentAndGetInputStream()" classname="org.springframework.mock.web.MockHttpServletRequestTests" time="0.0"/>
+  <testcase name="getInputStreamAfterGettingReader()" classname="org.springframework.mock.web.MockHttpServletRequestTests" time="0.001"/>
+  <testcase name="setContentAndGetContentAsByteArray()" classname="org.springframework.mock.web.MockHttpServletRequestTests" time="0.0"/>
+  <testcase name="setContentAndGetContentAsStringWithExplicitCharacterEncoding()" classname="org.springframework.mock.web.MockHttpServletRequestTests" time="0.0"/>
+  <testcase name="getRequestURL()" classname="org.springframework.mock.web.MockHttpServletRequestTests" time="0.001"/>
+  <testcase name="getServerNameWithDefaultName()" classname="org.springframework.mock.web.MockHttpServletRequestTests" time="0.0"/>
+  <testcase name="getReaderTwice()" classname="org.springframework.mock.web.MockHttpServletRequestTests" time="0.0"/>
+  <testcase name="getServerNameWithCustomName()" classname="org.springframework.mock.web.MockHttpServletRequestTests" time="0.0"/>
+  <testcase name="isSecureWithHttpSchemeAndSecureFlagIsFalse()" classname="org.springframework.mock.web.MockHttpServletRequestTests" time="0.0"/>
+  <testcase name="isSecureWithHttpSchemeAndSecureFlagIsTrue()" classname="org.springframework.mock.web.MockHttpServletRequestTests" time="0.001"/>
+  <testcase name="removeAllParameters()" classname="org.springframework.mock.web.MockHttpServletRequestTests" time="0.0"/>
+  <testcase name="addMultipleParameters()" classname="org.springframework.mock.web.MockHttpServletRequestTests" time="0.0"/>
+  <testcase name="setContentTypeHeaderWithMoreComplexCharsetSyntax()" classname="org.springframework.mock.web.MockHttpServletRequestTests" time="0.0"/>
+  <testcase name="emptyAcceptLanguageHeader()" classname="org.springframework.mock.web.MockHttpServletRequestTests" time="0.0"/>
+  <testcase name="getRequestURLWithHostHeader()" classname="org.springframework.mock.web.MockHttpServletRequestTests" time="0.0"/>
+  <testcase name="getContentAsStringWithoutSettingCharacterEncoding()" classname="org.springframework.mock.web.MockHttpServletRequestTests" time="0.001"/>
+  <testcase name="getRequestURLWithIpv6AddressViaServerNameWithoutPort()" classname="org.springframework.mock.web.MockHttpServletRequestTests" time="0.0"/>
+  <testcase name="getServerPortWithDefaultPort()" classname="org.springframework.mock.web.MockHttpServletRequestTests" time="0.001"/>
+  <testcase name="contentTypeHeaderUTF8()" classname="org.springframework.mock.web.MockHttpServletRequestTests" time="0.0"/>
+  <testcase name="isSecureWithHttpsSchemeAndSecureFlagIsFalse()" classname="org.springframework.mock.web.MockHttpServletRequestTests" time="0.0"/>
+  <testcase name="getServerPortViaHostHeaderAsIpv6AddressWithoutPort()" classname="org.springframework.mock.web.MockHttpServletRequestTests" time="0.0"/>
+  <testcase name="defaultLocale()" classname="org.springframework.mock.web.MockHttpServletRequestTests" time="0.001"/>
+  <testcase name="setCharacterEncodingThenContentType()" classname="org.springframework.mock.web.MockHttpServletRequestTests" time="0.0"/>
+  <testcase name="getRequestURLWithIpv6AddressViaServerNameWithPort()" classname="org.springframework.mock.web.MockHttpServletRequestTests" time="0.0"/>
+  <testcase name="cookies()" classname="org.springframework.mock.web.MockHttpServletRequestTests" time="0.002"/>
+  <testcase name="getRequestURLWithNegativePort()" classname="org.springframework.mock.web.MockHttpServletRequestTests" time="0.0"/>
+  <testcase name="getRequestURLWithDefaults()" classname="org.springframework.mock.web.MockHttpServletRequestTests" time="0.0"/>
+  <testcase name="setPreferredLocalesWithEmptyList()" classname="org.springframework.mock.web.MockHttpServletRequestTests" time="0.0"/>
+  <testcase name="isSecureWithHttpsSchemeAndSecureFlagIsTrue()" classname="org.springframework.mock.web.MockHttpServletRequestTests" time="0.0"/>
+  <testcase name="getReaderAfterGettingInputStream()" classname="org.springframework.mock.web.MockHttpServletRequestTests" time="0.001"/>
+  <testcase name="invalidAcceptLanguageHeader()" classname="org.springframework.mock.web.MockHttpServletRequestTests" time="0.0"/>
+  <testcase name="setContentType()" classname="org.springframework.mock.web.MockHttpServletRequestTests" time="0.001"/>
+  <testcase name="getServerPortWithIpv6AddressAndInvalidPortViaHostHeader()" classname="org.springframework.mock.web.MockHttpServletRequestTests" time="0.0"/>
+  <testcase name="noContent()" classname="org.springframework.mock.web.MockHttpServletRequestTests" time="0.0"/>
+  <testcase name="noCookies()" classname="org.springframework.mock.web.MockHttpServletRequestTests" time="0.0"/>
+  <testcase name="getRequestURLWithHostHeaderAndPort()" classname="org.springframework.mock.web.MockHttpServletRequestTests" time="0.0"/>
+  <testcase name="httpHeaderDate()" classname="org.springframework.mock.web.MockHttpServletRequestTests" time="0.0"/>
+  <testcase name="setContentTypeThenCharacterEncoding()" classname="org.springframework.mock.web.MockHttpServletRequestTests" time="0.0"/>
+  <testcase name="getRequestURLWithInvalidIpv6AddressViaHostHeader()" classname="org.springframework.mock.web.MockHttpServletRequestTests" time="0.001"/>
+  <testcase name="preferredLocalesFromAcceptLanguageHeader()" classname="org.springframework.mock.web.MockHttpServletRequestTests" time="0.0"/>
+  <testcase name="getRequestURLWithNullRequestUri()" classname="org.springframework.mock.web.MockHttpServletRequestTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

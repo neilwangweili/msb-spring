@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.r2dbc.connection.init.ScriptUtilsUnitTests" tests="11" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:39:21" hostname="wangweilideMacBook-Pro.local" time="0.1">
+  <properties/>
+  <testcase name="readAndSplitScriptContainingMultiLineComments()" classname="org.springframework.r2dbc.connection.init.ScriptUtilsUnitTests" time="0.066"/>
+  <testcase name="splitSqlScriptDelimitedWithSemicolon()" classname="org.springframework.r2dbc.connection.init.ScriptUtilsUnitTests" time="0.002"/>
+  <testcase name="splitSqlScriptDelimitedWithNewLine()" classname="org.springframework.r2dbc.connection.init.ScriptUtilsUnitTests" time="0.001"/>
+  <testcase name="readAndSplitScriptContainingCommentsWithWindowsLineEnding()" classname="org.springframework.r2dbc.connection.init.ScriptUtilsUnitTests" time="0.009"/>
+  <testcase name="containsDelimiters()" classname="org.springframework.r2dbc.connection.init.ScriptUtilsUnitTests" time="0.001"/>
+  <testcase name="readAndSplitScriptContainingMultiLineNestedComments()" classname="org.springframework.r2dbc.connection.init.ScriptUtilsUnitTests" time="0.004"/>
+  <testcase name="readAndSplitScriptWithMultipleNewlinesAsSeparator()" classname="org.springframework.r2dbc.connection.init.ScriptUtilsUnitTests" time="0.003"/>
+  <testcase name="readAndSplitScriptContainingCommentsWithLeadingTabs()" classname="org.springframework.r2dbc.connection.init.ScriptUtilsUnitTests" time="0.003"/>
+  <testcase name="splitScriptWithSingleQuotesNestedInsideDoubleQuotes()" classname="org.springframework.r2dbc.connection.init.ScriptUtilsUnitTests" time="0.001"/>
+  <testcase name="readAndSplitScriptContainingComments()" classname="org.springframework.r2dbc.connection.init.ScriptUtilsUnitTests" time="0.003"/>
+  <testcase name="splitSqlScriptDelimitedWithNewLineButDefaultDelimiterSpecified()" classname="org.springframework.r2dbc.connection.init.ScriptUtilsUnitTests" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

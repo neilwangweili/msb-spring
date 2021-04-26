@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.context.support.ResourceBundleMessageSourceTests" tests="29" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:40:54" hostname="wangweilideMacBook-Pro.local" time="0.532">
+  <properties/>
+  <testcase name="messageAccessWithReloadableMessageSourceAndFallbackTurnedOffAndFallbackToGerman()" classname="org.springframework.context.support.ResourceBundleMessageSourceTests" time="0.022"/>
+  <testcase name="messageAccessWithDefaultMessageSource()" classname="org.springframework.context.support.ResourceBundleMessageSourceTests" time="0.01"/>
+  <testcase name="reloadableResourceBundleMessageSourceWithCommonMessages()" classname="org.springframework.context.support.ResourceBundleMessageSourceTests" time="0.001"/>
+  <testcase name="messageAccessWithDefaultMessageSourceAndMessageFormat()" classname="org.springframework.context.support.ResourceBundleMessageSourceTests" time="0.005"/>
+  <testcase name="messageAccessWithDefaultMessageSourceAndFallbackToGerman()" classname="org.springframework.context.support.ResourceBundleMessageSourceTests" time="0.005"/>
+  <testcase name="messageAccessWithReloadableMessageSource()" classname="org.springframework.context.support.ResourceBundleMessageSourceTests" time="0.006"/>
+  <testcase name="reloadableResourceBundleMessageSourceStandalone()" classname="org.springframework.context.support.ResourceBundleMessageSourceTests" time="0.001"/>
+  <testcase name="messageAccessWithDefaultMessageSourceAndFallbackTurnedOffAndFallbackToGerman()" classname="org.springframework.context.support.ResourceBundleMessageSourceTests" time="0.005"/>
+  <testcase name="resourceBundleMessageSourceWithDefaultCharset()" classname="org.springframework.context.support.ResourceBundleMessageSourceTests" time="0.002"/>
+  <testcase name="defaultApplicationContextMessageSource()" classname="org.springframework.context.support.ResourceBundleMessageSourceTests" time="0.0"/>
+  <testcase name="reloadableResourceBundleMessageSourceFileNameCalculation()" classname="org.springframework.context.support.ResourceBundleMessageSourceTests" time="0.0"/>
+  <testcase name="reloadableResourceBundleMessageSourceWithCacheSeconds()" classname="org.springframework.context.support.ResourceBundleMessageSourceTests" time="0.204"/>
+  <testcase name="reloadableResourceBundleMessageSourceWithInappropriateDefaultCharset()" classname="org.springframework.context.support.ResourceBundleMessageSourceTests" time="0.004"/>
+  <testcase name="resourceBundleMessageSourceWithWhitespaceInBasename()" classname="org.springframework.context.support.ResourceBundleMessageSourceTests" time="0.002"/>
+  <testcase name="resourceBundleMessageSourceWithInappropriateDefaultCharset()" classname="org.springframework.context.support.ResourceBundleMessageSourceTests" time="0.01"/>
+  <testcase name="messageAccessWithReloadableMessageSourceAndMessageFormat()" classname="org.springframework.context.support.ResourceBundleMessageSourceTests" time="0.009"/>
+  <testcase name="reloadableResourceBundleMessageSourceWithNonConcurrentRefresh()" classname="org.springframework.context.support.ResourceBundleMessageSourceTests" time="0.208"/>
+  <testcase name="reloadableResourceBundleMessageSourceWithWhitespaceInBasename()" classname="org.springframework.context.support.ResourceBundleMessageSourceTests" time="0.002"/>
+  <testcase name="staticApplicationContextMessageSourceWithDefaultParent()" classname="org.springframework.context.support.ResourceBundleMessageSourceTests" time="0.001"/>
+  <testcase name="messageAccessWithDefaultMessageSourceAndFallbackTurnedOff()" classname="org.springframework.context.support.ResourceBundleMessageSourceTests" time="0.005"/>
+  <testcase name="defaultApplicationContextMessageSourceWithParent()" classname="org.springframework.context.support.ResourceBundleMessageSourceTests" time="0.001"/>
+  <testcase name="reloadableResourceBundleMessageSourceWithInappropriateGermanCharset()" classname="org.springframework.context.support.ResourceBundleMessageSourceTests" time="0.002"/>
+  <testcase name="messageSourceResourceBundle()" classname="org.springframework.context.support.ResourceBundleMessageSourceTests" time="0.004"/>
+  <testcase name="messageAccessWithReloadableMessageSourceAndFallbackToGerman()" classname="org.springframework.context.support.ResourceBundleMessageSourceTests" time="0.007"/>
+  <testcase name="reloadableResourceBundleMessageSourceWithDefaultCharset()" classname="org.springframework.context.support.ResourceBundleMessageSourceTests" time="0.002"/>
+  <testcase name="reloadableResourceBundleMessageSourceWithInappropriateEnglishCharset()" classname="org.springframework.context.support.ResourceBundleMessageSourceTests" time="0.001"/>
+  <testcase name="staticApplicationContextMessageSourceWithStaticParent()" classname="org.springframework.context.support.ResourceBundleMessageSourceTests" time="0.0"/>
+  <testcase name="resourceBundleMessageSourceStandalone()" classname="org.springframework.context.support.ResourceBundleMessageSourceTests" time="0.002"/>
+  <testcase name="messageAccessWithReloadableMessageSourceAndFallbackTurnedOff()" classname="org.springframework.context.support.ResourceBundleMessageSourceTests" time="0.005"/>
+  <system-out><![CDATA[15:40:54.683 [Test worker] WARN  o.s.c.s.ResourceBundleMessageSource - ResourceBundle [org/springframework/context/support/messages] not found for MessageSource: Can't find bundle for base name org/springframework/context/support/messages, locale en
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

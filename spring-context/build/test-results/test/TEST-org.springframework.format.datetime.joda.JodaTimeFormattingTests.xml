@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.format.datetime.joda.JodaTimeFormattingTests" tests="42" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:41:29" hostname="wangweilideMacBook-Pro.local" time="0.153">
+  <properties/>
+  <testcase name="testBindDateTime()" classname="org.springframework.format.datetime.joda.JodaTimeFormattingTests" time="0.053"/>
+  <testcase name="testBindDateAnnotated()" classname="org.springframework.format.datetime.joda.JodaTimeFormattingTests" time="0.003"/>
+  <testcase name="testBindDateTimeAnnotatedDefault()" classname="org.springframework.format.datetime.joda.JodaTimeFormattingTests" time="0.001"/>
+  <testcase name="testBindYearMonth()" classname="org.springframework.format.datetime.joda.JodaTimeFormattingTests" time="0.006"/>
+  <testcase name="testJodaTimePatternsForStyle()" classname="org.springframework.format.datetime.joda.JodaTimeFormattingTests" time="0.001"/>
+  <testcase name="testBindDateTimeWithSpecificStyle()" classname="org.springframework.format.datetime.joda.JodaTimeFormattingTests" time="0.003"/>
+  <testcase name="testBindDuration()" classname="org.springframework.format.datetime.joda.JodaTimeFormattingTests" time="0.013"/>
+  <testcase name="testBindDateTimeAnnotated()" classname="org.springframework.format.datetime.joda.JodaTimeFormattingTests" time="0.001"/>
+  <testcase name="testBindNestedLocalDateAnnotated()" classname="org.springframework.format.datetime.joda.JodaTimeFormattingTests" time="0.005"/>
+  <testcase name="stringToDateWithGlobalFormat()" classname="org.springframework.format.datetime.joda.JodaTimeFormattingTests" time="0.002"/>
+  <testcase name="testBindDateTimeWithSpecificFormatter()" classname="org.springframework.format.datetime.joda.JodaTimeFormattingTests" time="0.001"/>
+  <testcase name="testBindDateTimeISO()" classname="org.springframework.format.datetime.joda.JodaTimeFormattingTests" time="0.001"/>
+  <testcase name="testBindLongAnnotated()" classname="org.springframework.format.datetime.joda.JodaTimeFormattingTests" time="0.001"/>
+  <testcase name="testBindLocalDateWithSpecificStyle()" classname="org.springframework.format.datetime.joda.JodaTimeFormattingTests" time="0.001"/>
+  <testcase name="testBindLocalDateTime()" classname="org.springframework.format.datetime.joda.JodaTimeFormattingTests" time="0.001"/>
+  <testcase name="testBindISODate()" classname="org.springframework.format.datetime.joda.JodaTimeFormattingTests" time="0.001"/>
+  <testcase name="testBindISOTime()" classname="org.springframework.format.datetime.joda.JodaTimeFormattingTests" time="0.002"/>
+  <testcase name="testBindPeriod()" classname="org.springframework.format.datetime.joda.JodaTimeFormattingTests" time="0.016"/>
+  <testcase name="testBindLocalDateWithSpecificFormatter()" classname="org.springframework.format.datetime.joda.JodaTimeFormattingTests" time="0.001"/>
+  <testcase name="testBindMonthDay()" classname="org.springframework.format.datetime.joda.JodaTimeFormattingTests" time="0.002"/>
+  <testcase name="testBindCalendarAnnotated()" classname="org.springframework.format.datetime.joda.JodaTimeFormattingTests" time="0.009"/>
+  <testcase name="testBindDateTimeAnnotatedPattern()" classname="org.springframework.format.datetime.joda.JodaTimeFormattingTests" time="0.001"/>
+  <testcase name="testBindMutableDateTimeAnnotated()" classname="org.springframework.format.datetime.joda.JodaTimeFormattingTests" time="0.002"/>
+  <testcase name="testBindLocalTimeWithSpecificFormatter()" classname="org.springframework.format.datetime.joda.JodaTimeFormattingTests" time="0.002"/>
+  <testcase name="testBindLocalDateAnnotatedWithDirectFieldAccess()" classname="org.springframework.format.datetime.joda.JodaTimeFormattingTests" time="0.001"/>
+  <testcase name="testBindLocalDateTimeAnnotated()" classname="org.springframework.format.datetime.joda.JodaTimeFormattingTests" time="0.001"/>
+  <testcase name="dateToStringWithFormat()" classname="org.springframework.format.datetime.joda.JodaTimeFormattingTests" time="0.001"/>
+  <testcase name="testBindDateWithoutErrorFallingBackToDateConstructor()" classname="org.springframework.format.datetime.joda.JodaTimeFormattingTests" time="0.0"/>
+  <testcase name="testBindLocalDateAnnotatedWithError()" classname="org.springframework.format.datetime.joda.JodaTimeFormattingTests" time="0.001"/>
+  <testcase name="testBindLocalDateArray()" classname="org.springframework.format.datetime.joda.JodaTimeFormattingTests" time="0.001"/>
+  <testcase name="testBindDateTimeOverflow()" classname="org.springframework.format.datetime.joda.JodaTimeFormattingTests" time="0.001"/>
+  <testcase name="testBindLocalTimeWithSpecificStyle()" classname="org.springframework.format.datetime.joda.JodaTimeFormattingTests" time="0.001"/>
+  <testcase name="testBindLocalDateAnnotated()" classname="org.springframework.format.datetime.joda.JodaTimeFormattingTests" time="0.0"/>
+  <testcase name="testBindISODateTime()" classname="org.springframework.format.datetime.joda.JodaTimeFormattingTests" time="0.001"/>
+  <testcase name="testBindLong()" classname="org.springframework.format.datetime.joda.JodaTimeFormattingTests" time="0.0"/>
+  <testcase name="testBindLocalTimeAnnotated()" classname="org.springframework.format.datetime.joda.JodaTimeFormattingTests" time="0.001"/>
+  <testcase name="testBindDateWithErrorAvoidingDateConstructor()" classname="org.springframework.format.datetime.joda.JodaTimeFormattingTests" time="0.001"/>
+  <testcase name="stringToDateWithoutGlobalFormat()" classname="org.springframework.format.datetime.joda.JodaTimeFormattingTests" time="0.001"/>
+  <testcase name="testBindInstantAnnotated()" classname="org.springframework.format.datetime.joda.JodaTimeFormattingTests" time="0.001"/>
+  <testcase name="testBindLocalDateAnnotatedWithDirectFieldAccessAndError()" classname="org.springframework.format.datetime.joda.JodaTimeFormattingTests" time="0.001"/>
+  <testcase name="testBindLocalDate()" classname="org.springframework.format.datetime.joda.JodaTimeFormattingTests" time="0.001"/>
+  <testcase name="testBindLocalTime()" classname="org.springframework.format.datetime.joda.JodaTimeFormattingTests" time="0.001"/>
+  <system-out><![CDATA[M/d/yy, h:mm a
+MMM d, y, h:mm:ss a
+MMMM d, y 'at' h:mm:ss a z
+EEEE, MMMM d, y 'at' h:mm:ss a zzzz
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

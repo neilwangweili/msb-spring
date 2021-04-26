@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.socket.messaging.SubProtocolWebSocketHandlerTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:42:16" hostname="wangweilideMacBook-Pro.local" time="0.033">
+  <properties/>
+  <testcase name="noSubProtocolOneHandler()" classname="org.springframework.web.socket.messaging.SubProtocolWebSocketHandlerTests" time="0.016"/>
+  <testcase name="subProtocolNoMatch()" classname="org.springframework.web.socket.messaging.SubProtocolWebSocketHandlerTests" time="0.002"/>
+  <testcase name="nullSubProtocol()" classname="org.springframework.web.socket.messaging.SubProtocolWebSocketHandlerTests" time="0.002"/>
+  <testcase name="noSubProtocolTwoHandlers()" classname="org.springframework.web.socket.messaging.SubProtocolWebSocketHandlerTests" time="0.001"/>
+  <testcase name="subProtocolMatch()" classname="org.springframework.web.socket.messaging.SubProtocolWebSocketHandlerTests" time="0.001"/>
+  <testcase name="emptySubProtocol()" classname="org.springframework.web.socket.messaging.SubProtocolWebSocketHandlerTests" time="0.002"/>
+  <testcase name="subProtocolDefaultHandlerOnly()" classname="org.springframework.web.socket.messaging.SubProtocolWebSocketHandlerTests" time="0.002"/>
+  <testcase name="noSubProtocolNoDefaultHandler()" classname="org.springframework.web.socket.messaging.SubProtocolWebSocketHandlerTests" time="0.001"/>
+  <testcase name="checkSession()" classname="org.springframework.web.socket.messaging.SubProtocolWebSocketHandlerTests" time="0.002"/>
+  <system-out><![CDATA[15:42:16.981 [Test worker] ERROR o.s.w.s.m.SubProtocolWebSocketHandler - No sub-protocols for defaultHandler
+15:42:16.984 [Test worker] ERROR o.s.w.s.m.SubProtocolWebSocketHandler - No sub-protocols for defaultHandler
+15:42:16.989 [Test worker] ERROR o.s.w.s.m.SubProtocolWebSocketHandler - No sub-protocols for defaultHandler
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.jms.connection.SingleConnectionFactoryTests" tests="18" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:39:25" hostname="wangweilideMacBook-Pro.local" time="0.3">
+  <properties/>
+  <testcase name="testCachingConnectionFactory()" classname="org.springframework.jms.connection.SingleConnectionFactoryTests" time="0.023"/>
+  <testcase name="testWithConnectionFactoryAndReconnectOnException()" classname="org.springframework.jms.connection.SingleConnectionFactoryTests" time="0.009"/>
+  <testcase name="testWithConnectionAggregatedStartStop()" classname="org.springframework.jms.connection.SingleConnectionFactoryTests" time="0.005"/>
+  <testcase name="testWithTopicConnectionFactoryAndJms102Usage()" classname="org.springframework.jms.connection.SingleConnectionFactoryTests" time="0.079"/>
+  <testcase name="testWithConnectionFactoryAndLocalExceptionListenerWithReconnect()" classname="org.springframework.jms.connection.SingleConnectionFactoryTests" time="0.006"/>
+  <testcase name="testWithConnectionFactoryAndExceptionListenerAndReconnectOnException()" classname="org.springframework.jms.connection.SingleConnectionFactoryTests" time="0.001"/>
+  <testcase name="testWithTopicConnectionFactoryAndJms11Usage()" classname="org.springframework.jms.connection.SingleConnectionFactoryTests" time="0.003"/>
+  <testcase name="testWithConnection()" classname="org.springframework.jms.connection.SingleConnectionFactoryTests" time="0.002"/>
+  <testcase name="testWithConnectionFactoryAndExceptionListener()" classname="org.springframework.jms.connection.SingleConnectionFactoryTests" time="0.015"/>
+  <testcase name="testWithTopicConnection()" classname="org.springframework.jms.connection.SingleConnectionFactoryTests" time="0.003"/>
+  <testcase name="testCachingConnectionFactoryWithTopicConnectionFactoryAndJms102Usage()" classname="org.springframework.jms.connection.SingleConnectionFactoryTests" time="0.075"/>
+  <testcase name="testWithQueueConnectionFactoryAndJms102Usage()" classname="org.springframework.jms.connection.SingleConnectionFactoryTests" time="0.02"/>
+  <testcase name="testWithQueueConnectionFactoryAndJms11Usage()" classname="org.springframework.jms.connection.SingleConnectionFactoryTests" time="0.003"/>
+  <testcase name="testWithConnectionFactoryAndClientId()" classname="org.springframework.jms.connection.SingleConnectionFactoryTests" time="0.003"/>
+  <testcase name="testWithConnectionFactoryAndLocalExceptionListenerWithCleanup()" classname="org.springframework.jms.connection.SingleConnectionFactoryTests" time="0.016"/>
+  <testcase name="testWithConnectionFactory()" classname="org.springframework.jms.connection.SingleConnectionFactoryTests" time="0.002"/>
+  <testcase name="testWithQueueConnection()" classname="org.springframework.jms.connection.SingleConnectionFactoryTests" time="0.002"/>
+  <testcase name="testCachingConnectionFactoryWithQueueConnectionFactoryAndJms102Usage()" classname="org.springframework.jms.connection.SingleConnectionFactoryTests" time="0.028"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

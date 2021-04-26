@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.test.web.servlet.samples.client.standalone.resultmatches.HeaderAssertionTests" tests="15" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:41:18" hostname="wangweilideMacBook-Pro.local" time="0.342">
+  <properties/>
+  <testcase name="longValueWithMissingResponseHeader()" classname="org.springframework.test.web.servlet.samples.client.standalone.resultmatches.HeaderAssertionTests" time="0.026"/>
+  <testcase name="exists()" classname="org.springframework.test.web.servlet.samples.client.standalone.resultmatches.HeaderAssertionTests" time="0.02"/>
+  <testcase name="stringWithMatcherAndMissingResponseHeader()" classname="org.springframework.test.web.servlet.samples.client.standalone.resultmatches.HeaderAssertionTests" time="0.014"/>
+  <testcase name="stringWithMatcherAndCorrectResponseHeaderValue()" classname="org.springframework.test.web.servlet.samples.client.standalone.resultmatches.HeaderAssertionTests" time="0.021"/>
+  <testcase name="multiStringHeaderValue()" classname="org.springframework.test.web.servlet.samples.client.standalone.resultmatches.HeaderAssertionTests" time="0.019"/>
+  <testcase name="longValueWithIncorrectResponseHeaderValue()" classname="org.springframework.test.web.servlet.samples.client.standalone.resultmatches.HeaderAssertionTests" time="0.026"/>
+  <testcase name="doesNotExist()" classname="org.springframework.test.web.servlet.samples.client.standalone.resultmatches.HeaderAssertionTests" time="0.023"/>
+  <testcase name="existsFail()" classname="org.springframework.test.web.servlet.samples.client.standalone.resultmatches.HeaderAssertionTests" time="0.023"/>
+  <testcase name="doesNotExistFail()" classname="org.springframework.test.web.servlet.samples.client.standalone.resultmatches.HeaderAssertionTests" time="0.022"/>
+  <testcase name="multiStringHeaderValueWithMatchers()" classname="org.springframework.test.web.servlet.samples.client.standalone.resultmatches.HeaderAssertionTests" time="0.02"/>
+  <testcase name="stringWithMissingResponseHeader()" classname="org.springframework.test.web.servlet.samples.client.standalone.resultmatches.HeaderAssertionTests" time="0.021"/>
+  <testcase name="dateValueWithCorrectResponseHeaderValue()" classname="org.springframework.test.web.servlet.samples.client.standalone.resultmatches.HeaderAssertionTests" time="0.025"/>
+  <testcase name="longValueWithCorrectResponseHeaderValue()" classname="org.springframework.test.web.servlet.samples.client.standalone.resultmatches.HeaderAssertionTests" time="0.021"/>
+  <testcase name="stringWithMatcherAndIncorrectResponseHeaderValue()" classname="org.springframework.test.web.servlet.samples.client.standalone.resultmatches.HeaderAssertionTests" time="0.028"/>
+  <testcase name="stringWithCorrectResponseHeaderValue()" classname="org.springframework.test.web.servlet.samples.client.standalone.resultmatches.HeaderAssertionTests" time="0.024"/>
+  <system-out><![CDATA[15:41:18.063 [Test worker] ERROR o.s.t.w.r.s.ExchangeResult - Request details for assertion failure:
+
+> GET /persons/1
+> WebTestClient-Request-Id: [1]
+> If-Modified-Since: [Mon, 26 Apr 2021 07:41:18 GMT]
+
+No content
+
+< 304 NOT_MODIFIED Not Modified
+< Last-Modified: [Mon, 26 Apr 2021 07:41:18 GMT]
+< X-Rate-Limiting: [42]
+< Vary: [foo, bar]
+
+0 bytes of content (unknown content-type).
+
+======================  MockMvc (Server) ===============================
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /persons/1
+       Parameters = {}
+          Headers = [WebTestClient-Request-Id:"1", If-Modified-Since:"Mon, 26 Apr 2021 07:41:18 GMT"]
+             Body = <no character encoding set>
+    Session Attrs = {}
+
+Handler:
+             Type = org.springframework.test.web.servlet.samples.client.standalone.resultmatches.HeaderAssertionTests$PersonController
+           Method = org.springframework.test.web.servlet.samples.client.standalone.resultmatches.HeaderAssertionTests$PersonController#showEntity(long, WebRequest)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 304
+    Error message = null
+          Headers = [Last-Modified:"Mon, 26 Apr 2021 07:41:18 GMT", X-Rate-Limiting:"42", Vary:"foo", "bar"]
+     Content type = null
+             Body = 
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+
+
+15:41:18.166 [Test worker] ERROR o.s.t.w.r.s.ExchangeResult - Request details for assertion failure:
+
+> GET /persons/1
+> WebTestClient-Request-Id: [1]
+
+No content
+
+< 200 OK OK
+< Last-Modified: [Mon, 26 Apr 2021 07:41:18 GMT]
+< X-Rate-Limiting: [42]
+< Vary: [foo, bar]
+< Content-Type: [application/xml]
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><person><name>Jason</name><someBoolean>false</someBoolean><someDouble>0.0</someDouble></person>
+
+======================  MockMvc (Server) ===============================
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /persons/1
+       Parameters = {}
+          Headers = [WebTestClient-Request-Id:"1"]
+             Body = <no character encoding set>
+    Session Attrs = {}
+
+Handler:
+             Type = org.springframework.test.web.servlet.samples.client.standalone.resultmatches.HeaderAssertionTests$PersonController
+           Method = org.springframework.test.web.servlet.samples.client.standalone.resultmatches.HeaderAssertionTests$PersonController#showEntity(long, WebRequest)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Last-Modified:"Mon, 26 Apr 2021 07:41:18 GMT", X-Rate-Limiting:"42", Vary:"foo", "bar", Content-Type:"application/xml"]
+     Content type = application/xml
+             Body = <?xml version="1.0" encoding="UTF-8" standalone="yes"?><person><name>Jason</name><someBoolean>false</someBoolean><someDouble>0.0</someDouble></person>
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+
+
+15:41:18.215 [Test worker] ERROR o.s.t.w.r.s.ExchangeResult - Request details for assertion failure:
+
+> GET /persons/1
+> WebTestClient-Request-Id: [1]
+
+No content
+
+< 200 OK OK
+< Last-Modified: [Mon, 26 Apr 2021 07:41:18 GMT]
+< X-Rate-Limiting: [42]
+< Vary: [foo, bar]
+< Content-Type: [application/xml]
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><person><name>Jason</name><someBoolean>false</someBoolean><someDouble>0.0</someDouble></person>
+
+======================  MockMvc (Server) ===============================
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /persons/1
+       Parameters = {}
+          Headers = [WebTestClient-Request-Id:"1"]
+             Body = <no character encoding set>
+    Session Attrs = {}
+
+Handler:
+             Type = org.springframework.test.web.servlet.samples.client.standalone.resultmatches.HeaderAssertionTests$PersonController
+           Method = org.springframework.test.web.servlet.samples.client.standalone.resultmatches.HeaderAssertionTests$PersonController#showEntity(long, WebRequest)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Last-Modified:"Mon, 26 Apr 2021 07:41:18 GMT", X-Rate-Limiting:"42", Vary:"foo", "bar", Content-Type:"application/xml"]
+     Content type = application/xml
+             Body = <?xml version="1.0" encoding="UTF-8" standalone="yes"?><person><name>Jason</name><someBoolean>false</someBoolean><someDouble>0.0</someDouble></person>
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+
+
+15:41:18.237 [Test worker] ERROR o.s.t.w.r.s.ExchangeResult - Request details for assertion failure:
+
+> GET /persons/1
+> WebTestClient-Request-Id: [1]
+
+No content
+
+< 200 OK OK
+< Last-Modified: [Mon, 26 Apr 2021 07:41:18 GMT]
+< X-Rate-Limiting: [42]
+< Vary: [foo, bar]
+< Content-Type: [application/xml]
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><person><name>Jason</name><someBoolean>false</someBoolean><someDouble>0.0</someDouble></person>
+
+======================  MockMvc (Server) ===============================
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /persons/1
+       Parameters = {}
+          Headers = [WebTestClient-Request-Id:"1"]
+             Body = <no character encoding set>
+    Session Attrs = {}
+
+Handler:
+             Type = org.springframework.test.web.servlet.samples.client.standalone.resultmatches.HeaderAssertionTests$PersonController
+           Method = org.springframework.test.web.servlet.samples.client.standalone.resultmatches.HeaderAssertionTests$PersonController#showEntity(long, WebRequest)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Last-Modified:"Mon, 26 Apr 2021 07:41:18 GMT", X-Rate-Limiting:"42", Vary:"foo", "bar", Content-Type:"application/xml"]
+     Content type = application/xml
+             Body = <?xml version="1.0" encoding="UTF-8" standalone="yes"?><person><name>Jason</name><someBoolean>false</someBoolean><someDouble>0.0</someDouble></person>
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+
+
+15:41:18.348 [Test worker] ERROR o.s.t.w.r.s.ExchangeResult - Request details for assertion failure:
+
+> GET /persons/1
+> WebTestClient-Request-Id: [1]
+> If-Modified-Since: [Mon, 26 Apr 2021 07:40:18 GMT]
+
+No content
+
+< 200 OK OK
+< Last-Modified: [Mon, 26 Apr 2021 07:41:18 GMT]
+< X-Rate-Limiting: [42]
+< Vary: [foo, bar]
+< Content-Type: [application/xml]
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><person><name>Jason</name><someBoolean>false</someBoolean><someDouble>0.0</someDouble></person>
+
+======================  MockMvc (Server) ===============================
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /persons/1
+       Parameters = {}
+          Headers = [WebTestClient-Request-Id:"1", If-Modified-Since:"Mon, 26 Apr 2021 07:40:18 GMT"]
+             Body = <no character encoding set>
+    Session Attrs = {}
+
+Handler:
+             Type = org.springframework.test.web.servlet.samples.client.standalone.resultmatches.HeaderAssertionTests$PersonController
+           Method = org.springframework.test.web.servlet.samples.client.standalone.resultmatches.HeaderAssertionTests$PersonController#showEntity(long, WebRequest)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Last-Modified:"Mon, 26 Apr 2021 07:41:18 GMT", X-Rate-Limiting:"42", Vary:"foo", "bar", Content-Type:"application/xml"]
+     Content type = application/xml
+             Body = <?xml version="1.0" encoding="UTF-8" standalone="yes"?><person><name>Jason</name><someBoolean>false</someBoolean><someDouble>0.0</someDouble></person>
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+
+
+15:41:18.352 [Test worker] ERROR o.s.t.w.r.s.ExchangeResult - Request details for assertion failure:
+
+> GET /persons/1
+> WebTestClient-Request-Id: [2]
+> If-Modified-Since: [Mon, 26 Apr 2021 07:40:18 GMT]
+
+No content
+
+< 200 OK OK
+< Last-Modified: [Mon, 26 Apr 2021 07:41:18 GMT]
+< X-Rate-Limiting: [42]
+< Vary: [foo, bar]
+< Content-Type: [application/xml]
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><person><name>Jason</name><someBoolean>false</someBoolean><someDouble>0.0</someDouble></person>
+
+======================  MockMvc (Server) ===============================
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /persons/1
+       Parameters = {}
+          Headers = [WebTestClient-Request-Id:"2", If-Modified-Since:"Mon, 26 Apr 2021 07:40:18 GMT"]
+             Body = <no character encoding set>
+    Session Attrs = {}
+
+Handler:
+             Type = org.springframework.test.web.servlet.samples.client.standalone.resultmatches.HeaderAssertionTests$PersonController
+           Method = org.springframework.test.web.servlet.samples.client.standalone.resultmatches.HeaderAssertionTests$PersonController#showEntity(long, WebRequest)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Last-Modified:"Mon, 26 Apr 2021 07:41:18 GMT", X-Rate-Limiting:"42", Vary:"foo", "bar", Content-Type:"application/xml"]
+     Content type = application/xml
+             Body = <?xml version="1.0" encoding="UTF-8" standalone="yes"?><person><name>Jason</name><someBoolean>false</someBoolean><someDouble>0.0</someDouble></person>
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+
+
+15:41:18.355 [Test worker] ERROR o.s.t.w.r.s.ExchangeResult - Request details for assertion failure:
+
+> GET /persons/1
+> WebTestClient-Request-Id: [3]
+> If-Modified-Since: [Mon, 26 Apr 2021 07:40:18 GMT]
+
+No content
+
+< 200 OK OK
+< Last-Modified: [Mon, 26 Apr 2021 07:41:18 GMT]
+< X-Rate-Limiting: [42]
+< Vary: [foo, bar]
+< Content-Type: [application/xml]
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><person><name>Jason</name><someBoolean>false</someBoolean><someDouble>0.0</someDouble></person>
+
+======================  MockMvc (Server) ===============================
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /persons/1
+       Parameters = {}
+          Headers = [WebTestClient-Request-Id:"3", If-Modified-Since:"Mon, 26 Apr 2021 07:40:18 GMT"]
+             Body = <no character encoding set>
+    Session Attrs = {}
+
+Handler:
+             Type = org.springframework.test.web.servlet.samples.client.standalone.resultmatches.HeaderAssertionTests$PersonController
+           Method = org.springframework.test.web.servlet.samples.client.standalone.resultmatches.HeaderAssertionTests$PersonController#showEntity(long, WebRequest)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Last-Modified:"Mon, 26 Apr 2021 07:41:18 GMT", X-Rate-Limiting:"42", Vary:"foo", "bar", Content-Type:"application/xml"]
+     Content type = application/xml
+             Body = <?xml version="1.0" encoding="UTF-8" standalone="yes"?><person><name>Jason</name><someBoolean>false</someBoolean><someDouble>0.0</someDouble></person>
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+
+
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

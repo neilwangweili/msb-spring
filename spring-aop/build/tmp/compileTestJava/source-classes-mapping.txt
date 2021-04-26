@@ -1,0 +1,256 @@
+org/springframework/aop/framework/NullPrimitiveTests.java
+ org.springframework.aop.framework.NullPrimitiveTests
+ org.springframework.aop.framework.NullPrimitiveTests$1SimpleFoo
+ org.springframework.aop.framework.NullPrimitiveTests$Bar
+ org.springframework.aop.framework.NullPrimitiveTests$Foo
+org/springframework/aop/target/CommonsPool2TargetSourceProxyTests.java
+ org.springframework.aop.target.CommonsPool2TargetSourceProxyTests
+org/springframework/aop/config/AopNamespaceHandlerPointcutErrorTests.java
+ org.springframework.aop.config.AopNamespaceHandlerPointcutErrorTests
+org/springframework/aop/support/AbstractRegexpMethodPointcutTests.java
+ org.springframework.aop.support.AbstractRegexpMethodPointcutTests
+test/annotation/EmptySpringAnnotation.java
+ test.annotation.EmptySpringAnnotation
+org/springframework/aop/aspectj/TigerAspectJExpressionPointcutTests.java
+ org.springframework.aop.aspectj.TigerAspectJExpressionPointcutTests
+ org.springframework.aop.aspectj.TigerAspectJExpressionPointcutTests$1MyTemplate
+ org.springframework.aop.aspectj.TigerAspectJExpressionPointcutTests$BeanA
+ org.springframework.aop.aspectj.TigerAspectJExpressionPointcutTests$BeanB
+ org.springframework.aop.aspectj.TigerAspectJExpressionPointcutTests$HasGeneric
+ org.springframework.aop.aspectj.TigerAspectJExpressionPointcutTests$HasTransactionalAnnotation
+ org.springframework.aop.aspectj.TigerAspectJExpressionPointcutTests$IBeanA
+ org.springframework.aop.aspectj.TigerAspectJExpressionPointcutTests$ProcessesSpringAnnotatedParameters
+ org.springframework.aop.aspectj.TigerAspectJExpressionPointcutTests$SpringAnnotated
+org/springframework/aop/aspectj/AspectJAdviceParameterNameDiscovererTests.java
+ org.springframework.aop.aspectj.AspectJAdviceParameterNameDiscovererTests
+org/springframework/aop/aspectj/TrickyAspectJPointcutExpressionTests.java
+ org.springframework.aop.aspectj.TrickyAspectJPointcutExpressionTests
+ org.springframework.aop.aspectj.TrickyAspectJPointcutExpressionTests$Log
+ org.springframework.aop.aspectj.TrickyAspectJPointcutExpressionTests$LogUserAdvice
+ org.springframework.aop.aspectj.TrickyAspectJPointcutExpressionTests$SimpleThrowawayClassLoader
+ org.springframework.aop.aspectj.TrickyAspectJPointcutExpressionTests$TestException
+ org.springframework.aop.aspectj.TrickyAspectJPointcutExpressionTests$TestService
+ org.springframework.aop.aspectj.TrickyAspectJPointcutExpressionTests$TestServiceImpl
+org/springframework/aop/framework/AopProxyUtilsTests.java
+ org.springframework.aop.framework.AopProxyUtilsTests
+test/aop/Lockable.java
+ test.aop.Lockable
+org/springframework/aop/target/LazyCreationTargetSourceTests.java
+ org.springframework.aop.target.LazyCreationTargetSourceTests
+ org.springframework.aop.target.LazyCreationTargetSourceTests$1
+ org.springframework.aop.target.LazyCreationTargetSourceTests$InitCountingBean
+org/springframework/aop/aspectj/annotation/AbstractAspectJAdvisorFactoryTests.java
+ org.springframework.aop.aspectj.annotation.AbstractAspectJAdvisorFactoryTests
+ org.springframework.aop.aspectj.annotation.AbstractAspectJAdvisorFactoryTests$1
+ org.springframework.aop.aspectj.annotation.AbstractAspectJAdvisorFactoryTests$BindingAspectWithSingleArg
+ org.springframework.aop.aspectj.annotation.AbstractAspectJAdvisorFactoryTests$DeclarePrecedenceShouldSucceed
+ org.springframework.aop.aspectj.annotation.AbstractAspectJAdvisorFactoryTests$Echo
+ org.springframework.aop.aspectj.annotation.AbstractAspectJAdvisorFactoryTests$ExceptionThrowingAspect
+ org.springframework.aop.aspectj.annotation.AbstractAspectJAdvisorFactoryTests$InvocationTrackingAspect
+ org.springframework.aop.aspectj.annotation.AbstractAspectJAdvisorFactoryTests$Library
+ org.springframework.aop.aspectj.annotation.AbstractAspectJAdvisorFactoryTests$ManyValuedArgs
+ org.springframework.aop.aspectj.annotation.AbstractAspectJAdvisorFactoryTests$NamedPointcutAspectFromLibrary
+ org.springframework.aop.aspectj.annotation.AbstractAspectJAdvisorFactoryTests$NamedPointcutAspectFromLibraryWithBinding
+ org.springframework.aop.aspectj.annotation.AbstractAspectJAdvisorFactoryTests$NamedPointcutAspectWithFQN
+ org.springframework.aop.aspectj.annotation.AbstractAspectJAdvisorFactoryTests$NamedPointcutAspectWithoutFQN
+ org.springframework.aop.aspectj.annotation.AbstractAspectJAdvisorFactoryTests$NoDeclarePrecedenceShouldFail
+ org.springframework.aop.aspectj.annotation.AbstractAspectJAdvisorFactoryTests$PerCflowAspect
+ org.springframework.aop.aspectj.annotation.AbstractAspectJAdvisorFactoryTests$PerCflowBelowAspect
+ org.springframework.aop.aspectj.annotation.AbstractAspectJAdvisorFactoryTests$PerTargetAspectWithOrderAnnotation10
+ org.springframework.aop.aspectj.annotation.AbstractAspectJAdvisorFactoryTests$PerTargetAspectWithOrderAnnotation5
+ org.springframework.aop.aspectj.annotation.AbstractAspectJAdvisorFactoryTests$PerTypeWithinAspect
+ org.springframework.aop.aspectj.annotation.AbstractAspectJAdvisorFactoryTests$PerTypeWithinAspectInstanceFactory
+ org.springframework.aop.aspectj.annotation.AbstractMakeModifiable
+ org.springframework.aop.aspectj.annotation.AbstractMakeModifiable$ModifiableImpl
+ org.springframework.aop.aspectj.annotation.AbstractMakeModifiable$MutableModifiable
+ org.springframework.aop.aspectj.annotation.AnnotatedTarget
+ org.springframework.aop.aspectj.annotation.AnnotatedTargetImpl
+ org.springframework.aop.aspectj.annotation.CannotBeUnlocked
+ org.springframework.aop.aspectj.annotation.MakeAnnotatedTypeModifiable
+ org.springframework.aop.aspectj.annotation.MakeITestBeanModifiable
+ org.springframework.aop.aspectj.annotation.MakeLockable
+ org.springframework.aop.aspectj.annotation.Measured
+ org.springframework.aop.aspectj.annotation.Modifiable
+ org.springframework.aop.aspectj.annotation.NotLockable
+ org.springframework.aop.aspectj.annotation.PerThisAspect
+test/annotation/transaction/Tx.java
+ test.annotation.transaction.Tx
+org/springframework/aop/support/DelegatingIntroductionInterceptorTests.java
+ org.springframework.aop.support.DelegatingIntroductionInterceptorTests
+ org.springframework.aop.support.DelegatingIntroductionInterceptorTests$1
+ org.springframework.aop.support.DelegatingIntroductionInterceptorTests$1TestII
+ org.springframework.aop.support.DelegatingIntroductionInterceptorTests$1Tester
+ org.springframework.aop.support.DelegatingIntroductionInterceptorTests$2
+ org.springframework.aop.support.DelegatingIntroductionInterceptorTests$2TestII
+ org.springframework.aop.support.DelegatingIntroductionInterceptorTests$ITester
+ org.springframework.aop.support.DelegatingIntroductionInterceptorTests$SerializableTimeStamped
+ org.springframework.aop.support.DelegatingIntroductionInterceptorTests$SubTimeStamped
+ org.springframework.aop.support.DelegatingIntroductionInterceptorTests$TargetClass
+org/springframework/aop/scope/DefaultScopedObjectTests.java
+ org.springframework.aop.scope.DefaultScopedObjectTests
+org/springframework/aop/aspectj/BeanNamePointcutMatchingTests.java
+ org.springframework.aop.aspectj.BeanNamePointcutMatchingTests
+ org.springframework.aop.aspectj.BeanNamePointcutMatchingTests$1
+org/springframework/aop/target/ThreadLocalTargetSourceTests.java
+ org.springframework.aop.target.ThreadLocalTargetSourceTests
+ org.springframework.aop.target.ThreadLocalTargetSourceTests$1Runner
+org/springframework/aop/interceptor/CustomizableTraceInterceptorTests.java
+ org.springframework.aop.interceptor.CustomizableTraceInterceptorTests
+ org.springframework.aop.interceptor.CustomizableTraceInterceptorTests$StubCustomizableTraceInterceptor
+org/springframework/aop/framework/MethodInvocationTests.java
+ org.springframework.aop.framework.MethodInvocationTests
+ org.springframework.aop.framework.MethodInvocationTests$1
+org/springframework/aop/aspectj/MethodInvocationProceedingJoinPointTests.java
+ org.springframework.aop.aspectj.MethodInvocationProceedingJoinPointTests
+org/springframework/aop/interceptor/ExposeInvocationInterceptorTests.java
+ org.springframework.aop.interceptor.ExposeInvocationInterceptorTests
+org/springframework/aop/support/ComposablePointcutTests.java
+ org.springframework.aop.support.ComposablePointcutTests
+ org.springframework.aop.support.ComposablePointcutTests$1
+ org.springframework.aop.support.ComposablePointcutTests$2
+ org.springframework.aop.support.ComposablePointcutTests$3
+ org.springframework.aop.support.ComposablePointcutTests$4
+org/springframework/aop/support/AopUtilsTests.java
+ org.springframework.aop.support.AopUtilsTests
+ org.springframework.aop.support.AopUtilsTests$1TestPointcut
+ org.springframework.aop.support.AopUtilsTests$2TestPointcut
+org/springframework/aop/aspectj/AspectJAdviceParameterNameDiscoverAnnotationTests.java
+ org.springframework.aop.aspectj.AspectJAdviceParameterNameDiscoverAnnotationTests
+ org.springframework.aop.aspectj.AspectJAdviceParameterNameDiscoverAnnotationTests$MyAnnotation
+org/springframework/aop/interceptor/ConcurrencyThrottleInterceptorTests.java
+ org.springframework.aop.interceptor.ConcurrencyThrottleInterceptorTests
+ org.springframework.aop.interceptor.ConcurrencyThrottleInterceptorTests$ConcurrencyThread
+org/springframework/aop/aspectj/annotation/AspectJPointcutAdvisorTests.java
+ org.springframework.aop.aspectj.annotation.AspectJPointcutAdvisorTests
+org/springframework/aop/interceptor/DebugInterceptorTests.java
+ org.springframework.aop.interceptor.DebugInterceptorTests
+ org.springframework.aop.interceptor.DebugInterceptorTests$StubDebugInterceptor
+org/springframework/aop/support/ClassFiltersTests.java
+ org.springframework.aop.support.ClassFiltersTests
+org/springframework/aop/framework/ClassWithConstructor.java
+ org.springframework.aop.framework.ClassWithConstructor
+org/springframework/aop/aspectj/TypePatternClassFilterTests.java
+ org.springframework.aop.aspectj.TypePatternClassFilterTests
+org/springframework/aop/interceptor/JamonPerformanceMonitorInterceptorTests.java
+ org.springframework.aop.interceptor.JamonPerformanceMonitorInterceptorTests
+org/springframework/aop/target/PrototypeBasedTargetSourceTests.java
+ org.springframework.aop.target.PrototypeBasedTargetSourceTests
+ org.springframework.aop.target.PrototypeBasedTargetSourceTests$TestTargetSource
+org/springframework/aop/support/PointcutsTests.java
+ org.springframework.aop.support.PointcutsTests
+ org.springframework.aop.support.PointcutsTests$1
+ org.springframework.aop.support.PointcutsTests$2
+ org.springframework.aop.support.PointcutsTests$3
+ org.springframework.aop.support.PointcutsTests$4
+ org.springframework.aop.support.PointcutsTests$MyTestBean
+ org.springframework.aop.support.PointcutsTests$MyTestBeanSubclass
+org/springframework/aop/interceptor/ExposedInvocationTestBean.java
+ org.springframework.aop.interceptor.ExposedInvocationTestBean
+org/springframework/aop/support/ControlFlowPointcutTests.java
+ org.springframework.aop.support.ControlFlowPointcutTests
+ org.springframework.aop.support.ControlFlowPointcutTests$One
+org/springframework/aop/framework/adapter/ThrowsAdviceInterceptorTests.java
+ org.springframework.aop.framework.adapter.ThrowsAdviceInterceptorTests
+ org.springframework.aop.framework.adapter.ThrowsAdviceInterceptorTests$1
+org/springframework/aop/aspectj/autoproxy/AspectJPrecedenceComparatorTests.java
+ org.springframework.aop.aspectj.autoproxy.AspectJPrecedenceComparatorTests
+ org.springframework.aop.aspectj.autoproxy.AspectJPrecedenceComparatorTests$1
+org/springframework/aop/interceptor/InvocationCheckExposedInvocationTestBean.java
+ org.springframework.aop.interceptor.InvocationCheckExposedInvocationTestBean
+org/springframework/aop/interceptor/SimpleTraceInterceptorTests.java
+ org.springframework.aop.interceptor.SimpleTraceInterceptorTests
+org/springframework/aop/target/PrototypeTargetSourceTests.java
+ org.springframework.aop.target.PrototypeTargetSourceTests
+test/aop/PerThisAspect.java
+ test.aop.PerThisAspect
+org/springframework/aop/aspectj/autoproxy/AspectJNamespaceHandlerTests.java
+ org.springframework.aop.aspectj.autoproxy.AspectJNamespaceHandlerTests
+org/springframework/aop/support/MethodMatchersTests.java
+ org.springframework.aop.support.MethodMatchersTests
+ org.springframework.aop.support.MethodMatchersTests$1
+ org.springframework.aop.support.MethodMatchersTests$StartsWithMatcher
+ org.springframework.aop.support.MethodMatchersTests$TestDynamicMethodMatcherWhichDoesNotMatch
+ org.springframework.aop.support.MethodMatchersTests$TestDynamicMethodMatcherWhichMatches
+org/springframework/aop/framework/PrototypeTargetTests.java
+ org.springframework.aop.framework.PrototypeTargetTests
+ org.springframework.aop.framework.PrototypeTargetTests$TestBean
+ org.springframework.aop.framework.PrototypeTargetTests$TestBeanImpl
+ org.springframework.aop.framework.PrototypeTargetTests$TestInterceptor
+org/springframework/aop/config/AopNamespaceHandlerEventTests.java
+ org.springframework.aop.config.AopNamespaceHandlerEventTests
+org/springframework/aop/scope/ScopedProxyAutowireTests.java
+ org.springframework.aop.scope.ScopedProxyAutowireTests
+ org.springframework.aop.scope.ScopedProxyAutowireTests$TestBean
+org/springframework/aop/aspectj/annotation/ArgumentBindingTests.java
+ org.springframework.aop.aspectj.annotation.ArgumentBindingTests
+ org.springframework.aop.aspectj.annotation.ArgumentBindingTests$ITransactionalBean
+ org.springframework.aop.aspectj.annotation.ArgumentBindingTests$TransactionalBean
+ org.springframework.aop.aspectj.annotation.NamedPointcutWithArgs
+ org.springframework.aop.aspectj.annotation.PointcutWithAnnotationArgument
+ org.springframework.aop.aspectj.annotation.Transactional
+org/springframework/aop/target/HotSwappableTargetSourceTests.java
+ org.springframework.aop.target.HotSwappableTargetSourceTests
+org/springframework/aop/aspectj/annotation/ReflectiveAspectJAdvisorFactoryTests.java
+ org.springframework.aop.aspectj.annotation.ReflectiveAspectJAdvisorFactoryTests
+org/springframework/aop/aspectj/AspectJExpressionPointcutTests.java
+ org.springframework.aop.aspectj.AspectJExpressionPointcutTests
+ org.springframework.aop.aspectj.AspectJExpressionPointcutTests$OtherIOther
+ org.springframework.aop.aspectj.CallCountingInterceptor
+org/springframework/aop/support/RootClassFilterTests.java
+ org.springframework.aop.support.RootClassFilterTests
+org/springframework/aop/interceptor/ExposeBeanNameAdvisorsTests.java
+ org.springframework.aop.interceptor.ExposeBeanNameAdvisorsTests
+ org.springframework.aop.interceptor.ExposeBeanNameAdvisorsTests$RequiresBeanNameBoundTestBean
+org/springframework/aop/target/dynamic/RefreshableTargetSourceTests.java
+ org.springframework.aop.target.dynamic.RefreshableTargetSourceTests
+ org.springframework.aop.target.dynamic.RefreshableTargetSourceTests$CountingRefreshableTargetSource
+org/springframework/aop/support/JdkRegexpMethodPointcutTests.java
+ org.springframework.aop.support.JdkRegexpMethodPointcutTests
+test/aop/DefaultLockable.java
+ test.aop.DefaultLockable
+org/springframework/aop/support/ClassUtilsTests.java
+ org.springframework.aop.support.ClassUtilsTests
+org/springframework/aop/support/RegexpMethodPointcutAdvisorIntegrationTests.java
+ org.springframework.aop.support.RegexpMethodPointcutAdvisorIntegrationTests
+test/aop/TwoAdviceAspect.java
+ test.aop.TwoAdviceAspect
+org/springframework/aop/framework/IntroductionBenchmarkTests.java
+ org.springframework.aop.framework.IntroductionBenchmarkTests
+ org.springframework.aop.framework.IntroductionBenchmarkTests$Counter
+ org.springframework.aop.framework.IntroductionBenchmarkTests$SimpleCounterIntroduction
+org/springframework/aop/target/LazyInitTargetSourceTests.java
+ org.springframework.aop.target.LazyInitTargetSourceTests
+ org.springframework.aop.target.LazyInitTargetSourceTests$CustomLazyInitTargetSource
+org/springframework/aop/aspectj/TigerAspectJAdviceParameterNameDiscovererTests.java
+ org.springframework.aop.aspectj.TigerAspectJAdviceParameterNameDiscovererTests
+ org.springframework.aop.aspectj.TigerAspectJAdviceParameterNameDiscovererTests$MyAnnotation
+org/springframework/aop/config/TopLevelAopTagTests.java
+ org.springframework.aop.config.TopLevelAopTagTests
+org/springframework/aop/scope/ScopedProxyUtilsTests.java
+ org.springframework.aop.scope.ScopedProxyUtilsTests
+org/springframework/aop/aspectj/annotation/AspectProxyFactoryTests.java
+ org.springframework.aop.aspectj.annotation.AspectProxyFactoryTests
+ org.springframework.aop.aspectj.annotation.AspectProxyFactoryTests$ITestBean
+ org.springframework.aop.aspectj.annotation.AspectProxyFactoryTests$LoggingAspectOnSetter
+ org.springframework.aop.aspectj.annotation.AspectProxyFactoryTests$LoggingAspectOnVarargs
+ org.springframework.aop.aspectj.annotation.AspectProxyFactoryTests$MyEnum
+ org.springframework.aop.aspectj.annotation.AspectProxyFactoryTests$MyInterface
+ org.springframework.aop.aspectj.annotation.AspectProxyFactoryTests$MyOtherEnum
+ org.springframework.aop.aspectj.annotation.AspectProxyFactoryTests$TestBean
+ org.springframework.aop.aspectj.annotation.MultiplyReturnValue
+org/springframework/aop/framework/ProxyFactoryTests.java
+ org.springframework.aop.framework.ProxyFactoryTests
+ org.springframework.aop.framework.ProxyFactoryTests$1MyInterceptor
+ org.springframework.aop.framework.ProxyFactoryTests$1TestBeanSubclass
+ org.springframework.aop.framework.ProxyFactoryTests$A
+ org.springframework.aop.framework.ProxyFactoryTests$B
+test/aop/PerTargetAspect.java
+ test.aop.PerTargetAspect
+org/springframework/aop/support/annotation/AnnotationMatchingPointcutTests.java
+ org.springframework.aop.support.annotation.AnnotationMatchingPointcutTests
+org/springframework/aop/support/NameMatchMethodPointcutTests.java
+ org.springframework.aop.support.NameMatchMethodPointcutTests
+org/springframework/aop/aspectj/annotation/AspectMetadataTests.java
+ org.springframework.aop.aspectj.annotation.AspectMetadataTests
+org/springframework/aop/interceptor/PerformanceMonitorInterceptorTests.java
+ org.springframework.aop.interceptor.PerformanceMonitorInterceptorTests

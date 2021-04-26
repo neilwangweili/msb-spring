@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.aop.interceptor.ConcurrencyThrottleInterceptorTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:38:50" hostname="wangweilideMacBook-Pro.local" time="0.562">
+  <properties/>
+  <testcase name="testMultipleThreadsWithLimit1()" classname="org.springframework.aop.interceptor.ConcurrencyThrottleInterceptorTests" time="0.44"/>
+  <testcase name="testMultipleThreadsWithLimit10()" classname="org.springframework.aop.interceptor.ConcurrencyThrottleInterceptorTests" time="0.113"/>
+  <testcase name="testSerializable()" classname="org.springframework.aop.interceptor.ConcurrencyThrottleInterceptorTests" time="0.008"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

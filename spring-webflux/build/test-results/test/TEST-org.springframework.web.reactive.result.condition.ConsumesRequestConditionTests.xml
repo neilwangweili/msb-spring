@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.reactive.result.condition.ConsumesRequestConditionTests" tests="15" skipped="0" failures="0" errors="0" timestamp="2021-04-26T08:31:58" hostname="wangweilideMacBook-Pro.local" time="0.205">
+  <properties/>
+  <testcase name="combineWithDefault()" classname="org.springframework.web.reactive.result.condition.ConsumesRequestConditionTests" time="0.002"/>
+  <testcase name="parseConsumesAndHeaders()" classname="org.springframework.web.reactive.result.condition.ConsumesRequestConditionTests" time="0.005"/>
+  <testcase name="consumesNoContent()" classname="org.springframework.web.reactive.result.condition.ConsumesRequestConditionTests" time="0.05"/>
+  <testcase name="getMatchingCondition()" classname="org.springframework.web.reactive.result.condition.ConsumesRequestConditionTests" time="0.012"/>
+  <testcase name="consumesMultipleMatch()" classname="org.springframework.web.reactive.result.condition.ConsumesRequestConditionTests" time="0.013"/>
+  <testcase name="compareToSingle()" classname="org.springframework.web.reactive.result.condition.ConsumesRequestConditionTests" time="0.014"/>
+  <testcase name="consumesMatch()" classname="org.springframework.web.reactive.result.condition.ConsumesRequestConditionTests" time="0.015"/>
+  <testcase name="consumesSingleNoMatch()" classname="org.springframework.web.reactive.result.condition.ConsumesRequestConditionTests" time="0.013"/>
+  <testcase name="consumesWildcardMatch()" classname="org.springframework.web.reactive.result.condition.ConsumesRequestConditionTests" time="0.012"/>
+  <testcase name="consumesParseError()" classname="org.springframework.web.reactive.result.condition.ConsumesRequestConditionTests" time="0.013"/>
+  <testcase name="combine()" classname="org.springframework.web.reactive.result.condition.ConsumesRequestConditionTests" time="0.0"/>
+  <testcase name="compareToMultiple()" classname="org.springframework.web.reactive.result.condition.ConsumesRequestConditionTests" time="0.012"/>
+  <testcase name="negatedConsumesMatch()" classname="org.springframework.web.reactive.result.condition.ConsumesRequestConditionTests" time="0.012"/>
+  <testcase name="getConsumableMediaTypesNegatedExpression()" classname="org.springframework.web.reactive.result.condition.ConsumesRequestConditionTests" time="0.01"/>
+  <testcase name="consumesParseErrorWithNegation()" classname="org.springframework.web.reactive.result.condition.ConsumesRequestConditionTests" time="0.013"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

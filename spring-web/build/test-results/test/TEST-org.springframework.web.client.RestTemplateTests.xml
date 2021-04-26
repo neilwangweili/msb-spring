@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.client.RestTemplateTests" tests="39" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:42:10" hostname="wangweilideMacBook-Pro.local" time="0.193">
+  <properties/>
+  <testcase name="ioExceptionWithEmptyQueryString()" classname="org.springframework.web.client.RestTemplateTests" time="0.005"/>
+  <testcase name="setMessageConvertersPreconditions()" classname="org.springframework.web.client.RestTemplateTests" time="0.001"/>
+  <testcase name="delete()" classname="org.springframework.web.client.RestTemplateTests" time="0.002"/>
+  <testcase name="uriTemplateWithTrailingSlash()" classname="org.springframework.web.client.RestTemplateTests" time="0.002"/>
+  <testcase name="keepGivenAcceptHeaderOnPut()" classname="org.springframework.web.client.RestTemplateTests" time="0.007"/>
+  <testcase name="postForLocationEntityContentType()" classname="org.springframework.web.client.RestTemplateTests" time="0.005"/>
+  <testcase name="postForEntityNull()" classname="org.springframework.web.client.RestTemplateTests" time="0.005"/>
+  <testcase name="errorHandling()" classname="org.springframework.web.client.RestTemplateTests" time="0.004"/>
+  <testcase name="ioException()" classname="org.springframework.web.client.RestTemplateTests" time="0.003"/>
+  <testcase name="getUnsupportedMediaType()" classname="org.springframework.web.client.RestTemplateTests" time="0.006"/>
+  <testcase name="headForHeaders()" classname="org.springframework.web.client.RestTemplateTests" time="0.003"/>
+  <testcase name="patchForObjectNull()" classname="org.springframework.web.client.RestTemplateTests" time="0.006"/>
+  <testcase name="varArgsNullTemplateVariable()" classname="org.springframework.web.client.RestTemplateTests" time="0.002"/>
+  <testcase name="postForEntity()" classname="org.springframework.web.client.RestTemplateTests" time="0.005"/>
+  <testcase name="getForObjectWithCustomUriTemplateHandler()" classname="org.springframework.web.client.RestTemplateTests" time="0.004"/>
+  <testcase name="constructorPreconditions()" classname="org.springframework.web.client.RestTemplateTests" time="0.001"/>
+  <testcase name="mapTemplateVariables()" classname="org.springframework.web.client.RestTemplateTests" time="0.002"/>
+  <testcase name="requestAvoidsDuplicateAcceptHeaderValues()" classname="org.springframework.web.client.RestTemplateTests" time="0.007"/>
+  <testcase name="varArgsTemplateVariables()" classname="org.springframework.web.client.RestTemplateTests" time="0.002"/>
+  <testcase name="putNull()" classname="org.springframework.web.client.RestTemplateTests" time="0.003"/>
+  <testcase name="postForObject()" classname="org.springframework.web.client.RestTemplateTests" time="0.004"/>
+  <testcase name="postForLocation()" classname="org.springframework.web.client.RestTemplateTests" time="0.006"/>
+  <testcase name="put()" classname="org.springframework.web.client.RestTemplateTests" time="0.006"/>
+  <testcase name="headerAcceptAllOnPut()" classname="org.springframework.web.client.RestTemplateTests" time="0.004"/>
+  <testcase name="clientHttpRequestInitializerAndRequestInterceptorAreBothApplied()" classname="org.springframework.web.client.RestTemplateTests" time="0.005"/>
+  <testcase name="postForLocationNoLocation()" classname="org.springframework.web.client.RestTemplateTests" time="0.004"/>
+  <testcase name="getForEntity()" classname="org.springframework.web.client.RestTemplateTests" time="0.005"/>
+  <testcase name="mapNullTemplateVariable()" classname="org.springframework.web.client.RestTemplateTests" time="0.002"/>
+  <testcase name="patchForObject()" classname="org.springframework.web.client.RestTemplateTests" time="0.005"/>
+  <testcase name="requestInterceptorCanAddExistingHeaderValueWithoutBody()" classname="org.springframework.web.client.RestTemplateTests" time="0.003"/>
+  <testcase name="getForObject()" classname="org.springframework.web.client.RestTemplateTests" time="0.005"/>
+  <testcase name="headerAcceptAllOnDelete()" classname="org.springframework.web.client.RestTemplateTests" time="0.004"/>
+  <testcase name="requestInterceptorCanAddExistingHeaderValueWithBody()" classname="org.springframework.web.client.RestTemplateTests" time="0.005"/>
+  <testcase name="postForLocationEntityCustomHeader()" classname="org.springframework.web.client.RestTemplateTests" time="0.006"/>
+  <testcase name="optionsForAllow()" classname="org.springframework.web.client.RestTemplateTests" time="0.003"/>
+  <testcase name="postForObjectNull()" classname="org.springframework.web.client.RestTemplateTests" time="0.009"/>
+  <testcase name="postForLocationNull()" classname="org.springframework.web.client.RestTemplateTests" time="0.005"/>
+  <testcase name="exchange()" classname="org.springframework.web.client.RestTemplateTests" time="0.011"/>
+  <testcase name="exchangeParameterizedType()" classname="org.springframework.web.client.RestTemplateTests" time="0.011"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Apr 26, 2021 3:42:10 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[64721] starting to accept connections
+Apr 26, 2021 3:42:10 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[64721] received request: PUT /internal/server/error HTTP/1.1 and responded: HTTP/1.1 500 Server Error
+Apr 26, 2021 3:42:10 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[64721] done accepting connections: Socket closed
+Apr 26, 2021 3:42:10 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[64727] starting to accept connections
+Apr 26, 2021 3:42:10 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[64727] received request: PUT /internal/server/error HTTP/1.1 and responded: HTTP/1.1 500 Server Error
+Apr 26, 2021 3:42:10 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[64727] done accepting connections: Socket closed
+Apr 26, 2021 3:42:10 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[64729] starting to accept connections
+Apr 26, 2021 3:42:10 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[64729] received request: DELETE /internal/server/error HTTP/1.1 and responded: HTTP/1.1 500 Server Error
+Apr 26, 2021 3:42:10 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[64729] done accepting connections: Socket closed
+]]></system-err>
+</testsuite>

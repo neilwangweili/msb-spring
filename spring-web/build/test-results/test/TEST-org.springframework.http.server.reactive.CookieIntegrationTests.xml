@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.http.server.reactive.CookieIntegrationTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:42:29" hostname="wangweilideMacBook-Pro.local" time="11.184">
+  <properties/>
+  <testcase name="[1] org.springframework.web.testfixture.http.server.reactive.bootstrap.JettyHttpServer@ee5a6d7" classname="org.springframework.http.server.reactive.CookieIntegrationTests" time="0.008"/>
+  <testcase name="[2] org.springframework.web.testfixture.http.server.reactive.bootstrap.ReactorHttpServer@24ece7cf" classname="org.springframework.http.server.reactive.CookieIntegrationTests" time="0.005"/>
+  <testcase name="[3] org.springframework.web.testfixture.http.server.reactive.bootstrap.TomcatHttpServer@1a5ad27a" classname="org.springframework.http.server.reactive.CookieIntegrationTests" time="11.151"/>
+  <testcase name="[4] org.springframework.web.testfixture.http.server.reactive.bootstrap.UndertowHttpServer@6add403d" classname="org.springframework.http.server.reactive.CookieIntegrationTests" time="0.019"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Apr 26, 2021 3:42:29 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Tomcat]
+Apr 26, 2021 3:42:29 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet engine: [Apache Tomcat/9.0.45]
+Apr 26, 2021 3:42:29 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-auto-7"]
+Apr 26, 2021 3:42:29 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-auto-7-64871"]
+Apr 26, 2021 3:42:29 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-nio-auto-7-64871"]
+Apr 26, 2021 3:42:30 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service [Tomcat]
+Apr 26, 2021 3:42:30 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-nio-auto-7-64871"]
+Apr 26, 2021 3:42:40 PM org.apache.tomcat.util.net.Acceptor stop
+WARNING: The acceptor thread [http-nio-auto-7-Acceptor] did not stop cleanly
+Apr 26, 2021 3:42:40 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-nio-auto-7-64871"]
+]]></system-err>
+</testsuite>

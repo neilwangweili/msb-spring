@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.test.web.servlet.samples.context.JavaConfigTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:40:58" hostname="wangweilideMacBook-Pro.local" time="0.018">
+  <properties/>
+  <testcase name="person()" classname="org.springframework.test.web.servlet.samples.context.JavaConfigTests" time="0.005"/>
+  <testcase name="tilesDefinitions()" classname="org.springframework.test.web.servlet.samples.context.JavaConfigTests" time="0.012"/>
+  <system-out><![CDATA[
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /person/5
+       Parameters = {}
+          Headers = [Accept:"application/json"]
+             Body = <no character encoding set>
+    Session Attrs = {}
+
+Handler:
+             Type = org.springframework.test.web.servlet.samples.context.PersonController
+           Method = org.springframework.test.web.servlet.samples.context.PersonController#getPerson(long)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Content-Type:"application/json"]
+     Content type = application/json
+             Body = {"name":"Joe","someDouble":0.0,"someBoolean":false}
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

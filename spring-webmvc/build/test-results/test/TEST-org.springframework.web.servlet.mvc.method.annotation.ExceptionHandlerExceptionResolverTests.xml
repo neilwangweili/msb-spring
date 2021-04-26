@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolverTests" tests="24" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:41:15" hostname="wangweilideMacBook-Pro.local" time="0.243">
+  <properties/>
+  <testcase name="setReturnValueHandlers()" classname="org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolverTests" time="0.007"/>
+  <testcase name="resolveExceptionControllerAdviceHandler()" classname="org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolverTests" time="0.027"/>
+  <testcase name="resolveExceptionControllerAdviceAgainstProxy()" classname="org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolverTests" time="0.019"/>
+  <testcase name="nullHandler()" classname="org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolverTests" time="0.006"/>
+  <testcase name="setResponseBodyAdvice()" classname="org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolverTests" time="0.016"/>
+  <testcase name="resolveExceptionViaMappedHandler()" classname="org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolverTests" time="0.012"/>
+  <testcase name="resolveExceptionGlobalHandlerOrdered()" classname="org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolverTests" time="0.015"/>
+  <testcase name="resolveExceptionResponseBody()" classname="org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolverTests" time="0.008"/>
+  <testcase name="resolveExceptionControllerAdviceHandlerMatchingCauseLevel2()" classname="org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolverTests" time="0.014"/>
+  <testcase name="resolveNoExceptionHandlerForException()" classname="org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolverTests" time="0.005"/>
+  <testcase name="resolveRedirectAttributesAtArgument()" classname="org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolverTests" time="0.005"/>
+  <testcase name="setArgumentResolvers()" classname="org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolverTests" time="0.005"/>
+  <testcase name="setCustomReturnValueHandlers()" classname="org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolverTests" time="0.004"/>
+  <testcase name="setCustomArgumentResolvers()" classname="org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolverTests" time="0.004"/>
+  <testcase name="resolveExceptionGlobalHandler()" classname="org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolverTests" time="0.009"/>
+  <testcase name="resolveExceptionResponseBodyMatchingCauseLevel2()" classname="org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolverTests" time="0.008"/>
+  <testcase name="resolveExceptionGlobalHandlerOrderedMatchingCauseLevel2()" classname="org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolverTests" time="0.011"/>
+  <testcase name="resolveExceptionModelAndView()" classname="org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolverTests" time="0.005"/>
+  <testcase name="resolveExceptionWithAssertionError()" classname="org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolverTests" time="0.009"/>
+  <testcase name="resolveExceptionWithAssertionErrorAsRootCause()" classname="org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolverTests" time="0.011"/>
+  <testcase name="resolveExceptionModelAtArgument()" classname="org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolverTests" time="0.006"/>
+  <testcase name="resolveExceptionControllerAdviceNoHandler()" classname="org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolverTests" time="0.015"/>
+  <testcase name="resolveExceptionResponseWriter()" classname="org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolverTests" time="0.005"/>
+  <testcase name="resolveExceptionWithHandlerMethodArg()" classname="org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolverTests" time="0.011"/>
+  <system-out><![CDATA[15:41:15.434 [Test worker] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [java.lang.IllegalStateException]
+15:41:15.453 [Test worker] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [java.lang.IllegalStateException]
+15:41:15.489 [Test worker] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [java.lang.IllegalStateException]
+15:41:15.504 [Test worker] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [java.lang.IllegalStateException]
+15:41:15.511 [Test worker] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [java.lang.IllegalArgumentException]
+15:41:15.526 [Test worker] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [java.lang.Exception: java.lang.IllegalStateException]
+15:41:15.536 [Test worker] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [java.lang.IllegalArgumentException]
+15:41:15.559 [Test worker] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [java.lang.IllegalAccessException]
+15:41:15.568 [Test worker] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [java.lang.Exception: java.lang.Exception: java.lang.IllegalArgumentException]
+15:41:15.578 [Test worker] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [java.lang.Exception: java.lang.Exception: java.lang.IllegalStateException]
+15:41:15.584 [Test worker] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [java.lang.IllegalArgumentException: Bad argument]
+15:41:15.594 [Test worker] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.util.NestedServletException: Handler dispatch failed; nested exception is java.lang.AssertionError: argh]
+15:41:15.604 [Test worker] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [java.lang.Exception: org.springframework.beans.FatalBeanException: wrapped; nested exception is java.lang.AssertionError: argh]
+15:41:15.610 [Test worker] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [java.lang.IllegalArgumentException]
+15:41:15.625 [Test worker] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [java.lang.IllegalStateException]
+15:41:15.631 [Test worker] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [java.lang.IllegalArgumentException]
+15:41:15.642 [Test worker] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [java.lang.ArrayIndexOutOfBoundsException]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

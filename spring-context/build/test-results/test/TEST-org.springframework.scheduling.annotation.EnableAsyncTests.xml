@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.scheduling.annotation.EnableAsyncTests" tests="17" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:41:12" hostname="wangweilideMacBook-Pro.local" time="0.277">
+  <properties/>
+  <testcase name="customAsyncAnnotationIsPropagated()" classname="org.springframework.scheduling.annotation.EnableAsyncTests" time="0.009"/>
+  <testcase name="properExceptionForResolvedProxyDependencyMismatch()" classname="org.springframework.scheduling.annotation.EnableAsyncTests" time="0.008"/>
+  <testcase name="customExecutorConfig()" classname="org.springframework.scheduling.annotation.EnableAsyncTests" time="0.029"/>
+  <testcase name="aspectModeAspectJAttemptsToRegisterAsyncAspect()" classname="org.springframework.scheduling.annotation.EnableAsyncTests" time="0.003"/>
+  <testcase name="proxyingOccurs()" classname="org.springframework.scheduling.annotation.EnableAsyncTests" time="0.008"/>
+  <testcase name="asyncProcessorIsOrderedLowestPrecedenceByDefault()" classname="org.springframework.scheduling.annotation.EnableAsyncTests" time="0.006"/>
+  <testcase name="exceptionThrownWithBeanNotOfRequiredTypeRootCause()" classname="org.springframework.scheduling.annotation.EnableAsyncTests" time="0.009"/>
+  <testcase name="customExecutorBeanConfigWithThrowsException()" classname="org.springframework.scheduling.annotation.EnableAsyncTests" time="0.03"/>
+  <testcase name="customExecutorBeanConfig()" classname="org.springframework.scheduling.annotation.EnableAsyncTests" time="0.022"/>
+  <testcase name="properExceptionForExistingProxyDependencyMismatch()" classname="org.springframework.scheduling.annotation.EnableAsyncTests" time="0.006"/>
+  <testcase name="findOnInterfaceWithInterfaceProxy()" classname="org.springframework.scheduling.annotation.EnableAsyncTests" time="0.022"/>
+  <testcase name="findOnInterfaceWithCglibProxy()" classname="org.springframework.scheduling.annotation.EnableAsyncTests" time="0.025"/>
+  <testcase name="customExecutorBean()" classname="org.springframework.scheduling.annotation.EnableAsyncTests" time="0.022"/>
+  <testcase name="customExecutorConfigWithThrowsException()" classname="org.springframework.scheduling.annotation.EnableAsyncTests" time="0.019"/>
+  <testcase name="proxyingOccursWithMockitoStub()" classname="org.springframework.scheduling.annotation.EnableAsyncTests" time="0.028"/>
+  <testcase name="withAsyncBeanWithExecutorQualifiedByName()" classname="org.springframework.scheduling.annotation.EnableAsyncTests" time="0.019"/>
+  <testcase name="orderAttributeIsPropagated()" classname="org.springframework.scheduling.annotation.EnableAsyncTests" time="0.006"/>
+  <system-out><![CDATA[15:41:12.784 [Test worker] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'enableAsyncTests.AsyncBeanUser': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanNotOfRequiredTypeException: Bean named 'asyncBean' is expected to be of type 'org.springframework.scheduling.annotation.EnableAsyncTests$AsyncBean' but was actually of type 'com.sun.proxy.$Proxy121'
+15:41:12.817 [Test worker] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to process import candidates for configuration class [org.springframework.scheduling.annotation.EnableAsyncTests$AspectJAsyncAnnotationConfig]; nested exception is java.io.FileNotFoundException: class path resource [org/springframework/scheduling/aspectj/AspectJAsyncConfiguration.class] cannot be opened because it does not exist
+15:41:12.840 [Test worker] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'user' defined in org.springframework.scheduling.annotation.EnableAsyncTests$UserConfiguration: Unsatisfied dependency expressed through method 'user' parameter 0; nested exception is org.springframework.beans.factory.BeanNotOfRequiredTypeException: Bean named 'asyncBean' is expected to be of type 'org.springframework.scheduling.annotation.EnableAsyncTests$AsyncBeanWithInterface' but was actually of type 'com.sun.proxy.$Proxy121'
+15:41:12.899 [Test worker] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'enableAsyncTests.AsyncBeanUser': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanNotOfRequiredTypeException: Bean named 'asyncBean' is expected to be of type 'org.springframework.scheduling.annotation.EnableAsyncTests$AsyncBean' but was actually of type 'com.sun.proxy.$Proxy121'
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

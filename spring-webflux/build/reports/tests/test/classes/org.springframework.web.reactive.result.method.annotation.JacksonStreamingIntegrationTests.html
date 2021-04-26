@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - JacksonStreamingIntegrationTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>JacksonStreamingIntegrationTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.springframework.web.reactive.result.method.annotation.html">org.springframework.web.reactive.result.method.annotation</a> &gt; JacksonStreamingIntegrationTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">8</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">24.508s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Method name</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">[1] org.springframework.web.testfixture.http.server.reactive.bootstrap.JettyHttpServer@7cb4c2a5</td>
+<td class="success">jsonStreaming(HttpServer)[1]</td>
+<td class="success">0.286s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[2] org.springframework.web.testfixture.http.server.reactive.bootstrap.ReactorHttpServer@74057060</td>
+<td class="success">jsonStreaming(HttpServer)[2]</td>
+<td class="success">0.272s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[3] org.springframework.web.testfixture.http.server.reactive.bootstrap.TomcatHttpServer@53aaed50</td>
+<td class="success">jsonStreaming(HttpServer)[3]</td>
+<td class="success">11.389s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[4] org.springframework.web.testfixture.http.server.reactive.bootstrap.UndertowHttpServer@7fb32ae</td>
+<td class="success">jsonStreaming(HttpServer)[4]</td>
+<td class="success">0.262s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[1] org.springframework.web.testfixture.http.server.reactive.bootstrap.JettyHttpServer@19fed52</td>
+<td class="success">smileStreaming(HttpServer)[1]</td>
+<td class="success">0.417s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[2] org.springframework.web.testfixture.http.server.reactive.bootstrap.ReactorHttpServer@73a00e25</td>
+<td class="success">smileStreaming(HttpServer)[2]</td>
+<td class="success">0.247s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[3] org.springframework.web.testfixture.http.server.reactive.bootstrap.TomcatHttpServer@2bf2eca4</td>
+<td class="success">smileStreaming(HttpServer)[3]</td>
+<td class="success">11.316s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[4] org.springframework.web.testfixture.http.server.reactive.bootstrap.UndertowHttpServer@504a6242</td>
+<td class="success">smileStreaming(HttpServer)[4]</td>
+<td class="success">0.319s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>16:32:38.171 [Test worker] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - 1 mappings in 'requestMappingHandlerMapping'
+16:32:38.181 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
+16:32:38.187 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+16:32:38.188 [Test worker] WARN  o.e.j.s.h.ContextHandler - Empty contextPath
+16:32:38.188 [Test worker] INFO  o.e.j.s.h.ContextHandler - Started o.e.j.s.ServletContextHandler@292bb7ee{/,null,AVAILABLE}
+16:32:38.188 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Starting JettyHttpServer...
+16:32:38.188 [Test worker] INFO  o.e.j.s.Server - jetty-9.4.39.v20210325; built: 2021-03-25T14:42:11.471Z; git: 9fc7ca5a922f2a37b84ec9dbc26a5168cee7e667; jvm 11.0.9+7-LTS
+16:32:38.191 [Test worker] INFO  o.e.j.s.AbstractConnector - Started ServerConnector@7600fc86{HTTP/1.1, (http/1.1)}{0.0.0.0:61388}
+16:32:38.191 [Test worker] INFO  o.e.j.s.Server - Started @46612ms
+16:32:38.191 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Server started on port 61388(0 millis).
+16:32:38.247 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [317e3c2e] HTTP GET http://localhost:61388/stream
+16:32:38.358 [qtp441957974-194] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [7888d631] HTTP GET &quot;/stream&quot;
+16:32:38.358 [qtp441957974-194] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - [7888d631] Mapped to org.springframework.web.reactive.result.method.annotation.JacksonStreamingIntegrationTests$JacksonStreamingController#person()
+16:32:38.361 [qtp441957974-194] DEBUG o.s.w.r.r.m.a.ResponseBodyResultHandler - [7888d631] Using 'application/stream+x-jackson-smile' given [application/stream+x-jackson-smile] and supported [application/stream+x-jackson-smile]
+16:32:38.361 [qtp441957974-194] DEBUG o.s.w.r.r.m.a.ResponseBodyResultHandler - [7888d631] 0..N [org.springframework.web.reactive.result.method.annotation.JacksonStreamingIntegrationTests$Person]
+16:32:38.472 [parallel-1] DEBUG o.s.h.c.j.Jackson2SmileEncoder - [7888d631] Encoding [Person{name='foo 0'}]
+16:32:38.477 [reactor-http-nio-8] DEBUG o.s.w.r.f.c.ExchangeFunctions - [317e3c2e] [da7f4f44-1, L:/127.0.0.1:61389 - R:localhost/127.0.0.1:61388] Response 200 OK
+16:32:38.527 [reactor-http-nio-8] DEBUG o.s.h.c.j.Jackson2SmileDecoder - [317e3c2e] [da7f4f44-1, L:/127.0.0.1:61389 - R:localhost/127.0.0.1:61388] Decoded [Person{name='foo 0'}]
+16:32:38.570 [parallel-1] DEBUG o.s.h.c.j.Jackson2SmileEncoder - [7888d631] Encoding [Person{name='foo 1'}]
+16:32:38.571 [reactor-http-nio-8] DEBUG o.s.h.c.j.Jackson2SmileDecoder - [317e3c2e] [da7f4f44-1, L:/127.0.0.1:61389 - R:localhost/127.0.0.1:61388] Decoded [Person{name='foo 1'}]
+16:32:38.572 [reactor-http-nio-8] DEBUG o.s.w.r.f.c.ExchangeFunctions - [317e3c2e] Cancel signal (to close connection)
+16:32:38.575 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Stopping JettyHttpServer...
+16:32:38.575 [Test worker] INFO  o.e.j.s.h.ContextHandler - Stopped o.e.j.s.ServletContextHandler@292bb7ee{/,null,STOPPED}
+16:32:38.578 [Test worker] INFO  o.e.j.s.AbstractConnector - Stopped ServerConnector@7600fc86{HTTP/1.1, (http/1.1)}{0.0.0.0:0}
+16:32:38.578 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Server stopped (0 millis).
+16:32:38.586 [Test worker] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - 1 mappings in 'requestMappingHandlerMapping'
+16:32:38.596 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
+16:32:38.600 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+16:32:38.600 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Starting ReactorHttpServer...
+16:32:38.601 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Server started on port 61390(0 millis).
+16:32:38.601 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [2d7e1c39] HTTP GET http://localhost:61390/stream
+16:32:38.620 [reactor-http-nio-11] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [2d09f0de-1, L:/127.0.0.1:61390 - R:/127.0.0.1:61391] HTTP GET &quot;/stream&quot;
+16:32:38.621 [reactor-http-nio-11] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - [2d09f0de-1, L:/127.0.0.1:61390 - R:/127.0.0.1:61391] Mapped to org.springframework.web.reactive.result.method.annotation.JacksonStreamingIntegrationTests$JacksonStreamingController#person()
+16:32:38.621 [reactor-http-nio-11] DEBUG o.s.w.r.r.m.a.ResponseBodyResultHandler - [2d09f0de-1, L:/127.0.0.1:61390 - R:/127.0.0.1:61391] Using 'application/stream+x-jackson-smile' given [application/stream+x-jackson-smile] and supported [application/stream+x-jackson-smile]
+16:32:38.622 [reactor-http-nio-11] DEBUG o.s.w.r.r.m.a.ResponseBodyResultHandler - [2d09f0de-1, L:/127.0.0.1:61390 - R:/127.0.0.1:61391] 0..N [org.springframework.web.reactive.result.method.annotation.JacksonStreamingIntegrationTests$Person]
+16:32:38.670 [parallel-1] DEBUG o.s.h.c.j.Jackson2SmileEncoder - [7888d631] Encoding [Person{name='foo 2'}]
+16:32:38.725 [parallel-2] DEBUG o.s.h.c.j.Jackson2SmileEncoder - [2d09f0de-1, L:/127.0.0.1:61390 - R:/127.0.0.1:61391] Encoding [Person{name='foo 0'}]
+16:32:38.730 [reactor-http-nio-10] DEBUG o.s.w.r.f.c.ExchangeFunctions - [2d7e1c39] [c5b9adae-1, L:/127.0.0.1:61391 - R:localhost/127.0.0.1:61390] Response 200 OK
+16:32:38.731 [reactor-http-nio-10] DEBUG o.s.h.c.j.Jackson2SmileDecoder - [2d7e1c39] [c5b9adae-1, L:/127.0.0.1:61391 - R:localhost/127.0.0.1:61390] Decoded [Person{name='foo 0'}]
+16:32:38.773 [parallel-1] DEBUG o.s.h.c.j.Jackson2SmileEncoder - [7888d631] Encoding [Person{name='foo 3'}]
+16:32:38.823 [parallel-2] DEBUG o.s.h.c.j.Jackson2SmileEncoder - [2d09f0de-1, L:/127.0.0.1:61390 - R:/127.0.0.1:61391] Encoding [Person{name='foo 1'}]
+16:32:38.824 [reactor-http-nio-10] DEBUG o.s.h.c.j.Jackson2SmileDecoder - [2d7e1c39] [c5b9adae-1, L:/127.0.0.1:61391 - R:localhost/127.0.0.1:61390] Decoded [Person{name='foo 1'}]
+16:32:38.825 [reactor-http-nio-10] DEBUG o.s.w.r.f.c.ExchangeFunctions - [2d7e1c39] Cancel signal (to close connection)
+16:32:38.825 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Stopping ReactorHttpServer...
+16:32:38.825 [reactor-http-nio-11] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [2d09f0de-1, L:/127.0.0.1:61390 - R:/127.0.0.1:61391] Completed 200 OK
+16:32:38.825 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Server stopped (0 millis).
+16:32:38.836 [Test worker] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - 1 mappings in 'requestMappingHandlerMapping'
+16:32:38.846 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
+16:32:38.849 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+16:32:38.850 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Starting TomcatHttpServer...
+16:32:38.856 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Server started on port 61392(0 millis).
+16:32:38.857 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [2688f5ce] HTTP GET http://localhost:61392/stream
+16:32:38.867 [http-nio-auto-4-exec-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [6bf18324] HTTP GET &quot;/stream&quot;
+16:32:38.867 [http-nio-auto-4-exec-1] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - [6bf18324] Mapped to org.springframework.web.reactive.result.method.annotation.JacksonStreamingIntegrationTests$JacksonStreamingController#person()
+16:32:38.868 [http-nio-auto-4-exec-1] DEBUG o.s.w.r.r.m.a.ResponseBodyResultHandler - [6bf18324] Using 'application/stream+x-jackson-smile' given [application/stream+x-jackson-smile] and supported [application/stream+x-jackson-smile]
+16:32:38.868 [http-nio-auto-4-exec-1] DEBUG o.s.w.r.r.m.a.ResponseBodyResultHandler - [6bf18324] 0..N [org.springframework.web.reactive.result.method.annotation.JacksonStreamingIntegrationTests$Person]
+16:32:38.971 [parallel-3] DEBUG o.s.h.c.j.Jackson2SmileEncoder - [6bf18324] Encoding [Person{name='foo 0'}]
+16:32:38.973 [reactor-http-nio-12] DEBUG o.s.w.r.f.c.ExchangeFunctions - [2688f5ce] [407de3ff-1, L:/127.0.0.1:61393 - R:localhost/127.0.0.1:61392] Response 200 OK
+16:32:38.974 [reactor-http-nio-12] DEBUG o.s.h.c.j.Jackson2SmileDecoder - [2688f5ce] [407de3ff-1, L:/127.0.0.1:61393 - R:localhost/127.0.0.1:61392] Decoded [Person{name='foo 0'}]
+16:32:39.070 [parallel-3] DEBUG o.s.h.c.j.Jackson2SmileEncoder - [6bf18324] Encoding [Person{name='foo 1'}]
+16:32:39.070 [reactor-http-nio-12] DEBUG o.s.h.c.j.Jackson2SmileDecoder - [2688f5ce] [407de3ff-1, L:/127.0.0.1:61393 - R:localhost/127.0.0.1:61392] Decoded [Person{name='foo 1'}]
+16:32:39.070 [reactor-http-nio-12] DEBUG o.s.w.r.f.c.ExchangeFunctions - [2688f5ce] Cancel signal (to close connection)
+16:32:39.071 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Stopping TomcatHttpServer...
+16:32:39.169 [parallel-3] DEBUG o.s.h.c.j.Jackson2SmileEncoder - [6bf18324] Encoding [Person{name='foo 2'}]
+16:32:39.269 [parallel-3] DEBUG o.s.h.c.j.Jackson2SmileEncoder - [6bf18324] Encoding [Person{name='foo 3'}]
+16:32:39.270 [http-nio-auto-4-exec-2] DEBUG o.s.h.s.r.ServletHttpHandlerAdapter - [6bf18324] AsyncEvent onError: java.io.IOException: Broken pipe
+16:32:39.275 [parallel-3] DEBUG o.s.w.s.DisconnectedClient - [6bf18324] Client went away: org.apache.catalina.connector.ClientAbortException: java.io.IOException: Broken pipe (stacktrace at TRACE level for 'org.springframework.web.server.DisconnectedClient')
+16:32:50.141 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Server stopped (0 millis).
+16:32:50.173 [Test worker] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - 1 mappings in 'requestMappingHandlerMapping'
+16:32:50.203 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
+16:32:50.216 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+16:32:50.216 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Starting UndertowHttpServer...
+16:32:50.217 [Test worker] INFO  i.undertow - starting server: Undertow - 2.2.7.Final
+16:32:50.226 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Server started on port 61422(0 millis).
+16:32:50.227 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [1a05b1ee] HTTP GET http://localhost:61422/stream
+16:32:50.254 [XNIO-4 I/O-3] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [3b4b52b9-4] HTTP GET &quot;/stream&quot;
+16:32:50.254 [XNIO-4 I/O-3] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - [3b4b52b9-4] Mapped to org.springframework.web.reactive.result.method.annotation.JacksonStreamingIntegrationTests$JacksonStreamingController#person()
+16:32:50.256 [XNIO-4 I/O-3] DEBUG o.s.w.r.r.m.a.ResponseBodyResultHandler - [3b4b52b9-4] Using 'application/stream+x-jackson-smile' given [application/stream+x-jackson-smile] and supported [application/stream+x-jackson-smile]
+16:32:50.256 [XNIO-4 I/O-3] DEBUG o.s.w.r.r.m.a.ResponseBodyResultHandler - [3b4b52b9-4] 0..N [org.springframework.web.reactive.result.method.annotation.JacksonStreamingIntegrationTests$Person]
+16:32:50.357 [parallel-4] DEBUG o.s.h.c.j.Jackson2SmileEncoder - [3b4b52b9-4] Encoding [Person{name='foo 0'}]
+16:32:50.359 [reactor-http-nio-13] DEBUG o.s.w.r.f.c.ExchangeFunctions - [1a05b1ee] [f1a841c9-1, L:/127.0.0.1:61423 - R:localhost/127.0.0.1:61422] Response 200 OK
+16:32:50.360 [reactor-http-nio-13] DEBUG o.s.h.c.j.Jackson2SmileDecoder - [1a05b1ee] [f1a841c9-1, L:/127.0.0.1:61423 - R:localhost/127.0.0.1:61422] Decoded [Person{name='foo 0'}]
+16:32:50.458 [parallel-4] DEBUG o.s.h.c.j.Jackson2SmileEncoder - [3b4b52b9-4] Encoding [Person{name='foo 1'}]
+16:32:50.459 [reactor-http-nio-13] DEBUG o.s.h.c.j.Jackson2SmileDecoder - [1a05b1ee] [f1a841c9-1, L:/127.0.0.1:61423 - R:localhost/127.0.0.1:61422] Decoded [Person{name='foo 1'}]
+16:32:50.459 [reactor-http-nio-13] DEBUG o.s.w.r.f.c.ExchangeFunctions - [1a05b1ee] Cancel signal (to close connection)
+16:32:50.460 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Stopping UndertowHttpServer...
+16:32:50.460 [Test worker] INFO  i.undertow - stopping server: Undertow - 2.2.7.Final
+16:32:50.461 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Server stopped (0 millis).
+16:32:50.478 [Test worker] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - 1 mappings in 'requestMappingHandlerMapping'
+16:32:50.502 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
+16:32:50.508 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+16:32:50.509 [Test worker] WARN  o.e.j.s.h.ContextHandler - Empty contextPath
+16:32:50.510 [Test worker] INFO  o.e.j.s.h.ContextHandler - Started o.e.j.s.ServletContextHandler@743cf5e0{/,null,AVAILABLE}
+16:32:50.510 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Starting JettyHttpServer...
+16:32:50.510 [Test worker] INFO  o.e.j.s.Server - jetty-9.4.39.v20210325; built: 2021-03-25T14:42:11.471Z; git: 9fc7ca5a922f2a37b84ec9dbc26a5168cee7e667; jvm 11.0.9+7-LTS
+16:32:50.519 [Test worker] INFO  o.e.j.s.AbstractConnector - Started ServerConnector@415b9706{HTTP/1.1, (http/1.1)}{0.0.0.0:61424}
+16:32:50.519 [Test worker] INFO  o.e.j.s.Server - Started @58940ms
+16:32:50.519 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Server started on port 61424(0 millis).
+16:32:50.520 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [18b7f3fa] HTTP GET http://localhost:61424/stream
+16:32:50.535 [qtp1083470563-243] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [1cd15b98] HTTP GET &quot;/stream&quot;
+16:32:50.535 [qtp1083470563-243] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - [1cd15b98] Mapped to org.springframework.web.reactive.result.method.annotation.JacksonStreamingIntegrationTests$JacksonStreamingController#person()
+16:32:50.536 [qtp1083470563-243] DEBUG o.s.w.r.r.m.a.ResponseBodyResultHandler - [1cd15b98] Using 'application/x-ndjson' given [application/x-ndjson] and supported [application/x-ndjson]
+16:32:50.536 [qtp1083470563-243] DEBUG o.s.w.r.r.m.a.ResponseBodyResultHandler - [1cd15b98] 0..N [org.springframework.web.reactive.result.method.annotation.JacksonStreamingIntegrationTests$Person]
+16:32:50.557 [parallel-4] DEBUG o.s.h.c.j.Jackson2SmileEncoder - [3b4b52b9-4] Encoding [Person{name='foo 2'}]
+16:32:50.638 [parallel-5] DEBUG o.s.h.c.j.Jackson2JsonEncoder - [1cd15b98] Encoding [Person{name='foo 0'}]
+16:32:50.642 [reactor-http-nio-14] DEBUG o.s.w.r.f.c.ExchangeFunctions - [18b7f3fa] [264ce8ac-1, L:/127.0.0.1:61425 - R:localhost/127.0.0.1:61424] Response 200 OK
+16:32:50.649 [reactor-http-nio-14] DEBUG o.s.h.c.j.Jackson2JsonDecoder - [18b7f3fa] [264ce8ac-1, L:/127.0.0.1:61425 - R:localhost/127.0.0.1:61424] Decoded [Person{name='foo 0'}]
+16:32:50.740 [parallel-5] DEBUG o.s.h.c.j.Jackson2JsonEncoder - [1cd15b98] Encoding [Person{name='foo 1'}]
+16:32:50.741 [reactor-http-nio-14] DEBUG o.s.h.c.j.Jackson2JsonDecoder - [18b7f3fa] [264ce8ac-1, L:/127.0.0.1:61425 - R:localhost/127.0.0.1:61424] Decoded [Person{name='foo 1'}]
+16:32:50.741 [reactor-http-nio-14] DEBUG o.s.w.r.f.c.ExchangeFunctions - [18b7f3fa] Cancel signal (to close connection)
+16:32:50.743 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Stopping JettyHttpServer...
+16:32:50.743 [Test worker] INFO  o.e.j.s.h.ContextHandler - Stopped o.e.j.s.ServletContextHandler@743cf5e0{/,null,STOPPED}
+16:32:50.747 [Test worker] INFO  o.e.j.s.AbstractConnector - Stopped ServerConnector@415b9706{HTTP/1.1, (http/1.1)}{0.0.0.0:0}
+16:32:50.748 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Server stopped (0 millis).
+16:32:50.765 [Test worker] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - 1 mappings in 'requestMappingHandlerMapping'
+16:32:50.785 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
+16:32:50.792 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+16:32:50.792 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Starting ReactorHttpServer...
+16:32:50.793 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Server started on port 61426(0 millis).
+16:32:50.796 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [665d6f8d] HTTP GET http://localhost:61426/stream
+16:32:50.811 [reactor-http-nio-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [0ddff057-1, L:/127.0.0.1:61426 - R:/127.0.0.1:61427] HTTP GET &quot;/stream&quot;
+16:32:50.812 [reactor-http-nio-1] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - [0ddff057-1, L:/127.0.0.1:61426 - R:/127.0.0.1:61427] Mapped to org.springframework.web.reactive.result.method.annotation.JacksonStreamingIntegrationTests$JacksonStreamingController#person()
+16:32:50.813 [reactor-http-nio-1] DEBUG o.s.w.r.r.m.a.ResponseBodyResultHandler - [0ddff057-1, L:/127.0.0.1:61426 - R:/127.0.0.1:61427] Using 'application/x-ndjson' given [application/x-ndjson] and supported [application/x-ndjson]
+16:32:50.813 [reactor-http-nio-1] DEBUG o.s.w.r.r.m.a.ResponseBodyResultHandler - [0ddff057-1, L:/127.0.0.1:61426 - R:/127.0.0.1:61427] 0..N [org.springframework.web.reactive.result.method.annotation.JacksonStreamingIntegrationTests$Person]
+16:32:50.841 [parallel-5] DEBUG o.s.h.c.j.Jackson2JsonEncoder - [1cd15b98] Encoding [Person{name='foo 2'}]
+16:32:50.918 [parallel-6] DEBUG o.s.h.c.j.Jackson2JsonEncoder - [0ddff057-1, L:/127.0.0.1:61426 - R:/127.0.0.1:61427] Encoding [Person{name='foo 0'}]
+16:32:50.922 [reactor-http-nio-16] DEBUG o.s.w.r.f.c.ExchangeFunctions - [665d6f8d] [94cc1b56-1, L:/127.0.0.1:61427 - R:localhost/127.0.0.1:61426] Response 200 OK
+16:32:50.923 [reactor-http-nio-16] DEBUG o.s.h.c.j.Jackson2JsonDecoder - [665d6f8d] [94cc1b56-1, L:/127.0.0.1:61427 - R:localhost/127.0.0.1:61426] Decoded [Person{name='foo 0'}]
+16:32:50.938 [parallel-5] DEBUG o.s.h.c.j.Jackson2JsonEncoder - [1cd15b98] Encoding [Person{name='foo 3'}]
+16:32:51.018 [parallel-6] DEBUG o.s.h.c.j.Jackson2JsonEncoder - [0ddff057-1, L:/127.0.0.1:61426 - R:/127.0.0.1:61427] Encoding [Person{name='foo 1'}]
+16:32:51.021 [reactor-http-nio-16] DEBUG o.s.h.c.j.Jackson2JsonDecoder - [665d6f8d] [94cc1b56-1, L:/127.0.0.1:61427 - R:localhost/127.0.0.1:61426] Decoded [Person{name='foo 1'}]
+16:32:51.021 [reactor-http-nio-16] DEBUG o.s.w.r.f.c.ExchangeFunctions - [665d6f8d] Cancel signal (to close connection)
+16:32:51.022 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Stopping ReactorHttpServer...
+16:32:51.022 [reactor-http-nio-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [0ddff057-1, L:/127.0.0.1:61426 - R:/127.0.0.1:61427] Completed 200 OK
+16:32:51.022 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Server stopped (0 millis).
+16:32:51.040 [Test worker] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - 1 mappings in 'requestMappingHandlerMapping'
+16:32:51.064 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
+16:32:51.070 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+16:32:51.070 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Starting TomcatHttpServer...
+16:32:51.083 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Server started on port 61428(0 millis).
+16:32:51.083 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [5a86909a] HTTP GET http://localhost:61428/stream
+16:32:51.102 [http-nio-auto-5-exec-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [45f81ac4] HTTP GET &quot;/stream&quot;
+16:32:51.103 [http-nio-auto-5-exec-1] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - [45f81ac4] Mapped to org.springframework.web.reactive.result.method.annotation.JacksonStreamingIntegrationTests$JacksonStreamingController#person()
+16:32:51.104 [http-nio-auto-5-exec-1] DEBUG o.s.w.r.r.m.a.ResponseBodyResultHandler - [45f81ac4] Using 'application/x-ndjson' given [application/x-ndjson] and supported [application/x-ndjson]
+16:32:51.104 [http-nio-auto-5-exec-1] DEBUG o.s.w.r.r.m.a.ResponseBodyResultHandler - [45f81ac4] 0..N [org.springframework.web.reactive.result.method.annotation.JacksonStreamingIntegrationTests$Person]
+16:32:51.208 [parallel-7] DEBUG o.s.h.c.j.Jackson2JsonEncoder - [45f81ac4] Encoding [Person{name='foo 0'}]
+16:32:51.211 [reactor-http-nio-2] DEBUG o.s.w.r.f.c.ExchangeFunctions - [5a86909a] [496f4946-1, L:/127.0.0.1:61429 - R:localhost/127.0.0.1:61428] Response 200 OK
+16:32:51.212 [reactor-http-nio-2] DEBUG o.s.h.c.j.Jackson2JsonDecoder - [5a86909a] [496f4946-1, L:/127.0.0.1:61429 - R:localhost/127.0.0.1:61428] Decoded [Person{name='foo 0'}]
+16:32:51.308 [parallel-7] DEBUG o.s.h.c.j.Jackson2JsonEncoder - [45f81ac4] Encoding [Person{name='foo 1'}]
+16:32:51.310 [reactor-http-nio-2] DEBUG o.s.h.c.j.Jackson2JsonDecoder - [5a86909a] [496f4946-1, L:/127.0.0.1:61429 - R:localhost/127.0.0.1:61428] Decoded [Person{name='foo 1'}]
+16:32:51.310 [reactor-http-nio-2] DEBUG o.s.w.r.f.c.ExchangeFunctions - [5a86909a] Cancel signal (to close connection)
+16:32:51.310 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Stopping TomcatHttpServer...
+16:32:51.410 [parallel-7] DEBUG o.s.h.c.j.Jackson2JsonEncoder - [45f81ac4] Encoding [Person{name='foo 2'}]
+16:32:51.511 [parallel-7] DEBUG o.s.h.c.j.Jackson2JsonEncoder - [45f81ac4] Encoding [Person{name='foo 3'}]
+16:32:51.513 [http-nio-auto-5-exec-2] DEBUG o.s.h.s.r.ServletHttpHandlerAdapter - [45f81ac4] AsyncEvent onError: java.io.IOException: Broken pipe
+16:32:51.514 [parallel-7] DEBUG o.s.w.s.DisconnectedClient - [45f81ac4] Client went away: org.apache.catalina.connector.ClientAbortException: java.io.IOException: Broken pipe (stacktrace at TRACE level for 'org.springframework.web.server.DisconnectedClient')
+16:33:02.411 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Server stopped (0 millis).
+16:33:02.428 [Test worker] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - 1 mappings in 'requestMappingHandlerMapping'
+16:33:02.442 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
+16:33:02.446 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+16:33:02.446 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Starting UndertowHttpServer...
+16:33:02.446 [Test worker] INFO  i.undertow - starting server: Undertow - 2.2.7.Final
+16:33:02.454 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Server started on port 61463(0 millis).
+16:33:02.454 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [63bcf5e5] HTTP GET http://localhost:61463/stream
+16:33:02.465 [XNIO-5 I/O-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [f53c187-5] HTTP GET &quot;/stream&quot;
+16:33:02.466 [XNIO-5 I/O-1] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - [f53c187-5] Mapped to org.springframework.web.reactive.result.method.annotation.JacksonStreamingIntegrationTests$JacksonStreamingController#person()
+16:33:02.467 [XNIO-5 I/O-1] DEBUG o.s.w.r.r.m.a.ResponseBodyResultHandler - [f53c187-5] Using 'application/x-ndjson' given [application/x-ndjson] and supported [application/x-ndjson]
+16:33:02.467 [XNIO-5 I/O-1] DEBUG o.s.w.r.r.m.a.ResponseBodyResultHandler - [f53c187-5] 0..N [org.springframework.web.reactive.result.method.annotation.JacksonStreamingIntegrationTests$Person]
+16:33:02.570 [parallel-8] DEBUG o.s.h.c.j.Jackson2JsonEncoder - [f53c187-5] Encoding [Person{name='foo 0'}]
+16:33:02.572 [reactor-http-nio-3] DEBUG o.s.w.r.f.c.ExchangeFunctions - [63bcf5e5] [b53d875a-1, L:/127.0.0.1:61464 - R:localhost/127.0.0.1:61463] Response 200 OK
+16:33:02.573 [reactor-http-nio-3] DEBUG o.s.h.c.j.Jackson2JsonDecoder - [63bcf5e5] [b53d875a-1, L:/127.0.0.1:61464 - R:localhost/127.0.0.1:61463] Decoded [Person{name='foo 0'}]
+16:33:02.668 [parallel-8] DEBUG o.s.h.c.j.Jackson2JsonEncoder - [f53c187-5] Encoding [Person{name='foo 1'}]
+16:33:02.670 [reactor-http-nio-3] DEBUG o.s.h.c.j.Jackson2JsonDecoder - [63bcf5e5] [b53d875a-1, L:/127.0.0.1:61464 - R:localhost/127.0.0.1:61463] Decoded [Person{name='foo 1'}]
+16:33:02.670 [reactor-http-nio-3] DEBUG o.s.w.r.f.c.ExchangeFunctions - [63bcf5e5] Cancel signal (to close connection)
+16:33:02.671 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Stopping UndertowHttpServer...
+16:33:02.671 [Test worker] INFO  i.undertow - stopping server: Undertow - 2.2.7.Final
+16:33:02.674 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Server stopped (0 millis).
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 6.8.3</a> at 2021年4月26日 下午4:46:32</p>
+</div>
+</div>
+</body>
+</html>

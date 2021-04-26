@@ -1,0 +1,461 @@
+org/springframework/jca/cci/CciOperationNotSupportedException.java
+ org.springframework.jca.cci.CciOperationNotSupportedException
+org/springframework/transaction/interceptor/NoRollbackRuleAttribute.java
+ org.springframework.transaction.interceptor.NoRollbackRuleAttribute
+org/springframework/dao/TypeMismatchDataAccessException.java
+ org.springframework.dao.TypeMismatchDataAccessException
+org/springframework/transaction/interceptor/TransactionAttribute.java
+ org.springframework.transaction.interceptor.TransactionAttribute
+org/springframework/dao/RecoverableDataAccessException.java
+ org.springframework.dao.RecoverableDataAccessException
+org/springframework/jca/cci/core/support/CommAreaRecord.java
+ org.springframework.jca.cci.core.support.CommAreaRecord
+org/springframework/transaction/annotation/SpringTransactionAnnotationParser.java
+ org.springframework.transaction.annotation.SpringTransactionAnnotationParser
+org/springframework/transaction/interceptor/TransactionAttributeSource.java
+ org.springframework.transaction.interceptor.TransactionAttributeSource
+org/springframework/transaction/support/TransactionCallback.java
+ org.springframework.transaction.support.TransactionCallback
+org/springframework/dao/UncategorizedDataAccessException.java
+ org.springframework.dao.UncategorizedDataAccessException
+org/springframework/jca/cci/connection/SingleConnectionFactory.java
+ org.springframework.jca.cci.connection.SingleConnectionFactory
+ org.springframework.jca.cci.connection.SingleConnectionFactory$1
+ org.springframework.jca.cci.connection.SingleConnectionFactory$CloseSuppressingInvocationHandler
+org/springframework/transaction/TransactionSuspensionNotSupportedException.java
+ org.springframework.transaction.TransactionSuspensionNotSupportedException
+org/springframework/transaction/annotation/package-info.java
+ org.springframework.transaction.annotation.package-info
+org/springframework/transaction/jta/JtaTransactionObject.java
+ org.springframework.transaction.jta.JtaTransactionObject
+org/springframework/transaction/interceptor/MethodMapTransactionAttributeSource.java
+ org.springframework.transaction.interceptor.MethodMapTransactionAttributeSource
+org/springframework/transaction/reactive/package-info.java
+ org.springframework.transaction.reactive.package-info
+org/springframework/dao/NonTransientDataAccessException.java
+ org.springframework.dao.NonTransientDataAccessException
+org/springframework/dao/TransientDataAccessResourceException.java
+ org.springframework.dao.TransientDataAccessResourceException
+org/springframework/jca/cci/object/package-info.java
+ org.springframework.jca.cci.object.package-info
+org/springframework/dao/CannotAcquireLockException.java
+ org.springframework.dao.CannotAcquireLockException
+org/springframework/jca/support/SimpleBootstrapContext.java
+ org.springframework.jca.support.SimpleBootstrapContext
+org/springframework/transaction/jta/JtaAfterCompletionSynchronization.java
+ org.springframework.transaction.jta.JtaAfterCompletionSynchronization
+org/springframework/transaction/CannotCreateTransactionException.java
+ org.springframework.transaction.CannotCreateTransactionException
+org/springframework/jca/endpoint/GenericMessageEndpointManager.java
+ org.springframework.jca.endpoint.GenericMessageEndpointManager
+org/springframework/transaction/reactive/TransactionSynchronization.java
+ org.springframework.transaction.reactive.TransactionSynchronization
+org/springframework/transaction/annotation/AbstractTransactionManagementConfiguration.java
+ org.springframework.transaction.annotation.AbstractTransactionManagementConfiguration
+org/springframework/jca/endpoint/GenericMessageEndpointFactory.java
+ org.springframework.jca.endpoint.GenericMessageEndpointFactory
+ org.springframework.jca.endpoint.GenericMessageEndpointFactory$1
+ org.springframework.jca.endpoint.GenericMessageEndpointFactory$GenericMessageEndpoint
+ org.springframework.jca.endpoint.GenericMessageEndpointFactory$InternalResourceException
+org/springframework/transaction/TransactionException.java
+ org.springframework.transaction.TransactionException
+org/springframework/transaction/interceptor/TransactionAttributeEditor.java
+ org.springframework.transaction.interceptor.TransactionAttributeEditor
+org/springframework/transaction/interceptor/TransactionAttributeSourceAdvisor.java
+ org.springframework.transaction.interceptor.TransactionAttributeSourceAdvisor
+ org.springframework.transaction.interceptor.TransactionAttributeSourceAdvisor$1
+org/springframework/transaction/jta/SimpleTransactionFactory.java
+ org.springframework.transaction.jta.SimpleTransactionFactory
+org/springframework/transaction/reactive/TransactionSynchronizationManager.java
+ org.springframework.transaction.reactive.TransactionSynchronizationManager
+org/springframework/transaction/UnexpectedRollbackException.java
+ org.springframework.transaction.UnexpectedRollbackException
+org/springframework/transaction/support/AbstractPlatformTransactionManager.java
+ org.springframework.transaction.support.AbstractPlatformTransactionManager
+ org.springframework.transaction.support.AbstractPlatformTransactionManager$1
+ org.springframework.transaction.support.AbstractPlatformTransactionManager$SuspendedResourcesHolder
+org/springframework/transaction/event/package-info.java
+ org.springframework.transaction.event.package-info
+org/springframework/transaction/interceptor/TransactionInterceptor.java
+ org.springframework.transaction.interceptor.TransactionInterceptor
+ org.springframework.transaction.interceptor.TransactionInterceptor$1
+org/springframework/transaction/support/ResourceHolder.java
+ org.springframework.transaction.support.ResourceHolder
+org/springframework/transaction/event/TransactionalApplicationListenerSynchronization.java
+ org.springframework.transaction.event.TransactionalApplicationListenerSynchronization
+org/springframework/transaction/support/ResourceHolderSynchronization.java
+ org.springframework.transaction.support.ResourceHolderSynchronization
+org/springframework/jca/support/ResourceAdapterFactoryBean.java
+ org.springframework.jca.support.ResourceAdapterFactoryBean
+org/springframework/transaction/TransactionSystemException.java
+ org.springframework.transaction.TransactionSystemException
+org/springframework/transaction/config/TransactionManagementConfigUtils.java
+ org.springframework.transaction.config.TransactionManagementConfigUtils
+org/springframework/transaction/interceptor/BeanFactoryTransactionAttributeSourceAdvisor.java
+ org.springframework.transaction.interceptor.BeanFactoryTransactionAttributeSourceAdvisor
+ org.springframework.transaction.interceptor.BeanFactoryTransactionAttributeSourceAdvisor$1
+org/springframework/jca/cci/core/CciTemplate.java
+ org.springframework.jca.cci.core.CciTemplate
+ org.springframework.jca.cci.core.CciTemplate$1
+ org.springframework.jca.cci.core.CciTemplate$SimpleRecordExtractor
+org/springframework/transaction/package-info.java
+ org.springframework.transaction.package-info
+org/springframework/transaction/support/SimpleTransactionScope.java
+ org.springframework.transaction.support.SimpleTransactionScope
+ org.springframework.transaction.support.SimpleTransactionScope$CleanupSynchronization
+ org.springframework.transaction.support.SimpleTransactionScope$ScopedObjectsHolder
+org/springframework/transaction/reactive/GenericReactiveTransaction.java
+ org.springframework.transaction.reactive.GenericReactiveTransaction
+org/springframework/transaction/annotation/EnableTransactionManagement.java
+ org.springframework.transaction.annotation.EnableTransactionManagement
+org/springframework/transaction/TransactionExecution.java
+ org.springframework.transaction.TransactionExecution
+org/springframework/transaction/annotation/Transactional.java
+ org.springframework.transaction.annotation.Transactional
+org/springframework/jca/cci/connection/ConnectionHolder.java
+ org.springframework.jca.cci.connection.ConnectionHolder
+org/springframework/dao/annotation/package-info.java
+ org.springframework.dao.annotation.package-info
+org/springframework/transaction/support/SimpleTransactionStatus.java
+ org.springframework.transaction.support.SimpleTransactionStatus
+org/springframework/jca/context/package-info.java
+ org.springframework.jca.context.package-info
+org/springframework/dao/TransientDataAccessException.java
+ org.springframework.dao.TransientDataAccessException
+org/springframework/transaction/interceptor/package-info.java
+ org.springframework.transaction.interceptor.package-info
+org/springframework/transaction/TransactionManager.java
+ org.springframework.transaction.TransactionManager
+org/springframework/jca/cci/object/SimpleRecordOperation.java
+ org.springframework.jca.cci.object.SimpleRecordOperation
+org/springframework/dao/DataRetrievalFailureException.java
+ org.springframework.dao.DataRetrievalFailureException
+org/springframework/jca/cci/package-info.java
+ org.springframework.jca.cci.package-info
+org/springframework/transaction/support/package-info.java
+ org.springframework.transaction.support.package-info
+org/springframework/jca/cci/RecordTypeNotSupportedException.java
+ org.springframework.jca.cci.RecordTypeNotSupportedException
+org/springframework/transaction/annotation/TransactionAnnotationParser.java
+ org.springframework.transaction.annotation.TransactionAnnotationParser
+org/springframework/jca/cci/connection/package-info.java
+ org.springframework.jca.cci.connection.package-info
+org/springframework/transaction/support/TransactionSynchronizationAdapter.java
+ org.springframework.transaction.support.TransactionSynchronizationAdapter
+org/springframework/transaction/reactive/TransactionCallback.java
+ org.springframework.transaction.reactive.TransactionCallback
+org/springframework/jca/cci/object/MappingRecordOperation.java
+ org.springframework.jca.cci.object.MappingRecordOperation
+ org.springframework.jca.cci.object.MappingRecordOperation$RecordCreatorImpl
+ org.springframework.jca.cci.object.MappingRecordOperation$RecordExtractorImpl
+org/springframework/transaction/TransactionTimedOutException.java
+ org.springframework.transaction.TransactionTimedOutException
+org/springframework/transaction/event/TransactionalEventListenerFactory.java
+ org.springframework.transaction.event.TransactionalEventListenerFactory
+org/springframework/transaction/InvalidIsolationLevelException.java
+ org.springframework.transaction.InvalidIsolationLevelException
+org/springframework/transaction/event/TransactionalApplicationListenerAdapter.java
+ org.springframework.transaction.event.TransactionalApplicationListenerAdapter
+org/springframework/transaction/annotation/ProxyTransactionManagementConfiguration.java
+ org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration
+org/springframework/dao/CannotSerializeTransactionException.java
+ org.springframework.dao.CannotSerializeTransactionException
+org/springframework/transaction/support/TransactionSynchronization.java
+ org.springframework.transaction.support.TransactionSynchronization
+org/springframework/dao/support/PersistenceExceptionTranslator.java
+ org.springframework.dao.support.PersistenceExceptionTranslator
+org/springframework/transaction/support/ResourceHolderSupport.java
+ org.springframework.transaction.support.ResourceHolderSupport
+org/springframework/jca/context/BootstrapContextAware.java
+ org.springframework.jca.context.BootstrapContextAware
+org/springframework/transaction/config/JtaTransactionManagerBeanDefinitionParser.java
+ org.springframework.transaction.config.JtaTransactionManagerBeanDefinitionParser
+org/springframework/jca/context/BootstrapContextAwareProcessor.java
+ org.springframework.jca.context.BootstrapContextAwareProcessor
+org/springframework/transaction/jta/WebSphereUowTransactionManager.java
+ org.springframework.transaction.jta.WebSphereUowTransactionManager
+ org.springframework.transaction.jta.WebSphereUowTransactionManager$UOWActionAdapter
+org/springframework/jca/work/WorkManagerTaskExecutor.java
+ org.springframework.jca.work.WorkManagerTaskExecutor
+org/springframework/transaction/config/JtaTransactionManagerFactoryBean.java
+ org.springframework.transaction.config.JtaTransactionManagerFactoryBean
+org/springframework/jca/cci/connection/TransactionAwareConnectionFactoryProxy.java
+ org.springframework.jca.cci.connection.TransactionAwareConnectionFactoryProxy
+ org.springframework.jca.cci.connection.TransactionAwareConnectionFactoryProxy$TransactionAwareInvocationHandler
+org/springframework/transaction/annotation/AnnotationTransactionAttributeSource.java
+ org.springframework.transaction.annotation.AnnotationTransactionAttributeSource
+org/springframework/dao/support/ChainedPersistenceExceptionTranslator.java
+ org.springframework.dao.support.ChainedPersistenceExceptionTranslator
+org/springframework/transaction/annotation/Ejb3TransactionAnnotationParser.java
+ org.springframework.transaction.annotation.Ejb3TransactionAnnotationParser
+ org.springframework.transaction.annotation.Ejb3TransactionAnnotationParser$Ejb3TransactionAttribute
+org/springframework/dao/DataAccessException.java
+ org.springframework.dao.DataAccessException
+org/springframework/dao/NonTransientDataAccessResourceException.java
+ org.springframework.dao.NonTransientDataAccessResourceException
+org/springframework/transaction/support/DelegatingTransactionDefinition.java
+ org.springframework.transaction.support.DelegatingTransactionDefinition
+org/springframework/jca/cci/connection/NotSupportedRecordFactory.java
+ org.springframework.jca.cci.connection.NotSupportedRecordFactory
+org/springframework/dao/EmptyResultDataAccessException.java
+ org.springframework.dao.EmptyResultDataAccessException
+org/springframework/transaction/support/ResourceTransactionManager.java
+ org.springframework.transaction.support.ResourceTransactionManager
+org/springframework/jca/cci/CannotGetCciConnectionException.java
+ org.springframework.jca.cci.CannotGetCciConnectionException
+org/springframework/transaction/support/TransactionCallbackWithoutResult.java
+ org.springframework.transaction.support.TransactionCallbackWithoutResult
+org/springframework/jca/cci/core/support/CciDaoSupport.java
+ org.springframework.jca.cci.core.support.CciDaoSupport
+org/springframework/transaction/reactive/AbstractReactiveTransactionManager.java
+ org.springframework.transaction.reactive.AbstractReactiveTransactionManager
+ org.springframework.transaction.reactive.AbstractReactiveTransactionManager$1
+ org.springframework.transaction.reactive.AbstractReactiveTransactionManager$ErrorPredicates
+ org.springframework.transaction.reactive.AbstractReactiveTransactionManager$ErrorPredicates$1
+ org.springframework.transaction.reactive.AbstractReactiveTransactionManager$ErrorPredicates$2
+ org.springframework.transaction.reactive.AbstractReactiveTransactionManager$ErrorPredicates$3
+ org.springframework.transaction.reactive.AbstractReactiveTransactionManager$SuspendedResourcesHolder
+org/springframework/transaction/event/TransactionalApplicationListener.java
+ org.springframework.transaction.event.TransactionalApplicationListener
+ org.springframework.transaction.event.TransactionalApplicationListener$SynchronizationCallback
+org/springframework/jca/support/LocalConnectionFactoryBean.java
+ org.springframework.jca.support.LocalConnectionFactoryBean
+org/springframework/jca/context/ResourceAdapterApplicationContext.java
+ org.springframework.jca.context.ResourceAdapterApplicationContext
+org/springframework/jca/cci/core/RecordExtractor.java
+ org.springframework.jca.cci.core.RecordExtractor
+org/springframework/transaction/PlatformTransactionManager.java
+ org.springframework.transaction.PlatformTransactionManager
+org/springframework/transaction/jta/ManagedTransactionAdapter.java
+ org.springframework.transaction.jta.ManagedTransactionAdapter
+org/springframework/jca/cci/core/RecordCreator.java
+ org.springframework.jca.cci.core.RecordCreator
+org/springframework/transaction/ReactiveTransactionManager.java
+ org.springframework.transaction.ReactiveTransactionManager
+org/springframework/transaction/jta/UserTransactionAdapter.java
+ org.springframework.transaction.jta.UserTransactionAdapter
+org/springframework/transaction/interceptor/TransactionAttributeSourceEditor.java
+ org.springframework.transaction.interceptor.TransactionAttributeSourceEditor
+org/springframework/transaction/support/TransactionTemplate.java
+ org.springframework.transaction.support.TransactionTemplate
+org/springframework/jca/cci/core/InteractionCallback.java
+ org.springframework.jca.cci.core.InteractionCallback
+org/springframework/transaction/interceptor/TransactionAttributeSourcePointcut.java
+ org.springframework.transaction.interceptor.TransactionAttributeSourcePointcut
+ org.springframework.transaction.interceptor.TransactionAttributeSourcePointcut$1
+ org.springframework.transaction.interceptor.TransactionAttributeSourcePointcut$TransactionAttributeSourceClassFilter
+org/springframework/transaction/support/TransactionSynchronizationManager.java
+ org.springframework.transaction.support.TransactionSynchronizationManager
+org/springframework/dao/annotation/PersistenceExceptionTranslationPostProcessor.java
+ org.springframework.dao.annotation.PersistenceExceptionTranslationPostProcessor
+org/springframework/transaction/jta/SpringJtaSynchronizationAdapter.java
+ org.springframework.transaction.jta.SpringJtaSynchronizationAdapter
+org/springframework/transaction/config/AnnotationDrivenBeanDefinitionParser.java
+ org.springframework.transaction.config.AnnotationDrivenBeanDefinitionParser
+ org.springframework.transaction.config.AnnotationDrivenBeanDefinitionParser$AopAutoProxyConfigurer
+org/springframework/dao/InvalidDataAccessApiUsageException.java
+ org.springframework.dao.InvalidDataAccessApiUsageException
+org/springframework/jca/work/SimpleTaskWorkManager.java
+ org.springframework.jca.work.SimpleTaskWorkManager
+ org.springframework.jca.work.SimpleTaskWorkManager$DelegatingWorkAdapter
+org/springframework/transaction/interceptor/AbstractFallbackTransactionAttributeSource.java
+ org.springframework.transaction.interceptor.AbstractFallbackTransactionAttributeSource
+ org.springframework.transaction.interceptor.AbstractFallbackTransactionAttributeSource$1
+org/springframework/transaction/annotation/JtaTransactionAnnotationParser.java
+ org.springframework.transaction.annotation.JtaTransactionAnnotationParser
+org/springframework/jca/cci/connection/ConnectionSpecConnectionFactoryAdapter.java
+ org.springframework.jca.cci.connection.ConnectionSpecConnectionFactoryAdapter
+org/springframework/transaction/InvalidTimeoutException.java
+ org.springframework.transaction.InvalidTimeoutException
+org/springframework/transaction/annotation/Propagation.java
+ org.springframework.transaction.annotation.Propagation
+org/springframework/dao/support/PersistenceExceptionTranslationInterceptor.java
+ org.springframework.dao.support.PersistenceExceptionTranslationInterceptor
+org/springframework/transaction/support/TransactionOperations.java
+ org.springframework.transaction.support.TransactionOperations
+org/springframework/dao/DataAccessResourceFailureException.java
+ org.springframework.dao.DataAccessResourceFailureException
+org/springframework/transaction/interceptor/RuleBasedTransactionAttribute.java
+ org.springframework.transaction.interceptor.RuleBasedTransactionAttribute
+org/springframework/transaction/interceptor/TransactionalProxy.java
+ org.springframework.transaction.interceptor.TransactionalProxy
+org/springframework/dao/annotation/PersistenceExceptionTranslationAdvisor.java
+ org.springframework.dao.annotation.PersistenceExceptionTranslationAdvisor
+org/springframework/transaction/support/DefaultTransactionDefinition.java
+ org.springframework.transaction.support.DefaultTransactionDefinition
+org/springframework/transaction/reactive/TransactionContextHolder.java
+ org.springframework.transaction.reactive.TransactionContextHolder
+org/springframework/jca/cci/object/MappingCommAreaOperation.java
+ org.springframework.jca.cci.object.MappingCommAreaOperation
+org/springframework/transaction/interceptor/MatchAlwaysTransactionAttributeSource.java
+ org.springframework.transaction.interceptor.MatchAlwaysTransactionAttributeSource
+org/springframework/dao/PermissionDeniedDataAccessException.java
+ org.springframework.dao.PermissionDeniedDataAccessException
+org/springframework/transaction/StaticTransactionDefinition.java
+ org.springframework.transaction.StaticTransactionDefinition
+org/springframework/jca/endpoint/AbstractMessageEndpointFactory.java
+ org.springframework.jca.endpoint.AbstractMessageEndpointFactory
+ org.springframework.jca.endpoint.AbstractMessageEndpointFactory$AbstractMessageEndpoint
+ org.springframework.jca.endpoint.AbstractMessageEndpointFactory$TransactionDelegate
+org/springframework/transaction/interceptor/TransactionAspectSupport.java
+ org.springframework.transaction.interceptor.TransactionAspectSupport
+ org.springframework.transaction.interceptor.TransactionAspectSupport$1
+ org.springframework.transaction.interceptor.TransactionAspectSupport$CoroutinesInvocationCallback
+ org.springframework.transaction.interceptor.TransactionAspectSupport$InvocationCallback
+ org.springframework.transaction.interceptor.TransactionAspectSupport$KotlinDelegate
+ org.springframework.transaction.interceptor.TransactionAspectSupport$ReactiveTransactionInfo
+ org.springframework.transaction.interceptor.TransactionAspectSupport$ReactiveTransactionSupport
+ org.springframework.transaction.interceptor.TransactionAspectSupport$ReactiveTransactionSupport$1
+ org.springframework.transaction.interceptor.TransactionAspectSupport$ThrowableHolder
+ org.springframework.transaction.interceptor.TransactionAspectSupport$ThrowableHolderException
+ org.springframework.transaction.interceptor.TransactionAspectSupport$TransactionInfo
+ org.springframework.transaction.interceptor.TransactionAspectSupport$VavrDelegate
+org/springframework/jca/cci/core/support/package-info.java
+ org.springframework.jca.cci.core.support.package-info
+org/springframework/transaction/ReactiveTransaction.java
+ org.springframework.transaction.ReactiveTransaction
+org/springframework/transaction/NoTransactionException.java
+ org.springframework.transaction.NoTransactionException
+org/springframework/jca/cci/InvalidResultSetAccessException.java
+ org.springframework.jca.cci.InvalidResultSetAccessException
+org/springframework/transaction/support/AbstractTransactionStatus.java
+ org.springframework.transaction.support.AbstractTransactionStatus
+org/springframework/dao/DuplicateKeyException.java
+ org.springframework.dao.DuplicateKeyException
+org/springframework/transaction/support/CallbackPreferringPlatformTransactionManager.java
+ org.springframework.transaction.support.CallbackPreferringPlatformTransactionManager
+org/springframework/jca/context/SpringContextResourceAdapter.java
+ org.springframework.jca.context.SpringContextResourceAdapter
+org/springframework/jca/work/DelegatingWork.java
+ org.springframework.jca.work.DelegatingWork
+org/springframework/jca/cci/CannotCreateRecordException.java
+ org.springframework.jca.cci.CannotCreateRecordException
+org/springframework/transaction/event/TransactionalApplicationListenerMethodAdapter.java
+ org.springframework.transaction.event.TransactionalApplicationListenerMethodAdapter
+org/springframework/transaction/interceptor/DelegatingTransactionAttribute.java
+ org.springframework.transaction.interceptor.DelegatingTransactionAttribute
+org/springframework/dao/InvalidDataAccessResourceUsageException.java
+ org.springframework.dao.InvalidDataAccessResourceUsageException
+org/springframework/transaction/jta/TransactionFactory.java
+ org.springframework.transaction.jta.TransactionFactory
+org/springframework/transaction/IllegalTransactionStateException.java
+ org.springframework.transaction.IllegalTransactionStateException
+org/springframework/transaction/HeuristicCompletionException.java
+ org.springframework.transaction.HeuristicCompletionException
+org/springframework/dao/support/DataAccessUtils.java
+ org.springframework.dao.support.DataAccessUtils
+org/springframework/jca/work/package-info.java
+ org.springframework.jca.work.package-info
+org/springframework/transaction/interceptor/DefaultTransactionAttribute.java
+ org.springframework.transaction.interceptor.DefaultTransactionAttribute
+org/springframework/transaction/support/ResourceTransactionDefinition.java
+ org.springframework.transaction.support.ResourceTransactionDefinition
+org/springframework/dao/DataIntegrityViolationException.java
+ org.springframework.dao.DataIntegrityViolationException
+org/springframework/jca/cci/core/package-info.java
+ org.springframework.jca.cci.core.package-info
+org/springframework/dao/QueryTimeoutException.java
+ org.springframework.dao.QueryTimeoutException
+org/springframework/transaction/config/package-info.java
+ org.springframework.transaction.config.package-info
+org/springframework/transaction/support/TransactionSynchronizationUtils.java
+ org.springframework.transaction.support.TransactionSynchronizationUtils
+ org.springframework.transaction.support.TransactionSynchronizationUtils$ScopedProxyUnwrapper
+org/springframework/dao/support/package-info.java
+ org.springframework.dao.support.package-info
+org/springframework/dao/DeadlockLoserDataAccessException.java
+ org.springframework.dao.DeadlockLoserDataAccessException
+org/springframework/transaction/reactive/TransactionContextManager.java
+ org.springframework.transaction.reactive.TransactionContextManager
+ org.springframework.transaction.reactive.TransactionContextManager$NoTransactionInContextException
+org/springframework/jca/cci/connection/CciLocalTransactionManager.java
+ org.springframework.jca.cci.connection.CciLocalTransactionManager
+ org.springframework.jca.cci.connection.CciLocalTransactionManager$1
+ org.springframework.jca.cci.connection.CciLocalTransactionManager$CciLocalTransactionObject
+org/springframework/transaction/annotation/TransactionManagementConfigurer.java
+ org.springframework.transaction.annotation.TransactionManagementConfigurer
+org/springframework/transaction/config/TxAdviceBeanDefinitionParser.java
+ org.springframework.transaction.config.TxAdviceBeanDefinitionParser
+org/springframework/transaction/support/SmartTransactionObject.java
+ org.springframework.transaction.support.SmartTransactionObject
+org/springframework/transaction/NestedTransactionNotSupportedException.java
+ org.springframework.transaction.NestedTransactionNotSupportedException
+org/springframework/transaction/jta/WebLogicJtaTransactionManager.java
+ org.springframework.transaction.jta.WebLogicJtaTransactionManager
+org/springframework/transaction/reactive/TransactionalOperator.java
+ org.springframework.transaction.reactive.TransactionalOperator
+org/springframework/jca/cci/core/ConnectionCallback.java
+ org.springframework.jca.cci.core.ConnectionCallback
+org/springframework/jca/cci/connection/DelegatingConnectionFactory.java
+ org.springframework.jca.cci.connection.DelegatingConnectionFactory
+org/springframework/jca/endpoint/package-info.java
+ org.springframework.jca.endpoint.package-info
+org/springframework/transaction/interceptor/RollbackRuleAttribute.java
+ org.springframework.transaction.interceptor.RollbackRuleAttribute
+org/springframework/dao/CleanupFailureDataAccessException.java
+ org.springframework.dao.CleanupFailureDataAccessException
+org/springframework/transaction/TransactionDefinition.java
+ org.springframework.transaction.TransactionDefinition
+org/springframework/transaction/SavepointManager.java
+ org.springframework.transaction.SavepointManager
+org/springframework/dao/ConcurrencyFailureException.java
+ org.springframework.dao.ConcurrencyFailureException
+org/springframework/jca/support/package-info.java
+ org.springframework.jca.support.package-info
+org/springframework/transaction/config/TxNamespaceHandler.java
+ org.springframework.transaction.config.TxNamespaceHandler
+org/springframework/dao/IncorrectUpdateSemanticsDataAccessException.java
+ org.springframework.dao.IncorrectUpdateSemanticsDataAccessException
+org/springframework/transaction/reactive/ReactiveResourceSynchronization.java
+ org.springframework.transaction.reactive.ReactiveResourceSynchronization
+org/springframework/dao/IncorrectResultSizeDataAccessException.java
+ org.springframework.dao.IncorrectResultSizeDataAccessException
+org/springframework/dao/support/DaoSupport.java
+ org.springframework.dao.support.DaoSupport
+org/springframework/transaction/interceptor/TransactionProxyFactoryBean.java
+ org.springframework.transaction.interceptor.TransactionProxyFactoryBean
+org/springframework/transaction/interceptor/CompositeTransactionAttributeSource.java
+ org.springframework.transaction.interceptor.CompositeTransactionAttributeSource
+org/springframework/jca/cci/connection/ConnectionFactoryUtils.java
+ org.springframework.jca.cci.connection.ConnectionFactoryUtils
+ org.springframework.jca.cci.connection.ConnectionFactoryUtils$ConnectionSynchronization
+org/springframework/dao/PessimisticLockingFailureException.java
+ org.springframework.dao.PessimisticLockingFailureException
+org/springframework/transaction/TransactionUsageException.java
+ org.springframework.transaction.TransactionUsageException
+org/springframework/dao/package-info.java
+ org.springframework.dao.package-info
+org/springframework/transaction/event/TransactionalEventListener.java
+ org.springframework.transaction.event.TransactionalEventListener
+org/springframework/transaction/support/WithoutTransactionOperations.java
+ org.springframework.transaction.support.WithoutTransactionOperations
+org/springframework/transaction/reactive/TransactionSynchronizationUtils.java
+ org.springframework.transaction.reactive.TransactionSynchronizationUtils
+ org.springframework.transaction.reactive.TransactionSynchronizationUtils$ScopedProxyUnwrapper
+org/springframework/transaction/reactive/TransactionalOperatorImpl.java
+ org.springframework.transaction.reactive.TransactionalOperatorImpl
+org/springframework/jca/cci/core/CciOperations.java
+ org.springframework.jca.cci.core.CciOperations
+org/springframework/transaction/annotation/TransactionManagementConfigurationSelector.java
+ org.springframework.transaction.annotation.TransactionManagementConfigurationSelector
+ org.springframework.transaction.annotation.TransactionManagementConfigurationSelector$1
+org/springframework/transaction/jta/package-info.java
+ org.springframework.transaction.jta.package-info
+org/springframework/transaction/support/DefaultTransactionStatus.java
+ org.springframework.transaction.support.DefaultTransactionStatus
+org/springframework/transaction/jta/JtaTransactionManager.java
+ org.springframework.transaction.jta.JtaTransactionManager
+org/springframework/transaction/annotation/Isolation.java
+ org.springframework.transaction.annotation.Isolation
+org/springframework/transaction/interceptor/NameMatchTransactionAttributeSource.java
+ org.springframework.transaction.interceptor.NameMatchTransactionAttributeSource
+org/springframework/jca/cci/object/EisOperation.java
+ org.springframework.jca.cci.object.EisOperation
+org/springframework/transaction/TransactionStatus.java
+ org.springframework.transaction.TransactionStatus
+org/springframework/transaction/event/TransactionPhase.java
+ org.springframework.transaction.event.TransactionPhase
+org/springframework/transaction/reactive/TransactionContext.java
+ org.springframework.transaction.reactive.TransactionContext
+org/springframework/dao/OptimisticLockingFailureException.java
+ org.springframework.dao.OptimisticLockingFailureException

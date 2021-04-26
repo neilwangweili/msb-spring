@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolverTests" tests="15" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:41:04" hostname="wangweilideMacBook-Pro.local" time="0.034">
+  <properties/>
+  <testcase name="handleMissingServletRequestPartException()" classname="org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolverTests" time="0.001"/>
+  <testcase name="handleHttpMessageNotReadable()" classname="org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolverTests" time="0.001"/>
+  <testcase name="handleMissingServletRequestParameter()" classname="org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolverTests" time="0.001"/>
+  <testcase name="handleBindException()" classname="org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolverTests" time="0.004"/>
+  <testcase name="handleMissingPathVariable()" classname="org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolverTests" time="0.001"/>
+  <testcase name="handleTypeMismatch()" classname="org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolverTests" time="0.0"/>
+  <testcase name="handleHttpRequestMethodNotSupported()" classname="org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolverTests" time="0.001"/>
+  <testcase name="handleNoHandlerFoundException()" classname="org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolverTests" time="0.001"/>
+  <testcase name="handleMethodArgumentNotValid()" classname="org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolverTests" time="0.014"/>
+  <testcase name="patchHttpMediaTypeNotSupported()" classname="org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolverTests" time="0.001"/>
+  <testcase name="handleAsyncRequestTimeoutException()" classname="org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolverTests" time="0.0"/>
+  <testcase name="handleConversionNotSupportedException()" classname="org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolverTests" time="0.001"/>
+  <testcase name="handleHttpMessageNotWritable()" classname="org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolverTests" time="0.001"/>
+  <testcase name="handleServletRequestBindingException()" classname="org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolverTests" time="0.001"/>
+  <testcase name="handleHttpMediaTypeNotSupported()" classname="org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolverTests" time="0.001"/>
+  <system-out><![CDATA[15:41:04.180 [Test worker] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.multipart.support.MissingServletRequestPartException: Required request part 'name' is not present]
+15:41:04.181 [Test worker] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: foo]
+15:41:04.183 [Test worker] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'foo' for method parameter type bar is not present]
+15:41:04.187 [Test worker] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.validation.BindException: org.springframework.validation.BeanPropertyBindingResult: 0 errors]
+15:41:04.189 [Test worker] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingPathVariableException: Required URI template variable 'foo' for method parameter type String is not present]
+15:41:04.190 [Test worker] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.beans.TypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.String']
+15:41:04.191 [Test worker] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+15:41:04.192 [Test worker] WARN  o.s.w.s.PageNotFound - No handler found for GET /resource
+15:41:04.192 [Test worker] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.servlet.NoHandlerFoundException: No handler found for GET /resource]
+15:41:04.206 [Test worker] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public void org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolverTests.handle(java.lang.String): [Field error in object 'testBean' on field 'name': rejected value [null]; codes [invalid.testBean.name,invalid.name,invalid.java.lang.String,invalid]; arguments []; default message [null]] ]
+15:41:04.207 [Test worker] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'text/plain' not supported]
+15:41:04.209 [Test worker] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.context.request.async.AsyncRequestTimeoutException]
+15:41:04.210 [Test worker] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.beans.ConversionNotSupportedException: Failed to convert value of type 'java.lang.Object' to required type 'java.lang.String'; nested exception is java.lang.Exception]
+15:41:04.211 [Test worker] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotWritableException: foo]
+15:41:04.212 [Test worker] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.ServletRequestBindingException: Missing required value - header, cookie, or pathvar]
+15:41:04.213 [Test worker] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'text/plain' not supported]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

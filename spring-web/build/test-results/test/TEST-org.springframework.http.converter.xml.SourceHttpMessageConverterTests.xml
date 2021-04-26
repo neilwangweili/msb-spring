@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.http.converter.xml.SourceHttpMessageConverterTests" tests="16" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:42:12" hostname="wangweilideMacBook-Pro.local" time="0.084">
+  <properties/>
+  <testcase name="readStAXSourceWithXmlBomb()" classname="org.springframework.http.converter.xml.SourceHttpMessageConverterTests" time="0.001"/>
+  <testcase name="readDomSourceWithXmlBomb()" classname="org.springframework.http.converter.xml.SourceHttpMessageConverterTests" time="0.002"/>
+  <testcase name="readDOMSourceExternal()" classname="org.springframework.http.converter.xml.SourceHttpMessageConverterTests" time="0.002"/>
+  <testcase name="readSource()" classname="org.springframework.http.converter.xml.SourceHttpMessageConverterTests" time="0.0"/>
+  <testcase name="writeStreamSource()" classname="org.springframework.http.converter.xml.SourceHttpMessageConverterTests" time="0.044"/>
+  <testcase name="canWrite()" classname="org.springframework.http.converter.xml.SourceHttpMessageConverterTests" time="0.0"/>
+  <testcase name="readDOMSource()" classname="org.springframework.http.converter.xml.SourceHttpMessageConverterTests" time="0.002"/>
+  <testcase name="readSAXSourceExternal()" classname="org.springframework.http.converter.xml.SourceHttpMessageConverterTests" time="0.002"/>
+  <testcase name="canRead()" classname="org.springframework.http.converter.xml.SourceHttpMessageConverterTests" time="0.0"/>
+  <testcase name="writeDOMSource()" classname="org.springframework.http.converter.xml.SourceHttpMessageConverterTests" time="0.007"/>
+  <testcase name="readSAXSourceWithXmlBomb()" classname="org.springframework.http.converter.xml.SourceHttpMessageConverterTests" time="0.002"/>
+  <testcase name="readStAXSource()" classname="org.springframework.http.converter.xml.SourceHttpMessageConverterTests" time="0.001"/>
+  <testcase name="readSAXSource()" classname="org.springframework.http.converter.xml.SourceHttpMessageConverterTests" time="0.005"/>
+  <testcase name="readStreamSource()" classname="org.springframework.http.converter.xml.SourceHttpMessageConverterTests" time="0.006"/>
+  <testcase name="writeSAXSource()" classname="org.springframework.http.converter.xml.SourceHttpMessageConverterTests" time="0.006"/>
+  <testcase name="readStAXSourceExternal()" classname="org.springframework.http.converter.xml.SourceHttpMessageConverterTests" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[[Fatal Error] :2:10: DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+[Fatal Error] :2:10: DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+]]></system-err>
+</testsuite>

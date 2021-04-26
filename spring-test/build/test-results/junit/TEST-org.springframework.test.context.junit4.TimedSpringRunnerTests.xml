@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.test.context.junit4.TimedSpringRunnerTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:41:43" hostname="wangweilideMacBook-Pro.local" time="0.717">
+  <properties/>
+  <testcase name="timedTests" classname="org.springframework.test.context.junit4.TimedSpringRunnerTests" time="0.717"/>
+  <system-out><![CDATA[15:41:44.423 [Test worker] ERROR o.s.t.c.j.SpringJUnit4ClassRunner - Test method [public void org.springframework.test.context.junit4.TimedSpringRunnerTests$TimedSpringRunnerTestCase.springAndJUnitTimeouts()] has been configured with Spring's @Timed(millis=200) and JUnit's @Test(timeout=200) annotations, but only one declaration of a 'timeout' is permitted per test method.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

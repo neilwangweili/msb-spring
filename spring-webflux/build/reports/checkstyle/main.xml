@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.22">
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/BindingContext.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/DispatcherHandler.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/HandlerAdapter.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/HandlerMapping.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/HandlerResult.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/HandlerResultHandler.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/accept/FixedContentTypeResolver.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/accept/HeaderContentTypeResolver.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/accept/ParameterContentTypeResolver.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/accept/RequestedContentTypeResolver.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/accept/RequestedContentTypeResolverBuilder.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/accept/package-info.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/config/CorsRegistration.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/config/CorsRegistry.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/config/DelegatingWebFluxConfiguration.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/config/EnableWebFlux.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/config/PathMatchConfigurer.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/config/ResourceChainRegistration.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/config/ResourceHandlerRegistration.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/config/ResourceHandlerRegistry.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/config/UrlBasedViewResolverRegistration.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/config/ViewResolverRegistry.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/config/WebFluxConfigurationSupport.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/config/WebFluxConfigurer.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/config/WebFluxConfigurerComposite.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/config/package-info.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/function/BodyExtractor.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/function/BodyExtractors.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/function/BodyInserter.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/function/BodyInserters.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/function/UnsupportedMediaTypeException.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/function/client/ClientRequest.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/function/client/ClientResponse.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/function/client/DefaultClientRequestBuilder.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/function/client/DefaultClientResponse.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/function/client/DefaultClientResponseBuilder.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/function/client/DefaultExchangeStrategiesBuilder.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/function/client/DefaultWebClient.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/function/client/DefaultWebClientBuilder.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/function/client/ExchangeFilterFunction.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/function/client/ExchangeFilterFunctions.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/function/client/ExchangeFunction.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/function/client/ExchangeFunctions.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/function/client/ExchangeStrategies.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/function/client/UnknownHttpStatusCodeException.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/function/client/WebClient.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/function/client/WebClientException.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/function/client/WebClientRequestException.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/function/client/WebClientResponseException.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/function/client/WebClientUtils.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/function/client/package-info.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/function/client/support/ClientResponseWrapper.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/function/client/support/package-info.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/function/package-info.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/function/server/ChangePathPatternParserVisitor.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/function/server/DefaultEntityResponseBuilder.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/function/server/DefaultHandlerStrategiesBuilder.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/function/server/DefaultRenderingResponseBuilder.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/function/server/DefaultServerRequest.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/function/server/DefaultServerRequestBuilder.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/function/server/DefaultServerResponseBuilder.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/function/server/EntityResponse.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/function/server/HandlerFilterFunction.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/function/server/HandlerFunction.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/function/server/HandlerStrategies.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/function/server/PathResourceLookupFunction.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/function/server/RenderingResponse.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/function/server/RequestPredicate.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/function/server/RequestPredicates.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/function/server/ResourceHandlerFunction.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/function/server/RouterFunction.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/function/server/RouterFunctionBuilder.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/function/server/RouterFunctions.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/function/server/ServerRequest.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/function/server/ServerResponse.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/function/server/ToStringVisitor.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/function/server/package-info.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/function/server/support/HandlerFunctionAdapter.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/function/server/support/RouterFunctionMapping.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/function/server/support/ServerRequestWrapper.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/function/server/support/ServerResponseResultHandler.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/function/server/support/package-info.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/handler/AbstractHandlerMapping.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/handler/AbstractUrlHandlerMapping.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/handler/SimpleUrlHandlerMapping.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/handler/WebFluxResponseStatusExceptionHandler.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/handler/package-info.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/package-info.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/resource/AbstractFileNameVersionStrategy.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/resource/AbstractPrefixVersionStrategy.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/resource/AbstractResourceResolver.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/resource/AppCacheManifestTransformer.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/resource/CachingResourceResolver.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/resource/CachingResourceTransformer.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/resource/ContentVersionStrategy.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/resource/CssLinkResourceTransformer.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/resource/DefaultResourceResolverChain.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/resource/DefaultResourceTransformerChain.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/resource/EncodedResourceResolver.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/resource/FixedVersionStrategy.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/resource/GzipResourceResolver.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/resource/HttpResource.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/resource/PathResourceResolver.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/resource/ResourceResolver.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/resource/ResourceResolverChain.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/resource/ResourceTransformer.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/resource/ResourceTransformerChain.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/resource/ResourceTransformerSupport.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/resource/ResourceUrlProvider.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/resource/ResourceWebHandler.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/resource/TransformedResource.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/resource/VersionResourceResolver.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/resource/VersionStrategy.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/resource/WebJarsResourceResolver.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/resource/package-info.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/result/HandlerResultHandlerSupport.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/result/SimpleHandlerAdapter.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/result/condition/AbstractMediaTypeExpression.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/result/condition/AbstractNameValueExpression.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/result/condition/AbstractRequestCondition.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/result/condition/CompositeRequestCondition.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/result/condition/ConsumesRequestCondition.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/result/condition/HeadersRequestCondition.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/result/condition/MediaTypeExpression.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/result/condition/NameValueExpression.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/result/condition/ParamsRequestCondition.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/result/condition/PatternsRequestCondition.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/result/condition/ProducesRequestCondition.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/result/condition/RequestCondition.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/result/condition/RequestConditionHolder.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/result/condition/RequestMethodsRequestCondition.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/result/condition/package-info.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/result/method/AbstractHandlerMethodMapping.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/result/method/HandlerMethodArgumentResolver.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/result/method/HandlerMethodArgumentResolverComposite.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/result/method/HandlerMethodArgumentResolverSupport.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/result/method/InvocableHandlerMethod.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/result/method/RequestMappingInfo.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/result/method/RequestMappingInfoHandlerMapping.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/result/method/SyncHandlerMethodArgumentResolver.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/result/method/SyncInvocableHandlerMethod.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/result/method/annotation/AbstractMessageReaderArgumentResolver.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/result/method/annotation/AbstractMessageWriterResultHandler.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/result/method/annotation/AbstractNamedValueArgumentResolver.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/result/method/annotation/AbstractNamedValueSyncArgumentResolver.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/result/method/annotation/ArgumentResolverConfigurer.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/result/method/annotation/ContinuationHandlerMethodArgumentResolver.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/result/method/annotation/ControllerMethodResolver.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/result/method/annotation/CookieValueMethodArgumentResolver.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/result/method/annotation/ErrorsMethodArgumentResolver.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/result/method/annotation/ExpressionValueMethodArgumentResolver.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/result/method/annotation/HttpEntityMethodArgumentResolver.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/result/method/annotation/InitBinderBindingContext.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/result/method/annotation/MatrixVariableMapMethodArgumentResolver.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/result/method/annotation/MatrixVariableMethodArgumentResolver.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/result/method/annotation/ModelAttributeMethodArgumentResolver.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/result/method/annotation/ModelInitializer.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/result/method/annotation/ModelMethodArgumentResolver.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/result/method/annotation/PathVariableMapMethodArgumentResolver.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/result/method/annotation/PathVariableMethodArgumentResolver.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/result/method/annotation/PrincipalMethodArgumentResolver.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/result/method/annotation/RequestAttributeMethodArgumentResolver.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/result/method/annotation/RequestBodyMethodArgumentResolver.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/result/method/annotation/RequestHeaderMapMethodArgumentResolver.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/result/method/annotation/RequestHeaderMethodArgumentResolver.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/result/method/annotation/RequestMappingHandlerAdapter.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/result/method/annotation/RequestMappingHandlerMapping.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/result/method/annotation/RequestParamMapMethodArgumentResolver.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/result/method/annotation/RequestParamMethodArgumentResolver.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/result/method/annotation/RequestPartMethodArgumentResolver.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/result/method/annotation/ResponseBodyResultHandler.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/result/method/annotation/ResponseEntityResultHandler.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/result/method/annotation/ServerWebExchangeMethodArgumentResolver.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/result/method/annotation/SessionAttributeMethodArgumentResolver.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/result/method/annotation/SessionAttributesHandler.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/result/method/annotation/SessionStatusMethodArgumentResolver.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/result/method/annotation/WebSessionMethodArgumentResolver.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/result/method/annotation/package-info.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/result/method/package-info.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/result/package-info.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/result/view/AbstractUrlBasedView.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/result/view/AbstractView.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/result/view/BindStatus.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/result/view/DefaultRendering.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/result/view/DefaultRenderingBuilder.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/result/view/HttpMessageWriterView.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/result/view/RedirectView.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/result/view/Rendering.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/result/view/RequestContext.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/result/view/RequestDataValueProcessor.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/result/view/UrlBasedViewResolver.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/result/view/View.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/result/view/ViewResolutionResultHandler.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/result/view/ViewResolver.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/result/view/ViewResolverSupport.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/result/view/freemarker/FreeMarkerConfig.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/result/view/freemarker/FreeMarkerConfigurer.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/result/view/freemarker/FreeMarkerView.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/result/view/freemarker/FreeMarkerViewResolver.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/result/view/freemarker/package-info.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/result/view/package-info.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/result/view/script/RenderingContext.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/result/view/script/ScriptTemplateConfig.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/result/view/script/ScriptTemplateConfigurer.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/result/view/script/ScriptTemplateView.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/result/view/script/ScriptTemplateViewResolver.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/result/view/script/package-info.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/socket/CloseStatus.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/socket/HandshakeInfo.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/socket/WebSocketHandler.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/socket/WebSocketMessage.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/socket/WebSocketSession.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/socket/adapter/AbstractListenerWebSocketSession.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/socket/adapter/AbstractWebSocketSession.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/socket/adapter/ContextWebSocketHandler.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/socket/adapter/Jetty10WebSocketHandlerAdapter.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/socket/adapter/JettyWebSocketHandlerAdapter.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/socket/adapter/JettyWebSocketSession.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/socket/adapter/NettyWebSocketSessionSupport.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/socket/adapter/ReactorNettyWebSocketSession.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/socket/adapter/StandardWebSocketHandlerAdapter.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/socket/adapter/StandardWebSocketSession.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/socket/adapter/TomcatWebSocketSession.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/socket/adapter/UndertowWebSocketHandlerAdapter.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/socket/adapter/UndertowWebSocketSession.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/socket/adapter/package-info.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/socket/client/JettyWebSocketClient.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/socket/client/ReactorNettyWebSocketClient.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/socket/client/StandardWebSocketClient.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/socket/client/TomcatWebSocketClient.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/socket/client/UndertowWebSocketClient.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/socket/client/WebSocketClient.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/socket/client/package-info.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/socket/package-info.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/socket/server/RequestUpgradeStrategy.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/socket/server/WebSocketService.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/socket/server/package-info.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/socket/server/support/HandshakeWebSocketService.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/socket/server/support/WebSocketHandlerAdapter.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/socket/server/support/WebSocketUpgradeHandlerPredicate.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/socket/server/support/package-info.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/socket/server/upgrade/DefaultServerEndpointConfig.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/socket/server/upgrade/Jetty10RequestUpgradeStrategy.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/socket/server/upgrade/JettyRequestUpgradeStrategy.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/socket/server/upgrade/ReactorNettyRequestUpgradeStrategy.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/socket/server/upgrade/TomcatRequestUpgradeStrategy.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/socket/server/upgrade/UndertowRequestUpgradeStrategy.java">
+</file>
+<file name="/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webflux/src/main/java/org/springframework/web/reactive/socket/server/upgrade/package-info.java">
+</file>
+</checkstyle>

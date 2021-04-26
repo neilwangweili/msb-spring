@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.messaging.simp.stomp.BufferingStompDecoderTests" tests="11" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:39:55" hostname="wangweilideMacBook-Pro.local" time="0.014">
+  <properties/>
+  <testcase name="twoMessagesInOneChunk()" classname="org.springframework.messaging.simp.stomp.BufferingStompDecoderTests" time="0.003"/>
+  <testcase name="incompleteCommand()" classname="org.springframework.messaging.simp.stomp.BufferingStompDecoderTests" time="0.0"/>
+  <testcase name="oneFullAndOneSplitWithContentLengthExceedingBufferSize()" classname="org.springframework.messaging.simp.stomp.BufferingStompDecoderTests" time="0.005"/>
+  <testcase name="invalidEscapeSequence()" classname="org.springframework.messaging.simp.stomp.BufferingStompDecoderTests" time="0.0"/>
+  <testcase name="invalidEscapeSequenceWithSingleSlashAtEndOfHeaderValue()" classname="org.springframework.messaging.simp.stomp.BufferingStompDecoderTests" time="0.0"/>
+  <testcase name="bufferSizeLimit()" classname="org.springframework.messaging.simp.stomp.BufferingStompDecoderTests" time="0.001"/>
+  <testcase name="oneFullAndOneSplitMessageContentLength()" classname="org.springframework.messaging.simp.stomp.BufferingStompDecoderTests" time="0.001"/>
+  <testcase name="basic()" classname="org.springframework.messaging.simp.stomp.BufferingStompDecoderTests" time="0.0"/>
+  <testcase name="oneMessageInTwoChunks()" classname="org.springframework.messaging.simp.stomp.BufferingStompDecoderTests" time="0.0"/>
+  <testcase name="oneFullAndOneSplitMessageNoContentLength()" classname="org.springframework.messaging.simp.stomp.BufferingStompDecoderTests" time="0.001"/>
+  <testcase name="incompleteHeaderWithPartialEscapeSequence()" classname="org.springframework.messaging.simp.stomp.BufferingStompDecoderTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

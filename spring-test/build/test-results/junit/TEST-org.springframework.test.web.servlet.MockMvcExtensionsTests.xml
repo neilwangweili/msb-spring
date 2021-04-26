@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.test.web.servlet.MockMvcExtensionsTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:41:27" hostname="wangweilideMacBook-Pro.local" time="0.349">
+  <properties/>
+  <testcase name="asyncDispatch()" classname="org.springframework.test.web.servlet.MockMvcExtensionsTests" time="0.106"/>
+  <testcase name="negative assertion tests to verify the matchers throw errors when expected()" classname="org.springframework.test.web.servlet.MockMvcExtensionsTests" time="0.028"/>
+  <testcase name="modelAndView()" classname="org.springframework.test.web.servlet.MockMvcExtensionsTests" time="0.003"/>
+  <testcase name="get()" classname="org.springframework.test.web.servlet.MockMvcExtensionsTests" time="0.009"/>
+  <testcase name="post()" classname="org.springframework.test.web.servlet.MockMvcExtensionsTests" time="0.004"/>
+  <testcase name="request with custom matcher and handler()" classname="org.springframework.test.web.servlet.MockMvcExtensionsTests" time="0.009"/>
+  <testcase name="request without MockHttpServletRequestDsl()" classname="org.springframework.test.web.servlet.MockMvcExtensionsTests" time="0.009"/>
+  <testcase name="negative assertion tests for xpath()" classname="org.springframework.test.web.servlet.MockMvcExtensionsTests" time="0.022"/>
+  <testcase name="request()" classname="org.springframework.test.web.servlet.MockMvcExtensionsTests" time="0.031"/>
+  <system-out><![CDATA[
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /person/Lee
+       Parameters = {}
+          Headers = [Content-Language:"fr-FR", Accept:"application/json"]
+             Body = <no character encoding set>
+    Session Attrs = {}
+
+Handler:
+             Type = org.springframework.test.web.servlet.MockMvcExtensionsTests$PersonController
+           Method = org.springframework.test.web.servlet.MockMvcExtensionsTests$PersonController#get(String)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Content-Type:"application/json"]
+     Content type = application/json
+             Body = {"name":"Lee","someDouble":0.0,"someBoolean":false}
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /person/Lee
+       Parameters = {}
+          Headers = []
+             Body = <no character encoding set>
+    Session Attrs = {}
+
+Handler:
+             Type = org.springframework.test.web.servlet.MockMvcExtensionsTests$PersonController
+           Method = org.springframework.test.web.servlet.MockMvcExtensionsTests$PersonController#get(String)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Content-Type:"application/xml"]
+     Content type = application/xml
+             Body = <?xml version="1.0" encoding="UTF-8" standalone="yes"?><person><name>Lee</name><someBoolean>false</someBoolean><someDouble>0.0</someDouble></person>
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /person/Clint
+       Parameters = {}
+          Headers = [Accept:"application/xml"]
+             Body = <no character encoding set>
+    Session Attrs = {}
+
+Handler:
+             Type = org.springframework.test.web.servlet.MockMvcExtensionsTests$PersonController
+           Method = org.springframework.test.web.servlet.MockMvcExtensionsTests$PersonController#get(String)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Content-Type:"application/xml"]
+     Content type = application/xml
+             Body = <?xml version="1.0" encoding="UTF-8" standalone="yes"?><person><name>Clint</name><someBoolean>false</someBoolean><someDouble>0.0</someDouble></person>
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /person/Lee
+       Parameters = {}
+          Headers = [Content-Language:"fr-FR", Accept:"application/json"]
+             Body = <no character encoding set>
+    Session Attrs = {}
+
+Handler:
+             Type = org.springframework.test.web.servlet.MockMvcExtensionsTests$PersonController
+           Method = org.springframework.test.web.servlet.MockMvcExtensionsTests$PersonController#get(String)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Content-Type:"application/json"]
+     Content type = application/json
+             Body = {"name":"Lee","someDouble":0.0,"someBoolean":false}
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

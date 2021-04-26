@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.http.server.reactive.ErrorHandlerIntegrationTests" tests="12" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:42:52" hostname="wangweilideMacBook-Pro.local" time="33.512">
+  <properties/>
+  <testcase name="[1] org.springframework.web.testfixture.http.server.reactive.bootstrap.JettyHttpServer@6d8d9fda" classname="org.springframework.http.server.reactive.ErrorHandlerIntegrationTests" time="0.063"/>
+  <testcase name="[2] org.springframework.web.testfixture.http.server.reactive.bootstrap.ReactorHttpServer@38ab92b" classname="org.springframework.http.server.reactive.ErrorHandlerIntegrationTests" time="0.009"/>
+  <testcase name="[3] org.springframework.web.testfixture.http.server.reactive.bootstrap.TomcatHttpServer@659c61f" classname="org.springframework.http.server.reactive.ErrorHandlerIntegrationTests" time="11.069"/>
+  <testcase name="[4] org.springframework.web.testfixture.http.server.reactive.bootstrap.UndertowHttpServer@47963232" classname="org.springframework.http.server.reactive.ErrorHandlerIntegrationTests" time="0.008"/>
+  <testcase name="[1] org.springframework.web.testfixture.http.server.reactive.bootstrap.JettyHttpServer@7b73f523" classname="org.springframework.http.server.reactive.ErrorHandlerIntegrationTests" time="0.008"/>
+  <testcase name="[2] org.springframework.web.testfixture.http.server.reactive.bootstrap.ReactorHttpServer@78d41040" classname="org.springframework.http.server.reactive.ErrorHandlerIntegrationTests" time="0.005"/>
+  <testcase name="[3] org.springframework.web.testfixture.http.server.reactive.bootstrap.TomcatHttpServer@304504ad" classname="org.springframework.http.server.reactive.ErrorHandlerIntegrationTests" time="11.163"/>
+  <testcase name="[4] org.springframework.web.testfixture.http.server.reactive.bootstrap.UndertowHttpServer@76434ec8" classname="org.springframework.http.server.reactive.ErrorHandlerIntegrationTests" time="0.009"/>
+  <testcase name="[1] org.springframework.web.testfixture.http.server.reactive.bootstrap.JettyHttpServer@1a4d5d81" classname="org.springframework.http.server.reactive.ErrorHandlerIntegrationTests" time="0.007"/>
+  <testcase name="[2] org.springframework.web.testfixture.http.server.reactive.bootstrap.ReactorHttpServer@58589fd4" classname="org.springframework.http.server.reactive.ErrorHandlerIntegrationTests" time="0.004"/>
+  <testcase name="[3] org.springframework.web.testfixture.http.server.reactive.bootstrap.TomcatHttpServer@3ba56cbe" classname="org.springframework.http.server.reactive.ErrorHandlerIntegrationTests" time="11.155"/>
+  <testcase name="[4] org.springframework.web.testfixture.http.server.reactive.bootstrap.UndertowHttpServer@4d0e2861" classname="org.springframework.http.server.reactive.ErrorHandlerIntegrationTests" time="0.008"/>
+  <system-out><![CDATA[15:42:52.298 [reactor-http-nio-4] ERROR r.n.h.s.HttpServerOperations - [id:0af9cc9d-1, L:/127.0.0.1:65004 - R:/127.0.0.1:65005] Error starting response. Replying error status
+java.lang.UnsupportedOperationException: null
+	at org.springframework.http.server.reactive.ErrorHandlerIntegrationTests$ErrorHandler.handle(ErrorHandlerIntegrationTests.java:91) ~[test/:?]
+	at org.springframework.http.server.reactive.ReactorHttpHandlerAdapter.apply(ReactorHttpHandlerAdapter.java:65) ~[spring-web-5.3.7-SNAPSHOT.jar:?]
+	at org.springframework.http.server.reactive.ReactorHttpHandlerAdapter.apply(ReactorHttpHandlerAdapter.java:40) ~[spring-web-5.3.7-SNAPSHOT.jar:?]
+	at reactor.netty.http.server.HttpServer$HttpServerHandle.onStateChange(HttpServer.java:911) [reactor-netty-http-1.0.6.jar:1.0.6]
+	at reactor.netty.transport.ServerTransport$ChildObserver.onStateChange(ServerTransport.java:478) [reactor-netty-core-1.0.6.jar:1.0.6]
+	at reactor.netty.http.server.HttpServerOperations.onInboundNext(HttpServerOperations.java:526) [reactor-netty-http-1.0.6.jar:1.0.6]
+	at reactor.netty.channel.ChannelOperationsHandler.channelRead(ChannelOperationsHandler.java:94) [reactor-netty-core-1.0.6.jar:1.0.6]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.63.Final.jar:4.1.63.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.63.Final.jar:4.1.63.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.63.Final.jar:4.1.63.Final]
+	at reactor.netty.http.server.HttpTrafficHandler.channelRead(HttpTrafficHandler.java:209) [reactor-netty-http-1.0.6.jar:1.0.6]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.63.Final.jar:4.1.63.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.63.Final.jar:4.1.63.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.63.Final.jar:4.1.63.Final]
+	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:436) [netty-transport-4.1.63.Final.jar:4.1.63.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:324) [netty-codec-4.1.63.Final.jar:4.1.63.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:296) [netty-codec-4.1.63.Final.jar:4.1.63.Final]
+	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:251) [netty-transport-4.1.63.Final.jar:4.1.63.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.63.Final.jar:4.1.63.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.63.Final.jar:4.1.63.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.63.Final.jar:4.1.63.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) [netty-transport-4.1.63.Final.jar:4.1.63.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.63.Final.jar:4.1.63.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.63.Final.jar:4.1.63.Final]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) [netty-transport-4.1.63.Final.jar:4.1.63.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166) [netty-transport-4.1.63.Final.jar:4.1.63.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [netty-transport-4.1.63.Final.jar:4.1.63.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-transport-4.1.63.Final.jar:4.1.63.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-transport-4.1.63.Final.jar:4.1.63.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-transport-4.1.63.Final.jar:4.1.63.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989) [netty-common-4.1.63.Final.jar:4.1.63.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.63.Final.jar:4.1.63.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.63.Final.jar:4.1.63.Final]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+15:43:03.390 [reactor-http-nio-6] ERROR r.n.h.s.HttpServerOperations - [id:cd82ad07-1, L:/127.0.0.1:65101 - R:/127.0.0.1:65102] Error starting response. Replying error status
+java.lang.UnsupportedOperationException: null
+	at org.springframework.http.server.reactive.ErrorHandlerIntegrationTests$ErrorHandler.handle(ErrorHandlerIntegrationTests.java:91) ~[test/:?]
+	at org.springframework.http.server.reactive.ReactorHttpHandlerAdapter.apply(ReactorHttpHandlerAdapter.java:65) ~[spring-web-5.3.7-SNAPSHOT.jar:?]
+	at org.springframework.http.server.reactive.ReactorHttpHandlerAdapter.apply(ReactorHttpHandlerAdapter.java:40) ~[spring-web-5.3.7-SNAPSHOT.jar:?]
+	at reactor.netty.http.server.HttpServer$HttpServerHandle.onStateChange(HttpServer.java:911) [reactor-netty-http-1.0.6.jar:1.0.6]
+	at reactor.netty.transport.ServerTransport$ChildObserver.onStateChange(ServerTransport.java:478) [reactor-netty-core-1.0.6.jar:1.0.6]
+	at reactor.netty.http.server.HttpServerOperations.onInboundNext(HttpServerOperations.java:526) [reactor-netty-http-1.0.6.jar:1.0.6]
+	at reactor.netty.channel.ChannelOperationsHandler.channelRead(ChannelOperationsHandler.java:94) [reactor-netty-core-1.0.6.jar:1.0.6]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.63.Final.jar:4.1.63.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.63.Final.jar:4.1.63.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.63.Final.jar:4.1.63.Final]
+	at reactor.netty.http.server.HttpTrafficHandler.channelRead(HttpTrafficHandler.java:209) [reactor-netty-http-1.0.6.jar:1.0.6]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.63.Final.jar:4.1.63.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.63.Final.jar:4.1.63.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.63.Final.jar:4.1.63.Final]
+	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:436) [netty-transport-4.1.63.Final.jar:4.1.63.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:324) [netty-codec-4.1.63.Final.jar:4.1.63.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:296) [netty-codec-4.1.63.Final.jar:4.1.63.Final]
+	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:251) [netty-transport-4.1.63.Final.jar:4.1.63.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.63.Final.jar:4.1.63.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.63.Final.jar:4.1.63.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.63.Final.jar:4.1.63.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) [netty-transport-4.1.63.Final.jar:4.1.63.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.63.Final.jar:4.1.63.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.63.Final.jar:4.1.63.Final]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) [netty-transport-4.1.63.Final.jar:4.1.63.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166) [netty-transport-4.1.63.Final.jar:4.1.63.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [netty-transport-4.1.63.Final.jar:4.1.63.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-transport-4.1.63.Final.jar:4.1.63.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-transport-4.1.63.Final.jar:4.1.63.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-transport-4.1.63.Final.jar:4.1.63.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989) [netty-common-4.1.63.Final.jar:4.1.63.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.63.Final.jar:4.1.63.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.63.Final.jar:4.1.63.Final]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+]]></system-out>
+  <system-err><![CDATA[Apr 26, 2021 3:42:52 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Tomcat]
+Apr 26, 2021 3:42:52 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet engine: [Apache Tomcat/9.0.45]
+Apr 26, 2021 3:42:52 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-auto-9"]
+Apr 26, 2021 3:42:52 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-auto-9-65006"]
+Apr 26, 2021 3:42:52 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-nio-auto-9-65006"]
+Apr 26, 2021 3:42:53 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service [Tomcat]
+Apr 26, 2021 3:42:53 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-nio-auto-9-65006"]
+Apr 26, 2021 3:43:03 PM org.apache.tomcat.util.net.Acceptor stop
+WARNING: The acceptor thread [http-nio-auto-9-Acceptor] did not stop cleanly
+Apr 26, 2021 3:43:03 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-nio-auto-9-65006"]
+Apr 26, 2021 3:43:03 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Tomcat]
+Apr 26, 2021 3:43:03 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet engine: [Apache Tomcat/9.0.45]
+Apr 26, 2021 3:43:03 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-auto-10"]
+Apr 26, 2021 3:43:03 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-auto-10-65103"]
+Apr 26, 2021 3:43:03 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-nio-auto-10-65103"]
+Apr 26, 2021 3:43:04 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service [Tomcat]
+Apr 26, 2021 3:43:04 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-nio-auto-10-65103"]
+Apr 26, 2021 3:43:14 PM org.apache.tomcat.util.net.Acceptor stop
+WARNING: The acceptor thread [http-nio-auto-10-Acceptor] did not stop cleanly
+Apr 26, 2021 3:43:14 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-nio-auto-10-65103"]
+Apr 26, 2021 3:43:14 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Tomcat]
+Apr 26, 2021 3:43:14 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet engine: [Apache Tomcat/9.0.45]
+Apr 26, 2021 3:43:14 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-auto-11"]
+Apr 26, 2021 3:43:14 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-auto-11-65169"]
+Apr 26, 2021 3:43:14 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-nio-auto-11-65169"]
+Apr 26, 2021 3:43:15 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service [Tomcat]
+Apr 26, 2021 3:43:15 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-nio-auto-11-65169"]
+Apr 26, 2021 3:43:25 PM org.apache.tomcat.util.net.Acceptor stop
+WARNING: The acceptor thread [http-nio-auto-11-Acceptor] did not stop cleanly
+Apr 26, 2021 3:43:25 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-nio-auto-11-65169"]
+]]></system-err>
+</testsuite>

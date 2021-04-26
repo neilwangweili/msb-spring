@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.reactive.result.HandlerResultHandlerTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-04-26T08:31:58" hostname="wangweilideMacBook-Pro.local" time="0.076">
+  <properties/>
+  <testcase name="noConcreteMediaType()" classname="org.springframework.web.reactive.result.HandlerResultHandlerTests" time="0.011"/>
+  <testcase name="removeQualityParameter()" classname="org.springframework.web.reactive.result.HandlerResultHandlerTests" time="0.012"/>
+  <testcase name="usesContentTypeResolver()" classname="org.springframework.web.reactive.result.HandlerResultHandlerTests" time="0.013"/>
+  <testcase name="charsetFromAcceptHeader()" classname="org.springframework.web.reactive.result.HandlerResultHandlerTests" time="0.012"/>
+  <testcase name="producibleMediaTypesRequestAttribute()" classname="org.springframework.web.reactive.result.HandlerResultHandlerTests" time="0.011"/>
+  <testcase name="sortsByQuality()" classname="org.springframework.web.reactive.result.HandlerResultHandlerTests" time="0.011"/>
+  <system-out><![CDATA[16:31:58.103 [Test worker] DEBUG o.s.w.r.r.HandlerResultHandlerTests$TestResultHandler - [3d32db04] Using 'application/octet-stream' given [*/*] and supported [*/*]
+16:31:58.117 [Test worker] DEBUG o.s.w.r.r.HandlerResultHandlerTests$TestResultHandler - [3b6b6865] Using 'text/plain' given [text/plain;q=0.5] and supported [application/json, text/plain]
+16:31:58.130 [Test worker] DEBUG o.s.w.r.r.HandlerResultHandlerTests$TestResultHandler - [24eff9a1] Using 'image/gif' given [image/gif] and supported [image/jpeg, image/gif, image/png]
+16:31:58.143 [Test worker] DEBUG o.s.w.r.r.HandlerResultHandlerTests$TestResultHandler - [3dd1ddcc] Using 'text/plain;charset=ISO-8859-1' given [text/plain;charset=ISO-8859-1] and supported [text/plain;charset=UTF-8]
+16:31:58.157 [Test worker] DEBUG o.s.w.r.r.HandlerResultHandlerTests$TestResultHandler - [eac39c3] Using 'image/gif' given [*/*] and supported [image/gif]
+16:31:58.168 [Test worker] DEBUG o.s.w.r.r.HandlerResultHandlerTests$TestResultHandler - [72d32786] Using 'application/json' given [application/json, text/plain;q=0.5] and supported [text/plain, application/json]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.messaging.simp.broker.BrokerMessageHandlerTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:39:52" hostname="wangweilideMacBook-Pro.local" time="0.013">
+  <properties/>
+  <testcase name="publishBrokerUnavailableEvent()" classname="org.springframework.messaging.simp.broker.BrokerMessageHandlerTests" time="0.001"/>
+  <testcase name="publishBrokerAvailableEventWhenAlreadyAvailable()" classname="org.springframework.messaging.simp.broker.BrokerMessageHandlerTests" time="0.001"/>
+  <testcase name="checkDestinationWithoutConfiguredPrefixes()" classname="org.springframework.messaging.simp.broker.BrokerMessageHandlerTests" time="0.002"/>
+  <testcase name="startShouldUpdateIsRunning()" classname="org.springframework.messaging.simp.broker.BrokerMessageHandlerTests" time="0.001"/>
+  <testcase name="startAndStopShouldNotPublishBrokerAvailabilityEvents()" classname="org.springframework.messaging.simp.broker.BrokerMessageHandlerTests" time="0.002"/>
+  <testcase name="publishBrokerUnavailableEventWhenAlreadyUnavailable()" classname="org.springframework.messaging.simp.broker.BrokerMessageHandlerTests" time="0.001"/>
+  <testcase name="stopShouldUpdateIsRunning()" classname="org.springframework.messaging.simp.broker.BrokerMessageHandlerTests" time="0.001"/>
+  <testcase name="handleMessageWhenBrokerNotRunning()" classname="org.springframework.messaging.simp.broker.BrokerMessageHandlerTests" time="0.0"/>
+  <testcase name="checkDestination()" classname="org.springframework.messaging.simp.broker.BrokerMessageHandlerTests" time="0.001"/>
+  <testcase name="publishBrokerAvailableEvent()" classname="org.springframework.messaging.simp.broker.BrokerMessageHandlerTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

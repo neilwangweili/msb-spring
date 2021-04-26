@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.transaction.reactive.ReactiveTransactionSupportTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:39:25" hostname="wangweilideMacBook-Pro.local" time="0.064">
+  <properties/>
+  <testcase name="existingTransaction()" classname="org.springframework.transaction.reactive.ReactiveTransactionSupportTests" time="0.009"/>
+  <testcase name="noExistingTransaction()" classname="org.springframework.transaction.reactive.ReactiveTransactionSupportTests" time="0.005"/>
+  <testcase name="rollbackWithExistingTransaction()" classname="org.springframework.transaction.reactive.ReactiveTransactionSupportTests" time="0.003"/>
+  <testcase name="commitWithExistingTransaction()" classname="org.springframework.transaction.reactive.ReactiveTransactionSupportTests" time="0.002"/>
+  <testcase name="transactionTemplateWithException()" classname="org.springframework.transaction.reactive.ReactiveTransactionSupportTests" time="0.002"/>
+  <testcase name="rollbackWithoutExistingTransaction()" classname="org.springframework.transaction.reactive.ReactiveTransactionSupportTests" time="0.001"/>
+  <testcase name="rollbackOnlyWithExistingTransaction()" classname="org.springframework.transaction.reactive.ReactiveTransactionSupportTests" time="0.007"/>
+  <testcase name="transactionTemplate()" classname="org.springframework.transaction.reactive.ReactiveTransactionSupportTests" time="0.002"/>
+  <testcase name="commitWithoutExistingTransaction()" classname="org.springframework.transaction.reactive.ReactiveTransactionSupportTests" time="0.001"/>
+  <testcase name="rollbackOnlyWithoutExistingTransaction()" classname="org.springframework.transaction.reactive.ReactiveTransactionSupportTests" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

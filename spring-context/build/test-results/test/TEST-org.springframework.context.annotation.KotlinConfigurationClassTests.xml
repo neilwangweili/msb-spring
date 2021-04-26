@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.context.annotation.KotlinConfigurationClassTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:41:32" hostname="wangweilideMacBook-Pro.local" time="0.074">
+  <properties/>
+  <testcase name="Final configuration with default proxyBeanMethods value()" classname="org.springframework.context.annotation.KotlinConfigurationClassTests" time="0.004"/>
+  <testcase name="Final configuration with proxyBeanMethods set to false()" classname="org.springframework.context.annotation.KotlinConfigurationClassTests" time="0.07"/>
+  <system-out><![CDATA[15:41:32.745 [Test worker] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.parsing.BeanDefinitionParsingException: Configuration problem: @Configuration class 'KotlinConfigurationClassTests.FinalConfigurationWithProxy' may not be final. Remove the final modifier to continue.
+Offending resource: org.springframework.context.annotation.KotlinConfigurationClassTests$FinalConfigurationWithProxy
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

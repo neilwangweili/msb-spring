@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.test.context.BootstrapUtilsTests" tests="20" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:40:37" hostname="wangweilideMacBook-Pro.local" time="0.13">
+  <properties/>
+  <testcase name="resolveTestContextBootstrapperWithDoubleMetaBootstrapWithAnnotations()" classname="org.springframework.test.context.BootstrapUtilsTests" time="0.007"/>
+  <testcase name="resolveTestContextBootstrapperForNonAnnotatedClass()" classname="org.springframework.test.context.BootstrapUtilsTests" time="0.004"/>
+  <testcase name="resolveTestContextBootstrapperWithLocalDeclarationThatOverridesMetaBootstrapWithAnnotations()" classname="org.springframework.test.context.BootstrapUtilsTests" time="0.001"/>
+  <testcase name="resolveTestContextBootstrapperWithEmptyBootstrapWithAnnotation()" classname="org.springframework.test.context.BootstrapUtilsTests" time="0.001"/>
+  <testcase name="OuterClass" classname="org.springframework.test.context.BootstrapUtilsTests" time="0.029"/>
+  <testcase name="NestedWithInheritedBootstrapper" classname="org.springframework.test.context.BootstrapUtilsTests" time="0.001"/>
+  <testcase name="DoubleNestedWithInheritedButOverriddenBootstrapper" classname="org.springframework.test.context.BootstrapUtilsTests" time="0.002"/>
+  <testcase name="DoubleNestedWithOverriddenBootstrapper" classname="org.springframework.test.context.BootstrapUtilsTests" time="0.001"/>
+  <testcase name="TripleNestedWithInheritedBootstrapper" classname="org.springframework.test.context.BootstrapUtilsTests" time="0.0"/>
+  <testcase name="TripleNestedWithInheritedBootstrapperButLocalOverride" classname="org.springframework.test.context.BootstrapUtilsTests" time="0.002"/>
+  <testcase name="WebAppConfigClass" classname="org.springframework.test.context.BootstrapUtilsTests" time="0.0"/>
+  <testcase name="NestedWithInheritedWebConfig" classname="org.springframework.test.context.BootstrapUtilsTests" time="0.001"/>
+  <testcase name="DoubleNestedWithImplicitlyInheritedWebConfig" classname="org.springframework.test.context.BootstrapUtilsTests" time="0.001"/>
+  <testcase name="DoubleNestedWithOverriddenWebConfig" classname="org.springframework.test.context.BootstrapUtilsTests" time="0.001"/>
+  <testcase name="TripleNestedWithInheritedOverriddenWebConfig" classname="org.springframework.test.context.BootstrapUtilsTests" time="0.001"/>
+  <testcase name="TripleNestedWithInheritedOverriddenWebConfigAndTestInterface" classname="org.springframework.test.context.BootstrapUtilsTests" time="0.001"/>
+  <testcase name="resolveTestContextBootstrapperWithDirectBootstrapWithAnnotation()" classname="org.springframework.test.context.BootstrapUtilsTests" time="0.001"/>
+  <testcase name="resolveTestContextBootstrapperWithMetaBootstrapWithAnnotation()" classname="org.springframework.test.context.BootstrapUtilsTests" time="0.001"/>
+  <testcase name="resolveTestContextBootstrapperWithInheritedBootstrapWithAnnotation()" classname="org.springframework.test.context.BootstrapUtilsTests" time="0.014"/>
+  <testcase name="resolveTestContextBootstrapperWithDuplicatingMetaBootstrapWithAnnotations()" classname="org.springframework.test.context.BootstrapUtilsTests" time="0.004"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
