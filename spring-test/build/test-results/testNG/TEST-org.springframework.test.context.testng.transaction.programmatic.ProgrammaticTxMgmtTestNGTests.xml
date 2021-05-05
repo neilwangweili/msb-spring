@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.test.context.testng.transaction.programmatic.ProgrammaticTxMgmtTestNGTests" tests="12" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:41:52" hostname="wangweilideMacBook-Pro.local" time="0.101">
+<testsuite name="org.springframework.test.context.testng.transaction.programmatic.ProgrammaticTxMgmtTestNGTests" tests="12" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:44:14" hostname="wangweilideMBP.lan" time="0.141">
   <properties/>
-  <testcase name="commitTxAndStartNewTx" classname="org.springframework.test.context.testng.transaction.programmatic.ProgrammaticTxMgmtTestNGTests" time="0.005"/>
-  <testcase name="commitTxButDoNotStartNewTx" classname="org.springframework.test.context.testng.transaction.programmatic.ProgrammaticTxMgmtTestNGTests" time="0.021"/>
+  <testcase name="commitTxAndStartNewTx" classname="org.springframework.test.context.testng.transaction.programmatic.ProgrammaticTxMgmtTestNGTests" time="0.009"/>
+  <testcase name="commitTxButDoNotStartNewTx" classname="org.springframework.test.context.testng.transaction.programmatic.ProgrammaticTxMgmtTestNGTests" time="0.003"/>
   <testcase name="endTxWithNonExistentTransactionContext" classname="org.springframework.test.context.testng.transaction.programmatic.ProgrammaticTxMgmtTestNGTests" time="0.001"/>
   <testcase name="flagForCommitWithNonExistentTransactionContext" classname="org.springframework.test.context.testng.transaction.programmatic.ProgrammaticTxMgmtTestNGTests" time="0.0"/>
   <testcase name="flagForRollbackWithNonExistentTransactionContext" classname="org.springframework.test.context.testng.transaction.programmatic.ProgrammaticTxMgmtTestNGTests" time="0.0"/>
   <testcase name="isActiveWithNonExistentTransactionContext" classname="org.springframework.test.context.testng.transaction.programmatic.ProgrammaticTxMgmtTestNGTests" time="0.0"/>
-  <testcase name="isFlaggedForRollbackWithNonExistentTransactionContext" classname="org.springframework.test.context.testng.transaction.programmatic.ProgrammaticTxMgmtTestNGTests" time="0.0"/>
-  <testcase name="rollbackTxAndStartNewTx" classname="org.springframework.test.context.testng.transaction.programmatic.ProgrammaticTxMgmtTestNGTests" time="0.005"/>
-  <testcase name="rollbackTxAndStartNewTxWithDefaultCommitSemantics" classname="org.springframework.test.context.testng.transaction.programmatic.ProgrammaticTxMgmtTestNGTests" time="0.003"/>
+  <testcase name="isFlaggedForRollbackWithNonExistentTransactionContext" classname="org.springframework.test.context.testng.transaction.programmatic.ProgrammaticTxMgmtTestNGTests" time="0.001"/>
+  <testcase name="rollbackTxAndStartNewTx" classname="org.springframework.test.context.testng.transaction.programmatic.ProgrammaticTxMgmtTestNGTests" time="0.01"/>
+  <testcase name="rollbackTxAndStartNewTxWithDefaultCommitSemantics" classname="org.springframework.test.context.testng.transaction.programmatic.ProgrammaticTxMgmtTestNGTests" time="0.01"/>
   <testcase name="rollbackTxButDoNotStartNewTx" classname="org.springframework.test.context.testng.transaction.programmatic.ProgrammaticTxMgmtTestNGTests" time="0.002"/>
-  <testcase name="startTxWithExistingTransaction" classname="org.springframework.test.context.testng.transaction.programmatic.ProgrammaticTxMgmtTestNGTests" time="0.0"/>
+  <testcase name="startTxWithExistingTransaction" classname="org.springframework.test.context.testng.transaction.programmatic.ProgrammaticTxMgmtTestNGTests" time="0.001"/>
   <testcase name="startTxWithNonExistentTransactionContext" classname="org.springframework.test.context.testng.transaction.programmatic.ProgrammaticTxMgmtTestNGTests" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

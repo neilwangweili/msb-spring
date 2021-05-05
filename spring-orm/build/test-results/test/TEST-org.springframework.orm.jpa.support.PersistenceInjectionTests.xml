@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.orm.jpa.support.PersistenceInjectionTests" tests="27" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:39:47" hostname="wangweilideMacBook-Pro.local" time="0.593">
+<testsuite name="org.springframework.orm.jpa.support.PersistenceInjectionTests" tests="27" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:25:25" hostname="wangweilideMBP.lan" time="0.747">
   <properties/>
-  <testcase name="testPublicExtendedPersistenceContextSetterWithSerialization()" classname="org.springframework.orm.jpa.support.PersistenceInjectionTests" time="0.099"/>
+  <testcase name="testPublicExtendedPersistenceContextSetterWithSerialization()" classname="org.springframework.orm.jpa.support.PersistenceInjectionTests" time="0.043"/>
   <testcase name="testPublicPersistenceUnitSetterWithOverriding()" classname="org.springframework.orm.jpa.support.PersistenceInjectionTests" time="0.004"/>
-  <testcase name="testPublicSpecificExtendedPersistenceContextSetter()" classname="org.springframework.orm.jpa.support.PersistenceInjectionTests" time="0.064"/>
-  <testcase name="testPersistenceUnitsFromJndi()" classname="org.springframework.orm.jpa.support.PersistenceInjectionTests" time="0.053"/>
-  <testcase name="testPublicExtendedPersistenceContextSetterWithEntityManagerInfoAndSerialization()" classname="org.springframework.orm.jpa.support.PersistenceInjectionTests" time="0.177"/>
-  <testcase name="testPropertiesForSharedEntityManager1()" classname="org.springframework.orm.jpa.support.PersistenceInjectionTests" time="0.005"/>
-  <testcase name="testPropertiesForSharedEntityManager2()" classname="org.springframework.orm.jpa.support.PersistenceInjectionTests" time="0.003"/>
-  <testcase name="testPublicExtendedPersistenceContextSetterWithOverriding()" classname="org.springframework.orm.jpa.support.PersistenceInjectionTests" time="0.006"/>
-  <testcase name="testPropertiesPassedIn()" classname="org.springframework.orm.jpa.support.PersistenceInjectionTests" time="0.006"/>
-  <testcase name="testPrivatePersistenceUnitField()" classname="org.springframework.orm.jpa.support.PersistenceInjectionTests" time="0.003"/>
-  <testcase name="testPrivateVendorSpecificPersistenceContextField()" classname="org.springframework.orm.jpa.support.PersistenceInjectionTests" time="0.017"/>
-  <testcase name="testPersistenceUnitsFromJndiWithDefaultUnit()" classname="org.springframework.orm.jpa.support.PersistenceInjectionTests" time="0.004"/>
-  <testcase name="testFieldOfWrongTypeAnnotatedWithPersistenceUnit()" classname="org.springframework.orm.jpa.support.PersistenceInjectionTests" time="0.001"/>
-  <testcase name="testNoPropertiesPassedIn()" classname="org.springframework.orm.jpa.support.PersistenceInjectionTests" time="0.001"/>
-  <testcase name="testSinglePersistenceUnitFromJndi()" classname="org.springframework.orm.jpa.support.PersistenceInjectionTests" time="0.002"/>
-  <testcase name="testSinglePersistenceContextFromJndi()" classname="org.springframework.orm.jpa.support.PersistenceInjectionTests" time="0.002"/>
-  <testcase name="testPublicPersistenceUnitSetterWithUnitIdentifiedThroughBeanName()" classname="org.springframework.orm.jpa.support.PersistenceInjectionTests" time="0.014"/>
-  <testcase name="testPersistenceContextsFromJndiWithDefaultUnit()" classname="org.springframework.orm.jpa.support.PersistenceInjectionTests" time="0.009"/>
+  <testcase name="testPublicSpecificExtendedPersistenceContextSetter()" classname="org.springframework.orm.jpa.support.PersistenceInjectionTests" time="0.154"/>
+  <testcase name="testPersistenceUnitsFromJndi()" classname="org.springframework.orm.jpa.support.PersistenceInjectionTests" time="0.078"/>
+  <testcase name="testPublicExtendedPersistenceContextSetterWithEntityManagerInfoAndSerialization()" classname="org.springframework.orm.jpa.support.PersistenceInjectionTests" time="0.246"/>
+  <testcase name="testPropertiesForSharedEntityManager1()" classname="org.springframework.orm.jpa.support.PersistenceInjectionTests" time="0.004"/>
+  <testcase name="testPropertiesForSharedEntityManager2()" classname="org.springframework.orm.jpa.support.PersistenceInjectionTests" time="0.002"/>
+  <testcase name="testPublicExtendedPersistenceContextSetterWithOverriding()" classname="org.springframework.orm.jpa.support.PersistenceInjectionTests" time="0.002"/>
+  <testcase name="testPropertiesPassedIn()" classname="org.springframework.orm.jpa.support.PersistenceInjectionTests" time="0.015"/>
+  <testcase name="testPrivatePersistenceUnitField()" classname="org.springframework.orm.jpa.support.PersistenceInjectionTests" time="0.002"/>
+  <testcase name="testPrivateVendorSpecificPersistenceContextField()" classname="org.springframework.orm.jpa.support.PersistenceInjectionTests" time="0.018"/>
+  <testcase name="testPersistenceUnitsFromJndiWithDefaultUnit()" classname="org.springframework.orm.jpa.support.PersistenceInjectionTests" time="0.001"/>
+  <testcase name="testFieldOfWrongTypeAnnotatedWithPersistenceUnit()" classname="org.springframework.orm.jpa.support.PersistenceInjectionTests" time="0.002"/>
+  <testcase name="testNoPropertiesPassedIn()" classname="org.springframework.orm.jpa.support.PersistenceInjectionTests" time="0.004"/>
+  <testcase name="testSinglePersistenceUnitFromJndi()" classname="org.springframework.orm.jpa.support.PersistenceInjectionTests" time="0.001"/>
+  <testcase name="testSinglePersistenceContextFromJndi()" classname="org.springframework.orm.jpa.support.PersistenceInjectionTests" time="0.001"/>
+  <testcase name="testPublicPersistenceUnitSetterWithUnitIdentifiedThroughBeanName()" classname="org.springframework.orm.jpa.support.PersistenceInjectionTests" time="0.039"/>
+  <testcase name="testPersistenceContextsFromJndiWithDefaultUnit()" classname="org.springframework.orm.jpa.support.PersistenceInjectionTests" time="0.002"/>
   <testcase name="testPublicPersistenceUnitSetter()" classname="org.springframework.orm.jpa.support.PersistenceInjectionTests" time="0.002"/>
-  <testcase name="testPropertiesForTransactionalEntityManager()" classname="org.springframework.orm.jpa.support.PersistenceInjectionTests" time="0.016"/>
+  <testcase name="testPropertiesForTransactionalEntityManager()" classname="org.springframework.orm.jpa.support.PersistenceInjectionTests" time="0.001"/>
   <testcase name="testSetterWithNoArgs()" classname="org.springframework.orm.jpa.support.PersistenceInjectionTests" time="0.002"/>
-  <testcase name="testPublicExtendedPersistenceContextSetter()" classname="org.springframework.orm.jpa.support.PersistenceInjectionTests" time="0.005"/>
-  <testcase name="testPublicPersistenceUnitSetterWithMultipleUnitsIdentifiedThroughUnitName()" classname="org.springframework.orm.jpa.support.PersistenceInjectionTests" time="0.007"/>
-  <testcase name="testPersistenceContextsFromJndi()" classname="org.springframework.orm.jpa.support.PersistenceInjectionTests" time="0.002"/>
-  <testcase name="testPrivatePersistenceContextField()" classname="org.springframework.orm.jpa.support.PersistenceInjectionTests" time="0.049"/>
-  <testcase name="testSetterOfWrongTypeAnnotatedWithPersistenceUnit()" classname="org.springframework.orm.jpa.support.PersistenceInjectionTests" time="0.004"/>
-  <testcase name="testInjectionIntoExistingObjects()" classname="org.springframework.orm.jpa.support.PersistenceInjectionTests" time="0.003"/>
+  <testcase name="testPublicExtendedPersistenceContextSetter()" classname="org.springframework.orm.jpa.support.PersistenceInjectionTests" time="0.002"/>
+  <testcase name="testPublicPersistenceUnitSetterWithMultipleUnitsIdentifiedThroughUnitName()" classname="org.springframework.orm.jpa.support.PersistenceInjectionTests" time="0.003"/>
+  <testcase name="testPersistenceContextsFromJndi()" classname="org.springframework.orm.jpa.support.PersistenceInjectionTests" time="0.001"/>
+  <testcase name="testPrivatePersistenceContextField()" classname="org.springframework.orm.jpa.support.PersistenceInjectionTests" time="0.103"/>
+  <testcase name="testSetterOfWrongTypeAnnotatedWithPersistenceUnit()" classname="org.springframework.orm.jpa.support.PersistenceInjectionTests" time="0.002"/>
+  <testcase name="testInjectionIntoExistingObjects()" classname="org.springframework.orm.jpa.support.PersistenceInjectionTests" time="0.002"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

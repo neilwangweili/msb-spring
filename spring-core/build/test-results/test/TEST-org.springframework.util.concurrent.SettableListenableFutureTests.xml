@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.util.concurrent.SettableListenableFutureTests" tests="27" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:37:50" hostname="wangweilideMacBook-Pro.local" time="0.105">
+<testsuite name="org.springframework.util.concurrent.SettableListenableFutureTests" tests="27" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:11:36" hostname="wangweilideMBP.lan" time="0.087">
   <properties/>
   <testcase name="throwsSetExceptionWrappedInExecutionExceptionFromCompletable()" classname="org.springframework.util.concurrent.SettableListenableFutureTests" time="0.001"/>
-  <testcase name="cancelStateThrowsExceptionWhenCallingGetWithTimeout()" classname="org.springframework.util.concurrent.SettableListenableFutureTests" time="0.023"/>
+  <testcase name="cancelStateThrowsExceptionWhenCallingGetWithTimeout()" classname="org.springframework.util.concurrent.SettableListenableFutureTests" time="0.021"/>
   <testcase name="cancelStateThrowsExceptionWhenCallingGet()" classname="org.springframework.util.concurrent.SettableListenableFutureTests" time="0.001"/>
   <testcase name="setValueTriggersCallback()" classname="org.springframework.util.concurrent.SettableListenableFutureTests" time="0.001"/>
   <testcase name="setExceptionTriggersCallback()" classname="org.springframework.util.concurrent.SettableListenableFutureTests" time="0.001"/>
-  <testcase name="cancelWithMayInterruptIfRunningTrueCallsOverriddenMethod()" classname="org.springframework.util.concurrent.SettableListenableFutureTests" time="0.001"/>
+  <testcase name="cancelWithMayInterruptIfRunningTrueCallsOverriddenMethod()" classname="org.springframework.util.concurrent.SettableListenableFutureTests" time="0.0"/>
   <testcase name="setPreventsCancel()" classname="org.springframework.util.concurrent.SettableListenableFutureTests" time="0.0"/>
-  <testcase name="cancelWithMayInterruptIfRunningFalseDoesNotCallOverriddenMethod()" classname="org.springframework.util.concurrent.SettableListenableFutureTests" time="0.001"/>
-  <testcase name="throwsSetErrorWrappedInExecutionExceptionFromCompletable()" classname="org.springframework.util.concurrent.SettableListenableFutureTests" time="0.001"/>
+  <testcase name="cancelWithMayInterruptIfRunningFalseDoesNotCallOverriddenMethod()" classname="org.springframework.util.concurrent.SettableListenableFutureTests" time="0.0"/>
+  <testcase name="throwsSetErrorWrappedInExecutionExceptionFromCompletable()" classname="org.springframework.util.concurrent.SettableListenableFutureTests" time="0.0"/>
   <testcase name="cancelSetsFutureToDone()" classname="org.springframework.util.concurrent.SettableListenableFutureTests" time="0.0"/>
   <testcase name="setExceptionPreventsCancel()" classname="org.springframework.util.concurrent.SettableListenableFutureTests" time="0.0"/>
-  <testcase name="cancelDoesNotNotifyCallbacksOnSetException()" classname="org.springframework.util.concurrent.SettableListenableFutureTests" time="0.009"/>
-  <testcase name="getWaitsForCompletion()" classname="org.springframework.util.concurrent.SettableListenableFutureTests" time="0.026"/>
-  <testcase name="throwsSetExceptionWrappedInExecutionException()" classname="org.springframework.util.concurrent.SettableListenableFutureTests" time="0.001"/>
+  <testcase name="cancelDoesNotNotifyCallbacksOnSetException()" classname="org.springframework.util.concurrent.SettableListenableFutureTests" time="0.006"/>
+  <testcase name="getWaitsForCompletion()" classname="org.springframework.util.concurrent.SettableListenableFutureTests" time="0.023"/>
+  <testcase name="throwsSetExceptionWrappedInExecutionException()" classname="org.springframework.util.concurrent.SettableListenableFutureTests" time="0.0"/>
   <testcase name="returnsSetValue()" classname="org.springframework.util.concurrent.SettableListenableFutureTests" time="0.0"/>
   <testcase name="validateInitialValues()" classname="org.springframework.util.concurrent.SettableListenableFutureTests" time="0.0"/>
-  <testcase name="cancelPreventsExceptionFromBeingSet()" classname="org.springframework.util.concurrent.SettableListenableFutureTests" time="0.001"/>
+  <testcase name="cancelPreventsExceptionFromBeingSet()" classname="org.springframework.util.concurrent.SettableListenableFutureTests" time="0.0"/>
   <testcase name="throwsSetErrorWrappedInExecutionException()" classname="org.springframework.util.concurrent.SettableListenableFutureTests" time="0.0"/>
-  <testcase name="cancelDoesNotNotifyCallbacksOnSet()" classname="org.springframework.util.concurrent.SettableListenableFutureTests" time="0.0"/>
+  <testcase name="cancelDoesNotNotifyCallbacksOnSet()" classname="org.springframework.util.concurrent.SettableListenableFutureTests" time="0.001"/>
   <testcase name="cancelPreventsValueFromBeingSet()" classname="org.springframework.util.concurrent.SettableListenableFutureTests" time="0.0"/>
-  <testcase name="getWithTimeoutWaitsForCompletion()" classname="org.springframework.util.concurrent.SettableListenableFutureTests" time="0.026"/>
+  <testcase name="getWithTimeoutWaitsForCompletion()" classname="org.springframework.util.concurrent.SettableListenableFutureTests" time="0.025"/>
   <testcase name="setValueUpdatesDoneStatus()" classname="org.springframework.util.concurrent.SettableListenableFutureTests" time="0.0"/>
-  <testcase name="getWithTimeoutThrowsTimeoutException()" classname="org.springframework.util.concurrent.SettableListenableFutureTests" time="0.002"/>
+  <testcase name="getWithTimeoutThrowsTimeoutException()" classname="org.springframework.util.concurrent.SettableListenableFutureTests" time="0.001"/>
   <testcase name="setExceptionTriggersCallbackOnlyOnce()" classname="org.springframework.util.concurrent.SettableListenableFutureTests" time="0.002"/>
   <testcase name="returnsSetValueFromCompletable()" classname="org.springframework.util.concurrent.SettableListenableFutureTests" time="0.0"/>
   <testcase name="setValueTriggersCallbackOnlyOnce()" classname="org.springframework.util.concurrent.SettableListenableFutureTests" time="0.001"/>

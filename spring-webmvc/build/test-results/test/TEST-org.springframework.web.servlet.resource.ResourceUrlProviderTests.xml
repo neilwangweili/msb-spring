@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.web.servlet.resource.ResourceUrlProviderTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:41:52" hostname="wangweilideMacBook-Pro.local" time="0.045">
+<testsuite name="org.springframework.web.servlet.resource.ResourceUrlProviderTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:34:03" hostname="wangweilideMBP.lan" time="0.091">
   <properties/>
-  <testcase name="getStaticResourceUrl()" classname="org.springframework.web.servlet.resource.ResourceUrlProviderTests" time="0.0"/>
-  <testcase name="initializeOnCurrentContext()" classname="org.springframework.web.servlet.resource.ResourceUrlProviderTests" time="0.02"/>
-  <testcase name="getStaticResourceUrlRequestWithQueryOrHash()" classname="org.springframework.web.servlet.resource.ResourceUrlProviderTests" time="0.001"/>
-  <testcase name="getFingerprintedResourceUrl()" classname="org.springframework.web.servlet.resource.ResourceUrlProviderTests" time="0.015"/>
+  <testcase name="getStaticResourceUrl()" classname="org.springframework.web.servlet.resource.ResourceUrlProviderTests" time="0.001"/>
+  <testcase name="initializeOnCurrentContext()" classname="org.springframework.web.servlet.resource.ResourceUrlProviderTests" time="0.025"/>
+  <testcase name="getStaticResourceUrlRequestWithQueryOrHash()" classname="org.springframework.web.servlet.resource.ResourceUrlProviderTests" time="0.054"/>
+  <testcase name="getFingerprintedResourceUrl()" classname="org.springframework.web.servlet.resource.ResourceUrlProviderTests" time="0.001"/>
   <testcase name="bestPatternMatch()" classname="org.springframework.web.servlet.resource.ResourceUrlProviderTests" time="0.001"/>
   <testcase name="getForLookupPathShouldNotFailIfPathContainsDoubleSlashes()" classname="org.springframework.web.servlet.resource.ResourceUrlProviderTests" time="0.001"/>
   <testcase name="getStaticResourceWithMissingContextPath()" classname="org.springframework.web.servlet.resource.ResourceUrlProviderTests" time="0.0"/>
-  <testcase name="initializeOnce()" classname="org.springframework.web.servlet.resource.ResourceUrlProviderTests" time="0.005"/>
+  <testcase name="initializeOnce()" classname="org.springframework.web.servlet.resource.ResourceUrlProviderTests" time="0.006"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.web.servlet.tags.form.InputTagTests" tests="14" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:41:29" hostname="wangweilideMacBook-Pro.local" time="0.075">
+<testsuite name="org.springframework.web.servlet.tags.form.InputTagTests" tests="14" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:33:41" hostname="wangweilideMBP.lan" time="0.132">
   <properties/>
-  <testcase name="dynamicTypeCheckboxAttribute()" classname="org.springframework.web.servlet.tags.form.InputTagTests" time="0.006"/>
+  <testcase name="dynamicTypeCheckboxAttribute()" classname="org.springframework.web.servlet.tags.form.InputTagTests" time="0.005"/>
   <testcase name="simpleBind()" classname="org.springframework.web.servlet.tags.form.InputTagTests" time="0.006"/>
-  <testcase name="withAllAttributes()" classname="org.springframework.web.servlet.tags.form.InputTagTests" time="0.006"/>
-  <testcase name="dynamicTypeAttribute()" classname="org.springframework.web.servlet.tags.form.InputTagTests" time="0.005"/>
+  <testcase name="withAllAttributes()" classname="org.springframework.web.servlet.tags.form.InputTagTests" time="0.028"/>
+  <testcase name="dynamicTypeAttribute()" classname="org.springframework.web.servlet.tags.form.InputTagTests" time="0.007"/>
   <testcase name="simpleBindTagWithinForm()" classname="org.springframework.web.servlet.tags.form.InputTagTests" time="0.004"/>
-  <testcase name="disabledFalse()" classname="org.springframework.web.servlet.tags.form.InputTagTests" time="0.005"/>
-  <testcase name="readOnlyAttributeRenderingWhenReadonlyIsTrue()" classname="org.springframework.web.servlet.tags.form.InputTagTests" time="0.005"/>
-  <testcase name="withCustomBinder()" classname="org.springframework.web.servlet.tags.form.InputTagTests" time="0.005"/>
-  <testcase name="simpleBindWithHtmlEscaping()" classname="org.springframework.web.servlet.tags.form.InputTagTests" time="0.005"/>
-  <testcase name="withNestedBind()" classname="org.springframework.web.servlet.tags.form.InputTagTests" time="0.006"/>
-  <testcase name="complexBind()" classname="org.springframework.web.servlet.tags.form.InputTagTests" time="0.005"/>
+  <testcase name="disabledFalse()" classname="org.springframework.web.servlet.tags.form.InputTagTests" time="0.007"/>
+  <testcase name="readOnlyAttributeRenderingWhenReadonlyIsTrue()" classname="org.springframework.web.servlet.tags.form.InputTagTests" time="0.004"/>
+  <testcase name="withCustomBinder()" classname="org.springframework.web.servlet.tags.form.InputTagTests" time="0.015"/>
+  <testcase name="simpleBindWithHtmlEscaping()" classname="org.springframework.web.servlet.tags.form.InputTagTests" time="0.01"/>
+  <testcase name="withNestedBind()" classname="org.springframework.web.servlet.tags.form.InputTagTests" time="0.004"/>
+  <testcase name="complexBind()" classname="org.springframework.web.servlet.tags.form.InputTagTests" time="0.007"/>
   <testcase name="withNestedBindTagWithinForm()" classname="org.springframework.web.servlet.tags.form.InputTagTests" time="0.005"/>
-  <testcase name="withErrors()" classname="org.springframework.web.servlet.tags.form.InputTagTests" time="0.004"/>
-  <testcase name="dynamicTypeRadioAttribute()" classname="org.springframework.web.servlet.tags.form.InputTagTests" time="0.004"/>
+  <testcase name="withErrors()" classname="org.springframework.web.servlet.tags.form.InputTagTests" time="0.008"/>
+  <testcase name="dynamicTypeRadioAttribute()" classname="org.springframework.web.servlet.tags.form.InputTagTests" time="0.005"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

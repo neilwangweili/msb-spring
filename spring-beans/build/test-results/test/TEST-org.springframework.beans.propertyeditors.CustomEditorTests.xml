@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.beans.propertyeditors.CustomEditorTests" tests="62" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:39:30" hostname="wangweilideMacBook-Pro.local" time="0.158">
+<testsuite name="org.springframework.beans.propertyeditors.CustomEditorTests" tests="62" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:25:11" hostname="wangweilideMBP.lan" time="0.175">
   <properties/>
-  <testcase name="testCustomBooleanEditorWithSpecialTrueAndFalseStrings()" classname="org.springframework.beans.propertyeditors.CustomEditorTests" time="0.001"/>
-  <testcase name="testIndexedPropertiesWithCustomEditorForProperty()" classname="org.springframework.beans.propertyeditors.CustomEditorTests" time="0.008"/>
-  <testcase name="testCustomDateEditorWithExactDateLength()" classname="org.springframework.beans.propertyeditors.CustomEditorTests" time="0.003"/>
-  <testcase name="testClassEditor()" classname="org.springframework.beans.propertyeditors.CustomEditorTests" time="0.001"/>
+  <testcase name="testCustomBooleanEditorWithSpecialTrueAndFalseStrings()" classname="org.springframework.beans.propertyeditors.CustomEditorTests" time="0.002"/>
+  <testcase name="testIndexedPropertiesWithCustomEditorForProperty()" classname="org.springframework.beans.propertyeditors.CustomEditorTests" time="0.005"/>
+  <testcase name="testCustomDateEditorWithExactDateLength()" classname="org.springframework.beans.propertyeditors.CustomEditorTests" time="0.002"/>
+  <testcase name="testClassEditor()" classname="org.springframework.beans.propertyeditors.CustomEditorTests" time="0.0"/>
   <testcase name="testGetAsTextWithTwoDimensionalArray()" classname="org.springframework.beans.propertyeditors.CustomEditorTests" time="0.0"/>
-  <testcase name="testNestedIndexedPropertiesWithCustomEditorForProperty()" classname="org.springframework.beans.propertyeditors.CustomEditorTests" time="0.006"/>
+  <testcase name="testNestedIndexedPropertiesWithCustomEditorForProperty()" classname="org.springframework.beans.propertyeditors.CustomEditorTests" time="0.018"/>
   <testcase name="testStringTrimmerEditorWithCharsToDeleteAndEmptyAsNull()" classname="org.springframework.beans.propertyeditors.CustomEditorTests" time="0.0"/>
   <testcase name="testCustomNumberEditorWithAllowEmpty()" classname="org.springframework.beans.propertyeditors.CustomEditorTests" time="0.004"/>
-  <testcase name="testIndexedPropertiesWithDirectAccessAndPropertyEditors()" classname="org.springframework.beans.propertyeditors.CustomEditorTests" time="0.003"/>
-  <testcase name="testCustomEditorForAllNestedStringProperties()" classname="org.springframework.beans.propertyeditors.CustomEditorTests" time="0.002"/>
+  <testcase name="testIndexedPropertiesWithDirectAccessAndPropertyEditors()" classname="org.springframework.beans.propertyeditors.CustomEditorTests" time="0.004"/>
+  <testcase name="testCustomEditorForAllNestedStringProperties()" classname="org.springframework.beans.propertyeditors.CustomEditorTests" time="0.003"/>
   <testcase name="testCustomEditorForSingleNestedProperty()" classname="org.springframework.beans.propertyeditors.CustomEditorTests" time="0.001"/>
   <testcase name="testDefaultBooleanEditorForPrimitiveType()" classname="org.springframework.beans.propertyeditors.CustomEditorTests" time="0.001"/>
-  <testcase name="testArrayToArrayConversion()" classname="org.springframework.beans.propertyeditors.CustomEditorTests" time="0.002"/>
+  <testcase name="testArrayToArrayConversion()" classname="org.springframework.beans.propertyeditors.CustomEditorTests" time="0.001"/>
   <testcase name="testDefaultBooleanEditorForWrapperType()" classname="org.springframework.beans.propertyeditors.CustomEditorTests" time="0.0"/>
   <testcase name="testDefaultNumberEditor()" classname="org.springframework.beans.propertyeditors.CustomEditorTests" time="0.001"/>
   <testcase name="testClassArrayEditorSunnyDayWithArrayTypes()" classname="org.springframework.beans.propertyeditors.CustomEditorTests" time="0.001"/>
-  <testcase name="testUninitializedArrayPropertyWithCustomEditor()" classname="org.springframework.beans.propertyeditors.CustomEditorTests" time="0.001"/>
+  <testcase name="testUninitializedArrayPropertyWithCustomEditor()" classname="org.springframework.beans.propertyeditors.CustomEditorTests" time="0.0"/>
   <testcase name="testNestedIndexedPropertiesWithIndexedCustomEditorForProperty()" classname="org.springframework.beans.propertyeditors.CustomEditorTests" time="0.003"/>
   <testcase name="testClassEditorWithArray()" classname="org.springframework.beans.propertyeditors.CustomEditorTests" time="0.0"/>
   <testcase name="testCustomDateEditor()" classname="org.springframework.beans.propertyeditors.CustomEditorTests" time="0.001"/>
   <testcase name="testPatternEditor()" classname="org.springframework.beans.propertyeditors.CustomEditorTests" time="0.0"/>
-  <testcase name="testIndexedPropertiesWithDirectAccessAndSpecificPropertyEditors()" classname="org.springframework.beans.propertyeditors.CustomEditorTests" time="0.004"/>
+  <testcase name="testIndexedPropertiesWithDirectAccessAndSpecificPropertyEditors()" classname="org.springframework.beans.propertyeditors.CustomEditorTests" time="0.005"/>
   <testcase name="testLocaleEditor()" classname="org.springframework.beans.propertyeditors.CustomEditorTests" time="0.0"/>
-  <testcase name="testCustomNumberEditorWithEmptyAsNull()" classname="org.springframework.beans.propertyeditors.CustomEditorTests" time="0.0"/>
+  <testcase name="testCustomNumberEditorWithEmptyAsNull()" classname="org.springframework.beans.propertyeditors.CustomEditorTests" time="0.001"/>
   <testcase name="testCustomNumberEditorWithoutAllowEmpty()" classname="org.springframework.beans.propertyeditors.CustomEditorTests" time="0.001"/>
   <testcase name="testStringTrimmerEditor()" classname="org.springframework.beans.propertyeditors.CustomEditorTests" time="0.0"/>
   <testcase name="testByteArrayPropertyEditor()" classname="org.springframework.beans.propertyeditors.CustomEditorTests" time="0.003"/>
-  <testcase name="testCharacterEditorWithAllowEmpty()" classname="org.springframework.beans.propertyeditors.CustomEditorTests" time="0.003"/>
-  <testcase name="testIndexedPropertiesWithCustomEditorForType()" classname="org.springframework.beans.propertyeditors.CustomEditorTests" time="0.009"/>
+  <testcase name="testCharacterEditorWithAllowEmpty()" classname="org.springframework.beans.propertyeditors.CustomEditorTests" time="0.004"/>
+  <testcase name="testIndexedPropertiesWithCustomEditorForType()" classname="org.springframework.beans.propertyeditors.CustomEditorTests" time="0.001"/>
   <testcase name="testIndexedPropertiesWithIndividualCustomEditorForProperty()" classname="org.springframework.beans.propertyeditors.CustomEditorTests" time="0.004"/>
   <testcase name="testCustomNumberEditorWithHex()" classname="org.springframework.beans.propertyeditors.CustomEditorTests" time="0.0"/>
   <testcase name="testCustomDateEditorWithEmptyAsNull()" classname="org.springframework.beans.propertyeditors.CustomEditorTests" time="0.0"/>
@@ -37,32 +37,32 @@
   <testcase name="testClassArrayEditorSetAsTextWithNull()" classname="org.springframework.beans.propertyeditors.CustomEditorTests" time="0.001"/>
   <testcase name="testCharacterEditorGetAsTextReturnsEmptyStringIfValueIsNull()" classname="org.springframework.beans.propertyeditors.CustomEditorTests" time="0.0"/>
   <testcase name="testCharsetEditor()" classname="org.springframework.beans.propertyeditors.CustomEditorTests" time="0.0"/>
-  <testcase name="testParseShortGreaterThanMaxValueWithoutNumberFormat()" classname="org.springframework.beans.propertyeditors.CustomEditorTests" time="0.0"/>
+  <testcase name="testParseShortGreaterThanMaxValueWithoutNumberFormat()" classname="org.springframework.beans.propertyeditors.CustomEditorTests" time="0.001"/>
   <testcase name="testStringTrimmerEditorWithCharsToDelete()" classname="org.springframework.beans.propertyeditors.CustomEditorTests" time="0.001"/>
   <testcase name="testCustomBooleanEditor()" classname="org.springframework.beans.propertyeditors.CustomEditorTests" time="0.0"/>
   <testcase name="testCharacterEditorSetAsTextWithStringLongerThanOneCharacter()" classname="org.springframework.beans.propertyeditors.CustomEditorTests" time="0.0"/>
   <testcase name="testCharArrayPropertyEditor()" classname="org.springframework.beans.propertyeditors.CustomEditorTests" time="0.001"/>
   <testcase name="testFileEditorWithAbsolutePath()" classname="org.springframework.beans.propertyeditors.CustomEditorTests" time="0.0"/>
-  <testcase name="testConversionToOldCollections()" classname="org.springframework.beans.propertyeditors.CustomEditorTests" time="0.017"/>
-  <testcase name="testCustomNumberEditorWithFrenchBigDecimal()" classname="org.springframework.beans.propertyeditors.CustomEditorTests" time="0.01"/>
-  <testcase name="testFileEditor()" classname="org.springframework.beans.propertyeditors.CustomEditorTests" time="0.001"/>
+  <testcase name="testConversionToOldCollections()" classname="org.springframework.beans.propertyeditors.CustomEditorTests" time="0.003"/>
+  <testcase name="testCustomNumberEditorWithFrenchBigDecimal()" classname="org.springframework.beans.propertyeditors.CustomEditorTests" time="0.066"/>
+  <testcase name="testFileEditor()" classname="org.springframework.beans.propertyeditors.CustomEditorTests" time="0.002"/>
   <testcase name="testComplexObject()" classname="org.springframework.beans.propertyeditors.CustomEditorTests" time="0.001"/>
   <testcase name="testGetAsTextWithRidiculousMultiDimensionalArray()" classname="org.springframework.beans.propertyeditors.CustomEditorTests" time="0.0"/>
   <testcase name="testCustomNumberEditor()" classname="org.springframework.beans.propertyeditors.CustomEditorTests" time="0.0"/>
   <testcase name="testClassArrayEditorSetAsTextWithEmptyString()" classname="org.springframework.beans.propertyeditors.CustomEditorTests" time="0.0"/>
-  <testcase name="testCustomBooleanEditorWithEmptyAsNull()" classname="org.springframework.beans.propertyeditors.CustomEditorTests" time="0.001"/>
-  <testcase name="testClassArrayEditorSunnyDay()" classname="org.springframework.beans.propertyeditors.CustomEditorTests" time="0.0"/>
-  <testcase name="testCustomEditorForAllStringProperties()" classname="org.springframework.beans.propertyeditors.CustomEditorTests" time="0.001"/>
-  <testcase name="testIndexedPropertiesWithListPropertyEditor()" classname="org.springframework.beans.propertyeditors.CustomEditorTests" time="0.001"/>
-  <testcase name="testCustomBooleanEditorWithAllowEmpty()" classname="org.springframework.beans.propertyeditors.CustomEditorTests" time="0.002"/>
+  <testcase name="testCustomBooleanEditorWithEmptyAsNull()" classname="org.springframework.beans.propertyeditors.CustomEditorTests" time="0.0"/>
+  <testcase name="testClassArrayEditorSunnyDay()" classname="org.springframework.beans.propertyeditors.CustomEditorTests" time="0.001"/>
+  <testcase name="testCustomEditorForAllStringProperties()" classname="org.springframework.beans.propertyeditors.CustomEditorTests" time="0.002"/>
+  <testcase name="testIndexedPropertiesWithListPropertyEditor()" classname="org.springframework.beans.propertyeditors.CustomEditorTests" time="0.004"/>
+  <testcase name="testCustomBooleanEditorWithAllowEmpty()" classname="org.springframework.beans.propertyeditors.CustomEditorTests" time="0.0"/>
   <testcase name="testStringTrimmerEditorWithEmptyAsNull()" classname="org.springframework.beans.propertyeditors.CustomEditorTests" time="0.0"/>
-  <testcase name="testCharacterEditor()" classname="org.springframework.beans.propertyeditors.CustomEditorTests" time="0.001"/>
-  <testcase name="testFileEditorWithRelativePath()" classname="org.springframework.beans.propertyeditors.CustomEditorTests" time="0.001"/>
+  <testcase name="testCharacterEditor()" classname="org.springframework.beans.propertyeditors.CustomEditorTests" time="0.0"/>
+  <testcase name="testFileEditorWithRelativePath()" classname="org.springframework.beans.propertyeditors.CustomEditorTests" time="0.002"/>
   <testcase name="testCustomEditorForSingleProperty()" classname="org.springframework.beans.propertyeditors.CustomEditorTests" time="0.001"/>
-  <testcase name="testClassEditorWithNonExistentClass()" classname="org.springframework.beans.propertyeditors.CustomEditorTests" time="0.001"/>
-  <testcase name="testCharacterEditorSetAsTextWithNullNotAllowingEmptyAsNull()" classname="org.springframework.beans.propertyeditors.CustomEditorTests" time="0.001"/>
+  <testcase name="testClassEditorWithNonExistentClass()" classname="org.springframework.beans.propertyeditors.CustomEditorTests" time="0.005"/>
+  <testcase name="testCharacterEditorSetAsTextWithNullNotAllowingEmptyAsNull()" classname="org.springframework.beans.propertyeditors.CustomEditorTests" time="0.0"/>
   <testcase name="testClassArrayEditorSetAsTextWithWhitespaceString()" classname="org.springframework.beans.propertyeditors.CustomEditorTests" time="0.0"/>
-  <testcase name="testArrayToStringConversion()" classname="org.springframework.beans.propertyeditors.CustomEditorTests" time="0.001"/>
+  <testcase name="testArrayToStringConversion()" classname="org.springframework.beans.propertyeditors.CustomEditorTests" time="0.002"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

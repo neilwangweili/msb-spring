@@ -1,647 +1,647 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests" tests="36" skipped="0" failures="0" errors="0" timestamp="2021-04-26T08:34:10" hostname="wangweilideMacBook-Pro.local" time="102.305">
+<testsuite name="org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests" tests="36" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:49:32" hostname="wangweilideMBP.lan" time="101.978">
   <properties/>
-  <testcase name="[1] org.springframework.web.testfixture.http.server.reactive.bootstrap.JettyHttpServer@6e1201f" classname="org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests" time="0.288"/>
-  <testcase name="[2] org.springframework.web.testfixture.http.server.reactive.bootstrap.ReactorHttpServer@ef1e82c" classname="org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests" time="0.034"/>
-  <testcase name="[3] org.springframework.web.testfixture.http.server.reactive.bootstrap.TomcatHttpServer@6a157dec" classname="org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests" time="11.22"/>
-  <testcase name="[4] org.springframework.web.testfixture.http.server.reactive.bootstrap.UndertowHttpServer@799e32e8" classname="org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests" time="0.038"/>
-  <testcase name="[1] org.springframework.web.testfixture.http.server.reactive.bootstrap.JettyHttpServer@2787d105" classname="org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests" time="0.034"/>
-  <testcase name="[2] org.springframework.web.testfixture.http.server.reactive.bootstrap.ReactorHttpServer@76699872" classname="org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests" time="0.03"/>
-  <testcase name="[3] org.springframework.web.testfixture.http.server.reactive.bootstrap.TomcatHttpServer@592bcfaf" classname="org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests" time="11.177"/>
-  <testcase name="[4] org.springframework.web.testfixture.http.server.reactive.bootstrap.UndertowHttpServer@6295cde3" classname="org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests" time="0.037"/>
-  <testcase name="[1] org.springframework.web.testfixture.http.server.reactive.bootstrap.JettyHttpServer@62897896" classname="org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests" time="0.033"/>
-  <testcase name="[2] org.springframework.web.testfixture.http.server.reactive.bootstrap.ReactorHttpServer@47325ca9" classname="org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests" time="0.034"/>
-  <testcase name="[3] org.springframework.web.testfixture.http.server.reactive.bootstrap.TomcatHttpServer@333692dd" classname="org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests" time="11.174"/>
-  <testcase name="[4] org.springframework.web.testfixture.http.server.reactive.bootstrap.UndertowHttpServer@70e9cdba" classname="org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests" time="0.028"/>
-  <testcase name="[1] org.springframework.web.testfixture.http.server.reactive.bootstrap.JettyHttpServer@a34945a" classname="org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests" time="0.029"/>
-  <testcase name="[2] org.springframework.web.testfixture.http.server.reactive.bootstrap.ReactorHttpServer@6df87155" classname="org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests" time="0.027"/>
-  <testcase name="[3] org.springframework.web.testfixture.http.server.reactive.bootstrap.TomcatHttpServer@4296a65c" classname="org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests" time="11.199"/>
-  <testcase name="[4] org.springframework.web.testfixture.http.server.reactive.bootstrap.UndertowHttpServer@587efbd9" classname="org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests" time="0.029"/>
-  <testcase name="[1] org.springframework.web.testfixture.http.server.reactive.bootstrap.JettyHttpServer@3d273a94" classname="org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests" time="0.029"/>
-  <testcase name="[2] org.springframework.web.testfixture.http.server.reactive.bootstrap.ReactorHttpServer@2e135fe7" classname="org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests" time="0.028"/>
-  <testcase name="[3] org.springframework.web.testfixture.http.server.reactive.bootstrap.TomcatHttpServer@2e6f46d5" classname="org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests" time="11.165"/>
-  <testcase name="[4] org.springframework.web.testfixture.http.server.reactive.bootstrap.UndertowHttpServer@5ee5aa84" classname="org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests" time="0.03"/>
-  <testcase name="[1] org.springframework.web.testfixture.http.server.reactive.bootstrap.JettyHttpServer@5524916c" classname="org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests" time="0.046"/>
-  <testcase name="[2] org.springframework.web.testfixture.http.server.reactive.bootstrap.ReactorHttpServer@1a4a5512" classname="org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests" time="0.028"/>
-  <testcase name="[3] org.springframework.web.testfixture.http.server.reactive.bootstrap.TomcatHttpServer@6a58d024" classname="org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests" time="11.207"/>
-  <testcase name="[4] org.springframework.web.testfixture.http.server.reactive.bootstrap.UndertowHttpServer@1a1d7463" classname="org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests" time="0.097"/>
-  <testcase name="[1] org.springframework.web.testfixture.http.server.reactive.bootstrap.JettyHttpServer@73b37dd4" classname="org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests" time="0.049"/>
-  <testcase name="[2] org.springframework.web.testfixture.http.server.reactive.bootstrap.ReactorHttpServer@30ba390d" classname="org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests" time="0.047"/>
-  <testcase name="[3] org.springframework.web.testfixture.http.server.reactive.bootstrap.TomcatHttpServer@35a957d0" classname="org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests" time="11.181"/>
-  <testcase name="[4] org.springframework.web.testfixture.http.server.reactive.bootstrap.UndertowHttpServer@163b2073" classname="org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests" time="0.055"/>
-  <testcase name="[1] org.springframework.web.testfixture.http.server.reactive.bootstrap.JettyHttpServer@6451003e" classname="org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests" time="0.069"/>
-  <testcase name="[2] org.springframework.web.testfixture.http.server.reactive.bootstrap.ReactorHttpServer@2aa84887" classname="org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests" time="0.059"/>
-  <testcase name="[3] org.springframework.web.testfixture.http.server.reactive.bootstrap.TomcatHttpServer@784395d0" classname="org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests" time="11.228"/>
-  <testcase name="[4] org.springframework.web.testfixture.http.server.reactive.bootstrap.UndertowHttpServer@10f0fa6e" classname="org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests" time="0.048"/>
-  <testcase name="[1] org.springframework.web.testfixture.http.server.reactive.bootstrap.JettyHttpServer@2a77ed5a" classname="org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests" time="0.047"/>
-  <testcase name="[2] org.springframework.web.testfixture.http.server.reactive.bootstrap.ReactorHttpServer@58806da9" classname="org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests" time="0.037"/>
-  <testcase name="[3] org.springframework.web.testfixture.http.server.reactive.bootstrap.TomcatHttpServer@4442e46" classname="org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests" time="11.164"/>
-  <testcase name="[4] org.springframework.web.testfixture.http.server.reactive.bootstrap.UndertowHttpServer@1059457e" classname="org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests" time="0.047"/>
-  <system-out><![CDATA[16:34:10.997 [Test worker] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - 5 mappings in 'requestMappingHandlerMapping'
-16:34:11.006 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
-16:34:11.010 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
-16:34:11.010 [Test worker] WARN  o.e.j.s.h.ContextHandler - Empty contextPath
-16:34:11.010 [Test worker] INFO  o.e.j.s.h.ContextHandler - Started o.e.j.s.ServletContextHandler@5f1086e{/,null,AVAILABLE}
-16:34:11.010 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Starting JettyHttpServer...
-16:34:11.010 [Test worker] INFO  o.e.j.s.Server - jetty-9.4.39.v20210325; built: 2021-03-25T14:42:11.471Z; git: 9fc7ca5a922f2a37b84ec9dbc26a5168cee7e667; jvm 11.0.9+7-LTS
-16:34:11.012 [Test worker] INFO  o.e.j.s.AbstractConnector - Started ServerConnector@112748ca{HTTP/1.1, (http/1.1)}{0.0.0.0:61770}
-16:34:11.012 [Test worker] INFO  o.e.j.s.Server - Started @139457ms
-16:34:11.012 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Server started on port 61770(0 millis).
-16:34:11.017 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:61770/cors
-16:34:11.017 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/json, application/x-jackson-smile, application/*+json, */*]
-16:34:11.053 [qtp68348045-559] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [9e6ba1a] HTTP GET "/cors"
-16:34:11.053 [qtp68348045-559] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - [9e6ba1a] Mapped to org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController#cors()
-16:34:11.054 [qtp68348045-559] DEBUG o.s.w.r.r.m.a.ResponseBodyResultHandler - [9e6ba1a] Using 'text/plain;charset=UTF-8' given [text/plain, application/json, application/x-jackson-smile, application/*+json, */*] and supported [text/plain;charset=UTF-8, text/event-stream, text/plain;charset=UTF-8, */*]
-16:34:11.054 [qtp68348045-559] DEBUG o.s.w.r.r.m.a.ResponseBodyResultHandler - [9e6ba1a] 0..1 [java.lang.String]
-16:34:11.054 [qtp68348045-559] DEBUG o.s.c.c.CharSequenceEncoder - [9e6ba1a] Writing "cors"
-16:34:11.055 [qtp68348045-559] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [9e6ba1a] Completed 200 OK
-16:34:11.062 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
-16:34:11.062 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as "text/plain;charset=utf-8"
-16:34:11.064 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Stopping JettyHttpServer...
-16:34:11.064 [Test worker] INFO  o.e.j.s.h.ContextHandler - Stopped o.e.j.s.ServletContextHandler@5f1086e{/,null,STOPPED}
-16:34:11.066 [Test worker] INFO  o.e.j.s.AbstractConnector - Stopped ServerConnector@112748ca{HTTP/1.1, (http/1.1)}{0.0.0.0:0}
-16:34:11.066 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Server stopped (0 millis).
-16:34:11.086 [Test worker] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - 5 mappings in 'requestMappingHandlerMapping'
-16:34:11.095 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
-16:34:11.097 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
-16:34:11.097 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Starting ReactorHttpServer...
-16:34:11.098 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Server started on port 61772(0 millis).
-16:34:11.098 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:61772/cors
-16:34:11.098 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/json, application/x-jackson-smile, application/*+json, */*]
-16:34:11.100 [reactor-http-nio-13] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [becdca84-1, L:/127.0.0.1:61772 - R:/127.0.0.1:61773] HTTP GET "/cors"
-16:34:11.100 [reactor-http-nio-13] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - [becdca84-1, L:/127.0.0.1:61772 - R:/127.0.0.1:61773] Mapped to org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController#cors()
-16:34:11.103 [reactor-http-nio-13] DEBUG o.s.w.r.r.m.a.ResponseBodyResultHandler - [becdca84-1, L:/127.0.0.1:61772 - R:/127.0.0.1:61773] Using 'text/plain;charset=UTF-8' given [text/plain, application/json, application/x-jackson-smile, application/*+json, */*] and supported [text/plain;charset=UTF-8, text/event-stream, text/plain;charset=UTF-8, */*]
-16:34:11.103 [reactor-http-nio-13] DEBUG o.s.w.r.r.m.a.ResponseBodyResultHandler - [becdca84-1, L:/127.0.0.1:61772 - R:/127.0.0.1:61773] 0..1 [java.lang.String]
-16:34:11.103 [reactor-http-nio-13] DEBUG o.s.c.c.CharSequenceEncoder - [becdca84-1, L:/127.0.0.1:61772 - R:/127.0.0.1:61773] Writing "cors"
-16:34:11.104 [reactor-http-nio-13] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [becdca84-1, L:/127.0.0.1:61772 - R:/127.0.0.1:61773] Completed 200 OK
-16:34:11.104 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
-16:34:11.105 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as "text/plain;charset=UTF-8"
-16:34:11.105 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Stopping ReactorHttpServer...
-16:34:11.105 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Server stopped (0 millis).
-16:34:11.126 [Test worker] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - 5 mappings in 'requestMappingHandlerMapping'
-16:34:11.134 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
-16:34:11.136 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
-16:34:11.137 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Starting TomcatHttpServer...
-16:34:11.141 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Server started on port 61774(0 millis).
-16:34:11.141 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:61774/cors
-16:34:11.142 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/json, application/x-jackson-smile, application/*+json, */*]
-16:34:11.144 [http-nio-auto-12-exec-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [1fffa795] HTTP GET "/cors"
-16:34:11.144 [http-nio-auto-12-exec-1] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - [1fffa795] Mapped to org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController#cors()
-16:34:11.146 [http-nio-auto-12-exec-1] DEBUG o.s.w.r.r.m.a.ResponseBodyResultHandler - [1fffa795] Using 'text/plain;charset=UTF-8' given [text/plain, application/json, application/x-jackson-smile, application/*+json, */*] and supported [text/plain;charset=UTF-8, text/event-stream, text/plain;charset=UTF-8, */*]
-16:34:11.146 [http-nio-auto-12-exec-1] DEBUG o.s.w.r.r.m.a.ResponseBodyResultHandler - [1fffa795] 0..1 [java.lang.String]
-16:34:11.146 [http-nio-auto-12-exec-1] DEBUG o.s.c.c.CharSequenceEncoder - [1fffa795] Writing "cors"
-16:34:11.146 [http-nio-auto-12-exec-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [1fffa795] Completed 200 OK
-16:34:11.148 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
-16:34:11.148 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as "text/plain;charset=UTF-8"
-16:34:11.148 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Stopping TomcatHttpServer...
-16:34:22.330 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Server stopped (0 millis).
-16:34:22.350 [Test worker] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - 5 mappings in 'requestMappingHandlerMapping'
-16:34:22.359 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
-16:34:22.361 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
-16:34:22.361 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Starting UndertowHttpServer...
-16:34:22.361 [Test worker] INFO  i.undertow - starting server: Undertow - 2.2.7.Final
-16:34:22.366 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Server started on port 61807(0 millis).
-16:34:22.366 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:61807/cors
-16:34:22.366 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/json, application/x-jackson-smile, application/*+json, */*]
-16:34:22.367 [XNIO-12 I/O-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [3711ad43-12] HTTP GET "/cors"
-16:34:22.367 [XNIO-12 I/O-2] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - [3711ad43-12] Mapped to org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController#cors()
-16:34:22.371 [XNIO-12 I/O-2] DEBUG o.s.w.r.r.m.a.ResponseBodyResultHandler - [3711ad43-12] Using 'text/plain;charset=UTF-8' given [text/plain, application/json, application/x-jackson-smile, application/*+json, */*] and supported [text/plain;charset=UTF-8, text/event-stream, text/plain;charset=UTF-8, */*]
-16:34:22.371 [XNIO-12 I/O-2] DEBUG o.s.w.r.r.m.a.ResponseBodyResultHandler - [3711ad43-12] 0..1 [java.lang.String]
-16:34:22.371 [XNIO-12 I/O-2] DEBUG o.s.c.c.CharSequenceEncoder - [3711ad43-12] Writing "cors"
-16:34:22.372 [XNIO-12 I/O-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [3711ad43-12] Completed 200 OK
-16:34:22.372 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
-16:34:22.372 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as "text/plain;charset=UTF-8"
-16:34:22.372 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Stopping UndertowHttpServer...
-16:34:22.372 [Test worker] INFO  i.undertow - stopping server: Undertow - 2.2.7.Final
-16:34:22.373 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Server stopped (0 millis).
-16:34:22.393 [Test worker] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - 5 mappings in 'requestMappingHandlerMapping'
-16:34:22.401 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
-16:34:22.403 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
-16:34:22.403 [Test worker] WARN  o.e.j.s.h.ContextHandler - Empty contextPath
-16:34:22.403 [Test worker] INFO  o.e.j.s.h.ContextHandler - Started o.e.j.s.ServletContextHandler@193d8de2{/,null,AVAILABLE}
-16:34:22.404 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Starting JettyHttpServer...
-16:34:22.404 [Test worker] INFO  o.e.j.s.Server - jetty-9.4.39.v20210325; built: 2021-03-25T14:42:11.471Z; git: 9fc7ca5a922f2a37b84ec9dbc26a5168cee7e667; jvm 11.0.9+7-LTS
-16:34:22.406 [Test worker] INFO  o.e.j.s.AbstractConnector - Started ServerConnector@5d572211{HTTP/1.1, (http/1.1)}{0.0.0.0:61809}
-16:34:22.406 [Test worker] INFO  o.e.j.s.Server - Started @150851ms
-16:34:22.406 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Server started on port 61809(0 millis).
-16:34:22.407 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:61809/cors-restricted
-16:34:22.407 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/json, application/x-jackson-smile, application/*+json, */*]
-16:34:22.408 [qtp1083570114-604] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [5c06a819] HTTP GET "/cors-restricted"
-16:34:22.408 [qtp1083570114-604] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - [5c06a819] Mapped to org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController#corsRestricted()
-16:34:22.408 [qtp1083570114-604] DEBUG o.s.w.c.r.DefaultCorsProcessor - Reject: 'http://localhost:9000' origin is not allowed
-16:34:22.408 [qtp1083570114-604] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [5c06a819] Completed 403 FORBIDDEN
-16:34:22.409 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 403 FORBIDDEN
-16:34:22.411 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Stopping JettyHttpServer...
-16:34:22.411 [Test worker] INFO  o.e.j.s.h.ContextHandler - Stopped o.e.j.s.ServletContextHandler@193d8de2{/,null,STOPPED}
-16:34:22.412 [Test worker] INFO  o.e.j.s.AbstractConnector - Stopped ServerConnector@5d572211{HTTP/1.1, (http/1.1)}{0.0.0.0:0}
-16:34:22.413 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Server stopped (0 millis).
-16:34:22.431 [Test worker] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - 5 mappings in 'requestMappingHandlerMapping'
-16:34:22.440 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
-16:34:22.442 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
-16:34:22.442 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Starting ReactorHttpServer...
-16:34:22.443 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Server started on port 61811(0 millis).
-16:34:22.443 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:61811/cors-restricted
-16:34:22.444 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/json, application/x-jackson-smile, application/*+json, */*]
-16:34:22.446 [reactor-http-nio-15] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [6af4e048-1, L:/127.0.0.1:61811 - R:/127.0.0.1:61812] HTTP GET "/cors-restricted"
-16:34:22.447 [reactor-http-nio-15] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - [6af4e048-1, L:/127.0.0.1:61811 - R:/127.0.0.1:61812] Mapped to org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController#corsRestricted()
-16:34:22.447 [reactor-http-nio-15] DEBUG o.s.w.c.r.DefaultCorsProcessor - Reject: 'http://localhost:9000' origin is not allowed
-16:34:22.447 [reactor-http-nio-15] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [6af4e048-1, L:/127.0.0.1:61811 - R:/127.0.0.1:61812] Completed 403 FORBIDDEN
-16:34:22.448 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 403 FORBIDDEN
-16:34:22.448 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Stopping ReactorHttpServer...
-16:34:22.448 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Server stopped (0 millis).
-16:34:22.467 [Test worker] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - 5 mappings in 'requestMappingHandlerMapping'
-16:34:22.476 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
-16:34:22.478 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
-16:34:22.479 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Starting TomcatHttpServer...
-16:34:22.485 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Server started on port 61813(0 millis).
-16:34:22.485 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:61813/cors-restricted
-16:34:22.485 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/json, application/x-jackson-smile, application/*+json, */*]
-16:34:22.488 [http-nio-auto-13-exec-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [2fef8f6b] HTTP GET "/cors-restricted"
-16:34:22.488 [http-nio-auto-13-exec-1] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - [2fef8f6b] Mapped to org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController#corsRestricted()
-16:34:22.488 [http-nio-auto-13-exec-1] DEBUG o.s.w.c.r.DefaultCorsProcessor - Reject: 'http://localhost:9000' origin is not allowed
-16:34:22.489 [http-nio-auto-13-exec-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [2fef8f6b] Completed 403 FORBIDDEN
-16:34:22.490 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 403 FORBIDDEN
-16:34:22.490 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Stopping TomcatHttpServer...
-16:34:33.630 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Server stopped (0 millis).
-16:34:33.649 [Test worker] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - 5 mappings in 'requestMappingHandlerMapping'
-16:34:33.659 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
-16:34:33.662 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
-16:34:33.662 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Starting UndertowHttpServer...
-16:34:33.662 [Test worker] INFO  i.undertow - starting server: Undertow - 2.2.7.Final
-16:34:33.667 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Server started on port 61860(0 millis).
-16:34:33.667 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:61860/cors-restricted
-16:34:33.667 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/json, application/x-jackson-smile, application/*+json, */*]
-16:34:33.669 [XNIO-13 I/O-5] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [9f261aa-13] HTTP GET "/cors-restricted"
-16:34:33.669 [XNIO-13 I/O-5] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - [9f261aa-13] Mapped to org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController#corsRestricted()
-16:34:33.669 [XNIO-13 I/O-5] DEBUG o.s.w.c.r.DefaultCorsProcessor - Reject: 'http://localhost:9000' origin is not allowed
-16:34:33.670 [XNIO-13 I/O-5] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [9f261aa-13] Completed 403 FORBIDDEN
-16:34:33.670 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 403 FORBIDDEN
-16:34:33.670 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Stopping UndertowHttpServer...
-16:34:33.670 [Test worker] INFO  i.undertow - stopping server: Undertow - 2.2.7.Final
-16:34:33.671 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Server stopped (0 millis).
-16:34:33.691 [Test worker] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - 5 mappings in 'requestMappingHandlerMapping'
-16:34:33.700 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
-16:34:33.701 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
-16:34:33.702 [Test worker] WARN  o.e.j.s.h.ContextHandler - Empty contextPath
-16:34:33.702 [Test worker] INFO  o.e.j.s.h.ContextHandler - Started o.e.j.s.ServletContextHandler@1303231b{/,null,AVAILABLE}
-16:34:33.702 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Starting JettyHttpServer...
-16:34:33.702 [Test worker] INFO  o.e.j.s.Server - jetty-9.4.39.v20210325; built: 2021-03-25T14:42:11.471Z; git: 9fc7ca5a922f2a37b84ec9dbc26a5168cee7e667; jvm 11.0.9+7-LTS
-16:34:33.704 [Test worker] INFO  o.e.j.s.AbstractConnector - Started ServerConnector@570b7119{HTTP/1.1, (http/1.1)}{0.0.0.0:61864}
-16:34:33.704 [Test worker] INFO  o.e.j.s.Server - Started @162148ms
-16:34:33.704 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Server started on port 61864(0 millis).
-16:34:33.704 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP OPTIONS http://localhost:61864/cors
-16:34:33.704 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/json, application/x-jackson-smile, application/*+json, */*]
-16:34:33.706 [qtp259083564-649] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [137f7cde] HTTP OPTIONS "/cors"
-16:34:33.707 [qtp259083564-649] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - [137f7cde] Mapped to org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController#cors()
-16:34:33.707 [qtp259083564-649] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [137f7cde] Completed 200 OK
-16:34:33.708 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
-16:34:33.708 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Stopping JettyHttpServer...
-16:34:33.708 [Test worker] INFO  o.e.j.s.h.ContextHandler - Stopped o.e.j.s.ServletContextHandler@1303231b{/,null,STOPPED}
-16:34:33.709 [Test worker] INFO  o.e.j.s.AbstractConnector - Stopped ServerConnector@570b7119{HTTP/1.1, (http/1.1)}{0.0.0.0:0}
-16:34:33.710 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Server stopped (0 millis).
-16:34:33.730 [Test worker] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - 5 mappings in 'requestMappingHandlerMapping'
-16:34:33.742 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
-16:34:33.744 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
-16:34:33.744 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Starting ReactorHttpServer...
-16:34:33.745 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Server started on port 61866(0 millis).
-16:34:33.745 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP OPTIONS http://localhost:61866/cors
-16:34:33.745 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/json, application/x-jackson-smile, application/*+json, */*]
-16:34:33.747 [reactor-http-nio-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [1d55bce9-1, L:/127.0.0.1:61866 - R:/127.0.0.1:61867] HTTP OPTIONS "/cors"
-16:34:33.747 [reactor-http-nio-1] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - [1d55bce9-1, L:/127.0.0.1:61866 - R:/127.0.0.1:61867] Mapped to org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController#cors()
-16:34:33.747 [reactor-http-nio-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [1d55bce9-1, L:/127.0.0.1:61866 - R:/127.0.0.1:61867] Completed 200 OK
-16:34:33.748 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
-16:34:33.748 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Stopping ReactorHttpServer...
-16:34:33.749 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Server stopped (0 millis).
-16:34:33.767 [Test worker] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - 5 mappings in 'requestMappingHandlerMapping'
-16:34:33.775 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
-16:34:33.777 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
-16:34:33.777 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Starting TomcatHttpServer...
-16:34:33.781 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Server started on port 61868(0 millis).
-16:34:33.781 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP OPTIONS http://localhost:61868/cors
-16:34:33.781 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/json, application/x-jackson-smile, application/*+json, */*]
-16:34:33.783 [http-nio-auto-14-exec-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [37a7e335] HTTP OPTIONS "/cors"
-16:34:33.784 [http-nio-auto-14-exec-1] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - [37a7e335] Mapped to org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController#cors()
-16:34:33.784 [http-nio-auto-14-exec-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [37a7e335] Completed 200 OK
-16:34:33.784 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
-16:34:33.785 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Stopping TomcatHttpServer...
-16:34:44.927 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Server stopped (0 millis).
-16:34:44.944 [Test worker] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - 5 mappings in 'requestMappingHandlerMapping'
-16:34:44.951 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
-16:34:44.952 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
-16:34:44.952 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Starting UndertowHttpServer...
-16:34:44.952 [Test worker] INFO  i.undertow - starting server: Undertow - 2.2.7.Final
-16:34:44.956 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Server started on port 61910(0 millis).
-16:34:44.956 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP OPTIONS http://localhost:61910/cors
-16:34:44.957 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/json, application/x-jackson-smile, application/*+json, */*]
-16:34:44.958 [XNIO-14 I/O-14] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [44cd4126-14] HTTP OPTIONS "/cors"
-16:34:44.958 [XNIO-14 I/O-14] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - [44cd4126-14] Mapped to org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController#cors()
-16:34:44.958 [XNIO-14 I/O-14] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [44cd4126-14] Completed 200 OK
-16:34:44.959 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
-16:34:44.959 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Stopping UndertowHttpServer...
-16:34:44.959 [Test worker] INFO  i.undertow - stopping server: Undertow - 2.2.7.Final
-16:34:44.960 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Server stopped (0 millis).
-16:34:44.977 [Test worker] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - 5 mappings in 'requestMappingHandlerMapping'
-16:34:44.984 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
-16:34:44.986 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
-16:34:44.986 [Test worker] WARN  o.e.j.s.h.ContextHandler - Empty contextPath
-16:34:44.986 [Test worker] INFO  o.e.j.s.h.ContextHandler - Started o.e.j.s.ServletContextHandler@234c7fcd{/,null,AVAILABLE}
-16:34:44.986 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Starting JettyHttpServer...
-16:34:44.986 [Test worker] INFO  o.e.j.s.Server - jetty-9.4.39.v20210325; built: 2021-03-25T14:42:11.471Z; git: 9fc7ca5a922f2a37b84ec9dbc26a5168cee7e667; jvm 11.0.9+7-LTS
-16:34:44.989 [Test worker] INFO  o.e.j.s.AbstractConnector - Started ServerConnector@783f5337{HTTP/1.1, (http/1.1)}{0.0.0.0:61912}
-16:34:44.989 [Test worker] INFO  o.e.j.s.Server - Started @173433ms
-16:34:44.989 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Server started on port 61912(0 millis).
-16:34:44.989 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP OPTIONS http://localhost:61912/cors-restricted
-16:34:44.989 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/json, application/x-jackson-smile, application/*+json, */*]
-16:34:44.991 [qtp1218350662-694] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [4e5fa21c] HTTP OPTIONS "/cors-restricted"
-16:34:44.991 [qtp1218350662-694] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - [4e5fa21c] Mapped to org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController#corsRestricted()
-16:34:44.991 [qtp1218350662-694] DEBUG o.s.w.c.r.DefaultCorsProcessor - Reject: 'http://localhost:9000' origin is not allowed
-16:34:44.991 [qtp1218350662-694] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [4e5fa21c] Completed 403 FORBIDDEN
-16:34:44.992 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 403 FORBIDDEN
-16:34:44.992 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Stopping JettyHttpServer...
-16:34:44.992 [Test worker] INFO  o.e.j.s.h.ContextHandler - Stopped o.e.j.s.ServletContextHandler@234c7fcd{/,null,STOPPED}
-16:34:44.993 [Test worker] INFO  o.e.j.s.AbstractConnector - Stopped ServerConnector@783f5337{HTTP/1.1, (http/1.1)}{0.0.0.0:0}
-16:34:44.993 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Server stopped (0 millis).
-16:34:45.010 [Test worker] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - 5 mappings in 'requestMappingHandlerMapping'
-16:34:45.018 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
-16:34:45.020 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
-16:34:45.020 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Starting ReactorHttpServer...
-16:34:45.021 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Server started on port 61914(0 millis).
-16:34:45.021 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP OPTIONS http://localhost:61914/cors-restricted
-16:34:45.022 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/json, application/x-jackson-smile, application/*+json, */*]
-16:34:45.023 [reactor-http-nio-3] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [24a5c1e4-1, L:/127.0.0.1:61914 - R:/127.0.0.1:61915] HTTP OPTIONS "/cors-restricted"
-16:34:45.023 [reactor-http-nio-3] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - [24a5c1e4-1, L:/127.0.0.1:61914 - R:/127.0.0.1:61915] Mapped to org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController#corsRestricted()
-16:34:45.023 [reactor-http-nio-3] DEBUG o.s.w.c.r.DefaultCorsProcessor - Reject: 'http://localhost:9000' origin is not allowed
-16:34:45.023 [reactor-http-nio-3] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [24a5c1e4-1, L:/127.0.0.1:61914 - R:/127.0.0.1:61915] Completed 403 FORBIDDEN
-16:34:45.024 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 403 FORBIDDEN
-16:34:45.024 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Stopping ReactorHttpServer...
-16:34:45.024 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Server stopped (0 millis).
-16:34:45.041 [Test worker] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - 5 mappings in 'requestMappingHandlerMapping'
-16:34:45.049 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
-16:34:45.051 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
-16:34:45.051 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Starting TomcatHttpServer...
-16:34:45.055 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Server started on port 61916(0 millis).
-16:34:45.055 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP OPTIONS http://localhost:61916/cors-restricted
-16:34:45.055 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/json, application/x-jackson-smile, application/*+json, */*]
-16:34:45.057 [http-nio-auto-15-exec-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [238ba57] HTTP OPTIONS "/cors-restricted"
-16:34:45.058 [http-nio-auto-15-exec-1] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - [238ba57] Mapped to org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController#corsRestricted()
-16:34:45.058 [http-nio-auto-15-exec-1] DEBUG o.s.w.c.r.DefaultCorsProcessor - Reject: 'http://localhost:9000' origin is not allowed
-16:34:45.058 [http-nio-auto-15-exec-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [238ba57] Completed 403 FORBIDDEN
-16:34:45.058 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 403 FORBIDDEN
-16:34:45.059 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Stopping TomcatHttpServer...
-16:34:56.227 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Server stopped (0 millis).
-16:34:56.244 [Test worker] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - 5 mappings in 'requestMappingHandlerMapping'
-16:34:56.251 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
-16:34:56.253 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
-16:34:56.253 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Starting UndertowHttpServer...
-16:34:56.253 [Test worker] INFO  i.undertow - starting server: Undertow - 2.2.7.Final
-16:34:56.257 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Server started on port 61952(0 millis).
-16:34:56.257 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP OPTIONS http://localhost:61952/cors-restricted
-16:34:56.257 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/json, application/x-jackson-smile, application/*+json, */*]
-16:34:56.258 [XNIO-15 I/O-3] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [29077724-15] HTTP OPTIONS "/cors-restricted"
-16:34:56.259 [XNIO-15 I/O-3] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - [29077724-15] Mapped to org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController#corsRestricted()
-16:34:56.259 [XNIO-15 I/O-3] DEBUG o.s.w.c.r.DefaultCorsProcessor - Reject: 'http://localhost:9000' origin is not allowed
-16:34:56.259 [XNIO-15 I/O-3] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [29077724-15] Completed 403 FORBIDDEN
-16:34:56.259 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 403 FORBIDDEN
-16:34:56.259 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Stopping UndertowHttpServer...
-16:34:56.259 [Test worker] INFO  i.undertow - stopping server: Undertow - 2.2.7.Final
-16:34:56.261 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Server stopped (0 millis).
-16:34:56.277 [Test worker] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - 5 mappings in 'requestMappingHandlerMapping'
-16:34:56.285 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
-16:34:56.286 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
-16:34:56.287 [Test worker] WARN  o.e.j.s.h.ContextHandler - Empty contextPath
-16:34:56.287 [Test worker] INFO  o.e.j.s.h.ContextHandler - Started o.e.j.s.ServletContextHandler@6aaf194b{/,null,AVAILABLE}
-16:34:56.287 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Starting JettyHttpServer...
-16:34:56.287 [Test worker] INFO  o.e.j.s.Server - jetty-9.4.39.v20210325; built: 2021-03-25T14:42:11.471Z; git: 9fc7ca5a922f2a37b84ec9dbc26a5168cee7e667; jvm 11.0.9+7-LTS
-16:34:56.289 [Test worker] INFO  o.e.j.s.AbstractConnector - Started ServerConnector@1c13b078{HTTP/1.1, (http/1.1)}{0.0.0.0:61954}
-16:34:56.289 [Test worker] INFO  o.e.j.s.Server - Started @184733ms
-16:34:56.289 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Server started on port 61954(0 millis).
-16:34:56.289 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:61954/ambiguous
-16:34:56.289 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/json, application/x-jackson-smile, application/*+json, */*]
-16:34:56.291 [qtp1530763374-739] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [756800f] HTTP GET "/ambiguous"
-16:34:56.291 [qtp1530763374-739] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - [756800f] Mapped to org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController#ambiguous2()
-16:34:56.292 [qtp1530763374-739] DEBUG o.s.w.r.r.m.a.ResponseBodyResultHandler - [756800f] Using 'text/html' given [text/html] and supported [text/html]
-16:34:56.292 [qtp1530763374-739] DEBUG o.s.w.r.r.m.a.ResponseBodyResultHandler - [756800f] 0..1 [java.lang.String]
-16:34:56.292 [qtp1530763374-739] DEBUG o.s.c.c.CharSequenceEncoder - [756800f] Writing "<p>ambiguous</p>"
-16:34:56.293 [qtp1530763374-739] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [756800f] Completed 200 OK
-16:34:56.293 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
-16:34:56.293 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as "text/html;charset=utf-8"
-16:34:56.293 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Stopping JettyHttpServer...
-16:34:56.293 [Test worker] INFO  o.e.j.s.h.ContextHandler - Stopped o.e.j.s.ServletContextHandler@6aaf194b{/,null,STOPPED}
-16:34:56.294 [Test worker] INFO  o.e.j.s.AbstractConnector - Stopped ServerConnector@1c13b078{HTTP/1.1, (http/1.1)}{0.0.0.0:0}
-16:34:56.295 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Server stopped (0 millis).
-16:34:56.312 [Test worker] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - 5 mappings in 'requestMappingHandlerMapping'
-16:34:56.320 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
-16:34:56.322 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
-16:34:56.322 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Starting ReactorHttpServer...
-16:34:56.323 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Server started on port 61956(0 millis).
-16:34:56.323 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:61956/ambiguous
-16:34:56.324 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/json, application/x-jackson-smile, application/*+json, */*]
-16:34:56.326 [reactor-http-nio-5] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [a5c4dc5b-1, L:/127.0.0.1:61956 - R:/127.0.0.1:61957] HTTP GET "/ambiguous"
-16:34:56.326 [reactor-http-nio-5] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - [a5c4dc5b-1, L:/127.0.0.1:61956 - R:/127.0.0.1:61957] Mapped to org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController#ambiguous2()
-16:34:56.327 [reactor-http-nio-5] DEBUG o.s.w.r.r.m.a.ResponseBodyResultHandler - [a5c4dc5b-1, L:/127.0.0.1:61956 - R:/127.0.0.1:61957] Using 'text/html' given [text/html] and supported [text/html]
-16:34:56.327 [reactor-http-nio-5] DEBUG o.s.w.r.r.m.a.ResponseBodyResultHandler - [a5c4dc5b-1, L:/127.0.0.1:61956 - R:/127.0.0.1:61957] 0..1 [java.lang.String]
-16:34:56.327 [reactor-http-nio-5] DEBUG o.s.c.c.CharSequenceEncoder - [a5c4dc5b-1, L:/127.0.0.1:61956 - R:/127.0.0.1:61957] Writing "<p>ambiguous</p>"
-16:34:56.328 [reactor-http-nio-5] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [a5c4dc5b-1, L:/127.0.0.1:61956 - R:/127.0.0.1:61957] Completed 200 OK
-16:34:56.328 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
-16:34:56.328 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as "text/html;charset=UTF-8"
-16:34:56.328 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Stopping ReactorHttpServer...
-16:34:56.328 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Server stopped (0 millis).
-16:34:56.345 [Test worker] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - 5 mappings in 'requestMappingHandlerMapping'
-16:34:56.353 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
-16:34:56.354 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
-16:34:56.355 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Starting TomcatHttpServer...
-16:34:56.361 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Server started on port 61958(0 millis).
-16:34:56.362 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:61958/ambiguous
-16:34:56.362 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/json, application/x-jackson-smile, application/*+json, */*]
-16:34:56.364 [http-nio-auto-16-exec-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [5f6c39e3] HTTP GET "/ambiguous"
-16:34:56.364 [http-nio-auto-16-exec-1] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - [5f6c39e3] Mapped to org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController#ambiguous2()
-16:34:56.365 [http-nio-auto-16-exec-1] DEBUG o.s.w.r.r.m.a.ResponseBodyResultHandler - [5f6c39e3] Using 'text/html' given [text/html] and supported [text/html]
-16:34:56.365 [http-nio-auto-16-exec-1] DEBUG o.s.w.r.r.m.a.ResponseBodyResultHandler - [5f6c39e3] 0..1 [java.lang.String]
-16:34:56.365 [http-nio-auto-16-exec-1] DEBUG o.s.c.c.CharSequenceEncoder - [5f6c39e3] Writing "<p>ambiguous</p>"
-16:34:56.365 [http-nio-auto-16-exec-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [5f6c39e3] Completed 200 OK
-16:34:56.366 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
-16:34:56.366 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as "text/html;charset=UTF-8"
-16:34:56.366 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Stopping TomcatHttpServer...
-16:35:07.497 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Server stopped (0 millis).
-16:35:07.514 [Test worker] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - 5 mappings in 'requestMappingHandlerMapping'
-16:35:07.521 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
-16:35:07.523 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
-16:35:07.523 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Starting UndertowHttpServer...
-16:35:07.523 [Test worker] INFO  i.undertow - starting server: Undertow - 2.2.7.Final
-16:35:07.527 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Server started on port 62002(0 millis).
-16:35:07.527 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:62002/ambiguous
-16:35:07.527 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/json, application/x-jackson-smile, application/*+json, */*]
-16:35:07.528 [XNIO-16 I/O-4] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [40bad4ba-16] HTTP GET "/ambiguous"
-16:35:07.529 [XNIO-16 I/O-4] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - [40bad4ba-16] Mapped to org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController#ambiguous2()
-16:35:07.529 [XNIO-16 I/O-4] DEBUG o.s.w.r.r.m.a.ResponseBodyResultHandler - [40bad4ba-16] Using 'text/html' given [text/html] and supported [text/html]
-16:35:07.529 [XNIO-16 I/O-4] DEBUG o.s.w.r.r.m.a.ResponseBodyResultHandler - [40bad4ba-16] 0..1 [java.lang.String]
-16:35:07.530 [XNIO-16 I/O-4] DEBUG o.s.c.c.CharSequenceEncoder - [40bad4ba-16] Writing "<p>ambiguous</p>"
-16:35:07.530 [XNIO-16 I/O-4] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [40bad4ba-16] Completed 200 OK
-16:35:07.530 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
-16:35:07.530 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as "text/html;charset=UTF-8"
-16:35:07.530 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Stopping UndertowHttpServer...
-16:35:07.530 [Test worker] INFO  i.undertow - stopping server: Undertow - 2.2.7.Final
-16:35:07.531 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Server stopped (0 millis).
-16:35:07.562 [Test worker] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - 5 mappings in 'requestMappingHandlerMapping'
-16:35:07.571 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
-16:35:07.573 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
-16:35:07.573 [Test worker] WARN  o.e.j.s.h.ContextHandler - Empty contextPath
-16:35:07.573 [Test worker] INFO  o.e.j.s.h.ContextHandler - Started o.e.j.s.ServletContextHandler@4e0814d5{/,null,AVAILABLE}
-16:35:07.573 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Starting JettyHttpServer...
-16:35:07.574 [Test worker] INFO  o.e.j.s.Server - jetty-9.4.39.v20210325; built: 2021-03-25T14:42:11.471Z; git: 9fc7ca5a922f2a37b84ec9dbc26a5168cee7e667; jvm 11.0.9+7-LTS
-16:35:07.576 [Test worker] INFO  o.e.j.s.AbstractConnector - Started ServerConnector@2e855a81{HTTP/1.1, (http/1.1)}{0.0.0.0:62004}
-16:35:07.576 [Test worker] INFO  o.e.j.s.Server - Started @196020ms
-16:35:07.576 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Server started on port 62004(0 millis).
-16:35:07.576 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP OPTIONS http://localhost:62004/ambiguous
-16:35:07.576 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/json, application/x-jackson-smile, application/*+json, */*]
-16:35:07.578 [qtp31742198-784] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [7d585b20] HTTP OPTIONS "/ambiguous"
-16:35:07.579 [qtp31742198-784] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - [7d585b20] Mapped to org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController#ambiguous2()
-16:35:07.579 [qtp31742198-784] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [7d585b20] Completed 200 OK
-16:35:07.579 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
-16:35:07.580 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Stopping JettyHttpServer...
-16:35:07.580 [Test worker] INFO  o.e.j.s.h.ContextHandler - Stopped o.e.j.s.ServletContextHandler@4e0814d5{/,null,STOPPED}
-16:35:07.581 [Test worker] INFO  o.e.j.s.AbstractConnector - Stopped ServerConnector@2e855a81{HTTP/1.1, (http/1.1)}{0.0.0.0:0}
-16:35:07.581 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Server stopped (0 millis).
-16:35:07.598 [Test worker] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - 5 mappings in 'requestMappingHandlerMapping'
-16:35:07.607 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
-16:35:07.609 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
-16:35:07.609 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Starting ReactorHttpServer...
-16:35:07.609 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Server started on port 62006(0 millis).
-16:35:07.610 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP OPTIONS http://localhost:62006/ambiguous
-16:35:07.610 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/json, application/x-jackson-smile, application/*+json, */*]
-16:35:07.612 [reactor-http-nio-7] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [c58257c8-1, L:/127.0.0.1:62006 - R:/127.0.0.1:62007] HTTP OPTIONS "/ambiguous"
-16:35:07.612 [reactor-http-nio-7] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - [c58257c8-1, L:/127.0.0.1:62006 - R:/127.0.0.1:62007] Mapped to org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController#ambiguous2()
-16:35:07.613 [reactor-http-nio-7] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [c58257c8-1, L:/127.0.0.1:62006 - R:/127.0.0.1:62007] Completed 200 OK
-16:35:07.614 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
-16:35:07.614 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Stopping ReactorHttpServer...
-16:35:07.614 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Server stopped (0 millis).
-16:35:07.632 [Test worker] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - 5 mappings in 'requestMappingHandlerMapping'
-16:35:07.639 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
-16:35:07.641 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
-16:35:07.641 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Starting TomcatHttpServer...
-16:35:07.646 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Server started on port 62008(0 millis).
-16:35:07.646 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP OPTIONS http://localhost:62008/ambiguous
-16:35:07.647 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/json, application/x-jackson-smile, application/*+json, */*]
-16:35:07.649 [http-nio-auto-17-exec-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [78bfe1af] HTTP OPTIONS "/ambiguous"
-16:35:07.649 [http-nio-auto-17-exec-1] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - [78bfe1af] Mapped to org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController#ambiguous2()
-16:35:07.649 [http-nio-auto-17-exec-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [78bfe1af] Completed 200 OK
-16:35:07.650 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
-16:35:07.651 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Stopping TomcatHttpServer...
-16:35:18.823 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Server stopped (0 millis).
-16:35:18.894 [Test worker] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - 5 mappings in 'requestMappingHandlerMapping'
-16:35:18.915 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
-16:35:18.919 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
-16:35:18.919 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Starting UndertowHttpServer...
-16:35:18.919 [Test worker] INFO  i.undertow - starting server: Undertow - 2.2.7.Final
-16:35:18.929 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Server started on port 62071(0 millis).
-16:35:18.930 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP OPTIONS http://localhost:62071/ambiguous
-16:35:18.931 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/json, application/x-jackson-smile, application/*+json, */*]
-16:35:18.938 [XNIO-17 I/O-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [7292f490-17] HTTP OPTIONS "/ambiguous"
-16:35:18.940 [XNIO-17 I/O-1] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - [7292f490-17] Mapped to org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController#ambiguous2()
-16:35:18.941 [XNIO-17 I/O-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [7292f490-17] Completed 200 OK
-16:35:18.942 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
-16:35:18.943 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Stopping UndertowHttpServer...
-16:35:18.943 [Test worker] INFO  i.undertow - stopping server: Undertow - 2.2.7.Final
-16:35:18.945 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Server stopped (0 millis).
-16:35:18.973 [Test worker] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - 5 mappings in 'requestMappingHandlerMapping'
-16:35:18.986 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
-16:35:18.988 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
-16:35:18.989 [Test worker] WARN  o.e.j.s.h.ContextHandler - Empty contextPath
-16:35:18.991 [Test worker] INFO  o.e.j.s.h.ContextHandler - Started o.e.j.s.ServletContextHandler@30e66831{/,null,AVAILABLE}
-16:35:18.992 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Starting JettyHttpServer...
-16:35:18.992 [Test worker] INFO  o.e.j.s.Server - jetty-9.4.39.v20210325; built: 2021-03-25T14:42:11.471Z; git: 9fc7ca5a922f2a37b84ec9dbc26a5168cee7e667; jvm 11.0.9+7-LTS
-16:35:18.994 [Test worker] INFO  o.e.j.s.AbstractConnector - Started ServerConnector@674020b6{HTTP/1.1, (http/1.1)}{0.0.0.0:62073}
-16:35:18.994 [Test worker] INFO  o.e.j.s.Server - Started @207438ms
-16:35:18.994 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Server started on port 62073(0 millis).
-16:35:18.994 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP OPTIONS http://localhost:62073/cors-restricted
-16:35:18.995 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/json, application/x-jackson-smile, application/*+json, */*]
-16:35:18.999 [qtp1498244788-829] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [32f141a5] HTTP OPTIONS "/cors-restricted"
-16:35:18.999 [qtp1498244788-829] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - [32f141a5] Mapped to org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController#corsRestricted()
-16:35:19.000 [qtp1498244788-829] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [32f141a5] Completed 200 OK
-16:35:19.001 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
-16:35:19.001 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Stopping JettyHttpServer...
-16:35:19.001 [Test worker] INFO  o.e.j.s.h.ContextHandler - Stopped o.e.j.s.ServletContextHandler@30e66831{/,null,STOPPED}
-16:35:19.002 [Test worker] INFO  o.e.j.s.AbstractConnector - Stopped ServerConnector@674020b6{HTTP/1.1, (http/1.1)}{0.0.0.0:0}
-16:35:19.002 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Server stopped (0 millis).
-16:35:19.031 [Test worker] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - 5 mappings in 'requestMappingHandlerMapping'
-16:35:19.045 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
-16:35:19.047 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
-16:35:19.047 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Starting ReactorHttpServer...
-16:35:19.050 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Server started on port 62075(0 millis).
-16:35:19.050 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP OPTIONS http://localhost:62075/cors-restricted
-16:35:19.050 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/json, application/x-jackson-smile, application/*+json, */*]
-16:35:19.054 [reactor-http-nio-9] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [f1bdee4d-1, L:/127.0.0.1:62075 - R:/127.0.0.1:62076] HTTP OPTIONS "/cors-restricted"
-16:35:19.054 [reactor-http-nio-9] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - [f1bdee4d-1, L:/127.0.0.1:62075 - R:/127.0.0.1:62076] Mapped to org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController#corsRestricted()
-16:35:19.055 [reactor-http-nio-9] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [f1bdee4d-1, L:/127.0.0.1:62075 - R:/127.0.0.1:62076] Completed 200 OK
-16:35:19.056 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
-16:35:19.056 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Stopping ReactorHttpServer...
-16:35:19.056 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Server stopped (0 millis).
-16:35:19.085 [Test worker] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - 5 mappings in 'requestMappingHandlerMapping'
-16:35:19.098 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
-16:35:19.102 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
-16:35:19.103 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Starting TomcatHttpServer...
-16:35:19.114 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Server started on port 62077(0 millis).
-16:35:19.114 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP OPTIONS http://localhost:62077/cors-restricted
-16:35:19.114 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/json, application/x-jackson-smile, application/*+json, */*]
-16:35:19.119 [http-nio-auto-18-exec-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [b83d36f] HTTP OPTIONS "/cors-restricted"
-16:35:19.119 [http-nio-auto-18-exec-1] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - [b83d36f] Mapped to org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController#corsRestricted()
-16:35:19.119 [http-nio-auto-18-exec-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [b83d36f] Completed 200 OK
-16:35:19.121 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
-16:35:19.121 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Stopping TomcatHttpServer...
-16:35:30.244 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Server stopped (0 millis).
-16:35:30.279 [Test worker] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - 5 mappings in 'requestMappingHandlerMapping'
-16:35:30.297 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
-16:35:30.300 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
-16:35:30.300 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Starting UndertowHttpServer...
-16:35:30.300 [Test worker] INFO  i.undertow - starting server: Undertow - 2.2.7.Final
-16:35:30.304 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Server started on port 62135(0 millis).
-16:35:30.304 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP OPTIONS http://localhost:62135/cors-restricted
-16:35:30.305 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/json, application/x-jackson-smile, application/*+json, */*]
-16:35:30.306 [XNIO-18 I/O-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [1b56d3c9-18] HTTP OPTIONS "/cors-restricted"
-16:35:30.306 [XNIO-18 I/O-1] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - [1b56d3c9-18] Mapped to org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController#corsRestricted()
-16:35:30.306 [XNIO-18 I/O-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [1b56d3c9-18] Completed 200 OK
-16:35:30.307 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
-16:35:30.307 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Stopping UndertowHttpServer...
-16:35:30.307 [Test worker] INFO  i.undertow - stopping server: Undertow - 2.2.7.Final
-16:35:30.308 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Server stopped (0 millis).
-16:35:30.349 [Test worker] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - 5 mappings in 'requestMappingHandlerMapping'
-16:35:30.370 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
-16:35:30.373 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
-16:35:30.373 [Test worker] WARN  o.e.j.s.h.ContextHandler - Empty contextPath
-16:35:30.374 [Test worker] INFO  o.e.j.s.h.ContextHandler - Started o.e.j.s.ServletContextHandler@9d3f2b3{/,null,AVAILABLE}
-16:35:30.374 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Starting JettyHttpServer...
-16:35:30.374 [Test worker] INFO  o.e.j.s.Server - jetty-9.4.39.v20210325; built: 2021-03-25T14:42:11.471Z; git: 9fc7ca5a922f2a37b84ec9dbc26a5168cee7e667; jvm 11.0.9+7-LTS
-16:35:30.377 [Test worker] INFO  o.e.j.s.AbstractConnector - Started ServerConnector@b26fafc{HTTP/1.1, (http/1.1)}{0.0.0.0:62137}
-16:35:30.377 [Test worker] INFO  o.e.j.s.Server - Started @218820ms
-16:35:30.377 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Server started on port 62137(0 millis).
-16:35:30.377 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:62137/welcome
-16:35:30.377 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/json, application/x-jackson-smile, application/*+json, */*]
-16:35:30.381 [qtp1133996478-874] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [422d2a11] HTTP GET "/welcome"
-16:35:30.381 [qtp1133996478-874] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - [422d2a11] Mapped to org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController#welcome()
-16:35:30.383 [qtp1133996478-874] DEBUG o.s.w.r.r.m.a.ResponseBodyResultHandler - [422d2a11] Using 'text/plain;charset=UTF-8' given [text/plain, application/json, application/x-jackson-smile, application/*+json, */*] and supported [text/plain;charset=UTF-8, text/event-stream, text/plain;charset=UTF-8, */*]
-16:35:30.383 [qtp1133996478-874] DEBUG o.s.w.r.r.m.a.ResponseBodyResultHandler - [422d2a11] 0..1 [java.lang.String]
-16:35:30.384 [qtp1133996478-874] DEBUG o.s.c.c.CharSequenceEncoder - [422d2a11] Writing "welcome"
-16:35:30.385 [qtp1133996478-874] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [422d2a11] Completed 200 OK
-16:35:30.386 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
-16:35:30.386 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as "text/plain;charset=utf-8"
-16:35:30.387 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Stopping JettyHttpServer...
-16:35:30.387 [Test worker] INFO  o.e.j.s.h.ContextHandler - Stopped o.e.j.s.ServletContextHandler@9d3f2b3{/,null,STOPPED}
-16:35:30.388 [Test worker] INFO  o.e.j.s.AbstractConnector - Stopped ServerConnector@b26fafc{HTTP/1.1, (http/1.1)}{0.0.0.0:0}
-16:35:30.389 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Server stopped (0 millis).
-16:35:30.427 [Test worker] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - 5 mappings in 'requestMappingHandlerMapping'
-16:35:30.443 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
-16:35:30.447 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
-16:35:30.447 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Starting ReactorHttpServer...
-16:35:30.449 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Server started on port 62139(0 millis).
-16:35:30.449 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:62139/welcome
-16:35:30.449 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/json, application/x-jackson-smile, application/*+json, */*]
-16:35:30.453 [reactor-http-nio-11] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [b0ec66b3-1, L:/127.0.0.1:62139 - R:/127.0.0.1:62140] HTTP GET "/welcome"
-16:35:30.453 [reactor-http-nio-11] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - [b0ec66b3-1, L:/127.0.0.1:62139 - R:/127.0.0.1:62140] Mapped to org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController#welcome()
-16:35:30.454 [reactor-http-nio-11] DEBUG o.s.w.r.r.m.a.ResponseBodyResultHandler - [b0ec66b3-1, L:/127.0.0.1:62139 - R:/127.0.0.1:62140] Using 'text/plain;charset=UTF-8' given [text/plain, application/json, application/x-jackson-smile, application/*+json, */*] and supported [text/plain;charset=UTF-8, text/event-stream, text/plain;charset=UTF-8, */*]
-16:35:30.454 [reactor-http-nio-11] DEBUG o.s.w.r.r.m.a.ResponseBodyResultHandler - [b0ec66b3-1, L:/127.0.0.1:62139 - R:/127.0.0.1:62140] 0..1 [java.lang.String]
-16:35:30.454 [reactor-http-nio-11] DEBUG o.s.c.c.CharSequenceEncoder - [b0ec66b3-1, L:/127.0.0.1:62139 - R:/127.0.0.1:62140] Writing "welcome"
-16:35:30.457 [reactor-http-nio-11] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [b0ec66b3-1, L:/127.0.0.1:62139 - R:/127.0.0.1:62140] Completed 200 OK
-16:35:30.457 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
-16:35:30.457 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as "text/plain;charset=UTF-8"
-16:35:30.458 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Stopping ReactorHttpServer...
-16:35:30.458 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Server stopped (0 millis).
-16:35:30.507 [Test worker] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - 5 mappings in 'requestMappingHandlerMapping'
-16:35:30.532 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
-16:35:30.537 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
-16:35:30.538 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Starting TomcatHttpServer...
-16:35:30.547 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Server started on port 62141(0 millis).
-16:35:30.548 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:62141/welcome
-16:35:30.548 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/json, application/x-jackson-smile, application/*+json, */*]
-16:35:30.552 [http-nio-auto-19-exec-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [6946bf6e] HTTP GET "/welcome"
-16:35:30.553 [http-nio-auto-19-exec-1] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - [6946bf6e] Mapped to org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController#welcome()
-16:35:30.554 [http-nio-auto-19-exec-1] DEBUG o.s.w.r.r.m.a.ResponseBodyResultHandler - [6946bf6e] Using 'text/plain;charset=UTF-8' given [text/plain, application/json, application/x-jackson-smile, application/*+json, */*] and supported [text/plain;charset=UTF-8, text/event-stream, text/plain;charset=UTF-8, */*]
-16:35:30.554 [http-nio-auto-19-exec-1] DEBUG o.s.w.r.r.m.a.ResponseBodyResultHandler - [6946bf6e] 0..1 [java.lang.String]
-16:35:30.554 [http-nio-auto-19-exec-1] DEBUG o.s.c.c.CharSequenceEncoder - [6946bf6e] Writing "welcome"
-16:35:30.555 [http-nio-auto-19-exec-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [6946bf6e] Completed 200 OK
-16:35:30.555 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
-16:35:30.555 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as "text/plain;charset=UTF-8"
-16:35:30.556 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Stopping TomcatHttpServer...
-16:35:41.699 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Server stopped (0 millis).
-16:35:41.732 [Test worker] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - 5 mappings in 'requestMappingHandlerMapping'
-16:35:41.744 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
-16:35:41.746 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
-16:35:41.746 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Starting UndertowHttpServer...
-16:35:41.746 [Test worker] INFO  i.undertow - starting server: Undertow - 2.2.7.Final
-16:35:41.749 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Server started on port 62219(0 millis).
-16:35:41.749 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:62219/welcome
-16:35:41.750 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/json, application/x-jackson-smile, application/*+json, */*]
-16:35:41.751 [XNIO-19 I/O-16] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [496a7bd5-19] HTTP GET "/welcome"
-16:35:41.752 [XNIO-19 I/O-16] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - [496a7bd5-19] Mapped to org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController#welcome()
-16:35:41.753 [XNIO-19 I/O-16] DEBUG o.s.w.r.r.m.a.ResponseBodyResultHandler - [496a7bd5-19] Using 'text/plain;charset=UTF-8' given [text/plain, application/json, application/x-jackson-smile, application/*+json, */*] and supported [text/plain;charset=UTF-8, text/event-stream, text/plain;charset=UTF-8, */*]
-16:35:41.753 [XNIO-19 I/O-16] DEBUG o.s.w.r.r.m.a.ResponseBodyResultHandler - [496a7bd5-19] 0..1 [java.lang.String]
-16:35:41.753 [XNIO-19 I/O-16] DEBUG o.s.c.c.CharSequenceEncoder - [496a7bd5-19] Writing "welcome"
-16:35:41.753 [XNIO-19 I/O-16] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [496a7bd5-19] Completed 200 OK
-16:35:41.754 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
-16:35:41.754 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as "text/plain;charset=UTF-8"
-16:35:41.754 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Stopping UndertowHttpServer...
-16:35:41.754 [Test worker] INFO  i.undertow - stopping server: Undertow - 2.2.7.Final
-16:35:41.755 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Server stopped (0 millis).
-16:35:41.787 [Test worker] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - 5 mappings in 'requestMappingHandlerMapping'
-16:35:41.800 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
-16:35:41.803 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
-16:35:41.803 [Test worker] WARN  o.e.j.s.h.ContextHandler - Empty contextPath
-16:35:41.804 [Test worker] INFO  o.e.j.s.h.ContextHandler - Started o.e.j.s.ServletContextHandler@5447beb5{/,null,AVAILABLE}
-16:35:41.804 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Starting JettyHttpServer...
-16:35:41.804 [Test worker] INFO  o.e.j.s.Server - jetty-9.4.39.v20210325; built: 2021-03-25T14:42:11.471Z; git: 9fc7ca5a922f2a37b84ec9dbc26a5168cee7e667; jvm 11.0.9+7-LTS
-16:35:41.805 [Test worker] INFO  o.e.j.s.AbstractConnector - Started ServerConnector@1be5fc6d{HTTP/1.1, (http/1.1)}{0.0.0.0:62221}
-16:35:41.805 [Test worker] INFO  o.e.j.s.Server - Started @230249ms
-16:35:41.805 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Server started on port 62221(0 millis).
-16:35:41.806 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP OPTIONS http://localhost:62221/welcome
-16:35:41.806 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/json, application/x-jackson-smile, application/*+json, */*]
-16:35:41.808 [qtp508698693-919] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [7c04785f] HTTP OPTIONS "/welcome"
-16:35:41.808 [qtp508698693-919] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - [7c04785f] Mapped to org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController#welcome()
-16:35:41.809 [qtp508698693-919] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [7c04785f] Completed 403 FORBIDDEN
-16:35:41.809 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 403 FORBIDDEN
-16:35:41.810 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Stopping JettyHttpServer...
-16:35:41.810 [Test worker] INFO  o.e.j.s.h.ContextHandler - Stopped o.e.j.s.ServletContextHandler@5447beb5{/,null,STOPPED}
-16:35:41.811 [Test worker] INFO  o.e.j.s.AbstractConnector - Stopped ServerConnector@1be5fc6d{HTTP/1.1, (http/1.1)}{0.0.0.0:0}
-16:35:41.811 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Server stopped (0 millis).
-16:35:41.837 [Test worker] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - 5 mappings in 'requestMappingHandlerMapping'
-16:35:41.849 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
-16:35:41.851 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
-16:35:41.851 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Starting ReactorHttpServer...
-16:35:41.852 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Server started on port 62223(0 millis).
-16:35:41.852 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP OPTIONS http://localhost:62223/welcome
-16:35:41.852 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/json, application/x-jackson-smile, application/*+json, */*]
-16:35:41.854 [reactor-http-nio-13] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [b47563f4-1, L:/127.0.0.1:62223 - R:/127.0.0.1:62224] HTTP OPTIONS "/welcome"
-16:35:41.855 [reactor-http-nio-13] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - [b47563f4-1, L:/127.0.0.1:62223 - R:/127.0.0.1:62224] Mapped to org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController#welcome()
-16:35:41.855 [reactor-http-nio-13] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [b47563f4-1, L:/127.0.0.1:62223 - R:/127.0.0.1:62224] Completed 403 FORBIDDEN
-16:35:41.855 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 403 FORBIDDEN
-16:35:41.856 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Stopping ReactorHttpServer...
-16:35:41.856 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Server stopped (0 millis).
-16:35:41.882 [Test worker] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - 5 mappings in 'requestMappingHandlerMapping'
-16:35:41.895 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
-16:35:41.897 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
-16:35:41.898 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Starting TomcatHttpServer...
-16:35:41.903 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Server started on port 62225(0 millis).
-16:35:41.903 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP OPTIONS http://localhost:62225/welcome
-16:35:41.903 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/json, application/x-jackson-smile, application/*+json, */*]
-16:35:41.908 [http-nio-auto-20-exec-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [17cfe19e] HTTP OPTIONS "/welcome"
-16:35:41.908 [http-nio-auto-20-exec-1] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - [17cfe19e] Mapped to org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController#welcome()
-16:35:41.909 [http-nio-auto-20-exec-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [17cfe19e] Completed 403 FORBIDDEN
-16:35:41.910 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 403 FORBIDDEN
-16:35:41.910 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Stopping TomcatHttpServer...
-16:35:53.027 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Server stopped (0 millis).
-16:35:53.059 [Test worker] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - 5 mappings in 'requestMappingHandlerMapping'
-16:35:53.074 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
-16:35:53.076 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
-16:35:53.076 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Starting UndertowHttpServer...
-16:35:53.076 [Test worker] INFO  i.undertow - starting server: Undertow - 2.2.7.Final
-16:35:53.080 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Server started on port 62280(0 millis).
-16:35:53.080 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP OPTIONS http://localhost:62280/welcome
-16:35:53.080 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/json, application/x-jackson-smile, application/*+json, */*]
-16:35:53.082 [XNIO-20 I/O-14] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [3d9f2457-20] HTTP OPTIONS "/welcome"
-16:35:53.082 [XNIO-20 I/O-14] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - [3d9f2457-20] Mapped to org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController#welcome()
-16:35:53.083 [XNIO-20 I/O-14] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [3d9f2457-20] Completed 403 FORBIDDEN
-16:35:53.083 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 403 FORBIDDEN
-16:35:53.083 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Stopping UndertowHttpServer...
-16:35:53.083 [Test worker] INFO  i.undertow - stopping server: Undertow - 2.2.7.Final
-16:35:53.084 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Server stopped (0 millis).
+  <testcase name="[1] org.springframework.web.testfixture.http.server.reactive.bootstrap.JettyHttpServer@5225fec1" classname="org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests" time="0.316"/>
+  <testcase name="[2] org.springframework.web.testfixture.http.server.reactive.bootstrap.ReactorHttpServer@10ade02f" classname="org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests" time="0.034"/>
+  <testcase name="[3] org.springframework.web.testfixture.http.server.reactive.bootstrap.TomcatHttpServer@3f5a3b36" classname="org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests" time="11.169"/>
+  <testcase name="[4] org.springframework.web.testfixture.http.server.reactive.bootstrap.UndertowHttpServer@2e594bf9" classname="org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests" time="0.035"/>
+  <testcase name="[1] org.springframework.web.testfixture.http.server.reactive.bootstrap.JettyHttpServer@3d8e94c9" classname="org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests" time="0.034"/>
+  <testcase name="[2] org.springframework.web.testfixture.http.server.reactive.bootstrap.ReactorHttpServer@2b6ec4a8" classname="org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests" time="0.029"/>
+  <testcase name="[3] org.springframework.web.testfixture.http.server.reactive.bootstrap.TomcatHttpServer@7639184a" classname="org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests" time="11.153"/>
+  <testcase name="[4] org.springframework.web.testfixture.http.server.reactive.bootstrap.UndertowHttpServer@515d8a2f" classname="org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests" time="0.04"/>
+  <testcase name="[1] org.springframework.web.testfixture.http.server.reactive.bootstrap.JettyHttpServer@8817ee" classname="org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests" time="0.031"/>
+  <testcase name="[2] org.springframework.web.testfixture.http.server.reactive.bootstrap.ReactorHttpServer@f1ab4d3" classname="org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests" time="0.031"/>
+  <testcase name="[3] org.springframework.web.testfixture.http.server.reactive.bootstrap.TomcatHttpServer@290fce7e" classname="org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests" time="11.224"/>
+  <testcase name="[4] org.springframework.web.testfixture.http.server.reactive.bootstrap.UndertowHttpServer@66acb829" classname="org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests" time="0.034"/>
+  <testcase name="[1] org.springframework.web.testfixture.http.server.reactive.bootstrap.JettyHttpServer@26a3ceee" classname="org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests" time="0.031"/>
+  <testcase name="[2] org.springframework.web.testfixture.http.server.reactive.bootstrap.ReactorHttpServer@6cd57326" classname="org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests" time="0.028"/>
+  <testcase name="[3] org.springframework.web.testfixture.http.server.reactive.bootstrap.TomcatHttpServer@7b95c7e2" classname="org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests" time="11.239"/>
+  <testcase name="[4] org.springframework.web.testfixture.http.server.reactive.bootstrap.UndertowHttpServer@10817113" classname="org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests" time="0.037"/>
+  <testcase name="[1] org.springframework.web.testfixture.http.server.reactive.bootstrap.JettyHttpServer@609418f" classname="org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests" time="0.032"/>
+  <testcase name="[2] org.springframework.web.testfixture.http.server.reactive.bootstrap.ReactorHttpServer@1db50540" classname="org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests" time="0.03"/>
+  <testcase name="[3] org.springframework.web.testfixture.http.server.reactive.bootstrap.TomcatHttpServer@76fafa7e" classname="org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests" time="11.189"/>
+  <testcase name="[4] org.springframework.web.testfixture.http.server.reactive.bootstrap.UndertowHttpServer@54841678" classname="org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests" time="0.034"/>
+  <testcase name="[1] org.springframework.web.testfixture.http.server.reactive.bootstrap.JettyHttpServer@21b7c49f" classname="org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests" time="0.038"/>
+  <testcase name="[2] org.springframework.web.testfixture.http.server.reactive.bootstrap.ReactorHttpServer@24a88132" classname="org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests" time="0.028"/>
+  <testcase name="[3] org.springframework.web.testfixture.http.server.reactive.bootstrap.TomcatHttpServer@384e6597" classname="org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests" time="11.142"/>
+  <testcase name="[4] org.springframework.web.testfixture.http.server.reactive.bootstrap.UndertowHttpServer@4e13af42" classname="org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests" time="0.034"/>
+  <testcase name="[1] org.springframework.web.testfixture.http.server.reactive.bootstrap.JettyHttpServer@16c3904b" classname="org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests" time="0.03"/>
+  <testcase name="[2] org.springframework.web.testfixture.http.server.reactive.bootstrap.ReactorHttpServer@3571b47a" classname="org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests" time="0.028"/>
+  <testcase name="[3] org.springframework.web.testfixture.http.server.reactive.bootstrap.TomcatHttpServer@3f9e785c" classname="org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests" time="11.17"/>
+  <testcase name="[4] org.springframework.web.testfixture.http.server.reactive.bootstrap.UndertowHttpServer@6f1895ee" classname="org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests" time="0.035"/>
+  <testcase name="[1] org.springframework.web.testfixture.http.server.reactive.bootstrap.JettyHttpServer@79e3717d" classname="org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests" time="0.03"/>
+  <testcase name="[2] org.springframework.web.testfixture.http.server.reactive.bootstrap.ReactorHttpServer@58e2a4e" classname="org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests" time="0.03"/>
+  <testcase name="[3] org.springframework.web.testfixture.http.server.reactive.bootstrap.TomcatHttpServer@72117d9" classname="org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests" time="11.137"/>
+  <testcase name="[4] org.springframework.web.testfixture.http.server.reactive.bootstrap.UndertowHttpServer@20303f" classname="org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests" time="0.034"/>
+  <testcase name="[1] org.springframework.web.testfixture.http.server.reactive.bootstrap.JettyHttpServer@5cc6b33e" classname="org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests" time="0.03"/>
+  <testcase name="[2] org.springframework.web.testfixture.http.server.reactive.bootstrap.ReactorHttpServer@3b3dbc70" classname="org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests" time="0.036"/>
+  <testcase name="[3] org.springframework.web.testfixture.http.server.reactive.bootstrap.TomcatHttpServer@410c382b" classname="org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests" time="11.173"/>
+  <testcase name="[4] org.springframework.web.testfixture.http.server.reactive.bootstrap.UndertowHttpServer@2b900a2a" classname="org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests" time="0.033"/>
+  <system-out><![CDATA[17:49:32.515 [Test worker] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - 5 mappings in 'requestMappingHandlerMapping'
+17:49:32.526 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
+17:49:32.529 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+17:49:32.530 [Test worker] WARN  o.e.j.s.h.ContextHandler - Empty contextPath
+17:49:32.530 [Test worker] INFO  o.e.j.s.h.ContextHandler - Started o.e.j.s.ServletContextHandler@d1b0cd9{/,null,AVAILABLE}
+17:49:32.530 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Starting JettyHttpServer...
+17:49:32.530 [Test worker] INFO  o.e.j.s.Server - jetty-9.4.39.v20210325; built: 2021-03-25T14:42:11.471Z; git: 9fc7ca5a922f2a37b84ec9dbc26a5168cee7e667; jvm 1.8.0_181-b13
+17:49:32.532 [Test worker] INFO  o.e.j.s.AbstractConnector - Started ServerConnector@2e3b912e{HTTP/1.1, (http/1.1)}{0.0.0.0:53110}
+17:49:32.532 [Test worker] INFO  o.e.j.s.Server - Started @139587ms
+17:49:32.532 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Server started on port 53110(0 millis).
+17:49:32.537 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:53110/cors
+17:49:32.537 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/json, application/x-jackson-smile, application/*+json, */*]
+17:49:32.592 [qtp1715536226-558] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [6a5c7925] HTTP GET "/cors"
+17:49:32.592 [qtp1715536226-558] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - [6a5c7925] Mapped to org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController#cors()
+17:49:32.594 [qtp1715536226-558] DEBUG o.s.w.r.r.m.a.ResponseBodyResultHandler - [6a5c7925] Using 'text/plain;charset=UTF-8' given [text/plain, application/json, application/x-jackson-smile, application/*+json, */*] and supported [text/plain;charset=UTF-8, text/event-stream, text/plain;charset=UTF-8, */*]
+17:49:32.594 [qtp1715536226-558] DEBUG o.s.w.r.r.m.a.ResponseBodyResultHandler - [6a5c7925] 0..1 [java.lang.String]
+17:49:32.594 [qtp1715536226-558] DEBUG o.s.c.c.CharSequenceEncoder - [6a5c7925] Writing "cors"
+17:49:32.595 [qtp1715536226-558] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [6a5c7925] Completed 200 OK
+17:49:32.603 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+17:49:32.603 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as "text/plain;charset=utf-8"
+17:49:32.604 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Stopping JettyHttpServer...
+17:49:32.605 [Test worker] INFO  o.e.j.s.h.ContextHandler - Stopped o.e.j.s.ServletContextHandler@d1b0cd9{/,null,STOPPED}
+17:49:32.605 [Test worker] INFO  o.e.j.s.AbstractConnector - Stopped ServerConnector@2e3b912e{HTTP/1.1, (http/1.1)}{0.0.0.0:0}
+17:49:32.606 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Server stopped (0 millis).
+17:49:32.628 [Test worker] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - 5 mappings in 'requestMappingHandlerMapping'
+17:49:32.638 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
+17:49:32.640 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+17:49:32.640 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Starting ReactorHttpServer...
+17:49:32.641 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Server started on port 53116(0 millis).
+17:49:32.641 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:53116/cors
+17:49:32.641 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/json, application/x-jackson-smile, application/*+json, */*]
+17:49:32.642 [reactor-http-nio-13] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [75f06618-1, L:/127.0.0.1:53116 - R:/127.0.0.1:53117] HTTP GET "/cors"
+17:49:32.642 [reactor-http-nio-13] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - [75f06618-1, L:/127.0.0.1:53116 - R:/127.0.0.1:53117] Mapped to org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController#cors()
+17:49:32.645 [reactor-http-nio-13] DEBUG o.s.w.r.r.m.a.ResponseBodyResultHandler - [75f06618-1, L:/127.0.0.1:53116 - R:/127.0.0.1:53117] Using 'text/plain;charset=UTF-8' given [text/plain, application/json, application/x-jackson-smile, application/*+json, */*] and supported [text/plain;charset=UTF-8, text/event-stream, text/plain;charset=UTF-8, */*]
+17:49:32.645 [reactor-http-nio-13] DEBUG o.s.w.r.r.m.a.ResponseBodyResultHandler - [75f06618-1, L:/127.0.0.1:53116 - R:/127.0.0.1:53117] 0..1 [java.lang.String]
+17:49:32.645 [reactor-http-nio-13] DEBUG o.s.c.c.CharSequenceEncoder - [75f06618-1, L:/127.0.0.1:53116 - R:/127.0.0.1:53117] Writing "cors"
+17:49:32.646 [reactor-http-nio-13] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [75f06618-1, L:/127.0.0.1:53116 - R:/127.0.0.1:53117] Completed 200 OK
+17:49:32.646 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+17:49:32.646 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as "text/plain;charset=UTF-8"
+17:49:32.647 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Stopping ReactorHttpServer...
+17:49:32.647 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Server stopped (0 millis).
+17:49:32.668 [Test worker] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - 5 mappings in 'requestMappingHandlerMapping'
+17:49:32.679 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
+17:49:32.680 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+17:49:32.681 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Starting TomcatHttpServer...
+17:49:32.686 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Server started on port 53118(0 millis).
+17:49:32.686 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:53118/cors
+17:49:32.686 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/json, application/x-jackson-smile, application/*+json, */*]
+17:49:32.688 [http-nio-auto-12-exec-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [2ef7e699] HTTP GET "/cors"
+17:49:32.688 [http-nio-auto-12-exec-1] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - [2ef7e699] Mapped to org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController#cors()
+17:49:32.690 [http-nio-auto-12-exec-1] DEBUG o.s.w.r.r.m.a.ResponseBodyResultHandler - [2ef7e699] Using 'text/plain;charset=UTF-8' given [text/plain, application/json, application/x-jackson-smile, application/*+json, */*] and supported [text/plain;charset=UTF-8, text/event-stream, text/plain;charset=UTF-8, */*]
+17:49:32.690 [http-nio-auto-12-exec-1] DEBUG o.s.w.r.r.m.a.ResponseBodyResultHandler - [2ef7e699] 0..1 [java.lang.String]
+17:49:32.690 [http-nio-auto-12-exec-1] DEBUG o.s.c.c.CharSequenceEncoder - [2ef7e699] Writing "cors"
+17:49:32.691 [http-nio-auto-12-exec-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [2ef7e699] Completed 200 OK
+17:49:32.692 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+17:49:32.692 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as "text/plain;charset=UTF-8"
+17:49:32.692 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Stopping TomcatHttpServer...
+17:49:43.821 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Server stopped (0 millis).
+17:49:43.842 [Test worker] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - 5 mappings in 'requestMappingHandlerMapping'
+17:49:43.852 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
+17:49:43.854 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+17:49:43.854 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Starting UndertowHttpServer...
+17:49:43.854 [Test worker] INFO  i.undertow - starting server: Undertow - 2.2.7.Final
+17:49:43.857 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Server started on port 53193(0 millis).
+17:49:43.857 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:53193/cors
+17:49:43.857 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/json, application/x-jackson-smile, application/*+json, */*]
+17:49:43.858 [XNIO-12 I/O-9] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [6bdd8d9-12] HTTP GET "/cors"
+17:49:43.858 [XNIO-12 I/O-9] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - [6bdd8d9-12] Mapped to org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController#cors()
+17:49:43.860 [XNIO-12 I/O-9] DEBUG o.s.w.r.r.m.a.ResponseBodyResultHandler - [6bdd8d9-12] Using 'text/plain;charset=UTF-8' given [text/plain, application/json, application/x-jackson-smile, application/*+json, */*] and supported [text/plain;charset=UTF-8, text/event-stream, text/plain;charset=UTF-8, */*]
+17:49:43.860 [XNIO-12 I/O-9] DEBUG o.s.w.r.r.m.a.ResponseBodyResultHandler - [6bdd8d9-12] 0..1 [java.lang.String]
+17:49:43.860 [XNIO-12 I/O-9] DEBUG o.s.c.c.CharSequenceEncoder - [6bdd8d9-12] Writing "cors"
+17:49:43.861 [XNIO-12 I/O-9] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [6bdd8d9-12] Completed 200 OK
+17:49:43.861 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+17:49:43.861 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as "text/plain;charset=UTF-8"
+17:49:43.861 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Stopping UndertowHttpServer...
+17:49:43.861 [Test worker] INFO  i.undertow - stopping server: Undertow - 2.2.7.Final
+17:49:43.862 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Server stopped (0 millis).
+17:49:43.883 [Test worker] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - 5 mappings in 'requestMappingHandlerMapping'
+17:49:43.893 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
+17:49:43.894 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+17:49:43.894 [Test worker] WARN  o.e.j.s.h.ContextHandler - Empty contextPath
+17:49:43.894 [Test worker] INFO  o.e.j.s.h.ContextHandler - Started o.e.j.s.ServletContextHandler@573267a8{/,null,AVAILABLE}
+17:49:43.895 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Starting JettyHttpServer...
+17:49:43.895 [Test worker] INFO  o.e.j.s.Server - jetty-9.4.39.v20210325; built: 2021-03-25T14:42:11.471Z; git: 9fc7ca5a922f2a37b84ec9dbc26a5168cee7e667; jvm 1.8.0_181-b13
+17:49:43.896 [Test worker] INFO  o.e.j.s.AbstractConnector - Started ServerConnector@126b75f2{HTTP/1.1, (http/1.1)}{0.0.0.0:53195}
+17:49:43.896 [Test worker] INFO  o.e.j.s.Server - Started @150951ms
+17:49:43.896 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Server started on port 53195(0 millis).
+17:49:43.896 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:53195/cors-restricted
+17:49:43.896 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/json, application/x-jackson-smile, application/*+json, */*]
+17:49:43.898 [qtp935711944-603] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [173ad290] HTTP GET "/cors-restricted"
+17:49:43.898 [qtp935711944-603] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - [173ad290] Mapped to org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController#corsRestricted()
+17:49:43.898 [qtp935711944-603] DEBUG o.s.w.c.r.DefaultCorsProcessor - Reject: 'http://localhost:9000' origin is not allowed
+17:49:43.898 [qtp935711944-603] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [173ad290] Completed 403 FORBIDDEN
+17:49:43.899 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 403 FORBIDDEN
+17:49:43.902 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Stopping JettyHttpServer...
+17:49:43.902 [Test worker] INFO  o.e.j.s.h.ContextHandler - Stopped o.e.j.s.ServletContextHandler@573267a8{/,null,STOPPED}
+17:49:43.902 [Test worker] INFO  o.e.j.s.AbstractConnector - Stopped ServerConnector@126b75f2{HTTP/1.1, (http/1.1)}{0.0.0.0:0}
+17:49:43.903 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Server stopped (0 millis).
+17:49:43.923 [Test worker] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - 5 mappings in 'requestMappingHandlerMapping'
+17:49:43.933 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
+17:49:43.934 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+17:49:43.935 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Starting ReactorHttpServer...
+17:49:43.935 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Server started on port 53197(0 millis).
+17:49:43.935 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:53197/cors-restricted
+17:49:43.935 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/json, application/x-jackson-smile, application/*+json, */*]
+17:49:43.937 [reactor-http-nio-15] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [b0057e89-1, L:/127.0.0.1:53197 - R:/127.0.0.1:53198] HTTP GET "/cors-restricted"
+17:49:43.937 [reactor-http-nio-15] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - [b0057e89-1, L:/127.0.0.1:53197 - R:/127.0.0.1:53198] Mapped to org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController#corsRestricted()
+17:49:43.937 [reactor-http-nio-15] DEBUG o.s.w.c.r.DefaultCorsProcessor - Reject: 'http://localhost:9000' origin is not allowed
+17:49:43.937 [reactor-http-nio-15] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [b0057e89-1, L:/127.0.0.1:53197 - R:/127.0.0.1:53198] Completed 403 FORBIDDEN
+17:49:43.938 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 403 FORBIDDEN
+17:49:43.938 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Stopping ReactorHttpServer...
+17:49:43.938 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Server stopped (0 millis).
+17:49:43.958 [Test worker] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - 5 mappings in 'requestMappingHandlerMapping'
+17:49:43.967 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
+17:49:43.969 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+17:49:43.969 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Starting TomcatHttpServer...
+17:49:43.974 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Server started on port 53199(0 millis).
+17:49:43.974 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:53199/cors-restricted
+17:49:43.974 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/json, application/x-jackson-smile, application/*+json, */*]
+17:49:43.976 [http-nio-auto-13-exec-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [6d161bfe] HTTP GET "/cors-restricted"
+17:49:43.976 [http-nio-auto-13-exec-1] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - [6d161bfe] Mapped to org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController#corsRestricted()
+17:49:43.976 [http-nio-auto-13-exec-1] DEBUG o.s.w.c.r.DefaultCorsProcessor - Reject: 'http://localhost:9000' origin is not allowed
+17:49:43.976 [http-nio-auto-13-exec-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [6d161bfe] Completed 403 FORBIDDEN
+17:49:43.977 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 403 FORBIDDEN
+17:49:43.977 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Stopping TomcatHttpServer...
+17:49:55.096 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Server stopped (0 millis).
+17:49:55.116 [Test worker] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - 5 mappings in 'requestMappingHandlerMapping'
+17:49:55.133 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
+17:49:55.135 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+17:49:55.135 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Starting UndertowHttpServer...
+17:49:55.135 [Test worker] INFO  i.undertow - starting server: Undertow - 2.2.7.Final
+17:49:55.138 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Server started on port 53272(0 millis).
+17:49:55.138 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:53272/cors-restricted
+17:49:55.138 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/json, application/x-jackson-smile, application/*+json, */*]
+17:49:55.139 [XNIO-13 I/O-16] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [5d52c56a-13] HTTP GET "/cors-restricted"
+17:49:55.139 [XNIO-13 I/O-16] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - [5d52c56a-13] Mapped to org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController#corsRestricted()
+17:49:55.140 [XNIO-13 I/O-16] DEBUG o.s.w.c.r.DefaultCorsProcessor - Reject: 'http://localhost:9000' origin is not allowed
+17:49:55.140 [XNIO-13 I/O-16] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [5d52c56a-13] Completed 403 FORBIDDEN
+17:49:55.140 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 403 FORBIDDEN
+17:49:55.140 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Stopping UndertowHttpServer...
+17:49:55.140 [Test worker] INFO  i.undertow - stopping server: Undertow - 2.2.7.Final
+17:49:55.141 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Server stopped (0 millis).
+17:49:55.160 [Test worker] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - 5 mappings in 'requestMappingHandlerMapping'
+17:49:55.169 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
+17:49:55.171 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+17:49:55.171 [Test worker] WARN  o.e.j.s.h.ContextHandler - Empty contextPath
+17:49:55.171 [Test worker] INFO  o.e.j.s.h.ContextHandler - Started o.e.j.s.ServletContextHandler@7fc1ddbc{/,null,AVAILABLE}
+17:49:55.171 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Starting JettyHttpServer...
+17:49:55.171 [Test worker] INFO  o.e.j.s.Server - jetty-9.4.39.v20210325; built: 2021-03-25T14:42:11.471Z; git: 9fc7ca5a922f2a37b84ec9dbc26a5168cee7e667; jvm 1.8.0_181-b13
+17:49:55.173 [Test worker] INFO  o.e.j.s.AbstractConnector - Started ServerConnector@6c73b33a{HTTP/1.1, (http/1.1)}{0.0.0.0:53284}
+17:49:55.173 [Test worker] INFO  o.e.j.s.Server - Started @162228ms
+17:49:55.173 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Server started on port 53284(0 millis).
+17:49:55.173 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP OPTIONS http://localhost:53284/cors
+17:49:55.173 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/json, application/x-jackson-smile, application/*+json, */*]
+17:49:55.175 [qtp241361978-648] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [5bdb3a8e] HTTP OPTIONS "/cors"
+17:49:55.175 [qtp241361978-648] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - [5bdb3a8e] Mapped to org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController#cors()
+17:49:55.175 [qtp241361978-648] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [5bdb3a8e] Completed 200 OK
+17:49:55.176 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+17:49:55.176 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Stopping JettyHttpServer...
+17:49:55.176 [Test worker] INFO  o.e.j.s.h.ContextHandler - Stopped o.e.j.s.ServletContextHandler@7fc1ddbc{/,null,STOPPED}
+17:49:55.177 [Test worker] INFO  o.e.j.s.AbstractConnector - Stopped ServerConnector@6c73b33a{HTTP/1.1, (http/1.1)}{0.0.0.0:0}
+17:49:55.177 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Server stopped (0 millis).
+17:49:55.196 [Test worker] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - 5 mappings in 'requestMappingHandlerMapping'
+17:49:55.206 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
+17:49:55.208 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+17:49:55.208 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Starting ReactorHttpServer...
+17:49:55.208 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Server started on port 53286(0 millis).
+17:49:55.208 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP OPTIONS http://localhost:53286/cors
+17:49:55.209 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/json, application/x-jackson-smile, application/*+json, */*]
+17:49:55.211 [reactor-http-nio-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [825117f0-1, L:/127.0.0.1:53286 - R:/127.0.0.1:53287] HTTP OPTIONS "/cors"
+17:49:55.211 [reactor-http-nio-1] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - [825117f0-1, L:/127.0.0.1:53286 - R:/127.0.0.1:53287] Mapped to org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController#cors()
+17:49:55.212 [reactor-http-nio-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [825117f0-1, L:/127.0.0.1:53286 - R:/127.0.0.1:53287] Completed 200 OK
+17:49:55.212 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+17:49:55.213 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Stopping ReactorHttpServer...
+17:49:55.213 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Server stopped (0 millis).
+17:49:55.231 [Test worker] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - 5 mappings in 'requestMappingHandlerMapping'
+17:49:55.240 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
+17:49:55.242 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+17:49:55.242 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Starting TomcatHttpServer...
+17:49:55.248 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Server started on port 53288(0 millis).
+17:49:55.248 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP OPTIONS http://localhost:53288/cors
+17:49:55.248 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/json, application/x-jackson-smile, application/*+json, */*]
+17:49:55.250 [http-nio-auto-14-exec-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [6bbd4582] HTTP OPTIONS "/cors"
+17:49:55.251 [http-nio-auto-14-exec-1] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - [6bbd4582] Mapped to org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController#cors()
+17:49:55.251 [http-nio-auto-14-exec-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [6bbd4582] Completed 200 OK
+17:49:55.251 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+17:49:55.252 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Stopping TomcatHttpServer...
+17:50:06.442 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Server stopped (0 millis).
+17:50:06.466 [Test worker] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - 5 mappings in 'requestMappingHandlerMapping'
+17:50:06.476 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
+17:50:06.478 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+17:50:06.478 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Starting UndertowHttpServer...
+17:50:06.478 [Test worker] INFO  i.undertow - starting server: Undertow - 2.2.7.Final
+17:50:06.481 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Server started on port 53322(0 millis).
+17:50:06.481 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP OPTIONS http://localhost:53322/cors
+17:50:06.481 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/json, application/x-jackson-smile, application/*+json, */*]
+17:50:06.483 [XNIO-14 I/O-6] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [1e69958-14] HTTP OPTIONS "/cors"
+17:50:06.483 [XNIO-14 I/O-6] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - [1e69958-14] Mapped to org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController#cors()
+17:50:06.483 [XNIO-14 I/O-6] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [1e69958-14] Completed 200 OK
+17:50:06.484 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+17:50:06.484 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Stopping UndertowHttpServer...
+17:50:06.484 [Test worker] INFO  i.undertow - stopping server: Undertow - 2.2.7.Final
+17:50:06.484 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Server stopped (0 millis).
+17:50:06.505 [Test worker] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - 5 mappings in 'requestMappingHandlerMapping'
+17:50:06.515 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
+17:50:06.517 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+17:50:06.517 [Test worker] WARN  o.e.j.s.h.ContextHandler - Empty contextPath
+17:50:06.517 [Test worker] INFO  o.e.j.s.h.ContextHandler - Started o.e.j.s.ServletContextHandler@6ff1fe46{/,null,AVAILABLE}
+17:50:06.517 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Starting JettyHttpServer...
+17:50:06.517 [Test worker] INFO  o.e.j.s.Server - jetty-9.4.39.v20210325; built: 2021-03-25T14:42:11.471Z; git: 9fc7ca5a922f2a37b84ec9dbc26a5168cee7e667; jvm 1.8.0_181-b13
+17:50:06.518 [Test worker] INFO  o.e.j.s.AbstractConnector - Started ServerConnector@3a5248c1{HTTP/1.1, (http/1.1)}{0.0.0.0:53324}
+17:50:06.519 [Test worker] INFO  o.e.j.s.Server - Started @173574ms
+17:50:06.519 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Server started on port 53324(0 millis).
+17:50:06.519 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP OPTIONS http://localhost:53324/cors-restricted
+17:50:06.519 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/json, application/x-jackson-smile, application/*+json, */*]
+17:50:06.520 [qtp41078204-693] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [52a34e81] HTTP OPTIONS "/cors-restricted"
+17:50:06.520 [qtp41078204-693] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - [52a34e81] Mapped to org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController#corsRestricted()
+17:50:06.521 [qtp41078204-693] DEBUG o.s.w.c.r.DefaultCorsProcessor - Reject: 'http://localhost:9000' origin is not allowed
+17:50:06.521 [qtp41078204-693] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [52a34e81] Completed 403 FORBIDDEN
+17:50:06.521 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 403 FORBIDDEN
+17:50:06.521 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Stopping JettyHttpServer...
+17:50:06.521 [Test worker] INFO  o.e.j.s.h.ContextHandler - Stopped o.e.j.s.ServletContextHandler@6ff1fe46{/,null,STOPPED}
+17:50:06.522 [Test worker] INFO  o.e.j.s.AbstractConnector - Stopped ServerConnector@3a5248c1{HTTP/1.1, (http/1.1)}{0.0.0.0:0}
+17:50:06.522 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Server stopped (0 millis).
+17:50:06.542 [Test worker] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - 5 mappings in 'requestMappingHandlerMapping'
+17:50:06.551 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
+17:50:06.553 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+17:50:06.553 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Starting ReactorHttpServer...
+17:50:06.553 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Server started on port 53326(0 millis).
+17:50:06.553 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP OPTIONS http://localhost:53326/cors-restricted
+17:50:06.553 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/json, application/x-jackson-smile, application/*+json, */*]
+17:50:06.555 [reactor-http-nio-3] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [cd436ad7-1, L:/127.0.0.1:53326 - R:/127.0.0.1:53327] HTTP OPTIONS "/cors-restricted"
+17:50:06.555 [reactor-http-nio-3] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - [cd436ad7-1, L:/127.0.0.1:53326 - R:/127.0.0.1:53327] Mapped to org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController#corsRestricted()
+17:50:06.555 [reactor-http-nio-3] DEBUG o.s.w.c.r.DefaultCorsProcessor - Reject: 'http://localhost:9000' origin is not allowed
+17:50:06.555 [reactor-http-nio-3] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [cd436ad7-1, L:/127.0.0.1:53326 - R:/127.0.0.1:53327] Completed 403 FORBIDDEN
+17:50:06.556 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 403 FORBIDDEN
+17:50:06.556 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Stopping ReactorHttpServer...
+17:50:06.556 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Server stopped (0 millis).
+17:50:06.584 [Test worker] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - 5 mappings in 'requestMappingHandlerMapping'
+17:50:06.593 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
+17:50:06.595 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+17:50:06.595 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Starting TomcatHttpServer...
+17:50:06.600 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Server started on port 53328(0 millis).
+17:50:06.600 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP OPTIONS http://localhost:53328/cors-restricted
+17:50:06.600 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/json, application/x-jackson-smile, application/*+json, */*]
+17:50:06.602 [http-nio-auto-15-exec-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [72ecb912] HTTP OPTIONS "/cors-restricted"
+17:50:06.602 [http-nio-auto-15-exec-1] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - [72ecb912] Mapped to org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController#corsRestricted()
+17:50:06.602 [http-nio-auto-15-exec-1] DEBUG o.s.w.c.r.DefaultCorsProcessor - Reject: 'http://localhost:9000' origin is not allowed
+17:50:06.602 [http-nio-auto-15-exec-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [72ecb912] Completed 403 FORBIDDEN
+17:50:06.603 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 403 FORBIDDEN
+17:50:06.603 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Stopping TomcatHttpServer...
+17:50:17.800 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Server stopped (0 millis).
+17:50:17.826 [Test worker] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - 5 mappings in 'requestMappingHandlerMapping'
+17:50:17.837 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
+17:50:17.838 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+17:50:17.839 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Starting UndertowHttpServer...
+17:50:17.839 [Test worker] INFO  i.undertow - starting server: Undertow - 2.2.7.Final
+17:50:17.841 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Server started on port 53366(0 millis).
+17:50:17.841 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP OPTIONS http://localhost:53366/cors-restricted
+17:50:17.842 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/json, application/x-jackson-smile, application/*+json, */*]
+17:50:17.843 [XNIO-15 I/O-7] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [5fe8832b-15] HTTP OPTIONS "/cors-restricted"
+17:50:17.843 [XNIO-15 I/O-7] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - [5fe8832b-15] Mapped to org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController#corsRestricted()
+17:50:17.843 [XNIO-15 I/O-7] DEBUG o.s.w.c.r.DefaultCorsProcessor - Reject: 'http://localhost:9000' origin is not allowed
+17:50:17.843 [XNIO-15 I/O-7] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [5fe8832b-15] Completed 403 FORBIDDEN
+17:50:17.844 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 403 FORBIDDEN
+17:50:17.844 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Stopping UndertowHttpServer...
+17:50:17.844 [Test worker] INFO  i.undertow - stopping server: Undertow - 2.2.7.Final
+17:50:17.845 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Server stopped (0 millis).
+17:50:17.868 [Test worker] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - 5 mappings in 'requestMappingHandlerMapping'
+17:50:17.877 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
+17:50:17.879 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+17:50:17.879 [Test worker] WARN  o.e.j.s.h.ContextHandler - Empty contextPath
+17:50:17.879 [Test worker] INFO  o.e.j.s.h.ContextHandler - Started o.e.j.s.ServletContextHandler@aaf0e55{/,null,AVAILABLE}
+17:50:17.879 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Starting JettyHttpServer...
+17:50:17.879 [Test worker] INFO  o.e.j.s.Server - jetty-9.4.39.v20210325; built: 2021-03-25T14:42:11.471Z; git: 9fc7ca5a922f2a37b84ec9dbc26a5168cee7e667; jvm 1.8.0_181-b13
+17:50:17.880 [Test worker] INFO  o.e.j.s.AbstractConnector - Started ServerConnector@301a0d21{HTTP/1.1, (http/1.1)}{0.0.0.0:53368}
+17:50:17.880 [Test worker] INFO  o.e.j.s.Server - Started @184935ms
+17:50:17.880 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Server started on port 53368(0 millis).
+17:50:17.881 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:53368/ambiguous
+17:50:17.881 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/json, application/x-jackson-smile, application/*+json, */*]
+17:50:17.882 [qtp2102280471-738] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [4045826] HTTP GET "/ambiguous"
+17:50:17.882 [qtp2102280471-738] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - [4045826] Mapped to org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController#ambiguous2()
+17:50:17.883 [qtp2102280471-738] DEBUG o.s.w.r.r.m.a.ResponseBodyResultHandler - [4045826] Using 'text/html' given [text/html] and supported [text/html]
+17:50:17.883 [qtp2102280471-738] DEBUG o.s.w.r.r.m.a.ResponseBodyResultHandler - [4045826] 0..1 [java.lang.String]
+17:50:17.883 [qtp2102280471-738] DEBUG o.s.c.c.CharSequenceEncoder - [4045826] Writing "<p>ambiguous</p>"
+17:50:17.883 [qtp2102280471-738] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [4045826] Completed 200 OK
+17:50:17.883 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+17:50:17.883 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as "text/html;charset=utf-8"
+17:50:17.884 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Stopping JettyHttpServer...
+17:50:17.884 [Test worker] INFO  o.e.j.s.h.ContextHandler - Stopped o.e.j.s.ServletContextHandler@aaf0e55{/,null,STOPPED}
+17:50:17.885 [Test worker] INFO  o.e.j.s.AbstractConnector - Stopped ServerConnector@301a0d21{HTTP/1.1, (http/1.1)}{0.0.0.0:0}
+17:50:17.885 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Server stopped (0 millis).
+17:50:17.905 [Test worker] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - 5 mappings in 'requestMappingHandlerMapping'
+17:50:17.914 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
+17:50:17.916 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+17:50:17.916 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Starting ReactorHttpServer...
+17:50:17.917 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Server started on port 53370(0 millis).
+17:50:17.917 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:53370/ambiguous
+17:50:17.917 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/json, application/x-jackson-smile, application/*+json, */*]
+17:50:17.919 [reactor-http-nio-5] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [ae66c92c-1, L:/127.0.0.1:53370 - R:/127.0.0.1:53371] HTTP GET "/ambiguous"
+17:50:17.919 [reactor-http-nio-5] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - [ae66c92c-1, L:/127.0.0.1:53370 - R:/127.0.0.1:53371] Mapped to org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController#ambiguous2()
+17:50:17.919 [reactor-http-nio-5] DEBUG o.s.w.r.r.m.a.ResponseBodyResultHandler - [ae66c92c-1, L:/127.0.0.1:53370 - R:/127.0.0.1:53371] Using 'text/html' given [text/html] and supported [text/html]
+17:50:17.919 [reactor-http-nio-5] DEBUG o.s.w.r.r.m.a.ResponseBodyResultHandler - [ae66c92c-1, L:/127.0.0.1:53370 - R:/127.0.0.1:53371] 0..1 [java.lang.String]
+17:50:17.920 [reactor-http-nio-5] DEBUG o.s.c.c.CharSequenceEncoder - [ae66c92c-1, L:/127.0.0.1:53370 - R:/127.0.0.1:53371] Writing "<p>ambiguous</p>"
+17:50:17.920 [reactor-http-nio-5] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [ae66c92c-1, L:/127.0.0.1:53370 - R:/127.0.0.1:53371] Completed 200 OK
+17:50:17.921 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+17:50:17.921 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as "text/html;charset=UTF-8"
+17:50:17.921 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Stopping ReactorHttpServer...
+17:50:17.921 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Server stopped (0 millis).
+17:50:17.940 [Test worker] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - 5 mappings in 'requestMappingHandlerMapping'
+17:50:17.949 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
+17:50:17.951 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+17:50:17.951 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Starting TomcatHttpServer...
+17:50:17.958 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Server started on port 53372(0 millis).
+17:50:17.958 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:53372/ambiguous
+17:50:17.958 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/json, application/x-jackson-smile, application/*+json, */*]
+17:50:17.960 [http-nio-auto-16-exec-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [60db110f] HTTP GET "/ambiguous"
+17:50:17.960 [http-nio-auto-16-exec-1] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - [60db110f] Mapped to org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController#ambiguous2()
+17:50:17.960 [http-nio-auto-16-exec-1] DEBUG o.s.w.r.r.m.a.ResponseBodyResultHandler - [60db110f] Using 'text/html' given [text/html] and supported [text/html]
+17:50:17.960 [http-nio-auto-16-exec-1] DEBUG o.s.w.r.r.m.a.ResponseBodyResultHandler - [60db110f] 0..1 [java.lang.String]
+17:50:17.960 [http-nio-auto-16-exec-1] DEBUG o.s.c.c.CharSequenceEncoder - [60db110f] Writing "<p>ambiguous</p>"
+17:50:17.961 [http-nio-auto-16-exec-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [60db110f] Completed 200 OK
+17:50:17.961 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+17:50:17.961 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as "text/html;charset=UTF-8"
+17:50:17.962 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Stopping TomcatHttpServer...
+17:50:29.115 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Server stopped (0 millis).
+17:50:29.138 [Test worker] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - 5 mappings in 'requestMappingHandlerMapping'
+17:50:29.148 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
+17:50:29.150 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+17:50:29.150 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Starting UndertowHttpServer...
+17:50:29.150 [Test worker] INFO  i.undertow - starting server: Undertow - 2.2.7.Final
+17:50:29.153 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Server started on port 53410(0 millis).
+17:50:29.153 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:53410/ambiguous
+17:50:29.153 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/json, application/x-jackson-smile, application/*+json, */*]
+17:50:29.154 [XNIO-16 I/O-4] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [64628070-16] HTTP GET "/ambiguous"
+17:50:29.155 [XNIO-16 I/O-4] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - [64628070-16] Mapped to org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController#ambiguous2()
+17:50:29.155 [XNIO-16 I/O-4] DEBUG o.s.w.r.r.m.a.ResponseBodyResultHandler - [64628070-16] Using 'text/html' given [text/html] and supported [text/html]
+17:50:29.155 [XNIO-16 I/O-4] DEBUG o.s.w.r.r.m.a.ResponseBodyResultHandler - [64628070-16] 0..1 [java.lang.String]
+17:50:29.155 [XNIO-16 I/O-4] DEBUG o.s.c.c.CharSequenceEncoder - [64628070-16] Writing "<p>ambiguous</p>"
+17:50:29.155 [XNIO-16 I/O-4] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [64628070-16] Completed 200 OK
+17:50:29.156 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+17:50:29.156 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as "text/html;charset=UTF-8"
+17:50:29.156 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Stopping UndertowHttpServer...
+17:50:29.156 [Test worker] INFO  i.undertow - stopping server: Undertow - 2.2.7.Final
+17:50:29.156 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Server stopped (0 millis).
+17:50:29.176 [Test worker] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - 5 mappings in 'requestMappingHandlerMapping'
+17:50:29.194 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
+17:50:29.195 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+17:50:29.195 [Test worker] WARN  o.e.j.s.h.ContextHandler - Empty contextPath
+17:50:29.196 [Test worker] INFO  o.e.j.s.h.ContextHandler - Started o.e.j.s.ServletContextHandler@14e9da07{/,null,AVAILABLE}
+17:50:29.196 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Starting JettyHttpServer...
+17:50:29.196 [Test worker] INFO  o.e.j.s.Server - jetty-9.4.39.v20210325; built: 2021-03-25T14:42:11.471Z; git: 9fc7ca5a922f2a37b84ec9dbc26a5168cee7e667; jvm 1.8.0_181-b13
+17:50:29.197 [Test worker] INFO  o.e.j.s.AbstractConnector - Started ServerConnector@666e4b91{HTTP/1.1, (http/1.1)}{0.0.0.0:53412}
+17:50:29.197 [Test worker] INFO  o.e.j.s.Server - Started @196251ms
+17:50:29.197 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Server started on port 53412(0 millis).
+17:50:29.197 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP OPTIONS http://localhost:53412/ambiguous
+17:50:29.197 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/json, application/x-jackson-smile, application/*+json, */*]
+17:50:29.199 [qtp468260711-783] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [161b362a] HTTP OPTIONS "/ambiguous"
+17:50:29.199 [qtp468260711-783] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - [161b362a] Mapped to org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController#ambiguous1()
+17:50:29.199 [qtp468260711-783] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [161b362a] Completed 200 OK
+17:50:29.199 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+17:50:29.200 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Stopping JettyHttpServer...
+17:50:29.200 [Test worker] INFO  o.e.j.s.h.ContextHandler - Stopped o.e.j.s.ServletContextHandler@14e9da07{/,null,STOPPED}
+17:50:29.200 [Test worker] INFO  o.e.j.s.AbstractConnector - Stopped ServerConnector@666e4b91{HTTP/1.1, (http/1.1)}{0.0.0.0:0}
+17:50:29.200 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Server stopped (0 millis).
+17:50:29.220 [Test worker] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - 5 mappings in 'requestMappingHandlerMapping'
+17:50:29.229 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
+17:50:29.230 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+17:50:29.230 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Starting ReactorHttpServer...
+17:50:29.231 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Server started on port 53414(0 millis).
+17:50:29.231 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP OPTIONS http://localhost:53414/ambiguous
+17:50:29.231 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/json, application/x-jackson-smile, application/*+json, */*]
+17:50:29.232 [reactor-http-nio-7] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [538fb25d-1, L:/127.0.0.1:53414 - R:/127.0.0.1:53415] HTTP OPTIONS "/ambiguous"
+17:50:29.232 [reactor-http-nio-7] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - [538fb25d-1, L:/127.0.0.1:53414 - R:/127.0.0.1:53415] Mapped to org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController#ambiguous1()
+17:50:29.232 [reactor-http-nio-7] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [538fb25d-1, L:/127.0.0.1:53414 - R:/127.0.0.1:53415] Completed 200 OK
+17:50:29.233 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+17:50:29.233 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Stopping ReactorHttpServer...
+17:50:29.234 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Server stopped (0 millis).
+17:50:29.253 [Test worker] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - 5 mappings in 'requestMappingHandlerMapping'
+17:50:29.262 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
+17:50:29.264 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+17:50:29.264 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Starting TomcatHttpServer...
+17:50:29.269 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Server started on port 53416(0 millis).
+17:50:29.269 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP OPTIONS http://localhost:53416/ambiguous
+17:50:29.269 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/json, application/x-jackson-smile, application/*+json, */*]
+17:50:29.271 [http-nio-auto-17-exec-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [1a347d66] HTTP OPTIONS "/ambiguous"
+17:50:29.271 [http-nio-auto-17-exec-1] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - [1a347d66] Mapped to org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController#ambiguous1()
+17:50:29.271 [http-nio-auto-17-exec-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [1a347d66] Completed 200 OK
+17:50:29.272 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+17:50:29.272 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Stopping TomcatHttpServer...
+17:50:40.379 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Server stopped (0 millis).
+17:50:40.404 [Test worker] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - 5 mappings in 'requestMappingHandlerMapping'
+17:50:40.414 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
+17:50:40.415 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+17:50:40.415 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Starting UndertowHttpServer...
+17:50:40.415 [Test worker] INFO  i.undertow - starting server: Undertow - 2.2.7.Final
+17:50:40.418 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Server started on port 53460(0 millis).
+17:50:40.418 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP OPTIONS http://localhost:53460/ambiguous
+17:50:40.418 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/json, application/x-jackson-smile, application/*+json, */*]
+17:50:40.420 [XNIO-17 I/O-11] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [2a6e07cc-17] HTTP OPTIONS "/ambiguous"
+17:50:40.420 [XNIO-17 I/O-11] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - [2a6e07cc-17] Mapped to org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController#ambiguous1()
+17:50:40.420 [XNIO-17 I/O-11] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [2a6e07cc-17] Completed 200 OK
+17:50:40.420 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+17:50:40.421 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Stopping UndertowHttpServer...
+17:50:40.421 [Test worker] INFO  i.undertow - stopping server: Undertow - 2.2.7.Final
+17:50:40.422 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Server stopped (0 millis).
+17:50:40.441 [Test worker] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - 5 mappings in 'requestMappingHandlerMapping'
+17:50:40.450 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
+17:50:40.452 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+17:50:40.452 [Test worker] WARN  o.e.j.s.h.ContextHandler - Empty contextPath
+17:50:40.452 [Test worker] INFO  o.e.j.s.h.ContextHandler - Started o.e.j.s.ServletContextHandler@4e377143{/,null,AVAILABLE}
+17:50:40.452 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Starting JettyHttpServer...
+17:50:40.452 [Test worker] INFO  o.e.j.s.Server - jetty-9.4.39.v20210325; built: 2021-03-25T14:42:11.471Z; git: 9fc7ca5a922f2a37b84ec9dbc26a5168cee7e667; jvm 1.8.0_181-b13
+17:50:40.454 [Test worker] INFO  o.e.j.s.AbstractConnector - Started ServerConnector@73265285{HTTP/1.1, (http/1.1)}{0.0.0.0:53462}
+17:50:40.454 [Test worker] INFO  o.e.j.s.Server - Started @207507ms
+17:50:40.454 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Server started on port 53462(0 millis).
+17:50:40.454 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP OPTIONS http://localhost:53462/cors-restricted
+17:50:40.454 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/json, application/x-jackson-smile, application/*+json, */*]
+17:50:40.455 [qtp83310521-828] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [2d1acd8a] HTTP OPTIONS "/cors-restricted"
+17:50:40.455 [qtp83310521-828] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - [2d1acd8a] Mapped to org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController#corsRestricted()
+17:50:40.455 [qtp83310521-828] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [2d1acd8a] Completed 200 OK
+17:50:40.456 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+17:50:40.456 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Stopping JettyHttpServer...
+17:50:40.456 [Test worker] INFO  o.e.j.s.h.ContextHandler - Stopped o.e.j.s.ServletContextHandler@4e377143{/,null,STOPPED}
+17:50:40.457 [Test worker] INFO  o.e.j.s.AbstractConnector - Stopped ServerConnector@73265285{HTTP/1.1, (http/1.1)}{0.0.0.0:0}
+17:50:40.457 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Server stopped (0 millis).
+17:50:40.477 [Test worker] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - 5 mappings in 'requestMappingHandlerMapping'
+17:50:40.486 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
+17:50:40.487 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+17:50:40.487 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Starting ReactorHttpServer...
+17:50:40.488 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Server started on port 53465(0 millis).
+17:50:40.488 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP OPTIONS http://localhost:53465/cors-restricted
+17:50:40.488 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/json, application/x-jackson-smile, application/*+json, */*]
+17:50:40.490 [reactor-http-nio-9] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [16133a92-1, L:/127.0.0.1:53465 - R:/127.0.0.1:53466] HTTP OPTIONS "/cors-restricted"
+17:50:40.490 [reactor-http-nio-9] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - [16133a92-1, L:/127.0.0.1:53465 - R:/127.0.0.1:53466] Mapped to org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController#corsRestricted()
+17:50:40.490 [reactor-http-nio-9] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [16133a92-1, L:/127.0.0.1:53465 - R:/127.0.0.1:53466] Completed 200 OK
+17:50:40.491 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+17:50:40.491 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Stopping ReactorHttpServer...
+17:50:40.491 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Server stopped (0 millis).
+17:50:40.512 [Test worker] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - 5 mappings in 'requestMappingHandlerMapping'
+17:50:40.521 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
+17:50:40.523 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+17:50:40.523 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Starting TomcatHttpServer...
+17:50:40.527 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Server started on port 53468(0 millis).
+17:50:40.527 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP OPTIONS http://localhost:53468/cors-restricted
+17:50:40.527 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/json, application/x-jackson-smile, application/*+json, */*]
+17:50:40.529 [http-nio-auto-18-exec-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [4504bebb] HTTP OPTIONS "/cors-restricted"
+17:50:40.529 [http-nio-auto-18-exec-1] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - [4504bebb] Mapped to org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController#corsRestricted()
+17:50:40.529 [http-nio-auto-18-exec-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [4504bebb] Completed 200 OK
+17:50:40.530 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+17:50:40.530 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Stopping TomcatHttpServer...
+17:50:51.667 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Server stopped (0 millis).
+17:50:51.701 [Test worker] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - 5 mappings in 'requestMappingHandlerMapping'
+17:50:51.712 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
+17:50:51.713 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+17:50:51.714 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Starting UndertowHttpServer...
+17:50:51.714 [Test worker] INFO  i.undertow - starting server: Undertow - 2.2.7.Final
+17:50:51.716 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Server started on port 53534(0 millis).
+17:50:51.716 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP OPTIONS http://localhost:53534/cors-restricted
+17:50:51.717 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/json, application/x-jackson-smile, application/*+json, */*]
+17:50:51.718 [XNIO-18 I/O-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [7673c76c-18] HTTP OPTIONS "/cors-restricted"
+17:50:51.718 [XNIO-18 I/O-1] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - [7673c76c-18] Mapped to org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController#corsRestricted()
+17:50:51.718 [XNIO-18 I/O-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [7673c76c-18] Completed 200 OK
+17:50:51.719 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+17:50:51.719 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Stopping UndertowHttpServer...
+17:50:51.719 [Test worker] INFO  i.undertow - stopping server: Undertow - 2.2.7.Final
+17:50:51.720 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Server stopped (0 millis).
+17:50:51.741 [Test worker] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - 5 mappings in 'requestMappingHandlerMapping'
+17:50:51.749 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
+17:50:51.751 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+17:50:51.751 [Test worker] WARN  o.e.j.s.h.ContextHandler - Empty contextPath
+17:50:51.751 [Test worker] INFO  o.e.j.s.h.ContextHandler - Started o.e.j.s.ServletContextHandler@15d42c1f{/,null,AVAILABLE}
+17:50:51.751 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Starting JettyHttpServer...
+17:50:51.751 [Test worker] INFO  o.e.j.s.Server - jetty-9.4.39.v20210325; built: 2021-03-25T14:42:11.471Z; git: 9fc7ca5a922f2a37b84ec9dbc26a5168cee7e667; jvm 1.8.0_181-b13
+17:50:51.752 [Test worker] INFO  o.e.j.s.AbstractConnector - Started ServerConnector@1b97afa0{HTTP/1.1, (http/1.1)}{0.0.0.0:53536}
+17:50:51.753 [Test worker] INFO  o.e.j.s.Server - Started @218806ms
+17:50:51.753 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Server started on port 53536(0 millis).
+17:50:51.753 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:53536/welcome
+17:50:51.753 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/json, application/x-jackson-smile, application/*+json, */*]
+17:50:51.754 [qtp1719367862-873] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [14965bf3] HTTP GET "/welcome"
+17:50:51.755 [qtp1719367862-873] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - [14965bf3] Mapped to org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController#welcome()
+17:50:51.755 [qtp1719367862-873] DEBUG o.s.w.r.r.m.a.ResponseBodyResultHandler - [14965bf3] Using 'text/plain;charset=UTF-8' given [text/plain, application/json, application/x-jackson-smile, application/*+json, */*] and supported [text/plain;charset=UTF-8, text/event-stream, text/plain;charset=UTF-8, */*]
+17:50:51.755 [qtp1719367862-873] DEBUG o.s.w.r.r.m.a.ResponseBodyResultHandler - [14965bf3] 0..1 [java.lang.String]
+17:50:51.755 [qtp1719367862-873] DEBUG o.s.c.c.CharSequenceEncoder - [14965bf3] Writing "welcome"
+17:50:51.755 [qtp1719367862-873] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [14965bf3] Completed 200 OK
+17:50:51.755 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+17:50:51.755 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as "text/plain;charset=utf-8"
+17:50:51.756 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Stopping JettyHttpServer...
+17:50:51.756 [Test worker] INFO  o.e.j.s.h.ContextHandler - Stopped o.e.j.s.ServletContextHandler@15d42c1f{/,null,STOPPED}
+17:50:51.756 [Test worker] INFO  o.e.j.s.AbstractConnector - Stopped ServerConnector@1b97afa0{HTTP/1.1, (http/1.1)}{0.0.0.0:0}
+17:50:51.757 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Server stopped (0 millis).
+17:50:51.777 [Test worker] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - 5 mappings in 'requestMappingHandlerMapping'
+17:50:51.786 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
+17:50:51.787 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+17:50:51.788 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Starting ReactorHttpServer...
+17:50:51.788 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Server started on port 53538(0 millis).
+17:50:51.788 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:53538/welcome
+17:50:51.788 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/json, application/x-jackson-smile, application/*+json, */*]
+17:50:51.790 [reactor-http-nio-11] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [b32055f6-1, L:/127.0.0.1:53538 - R:/127.0.0.1:53539] HTTP GET "/welcome"
+17:50:51.790 [reactor-http-nio-11] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - [b32055f6-1, L:/127.0.0.1:53538 - R:/127.0.0.1:53539] Mapped to org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController#welcome()
+17:50:51.791 [reactor-http-nio-11] DEBUG o.s.w.r.r.m.a.ResponseBodyResultHandler - [b32055f6-1, L:/127.0.0.1:53538 - R:/127.0.0.1:53539] Using 'text/plain;charset=UTF-8' given [text/plain, application/json, application/x-jackson-smile, application/*+json, */*] and supported [text/plain;charset=UTF-8, text/event-stream, text/plain;charset=UTF-8, */*]
+17:50:51.791 [reactor-http-nio-11] DEBUG o.s.w.r.r.m.a.ResponseBodyResultHandler - [b32055f6-1, L:/127.0.0.1:53538 - R:/127.0.0.1:53539] 0..1 [java.lang.String]
+17:50:51.791 [reactor-http-nio-11] DEBUG o.s.c.c.CharSequenceEncoder - [b32055f6-1, L:/127.0.0.1:53538 - R:/127.0.0.1:53539] Writing "welcome"
+17:50:51.791 [reactor-http-nio-11] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [b32055f6-1, L:/127.0.0.1:53538 - R:/127.0.0.1:53539] Completed 200 OK
+17:50:51.792 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+17:50:51.792 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as "text/plain;charset=UTF-8"
+17:50:51.792 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Stopping ReactorHttpServer...
+17:50:51.792 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Server stopped (0 millis).
+17:50:51.811 [Test worker] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - 5 mappings in 'requestMappingHandlerMapping'
+17:50:51.819 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
+17:50:51.820 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+17:50:51.821 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Starting TomcatHttpServer...
+17:50:51.825 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Server started on port 53540(0 millis).
+17:50:51.825 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:53540/welcome
+17:50:51.826 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/json, application/x-jackson-smile, application/*+json, */*]
+17:50:51.827 [http-nio-auto-19-exec-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [68b4ef96] HTTP GET "/welcome"
+17:50:51.828 [http-nio-auto-19-exec-1] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - [68b4ef96] Mapped to org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController#welcome()
+17:50:51.828 [http-nio-auto-19-exec-1] DEBUG o.s.w.r.r.m.a.ResponseBodyResultHandler - [68b4ef96] Using 'text/plain;charset=UTF-8' given [text/plain, application/json, application/x-jackson-smile, application/*+json, */*] and supported [text/plain;charset=UTF-8, text/event-stream, text/plain;charset=UTF-8, */*]
+17:50:51.828 [http-nio-auto-19-exec-1] DEBUG o.s.w.r.r.m.a.ResponseBodyResultHandler - [68b4ef96] 0..1 [java.lang.String]
+17:50:51.828 [http-nio-auto-19-exec-1] DEBUG o.s.c.c.CharSequenceEncoder - [68b4ef96] Writing "welcome"
+17:50:51.828 [http-nio-auto-19-exec-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [68b4ef96] Completed 200 OK
+17:50:51.829 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+17:50:51.829 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as "text/plain;charset=UTF-8"
+17:50:51.829 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Stopping TomcatHttpServer...
+17:51:02.934 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Server stopped (0 millis).
+17:51:02.958 [Test worker] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - 5 mappings in 'requestMappingHandlerMapping'
+17:51:02.968 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
+17:51:02.969 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+17:51:02.969 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Starting UndertowHttpServer...
+17:51:02.969 [Test worker] INFO  i.undertow - starting server: Undertow - 2.2.7.Final
+17:51:02.972 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Server started on port 53579(0 millis).
+17:51:02.972 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:53579/welcome
+17:51:02.972 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/json, application/x-jackson-smile, application/*+json, */*]
+17:51:02.973 [XNIO-19 I/O-12] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [264e0800-19] HTTP GET "/welcome"
+17:51:02.973 [XNIO-19 I/O-12] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - [264e0800-19] Mapped to org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController#welcome()
+17:51:02.974 [XNIO-19 I/O-12] DEBUG o.s.w.r.r.m.a.ResponseBodyResultHandler - [264e0800-19] Using 'text/plain;charset=UTF-8' given [text/plain, application/json, application/x-jackson-smile, application/*+json, */*] and supported [text/plain;charset=UTF-8, text/event-stream, text/plain;charset=UTF-8, */*]
+17:51:02.974 [XNIO-19 I/O-12] DEBUG o.s.w.r.r.m.a.ResponseBodyResultHandler - [264e0800-19] 0..1 [java.lang.String]
+17:51:02.974 [XNIO-19 I/O-12] DEBUG o.s.c.c.CharSequenceEncoder - [264e0800-19] Writing "welcome"
+17:51:02.974 [XNIO-19 I/O-12] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [264e0800-19] Completed 200 OK
+17:51:02.974 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+17:51:02.974 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as "text/plain;charset=UTF-8"
+17:51:02.974 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Stopping UndertowHttpServer...
+17:51:02.974 [Test worker] INFO  i.undertow - stopping server: Undertow - 2.2.7.Final
+17:51:02.975 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Server stopped (0 millis).
+17:51:02.995 [Test worker] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - 5 mappings in 'requestMappingHandlerMapping'
+17:51:03.004 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
+17:51:03.006 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+17:51:03.006 [Test worker] WARN  o.e.j.s.h.ContextHandler - Empty contextPath
+17:51:03.006 [Test worker] INFO  o.e.j.s.h.ContextHandler - Started o.e.j.s.ServletContextHandler@11e0caeb{/,null,AVAILABLE}
+17:51:03.006 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Starting JettyHttpServer...
+17:51:03.006 [Test worker] INFO  o.e.j.s.Server - jetty-9.4.39.v20210325; built: 2021-03-25T14:42:11.471Z; git: 9fc7ca5a922f2a37b84ec9dbc26a5168cee7e667; jvm 1.8.0_181-b13
+17:51:03.007 [Test worker] INFO  o.e.j.s.AbstractConnector - Started ServerConnector@6eba3df8{HTTP/1.1, (http/1.1)}{0.0.0.0:53581}
+17:51:03.007 [Test worker] INFO  o.e.j.s.Server - Started @230061ms
+17:51:03.007 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Server started on port 53581(0 millis).
+17:51:03.008 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP OPTIONS http://localhost:53581/welcome
+17:51:03.008 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/json, application/x-jackson-smile, application/*+json, */*]
+17:51:03.009 [qtp1877334417-918] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [71025f0c] HTTP OPTIONS "/welcome"
+17:51:03.009 [qtp1877334417-918] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - [71025f0c] Mapped to org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController#welcome()
+17:51:03.009 [qtp1877334417-918] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [71025f0c] Completed 403 FORBIDDEN
+17:51:03.010 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 403 FORBIDDEN
+17:51:03.010 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Stopping JettyHttpServer...
+17:51:03.010 [Test worker] INFO  o.e.j.s.h.ContextHandler - Stopped o.e.j.s.ServletContextHandler@11e0caeb{/,null,STOPPED}
+17:51:03.010 [Test worker] INFO  o.e.j.s.AbstractConnector - Stopped ServerConnector@6eba3df8{HTTP/1.1, (http/1.1)}{0.0.0.0:0}
+17:51:03.011 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Server stopped (0 millis).
+17:51:03.038 [Test worker] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - 5 mappings in 'requestMappingHandlerMapping'
+17:51:03.048 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
+17:51:03.049 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+17:51:03.049 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Starting ReactorHttpServer...
+17:51:03.050 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Server started on port 53583(0 millis).
+17:51:03.050 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP OPTIONS http://localhost:53583/welcome
+17:51:03.050 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/json, application/x-jackson-smile, application/*+json, */*]
+17:51:03.051 [reactor-http-nio-13] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [d74d56dc-1, L:/127.0.0.1:53583 - R:/127.0.0.1:53584] HTTP OPTIONS "/welcome"
+17:51:03.052 [reactor-http-nio-13] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - [d74d56dc-1, L:/127.0.0.1:53583 - R:/127.0.0.1:53584] Mapped to org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController#welcome()
+17:51:03.052 [reactor-http-nio-13] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [d74d56dc-1, L:/127.0.0.1:53583 - R:/127.0.0.1:53584] Completed 403 FORBIDDEN
+17:51:03.052 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 403 FORBIDDEN
+17:51:03.052 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Stopping ReactorHttpServer...
+17:51:03.052 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Server stopped (0 millis).
+17:51:03.072 [Test worker] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - 5 mappings in 'requestMappingHandlerMapping'
+17:51:03.081 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
+17:51:03.083 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+17:51:03.083 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Starting TomcatHttpServer...
+17:51:03.088 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Server started on port 53585(0 millis).
+17:51:03.088 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP OPTIONS http://localhost:53585/welcome
+17:51:03.088 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/json, application/x-jackson-smile, application/*+json, */*]
+17:51:03.090 [http-nio-auto-20-exec-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [7640522c] HTTP OPTIONS "/welcome"
+17:51:03.090 [http-nio-auto-20-exec-1] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - [7640522c] Mapped to org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController#welcome()
+17:51:03.090 [http-nio-auto-20-exec-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [7640522c] Completed 403 FORBIDDEN
+17:51:03.091 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 403 FORBIDDEN
+17:51:03.091 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Stopping TomcatHttpServer...
+17:51:14.230 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Server stopped (0 millis).
+17:51:14.250 [Test worker] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - 5 mappings in 'requestMappingHandlerMapping'
+17:51:14.260 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
+17:51:14.261 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+17:51:14.261 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Starting UndertowHttpServer...
+17:51:14.261 [Test worker] INFO  i.undertow - starting server: Undertow - 2.2.7.Final
+17:51:14.264 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Server started on port 53641(0 millis).
+17:51:14.264 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP OPTIONS http://localhost:53641/welcome
+17:51:14.264 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/json, application/x-jackson-smile, application/*+json, */*]
+17:51:14.266 [XNIO-20 I/O-14] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [218b00ff-20] HTTP OPTIONS "/welcome"
+17:51:14.266 [XNIO-20 I/O-14] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - [218b00ff-20] Mapped to org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController#welcome()
+17:51:14.267 [XNIO-20 I/O-14] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [218b00ff-20] Completed 403 FORBIDDEN
+17:51:14.267 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 403 FORBIDDEN
+17:51:14.267 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Stopping UndertowHttpServer...
+17:51:14.267 [Test worker] INFO  i.undertow - stopping server: Undertow - 2.2.7.Final
+17:51:14.268 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Server stopped (0 millis).
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

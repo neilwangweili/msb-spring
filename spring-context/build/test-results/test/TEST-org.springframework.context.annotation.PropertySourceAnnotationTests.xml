@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.context.annotation.PropertySourceAnnotationTests" tests="23" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:40:48" hostname="wangweilideMacBook-Pro.local" time="0.175">
+<testsuite name="org.springframework.context.annotation.PropertySourceAnnotationTests" tests="23" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:31:45" hostname="wangweilideMBP.lan" time="0.152">
   <properties/>
-  <testcase name="withRepeatedPropertySources()" classname="org.springframework.context.annotation.PropertySourceAnnotationTests" time="0.007"/>
-  <testcase name="withRepeatedPropertySourcesOnComposedAnnotation()" classname="org.springframework.context.annotation.PropertySourceAnnotationTests" time="0.013"/>
-  <testcase name="withCustomFactory()" classname="org.springframework.context.annotation.PropertySourceAnnotationTests" time="0.012"/>
-  <testcase name="orderingWithAndWithoutNameAndMultipleResourceLocations()" classname="org.springframework.context.annotation.PropertySourceAnnotationTests" time="0.012"/>
+  <testcase name="withRepeatedPropertySources()" classname="org.springframework.context.annotation.PropertySourceAnnotationTests" time="0.011"/>
+  <testcase name="withRepeatedPropertySourcesOnComposedAnnotation()" classname="org.springframework.context.annotation.PropertySourceAnnotationTests" time="0.01"/>
+  <testcase name="withCustomFactory()" classname="org.springframework.context.annotation.PropertySourceAnnotationTests" time="0.009"/>
+  <testcase name="orderingWithAndWithoutNameAndMultipleResourceLocations()" classname="org.springframework.context.annotation.PropertySourceAnnotationTests" time="0.009"/>
   <testcase name="withRepeatedPropertySourcesInContainerAnnotation()" classname="org.springframework.context.annotation.PropertySourceAnnotationTests" time="0.005"/>
-  <testcase name="withResolvablePlaceholderAndFactoryBean()" classname="org.springframework.context.annotation.PropertySourceAnnotationTests" time="0.012"/>
+  <testcase name="withResolvablePlaceholderAndFactoryBean()" classname="org.springframework.context.annotation.PropertySourceAnnotationTests" time="0.008"/>
   <testcase name="withImplicitName()" classname="org.springframework.context.annotation.PropertySourceAnnotationTests" time="0.005"/>
-  <testcase name="withIgnoredPropertySource()" classname="org.springframework.context.annotation.PropertySourceAnnotationTests" time="0.007"/>
+  <testcase name="withIgnoredPropertySource()" classname="org.springframework.context.annotation.PropertySourceAnnotationTests" time="0.005"/>
   <testcase name="withResolvablePlaceholder()" classname="org.springframework.context.annotation.PropertySourceAnnotationTests" time="0.008"/>
-  <testcase name="orderingIsLifo()" classname="org.springframework.context.annotation.PropertySourceAnnotationTests" time="0.011"/>
+  <testcase name="orderingIsLifo()" classname="org.springframework.context.annotation.PropertySourceAnnotationTests" time="0.007"/>
   <testcase name="withUnresolvablePlaceholderAndDefault()" classname="org.springframework.context.annotation.PropertySourceAnnotationTests" time="0.007"/>
-  <testcase name="withNamedPropertySources()" classname="org.springframework.context.annotation.PropertySourceAnnotationTests" time="0.004"/>
+  <testcase name="withNamedPropertySources()" classname="org.springframework.context.annotation.PropertySourceAnnotationTests" time="0.005"/>
   <testcase name="orderingDoesntReplaceExisting()" classname="org.springframework.context.annotation.PropertySourceAnnotationTests" time="0.005"/>
-  <testcase name="withExplicitName()" classname="org.springframework.context.annotation.PropertySourceAnnotationTests" time="0.008"/>
-  <testcase name="withMissingPropertySource()" classname="org.springframework.context.annotation.PropertySourceAnnotationTests" time="0.003"/>
-  <testcase name="withCustomFactoryAsMeta()" classname="org.springframework.context.annotation.PropertySourceAnnotationTests" time="0.008"/>
-  <testcase name="withEmptyResourceLocations()" classname="org.springframework.context.annotation.PropertySourceAnnotationTests" time="0.003"/>
-  <testcase name="withTestProfileBeans()" classname="org.springframework.context.annotation.PropertySourceAnnotationTests" time="0.016"/>
-  <testcase name="withNameAndMultipleResourceLocations()" classname="org.springframework.context.annotation.PropertySourceAnnotationTests" time="0.004"/>
-  <testcase name="withSameSourceImportedInDifferentOrder()" classname="org.springframework.context.annotation.PropertySourceAnnotationTests" time="0.008"/>
+  <testcase name="withExplicitName()" classname="org.springframework.context.annotation.PropertySourceAnnotationTests" time="0.006"/>
+  <testcase name="withMissingPropertySource()" classname="org.springframework.context.annotation.PropertySourceAnnotationTests" time="0.004"/>
+  <testcase name="withCustomFactoryAsMeta()" classname="org.springframework.context.annotation.PropertySourceAnnotationTests" time="0.006"/>
+  <testcase name="withEmptyResourceLocations()" classname="org.springframework.context.annotation.PropertySourceAnnotationTests" time="0.002"/>
+  <testcase name="withTestProfileBeans()" classname="org.springframework.context.annotation.PropertySourceAnnotationTests" time="0.013"/>
+  <testcase name="withNameAndMultipleResourceLocations()" classname="org.springframework.context.annotation.PropertySourceAnnotationTests" time="0.005"/>
+  <testcase name="withSameSourceImportedInDifferentOrder()" classname="org.springframework.context.annotation.PropertySourceAnnotationTests" time="0.007"/>
   <testcase name="withMultipleResourceLocations()" classname="org.springframework.context.annotation.PropertySourceAnnotationTests" time="0.003"/>
-  <testcase name="orderingWithAndWithoutNameAndFourResourceLocations()" classname="org.springframework.context.annotation.PropertySourceAnnotationTests" time="0.006"/>
-  <testcase name="withUnresolvablePlaceholder()" classname="org.springframework.context.annotation.PropertySourceAnnotationTests" time="0.004"/>
-  <system-out><![CDATA[15:40:48.466 [Test worker] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [org.springframework.context.annotation.PropertySourceAnnotationTests$ConfigWithMissingPropertySource]; nested exception is java.io.FileNotFoundException: class path resource [org/springframework/context/annotation/missing.properties] cannot be opened because it does not exist
-15:40:48.478 [Test worker] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [org.springframework.context.annotation.PropertySourceAnnotationTests$ConfigWithEmptyResourceLocations]; nested exception is java.lang.IllegalArgumentException: At least one @PropertySource(value) location is required
-15:40:48.519 [Test worker] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [org.springframework.context.annotation.PropertySourceAnnotationTests$ConfigWithUnresolvablePlaceholder]; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'unresolvable' in value "classpath:${unresolvable}/p1.properties"
+  <testcase name="orderingWithAndWithoutNameAndFourResourceLocations()" classname="org.springframework.context.annotation.PropertySourceAnnotationTests" time="0.003"/>
+  <testcase name="withUnresolvablePlaceholder()" classname="org.springframework.context.annotation.PropertySourceAnnotationTests" time="0.003"/>
+  <system-out><![CDATA[17:31:46.036 [Test worker] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [org.springframework.context.annotation.PropertySourceAnnotationTests$ConfigWithMissingPropertySource]; nested exception is java.io.FileNotFoundException: class path resource [org/springframework/context/annotation/missing.properties] cannot be opened because it does not exist
+17:31:46.046 [Test worker] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [org.springframework.context.annotation.PropertySourceAnnotationTests$ConfigWithEmptyResourceLocations]; nested exception is java.lang.IllegalArgumentException: At least one @PropertySource(value) location is required
+17:31:46.080 [Test worker] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [org.springframework.context.annotation.PropertySourceAnnotationTests$ConfigWithUnresolvablePlaceholder]; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'unresolvable' in value "classpath:${unresolvable}/p1.properties"
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

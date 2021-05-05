@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.messaging.converter.GsonMessageConverterTests" tests="11" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:39:51" hostname="wangweilideMacBook-Pro.local" time="0.044">
+<testsuite name="org.springframework.messaging.converter.GsonMessageConverterTests" tests="11" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:29:39" hostname="wangweilideMBP.lan" time="0.037">
   <properties/>
-  <testcase name="fromMessageToList()" classname="org.springframework.messaging.converter.GsonMessageConverterTests" time="0.003"/>
-  <testcase name="fromMessageInvalidJson()" classname="org.springframework.messaging.converter.GsonMessageConverterTests" time="0.005"/>
-  <testcase name="fromMessageMatchingInstance()" classname="org.springframework.messaging.converter.GsonMessageConverterTests" time="0.0"/>
+  <testcase name="fromMessageToList()" classname="org.springframework.messaging.converter.GsonMessageConverterTests" time="0.016"/>
+  <testcase name="fromMessageInvalidJson()" classname="org.springframework.messaging.converter.GsonMessageConverterTests" time="0.007"/>
+  <testcase name="fromMessageMatchingInstance()" classname="org.springframework.messaging.converter.GsonMessageConverterTests" time="0.001"/>
   <testcase name="fromMessageToMessageWithPojo()" classname="org.springframework.messaging.converter.GsonMessageConverterTests" time="0.002"/>
-  <testcase name="fromMessageValidJsonWithUnknownProperty()" classname="org.springframework.messaging.converter.GsonMessageConverterTests" time="0.008"/>
+  <testcase name="fromMessageValidJsonWithUnknownProperty()" classname="org.springframework.messaging.converter.GsonMessageConverterTests" time="0.001"/>
   <testcase name="toMessage()" classname="org.springframework.messaging.converter.GsonMessageConverterTests" time="0.002"/>
-  <testcase name="defaultConstructor()" classname="org.springframework.messaging.converter.GsonMessageConverterTests" time="0.001"/>
+  <testcase name="defaultConstructor()" classname="org.springframework.messaging.converter.GsonMessageConverterTests" time="0.0"/>
   <testcase name="toMessageUtf16String()" classname="org.springframework.messaging.converter.GsonMessageConverterTests" time="0.001"/>
   <testcase name="fromMessageUntyped()" classname="org.springframework.messaging.converter.GsonMessageConverterTests" time="0.002"/>
-  <testcase name="fromMessage()" classname="org.springframework.messaging.converter.GsonMessageConverterTests" time="0.002"/>
-  <testcase name="toMessageUtf16()" classname="org.springframework.messaging.converter.GsonMessageConverterTests" time="0.003"/>
+  <testcase name="fromMessage()" classname="org.springframework.messaging.converter.GsonMessageConverterTests" time="0.001"/>
+  <testcase name="toMessageUtf16()" classname="org.springframework.messaging.converter.GsonMessageConverterTests" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.context.annotation.BeanMethodPolymorphismTests" tests="13" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:40:49" hostname="wangweilideMacBook-Pro.local" time="0.083">
+<testsuite name="org.springframework.context.annotation.BeanMethodPolymorphismTests" tests="13" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:31:47" hostname="wangweilideMBP.lan" time="0.114">
   <properties/>
   <testcase name="beanMethodOverloadingWithInheritanceAndList()" classname="org.springframework.context.annotation.BeanMethodPolymorphismTests" time="0.008"/>
-  <testcase name="beanMethodThroughAopProxy()" classname="org.springframework.context.annotation.BeanMethodPolymorphismTests" time="0.015"/>
-  <testcase name="beanMethodOverridingWithNarrowedReturnTypeOnASM()" classname="org.springframework.context.annotation.BeanMethodPolymorphismTests" time="0.008"/>
-  <testcase name="beanMethodOverloadingWithoutInheritance()" classname="org.springframework.context.annotation.BeanMethodPolymorphismTests" time="0.008"/>
-  <testcase name="beanMethodDetectedOnSuperClass()" classname="org.springframework.context.annotation.BeanMethodPolymorphismTests" time="0.003"/>
+  <testcase name="beanMethodThroughAopProxy()" classname="org.springframework.context.annotation.BeanMethodPolymorphismTests" time="0.023"/>
+  <testcase name="beanMethodOverridingWithNarrowedReturnTypeOnASM()" classname="org.springframework.context.annotation.BeanMethodPolymorphismTests" time="0.012"/>
+  <testcase name="beanMethodOverloadingWithoutInheritance()" classname="org.springframework.context.annotation.BeanMethodPolymorphismTests" time="0.016"/>
+  <testcase name="beanMethodDetectedOnSuperClass()" classname="org.springframework.context.annotation.BeanMethodPolymorphismTests" time="0.002"/>
   <testcase name="beanMethodOverloadingWithAdditionalMetadata()" classname="org.springframework.context.annotation.BeanMethodPolymorphismTests" time="0.007"/>
-  <testcase name="beanMethodOverriding()" classname="org.springframework.context.annotation.BeanMethodPolymorphismTests" time="0.006"/>
-  <testcase name="beanMethodOverloadingWithInheritance()" classname="org.springframework.context.annotation.BeanMethodPolymorphismTests" time="0.006"/>
-  <testcase name="beanMethodOverridingWithNarrowedReturnType()" classname="org.springframework.context.annotation.BeanMethodPolymorphismTests" time="0.003"/>
-  <testcase name="beanMethodOverridingOnASM()" classname="org.springframework.context.annotation.BeanMethodPolymorphismTests" time="0.003"/>
-  <testcase name="beanMethodShadowing()" classname="org.springframework.context.annotation.BeanMethodPolymorphismTests" time="0.007"/>
+  <testcase name="beanMethodOverriding()" classname="org.springframework.context.annotation.BeanMethodPolymorphismTests" time="0.007"/>
+  <testcase name="beanMethodOverloadingWithInheritance()" classname="org.springframework.context.annotation.BeanMethodPolymorphismTests" time="0.01"/>
+  <testcase name="beanMethodOverridingWithNarrowedReturnType()" classname="org.springframework.context.annotation.BeanMethodPolymorphismTests" time="0.004"/>
+  <testcase name="beanMethodOverridingOnASM()" classname="org.springframework.context.annotation.BeanMethodPolymorphismTests" time="0.005"/>
+  <testcase name="beanMethodShadowing()" classname="org.springframework.context.annotation.BeanMethodPolymorphismTests" time="0.008"/>
   <testcase name="beanMethodOverloadingWithAdditionalMetadataButOtherMethodExecuted()" classname="org.springframework.context.annotation.BeanMethodPolymorphismTests" time="0.003"/>
-  <testcase name="beanMethodOverloadingWithoutInheritanceAndExtraDependency()" classname="org.springframework.context.annotation.BeanMethodPolymorphismTests" time="0.003"/>
+  <testcase name="beanMethodOverloadingWithoutInheritanceAndExtraDependency()" classname="org.springframework.context.annotation.BeanMethodPolymorphismTests" time="0.004"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

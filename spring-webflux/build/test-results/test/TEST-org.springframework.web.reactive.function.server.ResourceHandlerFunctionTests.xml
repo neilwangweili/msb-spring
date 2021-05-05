@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.web.reactive.function.server.ResourceHandlerFunctionTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-04-26T08:40:48" hostname="wangweilideMacBook-Pro.local" time="0.063">
+<testsuite name="org.springframework.web.reactive.function.server.ResourceHandlerFunctionTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:56:11" hostname="wangweilideMBP.lan" time="0.072">
   <properties/>
-  <testcase name="options()" classname="org.springframework.web.reactive.function.server.ResourceHandlerFunctionTests" time="0.021"/>
-  <testcase name="get()" classname="org.springframework.web.reactive.function.server.ResourceHandlerFunctionTests" time="0.023"/>
-  <testcase name="head()" classname="org.springframework.web.reactive.function.server.ResourceHandlerFunctionTests" time="0.019"/>
-  <system-out><![CDATA[16:40:48.424 [Test worker] DEBUG o.s.h.c.ResourceHttpMessageWriter - [797878d3] Resource associated with 'text/plain'
-16:40:48.425 [Test worker] DEBUG o.s.c.c.ResourceEncoder - [797878d3] Writing [class path resource [org/springframework/web/reactive/function/server/response.txt]]
-16:40:48.445 [Test worker] DEBUG o.s.h.c.ResourceHttpMessageWriter - [4755d50] Resource associated with 'text/plain'
-16:40:48.445 [Test worker] DEBUG o.s.c.c.ResourceEncoder - [4755d50] Writing [org.springframework.web.reactive.function.server.ResourceHandlerFunction$HeadMethodResource@3f4e5499]
+  <testcase name="options()" classname="org.springframework.web.reactive.function.server.ResourceHandlerFunctionTests" time="0.024"/>
+  <testcase name="get()" classname="org.springframework.web.reactive.function.server.ResourceHandlerFunctionTests" time="0.026"/>
+  <testcase name="head()" classname="org.springframework.web.reactive.function.server.ResourceHandlerFunctionTests" time="0.021"/>
+  <system-out><![CDATA[17:56:11.749 [Test worker] DEBUG o.s.h.c.ResourceHttpMessageWriter - [6c71b8f3] Resource associated with 'text/plain'
+17:56:11.750 [Test worker] DEBUG o.s.c.c.ResourceEncoder - [6c71b8f3] Writing [class path resource [org/springframework/web/reactive/function/server/response.txt]]
+17:56:11.773 [Test worker] DEBUG o.s.h.c.ResourceHttpMessageWriter - [672e8760] Resource associated with 'text/plain'
+17:56:11.773 [Test worker] DEBUG o.s.c.c.ResourceEncoder - [672e8760] Writing [org.springframework.web.reactive.function.server.ResourceHandlerFunction$HeadMethodResource@44a9fe44]
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-04-26T15:40:40 CST" name="Command line suite" finished-at="2021-04-26T15:40:40 CST" duration-ms="8">
+  <suite name="Command line suite" duration-ms="2" started-at="2021-05-01T17:42:39 CST" finished-at="2021-05-01T17:42:39 CST">
     <groups>
     </groups>
-    <test started-at="2021-04-26T15:40:40 CST" name="Command line test" finished-at="2021-04-26T15:40:40 CST" duration-ms="8">
+    <test name="Command line test" duration-ms="2" started-at="2021-05-01T17:42:39 CST" finished-at="2021-05-01T17:42:39 CST">
       <class name="org.springframework.test.context.cache.ClassLevelDirtiesContextTestNGTests$ClassLevelDirtiesContextWithCleanMethodsAndAfterClassModeTestCase">
-        <test-method is-config="true" signature="springTestContextBeforeTestClass()[pri:0, instance:org.springframework.test.context.cache.ClassLevelDirtiesContextTestNGTests$ClassLevelDirtiesContextWithCleanMethodsAndAfterClassModeTestCase@4fd32bb1]" started-at="2021-04-26T15:40:40 CST" name="springTestContextBeforeTestClass" finished-at="2021-04-26T15:40:40 CST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- springTestContextBeforeTestClass -->
-        <test-method is-config="true" signature="springTestContextPrepareTestInstance()[pri:0, instance:org.springframework.test.context.cache.ClassLevelDirtiesContextTestNGTests$ClassLevelDirtiesContextWithCleanMethodsAndAfterClassModeTestCase@4fd32bb1]" started-at="2021-04-26T15:40:40 CST" name="springTestContextPrepareTestInstance" finished-at="2021-04-26T15:40:40 CST" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" duration-ms="2" status="PASS">
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:org.springframework.test.context.cache.ClassLevelDirtiesContextTestNGTests$ClassLevelDirtiesContextWithCleanMethodsAndAfterClassModeTestCase@64ed43fb]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="1" started-at="2021-05-01T17:42:39 CST" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2021-05-01T17:42:39 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- springTestContextPrepareTestInstance -->
-        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:org.springframework.test.context.cache.ClassLevelDirtiesContextTestNGTests$ClassLevelDirtiesContextWithCleanMethodsAndAfterClassModeTestCase@4fd32bb1]" started-at="2021-04-26T15:40:40 CST" name="springTestContextBeforeTestMethod" finished-at="2021-04-26T15:40:40 CST" duration-ms="0" status="PASS">
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:org.springframework.test.context.cache.ClassLevelDirtiesContextTestNGTests$ClassLevelDirtiesContextWithCleanMethodsAndAfterClassModeTestCase@64ed43fb]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="0" started-at="2021-05-01T17:42:39 CST" finished-at="2021-05-01T17:42:39 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:org.springframework.test.context.cache.ClassLevelDirtiesContextTestNGTests$ClassLevelDirtiesContextWithCleanMethodsAndAfterClassModeTestCase@64ed43fb]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2021-05-01T17:42:39 CST" finished-at="2021-05-01T17:42:39 CST">
           <params>
             <param index="0">
               <value>
@@ -26,11 +26,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- springTestContextBeforeTestMethod -->
-        <test-method signature="verifyContextWasAutowired()[pri:0, instance:org.springframework.test.context.cache.ClassLevelDirtiesContextTestNGTests$ClassLevelDirtiesContextWithCleanMethodsAndAfterClassModeTestCase@4fd32bb1]" started-at="2021-04-26T15:40:40 CST" name="verifyContextWasAutowired" finished-at="2021-04-26T15:40:40 CST" duration-ms="0" status="PASS">
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:org.springframework.test.context.cache.ClassLevelDirtiesContextTestNGTests$ClassLevelDirtiesContextWithCleanMethodsAndAfterClassModeTestCase@64ed43fb]" name="springTestContextAfterTestClass" is-config="true" duration-ms="1" started-at="2021-05-01T17:42:39 CST" finished-at="2021-05-01T17:42:39 CST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyContextWasAutowired -->
-        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:org.springframework.test.context.cache.ClassLevelDirtiesContextTestNGTests$ClassLevelDirtiesContextWithCleanMethodsAndAfterClassModeTestCase@4fd32bb1]" started-at="2021-04-26T15:40:40 CST" name="springTestContextAfterTestMethod" finished-at="2021-04-26T15:40:40 CST" duration-ms="0" status="PASS">
+        </test-method> <!-- springTestContextAfterTestClass -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:org.springframework.test.context.cache.ClassLevelDirtiesContextTestNGTests$ClassLevelDirtiesContextWithCleanMethodsAndAfterClassModeTestCase@64ed43fb]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2021-05-01T17:42:39 CST" finished-at="2021-05-01T17:42:39 CST">
           <params>
             <param index="0">
               <value>
@@ -41,10 +41,10 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- springTestContextAfterTestMethod -->
-        <test-method is-config="true" signature="springTestContextAfterTestClass()[pri:0, instance:org.springframework.test.context.cache.ClassLevelDirtiesContextTestNGTests$ClassLevelDirtiesContextWithCleanMethodsAndAfterClassModeTestCase@4fd32bb1]" started-at="2021-04-26T15:40:40 CST" name="springTestContextAfterTestClass" finished-at="2021-04-26T15:40:40 CST" duration-ms="0" status="PASS">
+        <test-method status="PASS" signature="verifyContextWasAutowired()[pri:0, instance:org.springframework.test.context.cache.ClassLevelDirtiesContextTestNGTests$ClassLevelDirtiesContextWithCleanMethodsAndAfterClassModeTestCase@64ed43fb]" name="verifyContextWasAutowired" duration-ms="0" started-at="2021-05-01T17:42:39 CST" finished-at="2021-05-01T17:42:39 CST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- springTestContextAfterTestClass -->
+        </test-method> <!-- verifyContextWasAutowired -->
       </class> <!-- org.springframework.test.context.cache.ClassLevelDirtiesContextTestNGTests$ClassLevelDirtiesContextWithCleanMethodsAndAfterClassModeTestCase -->
     </test> <!-- Command line test -->
   </suite> <!-- Command line suite -->

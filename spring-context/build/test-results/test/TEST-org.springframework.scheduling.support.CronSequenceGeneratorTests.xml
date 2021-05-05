@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.scheduling.support.CronSequenceGeneratorTests" tests="14" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:41:13" hostname="wangweilideMacBook-Pro.local" time="0.007">
+<testsuite name="org.springframework.scheduling.support.CronSequenceGeneratorTests" tests="14" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:32:15" hostname="wangweilideMBP.lan" time="0.006">
   <properties/>
   <testcase name="withSameMinuteRange()" classname="org.springframework.scheduling.support.CronSequenceGeneratorTests" time="0.002"/>
   <testcase name="withNegativeIncrement()" classname="org.springframework.scheduling.support.CronSequenceGeneratorTests" time="0.001"/>
   <testcase name="with0Increment()" classname="org.springframework.scheduling.support.CronSequenceGeneratorTests" time="0.0"/>
-  <testcase name="invalidExpressionWithLength()" classname="org.springframework.scheduling.support.CronSequenceGeneratorTests" time="0.001"/>
+  <testcase name="invalidExpressionWithLength()" classname="org.springframework.scheduling.support.CronSequenceGeneratorTests" time="0.0"/>
   <testcase name="invalidExpressionWithMonths()" classname="org.springframework.scheduling.support.CronSequenceGeneratorTests" time="0.0"/>
   <testcase name="at0Minutes()" classname="org.springframework.scheduling.support.CronSequenceGeneratorTests" time="0.0"/>
   <testcase name="withInvertedHourRange()" classname="org.springframework.scheduling.support.CronSequenceGeneratorTests" time="0.001"/>
   <testcase name="validExpression()" classname="org.springframework.scheduling.support.CronSequenceGeneratorTests" time="0.0"/>
   <testcase name="invalidExpressionWithSeconds()" classname="org.springframework.scheduling.support.CronSequenceGeneratorTests" time="0.0"/>
   <testcase name="withInvertedMinuteRange()" classname="org.springframework.scheduling.support.CronSequenceGeneratorTests" time="0.0"/>
-  <testcase name="at0Seconds()" classname="org.springframework.scheduling.support.CronSequenceGeneratorTests" time="0.0"/>
+  <testcase name="at0Seconds()" classname="org.springframework.scheduling.support.CronSequenceGeneratorTests" time="0.001"/>
   <testcase name="at50Seconds()" classname="org.springframework.scheduling.support.CronSequenceGeneratorTests" time="0.0"/>
   <testcase name="nullExpression()" classname="org.springframework.scheduling.support.CronSequenceGeneratorTests" time="0.0"/>
   <testcase name="withSameHourRange()" classname="org.springframework.scheduling.support.CronSequenceGeneratorTests" time="0.0"/>

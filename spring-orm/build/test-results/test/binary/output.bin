@@ -1,38 +1,38 @@
-è[EL Info]: 2021-04-26 15:39:38.668--ServerSession(2084508161)--EclipseLink, version: Eclipse Persistence Services - 2.7.8.v20201217-ecdf3c32c4
-ñ[EL Warning]: metadata: 2021-04-26 15:39:39.497--ServerSession(2084508161)--Reverting the lazy setting on the OneToOne or ManyToOne attribute [driversLicense] for the entity class [class org.springframework.orm.jpa.domain.Person] since weaving was not enabled or did not occur.
-Â[EL Fine]: sql: 2021-04-26 15:39:39.641--ServerSession(2084508161)--Connection(1990017959)--CREATE TABLE PERSON (ID INTEGER NOT NULL, FIRST_NAME VARCHAR(255), LAST_NAME VARCHAR(255), DRIVERS_LICENSE_ID INTEGER, PRIMARY KEY (ID))
-º[EL Fine]: sql: 2021-04-26 15:39:39.653--ServerSession(2084508161)--Connection(468680987)--CREATE TABLE DRIVERS_LICENSE (ID INTEGER NOT NULL, SERIAL_NUMBER VARCHAR(255), PRIMARY KEY (ID))
-€[EL Fine]: sql: 2021-04-26 15:39:39.658--ServerSession(2084508161)--Connection(376440338)--ALTER TABLE PERSON ADD CONSTRAINT FK_PERSON_DRIVERS_LICENSE_ID FOREIGN KEY (DRIVERS_LICENSE_ID) REFERENCES DRIVERS_LICENSE (ID)
-¿[EL Fine]: sql: 2021-04-26 15:39:39.674--ServerSession(2084508161)--Connection(465299992)--CREATE TABLE SEQUENCE (SEQ_NAME VARCHAR(50) NOT NULL, SEQ_COUNT NUMERIC(38), PRIMARY KEY (SEQ_NAME))
-é[EL Fine]: sql: 2021-04-26 15:39:39.682--ServerSession(2084508161)--Connection(1565247652)--SELECT * FROM SEQUENCE WHERE SEQ_NAME = 'SEQ_GEN'
-ú[EL Fine]: sql: 2021-04-26 15:39:39.686--ServerSession(2084508161)--Connection(2025702265)--INSERT INTO SEQUENCE(SEQ_NAME, SEQ_COUNT) values ('SEQ_GEN', 0)
-ö[EL Fine]: sql: 2021-04-26 15:39:40.48--ServerSession(2084508161)--Connection(66977704)--SELECT ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID FROM PERSON
-ù[EL Fine]: sql: 2021-04-26 15:39:40.482--ServerSession(2084508161)--Connection(1057106450)--SELECT ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID FROM PERSON
-ù[EL Fine]: sql: 2021-04-26 15:39:40.513--ClientSession(1738480568)--Connection(1941477476)--SELECT ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID FROM PERSON
+è[EL Info]: 2021-05-01 17:25:13.523--ServerSession(1575809764)--EclipseLink, version: Eclipse Persistence Services - 2.7.8.v20201217-ecdf3c32c4
+ñ[EL Warning]: metadata: 2021-05-01 17:25:14.616--ServerSession(1575809764)--Reverting the lazy setting on the OneToOne or ManyToOne attribute [driversLicense] for the entity class [class org.springframework.orm.jpa.domain.Person] since weaving was not enabled or did not occur.
+‰[EL Fine]: sql: 2021-05-01 17:25:14.789--ServerSession(1575809764)--Connection(792445314)--CREATE TABLE PERSON (ID INTEGER NOT NULL, FIRST_NAME VARCHAR(255), LAST_NAME VARCHAR(255), DRIVERS_LICENSE_ID INTEGER, PRIMARY KEY (ID))
+Ω[EL Fine]: sql: 2021-05-01 17:25:14.792--ServerSession(1575809764)--Connection(1076924391)--CREATE TABLE DRIVERS_LICENSE (ID INTEGER NOT NULL, SERIAL_NUMBER VARCHAR(255), PRIMARY KEY (ID))
+€[EL Fine]: sql: 2021-05-01 17:25:14.793--ServerSession(1575809764)--Connection(591327297)--ALTER TABLE PERSON ADD CONSTRAINT FK_PERSON_DRIVERS_LICENSE_ID FOREIGN KEY (DRIVERS_LICENSE_ID) REFERENCES DRIVERS_LICENSE (ID)
+¡[EL Fine]: sql: 2021-05-01 17:25:14.797--ServerSession(1575809764)--Connection(1140287702)--CREATE TABLE SEQUENCE (SEQ_NAME VARCHAR(50) NOT NULL, SEQ_COUNT NUMERIC(38), PRIMARY KEY (SEQ_NAME))
+ç[EL Fine]: sql: 2021-05-01 17:25:14.803--ServerSession(1575809764)--Connection(560521562)--SELECT * FROM SEQUENCE WHERE SEQ_NAME = 'SEQ_GEN'
+ú[EL Fine]: sql: 2021-05-01 17:25:14.805--ServerSession(1575809764)--Connection(2093236642)--INSERT INTO SEQUENCE(SEQ_NAME, SEQ_COUNT) values ('SEQ_GEN', 0)
+ù[EL Fine]: sql: 2021-05-01 17:25:15.595--ServerSession(1575809764)--Connection(1773583395)--SELECT ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID FROM PERSON
+ù[EL Fine]: sql: 2021-05-01 17:25:15.604--ServerSession(1575809764)--Connection(2034062525)--SELECT ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID FROM PERSON
+õ[EL Fine]: sql: 2021-05-01 17:25:15.645--ClientSession(523648952)--Connection(657532960)--SELECT ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID FROM PERSON
 
-´[EL Fine]: sql: 2021-04-26 15:39:40.615--ClientSession(1175142962)--Connection(182756689)--SELECT ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID FROM PERSON WHERE (ID = ?)
+™[EL Fine]: sql: 2021-05-01 17:25:15.665--ClientSession(669954830)--Connection(397146679)--SELECT ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID FROM PERSON WHERE (ID = ?)
 
 	bind => [666]
-ú[EL Fine]: sql: 2021-04-26 15:39:40.63--ClientSession(1248587648)--Connection(1894247003)--UPDATE SEQUENCE SET SEQ_COUNT = SEQ_COUNT + ? WHERE SEQ_NAME = ?
+õ[EL Fine]: sql: 2021-05-01 17:25:15.682--ClientSession(1129808772)--Connection(35427299)--UPDATE SEQUENCE SET SEQ_COUNT = SEQ_COUNT + ? WHERE SEQ_NAME = ?
 	bind => [50, SEQ_GEN]
-é[EL Fine]: sql: 2021-04-26 15:39:40.633--ClientSession(1248587648)--Connection(1894247003)--SELECT SEQ_COUNT FROM SEQUENCE WHERE SEQ_NAME = ?
+å[EL Fine]: sql: 2021-05-01 17:25:15.689--ClientSession(1129808772)--Connection(35427299)--SELECT SEQ_COUNT FROM SEQUENCE WHERE SEQ_NAME = ?
 	bind => [SEQ_GEN]
-≥[EL Fine]: sql: 2021-04-26 15:39:40.643--ClientSession(1248587648)--Connection(1894247003)--INSERT INTO PERSON (ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID) VALUES (?, ?, ?, ?)
+±[EL Fine]: sql: 2021-05-01 17:25:15.704--ClientSession(1129808772)--Connection(35427299)--INSERT INTO PERSON (ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID) VALUES (?, ?, ?, ?)
  	bind => [1, Tony, Blair, null]
-ù[EL Fine]: sql: 2021-04-26 15:39:40.667--ServerSession(2084508161)--Connection(2054123607)--SELECT ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID FROM PERSON
-ú[EL Fine]: sql: 2021-04-26 15:39:40.69--ServerSession(2084508161)--Connection(1368376388)--SELECT ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID FROM PERSON
-ù[EL Fine]: sql: 2021-04-26 15:39:40.869--ClientSession(1971958624)--Connection(1254704879)--SELECT ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID FROM PERSON
-ú[EL Fine]: sql: 2021-04-26 15:39:40.87--ClientSession(1971958624)--Connection(1254704879)--SELECT ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID FROM PERSON
-ù[EL Fine]: sql: 2021-04-26 15:39:40.879--ServerSession(2084508161)--Connection(1526787196)--SELECT ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID FROM PERSON
-ú[EL Fine]: sql: 2021-04-26 15:39:40.88--ServerSession(2084508161)--Connection(1696168271)--SELECT ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID FROM PERSON
-ú[EL Fine]: sql: 2021-04-26 15:39:40.891--ClientSession(1896568959)--Connection(697925618)--SELECT ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID FROM PERSON
-ù[EL Fine]: sql: 2021-04-26 15:39:40.939--ClientSession(1015140445)--Connection(1932030673)--UPDATE SEQUENCE SET SEQ_COUNT = SEQ_COUNT + ? WHERE SEQ_NAME = ?
+ú[EL Fine]: sql: 2021-05-01 17:25:15.729--ServerSession(1575809764)--Connection(879903507)--SELECT ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID FROM PERSON
+ù[EL Fine]: sql: 2021-05-01 17:25:15.731--ServerSession(1575809764)--Connection(1296596340)--SELECT ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID FROM PERSON
+õ[EL Fine]: sql: 2021-05-01 17:25:15.875--ClientSession(921766065)--Connection(713729953)--SELECT ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID FROM PERSON
+õ[EL Fine]: sql: 2021-05-01 17:25:15.876--ClientSession(921766065)--Connection(713729953)--SELECT ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID FROM PERSON
+ú[EL Fine]: sql: 2021-05-01 17:25:15.936--ServerSession(1575809764)--Connection(882430077)--SELECT ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID FROM PERSON
+ù[EL Fine]: sql: 2021-05-01 17:25:15.938--ServerSession(1575809764)--Connection(1102328726)--SELECT ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID FROM PERSON
+ö[EL Fine]: sql: 2021-05-01 17:25:15.944--ClientSession(61736409)--Connection(399587348)--SELECT ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID FROM PERSON
+ö[EL Fine]: sql: 2021-05-01 17:25:15.98--ClientSession(540818536)--Connection(674880010)--UPDATE SEQUENCE SET SEQ_COUNT = SEQ_COUNT + ? WHERE SEQ_NAME = ?
 	bind => [50, SEQ_GEN]
-ç[EL Fine]: sql: 2021-04-26 15:39:40.94--ClientSession(1015140445)--Connection(1932030673)--SELECT SEQ_COUNT FROM SEQUENCE WHERE SEQ_NAME = ?
+å[EL Fine]: sql: 2021-05-01 17:25:15.981--ClientSession(540818536)--Connection(674880010)--SELECT SEQ_COUNT FROM SEQUENCE WHERE SEQ_NAME = ?
 	bind => [SEQ_GEN]
-ö[EL Fine]: sql: 2021-04-26 15:39:40.947--ClientSession(1015140445)--Connection(1932030673)--INSERT INTO DRIVERS_LICENSE (ID, SERIAL_NUMBER) VALUES (?, ?)
+ò[EL Fine]: sql: 2021-05-01 17:25:15.982--ClientSession(540818536)--Connection(674880010)--INSERT INTO DRIVERS_LICENSE (ID, SERIAL_NUMBER) VALUES (?, ?)
 	bind => [0, 8439DK]
-≥[EL Fine]: sql: 2021-04-26 15:39:40.951--ClientSession(1015140445)--Connection(1932030673)--INSERT INTO PERSON (ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID) VALUES (?, ?, ?, ?)
+±[EL Fine]: sql: 2021-05-01 17:25:15.983--ClientSession(540818536)--Connection(674880010)--INSERT INTO PERSON (ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID) VALUES (?, ?, ?, ?)
 	bind => [1, Tony, Blair, 0]
 '&JHibernate: create sequence hibernate_sequence start with 1 increment by 1
 '&ÖHibernate: alter table Person add constraint FKhsilw37bohsue5exltut0wcpq foreign key (DRIVERS_LICENSE_ID) references DRIVERS_LICENSE
@@ -49,8 +49,8 @@
 '4≥Hibernate: select person0_.id as id1_1_, person0_.DRIVERS_LICENSE_ID as drivers_4_1_, person0_.first_name as first_na2_1_, person0_.last_name as last_nam3_1_ from Person person0_
 '4≥Hibernate: select person0_.id as id1_1_, person0_.DRIVERS_LICENSE_ID as drivers_4_1_, person0_.first_name as first_na2_1_, person0_.last_name as last_nam3_1_ from Person person0_
 '5≥Hibernate: select person0_.id as id1_1_, person0_.DRIVERS_LICENSE_ID as drivers_4_1_, person0_.first_name as first_na2_1_, person0_.last_name as last_nam3_1_ from Person person0_
-'6Y15:39:44.890 [Test worker] ERROR o.h.h.i.a.ErrorTracker - line 1:1: unexpected token: It
-'6Y15:39:44.913 [Test worker] ERROR o.h.h.i.a.ErrorTracker - line 1:1: unexpected token: It
+'6Y17:25:22.012 [Test worker] ERROR o.h.h.i.a.ErrorTracker - line 1:1: unexpected token: It
+'6Y17:25:22.069 [Test worker] ERROR o.h.h.i.a.ErrorTracker - line 1:1: unexpected token: It
 '61antlr.NoViableAltException: unexpected token: It
 '6Ö	at org.hibernate.hql.internal.antlr.HqlBaseParser.statement(HqlBaseParser.java:212) ~[hibernate-core-5.4.30.Final.jar:5.4.30.Final]
 '6ã	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.parse(QueryTranslatorImpl.java:294) ~[hibernate-core-5.4.30.Final.jar:5.4.30.Final]
@@ -62,20 +62,20 @@
 '6û	at org.hibernate.internal.AbstractSharedSessionContract.getQueryPlan(AbstractSharedSessionContract.java:613) ~[hibernate-core-5.4.30.Final.jar:5.4.30.Final]
 '6ù	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:725) ~[hibernate-core-5.4.30.Final.jar:5.4.30.Final]
 '6ù	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:114) ~[hibernate-core-5.4.30.Final.jar:5.4.30.Final]
-'6P	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
-'6b	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
-'6j	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
-'6<	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+'6O	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_181]
+'6a	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_181]
+'6i	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_181]
+'6D	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_181]
 '6Ø	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:311) ~[spring-orm-5.3.7-SNAPSHOT.jar:?]
-'6>	at com.sun.proxy.$Proxy75.createQuery(Unknown Source) ~[?:?]
+'6>	at com.sun.proxy.$Proxy74.createQuery(Unknown Source) ~[?:?]
 '6∏	at org.springframework.orm.jpa.AbstractContainerEntityManagerFactoryIntegrationTests.lambda$testBogusQuery$0(AbstractContainerEntityManagerFactoryIntegrationTests.java:97) ~[test/:?]
 '6n	at org.assertj.core.api.ThrowableAssert.catchThrowable(ThrowableAssert.java:62) ~[assertj-core-3.19.0.jar:?]
 '6r	at org.assertj.core.api.ThrowableTypeAssert.isThrownBy(ThrowableTypeAssert.java:59) ~[assertj-core-3.19.0.jar:?]
 '6Ø	at org.springframework.orm.jpa.AbstractContainerEntityManagerFactoryIntegrationTests.testBogusQuery(AbstractContainerEntityManagerFactoryIntegrationTests.java:96) ~[test/:?]
-'6P	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
-'6b	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
-'6j	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
-'6<	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+'6O	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_181]
+'6a	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_181]
+'6i	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_181]
+'6D	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_181]
 '6Ö	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:688) ~[junit-platform-commons-1.7.1.jar:1.7.1]
 '6Ç	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60) ~[junit-jupiter-engine-5.7.1.jar:5.7.1]
 '6¨	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131) ~[junit-jupiter-engine-5.7.1.jar:5.7.1]
@@ -103,7 +103,7 @@
 '6ì	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.7.1.jar:1.7.1]
 '6ì	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126) ~[junit-platform-engine-1.7.1.jar:1.7.1]
 '6á	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84) ~[junit-platform-engine-1.7.1.jar:1.7.1]
-'6<	at java.util.ArrayList.forEach(ArrayList.java:1541) ~[?:?]
+'6D	at java.util.ArrayList.forEach(ArrayList.java:1257) ~[?:1.8.0_181]
 '6√	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38) ~[junit-platform-engine-1.7.1.jar:1.7.1]
 '6ú	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143) ~[junit-platform-engine-1.7.1.jar:1.7.1]
 '6ì	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.7.1.jar:1.7.1]
@@ -113,7 +113,7 @@
 '6ì	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.7.1.jar:1.7.1]
 '6ì	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126) ~[junit-platform-engine-1.7.1.jar:1.7.1]
 '6á	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84) ~[junit-platform-engine-1.7.1.jar:1.7.1]
-'6<	at java.util.ArrayList.forEach(ArrayList.java:1541) ~[?:?]
+'6D	at java.util.ArrayList.forEach(ArrayList.java:1257) ~[?:1.8.0_181]
 '6√	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38) ~[junit-platform-engine-1.7.1.jar:1.7.1]
 '6ú	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143) ~[junit-platform-engine-1.7.1.jar:1.7.1]
 '6ì	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.7.1.jar:1.7.1]
@@ -137,20 +137,20 @@
 '6⁄	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:79) [gradle-testing-junit-platform-6.8.3.jar:6.8.3]
 '6∂	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:75) [gradle-testing-junit-platform-6.8.3.jar:6.8.3]
 '6é	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61) [gradle-testing-base-6.8.3.jar:6.8.3]
-'6P	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
-'6b	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
-'6j	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
-'6<	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+'6O	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_181]
+'6a	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_181]
+'6i	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_181]
+'6D	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_181]
 '6|	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36) [gradle-messaging-6.8.3.jar:6.8.3]
 '6|	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) [gradle-messaging-6.8.3.jar:6.8.3]
 '6å	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33) [gradle-messaging-6.8.3.jar:6.8.3]
 '6õ	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94) [gradle-messaging-6.8.3.jar:6.8.3]
 '65	at com.sun.proxy.$Proxy2.stop(Unknown Source) [?:?]
 '6|	at org.gradle.api.internal.tasks.testing.worker.TestWorker.stop(TestWorker.java:133) [gradle-testing-base-6.8.3.jar:6.8.3]
-'6P	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
-'6b	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
-'6j	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
-'6<	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+'6O	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_181]
+'6a	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_181]
+'6i	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_181]
+'6D	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_181]
 '6|	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36) [gradle-messaging-6.8.3.jar:6.8.3]
 '6|	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) [gradle-messaging-6.8.3.jar:6.8.3]
 '6¥	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:182) [gradle-messaging-6.8.3.jar:6.8.3]
@@ -158,10 +158,10 @@
 '6{	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:414) [gradle-messaging-6.8.3.jar:6.8.3]
 '6í	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64) [gradle-base-services-6.8.3.jar:6.8.3]
 '6Å	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48) [gradle-base-services-6.8.3.jar:6.8.3]
-'6Z	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
-'6Z	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+'6b	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_181]
+'6b	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_181]
 '6ë	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56) [gradle-base-services-6.8.3.jar:6.8.3]
-'60	at java.lang.Thread.run(Thread.java:834) [?:?]
+'68	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
 '72Hibernate: call next value for hibernate_sequence
 '7IHibernate: insert into DRIVERS_LICENSE (serial_number, id) values (?, ?)
 '7bHibernate: insert into Person (DRIVERS_LICENSE_ID, first_name, last_name, id) values (?, ?, ?, ?)
@@ -181,8 +181,8 @@
 HV≥Hibernate: select person0_.id as id1_1_, person0_.DRIVERS_LICENSE_ID as drivers_4_1_, person0_.first_name as first_na2_1_, person0_.last_name as last_nam3_1_ from Person person0_
 HV≥Hibernate: select person0_.id as id1_1_, person0_.DRIVERS_LICENSE_ID as drivers_4_1_, person0_.first_name as first_na2_1_, person0_.last_name as last_nam3_1_ from Person person0_
 HW≥Hibernate: select person0_.id as id1_1_, person0_.DRIVERS_LICENSE_ID as drivers_4_1_, person0_.first_name as first_na2_1_, person0_.last_name as last_nam3_1_ from Person person0_
-HXY15:39:46.059 [Test worker] ERROR o.h.h.i.a.ErrorTracker - line 1:1: unexpected token: It
-HXY15:39:46.059 [Test worker] ERROR o.h.h.i.a.ErrorTracker - line 1:1: unexpected token: It
+HXY17:25:23.544 [Test worker] ERROR o.h.h.i.a.ErrorTracker - line 1:1: unexpected token: It
+HXY17:25:23.544 [Test worker] ERROR o.h.h.i.a.ErrorTracker - line 1:1: unexpected token: It
 HX1antlr.NoViableAltException: unexpected token: It
 HXÖ	at org.hibernate.hql.internal.antlr.HqlBaseParser.statement(HqlBaseParser.java:212) ~[hibernate-core-5.4.30.Final.jar:5.4.30.Final]
 HXã	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.parse(QueryTranslatorImpl.java:294) ~[hibernate-core-5.4.30.Final.jar:5.4.30.Final]
@@ -194,19 +194,19 @@
 HXû	at org.hibernate.internal.AbstractSharedSessionContract.getQueryPlan(AbstractSharedSessionContract.java:613) ~[hibernate-core-5.4.30.Final.jar:5.4.30.Final]
 HXù	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:725) ~[hibernate-core-5.4.30.Final.jar:5.4.30.Final]
 HXù	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:114) ~[hibernate-core-5.4.30.Final.jar:5.4.30.Final]
-HXQ	at jdk.internal.reflect.GeneratedMethodAccessor33.invoke(Unknown Source) ~[?:?]
-HXj	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
-HX<	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+HXH	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source) ~[?:?]
+HXi	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_181]
+HXD	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_181]
 HXØ	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:311) ~[spring-orm-5.3.7-SNAPSHOT.jar:?]
-HX>	at com.sun.proxy.$Proxy75.createQuery(Unknown Source) ~[?:?]
+HX>	at com.sun.proxy.$Proxy74.createQuery(Unknown Source) ~[?:?]
 HX∏	at org.springframework.orm.jpa.AbstractContainerEntityManagerFactoryIntegrationTests.lambda$testBogusQuery$0(AbstractContainerEntityManagerFactoryIntegrationTests.java:97) ~[test/:?]
 HXn	at org.assertj.core.api.ThrowableAssert.catchThrowable(ThrowableAssert.java:62) ~[assertj-core-3.19.0.jar:?]
 HXr	at org.assertj.core.api.ThrowableTypeAssert.isThrownBy(ThrowableTypeAssert.java:59) ~[assertj-core-3.19.0.jar:?]
 HXØ	at org.springframework.orm.jpa.AbstractContainerEntityManagerFactoryIntegrationTests.testBogusQuery(AbstractContainerEntityManagerFactoryIntegrationTests.java:96) ~[test/:?]
-HXP	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
-HXb	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
-HXj	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
-HX<	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+HXO	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_181]
+HXa	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_181]
+HXi	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_181]
+HXD	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_181]
 HXÖ	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:688) ~[junit-platform-commons-1.7.1.jar:1.7.1]
 HXÇ	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60) ~[junit-jupiter-engine-5.7.1.jar:5.7.1]
 HX¨	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131) ~[junit-jupiter-engine-5.7.1.jar:5.7.1]
@@ -234,7 +234,7 @@
 HXì	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.7.1.jar:1.7.1]
 HXì	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126) ~[junit-platform-engine-1.7.1.jar:1.7.1]
 HXá	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84) ~[junit-platform-engine-1.7.1.jar:1.7.1]
-HX<	at java.util.ArrayList.forEach(ArrayList.java:1541) ~[?:?]
+HXD	at java.util.ArrayList.forEach(ArrayList.java:1257) ~[?:1.8.0_181]
 HX√	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38) ~[junit-platform-engine-1.7.1.jar:1.7.1]
 HXú	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143) ~[junit-platform-engine-1.7.1.jar:1.7.1]
 HXì	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.7.1.jar:1.7.1]
@@ -244,7 +244,7 @@
 HXì	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.7.1.jar:1.7.1]
 HXì	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126) ~[junit-platform-engine-1.7.1.jar:1.7.1]
 HXá	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84) ~[junit-platform-engine-1.7.1.jar:1.7.1]
-HX<	at java.util.ArrayList.forEach(ArrayList.java:1541) ~[?:?]
+HXD	at java.util.ArrayList.forEach(ArrayList.java:1257) ~[?:1.8.0_181]
 HX√	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38) ~[junit-platform-engine-1.7.1.jar:1.7.1]
 HXú	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143) ~[junit-platform-engine-1.7.1.jar:1.7.1]
 HXì	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.7.1.jar:1.7.1]
@@ -268,20 +268,20 @@
 HX⁄	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:79) [gradle-testing-junit-platform-6.8.3.jar:6.8.3]
 HX∂	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:75) [gradle-testing-junit-platform-6.8.3.jar:6.8.3]
 HXé	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61) [gradle-testing-base-6.8.3.jar:6.8.3]
-HXP	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
-HXb	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
-HXj	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
-HX<	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+HXO	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_181]
+HXa	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_181]
+HXi	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_181]
+HXD	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_181]
 HX|	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36) [gradle-messaging-6.8.3.jar:6.8.3]
 HX|	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) [gradle-messaging-6.8.3.jar:6.8.3]
 HXå	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33) [gradle-messaging-6.8.3.jar:6.8.3]
 HXõ	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94) [gradle-messaging-6.8.3.jar:6.8.3]
 HX5	at com.sun.proxy.$Proxy2.stop(Unknown Source) [?:?]
 HX|	at org.gradle.api.internal.tasks.testing.worker.TestWorker.stop(TestWorker.java:133) [gradle-testing-base-6.8.3.jar:6.8.3]
-HXP	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
-HXb	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
-HXj	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
-HX<	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+HXO	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_181]
+HXa	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_181]
+HXi	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_181]
+HXD	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_181]
 HX|	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36) [gradle-messaging-6.8.3.jar:6.8.3]
 HX|	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) [gradle-messaging-6.8.3.jar:6.8.3]
 HX¥	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:182) [gradle-messaging-6.8.3.jar:6.8.3]
@@ -289,17 +289,17 @@
 HX{	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:414) [gradle-messaging-6.8.3.jar:6.8.3]
 HXí	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64) [gradle-base-services-6.8.3.jar:6.8.3]
 HXÅ	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48) [gradle-base-services-6.8.3.jar:6.8.3]
-HXZ	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
-HXZ	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+HXb	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_181]
+HXb	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_181]
 HXë	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56) [gradle-base-services-6.8.3.jar:6.8.3]
-HX0	at java.lang.Thread.run(Thread.java:834) [?:?]
+HX8	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
 HY2Hibernate: call next value for hibernate_sequence
 HYIHibernate: insert into DRIVERS_LICENSE (serial_number, id) values (?, ?)
 HYbHibernate: insert into Person (DRIVERS_LICENSE_ID, first_name, last_name, id) values (?, ?, ?, ?)
 HYœHibernate: select person0_.id as id1_1_0_, person0_.DRIVERS_LICENSE_ID as drivers_4_1_0_, person0_.first_name as first_na2_1_0_, person0_.last_name as last_nam3_1_0_ from Person person0_ where person0_.id=?
 HYñHibernate: select driverslic0_.id as id1_0_0_, driverslic0_.serial_number as serial_n2_0_0_ from DRIVERS_LICENSE driverslic0_ where driverslic0_.id=?
-_nY15:39:46.562 [Test worker] ERROR o.h.h.i.a.ErrorTracker - line 1:1: unexpected token: It
-_nY15:39:46.563 [Test worker] ERROR o.h.h.i.a.ErrorTracker - line 1:1: unexpected token: It
+_nY17:25:24.439 [Test worker] ERROR o.h.h.i.a.ErrorTracker - line 1:1: unexpected token: It
+_nY17:25:24.439 [Test worker] ERROR o.h.h.i.a.ErrorTracker - line 1:1: unexpected token: It
 _n1antlr.NoViableAltException: unexpected token: It
 _nÖ	at org.hibernate.hql.internal.antlr.HqlBaseParser.statement(HqlBaseParser.java:212) ~[hibernate-core-5.4.30.Final.jar:5.4.30.Final]
 _nã	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.parse(QueryTranslatorImpl.java:294) ~[hibernate-core-5.4.30.Final.jar:5.4.30.Final]
@@ -311,19 +311,19 @@
 _nû	at org.hibernate.internal.AbstractSharedSessionContract.getQueryPlan(AbstractSharedSessionContract.java:613) ~[hibernate-core-5.4.30.Final.jar:5.4.30.Final]
 _nù	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:725) ~[hibernate-core-5.4.30.Final.jar:5.4.30.Final]
 _nà	at org.hibernate.internal.AbstractSessionImpl.createQuery(AbstractSessionImpl.java:23) ~[hibernate-core-5.4.30.Final.jar:5.4.30.Final]
-_nQ	at jdk.internal.reflect.GeneratedMethodAccessor36.invoke(Unknown Source) ~[?:?]
-_nj	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
-_n<	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+_nH	at sun.reflect.GeneratedMethodAccessor38.invoke(Unknown Source) ~[?:?]
+_ni	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_181]
+_nD	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_181]
 _nØ	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:311) ~[spring-orm-5.3.7-SNAPSHOT.jar:?]
-_n>	at com.sun.proxy.$Proxy57.createQuery(Unknown Source) ~[?:?]
+_n>	at com.sun.proxy.$Proxy56.createQuery(Unknown Source) ~[?:?]
 _n∏	at org.springframework.orm.jpa.AbstractContainerEntityManagerFactoryIntegrationTests.lambda$testBogusQuery$0(AbstractContainerEntityManagerFactoryIntegrationTests.java:97) ~[test/:?]
 _nn	at org.assertj.core.api.ThrowableAssert.catchThrowable(ThrowableAssert.java:62) ~[assertj-core-3.19.0.jar:?]
 _nr	at org.assertj.core.api.ThrowableTypeAssert.isThrownBy(ThrowableTypeAssert.java:59) ~[assertj-core-3.19.0.jar:?]
 _nØ	at org.springframework.orm.jpa.AbstractContainerEntityManagerFactoryIntegrationTests.testBogusQuery(AbstractContainerEntityManagerFactoryIntegrationTests.java:96) ~[test/:?]
-_nP	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
-_nb	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
-_nj	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
-_n<	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+_nO	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_181]
+_na	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_181]
+_ni	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_181]
+_nD	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_181]
 _nÖ	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:688) ~[junit-platform-commons-1.7.1.jar:1.7.1]
 _nÇ	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60) ~[junit-jupiter-engine-5.7.1.jar:5.7.1]
 _n¨	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131) ~[junit-jupiter-engine-5.7.1.jar:5.7.1]
@@ -351,7 +351,7 @@
 _nì	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.7.1.jar:1.7.1]
 _nì	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126) ~[junit-platform-engine-1.7.1.jar:1.7.1]
 _ná	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84) ~[junit-platform-engine-1.7.1.jar:1.7.1]
-_n<	at java.util.ArrayList.forEach(ArrayList.java:1541) ~[?:?]
+_nD	at java.util.ArrayList.forEach(ArrayList.java:1257) ~[?:1.8.0_181]
 _n√	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38) ~[junit-platform-engine-1.7.1.jar:1.7.1]
 _nú	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143) ~[junit-platform-engine-1.7.1.jar:1.7.1]
 _nì	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.7.1.jar:1.7.1]
@@ -361,7 +361,7 @@
 _nì	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.7.1.jar:1.7.1]
 _nì	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126) ~[junit-platform-engine-1.7.1.jar:1.7.1]
 _ná	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84) ~[junit-platform-engine-1.7.1.jar:1.7.1]
-_n<	at java.util.ArrayList.forEach(ArrayList.java:1541) ~[?:?]
+_nD	at java.util.ArrayList.forEach(ArrayList.java:1257) ~[?:1.8.0_181]
 _n√	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38) ~[junit-platform-engine-1.7.1.jar:1.7.1]
 _nú	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143) ~[junit-platform-engine-1.7.1.jar:1.7.1]
 _nì	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.7.1.jar:1.7.1]
@@ -385,20 +385,20 @@
 _n⁄	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:79) [gradle-testing-junit-platform-6.8.3.jar:6.8.3]
 _n∂	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:75) [gradle-testing-junit-platform-6.8.3.jar:6.8.3]
 _né	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61) [gradle-testing-base-6.8.3.jar:6.8.3]
-_nP	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
-_nb	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
-_nj	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
-_n<	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+_nO	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_181]
+_na	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_181]
+_ni	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_181]
+_nD	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_181]
 _n|	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36) [gradle-messaging-6.8.3.jar:6.8.3]
 _n|	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) [gradle-messaging-6.8.3.jar:6.8.3]
 _nå	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33) [gradle-messaging-6.8.3.jar:6.8.3]
 _nõ	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94) [gradle-messaging-6.8.3.jar:6.8.3]
 _n5	at com.sun.proxy.$Proxy2.stop(Unknown Source) [?:?]
 _n|	at org.gradle.api.internal.tasks.testing.worker.TestWorker.stop(TestWorker.java:133) [gradle-testing-base-6.8.3.jar:6.8.3]
-_nP	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
-_nb	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
-_nj	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
-_n<	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+_nO	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_181]
+_na	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_181]
+_ni	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_181]
+_nD	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_181]
 _n|	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36) [gradle-messaging-6.8.3.jar:6.8.3]
 _n|	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) [gradle-messaging-6.8.3.jar:6.8.3]
 _n¥	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:182) [gradle-messaging-6.8.3.jar:6.8.3]
@@ -406,71 +406,71 @@
 _n{	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:414) [gradle-messaging-6.8.3.jar:6.8.3]
 _ní	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64) [gradle-base-services-6.8.3.jar:6.8.3]
 _nÅ	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48) [gradle-base-services-6.8.3.jar:6.8.3]
-_nZ	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
-_nZ	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+_nb	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_181]
+_nb	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_181]
 _në	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56) [gradle-base-services-6.8.3.jar:6.8.3]
-_n0	at java.lang.Thread.run(Thread.java:834) [?:?]
-utç[EL Info]: 2021-04-26 15:39:46.81--ServerSession(575069879)--EclipseLink, version: Eclipse Persistence Services - 2.7.8.v20201217-ecdf3c32c4
-utï[EL Warning]: metadata: 2021-04-26 15:39:46.811--ServerSession(575069879)--Reverting the lazy setting on the OneToOne or ManyToOne attribute [driversLicense] for the entity class [class org.springframework.orm.jpa.domain.Person] since weaving was not enabled or did not occur.
-utç[EL Fine]: sql: 2021-04-26 15:39:46.819--ServerSession(575069879)--Connection(1419060803)--SELECT * FROM SEQUENCE WHERE SEQ_NAME = 'SEQ_GEN'
-uyw[EL Fine]: sql: 2021-04-26 15:39:46.886--ClientSession(233526455)--Connection(1539707419)--SELECT COUNT(0) FROM person
-uyú[EL Fine]: sql: 2021-04-26 15:39:46.888--ClientSession(233526455)--Connection(1539707419)--UPDATE SEQUENCE SET SEQ_COUNT = SEQ_COUNT + ? WHERE SEQ_NAME = ?
+_n8	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
+uté[EL Info]: 2021-05-01 17:25:24.795--ServerSession(776551806)--EclipseLink, version: Eclipse Persistence Services - 2.7.8.v20201217-ecdf3c32c4
+utï[EL Warning]: metadata: 2021-05-01 17:25:24.796--ServerSession(776551806)--Reverting the lazy setting on the OneToOne or ManyToOne attribute [driversLicense] for the entity class [class org.springframework.orm.jpa.domain.Person] since weaving was not enabled or did not occur.
+utå[EL Fine]: sql: 2021-05-01 17:25:24.813--ServerSession(776551806)--Connection(920996344)--SELECT * FROM SEQUENCE WHERE SEQ_NAME = 'SEQ_GEN'
+uyw[EL Fine]: sql: 2021-05-01 17:25:24.889--ClientSession(1193848350)--Connection(475119312)--SELECT COUNT(0) FROM person
+uyõ[EL Fine]: sql: 2021-05-01 17:25:24.89--ClientSession(1193848350)--Connection(475119312)--UPDATE SEQUENCE SET SEQ_COUNT = SEQ_COUNT + ? WHERE SEQ_NAME = ?
 uy	bind => [50, SEQ_GEN]
-uyç[EL Fine]: sql: 2021-04-26 15:39:46.889--ClientSession(233526455)--Connection(1539707419)--SELECT SEQ_COUNT FROM SEQUENCE WHERE SEQ_NAME = ?
+uyç[EL Fine]: sql: 2021-05-01 17:25:24.891--ClientSession(1193848350)--Connection(475119312)--SELECT SEQ_COUNT FROM SEQUENCE WHERE SEQ_NAME = ?
 uy	bind => [SEQ_GEN]
-uy≤[EL Fine]: sql: 2021-04-26 15:39:46.891--ClientSession(233526455)--Connection(1539707419)--INSERT INTO PERSON (ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID) VALUES (?, ?, ?, ?)
+uy≤[EL Fine]: sql: 2021-05-01 17:25:24.892--ClientSession(1193848350)--Connection(475119312)--INSERT INTO PERSON (ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID) VALUES (?, ?, ?, ?)
 uy!	bind => [51, Tony, Blair, null]
-uyw[EL Fine]: sql: 2021-04-26 15:39:46.892--ClientSession(233526455)--Connection(1539707419)--SELECT COUNT(0) FROM person
-uyw[EL Fine]: sql: 2021-04-26 15:39:46.894--ServerSession(575069879)--Connection(1754770174)--SELECT COUNT(0) FROM person
-u{ú[EL Fine]: sql: 2021-04-26 15:39:46.912--ServerSession(575069879)--Connection(1361861746)--SELECT ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID FROM PERSON
-u|v[EL Fine]: sql: 2021-04-26 15:39:46.916--ClientSession(877702326)--Connection(547145204)--SELECT COUNT(0) FROM person
-u|±[EL Fine]: sql: 2021-04-26 15:39:46.928--ClientSession(877702326)--Connection(547145204)--INSERT INTO PERSON (ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID) VALUES (?, ?, ?, ?)
+uyw[EL Fine]: sql: 2021-05-01 17:25:24.893--ClientSession(1193848350)--Connection(475119312)--SELECT COUNT(0) FROM person
+uyv[EL Fine]: sql: 2021-05-01 17:25:24.895--ServerSession(776551806)--Connection(255042974)--SELECT COUNT(0) FROM person
+u{ú[EL Fine]: sql: 2021-05-01 17:25:24.937--ServerSession(776551806)--Connection(1166743844)--SELECT ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID FROM PERSON
+u|w[EL Fine]: sql: 2021-05-01 17:25:24.944--ClientSession(1956146180)--Connection(216989166)--SELECT COUNT(0) FROM person
+u|≤[EL Fine]: sql: 2021-05-01 17:25:24.946--ClientSession(1956146180)--Connection(216989166)--INSERT INTO PERSON (ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID) VALUES (?, ?, ?, ?)
 u|!	bind => [52, Tony, Blair, null]
-u|v[EL Fine]: sql: 2021-04-26 15:39:46.929--ClientSession(877702326)--Connection(547145204)--SELECT COUNT(0) FROM person
-u|v[EL Fine]: sql: 2021-04-26 15:39:46.931--ServerSession(575069879)--Connection(359507082)--SELECT COUNT(0) FROM person
-u}w[EL Fine]: sql: 2021-04-26 15:39:46.937--ClientSession(736779249)--Connection(1205071220)--SELECT COUNT(0) FROM person
-u}≤[EL Fine]: sql: 2021-04-26 15:39:46.938--ClientSession(736779249)--Connection(1205071220)--INSERT INTO PERSON (ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID) VALUES (?, ?, ?, ?)
+u|w[EL Fine]: sql: 2021-05-01 17:25:24.947--ClientSession(1956146180)--Connection(216989166)--SELECT COUNT(0) FROM person
+u|v[EL Fine]: sql: 2021-05-01 17:25:24.948--ServerSession(776551806)--Connection(354915323)--SELECT COUNT(0) FROM person
+u}w[EL Fine]: sql: 2021-05-01 17:25:24.971--ClientSession(1112201943)--Connection(847291051)--SELECT COUNT(0) FROM person
+u}≤[EL Fine]: sql: 2021-05-01 17:25:24.972--ClientSession(1112201943)--Connection(847291051)--INSERT INTO PERSON (ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID) VALUES (?, ?, ?, ?)
 u}!	bind => [53, Tony, Blair, null]
-u}v[EL Fine]: sql: 2021-04-26 15:39:46.94--ClientSession(736779249)--Connection(1205071220)--SELECT COUNT(0) FROM person
-u}w[EL Fine]: sql: 2021-04-26 15:39:46.942--ClientSession(1956879606)--Connection(713229896)--SELECT COUNT(0) FROM person
-u}≤[EL Fine]: sql: 2021-04-26 15:39:46.943--ClientSession(1956879606)--Connection(713229896)--INSERT INTO PERSON (ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID) VALUES (?, ?, ?, ?)
+u}w[EL Fine]: sql: 2021-05-01 17:25:24.974--ClientSession(1112201943)--Connection(847291051)--SELECT COUNT(0) FROM person
+u}w[EL Fine]: sql: 2021-05-01 17:25:24.977--ClientSession(585658252)--Connection(2119421540)--SELECT COUNT(0) FROM person
+u}≤[EL Fine]: sql: 2021-05-01 17:25:24.979--ClientSession(585658252)--Connection(2119421540)--INSERT INTO PERSON (ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID) VALUES (?, ?, ?, ?)
 u}!	bind => [54, Tony, Blair, null]
-u}w[EL Fine]: sql: 2021-04-26 15:39:46.945--ClientSession(1956879606)--Connection(713229896)--SELECT COUNT(0) FROM person
-u}w[EL Fine]: sql: 2021-04-26 15:39:46.963--ServerSession(575069879)--Connection(1554635294)--SELECT COUNT(0) FROM person
-u~w[EL Fine]: sql: 2021-04-26 15:39:46.967--ClientSession(775788024)--Connection(1590295517)--SELECT COUNT(0) FROM person
-u~≤[EL Fine]: sql: 2021-04-26 15:39:46.968--ClientSession(775788024)--Connection(1590295517)--INSERT INTO PERSON (ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID) VALUES (?, ?, ?, ?)
+u}v[EL Fine]: sql: 2021-05-01 17:25:24.98--ClientSession(585658252)--Connection(2119421540)--SELECT COUNT(0) FROM person
+u}v[EL Fine]: sql: 2021-05-01 17:25:24.982--ServerSession(776551806)--Connection(389170431)--SELECT COUNT(0) FROM person
+u~w[EL Fine]: sql: 2021-05-01 17:25:24.986--ClientSession(484478619)--Connection(1650640393)--SELECT COUNT(0) FROM person
+u~≤[EL Fine]: sql: 2021-05-01 17:25:24.988--ClientSession(484478619)--Connection(1650640393)--INSERT INTO PERSON (ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID) VALUES (?, ?, ?, ?)
 u~!	bind => [55, Tony, Blair, null]
-u~w[EL Fine]: sql: 2021-04-26 15:39:46.969--ClientSession(775788024)--Connection(1590295517)--SELECT COUNT(0) FROM person
-ñïè[EL Info]: 2021-04-26 15:39:47.483--ServerSession(2143053192)--EclipseLink, version: Eclipse Persistence Services - 2.7.8.v20201217-ecdf3c32c4
-ñïñ[EL Warning]: metadata: 2021-04-26 15:39:47.484--ServerSession(2143053192)--Reverting the lazy setting on the OneToOne or ManyToOne attribute [driversLicense] for the entity class [class org.springframework.orm.jpa.domain.Person] since weaving was not enabled or did not occur.
-ñïé[EL Fine]: sql: 2021-04-26 15:39:47.499--ServerSession(2143053192)--Connection(1262941932)--SELECT * FROM SEQUENCE WHERE SEQ_NAME = 'SEQ_GEN'
-ÿ◊é[EL Info]: 2021-04-26 15:39:48.832--ServerSession(913844805)--EclipseLink, version: Eclipse Persistence Services - 2.7.8.v20201217-ecdf3c32c4
-ÿ◊ï[EL Warning]: metadata: 2021-04-26 15:39:48.833--ServerSession(913844805)--Reverting the lazy setting on the OneToOne or ManyToOne attribute [driversLicense] for the entity class [class org.springframework.orm.jpa.domain.Person] since weaving was not enabled or did not occur.
-ÿ◊å[EL Fine]: sql: 2021-04-26 15:39:48.839--ServerSession(913844805)--Connection(511086315)--SELECT * FROM SEQUENCE WHERE SEQ_NAME = 'SEQ_GEN'
-ÿ⁄õ[EL Fine]: sql: 2021-04-26 15:39:48.855--ClientSession(480060556)--Connection(965743082)--UPDATE SEQUENCE SET SEQ_COUNT = SEQ_COUNT + ? WHERE SEQ_NAME = ?
+u~w[EL Fine]: sql: 2021-05-01 17:25:24.989--ClientSession(484478619)--Connection(1650640393)--SELECT COUNT(0) FROM person
+ñïè[EL Info]: 2021-05-01 17:25:25.572--ServerSession(1907363582)--EclipseLink, version: Eclipse Persistence Services - 2.7.8.v20201217-ecdf3c32c4
+ñïñ[EL Warning]: metadata: 2021-05-01 17:25:25.573--ServerSession(1907363582)--Reverting the lazy setting on the OneToOne or ManyToOne attribute [driversLicense] for the entity class [class org.springframework.orm.jpa.domain.Person] since weaving was not enabled or did not occur.
+ñïç[EL Fine]: sql: 2021-05-01 17:25:25.578--ServerSession(1907363582)--Connection(902032018)--SELECT * FROM SEQUENCE WHERE SEQ_NAME = 'SEQ_GEN'
+ÿ◊è[EL Info]: 2021-05-01 17:25:27.041--ServerSession(1390999321)--EclipseLink, version: Eclipse Persistence Services - 2.7.8.v20201217-ecdf3c32c4
+ÿ◊ñ[EL Warning]: metadata: 2021-05-01 17:25:27.042--ServerSession(1390999321)--Reverting the lazy setting on the OneToOne or ManyToOne attribute [driversLicense] for the entity class [class org.springframework.orm.jpa.domain.Person] since weaving was not enabled or did not occur.
+ÿ◊é[EL Fine]: sql: 2021-05-01 17:25:27.048--ServerSession(1390999321)--Connection(1729803950)--SELECT * FROM SEQUENCE WHERE SEQ_NAME = 'SEQ_GEN'
+ÿ⁄ö[EL Fine]: sql: 2021-05-01 17:25:27.06--ClientSession(335242677)--Connection(748289919)--UPDATE SEQUENCE SET SEQ_COUNT = SEQ_COUNT + ? WHERE SEQ_NAME = ?
 ÿ⁄	bind => [50, SEQ_GEN]
-ÿ⁄å[EL Fine]: sql: 2021-04-26 15:39:48.856--ClientSession(480060556)--Connection(965743082)--SELECT SEQ_COUNT FROM SEQUENCE WHERE SEQ_NAME = ?
+ÿ⁄å[EL Fine]: sql: 2021-05-01 17:25:27.061--ClientSession(335242677)--Connection(748289919)--SELECT SEQ_COUNT FROM SEQUENCE WHERE SEQ_NAME = ?
 ÿ⁄	bind => [SEQ_GEN]
-ÿ⁄≤[EL Fine]: sql: 2021-04-26 15:39:48.858--ClientSession(480060556)--Connection(1474270580)--INSERT INTO PERSON (ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID) VALUES (?, ?, ?, ?)
+ÿ⁄±[EL Fine]: sql: 2021-05-01 17:25:27.062--ClientSession(335242677)--Connection(835136292)--INSERT INTO PERSON (ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID) VALUES (?, ?, ?, ?)
 ÿ⁄"	bind => [101, Tony, Blair, null]
-ÿ⁄v[EL Fine]: sql: 2021-04-26 15:39:48.86--ClientSession(480060556)--Connection(1474270580)--SELECT COUNT(0) FROM person
-ÿ⁄v[EL Fine]: sql: 2021-04-26 15:39:48.861--ServerSession(913844805)--Connection(410162563)--SELECT COUNT(0) FROM person
-ÿ€õ[EL Fine]: sql: 2021-04-26 15:39:48.865--ServerSession(913844805)--Connection(483902665)--SELECT ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID FROM PERSON
-ÿ‹n[EL Fine]: sql: 2021-04-26 15:39:48.918--ClientSession(1901294748)--Connection(233165857)--DELETE FROM PERSON
-ÿ›±[EL Fine]: sql: 2021-04-26 15:39:48.935--ClientSession(214715961)--Connection(455789907)--INSERT INTO PERSON (ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID) VALUES (?, ?, ?, ?)
+ÿ⁄v[EL Fine]: sql: 2021-05-01 17:25:27.063--ClientSession(335242677)--Connection(835136292)--SELECT COUNT(0) FROM person
+ÿ⁄w[EL Fine]: sql: 2021-05-01 17:25:27.065--ServerSession(1390999321)--Connection(849888506)--SELECT COUNT(0) FROM person
+ÿ€ú[EL Fine]: sql: 2021-05-01 17:25:27.069--ServerSession(1390999321)--Connection(412271138)--SELECT ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID FROM PERSON
+ÿ‹o[EL Fine]: sql: 2021-05-01 17:25:27.108--ClientSession(1384458989)--Connection(1754361755)--DELETE FROM PERSON
+ÿ›≤[EL Fine]: sql: 2021-05-01 17:25:27.112--ClientSession(2096303421)--Connection(905817146)--INSERT INTO PERSON (ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID) VALUES (?, ?, ?, ?)
 ÿ›"	bind => [103, Tony, Blair, null]
-ÿ›v[EL Fine]: sql: 2021-04-26 15:39:48.937--ClientSession(214715961)--Connection(455789907)--SELECT COUNT(0) FROM person
-ÿ›w[EL Fine]: sql: 2021-04-26 15:39:48.939--ServerSession(913844805)--Connection(2068807864)--SELECT COUNT(0) FROM person
-ÿﬁ≤[EL Fine]: sql: 2021-04-26 15:39:48.943--ClientSession(351030952)--Connection(1024798172)--INSERT INTO PERSON (ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID) VALUES (?, ?, ?, ?)
+ÿ›w[EL Fine]: sql: 2021-05-01 17:25:27.113--ClientSession(2096303421)--Connection(905817146)--SELECT COUNT(0) FROM person
+ÿ›x[EL Fine]: sql: 2021-05-01 17:25:27.114--ServerSession(1390999321)--Connection(1972836800)--SELECT COUNT(0) FROM person
+ÿﬁ≥[EL Fine]: sql: 2021-05-01 17:25:27.124--ClientSession(2040998498)--Connection(1905306130)--INSERT INTO PERSON (ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID) VALUES (?, ?, ?, ?)
 ÿﬁ"	bind => [104, Tony, Blair, null]
-ÿﬁw[EL Fine]: sql: 2021-04-26 15:39:48.948--ClientSession(351030952)--Connection(1024798172)--SELECT COUNT(0) FROM person
-ÿﬁ±[EL Fine]: sql: 2021-04-26 15:39:48.95--ClientSession(759355558)--Connection(1729553644)--INSERT INTO PERSON (ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID) VALUES (?, ?, ?, ?)
+ÿﬁx[EL Fine]: sql: 2021-05-01 17:25:27.125--ClientSession(2040998498)--Connection(1905306130)--SELECT COUNT(0) FROM person
+ÿﬁ≤[EL Fine]: sql: 2021-05-01 17:25:27.127--ClientSession(1505711877)--Connection(885519637)--INSERT INTO PERSON (ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID) VALUES (?, ?, ?, ?)
 ÿﬁ"	bind => [105, Tony, Blair, null]
-ÿﬁw[EL Fine]: sql: 2021-04-26 15:39:48.952--ClientSession(759355558)--Connection(1729553644)--SELECT COUNT(0) FROM person
-ÿﬁv[EL Fine]: sql: 2021-04-26 15:39:48.953--ServerSession(913844805)--Connection(342236520)--SELECT COUNT(0) FROM person
-ÿﬁn[EL Fine]: sql: 2021-04-26 15:39:48.955--ClientSession(759355558)--Connection(1061868880)--DELETE FROM PERSON
-ÿﬁw[EL Fine]: sql: 2021-04-26 15:39:48.957--ClientSession(759355558)--Connection(1061868880)--SELECT COUNT(0) FROM person
-ÿﬂ≥[EL Fine]: sql: 2021-04-26 15:39:48.962--ClientSession(1932817789)--Connection(1898274690)--INSERT INTO PERSON (ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID) VALUES (?, ?, ?, ?)
+ÿﬁw[EL Fine]: sql: 2021-05-01 17:25:27.128--ClientSession(1505711877)--Connection(885519637)--SELECT COUNT(0) FROM person
+ÿﬁw[EL Fine]: sql: 2021-05-01 17:25:27.129--ServerSession(1390999321)--Connection(963306088)--SELECT COUNT(0) FROM person
+ÿﬁl[EL Fine]: sql: 2021-05-01 17:25:27.13--ClientSession(1505711877)--Connection(82303841)--DELETE FROM PERSON
+ÿﬁv[EL Fine]: sql: 2021-05-01 17:25:27.132--ClientSession(1505711877)--Connection(82303841)--SELECT COUNT(0) FROM person
+ÿﬂ≤[EL Fine]: sql: 2021-05-01 17:25:27.135--ClientSession(1214971423)--Connection(199308453)--INSERT INTO PERSON (ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID) VALUES (?, ?, ?, ?)
 ÿﬂ"	bind => [106, Tony, Blair, null]
-ÿﬂx[EL Fine]: sql: 2021-04-26 15:39:48.963--ClientSession(1932817789)--Connection(1898274690)--SELECT COUNT(0) FROM person
-ÁÔö15:39:49.092 [Test worker] WARN  o.s.o.j.p.PersistenceUnitReader - Cannot resolve jar-file entry [order-*.jar] in persistence unit 'pu2' without root URL
+ÿﬂw[EL Fine]: sql: 2021-05-01 17:25:27.136--ClientSession(1214971423)--Connection(199308453)--SELECT COUNT(0) FROM person
+ÁÔö17:25:27.277 [Test worker] WARN  o.s.o.j.p.PersistenceUnitReader - Cannot resolve jar-file entry [order-*.jar] in persistence unit 'pu2' without root URL

@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.messaging.rsocket.RSocketRequesterExtensionsTests" tests="13" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:40:19" hostname="wangweilideMacBook-Pro.local" time="2.82">
+<testsuite name="org.springframework.messaging.rsocket.RSocketRequesterExtensionsTests" tests="13" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:30:06" hostname="wangweilideMBP.lan" time="2.071">
   <properties/>
-  <testcase name="dataWithType with Flow()" classname="org.springframework.messaging.rsocket.RSocketRequesterExtensionsTests" time="0.82"/>
-  <testcase name="dataWithType with CompletableFuture()" classname="org.springframework.messaging.rsocket.RSocketRequesterExtensionsTests" time="0.382"/>
-  <testcase name="dataFlowWithoutType()" classname="org.springframework.messaging.rsocket.RSocketRequesterExtensionsTests" time="0.009"/>
-  <testcase name="connectAndAwait()" classname="org.springframework.messaging.rsocket.RSocketRequesterExtensionsTests" time="0.781"/>
-  <testcase name="dataWithType with Publisher()" classname="org.springframework.messaging.rsocket.RSocketRequesterExtensionsTests" time="0.019"/>
-  <testcase name="retrieveAndAwaitOrNull()" classname="org.springframework.messaging.rsocket.RSocketRequesterExtensionsTests" time="0.009"/>
-  <testcase name="connectWebSocketAndAwait()" classname="org.springframework.messaging.rsocket.RSocketRequesterExtensionsTests" time="0.164"/>
-  <testcase name="sendAndAwait()" classname="org.springframework.messaging.rsocket.RSocketRequesterExtensionsTests" time="0.011"/>
-  <testcase name="retrieveFlow()" classname="org.springframework.messaging.rsocket.RSocketRequesterExtensionsTests" time="0.573"/>
-  <testcase name="retrieveFlux()" classname="org.springframework.messaging.rsocket.RSocketRequesterExtensionsTests" time="0.007"/>
+  <testcase name="dataWithType with Flow()" classname="org.springframework.messaging.rsocket.RSocketRequesterExtensionsTests" time="0.538"/>
+  <testcase name="dataWithType with CompletableFuture()" classname="org.springframework.messaging.rsocket.RSocketRequesterExtensionsTests" time="0.294"/>
+  <testcase name="dataFlowWithoutType()" classname="org.springframework.messaging.rsocket.RSocketRequesterExtensionsTests" time="0.006"/>
+  <testcase name="connectAndAwait()" classname="org.springframework.messaging.rsocket.RSocketRequesterExtensionsTests" time="0.661"/>
+  <testcase name="dataWithType with Publisher()" classname="org.springframework.messaging.rsocket.RSocketRequesterExtensionsTests" time="0.018"/>
+  <testcase name="retrieveAndAwaitOrNull()" classname="org.springframework.messaging.rsocket.RSocketRequesterExtensionsTests" time="0.01"/>
+  <testcase name="connectWebSocketAndAwait()" classname="org.springframework.messaging.rsocket.RSocketRequesterExtensionsTests" time="0.152"/>
+  <testcase name="sendAndAwait()" classname="org.springframework.messaging.rsocket.RSocketRequesterExtensionsTests" time="0.009"/>
+  <testcase name="retrieveFlow()" classname="org.springframework.messaging.rsocket.RSocketRequesterExtensionsTests" time="0.34"/>
+  <testcase name="retrieveFlux()" classname="org.springframework.messaging.rsocket.RSocketRequesterExtensionsTests" time="0.006"/>
   <testcase name="retrieveMono()" classname="org.springframework.messaging.rsocket.RSocketRequesterExtensionsTests" time="0.006"/>
   <testcase name="retrieveAndAwait()" classname="org.springframework.messaging.rsocket.RSocketRequesterExtensionsTests" time="0.006"/>
-  <testcase name="connectTcpAndAwait()" classname="org.springframework.messaging.rsocket.RSocketRequesterExtensionsTests" time="0.012"/>
+  <testcase name="connectTcpAndAwait()" classname="org.springframework.messaging.rsocket.RSocketRequesterExtensionsTests" time="0.011"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

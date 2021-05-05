@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.beans.factory.wiring.BeanWiringInfoTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:39:40" hostname="wangweilideMacBook-Pro.local" time="0.017">
+<testsuite name="org.springframework.beans.factory.wiring.BeanWiringInfoTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:25:25" hostname="wangweilideMBP.lan" time="0.005">
   <properties/>
   <testcase name="ctorWithEmptyBeanName()" classname="org.springframework.beans.factory.wiring.BeanWiringInfoTests" time="0.001"/>
   <testcase name="usingAutowireCtorIndicatesAutowiring()" classname="org.springframework.beans.factory.wiring.BeanWiringInfoTests" time="0.0"/>
-  <testcase name="ctorWithPositiveOutOfRangeAutowiringValue()" classname="org.springframework.beans.factory.wiring.BeanWiringInfoTests" time="0.006"/>
-  <testcase name="noDependencyCheckValueIsPreserved()" classname="org.springframework.beans.factory.wiring.BeanWiringInfoTests" time="0.0"/>
-  <testcase name="ctorWithNullBeanName()" classname="org.springframework.beans.factory.wiring.BeanWiringInfoTests" time="0.005"/>
-  <testcase name="ctorWithWhitespacedBeanName()" classname="org.springframework.beans.factory.wiring.BeanWiringInfoTests" time="0.002"/>
-  <testcase name="ctorWithNegativeIllegalAutowiringValue()" classname="org.springframework.beans.factory.wiring.BeanWiringInfoTests" time="0.0"/>
-  <testcase name="dependencyCheckValueIsPreserved()" classname="org.springframework.beans.factory.wiring.BeanWiringInfoTests" time="0.001"/>
+  <testcase name="ctorWithPositiveOutOfRangeAutowiringValue()" classname="org.springframework.beans.factory.wiring.BeanWiringInfoTests" time="0.0"/>
+  <testcase name="noDependencyCheckValueIsPreserved()" classname="org.springframework.beans.factory.wiring.BeanWiringInfoTests" time="0.001"/>
+  <testcase name="ctorWithNullBeanName()" classname="org.springframework.beans.factory.wiring.BeanWiringInfoTests" time="0.0"/>
+  <testcase name="ctorWithWhitespacedBeanName()" classname="org.springframework.beans.factory.wiring.BeanWiringInfoTests" time="0.001"/>
+  <testcase name="ctorWithNegativeIllegalAutowiringValue()" classname="org.springframework.beans.factory.wiring.BeanWiringInfoTests" time="0.001"/>
+  <testcase name="dependencyCheckValueIsPreserved()" classname="org.springframework.beans.factory.wiring.BeanWiringInfoTests" time="0.0"/>
   <testcase name="usingBeanNameCtorDoesNotIndicateAutowiring()" classname="org.springframework.beans.factory.wiring.BeanWiringInfoTests" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

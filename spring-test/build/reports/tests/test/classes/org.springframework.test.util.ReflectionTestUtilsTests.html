@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.053s</div>
+<div class="counter">0.042s</div>
 <p>duration</p>
 </div>
 </td>
@@ -89,7 +89,7 @@
 </tr>
 <tr>
 <td class="success">getFieldWithNullTargetObject()</td>
-<td class="success">0s</td>
+<td class="success">0.001s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -104,22 +104,22 @@
 </tr>
 <tr>
 <td class="success">invokeGetterMethodOnLegacyEntityWithSideEffectsInToString()</td>
-<td class="success">0.001s</td>
+<td class="success">0s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">invokeInitMethodBeforeAutowiring()</td>
-<td class="success">0.001s</td>
+<td class="success">0s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">invokeMethodOnLegacyEntityWithSideEffectsInToString()</td>
-<td class="success">0.001s</td>
+<td class="success">0s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">invokeMethodSimulatingLifecycleEvents()</td>
-<td class="success">0s</td>
+<td class="success">0.001s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -149,7 +149,7 @@
 </tr>
 <tr>
 <td class="success">invokeMethodWithTooManyArguments()</td>
-<td class="success">0s</td>
+<td class="success">0.001s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -159,7 +159,7 @@
 </tr>
 <tr>
 <td class="success">invokePrivateStaticVoidMethodWithArguments()</td>
-<td class="success">0s</td>
+<td class="success">0.001s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -169,12 +169,12 @@
 </tr>
 <tr>
 <td class="success">invokePublicStaticVoidMethodWithArguments()</td>
-<td class="success">0s</td>
+<td class="success">0.001s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">invokeSetterMethodAndInvokeGetterMethodWithExplicitMethodNames()</td>
-<td class="success">0.003s</td>
+<td class="success">0.001s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -184,7 +184,7 @@
 </tr>
 <tr>
 <td class="success">invokeSetterMethodOnLegacyEntityWithSideEffectsInToString()</td>
-<td class="success">0s</td>
+<td class="success">0.001s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -199,7 +199,7 @@
 </tr>
 <tr>
 <td class="success">invokeSetterMethodWithNullValueForPrimitiveLong()</td>
-<td class="success">0.001s</td>
+<td class="success">0s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -219,12 +219,12 @@
 </tr>
 <tr>
 <td class="success">invokeStaticMethodWithNullTargetClass()</td>
-<td class="success">0s</td>
+<td class="success">0.001s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">invokeStaticMethodWithNullTargetObjectAndNullTargetClass()</td>
-<td class="success">0.001s</td>
+<td class="success">0s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -234,12 +234,12 @@
 </tr>
 <tr>
 <td class="success">setFieldAndGetFieldViaCglibProxy()</td>
-<td class="success">0.014s</td>
+<td class="success">0.012s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">setFieldAndGetFieldViaJdkDynamicProxy()</td>
-<td class="success">0.010s</td>
+<td class="success">0.004s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -254,12 +254,12 @@
 </tr>
 <tr>
 <td class="success">setFieldWithNullNameAndNullType()</td>
-<td class="success">0.001s</td>
+<td class="success">0s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">setFieldWithNullTargetClass()</td>
-<td class="success">0s</td>
+<td class="success">0.001s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -269,7 +269,7 @@
 </tr>
 <tr>
 <td class="success">setFieldWithNullValueForPrimitiveBoolean()</td>
-<td class="success">0.001s</td>
+<td class="success">0s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -294,12 +294,12 @@
 </tr>
 <tr>
 <td class="success">setStaticFieldViaClass()</td>
-<td class="success">0.001s</td>
+<td class="success">0s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">setStaticFieldViaClassWithExplicitType()</td>
-<td class="success">0.001s</td>
+<td class="success">0s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -312,106 +312,106 @@
 <div id="tab1" class="tab">
 <h2>Standard output</h2>
 <span class="code">
-<pre>15:40:57.341 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Invoking method 'privateMethod' on target object [null] or target class [org.springframework.test.util.subpackage.StaticMethods] with arguments {}
-15:40:57.342 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Setting field 'id' of type [long] on target object [[PersonEntity@21c7a342 id = 0, name = [null], age = 0, eyeColor = [null], likesPets = false, favoriteNumber = [null]]] or target class [class org.springframework.test.util.subpackage.PersonEntity] to value [null]
-15:40:57.344 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Invoking method 'subtract' on target object [org.springframework.test.util.subpackage.Component@419ec78f] or target class [null] with arguments {5, 2}
-15:40:57.344 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Setting field 'collaborator' of type [class java.lang.Object] on target of type [org.springframework.test.util.subpackage.LegacyEntity] whose toString() method threw [org.springframework.test.util.subpackage.LegacyEntityException: Invoking toString() on the default collaborator causes an undesirable side effect] or target class [class org.springframework.test.util.subpackage.LegacyEntity] to value [test collaborator]
-15:40:57.345 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Setting field 'age' of type [int] on target object [[PersonEntity@555a6a7c id = 0, name = [null], age = 0, eyeColor = [null], likesPets = false, favoriteNumber = [null]]] or target class [class org.springframework.test.util.subpackage.PersonEntity] to value [null]
-15:40:57.346 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Invoking method 'publicMethod' on target object [null] or target class [org.springframework.test.util.subpackage.StaticMethods] with arguments {}
-15:40:57.346 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Setting field 'name' of type [null] on target object [[PersonEntity@57bd1d35 id = 0, name = [null], age = 0, eyeColor = [null], likesPets = false, favoriteNumber = [null]]] or target class [class org.springframework.test.util.subpackage.PersonEntity] to value [Tom]
-15:40:57.346 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Setting field 'eyeColor' of type [class java.lang.String] on target object [[PersonEntity@57bd1d35 id = 0, name = 'Tom', age = 0, eyeColor = [null], likesPets = false, favoriteNumber = [null]]] or target class [class org.springframework.test.util.subpackage.PersonEntity] to value [blue]
-15:40:57.347 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Setting field 'favoriteNumber' of type [class java.lang.Number] on target object [[PersonEntity@57bd1d35 id = 0, name = 'Tom', age = 0, eyeColor = 'blue', likesPets = false, favoriteNumber = [null]]] or target class [class org.springframework.test.util.subpackage.PersonEntity] to value [3.142857]
-15:40:57.347 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Setting field 'name' of type [class java.lang.String] on target object [[PersonEntity@57bd1d35 id = 0, name = 'Tom', age = 0, eyeColor = 'blue', likesPets = false, favoriteNumber = 3.142857]] or target class [class org.springframework.test.util.subpackage.PersonEntity] to value [null]
-15:40:57.347 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Setting field 'eyeColor' of type [class java.lang.String] on target object [[PersonEntity@57bd1d35 id = 0, name = [null], age = 0, eyeColor = 'blue', likesPets = false, favoriteNumber = 3.142857]] or target class [class org.springframework.test.util.subpackage.PersonEntity] to value [null]
-15:40:57.347 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Setting field 'favoriteNumber' of type [class java.lang.Number] on target object [[PersonEntity@57bd1d35 id = 0, name = [null], age = 0, eyeColor = [null], likesPets = false, favoriteNumber = 3.142857]] or target class [class org.springframework.test.util.subpackage.PersonEntity] to value [null]
-15:40:57.348 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Invoking setter method 'setId' on target object [[PersonEntity@6263424a id = 0, name = [null], age = 0, eyeColor = [null], likesPets = false, favoriteNumber = [null]]] with value [1]
-15:40:57.348 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Invoking setter method 'setName' on target object [[PersonEntity@6263424a id = 1, name = [null], age = 0, eyeColor = [null], likesPets = false, favoriteNumber = [null]]] with value [Jerry]
-15:40:57.348 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Invoking setter method 'setAge' on target object [[PersonEntity@6263424a id = 1, name = 'Jerry', age = 0, eyeColor = [null], likesPets = false, favoriteNumber = [null]]] with value [33]
-15:40:57.348 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Invoking setter method 'setEyeColor' on target object [[PersonEntity@6263424a id = 1, name = 'Jerry', age = 33, eyeColor = [null], likesPets = false, favoriteNumber = [null]]] with value [green]
-15:40:57.348 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Invoking setter method 'setLikesPets' on target object [[PersonEntity@6263424a id = 1, name = 'Jerry', age = 33, eyeColor = 'green', likesPets = false, favoriteNumber = [null]]] with value [false]
-15:40:57.348 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Invoking setter method 'setFavoriteNumber' on target object [[PersonEntity@6263424a id = 1, name = 'Jerry', age = 33, eyeColor = 'green', likesPets = false, favoriteNumber = [null]]] with value [42]
-15:40:57.349 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Invoking getter method 'getId' on target object [[PersonEntity@6263424a id = 1, name = 'Jerry', age = 33, eyeColor = 'green', likesPets = false, favoriteNumber = 42]]
-15:40:57.349 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Invoking getter method 'getName' on target object [[PersonEntity@6263424a id = 1, name = 'Jerry', age = 33, eyeColor = 'green', likesPets = false, favoriteNumber = 42]]
-15:40:57.349 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Invoking getter method 'getAge' on target object [[PersonEntity@6263424a id = 1, name = 'Jerry', age = 33, eyeColor = 'green', likesPets = false, favoriteNumber = 42]]
-15:40:57.349 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Invoking getter method 'getEyeColor' on target object [[PersonEntity@6263424a id = 1, name = 'Jerry', age = 33, eyeColor = 'green', likesPets = false, favoriteNumber = 42]]
-15:40:57.350 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Invoking getter method 'likesPets' on target object [[PersonEntity@6263424a id = 1, name = 'Jerry', age = 33, eyeColor = 'green', likesPets = false, favoriteNumber = 42]]
-15:40:57.350 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Invoking getter method 'getFavoriteNumber' on target object [[PersonEntity@6263424a id = 1, name = 'Jerry', age = 33, eyeColor = 'green', likesPets = false, favoriteNumber = 42]]
-15:40:57.350 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Setting field 'id' of type [long] on target object [[PersonEntity@65845fcc id = 0, name = [null], age = 0, eyeColor = [null], likesPets = false, favoriteNumber = [null]]] or target class [class org.springframework.test.util.subpackage.PersonEntity] to value [99]
-15:40:57.350 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Setting field 'name' of type [null] on target object [[PersonEntity@65845fcc id = 99, name = [null], age = 0, eyeColor = [null], likesPets = false, favoriteNumber = [null]]] or target class [class org.springframework.test.util.subpackage.PersonEntity] to value [Tom]
-15:40:57.350 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Setting field 'age' of type [null] on target object [[PersonEntity@65845fcc id = 99, name = 'Tom', age = 0, eyeColor = [null], likesPets = false, favoriteNumber = [null]]] or target class [class org.springframework.test.util.subpackage.PersonEntity] to value [42]
-15:40:57.351 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Setting field 'eyeColor' of type [class java.lang.String] on target object [[PersonEntity@65845fcc id = 99, name = 'Tom', age = 42, eyeColor = [null], likesPets = false, favoriteNumber = [null]]] or target class [class org.springframework.test.util.subpackage.PersonEntity] to value [blue]
-15:40:57.351 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Setting field 'likesPets' of type [null] on target object [[PersonEntity@65845fcc id = 99, name = 'Tom', age = 42, eyeColor = 'blue', likesPets = false, favoriteNumber = [null]]] or target class [class org.springframework.test.util.subpackage.PersonEntity] to value [true]
-15:40:57.351 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Setting field 'favoriteNumber' of type [class java.lang.Number] on target object [[PersonEntity@65845fcc id = 99, name = 'Tom', age = 42, eyeColor = 'blue', likesPets = true, favoriteNumber = [null]]] or target class [class org.springframework.test.util.subpackage.PersonEntity] to value [3.142857]
-15:40:57.351 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Getting field 'id' from target object [[PersonEntity@65845fcc id = 99, name = 'Tom', age = 42, eyeColor = 'blue', likesPets = true, favoriteNumber = 3.142857]] or target class [class org.springframework.test.util.subpackage.PersonEntity]
-15:40:57.351 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Getting field 'name' from target object [[PersonEntity@65845fcc id = 99, name = 'Tom', age = 42, eyeColor = 'blue', likesPets = true, favoriteNumber = 3.142857]] or target class [class org.springframework.test.util.subpackage.PersonEntity]
-15:40:57.351 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Getting field 'age' from target object [[PersonEntity@65845fcc id = 99, name = 'Tom', age = 42, eyeColor = 'blue', likesPets = true, favoriteNumber = 3.142857]] or target class [class org.springframework.test.util.subpackage.PersonEntity]
-15:40:57.352 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Getting field 'eyeColor' from target object [[PersonEntity@65845fcc id = 99, name = 'Tom', age = 42, eyeColor = 'blue', likesPets = true, favoriteNumber = 3.142857]] or target class [class org.springframework.test.util.subpackage.PersonEntity]
-15:40:57.352 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Getting field 'likesPets' from target object [[PersonEntity@65845fcc id = 99, name = 'Tom', age = 42, eyeColor = 'blue', likesPets = true, favoriteNumber = 3.142857]] or target class [class org.springframework.test.util.subpackage.PersonEntity]
-15:40:57.352 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Getting field 'favoriteNumber' from target object [[PersonEntity@65845fcc id = 99, name = 'Tom', age = 42, eyeColor = 'blue', likesPets = true, favoriteNumber = 3.142857]] or target class [class org.springframework.test.util.subpackage.PersonEntity]
-15:40:57.353 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Invoking getter method 'getCollaborator' on target of type [org.springframework.test.util.subpackage.LegacyEntity] whose toString() method threw [org.springframework.test.util.subpackage.LegacyEntityException: Invoking toString() on the default collaborator causes an undesirable side effect]
-15:40:57.360 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Setting field 'id' of type [long] on target object [[PersonEntity@488a85cd id = 0, name = [null], age = 0, eyeColor = [null], likesPets = false, favoriteNumber = [null]]] or target class [class org.springframework.test.util.subpackage.PersonEntity] to value [99]
-15:40:57.360 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Setting field 'name' of type [null] on target object [[PersonEntity@488a85cd id = 99, name = [null], age = 0, eyeColor = [null], likesPets = false, favoriteNumber = [null]]] or target class [class org.springframework.test.util.subpackage.PersonEntity] to value [Tom]
-15:40:57.361 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Setting field 'age' of type [null] on target object [[PersonEntity@488a85cd id = 99, name = 'Tom', age = 0, eyeColor = [null], likesPets = false, favoriteNumber = [null]]] or target class [class org.springframework.test.util.subpackage.PersonEntity] to value [42]
-15:40:57.361 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Setting field 'eyeColor' of type [class java.lang.String] on target object [[PersonEntity@488a85cd id = 99, name = 'Tom', age = 42, eyeColor = [null], likesPets = false, favoriteNumber = [null]]] or target class [class org.springframework.test.util.subpackage.PersonEntity] to value [blue]
-15:40:57.361 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Setting field 'likesPets' of type [null] on target object [[PersonEntity@488a85cd id = 99, name = 'Tom', age = 42, eyeColor = 'blue', likesPets = false, favoriteNumber = [null]]] or target class [class org.springframework.test.util.subpackage.PersonEntity] to value [true]
-15:40:57.361 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Setting field 'favoriteNumber' of type [class java.lang.Number] on target object [[PersonEntity@488a85cd id = 99, name = 'Tom', age = 42, eyeColor = 'blue', likesPets = true, favoriteNumber = [null]]] or target class [class org.springframework.test.util.subpackage.PersonEntity] to value [3.142857]
-15:40:57.361 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Getting field 'id' from target object [[PersonEntity@488a85cd id = 99, name = 'Tom', age = 42, eyeColor = 'blue', likesPets = true, favoriteNumber = 3.142857]] or target class [class org.springframework.test.util.subpackage.PersonEntity]
-15:40:57.362 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Getting field 'name' from target object [[PersonEntity@488a85cd id = 99, name = 'Tom', age = 42, eyeColor = 'blue', likesPets = true, favoriteNumber = 3.142857]] or target class [class org.springframework.test.util.subpackage.PersonEntity]
-15:40:57.362 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Getting field 'age' from target object [[PersonEntity@488a85cd id = 99, name = 'Tom', age = 42, eyeColor = 'blue', likesPets = true, favoriteNumber = 3.142857]] or target class [class org.springframework.test.util.subpackage.PersonEntity]
-15:40:57.362 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Getting field 'eyeColor' from target object [[PersonEntity@488a85cd id = 99, name = 'Tom', age = 42, eyeColor = 'blue', likesPets = true, favoriteNumber = 3.142857]] or target class [class org.springframework.test.util.subpackage.PersonEntity]
-15:40:57.362 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Getting field 'likesPets' from target object [[PersonEntity@488a85cd id = 99, name = 'Tom', age = 42, eyeColor = 'blue', likesPets = true, favoriteNumber = 3.142857]] or target class [class org.springframework.test.util.subpackage.PersonEntity]
-15:40:57.363 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Getting field 'favoriteNumber' from target object [[PersonEntity@488a85cd id = 99, name = 'Tom', age = 42, eyeColor = 'blue', likesPets = true, favoriteNumber = 3.142857]] or target class [class org.springframework.test.util.subpackage.PersonEntity]
-15:40:57.369 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Invoking method 'add' on target object [org.springframework.test.util.subpackage.Component@3218b9c9] or target class [null] with arguments {[I@2728baef}
-15:40:57.374 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Setting field 'id' of type [long] on target object [[PersonEntity@58ff9a7f id = 0, name = [null], age = 0, eyeColor = [null], likesPets = false, favoriteNumber = [null]]] or target class [class org.springframework.test.util.subpackage.PersonEntity] to value [99]
-15:40:57.375 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Setting field 'name' of type [null] on target object [[PersonEntity@58ff9a7f id = 99, name = [null], age = 0, eyeColor = [null], likesPets = false, favoriteNumber = [null]]] or target class [class org.springframework.test.util.subpackage.PersonEntity] to value [Tom]
-15:40:57.375 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Setting field 'age' of type [null] on target object [[PersonEntity@58ff9a7f id = 99, name = 'Tom', age = 0, eyeColor = [null], likesPets = false, favoriteNumber = [null]]] or target class [class org.springframework.test.util.subpackage.PersonEntity] to value [42]
-15:40:57.376 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Setting field 'eyeColor' of type [class java.lang.String] on target object [[PersonEntity@58ff9a7f id = 99, name = 'Tom', age = 42, eyeColor = [null], likesPets = false, favoriteNumber = [null]]] or target class [class org.springframework.test.util.subpackage.PersonEntity] to value [blue]
-15:40:57.376 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Setting field 'likesPets' of type [null] on target object [[PersonEntity@58ff9a7f id = 99, name = 'Tom', age = 42, eyeColor = 'blue', likesPets = false, favoriteNumber = [null]]] or target class [class org.springframework.test.util.subpackage.PersonEntity] to value [true]
-15:40:57.376 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Setting field 'favoriteNumber' of type [class java.lang.Number] on target object [[PersonEntity@58ff9a7f id = 99, name = 'Tom', age = 42, eyeColor = 'blue', likesPets = true, favoriteNumber = [null]]] or target class [class org.springframework.test.util.subpackage.PersonEntity] to value [3.142857]
-15:40:57.377 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Getting field 'id' from target object [[PersonEntity@58ff9a7f id = 99, name = 'Tom', age = 42, eyeColor = 'blue', likesPets = true, favoriteNumber = 3.142857]] or target class [class org.springframework.test.util.subpackage.PersonEntity]
-15:40:57.377 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Getting field 'name' from target object [[PersonEntity@58ff9a7f id = 99, name = 'Tom', age = 42, eyeColor = 'blue', likesPets = true, favoriteNumber = 3.142857]] or target class [class org.springframework.test.util.subpackage.PersonEntity]
-15:40:57.378 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Getting field 'age' from target object [[PersonEntity@58ff9a7f id = 99, name = 'Tom', age = 42, eyeColor = 'blue', likesPets = true, favoriteNumber = 3.142857]] or target class [class org.springframework.test.util.subpackage.PersonEntity]
-15:40:57.378 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Getting field 'eyeColor' from target object [[PersonEntity@58ff9a7f id = 99, name = 'Tom', age = 42, eyeColor = 'blue', likesPets = true, favoriteNumber = 3.142857]] or target class [class org.springframework.test.util.subpackage.PersonEntity]
-15:40:57.379 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Getting field 'likesPets' from target object [[PersonEntity@58ff9a7f id = 99, name = 'Tom', age = 42, eyeColor = 'blue', likesPets = true, favoriteNumber = 3.142857]] or target class [class org.springframework.test.util.subpackage.PersonEntity]
-15:40:57.379 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Getting field 'favoriteNumber' from target object [[PersonEntity@58ff9a7f id = 99, name = 'Tom', age = 42, eyeColor = 'blue', likesPets = true, favoriteNumber = 3.142857]] or target class [class org.springframework.test.util.subpackage.PersonEntity]
-15:40:57.381 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Invoking setter method 'setName' on target object [[PersonEntity@3aa82b50 id = 0, name = [null], age = 0, eyeColor = [null], likesPets = false, favoriteNumber = [null]]] with value [null]
-15:40:57.381 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Invoking setter method 'setEyeColor' on target object [[PersonEntity@3aa82b50 id = 0, name = [null], age = 0, eyeColor = [null], likesPets = false, favoriteNumber = [null]]] with value [null]
-15:40:57.381 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Invoking setter method 'setFavoriteNumber' on target object [[PersonEntity@3aa82b50 id = 0, name = [null], age = 0, eyeColor = [null], likesPets = false, favoriteNumber = [null]]] with value [null]
-15:40:57.382 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Setting field 'publicField' of type [class java.lang.String] on target object [null] or target class [class org.springframework.test.util.subpackage.StaticFields] to value [xxx]
-15:40:57.382 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Setting field 'privateField' of type [class java.lang.String] on target object [null] or target class [class org.springframework.test.util.subpackage.StaticFields] to value [yyy]
-15:40:57.383 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Invoking setter method 'setCollaborator' on target of type [org.springframework.test.util.subpackage.LegacyEntity] whose toString() method threw [org.springframework.test.util.subpackage.LegacyEntityException: Invoking toString() on the default collaborator causes an undesirable side effect] with value [test collaborator]
-15:40:57.383 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Invoking setter method 'setId' on target object [[PersonEntity@d14e9b3 id = 0, name = [null], age = 0, eyeColor = [null], likesPets = false, favoriteNumber = [null]]] with value [null]
-15:40:57.384 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Invoking method 'publicMethod' on target object [null] or target class [org.springframework.test.util.subpackage.StaticMethods] with arguments {test collaborator}
-15:40:57.386 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Invoking method 'configure' on target of type [org.springframework.test.util.subpackage.LegacyEntity] whose toString() method threw [org.springframework.test.util.subpackage.LegacyEntityException: Invoking toString() on the default collaborator causes an undesirable side effect] or target class [null] with arguments {42, enigma}
-15:40:57.386 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Invoking method 'privateMethod' on target object [null] or target class [org.springframework.test.util.subpackage.StaticMethods] with arguments {test collaborator}
-15:40:57.387 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Invoking method 'init' on target object [org.springframework.test.util.subpackage.Component@5a2deee3] or target class [null] with arguments {}
-15:40:57.388 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Invoking setter method 'setLikesPets' on target object [[PersonEntity@b167d03 id = 0, name = [null], age = 0, eyeColor = [null], likesPets = false, favoriteNumber = [null]]] with value [null]
-15:40:57.388 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Getting field 'publicField' from target object [null] or target class [class org.springframework.test.util.subpackage.StaticFields]
-15:40:57.388 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Getting field 'privateField' from target object [null] or target class [class org.springframework.test.util.subpackage.StaticFields]
-15:40:57.389 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Getting field 'collaborator' from target of type [org.springframework.test.util.subpackage.LegacyEntity] whose toString() method threw [org.springframework.test.util.subpackage.LegacyEntityException: Invoking toString() on the default collaborator causes an undesirable side effect] or target class [class org.springframework.test.util.subpackage.LegacyEntity]
-15:40:57.389 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Getting field 'publicField' from target object [org.springframework.test.util.subpackage.StaticFields@3860c667] or target class [class org.springframework.test.util.subpackage.StaticFields]
-15:40:57.390 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Getting field 'privateField' from target object [org.springframework.test.util.subpackage.StaticFields@3860c667] or target class [class org.springframework.test.util.subpackage.StaticFields]
-15:40:57.391 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Setting field 'publicField' of type [null] on target object [org.springframework.test.util.subpackage.StaticFields@177180f6] or target class [class org.springframework.test.util.subpackage.StaticFields] to value [xxx]
-15:40:57.391 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Setting field 'privateField' of type [null] on target object [org.springframework.test.util.subpackage.StaticFields@177180f6] or target class [class org.springframework.test.util.subpackage.StaticFields] to value [yyy]
-15:40:57.392 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Invoking setter method 'setId' on target object [[PersonEntity@71a525e4 id = 0, name = [null], age = 0, eyeColor = [null], likesPets = false, favoriteNumber = [null]]] with value [99]
-15:40:57.393 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Invoking setter method 'setName' on target object [[PersonEntity@71a525e4 id = 99, name = [null], age = 0, eyeColor = [null], likesPets = false, favoriteNumber = [null]]] with value [Tom]
-15:40:57.393 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Invoking setter method 'setAge' on target object [[PersonEntity@71a525e4 id = 99, name = 'Tom', age = 0, eyeColor = [null], likesPets = false, favoriteNumber = [null]]] with value [42]
-15:40:57.393 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Invoking setter method 'setEyeColor' on target object [[PersonEntity@71a525e4 id = 99, name = 'Tom', age = 42, eyeColor = [null], likesPets = false, favoriteNumber = [null]]] with value [blue]
-15:40:57.393 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Invoking setter method 'setLikesPets' on target object [[PersonEntity@71a525e4 id = 99, name = 'Tom', age = 42, eyeColor = 'blue', likesPets = false, favoriteNumber = [null]]] with value [true]
-15:40:57.393 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Invoking setter method 'setFavoriteNumber' on target object [[PersonEntity@71a525e4 id = 99, name = 'Tom', age = 42, eyeColor = 'blue', likesPets = true, favoriteNumber = [null]]] with value [3.142857]
-15:40:57.393 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Invoking getter method 'getId' on target object [[PersonEntity@71a525e4 id = 99, name = 'Tom', age = 42, eyeColor = 'blue', likesPets = true, favoriteNumber = 3.142857]]
-15:40:57.394 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Invoking getter method 'getName' on target object [[PersonEntity@71a525e4 id = 99, name = 'Tom', age = 42, eyeColor = 'blue', likesPets = true, favoriteNumber = 3.142857]]
-15:40:57.394 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Invoking getter method 'getAge' on target object [[PersonEntity@71a525e4 id = 99, name = 'Tom', age = 42, eyeColor = 'blue', likesPets = true, favoriteNumber = 3.142857]]
-15:40:57.394 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Invoking getter method 'getEyeColor' on target object [[PersonEntity@71a525e4 id = 99, name = 'Tom', age = 42, eyeColor = 'blue', likesPets = true, favoriteNumber = 3.142857]]
-15:40:57.394 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Invoking getter method 'likesPets' on target object [[PersonEntity@71a525e4 id = 99, name = 'Tom', age = 42, eyeColor = 'blue', likesPets = true, favoriteNumber = 3.142857]]
-15:40:57.394 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Invoking getter method 'getFavoriteNumber' on target object [[PersonEntity@71a525e4 id = 99, name = 'Tom', age = 42, eyeColor = 'blue', likesPets = true, favoriteNumber = 3.142857]]
-15:40:57.396 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Setting field 'publicField' of type [null] on target object [null] or target class [class org.springframework.test.util.subpackage.StaticFields] to value [xxx]
-15:40:57.396 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Setting field 'privateField' of type [null] on target object [null] or target class [class org.springframework.test.util.subpackage.StaticFields] to value [yyy]
-15:40:57.396 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Invoking setter method 'setAge' on target object [[PersonEntity@7691427f id = 0, name = [null], age = 0, eyeColor = [null], likesPets = false, favoriteNumber = [null]]] with value [null]
-15:40:57.398 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Setting field 'likesPets' of type [boolean] on target object [[PersonEntity@23323c54 id = 0, name = [null], age = 0, eyeColor = [null], likesPets = false, favoriteNumber = [null]]] or target class [class org.springframework.test.util.subpackage.PersonEntity] to value [null]
-15:40:57.399 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Invoking method 'configure' on target object [org.springframework.test.util.subpackage.Component@3fded75c] or target class [null] with arguments {42, enigma}
-15:40:57.399 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Invoking method 'init' on target object [org.springframework.test.util.subpackage.Component@3fded75c] or target class [null] with arguments {}
-15:40:57.400 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Invoking method 'destroy' on target object [org.springframework.test.util.subpackage.Component@3fded75c] or target class [null] with arguments {}
+<pre>17:42:49.850 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Invoking method 'privateMethod' on target object [null] or target class [org.springframework.test.util.subpackage.StaticMethods] with arguments {}
+17:42:49.851 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Setting field 'id' of type [long] on target object [[PersonEntity@3ff4b25e id = 0, name = [null], age = 0, eyeColor = [null], likesPets = false, favoriteNumber = [null]]] or target class [class org.springframework.test.util.subpackage.PersonEntity] to value [null]
+17:42:49.852 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Invoking method 'subtract' on target object [org.springframework.test.util.subpackage.Component@7124c3fe] or target class [null] with arguments {5, 2}
+17:42:49.853 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Setting field 'collaborator' of type [class java.lang.Object] on target of type [org.springframework.test.util.subpackage.LegacyEntity] whose toString() method threw [org.springframework.test.util.subpackage.LegacyEntityException: Invoking toString() on the default collaborator causes an undesirable side effect] or target class [class org.springframework.test.util.subpackage.LegacyEntity] to value [test collaborator]
+17:42:49.854 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Setting field 'age' of type [int] on target object [[PersonEntity@2c75063e id = 0, name = [null], age = 0, eyeColor = [null], likesPets = false, favoriteNumber = [null]]] or target class [class org.springframework.test.util.subpackage.PersonEntity] to value [null]
+17:42:49.855 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Invoking method 'publicMethod' on target object [null] or target class [org.springframework.test.util.subpackage.StaticMethods] with arguments {}
+17:42:49.855 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Setting field 'name' of type [null] on target object [[PersonEntity@32b516c9 id = 0, name = [null], age = 0, eyeColor = [null], likesPets = false, favoriteNumber = [null]]] or target class [class org.springframework.test.util.subpackage.PersonEntity] to value [Tom]
+17:42:49.856 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Setting field 'eyeColor' of type [class java.lang.String] on target object [[PersonEntity@32b516c9 id = 0, name = 'Tom', age = 0, eyeColor = [null], likesPets = false, favoriteNumber = [null]]] or target class [class org.springframework.test.util.subpackage.PersonEntity] to value [blue]
+17:42:49.856 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Setting field 'favoriteNumber' of type [class java.lang.Number] on target object [[PersonEntity@32b516c9 id = 0, name = 'Tom', age = 0, eyeColor = 'blue', likesPets = false, favoriteNumber = [null]]] or target class [class org.springframework.test.util.subpackage.PersonEntity] to value [3.142857]
+17:42:49.856 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Setting field 'name' of type [class java.lang.String] on target object [[PersonEntity@32b516c9 id = 0, name = 'Tom', age = 0, eyeColor = 'blue', likesPets = false, favoriteNumber = 3.142857]] or target class [class org.springframework.test.util.subpackage.PersonEntity] to value [null]
+17:42:49.856 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Setting field 'eyeColor' of type [class java.lang.String] on target object [[PersonEntity@32b516c9 id = 0, name = [null], age = 0, eyeColor = 'blue', likesPets = false, favoriteNumber = 3.142857]] or target class [class org.springframework.test.util.subpackage.PersonEntity] to value [null]
+17:42:49.856 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Setting field 'favoriteNumber' of type [class java.lang.Number] on target object [[PersonEntity@32b516c9 id = 0, name = [null], age = 0, eyeColor = [null], likesPets = false, favoriteNumber = 3.142857]] or target class [class org.springframework.test.util.subpackage.PersonEntity] to value [null]
+17:42:49.857 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Invoking setter method 'setId' on target object [[PersonEntity@e073406 id = 0, name = [null], age = 0, eyeColor = [null], likesPets = false, favoriteNumber = [null]]] with value [1]
+17:42:49.857 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Invoking setter method 'setName' on target object [[PersonEntity@e073406 id = 1, name = [null], age = 0, eyeColor = [null], likesPets = false, favoriteNumber = [null]]] with value [Jerry]
+17:42:49.857 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Invoking setter method 'setAge' on target object [[PersonEntity@e073406 id = 1, name = 'Jerry', age = 0, eyeColor = [null], likesPets = false, favoriteNumber = [null]]] with value [33]
+17:42:49.857 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Invoking setter method 'setEyeColor' on target object [[PersonEntity@e073406 id = 1, name = 'Jerry', age = 33, eyeColor = [null], likesPets = false, favoriteNumber = [null]]] with value [green]
+17:42:49.857 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Invoking setter method 'setLikesPets' on target object [[PersonEntity@e073406 id = 1, name = 'Jerry', age = 33, eyeColor = 'green', likesPets = false, favoriteNumber = [null]]] with value [false]
+17:42:49.857 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Invoking setter method 'setFavoriteNumber' on target object [[PersonEntity@e073406 id = 1, name = 'Jerry', age = 33, eyeColor = 'green', likesPets = false, favoriteNumber = [null]]] with value [42]
+17:42:49.857 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Invoking getter method 'getId' on target object [[PersonEntity@e073406 id = 1, name = 'Jerry', age = 33, eyeColor = 'green', likesPets = false, favoriteNumber = 42]]
+17:42:49.858 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Invoking getter method 'getName' on target object [[PersonEntity@e073406 id = 1, name = 'Jerry', age = 33, eyeColor = 'green', likesPets = false, favoriteNumber = 42]]
+17:42:49.858 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Invoking getter method 'getAge' on target object [[PersonEntity@e073406 id = 1, name = 'Jerry', age = 33, eyeColor = 'green', likesPets = false, favoriteNumber = 42]]
+17:42:49.858 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Invoking getter method 'getEyeColor' on target object [[PersonEntity@e073406 id = 1, name = 'Jerry', age = 33, eyeColor = 'green', likesPets = false, favoriteNumber = 42]]
+17:42:49.858 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Invoking getter method 'likesPets' on target object [[PersonEntity@e073406 id = 1, name = 'Jerry', age = 33, eyeColor = 'green', likesPets = false, favoriteNumber = 42]]
+17:42:49.858 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Invoking getter method 'getFavoriteNumber' on target object [[PersonEntity@e073406 id = 1, name = 'Jerry', age = 33, eyeColor = 'green', likesPets = false, favoriteNumber = 42]]
+17:42:49.858 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Setting field 'id' of type [long] on target object [[PersonEntity@a47870e id = 0, name = [null], age = 0, eyeColor = [null], likesPets = false, favoriteNumber = [null]]] or target class [class org.springframework.test.util.subpackage.PersonEntity] to value [99]
+17:42:49.858 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Setting field 'name' of type [null] on target object [[PersonEntity@a47870e id = 99, name = [null], age = 0, eyeColor = [null], likesPets = false, favoriteNumber = [null]]] or target class [class org.springframework.test.util.subpackage.PersonEntity] to value [Tom]
+17:42:49.858 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Setting field 'age' of type [null] on target object [[PersonEntity@a47870e id = 99, name = 'Tom', age = 0, eyeColor = [null], likesPets = false, favoriteNumber = [null]]] or target class [class org.springframework.test.util.subpackage.PersonEntity] to value [42]
+17:42:49.859 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Setting field 'eyeColor' of type [class java.lang.String] on target object [[PersonEntity@a47870e id = 99, name = 'Tom', age = 42, eyeColor = [null], likesPets = false, favoriteNumber = [null]]] or target class [class org.springframework.test.util.subpackage.PersonEntity] to value [blue]
+17:42:49.859 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Setting field 'likesPets' of type [null] on target object [[PersonEntity@a47870e id = 99, name = 'Tom', age = 42, eyeColor = 'blue', likesPets = false, favoriteNumber = [null]]] or target class [class org.springframework.test.util.subpackage.PersonEntity] to value [true]
+17:42:49.859 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Setting field 'favoriteNumber' of type [class java.lang.Number] on target object [[PersonEntity@a47870e id = 99, name = 'Tom', age = 42, eyeColor = 'blue', likesPets = true, favoriteNumber = [null]]] or target class [class org.springframework.test.util.subpackage.PersonEntity] to value [3.142857]
+17:42:49.859 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Getting field 'id' from target object [[PersonEntity@a47870e id = 99, name = 'Tom', age = 42, eyeColor = 'blue', likesPets = true, favoriteNumber = 3.142857]] or target class [class org.springframework.test.util.subpackage.PersonEntity]
+17:42:49.859 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Getting field 'name' from target object [[PersonEntity@a47870e id = 99, name = 'Tom', age = 42, eyeColor = 'blue', likesPets = true, favoriteNumber = 3.142857]] or target class [class org.springframework.test.util.subpackage.PersonEntity]
+17:42:49.859 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Getting field 'age' from target object [[PersonEntity@a47870e id = 99, name = 'Tom', age = 42, eyeColor = 'blue', likesPets = true, favoriteNumber = 3.142857]] or target class [class org.springframework.test.util.subpackage.PersonEntity]
+17:42:49.859 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Getting field 'eyeColor' from target object [[PersonEntity@a47870e id = 99, name = 'Tom', age = 42, eyeColor = 'blue', likesPets = true, favoriteNumber = 3.142857]] or target class [class org.springframework.test.util.subpackage.PersonEntity]
+17:42:49.860 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Getting field 'likesPets' from target object [[PersonEntity@a47870e id = 99, name = 'Tom', age = 42, eyeColor = 'blue', likesPets = true, favoriteNumber = 3.142857]] or target class [class org.springframework.test.util.subpackage.PersonEntity]
+17:42:49.860 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Getting field 'favoriteNumber' from target object [[PersonEntity@a47870e id = 99, name = 'Tom', age = 42, eyeColor = 'blue', likesPets = true, favoriteNumber = 3.142857]] or target class [class org.springframework.test.util.subpackage.PersonEntity]
+17:42:49.860 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Invoking getter method 'getCollaborator' on target of type [org.springframework.test.util.subpackage.LegacyEntity] whose toString() method threw [org.springframework.test.util.subpackage.LegacyEntityException: Invoking toString() on the default collaborator causes an undesirable side effect]
+17:42:49.867 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Setting field 'id' of type [long] on target object [[PersonEntity@491c072f id = 0, name = [null], age = 0, eyeColor = [null], likesPets = false, favoriteNumber = [null]]] or target class [class org.springframework.test.util.subpackage.PersonEntity] to value [99]
+17:42:49.867 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Setting field 'name' of type [null] on target object [[PersonEntity@491c072f id = 99, name = [null], age = 0, eyeColor = [null], likesPets = false, favoriteNumber = [null]]] or target class [class org.springframework.test.util.subpackage.PersonEntity] to value [Tom]
+17:42:49.867 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Setting field 'age' of type [null] on target object [[PersonEntity@491c072f id = 99, name = 'Tom', age = 0, eyeColor = [null], likesPets = false, favoriteNumber = [null]]] or target class [class org.springframework.test.util.subpackage.PersonEntity] to value [42]
+17:42:49.867 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Setting field 'eyeColor' of type [class java.lang.String] on target object [[PersonEntity@491c072f id = 99, name = 'Tom', age = 42, eyeColor = [null], likesPets = false, favoriteNumber = [null]]] or target class [class org.springframework.test.util.subpackage.PersonEntity] to value [blue]
+17:42:49.867 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Setting field 'likesPets' of type [null] on target object [[PersonEntity@491c072f id = 99, name = 'Tom', age = 42, eyeColor = 'blue', likesPets = false, favoriteNumber = [null]]] or target class [class org.springframework.test.util.subpackage.PersonEntity] to value [true]
+17:42:49.867 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Setting field 'favoriteNumber' of type [class java.lang.Number] on target object [[PersonEntity@491c072f id = 99, name = 'Tom', age = 42, eyeColor = 'blue', likesPets = true, favoriteNumber = [null]]] or target class [class org.springframework.test.util.subpackage.PersonEntity] to value [3.142857]
+17:42:49.868 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Getting field 'id' from target object [[PersonEntity@491c072f id = 99, name = 'Tom', age = 42, eyeColor = 'blue', likesPets = true, favoriteNumber = 3.142857]] or target class [class org.springframework.test.util.subpackage.PersonEntity]
+17:42:49.868 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Getting field 'name' from target object [[PersonEntity@491c072f id = 99, name = 'Tom', age = 42, eyeColor = 'blue', likesPets = true, favoriteNumber = 3.142857]] or target class [class org.springframework.test.util.subpackage.PersonEntity]
+17:42:49.868 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Getting field 'age' from target object [[PersonEntity@491c072f id = 99, name = 'Tom', age = 42, eyeColor = 'blue', likesPets = true, favoriteNumber = 3.142857]] or target class [class org.springframework.test.util.subpackage.PersonEntity]
+17:42:49.868 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Getting field 'eyeColor' from target object [[PersonEntity@491c072f id = 99, name = 'Tom', age = 42, eyeColor = 'blue', likesPets = true, favoriteNumber = 3.142857]] or target class [class org.springframework.test.util.subpackage.PersonEntity]
+17:42:49.868 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Getting field 'likesPets' from target object [[PersonEntity@491c072f id = 99, name = 'Tom', age = 42, eyeColor = 'blue', likesPets = true, favoriteNumber = 3.142857]] or target class [class org.springframework.test.util.subpackage.PersonEntity]
+17:42:49.868 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Getting field 'favoriteNumber' from target object [[PersonEntity@491c072f id = 99, name = 'Tom', age = 42, eyeColor = 'blue', likesPets = true, favoriteNumber = 3.142857]] or target class [class org.springframework.test.util.subpackage.PersonEntity]
+17:42:49.873 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Invoking method 'add' on target object [org.springframework.test.util.subpackage.Component@18dd4cf8] or target class [null] with arguments {[I@3392b6f1}
+17:42:49.876 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Setting field 'id' of type [long] on target object [[PersonEntity@61b7ae5f id = 0, name = [null], age = 0, eyeColor = [null], likesPets = false, favoriteNumber = [null]]] or target class [class org.springframework.test.util.subpackage.PersonEntity] to value [99]
+17:42:49.876 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Setting field 'name' of type [null] on target object [[PersonEntity@61b7ae5f id = 99, name = [null], age = 0, eyeColor = [null], likesPets = false, favoriteNumber = [null]]] or target class [class org.springframework.test.util.subpackage.PersonEntity] to value [Tom]
+17:42:49.876 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Setting field 'age' of type [null] on target object [[PersonEntity@61b7ae5f id = 99, name = 'Tom', age = 0, eyeColor = [null], likesPets = false, favoriteNumber = [null]]] or target class [class org.springframework.test.util.subpackage.PersonEntity] to value [42]
+17:42:49.876 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Setting field 'eyeColor' of type [class java.lang.String] on target object [[PersonEntity@61b7ae5f id = 99, name = 'Tom', age = 42, eyeColor = [null], likesPets = false, favoriteNumber = [null]]] or target class [class org.springframework.test.util.subpackage.PersonEntity] to value [blue]
+17:42:49.876 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Setting field 'likesPets' of type [null] on target object [[PersonEntity@61b7ae5f id = 99, name = 'Tom', age = 42, eyeColor = 'blue', likesPets = false, favoriteNumber = [null]]] or target class [class org.springframework.test.util.subpackage.PersonEntity] to value [true]
+17:42:49.877 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Setting field 'favoriteNumber' of type [class java.lang.Number] on target object [[PersonEntity@61b7ae5f id = 99, name = 'Tom', age = 42, eyeColor = 'blue', likesPets = true, favoriteNumber = [null]]] or target class [class org.springframework.test.util.subpackage.PersonEntity] to value [3.142857]
+17:42:49.877 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Getting field 'id' from target object [[PersonEntity@61b7ae5f id = 99, name = 'Tom', age = 42, eyeColor = 'blue', likesPets = true, favoriteNumber = 3.142857]] or target class [class org.springframework.test.util.subpackage.PersonEntity]
+17:42:49.877 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Getting field 'name' from target object [[PersonEntity@61b7ae5f id = 99, name = 'Tom', age = 42, eyeColor = 'blue', likesPets = true, favoriteNumber = 3.142857]] or target class [class org.springframework.test.util.subpackage.PersonEntity]
+17:42:49.877 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Getting field 'age' from target object [[PersonEntity@61b7ae5f id = 99, name = 'Tom', age = 42, eyeColor = 'blue', likesPets = true, favoriteNumber = 3.142857]] or target class [class org.springframework.test.util.subpackage.PersonEntity]
+17:42:49.877 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Getting field 'eyeColor' from target object [[PersonEntity@61b7ae5f id = 99, name = 'Tom', age = 42, eyeColor = 'blue', likesPets = true, favoriteNumber = 3.142857]] or target class [class org.springframework.test.util.subpackage.PersonEntity]
+17:42:49.878 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Getting field 'likesPets' from target object [[PersonEntity@61b7ae5f id = 99, name = 'Tom', age = 42, eyeColor = 'blue', likesPets = true, favoriteNumber = 3.142857]] or target class [class org.springframework.test.util.subpackage.PersonEntity]
+17:42:49.878 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Getting field 'favoriteNumber' from target object [[PersonEntity@61b7ae5f id = 99, name = 'Tom', age = 42, eyeColor = 'blue', likesPets = true, favoriteNumber = 3.142857]] or target class [class org.springframework.test.util.subpackage.PersonEntity]
+17:42:49.879 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Invoking setter method 'setName' on target object [[PersonEntity@7e2162e9 id = 0, name = [null], age = 0, eyeColor = [null], likesPets = false, favoriteNumber = [null]]] with value [null]
+17:42:49.879 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Invoking setter method 'setEyeColor' on target object [[PersonEntity@7e2162e9 id = 0, name = [null], age = 0, eyeColor = [null], likesPets = false, favoriteNumber = [null]]] with value [null]
+17:42:49.880 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Invoking setter method 'setFavoriteNumber' on target object [[PersonEntity@7e2162e9 id = 0, name = [null], age = 0, eyeColor = [null], likesPets = false, favoriteNumber = [null]]] with value [null]
+17:42:49.880 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Setting field 'publicField' of type [class java.lang.String] on target object [null] or target class [class org.springframework.test.util.subpackage.StaticFields] to value [xxx]
+17:42:49.880 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Setting field 'privateField' of type [class java.lang.String] on target object [null] or target class [class org.springframework.test.util.subpackage.StaticFields] to value [yyy]
+17:42:49.881 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Invoking setter method 'setCollaborator' on target of type [org.springframework.test.util.subpackage.LegacyEntity] whose toString() method threw [org.springframework.test.util.subpackage.LegacyEntityException: Invoking toString() on the default collaborator causes an undesirable side effect] with value [test collaborator]
+17:42:49.881 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Invoking setter method 'setId' on target object [[PersonEntity@50627031 id = 0, name = [null], age = 0, eyeColor = [null], likesPets = false, favoriteNumber = [null]]] with value [null]
+17:42:49.882 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Invoking method 'publicMethod' on target object [null] or target class [org.springframework.test.util.subpackage.StaticMethods] with arguments {test collaborator}
+17:42:49.883 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Invoking method 'configure' on target of type [org.springframework.test.util.subpackage.LegacyEntity] whose toString() method threw [org.springframework.test.util.subpackage.LegacyEntityException: Invoking toString() on the default collaborator causes an undesirable side effect] or target class [null] with arguments {42, enigma}
+17:42:49.883 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Invoking method 'privateMethod' on target object [null] or target class [org.springframework.test.util.subpackage.StaticMethods] with arguments {test collaborator}
+17:42:49.884 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Invoking method 'init' on target object [org.springframework.test.util.subpackage.Component@6b2e979c] or target class [null] with arguments {}
+17:42:49.885 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Invoking setter method 'setLikesPets' on target object [[PersonEntity@6a5c9a7b id = 0, name = [null], age = 0, eyeColor = [null], likesPets = false, favoriteNumber = [null]]] with value [null]
+17:42:49.885 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Getting field 'publicField' from target object [null] or target class [class org.springframework.test.util.subpackage.StaticFields]
+17:42:49.885 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Getting field 'privateField' from target object [null] or target class [class org.springframework.test.util.subpackage.StaticFields]
+17:42:49.886 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Getting field 'collaborator' from target of type [org.springframework.test.util.subpackage.LegacyEntity] whose toString() method threw [org.springframework.test.util.subpackage.LegacyEntityException: Invoking toString() on the default collaborator causes an undesirable side effect] or target class [class org.springframework.test.util.subpackage.LegacyEntity]
+17:42:49.886 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Getting field 'publicField' from target object [org.springframework.test.util.subpackage.StaticFields@2949196e] or target class [class org.springframework.test.util.subpackage.StaticFields]
+17:42:49.886 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Getting field 'privateField' from target object [org.springframework.test.util.subpackage.StaticFields@2949196e] or target class [class org.springframework.test.util.subpackage.StaticFields]
+17:42:49.887 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Setting field 'publicField' of type [null] on target object [org.springframework.test.util.subpackage.StaticFields@6082e6b1] or target class [class org.springframework.test.util.subpackage.StaticFields] to value [xxx]
+17:42:49.887 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Setting field 'privateField' of type [null] on target object [org.springframework.test.util.subpackage.StaticFields@6082e6b1] or target class [class org.springframework.test.util.subpackage.StaticFields] to value [yyy]
+17:42:49.888 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Invoking setter method 'setId' on target object [[PersonEntity@5b4b771b id = 0, name = [null], age = 0, eyeColor = [null], likesPets = false, favoriteNumber = [null]]] with value [99]
+17:42:49.889 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Invoking setter method 'setName' on target object [[PersonEntity@5b4b771b id = 99, name = [null], age = 0, eyeColor = [null], likesPets = false, favoriteNumber = [null]]] with value [Tom]
+17:42:49.889 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Invoking setter method 'setAge' on target object [[PersonEntity@5b4b771b id = 99, name = 'Tom', age = 0, eyeColor = [null], likesPets = false, favoriteNumber = [null]]] with value [42]
+17:42:49.889 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Invoking setter method 'setEyeColor' on target object [[PersonEntity@5b4b771b id = 99, name = 'Tom', age = 42, eyeColor = [null], likesPets = false, favoriteNumber = [null]]] with value [blue]
+17:42:49.889 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Invoking setter method 'setLikesPets' on target object [[PersonEntity@5b4b771b id = 99, name = 'Tom', age = 42, eyeColor = 'blue', likesPets = false, favoriteNumber = [null]]] with value [true]
+17:42:49.889 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Invoking setter method 'setFavoriteNumber' on target object [[PersonEntity@5b4b771b id = 99, name = 'Tom', age = 42, eyeColor = 'blue', likesPets = true, favoriteNumber = [null]]] with value [3.142857]
+17:42:49.889 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Invoking getter method 'getId' on target object [[PersonEntity@5b4b771b id = 99, name = 'Tom', age = 42, eyeColor = 'blue', likesPets = true, favoriteNumber = 3.142857]]
+17:42:49.889 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Invoking getter method 'getName' on target object [[PersonEntity@5b4b771b id = 99, name = 'Tom', age = 42, eyeColor = 'blue', likesPets = true, favoriteNumber = 3.142857]]
+17:42:49.890 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Invoking getter method 'getAge' on target object [[PersonEntity@5b4b771b id = 99, name = 'Tom', age = 42, eyeColor = 'blue', likesPets = true, favoriteNumber = 3.142857]]
+17:42:49.890 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Invoking getter method 'getEyeColor' on target object [[PersonEntity@5b4b771b id = 99, name = 'Tom', age = 42, eyeColor = 'blue', likesPets = true, favoriteNumber = 3.142857]]
+17:42:49.890 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Invoking getter method 'likesPets' on target object [[PersonEntity@5b4b771b id = 99, name = 'Tom', age = 42, eyeColor = 'blue', likesPets = true, favoriteNumber = 3.142857]]
+17:42:49.890 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Invoking getter method 'getFavoriteNumber' on target object [[PersonEntity@5b4b771b id = 99, name = 'Tom', age = 42, eyeColor = 'blue', likesPets = true, favoriteNumber = 3.142857]]
+17:42:49.891 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Setting field 'publicField' of type [null] on target object [null] or target class [class org.springframework.test.util.subpackage.StaticFields] to value [xxx]
+17:42:49.891 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Setting field 'privateField' of type [null] on target object [null] or target class [class org.springframework.test.util.subpackage.StaticFields] to value [yyy]
+17:42:49.891 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Invoking setter method 'setAge' on target object [[PersonEntity@7fd30d10 id = 0, name = [null], age = 0, eyeColor = [null], likesPets = false, favoriteNumber = [null]]] with value [null]
+17:42:49.892 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Setting field 'likesPets' of type [boolean] on target object [[PersonEntity@6982a117 id = 0, name = [null], age = 0, eyeColor = [null], likesPets = false, favoriteNumber = [null]]] or target class [class org.springframework.test.util.subpackage.PersonEntity] to value [null]
+17:42:49.893 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Invoking method 'configure' on target object [org.springframework.test.util.subpackage.Component@7493f6b5] or target class [null] with arguments {42, enigma}
+17:42:49.893 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Invoking method 'init' on target object [org.springframework.test.util.subpackage.Component@7493f6b5] or target class [null] with arguments {}
+17:42:49.894 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Invoking method 'destroy' on target object [org.springframework.test.util.subpackage.Component@7493f6b5] or target class [null] with arguments {}
 </pre>
 </span>
 </div>
@@ -423,7 +423,7 @@
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 6.8.3</a> at 2021年4月26日 下午3:41:58</p>
+<a href="http://www.gradle.org">Gradle 6.8.3</a> at May 1, 2021 5:47:12 PM</p>
 </div>
 </div>
 </body>

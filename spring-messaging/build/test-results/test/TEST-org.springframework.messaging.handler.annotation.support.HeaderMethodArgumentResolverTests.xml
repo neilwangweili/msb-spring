@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.messaging.handler.annotation.support.HeaderMethodArgumentResolverTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:39:47" hostname="wangweilideMacBook-Pro.local" time="0.101">
+<testsuite name="org.springframework.messaging.handler.annotation.support.HeaderMethodArgumentResolverTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:29:33" hostname="wangweilideMBP.lan" time="0.16">
   <properties/>
-  <testcase name="resolveOptionalHeaderWithValue()" classname="org.springframework.messaging.handler.annotation.support.HeaderMethodArgumentResolverTests" time="0.005"/>
-  <testcase name="resolveNameFromSystemProperty()" classname="org.springframework.messaging.handler.annotation.support.HeaderMethodArgumentResolverTests" time="0.011"/>
-  <testcase name="resolveArgumentNativeHeaderAmbiguity()" classname="org.springframework.messaging.handler.annotation.support.HeaderMethodArgumentResolverTests" time="0.01"/>
+  <testcase name="resolveOptionalHeaderWithValue()" classname="org.springframework.messaging.handler.annotation.support.HeaderMethodArgumentResolverTests" time="0.06"/>
+  <testcase name="resolveNameFromSystemProperty()" classname="org.springframework.messaging.handler.annotation.support.HeaderMethodArgumentResolverTests" time="0.003"/>
+  <testcase name="resolveArgumentNativeHeaderAmbiguity()" classname="org.springframework.messaging.handler.annotation.support.HeaderMethodArgumentResolverTests" time="0.022"/>
   <testcase name="resolveArgumentNativeHeader()" classname="org.springframework.messaging.handler.annotation.support.HeaderMethodArgumentResolverTests" time="0.004"/>
-  <testcase name="resolveDefaultValueSystemProperty()" classname="org.springframework.messaging.handler.annotation.support.HeaderMethodArgumentResolverTests" time="0.017"/>
-  <testcase name="resolveOptionalHeaderAsEmpty()" classname="org.springframework.messaging.handler.annotation.support.HeaderMethodArgumentResolverTests" time="0.004"/>
-  <testcase name="resolveArgumentDefaultValue()" classname="org.springframework.messaging.handler.annotation.support.HeaderMethodArgumentResolverTests" time="0.02"/>
+  <testcase name="resolveDefaultValueSystemProperty()" classname="org.springframework.messaging.handler.annotation.support.HeaderMethodArgumentResolverTests" time="0.003"/>
+  <testcase name="resolveOptionalHeaderAsEmpty()" classname="org.springframework.messaging.handler.annotation.support.HeaderMethodArgumentResolverTests" time="0.005"/>
+  <testcase name="resolveArgumentDefaultValue()" classname="org.springframework.messaging.handler.annotation.support.HeaderMethodArgumentResolverTests" time="0.003"/>
   <testcase name="resolveArgumentNotFound()" classname="org.springframework.messaging.handler.annotation.support.HeaderMethodArgumentResolverTests" time="0.004"/>
-  <testcase name="resolveArgument()" classname="org.springframework.messaging.handler.annotation.support.HeaderMethodArgumentResolverTests" time="0.011"/>
-  <testcase name="supportsParameter()" classname="org.springframework.messaging.handler.annotation.support.HeaderMethodArgumentResolverTests" time="0.008"/>
+  <testcase name="resolveArgument()" classname="org.springframework.messaging.handler.annotation.support.HeaderMethodArgumentResolverTests" time="0.003"/>
+  <testcase name="supportsParameter()" classname="org.springframework.messaging.handler.annotation.support.HeaderMethodArgumentResolverTests" time="0.028"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.jms.support.SimpleMessageConverterTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:39:31" hostname="wangweilideMacBook-Pro.local" time="0.134">
+<testsuite name="org.springframework.jms.support.SimpleMessageConverterTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:25:25" hostname="wangweilideMBP.lan" time="0.13">
   <properties/>
-  <testcase name="testSerializableConversion()" classname="org.springframework.jms.support.SimpleMessageConverterTests" time="0.001"/>
-  <testcase name="testByteArrayConversion()" classname="org.springframework.jms.support.SimpleMessageConverterTests" time="0.023"/>
-  <testcase name="testMapConversionWhereMapHasNNullForKey()" classname="org.springframework.jms.support.SimpleMessageConverterTests" time="0.081"/>
-  <testcase name="testMapConversion()" classname="org.springframework.jms.support.SimpleMessageConverterTests" time="0.021"/>
-  <testcase name="testToMessageSimplyReturnsMessageAsIsIfSuppliedWithMessage()" classname="org.springframework.jms.support.SimpleMessageConverterTests" time="0.001"/>
+  <testcase name="testSerializableConversion()" classname="org.springframework.jms.support.SimpleMessageConverterTests" time="0.004"/>
+  <testcase name="testByteArrayConversion()" classname="org.springframework.jms.support.SimpleMessageConverterTests" time="0.003"/>
+  <testcase name="testMapConversionWhereMapHasNNullForKey()" classname="org.springframework.jms.support.SimpleMessageConverterTests" time="0.117"/>
+  <testcase name="testMapConversion()" classname="org.springframework.jms.support.SimpleMessageConverterTests" time="0.002"/>
+  <testcase name="testToMessageSimplyReturnsMessageAsIsIfSuppliedWithMessage()" classname="org.springframework.jms.support.SimpleMessageConverterTests" time="0.0"/>
   <testcase name="testFromMessageSimplyReturnsMessageAsIsIfSuppliedWithMessage()" classname="org.springframework.jms.support.SimpleMessageConverterTests" time="0.0"/>
-  <testcase name="testMapConversionWhereMapHasNonStringTypesForKeys()" classname="org.springframework.jms.support.SimpleMessageConverterTests" time="0.002"/>
+  <testcase name="testMapConversionWhereMapHasNonStringTypesForKeys()" classname="org.springframework.jms.support.SimpleMessageConverterTests" time="0.001"/>
   <testcase name="testStringConversion()" classname="org.springframework.jms.support.SimpleMessageConverterTests" time="0.001"/>
-  <testcase name="testToMessageThrowsExceptionIfGivenIncompatibleObjectToConvert()" classname="org.springframework.jms.support.SimpleMessageConverterTests" time="0.001"/>
+  <testcase name="testToMessageThrowsExceptionIfGivenIncompatibleObjectToConvert()" classname="org.springframework.jms.support.SimpleMessageConverterTests" time="0.0"/>
   <testcase name="testToMessageThrowsExceptionIfGivenNullObjectToConvert()" classname="org.springframework.jms.support.SimpleMessageConverterTests" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

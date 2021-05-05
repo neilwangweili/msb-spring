@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.cache.transaction.TransactionAwareCacheDecoratorTests" tests="15" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:39:24" hostname="wangweilideMacBook-Pro.local" time="0.102">
+<testsuite name="org.springframework.cache.transaction.TransactionAwareCacheDecoratorTests" tests="15" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:25:58" hostname="wangweilideMBP.lan" time="0.056">
   <properties/>
   <testcase name="regularOperationsOnTarget()" classname="org.springframework.cache.transaction.TransactionAwareCacheDecoratorTests" time="0.007"/>
-  <testcase name="evictTransactional()" classname="org.springframework.cache.transaction.TransactionAwareCacheDecoratorTests" time="0.007"/>
-  <testcase name="evictNonTransactional()" classname="org.springframework.cache.transaction.TransactionAwareCacheDecoratorTests" time="0.002"/>
+  <testcase name="evictTransactional()" classname="org.springframework.cache.transaction.TransactionAwareCacheDecoratorTests" time="0.008"/>
+  <testcase name="evictNonTransactional()" classname="org.springframework.cache.transaction.TransactionAwareCacheDecoratorTests" time="0.0"/>
   <testcase name="putIfAbsentTransactional()" classname="org.springframework.cache.transaction.TransactionAwareCacheDecoratorTests" time="0.001"/>
   <testcase name="clearTransactional()" classname="org.springframework.cache.transaction.TransactionAwareCacheDecoratorTests" time="0.002"/>
   <testcase name="invalidateNonTransactional()" classname="org.springframework.cache.transaction.TransactionAwareCacheDecoratorTests" time="0.001"/>
-  <testcase name="evictIfPresentTransactional()" classname="org.springframework.cache.transaction.TransactionAwareCacheDecoratorTests" time="0.064"/>
-  <testcase name="clearNonTransactional()" classname="org.springframework.cache.transaction.TransactionAwareCacheDecoratorTests" time="0.0"/>
-  <testcase name="invalidateTransactional()" classname="org.springframework.cache.transaction.TransactionAwareCacheDecoratorTests" time="0.001"/>
-  <testcase name="getTargetCache()" classname="org.springframework.cache.transaction.TransactionAwareCacheDecoratorTests" time="0.001"/>
-  <testcase name="putTransactional()" classname="org.springframework.cache.transaction.TransactionAwareCacheDecoratorTests" time="0.001"/>
+  <testcase name="evictIfPresentTransactional()" classname="org.springframework.cache.transaction.TransactionAwareCacheDecoratorTests" time="0.001"/>
+  <testcase name="clearNonTransactional()" classname="org.springframework.cache.transaction.TransactionAwareCacheDecoratorTests" time="0.001"/>
+  <testcase name="invalidateTransactional()" classname="org.springframework.cache.transaction.TransactionAwareCacheDecoratorTests" time="0.002"/>
+  <testcase name="getTargetCache()" classname="org.springframework.cache.transaction.TransactionAwareCacheDecoratorTests" time="0.002"/>
+  <testcase name="putTransactional()" classname="org.springframework.cache.transaction.TransactionAwareCacheDecoratorTests" time="0.003"/>
   <testcase name="putNonTransactional()" classname="org.springframework.cache.transaction.TransactionAwareCacheDecoratorTests" time="0.0"/>
-  <testcase name="createWithNullTarget()" classname="org.springframework.cache.transaction.TransactionAwareCacheDecoratorTests" time="0.001"/>
+  <testcase name="createWithNullTarget()" classname="org.springframework.cache.transaction.TransactionAwareCacheDecoratorTests" time="0.002"/>
   <testcase name="putIfAbsentNonTransactional()" classname="org.springframework.cache.transaction.TransactionAwareCacheDecoratorTests" time="0.001"/>
   <testcase name="evictIfPresentNonTransactional()" classname="org.springframework.cache.transaction.TransactionAwareCacheDecoratorTests" time="0.001"/>
   <system-out><![CDATA[]]></system-out>

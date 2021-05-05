@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.messaging.handler.invocation.InvocableHandlerMethodTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:39:45" hostname="wangweilideMacBook-Pro.local" time="0.065">
+<testsuite name="org.springframework.messaging.handler.invocation.InvocableHandlerMethodTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:29:32" hostname="wangweilideMBP.lan" time="0.072">
   <properties/>
-  <testcase name="resolveArg()" classname="org.springframework.messaging.handler.invocation.InvocableHandlerMethodTests" time="0.009"/>
+  <testcase name="resolveArg()" classname="org.springframework.messaging.handler.invocation.InvocableHandlerMethodTests" time="0.01"/>
   <testcase name="cannotResolveArg()" classname="org.springframework.messaging.handler.invocation.InvocableHandlerMethodTests" time="0.001"/>
   <testcase name="resolveProvidedArg()" classname="org.springframework.messaging.handler.invocation.InvocableHandlerMethodTests" time="0.001"/>
   <testcase name="illegalArgumentException()" classname="org.springframework.messaging.handler.invocation.InvocableHandlerMethodTests" time="0.001"/>
-  <testcase name="invocationErrorMessage()" classname="org.springframework.messaging.handler.invocation.InvocableHandlerMethodTests" time="0.023"/>
-  <testcase name="invocationTargetException()" classname="org.springframework.messaging.handler.invocation.InvocableHandlerMethodTests" time="0.004"/>
-  <testcase name="resolveProvidedArgFirst()" classname="org.springframework.messaging.handler.invocation.InvocableHandlerMethodTests" time="0.001"/>
-  <testcase name="exceptionInResolvingArg()" classname="org.springframework.messaging.handler.invocation.InvocableHandlerMethodTests" time="0.016"/>
-  <testcase name="resolveNoArgValue()" classname="org.springframework.messaging.handler.invocation.InvocableHandlerMethodTests" time="0.002"/>
+  <testcase name="invocationErrorMessage()" classname="org.springframework.messaging.handler.invocation.InvocableHandlerMethodTests" time="0.001"/>
+  <testcase name="invocationTargetException()" classname="org.springframework.messaging.handler.invocation.InvocableHandlerMethodTests" time="0.05"/>
+  <testcase name="resolveProvidedArgFirst()" classname="org.springframework.messaging.handler.invocation.InvocableHandlerMethodTests" time="0.0"/>
+  <testcase name="exceptionInResolvingArg()" classname="org.springframework.messaging.handler.invocation.InvocableHandlerMethodTests" time="0.001"/>
+  <testcase name="resolveNoArgValue()" classname="org.springframework.messaging.handler.invocation.InvocableHandlerMethodTests" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

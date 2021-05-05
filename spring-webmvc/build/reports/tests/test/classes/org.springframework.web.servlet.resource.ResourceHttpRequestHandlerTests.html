@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.117s</div>
+<div class="counter">0.130s</div>
 <p>duration</p>
 </div>
 </td>
@@ -89,7 +89,7 @@
 </tr>
 <tr>
 <td class="success">doOverwriteExistingCacheControlHeaders()</td>
-<td class="success">0.001s</td>
+<td class="success">0.002s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -104,7 +104,7 @@
 </tr>
 <tr>
 <td class="success">getResourceFromAlternatePath()</td>
-<td class="success">0.003s</td>
+<td class="success">0.005s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -114,7 +114,7 @@
 </tr>
 <tr>
 <td class="success">getResourceFromSubDirectoryOfAlternatePath()</td>
-<td class="success">0.003s</td>
+<td class="success">0.002s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -124,12 +124,12 @@
 </tr>
 <tr>
 <td class="success">getResourceHttp10BehaviorNoCache()</td>
-<td class="success">0.002s</td>
+<td class="success">0.003s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">getResourceHttpHeader()</td>
-<td class="success">0.001s</td>
+<td class="success">0.002s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -139,12 +139,12 @@
 </tr>
 <tr>
 <td class="success">getResourceNoCache()</td>
-<td class="success">0.002s</td>
+<td class="success">0.003s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">getResourceWithHtmlMediaType()</td>
-<td class="success">0.002s</td>
+<td class="success">0.003s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -154,7 +154,7 @@
 </tr>
 <tr>
 <td class="success">getResourceWithRegisteredMediaType()</td>
-<td class="success">0.002s</td>
+<td class="success">0.004s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -164,7 +164,7 @@
 </tr>
 <tr>
 <td class="success">ignoreInvalidEscapeSequence()</td>
-<td class="success">0.002s</td>
+<td class="success">0.001s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -174,7 +174,7 @@
 </tr>
 <tr>
 <td class="success">initAllowedLocations()</td>
-<td class="success">0.001s</td>
+<td class="success">0s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -194,7 +194,7 @@
 </tr>
 <tr>
 <td class="success">noPathWithinHandlerMappingAttribute()</td>
-<td class="success">0s</td>
+<td class="success">0.001s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -204,12 +204,12 @@
 </tr>
 <tr>
 <td class="success">partialContentByteRange()</td>
-<td class="success">0.001s</td>
+<td class="success">0.002s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">partialContentByteRangeLargeEnd()</td>
-<td class="success">0.002s</td>
+<td class="success">0.001s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -219,17 +219,17 @@
 </tr>
 <tr>
 <td class="success">partialContentByteRangeWithEncodedResource(GzippedFiles)</td>
-<td class="success">0.003s</td>
+<td class="success">0.004s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">partialContentInvalidRangeHeader()</td>
-<td class="success">0.002s</td>
+<td class="success">0.001s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">partialContentMultipleByteRanges()</td>
-<td class="success">0.004s</td>
+<td class="success">0.003s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -244,7 +244,7 @@
 </tr>
 <tr>
 <td class="success">partialContentWithHttpHead()</td>
-<td class="success">0.002s</td>
+<td class="success">0.003s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -254,22 +254,22 @@
 </tr>
 <tr>
 <td class="success">resolvePathWithTraversal()</td>
-<td class="success">0.042s</td>
+<td class="success">0.053s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">resourceNotFound()</td>
-<td class="success">0.008s</td>
+<td class="success">0.007s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">servletContextRootValidation()</td>
-<td class="success">0.004s</td>
+<td class="success">0.002s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testInvalidPath()</td>
-<td class="success">0.005s</td>
+<td class="success">0.003s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -282,97 +282,97 @@
 <div id="tab1" class="tab">
 <h2>Standard output</h2>
 <span class="code">
-<pre>15:41:53.529 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path contains &quot;../&quot; after call to StringUtils#cleanPath: [../testsecret/secret.txt]
-15:41:53.529 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path contains &quot;../&quot; after call to StringUtils#cleanPath: [test/../../testsecret/secret.txt]
-15:41:53.529 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path contains &quot;../&quot; after call to StringUtils#cleanPath: [:/../../testsecret/secret.txt]
-15:41:53.530 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path represents URL or has &quot;url:&quot; prefix: [file:/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt]
-15:41:53.530 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path represents URL or has &quot;url:&quot; prefix: [/file:/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt]
-15:41:53.530 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path represents URL or has &quot;url:&quot; prefix: [url:/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt]
-15:41:53.530 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path represents URL or has &quot;url:&quot; prefix: [/url:/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt]
-15:41:53.530 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path contains &quot;../&quot; after call to StringUtils#cleanPath: [/../../Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt]
-15:41:53.531 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path contains &quot;../&quot; after call to StringUtils#cleanPath: [/../testsecret/secret.txt]
-15:41:53.531 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path contains &quot;../&quot; after call to StringUtils#cleanPath: [/../testsecret/secret.txt]
-15:41:53.531 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path contains &quot;../&quot; after call to StringUtils#cleanPath: [/../../Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt]
-15:41:53.564 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path contains &quot;../&quot; after call to StringUtils#cleanPath: [../testsecret/secret.txt]
-15:41:53.564 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path contains &quot;../&quot; after call to StringUtils#cleanPath: [test/../../testsecret/secret.txt]
-15:41:53.565 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path contains &quot;../&quot; after call to StringUtils#cleanPath: [:/../../testsecret/secret.txt]
-15:41:53.565 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path represents URL or has &quot;url:&quot; prefix: [file:/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt]
-15:41:53.566 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path represents URL or has &quot;url:&quot; prefix: [/file:/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt]
-15:41:53.566 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path represents URL or has &quot;url:&quot; prefix: [url:/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt]
-15:41:53.566 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path represents URL or has &quot;url:&quot; prefix: [/url:/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt]
-15:41:53.568 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path contains &quot;../&quot; after call to StringUtils#cleanPath: [/../../Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt]
-15:41:53.568 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path contains &quot;../&quot; after call to StringUtils#cleanPath: [/../testsecret/secret.txt]
-15:41:53.569 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path contains &quot;../&quot; after call to StringUtils#cleanPath: [/../testsecret/secret.txt]
-15:41:53.570 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path contains &quot;../&quot; after call to StringUtils#cleanPath: [../testsecret/secret.txt]
-15:41:53.570 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path contains &quot;../&quot; after call to StringUtils#cleanPath: [test/../../testsecret/secret.txt]
-15:41:53.571 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path contains &quot;../&quot; after call to StringUtils#cleanPath: [:/../../testsecret/secret.txt]
-15:41:53.571 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path represents URL or has &quot;url:&quot; prefix: [file:/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt]
-15:41:53.571 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path represents URL or has &quot;url:&quot; prefix: [/file:/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt]
-15:41:53.572 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path represents URL or has &quot;url:&quot; prefix: [url:/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt]
-15:41:53.572 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path represents URL or has &quot;url:&quot; prefix: [/url:/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt]
-15:41:53.574 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path contains &quot;../&quot; after call to StringUtils#cleanPath: [/../../Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt]
-15:41:53.574 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path contains &quot;../&quot; after call to StringUtils#cleanPath: [/../testsecret/secret.txt]
-15:41:53.574 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path contains &quot;../&quot; after call to StringUtils#cleanPath: [/../testsecret/secret.txt]
-15:41:53.576 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path contains &quot;../&quot; after call to StringUtils#cleanPath: [../testsecret/secret.txt]
-15:41:53.576 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path contains &quot;../&quot; after call to StringUtils#cleanPath: [test/../../testsecret/secret.txt]
-15:41:53.576 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path contains &quot;../&quot; after call to StringUtils#cleanPath: [:/../../testsecret/secret.txt]
-15:41:53.577 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path represents URL or has &quot;url:&quot; prefix: [file:/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt]
-15:41:53.578 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path represents URL or has &quot;url:&quot; prefix: [/file:/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt]
-15:41:53.578 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path represents URL or has &quot;url:&quot; prefix: [url:/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt]
-15:41:53.578 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path represents URL or has &quot;url:&quot; prefix: [/url:/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt]
-15:41:53.580 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path contains &quot;../&quot; after call to StringUtils#cleanPath: [/../../Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt]
-15:41:53.580 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path contains &quot;../&quot; after call to StringUtils#cleanPath: [/../testsecret/secret.txt]
-15:41:53.581 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path contains &quot;../&quot; after call to StringUtils#cleanPath: [/../testsecret/secret.txt]
-15:41:53.582 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path contains &quot;../&quot; after call to StringUtils#cleanPath: [../testsecret/secret.txt]
-15:41:53.582 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path contains &quot;../&quot; after call to StringUtils#cleanPath: [test/../../testsecret/secret.txt]
-15:41:53.583 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path contains &quot;../&quot; after call to StringUtils#cleanPath: [:/../../testsecret/secret.txt]
-15:41:53.583 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path represents URL or has &quot;url:&quot; prefix: [file:/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt]
-15:41:53.583 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path represents URL or has &quot;url:&quot; prefix: [/file:/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt]
-15:41:53.583 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path represents URL or has &quot;url:&quot; prefix: [url:/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt]
-15:41:53.584 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path represents URL or has &quot;url:&quot; prefix: [/url:/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt]
-15:41:53.585 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path contains &quot;../&quot; after call to StringUtils#cleanPath: [/../../Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt]
-15:41:53.585 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path contains &quot;../&quot; after call to StringUtils#cleanPath: [/../testsecret/secret.txt]
-15:41:53.585 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path contains &quot;../&quot; after call to StringUtils#cleanPath: [/../testsecret/secret.txt]
-15:41:53.587 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path contains &quot;../&quot; after call to StringUtils#cleanPath: [../testsecret/secret.txt]
-15:41:53.587 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path contains &quot;../&quot; after call to StringUtils#cleanPath: [test/../../testsecret/secret.txt]
-15:41:53.587 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path contains &quot;../&quot; after call to StringUtils#cleanPath: [:/../../testsecret/secret.txt]
-15:41:53.588 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path represents URL or has &quot;url:&quot; prefix: [file:/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt]
-15:41:53.588 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path represents URL or has &quot;url:&quot; prefix: [/file:/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt]
-15:41:53.588 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path represents URL or has &quot;url:&quot; prefix: [url:/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt]
-15:41:53.588 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path represents URL or has &quot;url:&quot; prefix: [/url:/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt]
-15:41:53.590 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path contains &quot;../&quot; after call to StringUtils#cleanPath: [/../../Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt]
-15:41:53.590 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path contains &quot;../&quot; after call to StringUtils#cleanPath: [/../testsecret/secret.txt]
-15:41:53.590 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path contains &quot;../&quot; after call to StringUtils#cleanPath: [/../testsecret/secret.txt]
-15:41:53.592 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path contains &quot;../&quot; after call to StringUtils#cleanPath: [../testsecret/secret.txt]
-15:41:53.592 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path contains &quot;../&quot; after call to StringUtils#cleanPath: [test/../../testsecret/secret.txt]
-15:41:53.592 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path contains &quot;../&quot; after call to StringUtils#cleanPath: [:/../../testsecret/secret.txt]
-15:41:53.593 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path represents URL or has &quot;url:&quot; prefix: [file:/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt]
-15:41:53.593 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path represents URL or has &quot;url:&quot; prefix: [/file:/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt]
-15:41:53.593 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path represents URL or has &quot;url:&quot; prefix: [url:/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt]
-15:41:53.593 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path represents URL or has &quot;url:&quot; prefix: [/url:/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt]
-15:41:53.594 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path contains &quot;../&quot; after call to StringUtils#cleanPath: [/../../Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt]
-15:41:53.595 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path contains &quot;../&quot; after call to StringUtils#cleanPath: [/../testsecret/secret.txt]
-15:41:53.595 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path contains &quot;../&quot; after call to StringUtils#cleanPath: [/../testsecret/secret.txt]
-15:41:53.596 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path contains &quot;../&quot; after call to StringUtils#cleanPath: [../testsecret/secret.txt]
-15:41:53.596 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path contains &quot;../&quot; after call to StringUtils#cleanPath: [test/../../testsecret/secret.txt]
-15:41:53.596 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path contains &quot;../&quot; after call to StringUtils#cleanPath: [:/../../testsecret/secret.txt]
-15:41:53.596 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path represents URL or has &quot;url:&quot; prefix: [file:/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt]
-15:41:53.596 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path represents URL or has &quot;url:&quot; prefix: [/file:/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt]
-15:41:53.597 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path represents URL or has &quot;url:&quot; prefix: [url:/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt]
-15:41:53.597 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path represents URL or has &quot;url:&quot; prefix: [/url:/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt]
-15:41:53.598 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path contains &quot;../&quot; after call to StringUtils#cleanPath: [/../../Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt]
-15:41:53.599 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path contains &quot;../&quot; after call to StringUtils#cleanPath: [/../testsecret/secret.txt]
-15:41:53.599 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path contains &quot;../&quot; after call to StringUtils#cleanPath: [/../testsecret/secret.txt]
-15:41:53.600 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path contains &quot;../&quot; after call to StringUtils#cleanPath: [../testsecret/secret.txt]
-15:41:53.600 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path contains &quot;../&quot; after call to StringUtils#cleanPath: [test/../../testsecret/secret.txt]
-15:41:53.602 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path contains &quot;../&quot; after call to StringUtils#cleanPath: [:/../../testsecret/secret.txt]
-15:41:53.602 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path represents URL or has &quot;url:&quot; prefix: [file:/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt]
-15:41:53.602 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path represents URL or has &quot;url:&quot; prefix: [/file:/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt]
-15:41:53.603 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path represents URL or has &quot;url:&quot; prefix: [url:/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt]
-15:41:53.603 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path represents URL or has &quot;url:&quot; prefix: [/url:/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt]
-15:41:53.604 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path contains &quot;../&quot; after call to StringUtils#cleanPath: [/../../Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt]
-15:41:53.604 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path contains &quot;../&quot; after call to StringUtils#cleanPath: [/../testsecret/secret.txt]
-15:41:53.604 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path contains &quot;../&quot; after call to StringUtils#cleanPath: [/../testsecret/secret.txt]
+<pre>17:34:06.150 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path contains &quot;../&quot; after call to StringUtils#cleanPath: [../testsecret/secret.txt]
+17:34:06.150 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path contains &quot;../&quot; after call to StringUtils#cleanPath: [test/../../testsecret/secret.txt]
+17:34:06.151 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path contains &quot;../&quot; after call to StringUtils#cleanPath: [:/../../testsecret/secret.txt]
+17:34:06.151 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path represents URL or has &quot;url:&quot; prefix: [file:/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt]
+17:34:06.151 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path represents URL or has &quot;url:&quot; prefix: [/file:/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt]
+17:34:06.152 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path represents URL or has &quot;url:&quot; prefix: [url:/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt]
+17:34:06.152 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path represents URL or has &quot;url:&quot; prefix: [/url:/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt]
+17:34:06.152 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path contains &quot;../&quot; after call to StringUtils#cleanPath: [/../../Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt]
+17:34:06.152 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path contains &quot;../&quot; after call to StringUtils#cleanPath: [/../testsecret/secret.txt]
+17:34:06.152 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path contains &quot;../&quot; after call to StringUtils#cleanPath: [/../testsecret/secret.txt]
+17:34:06.152 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path contains &quot;../&quot; after call to StringUtils#cleanPath: [/../../Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt]
+17:34:06.185 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path contains &quot;../&quot; after call to StringUtils#cleanPath: [../testsecret/secret.txt]
+17:34:06.185 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path contains &quot;../&quot; after call to StringUtils#cleanPath: [test/../../testsecret/secret.txt]
+17:34:06.185 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path contains &quot;../&quot; after call to StringUtils#cleanPath: [:/../../testsecret/secret.txt]
+17:34:06.185 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path represents URL or has &quot;url:&quot; prefix: [file:/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt]
+17:34:06.186 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path represents URL or has &quot;url:&quot; prefix: [/file:/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt]
+17:34:06.186 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path represents URL or has &quot;url:&quot; prefix: [url:/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt]
+17:34:06.186 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path represents URL or has &quot;url:&quot; prefix: [/url:/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt]
+17:34:06.201 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path contains &quot;../&quot; after call to StringUtils#cleanPath: [/../../Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt]
+17:34:06.201 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path contains &quot;../&quot; after call to StringUtils#cleanPath: [/../testsecret/secret.txt]
+17:34:06.201 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path contains &quot;../&quot; after call to StringUtils#cleanPath: [/../testsecret/secret.txt]
+17:34:06.203 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path contains &quot;../&quot; after call to StringUtils#cleanPath: [../testsecret/secret.txt]
+17:34:06.203 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path contains &quot;../&quot; after call to StringUtils#cleanPath: [test/../../testsecret/secret.txt]
+17:34:06.203 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path contains &quot;../&quot; after call to StringUtils#cleanPath: [:/../../testsecret/secret.txt]
+17:34:06.203 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path represents URL or has &quot;url:&quot; prefix: [file:/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt]
+17:34:06.204 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path represents URL or has &quot;url:&quot; prefix: [/file:/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt]
+17:34:06.204 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path represents URL or has &quot;url:&quot; prefix: [url:/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt]
+17:34:06.204 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path represents URL or has &quot;url:&quot; prefix: [/url:/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt]
+17:34:06.206 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path contains &quot;../&quot; after call to StringUtils#cleanPath: [/../../Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt]
+17:34:06.206 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path contains &quot;../&quot; after call to StringUtils#cleanPath: [/../testsecret/secret.txt]
+17:34:06.206 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path contains &quot;../&quot; after call to StringUtils#cleanPath: [/../testsecret/secret.txt]
+17:34:06.208 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path contains &quot;../&quot; after call to StringUtils#cleanPath: [../testsecret/secret.txt]
+17:34:06.208 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path contains &quot;../&quot; after call to StringUtils#cleanPath: [test/../../testsecret/secret.txt]
+17:34:06.209 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path contains &quot;../&quot; after call to StringUtils#cleanPath: [:/../../testsecret/secret.txt]
+17:34:06.209 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path represents URL or has &quot;url:&quot; prefix: [file:/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt]
+17:34:06.209 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path represents URL or has &quot;url:&quot; prefix: [/file:/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt]
+17:34:06.209 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path represents URL or has &quot;url:&quot; prefix: [url:/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt]
+17:34:06.210 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path represents URL or has &quot;url:&quot; prefix: [/url:/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt]
+17:34:06.212 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path contains &quot;../&quot; after call to StringUtils#cleanPath: [/../../Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt]
+17:34:06.212 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path contains &quot;../&quot; after call to StringUtils#cleanPath: [/../testsecret/secret.txt]
+17:34:06.212 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path contains &quot;../&quot; after call to StringUtils#cleanPath: [/../testsecret/secret.txt]
+17:34:06.214 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path contains &quot;../&quot; after call to StringUtils#cleanPath: [../testsecret/secret.txt]
+17:34:06.214 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path contains &quot;../&quot; after call to StringUtils#cleanPath: [test/../../testsecret/secret.txt]
+17:34:06.214 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path contains &quot;../&quot; after call to StringUtils#cleanPath: [:/../../testsecret/secret.txt]
+17:34:06.215 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path represents URL or has &quot;url:&quot; prefix: [file:/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt]
+17:34:06.215 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path represents URL or has &quot;url:&quot; prefix: [/file:/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt]
+17:34:06.215 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path represents URL or has &quot;url:&quot; prefix: [url:/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt]
+17:34:06.215 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path represents URL or has &quot;url:&quot; prefix: [/url:/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt]
+17:34:06.216 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path contains &quot;../&quot; after call to StringUtils#cleanPath: [/../../Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt]
+17:34:06.216 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path contains &quot;../&quot; after call to StringUtils#cleanPath: [/../testsecret/secret.txt]
+17:34:06.217 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path contains &quot;../&quot; after call to StringUtils#cleanPath: [/../testsecret/secret.txt]
+17:34:06.218 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path contains &quot;../&quot; after call to StringUtils#cleanPath: [../testsecret/secret.txt]
+17:34:06.218 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path contains &quot;../&quot; after call to StringUtils#cleanPath: [test/../../testsecret/secret.txt]
+17:34:06.218 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path contains &quot;../&quot; after call to StringUtils#cleanPath: [:/../../testsecret/secret.txt]
+17:34:06.218 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path represents URL or has &quot;url:&quot; prefix: [file:/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt]
+17:34:06.219 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path represents URL or has &quot;url:&quot; prefix: [/file:/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt]
+17:34:06.219 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path represents URL or has &quot;url:&quot; prefix: [url:/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt]
+17:34:06.219 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path represents URL or has &quot;url:&quot; prefix: [/url:/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt]
+17:34:06.220 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path contains &quot;../&quot; after call to StringUtils#cleanPath: [/../../Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt]
+17:34:06.220 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path contains &quot;../&quot; after call to StringUtils#cleanPath: [/../testsecret/secret.txt]
+17:34:06.221 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path contains &quot;../&quot; after call to StringUtils#cleanPath: [/../testsecret/secret.txt]
+17:34:06.222 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path contains &quot;../&quot; after call to StringUtils#cleanPath: [../testsecret/secret.txt]
+17:34:06.223 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path contains &quot;../&quot; after call to StringUtils#cleanPath: [test/../../testsecret/secret.txt]
+17:34:06.223 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path contains &quot;../&quot; after call to StringUtils#cleanPath: [:/../../testsecret/secret.txt]
+17:34:06.223 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path represents URL or has &quot;url:&quot; prefix: [file:/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt]
+17:34:06.223 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path represents URL or has &quot;url:&quot; prefix: [/file:/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt]
+17:34:06.224 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path represents URL or has &quot;url:&quot; prefix: [url:/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt]
+17:34:06.224 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path represents URL or has &quot;url:&quot; prefix: [/url:/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt]
+17:34:06.225 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path contains &quot;../&quot; after call to StringUtils#cleanPath: [/../../Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt]
+17:34:06.226 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path contains &quot;../&quot; after call to StringUtils#cleanPath: [/../testsecret/secret.txt]
+17:34:06.226 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path contains &quot;../&quot; after call to StringUtils#cleanPath: [/../testsecret/secret.txt]
+17:34:06.227 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path contains &quot;../&quot; after call to StringUtils#cleanPath: [../testsecret/secret.txt]
+17:34:06.228 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path contains &quot;../&quot; after call to StringUtils#cleanPath: [test/../../testsecret/secret.txt]
+17:34:06.228 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path contains &quot;../&quot; after call to StringUtils#cleanPath: [:/../../testsecret/secret.txt]
+17:34:06.228 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path represents URL or has &quot;url:&quot; prefix: [file:/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt]
+17:34:06.228 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path represents URL or has &quot;url:&quot; prefix: [/file:/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt]
+17:34:06.229 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path represents URL or has &quot;url:&quot; prefix: [url:/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt]
+17:34:06.229 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path represents URL or has &quot;url:&quot; prefix: [/url:/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt]
+17:34:06.230 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path contains &quot;../&quot; after call to StringUtils#cleanPath: [/../../Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt]
+17:34:06.230 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path contains &quot;../&quot; after call to StringUtils#cleanPath: [/../testsecret/secret.txt]
+17:34:06.231 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path contains &quot;../&quot; after call to StringUtils#cleanPath: [/../testsecret/secret.txt]
+17:34:06.232 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path contains &quot;../&quot; after call to StringUtils#cleanPath: [../testsecret/secret.txt]
+17:34:06.232 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path contains &quot;../&quot; after call to StringUtils#cleanPath: [test/../../testsecret/secret.txt]
+17:34:06.233 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path contains &quot;../&quot; after call to StringUtils#cleanPath: [:/../../testsecret/secret.txt]
+17:34:06.233 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path represents URL or has &quot;url:&quot; prefix: [file:/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt]
+17:34:06.233 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path represents URL or has &quot;url:&quot; prefix: [/file:/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt]
+17:34:06.233 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path represents URL or has &quot;url:&quot; prefix: [url:/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt]
+17:34:06.233 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path represents URL or has &quot;url:&quot; prefix: [/url:/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt]
+17:34:06.235 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path contains &quot;../&quot; after call to StringUtils#cleanPath: [/../../Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt]
+17:34:06.235 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path contains &quot;../&quot; after call to StringUtils#cleanPath: [/../testsecret/secret.txt]
+17:34:06.236 [Test worker] WARN  o.s.w.s.r.ResourceHttpRequestHandler - Path contains &quot;../&quot; after call to StringUtils#cleanPath: [/../testsecret/secret.txt]
 </pre>
 </span>
 </div>
@@ -384,7 +384,7 @@
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 6.8.3</a> at 2021年4月26日 下午3:41:59</p>
+<a href="http://www.gradle.org">Gradle 6.8.3</a> at May 1, 2021 5:34:13 PM</p>
 </div>
 </div>
 </body>

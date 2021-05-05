@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.jmx.support.MBeanServerConnectionFactoryBeanTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:41:19" hostname="wangweilideMacBook-Pro.local" time="0.237">
+<testsuite name="org.springframework.jmx.support.MBeanServerConnectionFactoryBeanTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:32:20" hostname="wangweilideMBP.lan" time="0.249">
   <properties/>
-  <testcase name="lazyConnectionAndNoAccess()" classname="org.springframework.jmx.support.MBeanServerConnectionFactoryBeanTests" time="0.016"/>
-  <testcase name="noServiceUrl()" classname="org.springframework.jmx.support.MBeanServerConnectionFactoryBeanTests" time="0.001"/>
-  <testcase name="lazyConnection()" classname="org.springframework.jmx.support.MBeanServerConnectionFactoryBeanTests" time="0.108"/>
-  <testcase name="validConnection()" classname="org.springframework.jmx.support.MBeanServerConnectionFactoryBeanTests" time="0.111"/>
+  <testcase name="lazyConnectionAndNoAccess()" classname="org.springframework.jmx.support.MBeanServerConnectionFactoryBeanTests" time="0.013"/>
+  <testcase name="noServiceUrl()" classname="org.springframework.jmx.support.MBeanServerConnectionFactoryBeanTests" time="0.0"/>
+  <testcase name="lazyConnection()" classname="org.springframework.jmx.support.MBeanServerConnectionFactoryBeanTests" time="0.112"/>
+  <testcase name="validConnection()" classname="org.springframework.jmx.support.MBeanServerConnectionFactoryBeanTests" time="0.121"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[Apr. 26, 2021 3:41:19 P.M. ClientIntermediary close
+  <system-err><![CDATA[May 01, 2021 5:32:20 PM ClientIntermediary close
 INFO: java.io.IOException: The connection is not currently established.
 java.io.IOException: The connection is not currently established.
 	at com.sun.jmx.remote.generic.ClientSynchroMessageConnectionImpl.checkState(ClientSynchroMessageConnectionImpl.java:617)

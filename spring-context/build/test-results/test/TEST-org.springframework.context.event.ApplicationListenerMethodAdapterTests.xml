@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.context.event.ApplicationListenerMethodAdapterTests" tests="32" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:40:58" hostname="wangweilideMacBook-Pro.local" time="0.032">
+<testsuite name="org.springframework.context.event.ApplicationListenerMethodAdapterTests" tests="32" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:31:59" hostname="wangweilideMBP.lan" time="0.08">
   <properties/>
-  <testcase name="invokeListenerCheckedException()" classname="org.springframework.context.event.ApplicationListenerMethodAdapterTests" time="0.002"/>
-  <testcase name="listenerWithTooManyParameters()" classname="org.springframework.context.event.ApplicationListenerMethodAdapterTests" time="0.0"/>
-  <testcase name="listenerWithPayloadAndGenericInformation()" classname="org.springframework.context.event.ApplicationListenerMethodAdapterTests" time="0.0"/>
+  <testcase name="invokeListenerCheckedException()" classname="org.springframework.context.event.ApplicationListenerMethodAdapterTests" time="0.003"/>
+  <testcase name="listenerWithTooManyParameters()" classname="org.springframework.context.event.ApplicationListenerMethodAdapterTests" time="0.012"/>
+  <testcase name="listenerWithPayloadAndGenericInformation()" classname="org.springframework.context.event.ApplicationListenerMethodAdapterTests" time="0.001"/>
   <testcase name="invokeListenerWithSeveralTypes()" classname="org.springframework.context.event.ApplicationListenerMethodAdapterTests" time="0.002"/>
   <testcase name="listenerWithNoParameter()" classname="org.springframework.context.event.ApplicationListenerMethodAdapterTests" time="0.0"/>
   <testcase name="listenerWithSubTypeSeveralGenerics()" classname="org.springframework.context.event.ApplicationListenerMethodAdapterTests" time="0.0"/>
   <testcase name="listenerWithAnnotationValue()" classname="org.springframework.context.event.ApplicationListenerMethodAdapterTests" time="0.001"/>
-  <testcase name="invokeListenerRuntimeException()" classname="org.springframework.context.event.ApplicationListenerMethodAdapterTests" time="0.001"/>
+  <testcase name="invokeListenerRuntimeException()" classname="org.springframework.context.event.ApplicationListenerMethodAdapterTests" time="0.002"/>
   <testcase name="invokeListenerWithPayloadWrongType()" classname="org.springframework.context.event.ApplicationListenerMethodAdapterTests" time="0.001"/>
-  <testcase name="invokeListenerWithWrongGenericPayload()" classname="org.springframework.context.event.ApplicationListenerMethodAdapterTests" time="0.001"/>
-  <testcase name="listenerWithInvalidPayloadAndGenericInformation()" classname="org.springframework.context.event.ApplicationListenerMethodAdapterTests" time="0.001"/>
+  <testcase name="invokeListenerWithWrongGenericPayload()" classname="org.springframework.context.event.ApplicationListenerMethodAdapterTests" time="0.015"/>
+  <testcase name="listenerWithInvalidPayloadAndGenericInformation()" classname="org.springframework.context.event.ApplicationListenerMethodAdapterTests" time="0.0"/>
   <testcase name="invokeListenerWithAnyGenericPayload()" classname="org.springframework.context.event.ApplicationListenerMethodAdapterTests" time="0.001"/>
-  <testcase name="listenerWithAnnotationValueAndParameter()" classname="org.springframework.context.event.ApplicationListenerMethodAdapterTests" time="0.001"/>
-  <testcase name="invokeListenerWithGenericPayload()" classname="org.springframework.context.event.ApplicationListenerMethodAdapterTests" time="0.0"/>
+  <testcase name="listenerWithAnnotationValueAndParameter()" classname="org.springframework.context.event.ApplicationListenerMethodAdapterTests" time="0.0"/>
+  <testcase name="invokeListenerWithGenericPayload()" classname="org.springframework.context.event.ApplicationListenerMethodAdapterTests" time="0.001"/>
   <testcase name="beanInstanceRetrievedAtEveryInvocation()" classname="org.springframework.context.event.ApplicationListenerMethodAdapterTests" time="0.001"/>
   <testcase name="invokeListenerWithAnnotationValue()" classname="org.springframework.context.event.ApplicationListenerMethodAdapterTests" time="0.001"/>
   <testcase name="listenerWithPayloadTypeErasure()" classname="org.springframework.context.event.ApplicationListenerMethodAdapterTests" time="0.0"/>
   <testcase name="invokeListenerWithAnnotationValueAndParameter()" classname="org.springframework.context.event.ApplicationListenerMethodAdapterTests" time="0.0"/>
   <testcase name="genericListenerWrongParameterizedType()" classname="org.springframework.context.event.ApplicationListenerMethodAdapterTests" time="0.0"/>
-  <testcase name="defaultOrder()" classname="org.springframework.context.event.ApplicationListenerMethodAdapterTests" time="0.001"/>
-  <testcase name="listenerWithAnnotationClasses()" classname="org.springframework.context.event.ApplicationListenerMethodAdapterTests" time="0.0"/>
-  <testcase name="specifiedOrder()" classname="org.springframework.context.event.ApplicationListenerMethodAdapterTests" time="0.001"/>
-  <testcase name="listenerWithMoreThanOneParameter()" classname="org.springframework.context.event.ApplicationListenerMethodAdapterTests" time="0.001"/>
+  <testcase name="defaultOrder()" classname="org.springframework.context.event.ApplicationListenerMethodAdapterTests" time="0.0"/>
+  <testcase name="listenerWithAnnotationClasses()" classname="org.springframework.context.event.ApplicationListenerMethodAdapterTests" time="0.001"/>
+  <testcase name="specifiedOrder()" classname="org.springframework.context.event.ApplicationListenerMethodAdapterTests" time="0.0"/>
+  <testcase name="listenerWithMoreThanOneParameter()" classname="org.springframework.context.event.ApplicationListenerMethodAdapterTests" time="0.0"/>
   <testcase name="genericListener()" classname="org.springframework.context.event.ApplicationListenerMethodAdapterTests" time="0.0"/>
   <testcase name="rawListenerWithGenericEvent()" classname="org.springframework.context.event.ApplicationListenerMethodAdapterTests" time="0.0"/>
-  <testcase name="rawListener()" classname="org.springframework.context.event.ApplicationListenerMethodAdapterTests" time="0.0"/>
-  <testcase name="invokeListenerInvalidProxy()" classname="org.springframework.context.event.ApplicationListenerMethodAdapterTests" time="0.004"/>
-  <testcase name="invokeListenerWithGenericEvent()" classname="org.springframework.context.event.ApplicationListenerMethodAdapterTests" time="0.0"/>
+  <testcase name="rawListener()" classname="org.springframework.context.event.ApplicationListenerMethodAdapterTests" time="0.001"/>
+  <testcase name="invokeListenerInvalidProxy()" classname="org.springframework.context.event.ApplicationListenerMethodAdapterTests" time="0.006"/>
+  <testcase name="invokeListenerWithGenericEvent()" classname="org.springframework.context.event.ApplicationListenerMethodAdapterTests" time="0.007"/>
   <testcase name="invokeListener()" classname="org.springframework.context.event.ApplicationListenerMethodAdapterTests" time="0.001"/>
-  <testcase name="invokeListenerWithPayload()" classname="org.springframework.context.event.ApplicationListenerMethodAdapterTests" time="0.0"/>
+  <testcase name="invokeListenerWithPayload()" classname="org.springframework.context.event.ApplicationListenerMethodAdapterTests" time="0.001"/>
   <testcase name="listenerWithSeveralTypes()" classname="org.springframework.context.event.ApplicationListenerMethodAdapterTests" time="0.0"/>
-  <testcase name="listenerWithSubTypeSeveralGenericsResolved()" classname="org.springframework.context.event.ApplicationListenerMethodAdapterTests" time="0.001"/>
+  <testcase name="listenerWithSubTypeSeveralGenericsResolved()" classname="org.springframework.context.event.ApplicationListenerMethodAdapterTests" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

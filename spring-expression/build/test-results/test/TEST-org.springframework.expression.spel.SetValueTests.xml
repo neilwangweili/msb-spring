@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.expression.spel.SetValueTests" tests="20" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:37:32" hostname="wangweilideMacBook-Pro.local" time="0.035">
+<testsuite name="org.springframework.expression.spel.SetValueTests" tests="20" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:04:52" hostname="wangweilideMBP.lan" time="0.093">
   <properties/>
-  <testcase name="testSetPropertyTypeCoersionThroughSetter()" classname="org.springframework.expression.spel.SetValueTests" time="0.001"/>
-  <testcase name="testIsWritableForInvalidExpressions_SPR10610()" classname="org.springframework.expression.spel.SetValueTests" time="0.002"/>
-  <testcase name="testSetGenericMapElementRequiresCoercion()" classname="org.springframework.expression.spel.SetValueTests" time="0.002"/>
+  <testcase name="testSetPropertyTypeCoersionThroughSetter()" classname="org.springframework.expression.spel.SetValueTests" time="0.003"/>
+  <testcase name="testIsWritableForInvalidExpressions_SPR10610()" classname="org.springframework.expression.spel.SetValueTests" time="0.019"/>
+  <testcase name="testSetGenericMapElementRequiresCoercion()" classname="org.springframework.expression.spel.SetValueTests" time="0.004"/>
   <testcase name="testSetGenericListElementValueTypeCoersionOK()" classname="org.springframework.expression.spel.SetValueTests" time="0.002"/>
-  <testcase name="testSetArrayElementInvalidIndex()" classname="org.springframework.expression.spel.SetValueTests" time="0.002"/>
-  <testcase name="testSetPropertyTypeCoersion()" classname="org.springframework.expression.spel.SetValueTests" time="0.002"/>
+  <testcase name="testSetArrayElementInvalidIndex()" classname="org.springframework.expression.spel.SetValueTests" time="0.03"/>
+  <testcase name="testSetPropertyTypeCoersion()" classname="org.springframework.expression.spel.SetValueTests" time="0.001"/>
   <testcase name="testSetElementOfNull()" classname="org.springframework.expression.spel.SetValueTests" time="0.001"/>
-  <testcase name="testSetListElementNestedValue()" classname="org.springframework.expression.spel.SetValueTests" time="0.001"/>
-  <testcase name="testSetMapElements()" classname="org.springframework.expression.spel.SetValueTests" time="0.001"/>
+  <testcase name="testSetListElementNestedValue()" classname="org.springframework.expression.spel.SetValueTests" time="0.002"/>
+  <testcase name="testSetMapElements()" classname="org.springframework.expression.spel.SetValueTests" time="0.002"/>
   <testcase name="testSetArrayElementValue()" classname="org.springframework.expression.spel.SetValueTests" time="0.001"/>
   <testcase name="testSetProperty()" classname="org.springframework.expression.spel.SetValueTests" time="0.001"/>
-  <testcase name="testSetArrayElementValueAllPrimitiveTypes()" classname="org.springframework.expression.spel.SetValueTests" time="0.004"/>
-  <testcase name="testSetGenericListElementValueTypeCoersion()" classname="org.springframework.expression.spel.SetValueTests" time="0.001"/>
+  <testcase name="testSetArrayElementValueAllPrimitiveTypes()" classname="org.springframework.expression.spel.SetValueTests" time="0.006"/>
+  <testcase name="testSetGenericListElementValueTypeCoersion()" classname="org.springframework.expression.spel.SetValueTests" time="0.002"/>
   <testcase name="testErrorCase()" classname="org.springframework.expression.spel.SetValueTests" time="0.001"/>
-  <testcase name="testSetArrayElementValueAllPrimitiveTypesErrors()" classname="org.springframework.expression.spel.SetValueTests" time="0.003"/>
+  <testcase name="testSetArrayElementValueAllPrimitiveTypesErrors()" classname="org.springframework.expression.spel.SetValueTests" time="0.004"/>
   <testcase name="testAssign()" classname="org.springframework.expression.spel.SetValueTests" time="0.0"/>
   <testcase name="testSetNestedProperty()" classname="org.springframework.expression.spel.SetValueTests" time="0.001"/>
   <testcase name="testSetArrayElementNestedValue()" classname="org.springframework.expression.spel.SetValueTests" time="0.001"/>

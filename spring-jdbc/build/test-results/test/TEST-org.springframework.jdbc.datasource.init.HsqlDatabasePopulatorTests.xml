@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.jdbc.datasource.init.HsqlDatabasePopulatorTests" tests="15" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:39:47" hostname="wangweilideMacBook-Pro.local" time="1.044">
+<testsuite name="org.springframework.jdbc.datasource.init.HsqlDatabasePopulatorTests" tests="15" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:25:17" hostname="wangweilideMBP.lan" time="1.097">
   <properties/>
-  <testcase name="scriptWithoutStatementSeparator()" classname="org.springframework.jdbc.datasource.init.HsqlDatabasePopulatorTests" time="0.055"/>
-  <testcase name="scriptWithMultipleStatementsAndWhitespaceSeparator()" classname="org.springframework.jdbc.datasource.init.HsqlDatabasePopulatorTests" time="0.052"/>
-  <testcase name="scriptWithSingleLineCommentsAndFailedDrop()" classname="org.springframework.jdbc.datasource.init.HsqlDatabasePopulatorTests" time="0.093"/>
-  <testcase name="usesBoundConnectionIfAvailable()" classname="org.springframework.jdbc.datasource.init.HsqlDatabasePopulatorTests" time="0.064"/>
-  <testcase name="scriptWithMultipleStatementsAndLongSeparator()" classname="org.springframework.jdbc.datasource.init.HsqlDatabasePopulatorTests" time="0.06"/>
-  <testcase name="scriptWithSelectStatements()" classname="org.springframework.jdbc.datasource.init.HsqlDatabasePopulatorTests" time="0.05"/>
-  <testcase name="scriptWithMultipleStatements()" classname="org.springframework.jdbc.datasource.init.HsqlDatabasePopulatorTests" time="0.039"/>
-  <testcase name="executesHugeScriptInReasonableTime()" classname="org.springframework.jdbc.datasource.init.HsqlDatabasePopulatorTests" time="0.287"/>
-  <testcase name="scriptWithMultipleStatementsAndMultipleNewlineSeparator()" classname="org.springframework.jdbc.datasource.init.HsqlDatabasePopulatorTests" time="0.048"/>
-  <testcase name="scriptWithStandardEscapedLiteral()" classname="org.springframework.jdbc.datasource.init.HsqlDatabasePopulatorTests" time="0.085"/>
-  <testcase name="scriptWithMultipleStatementsAndNewlineSeparator()" classname="org.springframework.jdbc.datasource.init.HsqlDatabasePopulatorTests" time="0.053"/>
-  <testcase name="scriptWithCommentsWithinStatements()" classname="org.springframework.jdbc.datasource.init.HsqlDatabasePopulatorTests" time="0.047"/>
-  <testcase name="scriptWithMySqlEscapedLiteral()" classname="org.springframework.jdbc.datasource.init.HsqlDatabasePopulatorTests" time="0.034"/>
-  <testcase name="scriptWithEolBetweenTokens()" classname="org.springframework.jdbc.datasource.init.HsqlDatabasePopulatorTests" time="0.028"/>
-  <testcase name="constructorWithMultipleScriptResources()" classname="org.springframework.jdbc.datasource.init.HsqlDatabasePopulatorTests" time="0.04"/>
+  <testcase name="scriptWithoutStatementSeparator()" classname="org.springframework.jdbc.datasource.init.HsqlDatabasePopulatorTests" time="0.125"/>
+  <testcase name="scriptWithMultipleStatementsAndWhitespaceSeparator()" classname="org.springframework.jdbc.datasource.init.HsqlDatabasePopulatorTests" time="0.062"/>
+  <testcase name="scriptWithSingleLineCommentsAndFailedDrop()" classname="org.springframework.jdbc.datasource.init.HsqlDatabasePopulatorTests" time="0.069"/>
+  <testcase name="usesBoundConnectionIfAvailable()" classname="org.springframework.jdbc.datasource.init.HsqlDatabasePopulatorTests" time="0.071"/>
+  <testcase name="scriptWithMultipleStatementsAndLongSeparator()" classname="org.springframework.jdbc.datasource.init.HsqlDatabasePopulatorTests" time="0.027"/>
+  <testcase name="scriptWithSelectStatements()" classname="org.springframework.jdbc.datasource.init.HsqlDatabasePopulatorTests" time="0.024"/>
+  <testcase name="scriptWithMultipleStatements()" classname="org.springframework.jdbc.datasource.init.HsqlDatabasePopulatorTests" time="0.102"/>
+  <testcase name="executesHugeScriptInReasonableTime()" classname="org.springframework.jdbc.datasource.init.HsqlDatabasePopulatorTests" time="0.245"/>
+  <testcase name="scriptWithMultipleStatementsAndMultipleNewlineSeparator()" classname="org.springframework.jdbc.datasource.init.HsqlDatabasePopulatorTests" time="0.087"/>
+  <testcase name="scriptWithStandardEscapedLiteral()" classname="org.springframework.jdbc.datasource.init.HsqlDatabasePopulatorTests" time="0.019"/>
+  <testcase name="scriptWithMultipleStatementsAndNewlineSeparator()" classname="org.springframework.jdbc.datasource.init.HsqlDatabasePopulatorTests" time="0.042"/>
+  <testcase name="scriptWithCommentsWithinStatements()" classname="org.springframework.jdbc.datasource.init.HsqlDatabasePopulatorTests" time="0.059"/>
+  <testcase name="scriptWithMySqlEscapedLiteral()" classname="org.springframework.jdbc.datasource.init.HsqlDatabasePopulatorTests" time="0.042"/>
+  <testcase name="scriptWithEolBetweenTokens()" classname="org.springframework.jdbc.datasource.init.HsqlDatabasePopulatorTests" time="0.037"/>
+  <testcase name="constructorWithMultipleScriptResources()" classname="org.springframework.jdbc.datasource.init.HsqlDatabasePopulatorTests" time="0.077"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

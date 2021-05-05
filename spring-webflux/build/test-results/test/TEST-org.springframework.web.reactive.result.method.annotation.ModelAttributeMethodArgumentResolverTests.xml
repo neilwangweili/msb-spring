@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.web.reactive.result.method.annotation.ModelAttributeMethodArgumentResolverTests" tests="13" skipped="0" failures="0" errors="0" timestamp="2021-04-26T08:35:09" hostname="wangweilideMacBook-Pro.local" time="0.174">
+<testsuite name="org.springframework.web.reactive.result.method.annotation.ModelAttributeMethodArgumentResolverTests" tests="13" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:50:27" hostname="wangweilideMBP.lan" time="0.137">
   <properties/>
-  <testcase name="bindExistingMonoToMono()" classname="org.springframework.web.reactive.result.method.annotation.ModelAttributeMethodArgumentResolverTests" time="0.023"/>
+  <testcase name="bindExistingMonoToMono()" classname="org.springframework.web.reactive.result.method.annotation.ModelAttributeMethodArgumentResolverTests" time="0.019"/>
   <testcase name="supports()" classname="org.springframework.web.reactive.result.method.annotation.ModelAttributeMethodArgumentResolverTests" time="0.003"/>
   <testcase name="bindExistingMono()" classname="org.springframework.web.reactive.result.method.annotation.ModelAttributeMethodArgumentResolverTests" time="0.008"/>
-  <testcase name="createAndBindToSingle()" classname="org.springframework.web.reactive.result.method.annotation.ModelAttributeMethodArgumentResolverTests" time="0.042"/>
-  <testcase name="createAndBindToMono()" classname="org.springframework.web.reactive.result.method.annotation.ModelAttributeMethodArgumentResolverTests" time="0.032"/>
+  <testcase name="createAndBindToSingle()" classname="org.springframework.web.reactive.result.method.annotation.ModelAttributeMethodArgumentResolverTests" time="0.028"/>
+  <testcase name="createAndBindToMono()" classname="org.springframework.web.reactive.result.method.annotation.ModelAttributeMethodArgumentResolverTests" time="0.008"/>
   <testcase name="validationErrorToSingle()" classname="org.springframework.web.reactive.result.method.annotation.ModelAttributeMethodArgumentResolverTests" time="0.012"/>
   <testcase name="validationError()" classname="org.springframework.web.reactive.result.method.annotation.ModelAttributeMethodArgumentResolverTests" time="0.007"/>
   <testcase name="supportsWithDefaultResolution()" classname="org.springframework.web.reactive.result.method.annotation.ModelAttributeMethodArgumentResolverTests" time="0.003"/>
-  <testcase name="bindExistingSingle()" classname="org.springframework.web.reactive.result.method.annotation.ModelAttributeMethodArgumentResolverTests" time="0.007"/>
-  <testcase name="validationErrorToMono()" classname="org.springframework.web.reactive.result.method.annotation.ModelAttributeMethodArgumentResolverTests" time="0.008"/>
-  <testcase name="bindDataClass()" classname="org.springframework.web.reactive.result.method.annotation.ModelAttributeMethodArgumentResolverTests" time="0.009"/>
+  <testcase name="bindExistingSingle()" classname="org.springframework.web.reactive.result.method.annotation.ModelAttributeMethodArgumentResolverTests" time="0.008"/>
+  <testcase name="validationErrorToMono()" classname="org.springframework.web.reactive.result.method.annotation.ModelAttributeMethodArgumentResolverTests" time="0.009"/>
+  <testcase name="bindDataClass()" classname="org.springframework.web.reactive.result.method.annotation.ModelAttributeMethodArgumentResolverTests" time="0.01"/>
   <testcase name="createAndBind()" classname="org.springframework.web.reactive.result.method.annotation.ModelAttributeMethodArgumentResolverTests" time="0.009"/>
-  <testcase name="bindExisting()" classname="org.springframework.web.reactive.result.method.annotation.ModelAttributeMethodArgumentResolverTests" time="0.006"/>
-  <system-out><![CDATA[16:35:09.726 [Test worker] DEBUG o.s.h.c.FormHttpMessageReader - [474eda09] Read form fields [name, age] (content masked)
-16:35:09.745 [Test worker] DEBUG o.s.h.c.FormHttpMessageReader - [6d70f8fb] Read form fields [name, age] (content masked)
-16:35:09.754 [Test worker] DEBUG o.s.h.c.FormHttpMessageReader - [5577789c] Read form fields [name, age] (content masked)
-16:35:09.820 [Test worker] DEBUG o.s.h.c.FormHttpMessageReader - [3a542bd1] Read form fields [name, age] (content masked)
-16:35:09.827 [Test worker] DEBUG o.s.h.c.FormHttpMessageReader - [383b4ef6] Read form fields [age] (content masked)
-16:35:09.840 [Test worker] DEBUG o.s.h.c.FormHttpMessageReader - [7d2f6688] Read form fields [age] (content masked)
-16:35:09.852 [Test worker] DEBUG o.s.h.c.FormHttpMessageReader - [633b50ce] Read form fields [name, age] (content masked)
-16:35:09.859 [Test worker] DEBUG o.s.h.c.FormHttpMessageReader - [3f585210] Read form fields [age] (content masked)
-16:35:09.867 [Test worker] DEBUG o.s.h.c.FormHttpMessageReader - [3902feb8] Read form fields [name, age, count] (content masked)
-16:35:09.876 [Test worker] DEBUG o.s.h.c.FormHttpMessageReader - [11f0b24a] Read form fields [name, age] (content masked)
-16:35:09.884 [Test worker] DEBUG o.s.h.c.FormHttpMessageReader - [21e6cf7f] Read form fields [name, age] (content masked)
+  <testcase name="bindExisting()" classname="org.springframework.web.reactive.result.method.annotation.ModelAttributeMethodArgumentResolverTests" time="0.008"/>
+  <system-out><![CDATA[17:50:27.960 [Test worker] DEBUG o.s.h.c.FormHttpMessageReader - [402d6140] Read form fields [name, age] (content masked)
+17:50:27.978 [Test worker] DEBUG o.s.h.c.FormHttpMessageReader - [79065fa1] Read form fields [name, age] (content masked)
+17:50:27.987 [Test worker] DEBUG o.s.h.c.FormHttpMessageReader - [5f69d19] Read form fields [name, age] (content masked)
+17:50:28.015 [Test worker] DEBUG o.s.h.c.FormHttpMessageReader - [5f4296a0] Read form fields [name, age] (content masked)
+17:50:28.023 [Test worker] DEBUG o.s.h.c.FormHttpMessageReader - [7d0d86b0] Read form fields [age] (content masked)
+17:50:28.035 [Test worker] DEBUG o.s.h.c.FormHttpMessageReader - [679123e9] Read form fields [age] (content masked)
+17:50:28.047 [Test worker] DEBUG o.s.h.c.FormHttpMessageReader - [492b1bf3] Read form fields [name, age] (content masked)
+17:50:28.055 [Test worker] DEBUG o.s.h.c.FormHttpMessageReader - [6051986c] Read form fields [age] (content masked)
+17:50:28.064 [Test worker] DEBUG o.s.h.c.FormHttpMessageReader - [16b3cb13] Read form fields [name, age, count] (content masked)
+17:50:28.074 [Test worker] DEBUG o.s.h.c.FormHttpMessageReader - [7c86297b] Read form fields [name, age] (content masked)
+17:50:28.083 [Test worker] DEBUG o.s.h.c.FormHttpMessageReader - [62c8c744] Read form fields [name, age] (content masked)
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

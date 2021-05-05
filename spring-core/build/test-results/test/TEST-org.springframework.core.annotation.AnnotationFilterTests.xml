@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.core.annotation.AnnotationFilterTests" tests="12" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:37:44" hostname="wangweilideMacBook-Pro.local" time="0.003">
+<testsuite name="org.springframework.core.annotation.AnnotationFilterTests" tests="12" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:11:31" hostname="wangweilideMBP.lan" time="0.005">
   <properties/>
-  <testcase name="matchesAnnotationClassWhenNoMatchReturnsFalse()" classname="org.springframework.core.annotation.AnnotationFilterTests" time="0.0"/>
+  <testcase name="matchesAnnotationClassWhenNoMatchReturnsFalse()" classname="org.springframework.core.annotation.AnnotationFilterTests" time="0.001"/>
   <testcase name="plainWhenJavaLangAnnotationReturnsTrue()" classname="org.springframework.core.annotation.AnnotationFilterTests" time="0.0"/>
   <testcase name="matchesAnnotationWhenMatchReturnsTrue()" classname="org.springframework.core.annotation.AnnotationFilterTests" time="0.001"/>
   <testcase name="plainWhenSpringLangAnnotationReturnsTrue()" classname="org.springframework.core.annotation.AnnotationFilterTests" time="0.0"/>
-  <testcase name="matchesAnnotationWhenNoMatchReturnsFalse()" classname="org.springframework.core.annotation.AnnotationFilterTests" time="0.0"/>
-  <testcase name="javaWhenSpringLangAnnotationReturnsFalse()" classname="org.springframework.core.annotation.AnnotationFilterTests" time="0.0"/>
+  <testcase name="matchesAnnotationWhenNoMatchReturnsFalse()" classname="org.springframework.core.annotation.AnnotationFilterTests" time="0.001"/>
+  <testcase name="javaWhenSpringLangAnnotationReturnsFalse()" classname="org.springframework.core.annotation.AnnotationFilterTests" time="0.001"/>
   <testcase name="matchesAnnotationClassWhenMatchReturnsTrue()" classname="org.springframework.core.annotation.AnnotationFilterTests" time="0.0"/>
   <testcase name="javaWhenJavaxAnnotationReturnsTrue()" classname="org.springframework.core.annotation.AnnotationFilterTests" time="0.0"/>
   <testcase name="javaWhenJavaLangAnnotationReturnsTrue()" classname="org.springframework.core.annotation.AnnotationFilterTests" time="0.0"/>
   <testcase name="javaWhenOtherAnnotationReturnsFalse()" classname="org.springframework.core.annotation.AnnotationFilterTests" time="0.0"/>
-  <testcase name="plainWhenOtherAnnotationReturnsFalse()" classname="org.springframework.core.annotation.AnnotationFilterTests" time="0.0"/>
+  <testcase name="plainWhenOtherAnnotationReturnsFalse()" classname="org.springframework.core.annotation.AnnotationFilterTests" time="0.001"/>
   <testcase name="noneReturnsFalse()" classname="org.springframework.core.annotation.AnnotationFilterTests" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

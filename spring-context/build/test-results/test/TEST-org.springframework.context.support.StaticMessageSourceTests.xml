@@ -1,54 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.context.support.StaticMessageSourceTests" tests="46" skipped="1" failures="0" errors="0" timestamp="2021-04-26T07:40:55" hostname="wangweilideMacBook-Pro.local" time="0.237">
+<testsuite name="org.springframework.context.support.StaticMessageSourceTests" tests="46" skipped="1" failures="0" errors="0" timestamp="2021-05-01T09:31:52" hostname="wangweilideMBP.lan" time="0.091">
   <properties/>
-  <testcase name="factoryIsInitialized()" classname="org.springframework.context.support.StaticMessageSourceTests" time="0.004"/>
-  <testcase name="inheritance()" classname="org.springframework.context.support.StaticMessageSourceTests" time="0.004"/>
-  <testcase name="factorySingleton()" classname="org.springframework.context.support.StaticMessageSourceTests" time="0.004"/>
-  <testcase name="getSharedInstanceByMatchingClassNoCatch()" classname="org.springframework.context.support.StaticMessageSourceTests" time="0.003"/>
-  <testcase name="getSharedInstanceByMatchingClass()" classname="org.springframework.context.support.StaticMessageSourceTests" time="0.003"/>
-  <testcase name="getSharedInstanceByNonmatchingClass()" classname="org.springframework.context.support.StaticMessageSourceTests" time="0.003"/>
-  <testcase name="prototypeInstancesAreIndependent()" classname="org.springframework.context.support.StaticMessageSourceTests" time="0.004"/>
-  <testcase name="factoryPrototype()" classname="org.springframework.context.support.StaticMessageSourceTests" time="0.004"/>
-  <testcase name="lifecycleCallbacks()" classname="org.springframework.context.support.StaticMessageSourceTests" time="0.004"/>
-  <testcase name="typeMismatch()" classname="org.springframework.context.support.StaticMessageSourceTests" time="0.004"/>
-  <testcase name="grandparentDefinitionFoundInBeanFactory()" classname="org.springframework.context.support.StaticMessageSourceTests" time="0.004"/>
-  <testcase name="validEmpty()" classname="org.springframework.context.support.StaticMessageSourceTests" time="0.003"/>
-  <testcase name="findsValidInstance()" classname="org.springframework.context.support.StaticMessageSourceTests" time="0.004"/>
-  <testcase name="getFactoryItself()" classname="org.springframework.context.support.StaticMessageSourceTests" time="0.005"/>
-  <testcase name="getInstanceByMatchingClass()" classname="org.springframework.context.support.StaticMessageSourceTests" time="0.004"/>
-  <testcase name="getInstanceByNonmatchingClass()" classname="org.springframework.context.support.StaticMessageSourceTests" time="0.003"/>
-  <testcase name="getBeanWithNullArg()" classname="org.springframework.context.support.StaticMessageSourceTests" time="0.003"/>
-  <testcase name="rejectsFactoryGetOnNormalBean()" classname="org.springframework.context.support.StaticMessageSourceTests" time="0.003"/>
-  <testcase name="sharedInstancesAreEqual()" classname="org.springframework.context.support.StaticMessageSourceTests" time="0.003"/>
+  <testcase name="factoryIsInitialized()" classname="org.springframework.context.support.StaticMessageSourceTests" time="0.003"/>
+  <testcase name="inheritance()" classname="org.springframework.context.support.StaticMessageSourceTests" time="0.001"/>
+  <testcase name="factorySingleton()" classname="org.springframework.context.support.StaticMessageSourceTests" time="0.002"/>
+  <testcase name="getSharedInstanceByMatchingClassNoCatch()" classname="org.springframework.context.support.StaticMessageSourceTests" time="0.002"/>
+  <testcase name="getSharedInstanceByMatchingClass()" classname="org.springframework.context.support.StaticMessageSourceTests" time="0.002"/>
+  <testcase name="getSharedInstanceByNonmatchingClass()" classname="org.springframework.context.support.StaticMessageSourceTests" time="0.001"/>
+  <testcase name="prototypeInstancesAreIndependent()" classname="org.springframework.context.support.StaticMessageSourceTests" time="0.001"/>
+  <testcase name="factoryPrototype()" classname="org.springframework.context.support.StaticMessageSourceTests" time="0.002"/>
+  <testcase name="lifecycleCallbacks()" classname="org.springframework.context.support.StaticMessageSourceTests" time="0.002"/>
+  <testcase name="typeMismatch()" classname="org.springframework.context.support.StaticMessageSourceTests" time="0.002"/>
+  <testcase name="grandparentDefinitionFoundInBeanFactory()" classname="org.springframework.context.support.StaticMessageSourceTests" time="0.001"/>
+  <testcase name="validEmpty()" classname="org.springframework.context.support.StaticMessageSourceTests" time="0.002"/>
+  <testcase name="findsValidInstance()" classname="org.springframework.context.support.StaticMessageSourceTests" time="0.001"/>
+  <testcase name="getFactoryItself()" classname="org.springframework.context.support.StaticMessageSourceTests" time="0.001"/>
+  <testcase name="getInstanceByMatchingClass()" classname="org.springframework.context.support.StaticMessageSourceTests" time="0.001"/>
+  <testcase name="getInstanceByNonmatchingClass()" classname="org.springframework.context.support.StaticMessageSourceTests" time="0.002"/>
+  <testcase name="getBeanWithNullArg()" classname="org.springframework.context.support.StaticMessageSourceTests" time="0.001"/>
+  <testcase name="rejectsFactoryGetOnNormalBean()" classname="org.springframework.context.support.StaticMessageSourceTests" time="0.001"/>
+  <testcase name="sharedInstancesAreEqual()" classname="org.springframework.context.support.StaticMessageSourceTests" time="0.002"/>
   <testcase name="notThere()" classname="org.springframework.context.support.StaticMessageSourceTests" time="0.002"/>
-  <testcase name="aliasing()" classname="org.springframework.context.support.StaticMessageSourceTests" time="0.003"/>
-  <testcase name="initializingBeanCallback()" classname="org.springframework.context.support.StaticMessageSourceTests" time="0.041"/>
-  <testcase name="containsBeanDefinition()" classname="org.springframework.context.support.StaticMessageSourceTests" time="0.002"/>
-  <testcase name="getDefinitionsForNoSuchClass()" classname="org.springframework.context.support.StaticMessageSourceTests" time="0.003"/>
-  <testcase name="getCountForFactoryClass()" classname="org.springframework.context.support.StaticMessageSourceTests" time="0.003"/>
+  <testcase name="aliasing()" classname="org.springframework.context.support.StaticMessageSourceTests" time="0.002"/>
+  <testcase name="initializingBeanCallback()" classname="org.springframework.context.support.StaticMessageSourceTests" time="0.001"/>
+  <testcase name="containsBeanDefinition()" classname="org.springframework.context.support.StaticMessageSourceTests" time="0.003"/>
+  <testcase name="getDefinitionsForNoSuchClass()" classname="org.springframework.context.support.StaticMessageSourceTests" time="0.002"/>
+  <testcase name="getCountForFactoryClass()" classname="org.springframework.context.support.StaticMessageSourceTests" time="0.002"/>
   <testcase name="closeTriggersDestroy()" classname="org.springframework.context.support.StaticMessageSourceTests" time="0.003"/>
-  <testcase name="grandparentNull()" classname="org.springframework.context.support.StaticMessageSourceTests" time="0.005"/>
-  <testcase name="eventsWithNoSource()" classname="org.springframework.context.support.StaticMessageSourceTests" time="0.005"/>
-  <testcase name="parentNonNull()" classname="org.springframework.context.support.StaticMessageSourceTests" time="0.004"/>
-  <testcase name="grandparentDefinitionFound()" classname="org.springframework.context.support.StaticMessageSourceTests" time="0.004"/>
-  <testcase name="events()" classname="org.springframework.context.support.StaticMessageSourceTests" time="0.004"/>
-  <testcase name="contextAwareSingletonWasCalledBack()" classname="org.springframework.context.support.StaticMessageSourceTests" time="0.003"/>
-  <testcase name="contextAwarePrototypeWasCalledBack()" classname="org.springframework.context.support.StaticMessageSourceTests" time="0.003"/>
-  <testcase name="overrideWorked()" classname="org.springframework.context.support.StaticMessageSourceTests" time="0.004"/>
-  <testcase name="beanAutomaticallyHearsEvents()" classname="org.springframework.context.support.StaticMessageSourceTests" time="0.003"/>
-  <testcase name="grandparentTypedDefinitionFound()" classname="org.springframework.context.support.StaticMessageSourceTests" time="0.004"/>
-  <testcase name="messageSourceResolvable()" classname="org.springframework.context.support.StaticMessageSourceTests" time="0.004"/>
-  <testcase name="getMessageWithNoDefaultPassedInAndNotFoundInMsgCatalog()" classname="org.springframework.context.support.StaticMessageSourceTests" time="0.004"/>
+  <testcase name="grandparentNull()" classname="org.springframework.context.support.StaticMessageSourceTests" time="0.002"/>
+  <testcase name="eventsWithNoSource()" classname="org.springframework.context.support.StaticMessageSourceTests" time="0.002"/>
+  <testcase name="parentNonNull()" classname="org.springframework.context.support.StaticMessageSourceTests" time="0.002"/>
+  <testcase name="grandparentDefinitionFound()" classname="org.springframework.context.support.StaticMessageSourceTests" time="0.002"/>
+  <testcase name="events()" classname="org.springframework.context.support.StaticMessageSourceTests" time="0.001"/>
+  <testcase name="contextAwareSingletonWasCalledBack()" classname="org.springframework.context.support.StaticMessageSourceTests" time="0.002"/>
+  <testcase name="contextAwarePrototypeWasCalledBack()" classname="org.springframework.context.support.StaticMessageSourceTests" time="0.001"/>
+  <testcase name="overrideWorked()" classname="org.springframework.context.support.StaticMessageSourceTests" time="0.002"/>
+  <testcase name="beanAutomaticallyHearsEvents()" classname="org.springframework.context.support.StaticMessageSourceTests" time="0.002"/>
+  <testcase name="grandparentTypedDefinitionFound()" classname="org.springframework.context.support.StaticMessageSourceTests" time="0.002"/>
+  <testcase name="messageSourceResolvable()" classname="org.springframework.context.support.StaticMessageSourceTests" time="0.002"/>
+  <testcase name="getMessageWithNoDefaultPassedInAndNotFoundInMsgCatalog()" classname="org.springframework.context.support.StaticMessageSourceTests" time="0.002"/>
   <testcase name="messageSource()" classname="org.springframework.context.support.StaticMessageSourceTests" time="0.0">
     <skipped/>
   </testcase>
-  <testcase name="getMessageWithDefaultPassedInAndNotFoundInMsgCatalog()" classname="org.springframework.context.support.StaticMessageSourceTests" time="0.004"/>
-  <testcase name="nestedMessageSourceWithParamInParent()" classname="org.springframework.context.support.StaticMessageSourceTests" time="0.003"/>
+  <testcase name="getMessageWithDefaultPassedInAndNotFoundInMsgCatalog()" classname="org.springframework.context.support.StaticMessageSourceTests" time="0.001"/>
+  <testcase name="nestedMessageSourceWithParamInParent()" classname="org.springframework.context.support.StaticMessageSourceTests" time="0.001"/>
   <testcase name="nestedMessageSourceWithParamInChild()" classname="org.springframework.context.support.StaticMessageSourceTests" time="0.002"/>
-  <testcase name="count()" classname="org.springframework.context.support.StaticMessageSourceTests" time="0.003"/>
-  <testcase name="getMessageWithDefaultPassedInAndFoundInMsgCatalog()" classname="org.springframework.context.support.StaticMessageSourceTests" time="0.003"/>
-  <testcase name="getMessageWithNoDefaultPassedInAndFoundInMsgCatalog()" classname="org.springframework.context.support.StaticMessageSourceTests" time="0.015"/>
-  <testcase name="getMessageWithMessageAlreadyLookedFor()" classname="org.springframework.context.support.StaticMessageSourceTests" time="0.021"/>
+  <testcase name="count()" classname="org.springframework.context.support.StaticMessageSourceTests" time="0.001"/>
+  <testcase name="getMessageWithDefaultPassedInAndFoundInMsgCatalog()" classname="org.springframework.context.support.StaticMessageSourceTests" time="0.002"/>
+  <testcase name="getMessageWithNoDefaultPassedInAndFoundInMsgCatalog()" classname="org.springframework.context.support.StaticMessageSourceTests" time="0.006"/>
+  <testcase name="getMessageWithMessageAlreadyLookedFor()" classname="org.springframework.context.support.StaticMessageSourceTests" time="0.003"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

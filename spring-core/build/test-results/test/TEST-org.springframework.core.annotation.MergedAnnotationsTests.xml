@@ -1,74 +1,74 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.core.annotation.MergedAnnotationsTests" tests="168" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:37:44" hostname="wangweilideMacBook-Pro.local" time="0.147">
+<testsuite name="org.springframework.core.annotation.MergedAnnotationsTests" tests="168" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:11:31" hostname="wangweilideMBP.lan" time="0.152">
   <properties/>
-  <testcase name="getWithInheritedAnnotationsFromInvalidConventionBasedComposedAnnotation()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.003"/>
-  <testcase name="synthesizeWhenAliasForHasDuplicateAttributeDeclaration()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.002"/>
+  <testcase name="getWithInheritedAnnotationsFromInvalidConventionBasedComposedAnnotation()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.002"/>
+  <testcase name="synthesizeWhenAliasForHasDuplicateAttributeDeclaration()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.001"/>
   <testcase name="getWithInheritedAnnotationsFromHalfConventionBasedAndHalfAliasedComposedAnnotation1()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.001"/>
   <testcase name="getWithTypeHierarchyFromInheritedAnnotationInterface()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.001"/>
-  <testcase name="getWithTypeHierarchyWithSingleElementOverridingAnArrayViaConvention()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.003"/>
-  <testcase name="getDirectWithAttributeAliasesWithDifferentValues()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.002"/>
+  <testcase name="getWithTypeHierarchyWithSingleElementOverridingAnArrayViaConvention()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.001"/>
+  <testcase name="getDirectWithAttributeAliasesWithDifferentValues()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.001"/>
   <testcase name="isPresentWhenFromSubclassWithMetaDepth0()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.0"/>
   <testcase name="synthesizeWithImplicitAliasesWithDuplicateValues()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.002"/>
   <testcase name="getRepeatableDeclaredOnMultipleSuperclasses()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.005"/>
-  <testcase name="getFromMethodWithInterfaceOnSuper()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.001"/>
-  <testcase name="getWithInheritedAnnotationsFromClassWithLocalAnnotationThatShadowsAnnotationFromSuperclass()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.0"/>
+  <testcase name="getFromMethodWithInterfaceOnSuper()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.0"/>
+  <testcase name="getWithInheritedAnnotationsFromClassWithLocalAnnotationThatShadowsAnnotationFromSuperclass()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.001"/>
   <testcase name="getWithTypeHierarchyFromBridgeMethod()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.001"/>
   <testcase name="getWithInheritedAnnotationsFromNonInheritedAnnotationInterface()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.0"/>
-  <testcase name="synthesizeWithImplicitAliases()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.003"/>
+  <testcase name="synthesizeWithImplicitAliases()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.004"/>
   <testcase name="getWithInheritedAnnotationsFavorsInheritedAnnotationsOverMoreLocallyDeclaredComposedAnnotations()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.001"/>
-  <testcase name="getWithInheritedAnnotationsFromClassWithLocalAnnotation()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.001"/>
+  <testcase name="getWithInheritedAnnotationsFromClassWithLocalAnnotation()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.0"/>
   <testcase name="getWithTypeHierarchyFromClassWithMetaAndLocalTxConfig()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.002"/>
-  <testcase name="asAnnotationAttributesReturnsPopulatedAnnotationAttributes()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.003"/>
+  <testcase name="asAnnotationAttributesReturnsPopulatedAnnotationAttributes()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.004"/>
   <testcase name="getDirectFromClassWithMetaCycleAnnotatedClassWithMissingTargetMetaAnnotation()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.002"/>
   <testcase name="getFromMethodWithBridgedMethod()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.001"/>
   <testcase name="synthesizeWithTransitiveImplicitAliases()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.002"/>
   <testcase name="getWithAnnotationOnRoot()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.0"/>
   <testcase name="streamWhenFromNonAnnotatedClass()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.0"/>
-  <testcase name="synthesizeFromMapWithoutAttributeAliases()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.0"/>
+  <testcase name="synthesizeFromMapWithoutAttributeAliases()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.001"/>
   <testcase name="getFromMethodWithNotAnnotated()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.001"/>
-  <testcase name="synthesizeShouldNotSynthesizeNonsynthesizableAnnotations()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.001"/>
-  <testcase name="getWithTypeHierarchyInheritedFromBridgedMethod()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.0"/>
+  <testcase name="synthesizeShouldNotSynthesizeNonsynthesizableAnnotations()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.0"/>
+  <testcase name="getWithTypeHierarchyInheritedFromBridgedMethod()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.001"/>
   <testcase name="getFromMethodWithInterface()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.0"/>
-  <testcase name="getDirectWithJavaxAnnotationType()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.001"/>
+  <testcase name="getDirectWithJavaxAnnotationType()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.0"/>
   <testcase name="synthesizeWhenAttributeAliasForWithMissingDefaultValues()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.001"/>
   <testcase name="synthesizeAlreadySynthesized()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.001"/>
-  <testcase name="synthesizeFromMapWithMissingAttributeValue()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.001"/>
-  <testcase name="synthesizeWhenAttributeAliasForNonexistentAttribute()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.001"/>
-  <testcase name="getWithInheritedAnnotationsFromTransitiveImplicitAliasesWithSkippedLevelWithSingleElementOverridingAnArrayViaAliasFor()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.002"/>
-  <testcase name="collectMultiValueMapFavorsInheritedComposedAnnotationsOverMoreLocallyDeclaredComposedAnnotations()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.002"/>
+  <testcase name="synthesizeFromMapWithMissingAttributeValue()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.0"/>
+  <testcase name="synthesizeWhenAttributeAliasForNonexistentAttribute()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.0"/>
+  <testcase name="getWithInheritedAnnotationsFromTransitiveImplicitAliasesWithSkippedLevelWithSingleElementOverridingAnArrayViaAliasFor()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.003"/>
+  <testcase name="collectMultiValueMapFavorsInheritedComposedAnnotationsOverMoreLocallyDeclaredComposedAnnotations()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.001"/>
   <testcase name="synthesizeFromAnnotationAttributesWithoutAttributeAliases()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.0"/>
-  <testcase name="getWithTypeHierarchyWhenMultipleMetaAnnotationsHaveClashingAttributeNames()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.003"/>
+  <testcase name="getWithTypeHierarchyWhenMultipleMetaAnnotationsHaveClashingAttributeNames()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.002"/>
   <testcase name="getDirectFromClassWithSubInheritedAnnotationInterface()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.0"/>
   <testcase name="getWithTypeHierarchyFromClassWithComposedMetaTransactionalAnnotation()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.003"/>
   <testcase name="withInheritedAnnotationsFromHalfConventionBasedAndHalfAliasedComposedAnnotation2()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.0"/>
   <testcase name="getDirectRepeatablesDeclaredOnSuperclass()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.0"/>
   <testcase name="synthesizeFromMapWithNestedMap()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.003"/>
   <testcase name="getMetaTypes()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.001"/>
-  <testcase name="collectMultiValueMapFromClassWithMultipleComposedAnnotations()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.002"/>
+  <testcase name="collectMultiValueMapFromClassWithMultipleComposedAnnotations()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.001"/>
   <testcase name="getWithTypeHierarchyFromSubNonInheritedAnnotationInterface()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.0"/>
   <testcase name="getWithInheritedAnnotationsFromTransitiveImplicitAliases()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.001"/>
   <testcase name="withInheritedAnnotationsFromAliasedValueComposedAnnotation()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.001"/>
   <testcase name="synthesizeWhenAttributeAliasForMetaAnnotationThatIsNotMetaPresent()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.001"/>
-  <testcase name="isPresentWhenFromNonAnnotatedClass()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.001"/>
+  <testcase name="isPresentWhenFromNonAnnotatedClass()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.0"/>
   <testcase name="getValueWhenHasDefaultOverrideWithExplicitAlias()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.002"/>
   <testcase name="getFromMethodWithGenericSuperclass()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.0"/>
   <testcase name="synthesizeFromMapWithImplicitAttributeAliases()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.001"/>
-  <testcase name="getWithInheritedAnnotationsFromImplicitAliasesInMetaAnnotationOnComposedAnnotation()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.001"/>
+  <testcase name="getWithInheritedAnnotationsFromImplicitAliasesInMetaAnnotationOnComposedAnnotation()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.002"/>
   <testcase name="synthesizeWithArrayOfChars()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.002"/>
-  <testcase name="getDefaultValueFromAnnotationType()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.0"/>
+  <testcase name="getDefaultValueFromAnnotationType()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.001"/>
   <testcase name="getWithTypeHierarchyFromClassWithBothAttributesOfAnAliasPairDeclared()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.0"/>
   <testcase name="getWithTypeHierarchyInheritedFromAbstractMethod()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.0"/>
-  <testcase name="synthesizeWhenAliasForIsMissingAttributeDeclaration()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.001"/>
+  <testcase name="synthesizeWhenAliasForIsMissingAttributeDeclaration()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.002"/>
   <testcase name="getFromMethodWithBridgeMethod()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.001"/>
   <testcase name="getDefaultValueFromNonPublicAnnotation()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.0"/>
   <testcase name="streamTypeHierarchyAndEnclosingClassesFromNonAnnotatedInnerClassWithAnnotatedEnclosingClass()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.002"/>
   <testcase name="synthesizeFromMapWithNestedArrayOfMaps()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.002"/>
-  <testcase name="getDirectFromClassFavorsMoreLocallyDeclaredComposedAnnotationsOverInheritedAnnotations()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.0"/>
+  <testcase name="getDirectFromClassFavorsMoreLocallyDeclaredComposedAnnotationsOverInheritedAnnotations()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.001"/>
   <testcase name="getFromMethodWithMethodAnnotationOnLeaf()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.0"/>
   <testcase name="synthesizeWhenAttributeAliasForAttributeWithDifferentDefaultValue()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.001"/>
-  <testcase name="getRootWhenNotDirect()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.0"/>
-  <testcase name="synthesizeWhenAttributeAliasesWithDifferentValues()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.001"/>
-  <testcase name="getWithInheritedAnnotationsAttributesWithConventionBasedComposedAnnotation()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.001"/>
+  <testcase name="getRootWhenNotDirect()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.001"/>
+  <testcase name="synthesizeWhenAttributeAliasesWithDifferentValues()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.0"/>
+  <testcase name="getWithInheritedAnnotationsAttributesWithConventionBasedComposedAnnotation()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.002"/>
   <testcase name="getWithInheritedAnnotationsFromInterfaceImplementedBySuperclass()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.0"/>
   <testcase name="getWithInheritedAnnotationsFromImplicitAliasesForSameAttributeInComposedAnnotation()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.001"/>
   <testcase name="getValueFromNonPublicAnnotation()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.0"/>
@@ -76,9 +76,9 @@
   <testcase name="getSuperClassSourceForTypesWithMultipleCandidateTypes()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.001"/>
   <testcase name="getDirectFromClassWithSubSubInheritedAnnotationInterface()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.0"/>
   <testcase name="getFromMethodWithOnRootButOverridden()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.0"/>
-  <testcase name="getRepeatableDeclaredOnMethod()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.001"/>
+  <testcase name="getRepeatableDeclaredOnMethod()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.0"/>
   <testcase name="getValueWhenHasDefaultOverride()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.002"/>
-  <testcase name="synthesizeWithImplicitAliasesWithDifferentDefaultValues()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.002"/>
+  <testcase name="synthesizeWithImplicitAliasesWithDifferentDefaultValues()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.001"/>
   <testcase name="getWithTypeHierarchyFromNonInheritedAnnotationInterface()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.0"/>
   <testcase name="getValueFromAnnotation()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.0"/>
   <testcase name="getSuperClassSourceForTypesWithSingleCandidateType()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.0"/>
@@ -86,11 +86,11 @@
   <testcase name="getFromMethodWhenInterfaceWhenSuperDoesNotImplementMethod()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.0"/>
   <testcase name="synthesizeWithImplicitAliasesForAliasPair()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.002"/>
   <testcase name="collectMultiValueMapFromClassWithLocalAnnotationThatShadowsAnnotationFromSuperclass()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.0"/>
-  <testcase name="synthesizeFromMapWithMinimalAttributesWithAttributeAliases()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.001"/>
+  <testcase name="synthesizeFromMapWithMinimalAttributesWithAttributeAliases()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.0"/>
   <testcase name="getWithTypeHierarchyOnMethodWithSingleElementOverridingAnArrayViaConvention()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.001"/>
   <testcase name="getRepeatableDeclaredOnClassAndSuperclass()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.001"/>
-  <testcase name="synthesizeWithImplicitAliasesWithMissingDefaultValues()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.001"/>
-  <testcase name="streamTypeHierarchyAndEnclosingClassesFromNonAnnotatedStaticNestedClassWithAnnotatedEnclosingClass()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.001"/>
+  <testcase name="synthesizeWithImplicitAliasesWithMissingDefaultValues()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.002"/>
+  <testcase name="streamTypeHierarchyAndEnclosingClassesFromNonAnnotatedStaticNestedClassWithAnnotatedEnclosingClass()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.0"/>
   <testcase name="streamWhenFromClassWithMetaDepth1()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.0"/>
   <testcase name="streamWhenFromClassWithMetaDepth2()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.001"/>
   <testcase name="synthesizeWhenAttributeAliasForAttributeOfDifferentType()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.001"/>
@@ -98,7 +98,7 @@
   <testcase name="getFromMethodWithMetaAnnotationOnRoot()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.001"/>
   <testcase name="getDirectWithoutAttributeAliases()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.0"/>
   <testcase name="getWithInheritedAnnotationsFromInheritedAnnotationInterface()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.0"/>
-  <testcase name="getDirectFromClassWithMetaMetaMetaAnnotatedClass()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.001"/>
+  <testcase name="getDirectFromClassWithMetaMetaMetaAnnotatedClass()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.002"/>
   <testcase name="getWithTypeHierarchyInheritedFromInterfaceMethod()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.0"/>
   <testcase name="getDirectFromClassWithSubSubNonInheritedAnnotationInterface()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.0"/>
   <testcase name="getWithInheritedAnnotationsFromMetaCycleAnnotatedClassWithMissingTargetMetaAnnotation()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.0"/>
@@ -107,30 +107,30 @@
   <testcase name="getFromMethodWithGenericInterface()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.001"/>
   <testcase name="getParent()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.0"/>
   <testcase name="getDirectFromClassFavorsMoreLocallyDeclaredComposedAnnotationsOverAnnotationsOnInterfaces()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.0"/>
-  <testcase name="getDirectFromClassgetDirectFromClassMetaMetaAnnotatedClass()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.0"/>
+  <testcase name="getDirectFromClassgetDirectFromClassMetaMetaAnnotatedClass()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.001"/>
   <testcase name="getRootWhenDirect()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.0"/>
-  <testcase name="synthesizeShouldNotResynthesizeAlreadySynthesizedAnnotations()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.001"/>
-  <testcase name="getWithInheritedAnnotationsFavorsLocalComposedAnnotationOverInheritedAnnotation()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.0"/>
-  <testcase name="getWithTypeHierarchyOnMethodWithSingleElementOverridingAnArrayViaAliasFor()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.002"/>
-  <testcase name="collectMultiValueMapFromClassWithLocalAnnotation()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.0"/>
-  <testcase name="equalsForSynthesizedAnnotations()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.001"/>
-  <testcase name="getValueWhenHasDefaultOverrideWithImplicitAlias()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.002"/>
-  <testcase name="fromPreconditions()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.001"/>
+  <testcase name="synthesizeShouldNotResynthesizeAlreadySynthesizedAnnotations()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.0"/>
+  <testcase name="getWithInheritedAnnotationsFavorsLocalComposedAnnotationOverInheritedAnnotation()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.001"/>
+  <testcase name="getWithTypeHierarchyOnMethodWithSingleElementOverridingAnArrayViaAliasFor()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.001"/>
+  <testcase name="collectMultiValueMapFromClassWithLocalAnnotation()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.001"/>
+  <testcase name="equalsForSynthesizedAnnotations()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.0"/>
+  <testcase name="getValueWhenHasDefaultOverrideWithImplicitAlias()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.003"/>
+  <testcase name="fromPreconditions()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.002"/>
   <testcase name="toStringForSynthesizedAnnotations()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.001"/>
   <testcase name="getDirectFromClassWithNonInheritedAnnotationInterface()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.0"/>
   <testcase name="getWithInheritedAnnotationsFromShadowedAliasComposedAnnotation()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.001"/>
-  <testcase name="getValueWhenThreeDeepMetaWithValue()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.001"/>
-  <testcase name="synthesizeWithArrayOfAnnotations()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.002"/>
+  <testcase name="getValueWhenThreeDeepMetaWithValue()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.002"/>
+  <testcase name="synthesizeWithArrayOfAnnotations()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.003"/>
   <testcase name="collectMultiValueMapFromClassWithLocalComposedAnnotationAndInheritedAnnotation()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.0"/>
   <testcase name="hashCodeForSynthesizedAnnotations()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.001"/>
   <testcase name="getDirectFromClassWithInheritedAnnotationInterface()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.0"/>
   <testcase name="getWithTypeHierarchyFromSubSubInheritedAnnotationInterface()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.0"/>
   <testcase name="getWithTypeHierarchyWithSingleElementOverridingAnArrayViaAliasFor()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.001"/>
   <testcase name="getWithInheritedAnnotationsFavorsInheritedComposedAnnotationsOverMoreLocallyDeclaredComposedAnnotations()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.0"/>
-  <testcase name="synthesizeWithTransitiveImplicitAliasesForAliasPair()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.001"/>
+  <testcase name="synthesizeWithTransitiveImplicitAliasesForAliasPair()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.002"/>
   <testcase name="getWithInheritedAnnotationsFromTransitiveImplicitAliasesWithSkippedLevel()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.001"/>
-  <testcase name="getDirectRepeatablesDeclaredOnClass()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.0"/>
-  <testcase name="synthesizeFromDefaultsWithAttributeAliases()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.001"/>
+  <testcase name="getDirectRepeatablesDeclaredOnClass()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.001"/>
+  <testcase name="synthesizeFromDefaultsWithAttributeAliases()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.0"/>
   <testcase name="getWithTypeHierarchyFromSubSubNonInheritedAnnotationInterface()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.0"/>
   <testcase name="isPresentWhenFromAnnotationClassWithMetaDepth0()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.0"/>
   <testcase name="isPresentWhenFromAnnotationClassWithMetaDepth1()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.0"/>
@@ -141,7 +141,7 @@
   <testcase name="getDirectWithAttributeAliases1()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.0"/>
   <testcase name="getDirectWithAttributeAliases2()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.0"/>
   <testcase name="synthesizeWithoutAttributeAliases()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.0"/>
-  <testcase name="isPresentWhenFromClassWithMetaDepth0()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.001"/>
+  <testcase name="isPresentWhenFromClassWithMetaDepth0()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.0"/>
   <testcase name="isPresentWhenFromClassWithMetaDepth1()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.0"/>
   <testcase name="isPresentWhenFromClassWithMetaDepth2()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.0"/>
   <testcase name="getSuperClassForAllScenarios()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.0"/>
@@ -152,11 +152,11 @@
   <testcase name="streamInheritedFromClassWithInterface()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.0"/>
   <testcase name="streamTypeHierarchyFromClassWithInterface()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.0"/>
   <testcase name="getDirectFromClassFavorsMoreLocallyDeclaredComposedAnnotationsOverInheritedComposedAnnotations()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.0"/>
-  <testcase name="getWithTypeHierarchyFromClassWithAttributeAliasesInTargetAnnotation()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.001"/>
+  <testcase name="getWithTypeHierarchyFromClassWithAttributeAliasesInTargetAnnotation()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.002"/>
   <testcase name="synthesizeWithImplicitAliasesWithImpliedAliasNamesOmitted()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.001"/>
-  <testcase name="getRepeatableDeclaredOnSuperclass()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.001"/>
+  <testcase name="getRepeatableDeclaredOnSuperclass()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.0"/>
   <testcase name="synthesizeNonPublicWithAttributeAliasesFromDifferentPackage()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.002"/>
-  <testcase name="getWithTypeHierarchyFromClassWithMetaMetaAliasedTransactional()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.002"/>
+  <testcase name="getWithTypeHierarchyFromClassWithMetaMetaAliasedTransactional()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.001"/>
   <testcase name="collectMultiValueMapFavorsInheritedAnnotationsOverMoreLocallyDeclaredComposedAnnotations()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.0"/>
   <testcase name="synthesizeFromMapWithAttributeOfIncorrectType()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.0"/>
   <testcase name="getWithInheritedAnnotationsFromTransitiveImplicitAliasesWithSingleElementOverridingAnArrayViaAliasFor()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.002"/>
@@ -164,11 +164,11 @@
   <testcase name="getFromMethodWithMetaMetaAnnotationOnLeaf()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.0"/>
   <testcase name="getDirectFromClassWithAnnotatedClassWithMissingTargetMetaAnnotation()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.0"/>
   <testcase name="getDirectFromClassWithSubNonInheritedAnnotationInterface()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.0"/>
-  <testcase name="isDirectlyPresentForAllScenarios()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.0"/>
+  <testcase name="isDirectlyPresentForAllScenarios()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.001"/>
   <testcase name="getWithTypeHierarchyFromSubInheritedAnnotationInterface()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.0"/>
   <testcase name="withInheritedAnnotationsFromAliasedComposedAnnotation()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.001"/>
   <testcase name="getFromMethodWithAnnotationOnMethodInInterface()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.0"/>
-  <testcase name="getDirectWithNestedAnnotations()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.001"/>
+  <testcase name="getDirectWithNestedAnnotations()" classname="org.springframework.core.annotation.MergedAnnotationsTests" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.web.reactive.result.condition.HeadersRequestConditionTests" tests="14" skipped="0" failures="0" errors="0" timestamp="2021-04-26T08:31:57" hostname="wangweilideMacBook-Pro.local" time="0.124">
+<testsuite name="org.springframework.web.reactive.result.condition.HeadersRequestConditionTests" tests="14" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:47:18" hostname="wangweilideMBP.lan" time="0.173">
   <properties/>
-  <testcase name="headerCaseSensitiveValueMatch()" classname="org.springframework.web.reactive.result.condition.HeadersRequestConditionTests" time="0.01"/>
-  <testcase name="compareTo()" classname="org.springframework.web.reactive.result.condition.HeadersRequestConditionTests" time="0.01"/>
+  <testcase name="headerCaseSensitiveValueMatch()" classname="org.springframework.web.reactive.result.condition.HeadersRequestConditionTests" time="0.019"/>
+  <testcase name="compareTo()" classname="org.springframework.web.reactive.result.condition.HeadersRequestConditionTests" time="0.016"/>
   <testcase name="headerValueMatchNegated()" classname="org.springframework.web.reactive.result.condition.HeadersRequestConditionTests" time="0.011"/>
-  <testcase name="getMatchingCondition()" classname="org.springframework.web.reactive.result.condition.HeadersRequestConditionTests" time="0.012"/>
-  <testcase name="headerPresent()" classname="org.springframework.web.reactive.result.condition.HeadersRequestConditionTests" time="0.007"/>
-  <testcase name="headerPresentNoMatch()" classname="org.springframework.web.reactive.result.condition.HeadersRequestConditionTests" time="0.01"/>
+  <testcase name="getMatchingCondition()" classname="org.springframework.web.reactive.result.condition.HeadersRequestConditionTests" time="0.017"/>
+  <testcase name="headerPresent()" classname="org.springframework.web.reactive.result.condition.HeadersRequestConditionTests" time="0.01"/>
+  <testcase name="headerPresentNoMatch()" classname="org.springframework.web.reactive.result.condition.HeadersRequestConditionTests" time="0.019"/>
   <testcase name="headerValueNoMatchNegated()" classname="org.springframework.web.reactive.result.condition.HeadersRequestConditionTests" time="0.011"/>
-  <testcase name="headerValueMatch()" classname="org.springframework.web.reactive.result.condition.HeadersRequestConditionTests" time="0.009"/>
+  <testcase name="headerValueMatch()" classname="org.springframework.web.reactive.result.condition.HeadersRequestConditionTests" time="0.012"/>
   <testcase name="combine()" classname="org.springframework.web.reactive.result.condition.HeadersRequestConditionTests" time="0.0"/>
-  <testcase name="headerValueNoMatch()" classname="org.springframework.web.reactive.result.condition.HeadersRequestConditionTests" time="0.009"/>
-  <testcase name="headerNotPresent()" classname="org.springframework.web.reactive.result.condition.HeadersRequestConditionTests" time="0.007"/>
-  <testcase name="compareToWithNegatedMatch()" classname="org.springframework.web.reactive.result.condition.HeadersRequestConditionTests" time="0.01"/>
-  <testcase name="headerEquals()" classname="org.springframework.web.reactive.result.condition.HeadersRequestConditionTests" time="0.001"/>
-  <testcase name="compareToWithMoreSpecificMatchByValue()" classname="org.springframework.web.reactive.result.condition.HeadersRequestConditionTests" time="0.009"/>
+  <testcase name="headerValueNoMatch()" classname="org.springframework.web.reactive.result.condition.HeadersRequestConditionTests" time="0.011"/>
+  <testcase name="headerNotPresent()" classname="org.springframework.web.reactive.result.condition.HeadersRequestConditionTests" time="0.012"/>
+  <testcase name="compareToWithNegatedMatch()" classname="org.springframework.web.reactive.result.condition.HeadersRequestConditionTests" time="0.011"/>
+  <testcase name="headerEquals()" classname="org.springframework.web.reactive.result.condition.HeadersRequestConditionTests" time="0.0"/>
+  <testcase name="compareToWithMoreSpecificMatchByValue()" classname="org.springframework.web.reactive.result.condition.HeadersRequestConditionTests" time="0.013"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

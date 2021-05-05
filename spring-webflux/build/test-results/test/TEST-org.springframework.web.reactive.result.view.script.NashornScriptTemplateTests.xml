@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.web.reactive.result.view.script.NashornScriptTemplateTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-04-26T08:32:00" hostname="wangweilideMacBook-Pro.local" time="0.842">
+<testsuite name="org.springframework.web.reactive.result.view.script.NashornScriptTemplateTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:47:21" hostname="wangweilideMBP.lan" time="0.883">
   <properties/>
-  <testcase name="renderTemplateWithUrl()" classname="org.springframework.web.reactive.result.view.script.NashornScriptTemplateTests" time="0.569"/>
-  <testcase name="renderTemplate()" classname="org.springframework.web.reactive.result.view.script.NashornScriptTemplateTests" time="0.085"/>
-  <testcase name="subscribeWithoutDemand()" classname="org.springframework.web.reactive.result.view.script.NashornScriptTemplateTests" time="0.187"/>
-  <system-out><![CDATA[16:32:01.067 [Test worker] DEBUG o.s.w.r.r.v.s.ScriptTemplateView - [1740b4da] View [ScriptTemplateView], model {title=Layout example, body=This is the body}
+  <testcase name="renderTemplateWithUrl()" classname="org.springframework.web.reactive.result.view.script.NashornScriptTemplateTests" time="0.549"/>
+  <testcase name="renderTemplate()" classname="org.springframework.web.reactive.result.view.script.NashornScriptTemplateTests" time="0.08"/>
+  <testcase name="subscribeWithoutDemand()" classname="org.springframework.web.reactive.result.view.script.NashornScriptTemplateTests" time="0.254"/>
+  <system-out><![CDATA[17:47:22.525 [Test worker] DEBUG o.s.w.r.r.v.s.ScriptTemplateView - [516938b4] View [ScriptTemplateView], model {title=Layout example, body=This is the body}
 ]]></system-out>
-  <system-err><![CDATA[Warning: Nashorn engine is planned to be removed from a future JDK release
-Warning: Nashorn engine is planned to be removed from a future JDK release
-Warning: Nashorn engine is planned to be removed from a future JDK release
-]]></system-err>
+  <system-err><![CDATA[]]></system-err>
 </testsuite>

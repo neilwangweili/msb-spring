@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.232s</div>
+<div class="counter">0.259s</div>
 <p>duration</p>
 </div>
 </td>
@@ -79,97 +79,97 @@
 </thead>
 <tr>
 <td class="success">defaultOrder()</td>
-<td class="success">0.002s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">doesNotSupport()</td>
 <td class="success">0.003s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
+<td class="success">doesNotSupport()</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
 <td class="success">handleMonoWithWildcardBodyType()</td>
-<td class="success">0.011s</td>
+<td class="success">0.013s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">handleMonoWithWildcardBodyTypeAndNullBody()</td>
-<td class="success">0.012s</td>
+<td class="success">0.010s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">handleResponseEntityWithNullBody()</td>
-<td class="success">0.008s</td>
+<td class="success">0.010s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">handleReturnTypes()</td>
-<td class="success">0.039s</td>
+<td class="success">0.045s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">handleReturnValueChangedETagAndLastModified()</td>
-<td class="success">0.034s</td>
+<td class="success">0.025s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">handleReturnValueETagAndLastModified()</td>
-<td class="success">0.010s</td>
+<td class="success">0.012s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">handleReturnValueEtag()</td>
-<td class="success">0.008s</td>
+<td class="success">0.012s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">handleReturnValueEtagInvalidIfNoneMatch()</td>
-<td class="success">0.012s</td>
+<td class="success">0.010s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">handleReturnValueLastModified()</td>
-<td class="success">0.010s</td>
+<td class="success">0.013s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">handleWithObjectMapperByTypeRegistration()</td>
-<td class="success">0.012s</td>
+<td class="success">0.014s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">handleWithPresetContentType()</td>
-<td class="success">0.009s</td>
+<td class="success">0.013s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">handleWithPresetContentTypeShouldFailWithServerError()</td>
-<td class="success">0.010s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">handleWithProducibleContentTypeShouldFailWithServerError()</td>
-<td class="success">0.010s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">httpHeaders()</td>
-<td class="success">0.009s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">malformedAcceptHeader()</td>
 <td class="success">0.011s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
+<td class="success">handleWithProducibleContentTypeShouldFailWithServerError()</td>
+<td class="success">0.013s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">httpHeaders()</td>
+<td class="success">0.012s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">malformedAcceptHeader()</td>
+<td class="success">0.008s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
 <td class="success">responseEntityHeaders()</td>
-<td class="success">0.009s</td>
+<td class="success">0.013s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">responseEntityStatusCode()</td>
-<td class="success">0.008s</td>
+<td class="success">0.013s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -182,39 +182,39 @@
 <div id="tab1" class="tab">
 <h2>Standard output</h2>
 <span class="code">
-<pre>16:33:02.697 [Test worker] DEBUG o.s.w.r.r.m.a.ResponseEntityResultHandler - [61c697e7] Using 'text/plain;charset=UTF-8' given [*/*] and supported [text/plain;charset=UTF-8, text/plain;charset=UTF-8, */*]
-16:33:02.697 [Test worker] DEBUG o.s.w.r.r.m.a.ResponseEntityResultHandler - [61c697e7] 0..1 [java.lang.String]
-16:33:02.697 [Test worker] DEBUG o.s.c.c.CharSequenceEncoder - [61c697e7] Writing &quot;body&quot;
-16:33:02.709 [Test worker] DEBUG o.s.w.r.r.m.a.ResponseEntityResultHandler - Ignoring error response content (if any). Could not parse 'Accept' header [null]: Invalid mime type &quot;null&quot;: does not contain '/'
-16:33:02.736 [Test worker] DEBUG o.s.w.r.r.m.a.ResponseEntityResultHandler - [ce69282] Using 'text/plain;charset=UTF-8' given [*/*] and supported [text/plain;charset=UTF-8, text/plain;charset=UTF-8, */*]
-16:33:02.736 [Test worker] DEBUG o.s.w.r.r.m.a.ResponseEntityResultHandler - [ce69282] 0..1 [java.lang.String]
-16:33:02.737 [Test worker] DEBUG o.s.c.c.CharSequenceEncoder - [ce69282] Writing &quot;abc&quot;
-16:33:02.743 [Test worker] DEBUG o.s.w.r.r.m.a.ResponseEntityResultHandler - [569987db] Using 'text/plain;charset=UTF-8' given [*/*] and supported [text/plain;charset=UTF-8, text/plain;charset=UTF-8, */*]
-16:33:02.743 [Test worker] DEBUG o.s.w.r.r.m.a.ResponseEntityResultHandler - [569987db] 0..1 [java.lang.String]
-16:33:02.743 [Test worker] DEBUG o.s.c.c.CharSequenceEncoder - [569987db] Writing &quot;abc&quot;
-16:33:02.750 [Test worker] DEBUG o.s.w.r.r.m.a.ResponseEntityResultHandler - [40dbd160] Using 'text/plain;charset=UTF-8' given [*/*] and supported [text/plain;charset=UTF-8, text/plain;charset=UTF-8, */*]
-16:33:02.750 [Test worker] DEBUG o.s.w.r.r.m.a.ResponseEntityResultHandler - [40dbd160] 0..1 [java.lang.String]
-16:33:02.750 [Test worker] DEBUG o.s.c.c.CharSequenceEncoder - [40dbd160] Writing &quot;abc&quot;
-16:33:02.757 [Test worker] DEBUG o.s.w.r.r.m.a.ResponseEntityResultHandler - [148f8ef2] Using 'text/plain;charset=UTF-8' given [*/*] and supported [text/plain;charset=UTF-8, text/plain;charset=UTF-8, */*]
-16:33:02.757 [Test worker] DEBUG o.s.w.r.r.m.a.ResponseEntityResultHandler - [148f8ef2] 0..1 [java.lang.String]
-16:33:02.758 [Test worker] DEBUG o.s.c.c.CharSequenceEncoder - [148f8ef2] Writing &quot;abc&quot;
-16:33:02.765 [Test worker] DEBUG o.s.w.r.r.m.a.ResponseEntityResultHandler - [2cc56c63] Using 'text/plain;charset=UTF-8' given [*/*] and supported [text/plain;charset=UTF-8, text/plain;charset=UTF-8, */*]
-16:33:02.765 [Test worker] DEBUG o.s.w.r.r.m.a.ResponseEntityResultHandler - [2cc56c63] 0..1 [java.lang.String]
-16:33:02.765 [Test worker] DEBUG o.s.c.c.CharSequenceEncoder - [2cc56c63] Writing &quot;abc&quot;
-16:33:02.770 [parallel-8] DEBUG o.s.h.c.j.Jackson2JsonEncoder - [f53c187-5] Encoding [Person{name='foo 2'}]
-16:33:02.821 [Test worker] DEBUG o.s.w.r.r.m.a.ResponseEntityResultHandler - [cafae08] Using 'text/plain;charset=UTF-8' given [*/*] and supported [text/plain;charset=UTF-8, text/plain;charset=UTF-8, */*]
-16:33:02.821 [Test worker] DEBUG o.s.w.r.r.m.a.ResponseEntityResultHandler - [cafae08] 0..1 [java.lang.String]
-16:33:02.821 [Test worker] DEBUG o.s.c.c.CharSequenceEncoder - [cafae08] Writing &quot;body&quot;
-16:33:02.833 [Test worker] DEBUG o.s.w.r.r.m.a.ResponseEntityResultHandler - [236c639a] Found 'Content-Type:application/xml' in response
-16:33:02.833 [Test worker] DEBUG o.s.w.r.r.m.a.ResponseEntityResultHandler - [236c639a] 0..1 [java.lang.String]
-16:33:02.862 [Test worker] DEBUG o.s.w.r.r.m.a.ResponseEntityResultHandler - [2f88510b] Using 'application/xml' given [*/*] and supported [application/xml]
-16:33:02.862 [Test worker] DEBUG o.s.w.r.r.m.a.ResponseEntityResultHandler - [2f88510b] 0..1 [java.lang.String]
-16:33:02.894 [Test worker] DEBUG o.s.w.r.r.m.a.ResponseEntityResultHandler - [66c21f84] Using 'application/json' given [*/*] and supported [application/json]
-16:33:02.894 [Test worker] DEBUG o.s.w.r.r.m.a.ResponseEntityResultHandler - [66c21f84] 0..1 [java.lang.String]
-16:33:02.895 [Test worker] DEBUG o.s.c.c.CharSequenceEncoder - [66c21f84] Writing &quot;body&quot;
-16:33:02.925 [Test worker] DEBUG o.s.w.r.r.m.a.ResponseEntityResultHandler - [f5d3b16] Using 'application/hal+json' given [application/prs.hal-forms+json, application/hal+json] and supported [application/hal+json]
-16:33:02.925 [Test worker] DEBUG o.s.w.r.r.m.a.ResponseEntityResultHandler - [f5d3b16] 0..1 [org.springframework.web.reactive.result.method.annotation.ResponseEntityResultHandlerTests$Person]
-16:33:02.925 [Test worker] DEBUG o.s.h.c.j.Jackson2JsonEncoder - [f5d3b16] Encoding [org.springframework.web.reactive.result.method.annotation.ResponseEntityResultHandlerTests$Person@46 (truncated)...]
+<pre>17:48:25.304 [Test worker] DEBUG o.s.w.r.r.m.a.ResponseEntityResultHandler - [64102cc5] Using 'text/plain;charset=UTF-8' given [*/*] and supported [text/plain;charset=UTF-8, text/plain;charset=UTF-8, */*]
+17:48:25.304 [Test worker] DEBUG o.s.w.r.r.m.a.ResponseEntityResultHandler - [64102cc5] 0..1 [java.lang.String]
+17:48:25.304 [Test worker] DEBUG o.s.c.c.CharSequenceEncoder - [64102cc5] Writing &quot;body&quot;
+17:48:25.312 [Test worker] DEBUG o.s.w.r.r.m.a.ResponseEntityResultHandler - Ignoring error response content (if any). Could not parse 'Accept' header [null]: Invalid mime type &quot;null&quot;: does not contain '/'
+17:48:25.341 [Test worker] DEBUG o.s.w.r.r.m.a.ResponseEntityResultHandler - [7a3a0ff0] Using 'text/plain;charset=UTF-8' given [*/*] and supported [text/plain;charset=UTF-8, text/plain;charset=UTF-8, */*]
+17:48:25.341 [Test worker] DEBUG o.s.w.r.r.m.a.ResponseEntityResultHandler - [7a3a0ff0] 0..1 [java.lang.String]
+17:48:25.341 [Test worker] DEBUG o.s.c.c.CharSequenceEncoder - [7a3a0ff0] Writing &quot;abc&quot;
+17:48:25.348 [Test worker] DEBUG o.s.w.r.r.m.a.ResponseEntityResultHandler - [4bf1ae9] Using 'text/plain;charset=UTF-8' given [*/*] and supported [text/plain;charset=UTF-8, text/plain;charset=UTF-8, */*]
+17:48:25.348 [Test worker] DEBUG o.s.w.r.r.m.a.ResponseEntityResultHandler - [4bf1ae9] 0..1 [java.lang.String]
+17:48:25.348 [Test worker] DEBUG o.s.c.c.CharSequenceEncoder - [4bf1ae9] Writing &quot;abc&quot;
+17:48:25.354 [Test worker] DEBUG o.s.w.r.r.m.a.ResponseEntityResultHandler - [399d70e5] Using 'text/plain;charset=UTF-8' given [*/*] and supported [text/plain;charset=UTF-8, text/plain;charset=UTF-8, */*]
+17:48:25.354 [Test worker] DEBUG o.s.w.r.r.m.a.ResponseEntityResultHandler - [399d70e5] 0..1 [java.lang.String]
+17:48:25.355 [Test worker] DEBUG o.s.c.c.CharSequenceEncoder - [399d70e5] Writing &quot;abc&quot;
+17:48:25.362 [Test worker] DEBUG o.s.w.r.r.m.a.ResponseEntityResultHandler - [50626860] Using 'text/plain;charset=UTF-8' given [*/*] and supported [text/plain;charset=UTF-8, text/plain;charset=UTF-8, */*]
+17:48:25.362 [Test worker] DEBUG o.s.w.r.r.m.a.ResponseEntityResultHandler - [50626860] 0..1 [java.lang.String]
+17:48:25.363 [Test worker] DEBUG o.s.c.c.CharSequenceEncoder - [50626860] Writing &quot;abc&quot;
+17:48:25.372 [Test worker] DEBUG o.s.w.r.r.m.a.ResponseEntityResultHandler - [7a0db813] Using 'text/plain;charset=UTF-8' given [*/*] and supported [text/plain;charset=UTF-8, text/plain;charset=UTF-8, */*]
+17:48:25.372 [Test worker] DEBUG o.s.w.r.r.m.a.ResponseEntityResultHandler - [7a0db813] 0..1 [java.lang.String]
+17:48:25.372 [Test worker] DEBUG o.s.c.c.CharSequenceEncoder - [7a0db813] Writing &quot;abc&quot;
+17:48:25.382 [parallel-8] DEBUG o.s.h.c.j.Jackson2JsonEncoder - [4ffee060-5] Encoding [Person{name='foo 2'}]
+17:48:25.423 [Test worker] DEBUG o.s.w.r.r.m.a.ResponseEntityResultHandler - [30c8801d] Using 'text/plain;charset=UTF-8' given [*/*] and supported [text/plain;charset=UTF-8, text/plain;charset=UTF-8, */*]
+17:48:25.423 [Test worker] DEBUG o.s.w.r.r.m.a.ResponseEntityResultHandler - [30c8801d] 0..1 [java.lang.String]
+17:48:25.424 [Test worker] DEBUG o.s.c.c.CharSequenceEncoder - [30c8801d] Writing &quot;body&quot;
+17:48:25.437 [Test worker] DEBUG o.s.w.r.r.m.a.ResponseEntityResultHandler - [386fbed8] Found 'Content-Type:application/xml' in response
+17:48:25.438 [Test worker] DEBUG o.s.w.r.r.m.a.ResponseEntityResultHandler - [386fbed8] 0..1 [java.lang.String]
+17:48:25.475 [Test worker] DEBUG o.s.w.r.r.m.a.ResponseEntityResultHandler - [1d1403bf] Using 'application/xml' given [*/*] and supported [application/xml]
+17:48:25.475 [Test worker] DEBUG o.s.w.r.r.m.a.ResponseEntityResultHandler - [1d1403bf] 0..1 [java.lang.String]
+17:48:25.519 [Test worker] DEBUG o.s.w.r.r.m.a.ResponseEntityResultHandler - [182c7076] Using 'application/json' given [*/*] and supported [application/json]
+17:48:25.519 [Test worker] DEBUG o.s.w.r.r.m.a.ResponseEntityResultHandler - [182c7076] 0..1 [java.lang.String]
+17:48:25.519 [Test worker] DEBUG o.s.c.c.CharSequenceEncoder - [182c7076] Writing &quot;body&quot;
+17:48:25.559 [Test worker] DEBUG o.s.w.r.r.m.a.ResponseEntityResultHandler - [61af3c73] Using 'application/hal+json' given [application/prs.hal-forms+json, application/hal+json] and supported [application/hal+json]
+17:48:25.560 [Test worker] DEBUG o.s.w.r.r.m.a.ResponseEntityResultHandler - [61af3c73] 0..1 [org.springframework.web.reactive.result.method.annotation.ResponseEntityResultHandlerTests$Person]
+17:48:25.560 [Test worker] DEBUG o.s.h.c.j.Jackson2JsonEncoder - [61af3c73] Encoding [org.springframework.web.reactive.result.method.annotation.ResponseEntityResultHandlerTests$Person@29 (truncated)...]
 </pre>
 </span>
 </div>
@@ -226,7 +226,7 @@
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 6.8.3</a> at 2021年4月26日 下午4:46:32</p>
+<a href="http://www.gradle.org">Gradle 6.8.3</a> at May 1, 2021 6:02:02 PM</p>
 </div>
 </div>
 </body>

@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.test.context.support.ActiveProfilesUtilsTests" tests="26" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:40:55" hostname="wangweilideMacBook-Pro.local" time="0.01">
+<testsuite name="org.springframework.test.context.support.ActiveProfilesUtilsTests" tests="26" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:42:48" hostname="wangweilideMBP.lan" time="0.006">
   <properties/>
-  <testcase name="resolveActiveProfilesWithLocalAndInheritedAnnotations()" classname="org.springframework.test.context.support.ActiveProfilesUtilsTests" time="0.001"/>
+  <testcase name="resolveActiveProfilesWithLocalAndInheritedAnnotations()" classname="org.springframework.test.context.support.ActiveProfilesUtilsTests" time="0.0"/>
   <testcase name="resolveActiveProfilesWithDuplicatedProfiles()" classname="org.springframework.test.context.support.ActiveProfilesUtilsTests" time="0.0"/>
   <testcase name="resolveActiveProfilesWithMetaAnnotationAndTestClassVerifyingResolver()" classname="org.springframework.test.context.support.ActiveProfilesUtilsTests" time="0.001"/>
   <testcase name="resolveActiveProfilesWithResolverAndProfiles()" classname="org.springframework.test.context.support.ActiveProfilesUtilsTests" time="0.0"/>
   <testcase name="resolveActiveProfilesWithMetaAnnotationAndOverriddenAttributes()" classname="org.springframework.test.context.support.ActiveProfilesUtilsTests" time="0.0"/>
   <testcase name="resolveActiveProfilesWithLocalAndInheritedDuplicatedProfiles()" classname="org.springframework.test.context.support.ActiveProfilesUtilsTests" time="0.0"/>
-  <testcase name="resolveActiveProfilesWithExtendedDefaultActiveProfilesResolver()" classname="org.springframework.test.context.support.ActiveProfilesUtilsTests" time="0.0"/>
+  <testcase name="resolveActiveProfilesWithExtendedDefaultActiveProfilesResolver()" classname="org.springframework.test.context.support.ActiveProfilesUtilsTests" time="0.001"/>
   <testcase name="resolveActiveProfilesWithEmptyProfiles()" classname="org.springframework.test.context.support.ActiveProfilesUtilsTests" time="0.0"/>
   <testcase name="resolveActiveProfilesWithNoProfilesDeclared()" classname="org.springframework.test.context.support.ActiveProfilesUtilsTests" time="0.0"/>
-  <testcase name="resolveActiveProfilesWithMetaAnnotation()" classname="org.springframework.test.context.support.ActiveProfilesUtilsTests" time="0.001"/>
+  <testcase name="resolveActiveProfilesWithMetaAnnotation()" classname="org.springframework.test.context.support.ActiveProfilesUtilsTests" time="0.0"/>
   <testcase name="resolveActiveProfilesWithOverridenInheritedResolver()" classname="org.springframework.test.context.support.ActiveProfilesUtilsTests" time="0.0"/>
   <testcase name="resolveActiveProfilesWithDefaultActiveProfilesResolver()" classname="org.springframework.test.context.support.ActiveProfilesUtilsTests" time="0.0"/>
   <testcase name="resolveActiveProfilesWithOverriddenAnnotation()" classname="org.springframework.test.context.support.ActiveProfilesUtilsTests" time="0.0"/>
   <testcase name="resolveActiveProfilesWithLocalAndInheritedMetaAnnotations()" classname="org.springframework.test.context.support.ActiveProfilesUtilsTests" time="0.001"/>
   <testcase name="resolveActiveProfilesWithoutAnnotation()" classname="org.springframework.test.context.support.ActiveProfilesUtilsTests" time="0.0"/>
-  <testcase name="resolveActiveProfilesWithResolverAndValue()" classname="org.springframework.test.context.support.ActiveProfilesUtilsTests" time="0.001"/>
+  <testcase name="resolveActiveProfilesWithResolverAndValue()" classname="org.springframework.test.context.support.ActiveProfilesUtilsTests" time="0.0"/>
   <testcase name="resolveActiveProfilesWithResolver()" classname="org.springframework.test.context.support.ActiveProfilesUtilsTests" time="0.0"/>
   <testcase name="resolveActiveProfilesWithMergedInheritedResolver()" classname="org.springframework.test.context.support.ActiveProfilesUtilsTests" time="0.0"/>
   <testcase name="resolveActiveProfilesWithOverriddenMetaAnnotation()" classname="org.springframework.test.context.support.ActiveProfilesUtilsTests" time="0.001"/>
   <testcase name="resolveActiveProfilesWithResolverWithoutDefaultConstructor()" classname="org.springframework.test.context.support.ActiveProfilesUtilsTests" time="0.001"/>
   <testcase name="resolveActiveProfilesWithLocalAnnotation()" classname="org.springframework.test.context.support.ActiveProfilesUtilsTests" time="0.0"/>
-  <testcase name="resolveActiveProfilesWithInheritedAnnotationAndLocations()" classname="org.springframework.test.context.support.ActiveProfilesUtilsTests" time="0.001"/>
+  <testcase name="resolveActiveProfilesWithInheritedAnnotationAndLocations()" classname="org.springframework.test.context.support.ActiveProfilesUtilsTests" time="0.0"/>
   <testcase name="resolveActiveProfilesWithConflictingProfilesAndValue()" classname="org.springframework.test.context.support.ActiveProfilesUtilsTests" time="0.0"/>
   <testcase name="resolveActiveProfilesWithMetaAnnotationAndOverrides()" classname="org.springframework.test.context.support.ActiveProfilesUtilsTests" time="0.0"/>
-  <testcase name="resolveActiveProfilesWithInheritedAnnotationAndClasses()" classname="org.springframework.test.context.support.ActiveProfilesUtilsTests" time="0.0"/>
-  <testcase name="resolveActiveProfilesWithInheritedResolver()" classname="org.springframework.test.context.support.ActiveProfilesUtilsTests" time="0.001"/>
-  <system-out><![CDATA[15:40:55.912 [Test worker] ERROR o.s.t.c.s.ActiveProfilesUtils - Could not instantiate ActiveProfilesResolver of type [org.springframework.test.context.support.ActiveProfilesUtilsTests$NoDefaultConstructorActiveProfilesResolver] for test class [org.springframework.test.context.support.ActiveProfilesUtilsTests$NoDefaultConstructorActiveProfilesResolverTestCase]
+  <testcase name="resolveActiveProfilesWithInheritedAnnotationAndClasses()" classname="org.springframework.test.context.support.ActiveProfilesUtilsTests" time="0.001"/>
+  <testcase name="resolveActiveProfilesWithInheritedResolver()" classname="org.springframework.test.context.support.ActiveProfilesUtilsTests" time="0.0"/>
+  <system-out><![CDATA[17:42:48.316 [Test worker] ERROR o.s.t.c.s.ActiveProfilesUtils - Could not instantiate ActiveProfilesResolver of type [org.springframework.test.context.support.ActiveProfilesUtilsTests$NoDefaultConstructorActiveProfilesResolver] for test class [org.springframework.test.context.support.ActiveProfilesUtilsTests$NoDefaultConstructorActiveProfilesResolverTestCase]
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

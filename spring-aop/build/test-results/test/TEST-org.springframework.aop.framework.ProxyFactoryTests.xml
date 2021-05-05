@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.aop.framework.ProxyFactoryTests" tests="14" skipped="1" failures="0" errors="0" timestamp="2021-04-26T07:38:43" hostname="wangweilideMacBook-Pro.local" time="0.958">
+<testsuite name="org.springframework.aop.framework.ProxyFactoryTests" tests="14" skipped="1" failures="0" errors="0" timestamp="2021-05-01T09:22:08" hostname="wangweilideMBP.lan" time="2.079">
   <properties/>
-  <testcase name="testReplaceAdvisor()" classname="org.springframework.aop.framework.ProxyFactoryTests" time="0.724"/>
-  <testcase name="testProxyTargetClassWithInterfaceAsTarget()" classname="org.springframework.aop.framework.ProxyFactoryTests" time="0.013"/>
-  <testcase name="testExclusionOfNonPublicInterfaces()" classname="org.springframework.aop.framework.ProxyFactoryTests" time="0.0">
+  <testcase name="testReplaceAdvisor()" classname="org.springframework.aop.framework.ProxyFactoryTests" time="1.355"/>
+  <testcase name="testProxyTargetClassWithInterfaceAsTarget()" classname="org.springframework.aop.framework.ProxyFactoryTests" time="0.092"/>
+  <testcase name="testExclusionOfNonPublicInterfaces()" classname="org.springframework.aop.framework.ProxyFactoryTests" time="0.001">
     <skipped/>
   </testcase>
-  <testcase name="testInterceptorInclusionMethods()" classname="org.springframework.aop.framework.ProxyFactoryTests" time="0.001"/>
-  <testcase name="testCanAddAndRemoveAspectInterfacesOnSingleton()" classname="org.springframework.aop.framework.ProxyFactoryTests" time="0.01"/>
-  <testcase name="testRemoveAdvisorByReference()" classname="org.springframework.aop.framework.ProxyFactoryTests" time="0.0"/>
-  <testcase name="testInterceptorWithoutJoinpoint()" classname="org.springframework.aop.framework.ProxyFactoryTests" time="0.003"/>
-  <testcase name="testGetsAllInterfaces()" classname="org.springframework.aop.framework.ProxyFactoryTests" time="0.009"/>
-  <testcase name="testIndexOfMethods()" classname="org.springframework.aop.framework.ProxyFactoryTests" time="0.0"/>
+  <testcase name="testInterceptorInclusionMethods()" classname="org.springframework.aop.framework.ProxyFactoryTests" time="0.003"/>
+  <testcase name="testCanAddAndRemoveAspectInterfacesOnSingleton()" classname="org.springframework.aop.framework.ProxyFactoryTests" time="0.023"/>
+  <testcase name="testRemoveAdvisorByReference()" classname="org.springframework.aop.framework.ProxyFactoryTests" time="0.001"/>
+  <testcase name="testInterceptorWithoutJoinpoint()" classname="org.springframework.aop.framework.ProxyFactoryTests" time="0.023"/>
+  <testcase name="testGetsAllInterfaces()" classname="org.springframework.aop.framework.ProxyFactoryTests" time="0.013"/>
+  <testcase name="testIndexOfMethods()" classname="org.springframework.aop.framework.ProxyFactoryTests" time="0.001"/>
   <testcase name="testRemoveAdvisorByIndex()" classname="org.springframework.aop.framework.ProxyFactoryTests" time="0.001"/>
-  <testcase name="testProxyTargetClassWithConcreteClassAsTarget()" classname="org.springframework.aop.framework.ProxyFactoryTests" time="0.133"/>
-  <testcase name="testInterfaceProxiesCanBeOrderedThroughAnnotations()" classname="org.springframework.aop.framework.ProxyFactoryTests" time="0.037"/>
-  <testcase name="testTargetClassProxiesCanBeOrderedThroughAnnotations()" classname="org.springframework.aop.framework.ProxyFactoryTests" time="0.01"/>
-  <testcase name="testAddRepeatedInterface()" classname="org.springframework.aop.framework.ProxyFactoryTests" time="0.004"/>
+  <testcase name="testProxyTargetClassWithConcreteClassAsTarget()" classname="org.springframework.aop.framework.ProxyFactoryTests" time="0.397"/>
+  <testcase name="testInterfaceProxiesCanBeOrderedThroughAnnotations()" classname="org.springframework.aop.framework.ProxyFactoryTests" time="0.128"/>
+  <testcase name="testTargetClassProxiesCanBeOrderedThroughAnnotations()" classname="org.springframework.aop.framework.ProxyFactoryTests" time="0.013"/>
+  <testcase name="testAddRepeatedInterface()" classname="org.springframework.aop.framework.ProxyFactoryTests" time="0.014"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

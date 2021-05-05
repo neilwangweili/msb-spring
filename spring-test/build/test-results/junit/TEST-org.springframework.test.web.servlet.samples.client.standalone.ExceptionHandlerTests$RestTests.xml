@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.test.web.servlet.samples.client.standalone.ExceptionHandlerTests$RestTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:41:11" hostname="wangweilideMacBook-Pro.local" time="0.115">
+<testsuite name="org.springframework.test.web.servlet.samples.client.standalone.ExceptionHandlerTests$RestTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:43:00" hostname="wangweilideMBP.lan" time="0.074">
   <properties/>
-  <testcase name="globalRestPersonControllerExceptionHandlerTakesPrecedenceOverGlobalExceptionHandler()" classname="org.springframework.test.web.servlet.samples.client.standalone.ExceptionHandlerTests$RestTests" time="0.029"/>
-  <testcase name="noException()" classname="org.springframework.test.web.servlet.samples.client.standalone.ExceptionHandlerTests$RestTests" time="0.02"/>
-  <testcase name="localExceptionHandlerMethod()" classname="org.springframework.test.web.servlet.samples.client.standalone.ExceptionHandlerTests$RestTests" time="0.022"/>
-  <testcase name="globalExceptionHandlerMethod()" classname="org.springframework.test.web.servlet.samples.client.standalone.ExceptionHandlerTests$RestTests" time="0.023"/>
-  <testcase name="noHandlerFound()" classname="org.springframework.test.web.servlet.samples.client.standalone.ExceptionHandlerTests$RestTests" time="0.021"/>
+  <testcase name="globalRestPersonControllerExceptionHandlerTakesPrecedenceOverGlobalExceptionHandler()" classname="org.springframework.test.web.servlet.samples.client.standalone.ExceptionHandlerTests$RestTests" time="0.016"/>
+  <testcase name="noException()" classname="org.springframework.test.web.servlet.samples.client.standalone.ExceptionHandlerTests$RestTests" time="0.015"/>
+  <testcase name="localExceptionHandlerMethod()" classname="org.springframework.test.web.servlet.samples.client.standalone.ExceptionHandlerTests$RestTests" time="0.014"/>
+  <testcase name="globalExceptionHandlerMethod()" classname="org.springframework.test.web.servlet.samples.client.standalone.ExceptionHandlerTests$RestTests" time="0.014"/>
+  <testcase name="noHandlerFound()" classname="org.springframework.test.web.servlet.samples.client.standalone.ExceptionHandlerTests$RestTests" time="0.014"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

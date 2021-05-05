@@ -1,45 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.oxm.jibx.JibxMarshallerTests" tests="13" skipped="13" failures="0" errors="0" timestamp="2021-04-26T07:38:52" hostname="wangweilideMacBook-Pro.local" time="0.007">
+<testsuite name="org.springframework.oxm.jibx.JibxMarshallerTests" tests="13" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:22:10" hostname="wangweilideMBP.lan" time="0.265">
   <properties/>
-  <testcase name="marshalStreamResultOutputStream()" classname="org.springframework.oxm.jibx.JibxMarshallerTests" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="marshalStaxResultEventWriter()" classname="org.springframework.oxm.jibx.JibxMarshallerTests" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="marshalEmptyDOMResult()" classname="org.springframework.oxm.jibx.JibxMarshallerTests" time="0.003">
-    <skipped/>
-  </testcase>
-  <testcase name="marshalStreamResultWriter()" classname="org.springframework.oxm.jibx.JibxMarshallerTests" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="marshalDOMResult()" classname="org.springframework.oxm.jibx.JibxMarshallerTests" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="marshalJaxp14StaxResultEventWriter()" classname="org.springframework.oxm.jibx.JibxMarshallerTests" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="marshalStaxResultStreamWriter()" classname="org.springframework.oxm.jibx.JibxMarshallerTests" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="marshalJaxp14StaxResultStreamWriter()" classname="org.springframework.oxm.jibx.JibxMarshallerTests" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="supports()" classname="org.springframework.oxm.jibx.JibxMarshallerTests" time="0.001">
-    <skipped/>
-  </testcase>
-  <testcase name="afterPropertiesSetNoContextPath()" classname="org.springframework.oxm.jibx.JibxMarshallerTests" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="encodingAndStandalone()" classname="org.springframework.oxm.jibx.JibxMarshallerTests" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="dtd()" classname="org.springframework.oxm.jibx.JibxMarshallerTests" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="indentation()" classname="org.springframework.oxm.jibx.JibxMarshallerTests" time="0.0">
-    <skipped/>
-  </testcase>
+  <testcase name="marshalStreamResultOutputStream()" classname="org.springframework.oxm.jibx.JibxMarshallerTests" time="0.053"/>
+  <testcase name="marshalStaxResultEventWriter()" classname="org.springframework.oxm.jibx.JibxMarshallerTests" time="0.013"/>
+  <testcase name="marshalEmptyDOMResult()" classname="org.springframework.oxm.jibx.JibxMarshallerTests" time="0.021"/>
+  <testcase name="marshalStreamResultWriter()" classname="org.springframework.oxm.jibx.JibxMarshallerTests" time="0.011"/>
+  <testcase name="marshalDOMResult()" classname="org.springframework.oxm.jibx.JibxMarshallerTests" time="0.075"/>
+  <testcase name="marshalJaxp14StaxResultEventWriter()" classname="org.springframework.oxm.jibx.JibxMarshallerTests" time="0.019"/>
+  <testcase name="marshalStaxResultStreamWriter()" classname="org.springframework.oxm.jibx.JibxMarshallerTests" time="0.01"/>
+  <testcase name="marshalJaxp14StaxResultStreamWriter()" classname="org.springframework.oxm.jibx.JibxMarshallerTests" time="0.01"/>
+  <testcase name="supports()" classname="org.springframework.oxm.jibx.JibxMarshallerTests" time="0.019"/>
+  <testcase name="afterPropertiesSetNoContextPath()" classname="org.springframework.oxm.jibx.JibxMarshallerTests" time="0.004"/>
+  <testcase name="encodingAndStandalone()" classname="org.springframework.oxm.jibx.JibxMarshallerTests" time="0.001"/>
+  <testcase name="dtd()" classname="org.springframework.oxm.jibx.JibxMarshallerTests" time="0.001"/>
+  <testcase name="indentation()" classname="org.springframework.oxm.jibx.JibxMarshallerTests" time="0.017"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

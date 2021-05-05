@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.test.web.reactive.server.HeaderAssertionTests" tests="12" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:41:25" hostname="wangweilideMacBook-Pro.local" time="0.021">
+<testsuite name="org.springframework.test.web.reactive.server.HeaderAssertionTests" tests="12" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:43:10" hostname="wangweilideMBP.lan" time="0.009">
   <properties/>
-  <testcase name="valueEquals()" classname="org.springframework.test.web.reactive.server.HeaderAssertionTests" time="0.003"/>
-  <testcase name="cacheControl()" classname="org.springframework.test.web.reactive.server.HeaderAssertionTests" time="0.002"/>
-  <testcase name="expires()" classname="org.springframework.test.web.reactive.server.HeaderAssertionTests" time="0.002"/>
-  <testcase name="exists()" classname="org.springframework.test.web.reactive.server.HeaderAssertionTests" time="0.002"/>
-  <testcase name="valuesMatch()" classname="org.springframework.test.web.reactive.server.HeaderAssertionTests" time="0.003"/>
-  <testcase name="doesNotExist()" classname="org.springframework.test.web.reactive.server.HeaderAssertionTests" time="0.002"/>
-  <testcase name="contentTypeCompatibleWith()" classname="org.springframework.test.web.reactive.server.HeaderAssertionTests" time="0.001"/>
-  <testcase name="valuesMatcher()" classname="org.springframework.test.web.reactive.server.HeaderAssertionTests" time="0.001"/>
-  <testcase name="valueEqualsWithMultipleValues()" classname="org.springframework.test.web.reactive.server.HeaderAssertionTests" time="0.001"/>
-  <testcase name="valueMatcher()" classname="org.springframework.test.web.reactive.server.HeaderAssertionTests" time="0.001"/>
-  <testcase name="valueMatches()" classname="org.springframework.test.web.reactive.server.HeaderAssertionTests" time="0.001"/>
+  <testcase name="valueEquals()" classname="org.springframework.test.web.reactive.server.HeaderAssertionTests" time="0.002"/>
+  <testcase name="cacheControl()" classname="org.springframework.test.web.reactive.server.HeaderAssertionTests" time="0.001"/>
+  <testcase name="expires()" classname="org.springframework.test.web.reactive.server.HeaderAssertionTests" time="0.0"/>
+  <testcase name="exists()" classname="org.springframework.test.web.reactive.server.HeaderAssertionTests" time="0.0"/>
+  <testcase name="valuesMatch()" classname="org.springframework.test.web.reactive.server.HeaderAssertionTests" time="0.001"/>
+  <testcase name="doesNotExist()" classname="org.springframework.test.web.reactive.server.HeaderAssertionTests" time="0.001"/>
+  <testcase name="contentTypeCompatibleWith()" classname="org.springframework.test.web.reactive.server.HeaderAssertionTests" time="0.0"/>
+  <testcase name="valuesMatcher()" classname="org.springframework.test.web.reactive.server.HeaderAssertionTests" time="0.0"/>
+  <testcase name="valueEqualsWithMultipleValues()" classname="org.springframework.test.web.reactive.server.HeaderAssertionTests" time="0.0"/>
+  <testcase name="valueMatcher()" classname="org.springframework.test.web.reactive.server.HeaderAssertionTests" time="0.0"/>
+  <testcase name="valueMatches()" classname="org.springframework.test.web.reactive.server.HeaderAssertionTests" time="0.0"/>
   <testcase name="lastModified()" classname="org.springframework.test.web.reactive.server.HeaderAssertionTests" time="0.001"/>
-  <system-out><![CDATA[15:41:25.271 [Test worker] ERROR o.s.t.w.r.s.ExchangeResult - Request details for assertion failure:
+  <system-out><![CDATA[17:43:10.802 [Test worker] ERROR o.s.t.w.r.s.ExchangeResult - Request details for assertion failure:
 
 > GET /
 > 
@@ -25,7 +25,7 @@ No content
 
 No content
 
-15:41:25.272 [Test worker] ERROR o.s.t.w.r.s.ExchangeResult - Request details for assertion failure:
+17:43:10.802 [Test worker] ERROR o.s.t.w.r.s.ExchangeResult - Request details for assertion failure:
 
 > GET /
 > 
@@ -37,7 +37,7 @@ No content
 
 No content
 
-15:41:25.273 [Test worker] ERROR o.s.t.w.r.s.ExchangeResult - Request details for assertion failure:
+17:43:10.803 [Test worker] ERROR o.s.t.w.r.s.ExchangeResult - Request details for assertion failure:
 
 > GET /
 > 
@@ -49,7 +49,7 @@ No content
 
 No content
 
-15:41:25.275 [Test worker] ERROR o.s.t.w.r.s.ExchangeResult - Request details for assertion failure:
+17:43:10.803 [Test worker] ERROR o.s.t.w.r.s.ExchangeResult - Request details for assertion failure:
 
 > GET /
 > 
@@ -61,7 +61,7 @@ No content
 
 No content
 
-15:41:25.277 [Test worker] ERROR o.s.t.w.r.s.ExchangeResult - Request details for assertion failure:
+17:43:10.804 [Test worker] ERROR o.s.t.w.r.s.ExchangeResult - Request details for assertion failure:
 
 > GET /
 > 
@@ -73,7 +73,7 @@ No content
 
 No content
 
-15:41:25.278 [Test worker] ERROR o.s.t.w.r.s.ExchangeResult - Request details for assertion failure:
+17:43:10.805 [Test worker] ERROR o.s.t.w.r.s.ExchangeResult - Request details for assertion failure:
 
 > GET /
 > 
@@ -85,7 +85,7 @@ No content
 
 No content
 
-15:41:25.281 [Test worker] ERROR o.s.t.w.r.s.ExchangeResult - Request details for assertion failure:
+17:43:10.806 [Test worker] ERROR o.s.t.w.r.s.ExchangeResult - Request details for assertion failure:
 
 > GET /
 > 
@@ -97,7 +97,7 @@ No content
 
 No content
 
-15:41:25.282 [Test worker] ERROR o.s.t.w.r.s.ExchangeResult - Request details for assertion failure:
+17:43:10.806 [Test worker] ERROR o.s.t.w.r.s.ExchangeResult - Request details for assertion failure:
 
 > GET /
 > 
@@ -109,7 +109,7 @@ No content
 
 No content
 
-15:41:25.284 [Test worker] ERROR o.s.t.w.r.s.ExchangeResult - Request details for assertion failure:
+17:43:10.807 [Test worker] ERROR o.s.t.w.r.s.ExchangeResult - Request details for assertion failure:
 
 > GET /
 > 
@@ -121,7 +121,7 @@ No content
 
 No content
 
-15:41:25.285 [Test worker] ERROR o.s.t.w.r.s.ExchangeResult - Request details for assertion failure:
+17:43:10.807 [Test worker] ERROR o.s.t.w.r.s.ExchangeResult - Request details for assertion failure:
 
 > GET /
 > 
@@ -133,7 +133,7 @@ No content
 
 No content
 
-15:41:25.287 [Test worker] ERROR o.s.t.w.r.s.ExchangeResult - Request details for assertion failure:
+17:43:10.808 [Test worker] ERROR o.s.t.w.r.s.ExchangeResult - Request details for assertion failure:
 
 > GET /
 > 
@@ -145,7 +145,7 @@ No content
 
 No content
 
-15:41:25.287 [Test worker] ERROR o.s.t.w.r.s.ExchangeResult - Request details for assertion failure:
+17:43:10.808 [Test worker] ERROR o.s.t.w.r.s.ExchangeResult - Request details for assertion failure:
 
 > GET /
 > 
@@ -157,7 +157,7 @@ No content
 
 No content
 
-15:41:25.289 [Test worker] ERROR o.s.t.w.r.s.ExchangeResult - Request details for assertion failure:
+17:43:10.809 [Test worker] ERROR o.s.t.w.r.s.ExchangeResult - Request details for assertion failure:
 
 > GET /
 > 
@@ -169,7 +169,7 @@ No content
 
 No content
 
-15:41:25.291 [Test worker] ERROR o.s.t.w.r.s.ExchangeResult - Request details for assertion failure:
+17:43:10.810 [Test worker] ERROR o.s.t.w.r.s.ExchangeResult - Request details for assertion failure:
 
 > GET /
 > 

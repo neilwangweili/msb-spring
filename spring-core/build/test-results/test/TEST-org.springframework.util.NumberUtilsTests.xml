@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.util.NumberUtilsTests" tests="21" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:37:49" hostname="wangweilideMacBook-Pro.local" time="0.014">
+<testsuite name="org.springframework.util.NumberUtilsTests" tests="21" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:11:35" hostname="wangweilideMBP.lan" time="0.008">
   <properties/>
-  <testcase name="parseNumberUsingNumberFormat()" classname="org.springframework.util.NumberUtilsTests" time="0.001"/>
-  <testcase name="parseNumberRequiringTrimUsingNumberFormat()" classname="org.springframework.util.NumberUtilsTests" time="0.0"/>
+  <testcase name="parseNumberUsingNumberFormat()" classname="org.springframework.util.NumberUtilsTests" time="0.0"/>
+  <testcase name="parseNumberRequiringTrimUsingNumberFormat()" classname="org.springframework.util.NumberUtilsTests" time="0.001"/>
   <testcase name="convertToInteger()" classname="org.springframework.util.NumberUtilsTests" time="0.001"/>
   <testcase name="convertBigDecimalToBigInteger()" classname="org.springframework.util.NumberUtilsTests" time="0.0"/>
   <testcase name="parseLocalizedBigDecimalNumber1()" classname="org.springframework.util.NumberUtilsTests" time="0.0"/>
@@ -10,12 +10,12 @@
   <testcase name="parseLocalizedBigDecimalNumber3()" classname="org.springframework.util.NumberUtilsTests" time="0.0"/>
   <testcase name="parseNumber()" classname="org.springframework.util.NumberUtilsTests" time="0.001"/>
   <testcase name="parseNumberRequiringTrim()" classname="org.springframework.util.NumberUtilsTests" time="0.0"/>
-  <testcase name="parseOverflow()" classname="org.springframework.util.NumberUtilsTests" time="0.001"/>
+  <testcase name="parseOverflow()" classname="org.springframework.util.NumberUtilsTests" time="0.0"/>
   <testcase name="parseNumberAsNegativeHex()" classname="org.springframework.util.NumberUtilsTests" time="0.0"/>
-  <testcase name="parseNumberAsHex()" classname="org.springframework.util.NumberUtilsTests" time="0.001"/>
+  <testcase name="parseNumberAsHex()" classname="org.springframework.util.NumberUtilsTests" time="0.0"/>
   <testcase name="parseNegativeOverflowUsingNumberFormat()" classname="org.springframework.util.NumberUtilsTests" time="0.001"/>
   <testcase name="convertNonExactBigDecimalToBigInteger()" classname="org.springframework.util.NumberUtilsTests" time="0.0"/>
-  <testcase name="convertDoubleToBigInteger()" classname="org.springframework.util.NumberUtilsTests" time="0.001"/>
+  <testcase name="convertDoubleToBigInteger()" classname="org.springframework.util.NumberUtilsTests" time="0.0"/>
   <testcase name="parseNegativeOverflow()" classname="org.springframework.util.NumberUtilsTests" time="0.001"/>
   <testcase name="parseOverflowUsingNumberFormat()" classname="org.springframework.util.NumberUtilsTests" time="0.001"/>
   <testcase name="parseBigDecimalNumber1()" classname="org.springframework.util.NumberUtilsTests" time="0.0"/>

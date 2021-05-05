@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.web.servlet.mvc.condition.ProducesRequestConditionTests" tests="24" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:41:03" hostname="wangweilideMacBook-Pro.local" time="0.02">
+<testsuite name="org.springframework.web.servlet.mvc.condition.ProducesRequestConditionTests" tests="24" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:33:11" hostname="wangweilideMBP.lan" time="0.046">
   <properties/>
   <testcase name="combineWithDefault()" classname="org.springframework.web.servlet.mvc.condition.ProducesRequestConditionTests" time="0.001"/>
-  <testcase name="instantiateWithProducesAndHeaderConditions()" classname="org.springframework.web.servlet.mvc.condition.ProducesRequestConditionTests" time="0.002"/>
-  <testcase name="matchWithNegationAndMediaTypeAllWithQualityParameter()" classname="org.springframework.web.servlet.mvc.condition.ProducesRequestConditionTests" time="0.001"/>
+  <testcase name="instantiateWithProducesAndHeaderConditions()" classname="org.springframework.web.servlet.mvc.condition.ProducesRequestConditionTests" time="0.005"/>
+  <testcase name="matchWithNegationAndMediaTypeAllWithQualityParameter()" classname="org.springframework.web.servlet.mvc.condition.ProducesRequestConditionTests" time="0.003"/>
   <testcase name="matchParseError()" classname="org.springframework.web.servlet.mvc.condition.ProducesRequestConditionTests" time="0.001"/>
   <testcase name="compareTo()" classname="org.springframework.web.servlet.mvc.condition.ProducesRequestConditionTests" time="0.001"/>
   <testcase name="matchParseErrorWithNegation()" classname="org.springframework.web.servlet.mvc.condition.ProducesRequestConditionTests" time="0.001"/>
-  <testcase name="compareToMediaTypeAll()" classname="org.springframework.web.servlet.mvc.condition.ProducesRequestConditionTests" time="0.001"/>
-  <testcase name="matchNegated()" classname="org.springframework.web.servlet.mvc.condition.ProducesRequestConditionTests" time="0.0"/>
-  <testcase name="compareToWithSingleExpression()" classname="org.springframework.web.servlet.mvc.condition.ProducesRequestConditionTests" time="0.0"/>
-  <testcase name="getMatchingCondition()" classname="org.springframework.web.servlet.mvc.condition.ProducesRequestConditionTests" time="0.0"/>
+  <testcase name="compareToMediaTypeAll()" classname="org.springframework.web.servlet.mvc.condition.ProducesRequestConditionTests" time="0.0"/>
+  <testcase name="matchNegated()" classname="org.springframework.web.servlet.mvc.condition.ProducesRequestConditionTests" time="0.002"/>
+  <testcase name="compareToWithSingleExpression()" classname="org.springframework.web.servlet.mvc.condition.ProducesRequestConditionTests" time="0.001"/>
+  <testcase name="getMatchingCondition()" classname="org.springframework.web.servlet.mvc.condition.ProducesRequestConditionTests" time="0.001"/>
   <testcase name="matchMultiple()" classname="org.springframework.web.servlet.mvc.condition.ProducesRequestConditionTests" time="0.001"/>
   <testcase name="match()" classname="org.springframework.web.servlet.mvc.condition.ProducesRequestConditionTests" time="0.0"/>
-  <testcase name="getProducibleMediaTypes()" classname="org.springframework.web.servlet.mvc.condition.ProducesRequestConditionTests" time="0.0"/>
+  <testcase name="getProducibleMediaTypes()" classname="org.springframework.web.servlet.mvc.condition.ProducesRequestConditionTests" time="0.001"/>
   <testcase name="compareToMediaTypeAllWithParameter()" classname="org.springframework.web.servlet.mvc.condition.ProducesRequestConditionTests" time="0.0"/>
-  <testcase name="matchByRequestParameter()" classname="org.springframework.web.servlet.mvc.condition.ProducesRequestConditionTests" time="0.001"/>
-  <testcase name="compareToEqualMatch()" classname="org.springframework.web.servlet.mvc.condition.ProducesRequestConditionTests" time="0.001"/>
+  <testcase name="matchByRequestParameter()" classname="org.springframework.web.servlet.mvc.condition.ProducesRequestConditionTests" time="0.0"/>
+  <testcase name="compareToEqualMatch()" classname="org.springframework.web.servlet.mvc.condition.ProducesRequestConditionTests" time="0.0"/>
   <testcase name="combine()" classname="org.springframework.web.servlet.mvc.condition.ProducesRequestConditionTests" time="0.0"/>
-  <testcase name="matchAndCompare()" classname="org.springframework.web.servlet.mvc.condition.ProducesRequestConditionTests" time="0.001"/>
-  <testcase name="matchNegatedWithoutAcceptHeader()" classname="org.springframework.web.servlet.mvc.condition.ProducesRequestConditionTests" time="0.0"/>
-  <testcase name="matchSingle()" classname="org.springframework.web.servlet.mvc.condition.ProducesRequestConditionTests" time="0.0"/>
+  <testcase name="matchAndCompare()" classname="org.springframework.web.servlet.mvc.condition.ProducesRequestConditionTests" time="0.002"/>
+  <testcase name="matchNegatedWithoutAcceptHeader()" classname="org.springframework.web.servlet.mvc.condition.ProducesRequestConditionTests" time="0.001"/>
+  <testcase name="matchSingle()" classname="org.springframework.web.servlet.mvc.condition.ProducesRequestConditionTests" time="0.001"/>
   <testcase name="matchWildcard()" classname="org.springframework.web.servlet.mvc.condition.ProducesRequestConditionTests" time="0.0"/>
-  <testcase name="compareToMultipleExpressions()" classname="org.springframework.web.servlet.mvc.condition.ProducesRequestConditionTests" time="0.0"/>
+  <testcase name="compareToMultipleExpressions()" classname="org.springframework.web.servlet.mvc.condition.ProducesRequestConditionTests" time="0.001"/>
   <testcase name="matchWithParameters()" classname="org.springframework.web.servlet.mvc.condition.ProducesRequestConditionTests" time="0.001"/>
   <testcase name="compareToMultipleExpressionsAndMultipleAcceptHeaderValues()" classname="org.springframework.web.servlet.mvc.condition.ProducesRequestConditionTests" time="0.001"/>
   <system-out><![CDATA[]]></system-out>

@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.aop.aspectj.annotation.ReflectiveAspectJAdvisorFactoryTests" tests="25" skipped="1" failures="0" errors="0" timestamp="2021-04-26T07:38:47" hostname="wangweilideMacBook-Pro.local" time="0.817">
+<testsuite name="org.springframework.aop.aspectj.annotation.ReflectiveAspectJAdvisorFactoryTests" tests="25" skipped="1" failures="0" errors="0" timestamp="2021-05-01T09:22:14" hostname="wangweilideMBP.lan" time="0.506">
   <properties/>
-  <testcase name="rejectsPerCflowAspect()" classname="org.springframework.aop.aspectj.annotation.ReflectiveAspectJAdvisorFactoryTests" time="0.004"/>
-  <testcase name="introductionOnTargetNotImplementingInterface()" classname="org.springframework.aop.aspectj.annotation.ReflectiveAspectJAdvisorFactoryTests" time="0.098"/>
-  <testcase name="introductionWithArgumentBinding()" classname="org.springframework.aop.aspectj.annotation.ReflectiveAspectJAdvisorFactoryTests" time="0.001">
+  <testcase name="rejectsPerCflowAspect()" classname="org.springframework.aop.aspectj.annotation.ReflectiveAspectJAdvisorFactoryTests" time="0.001"/>
+  <testcase name="introductionOnTargetNotImplementingInterface()" classname="org.springframework.aop.aspectj.annotation.ReflectiveAspectJAdvisorFactoryTests" time="0.022"/>
+  <testcase name="introductionWithArgumentBinding()" classname="org.springframework.aop.aspectj.annotation.ReflectiveAspectJAdvisorFactoryTests" time="0.0">
     <skipped/>
   </testcase>
-  <testcase name="multiplePerTargetAspectsWithOrderAnnotation()" classname="org.springframework.aop.aspectj.annotation.ReflectiveAspectJAdvisorFactoryTests" time="0.148"/>
+  <testcase name="multiplePerTargetAspectsWithOrderAnnotation()" classname="org.springframework.aop.aspectj.annotation.ReflectiveAspectJAdvisorFactoryTests" time="0.083"/>
   <testcase name="rejectsPerCflowBelowAspect()" classname="org.springframework.aop.aspectj.annotation.ReflectiveAspectJAdvisorFactoryTests" time="0.001"/>
-  <testcase name="bindingWithMultipleArgsDifferentlyOrdered()" classname="org.springframework.aop.aspectj.annotation.ReflectiveAspectJAdvisorFactoryTests" time="0.01"/>
-  <testcase name="perThisAspect()" classname="org.springframework.aop.aspectj.annotation.ReflectiveAspectJAdvisorFactoryTests" time="0.061"/>
-  <testcase name="failureWithoutExplicitDeclarePrecedence()" classname="org.springframework.aop.aspectj.annotation.ReflectiveAspectJAdvisorFactoryTests" time="0.017"/>
-  <testcase name="introductionAdvisorExcludedFromTargetImplementingInterface()" classname="org.springframework.aop.aspectj.annotation.ReflectiveAspectJAdvisorFactoryTests" time="0.01"/>
-  <testcase name="namedPointcutFromAspectLibrary()" classname="org.springframework.aop.aspectj.annotation.ReflectiveAspectJAdvisorFactoryTests" time="0.01"/>
-  <testcase name="namedPointcutAspectWithFQN()" classname="org.springframework.aop.aspectj.annotation.ReflectiveAspectJAdvisorFactoryTests" time="0.004"/>
-  <testcase name="bindingWithSingleArg()" classname="org.springframework.aop.aspectj.annotation.ReflectiveAspectJAdvisorFactoryTests" time="0.013"/>
+  <testcase name="bindingWithMultipleArgsDifferentlyOrdered()" classname="org.springframework.aop.aspectj.annotation.ReflectiveAspectJAdvisorFactoryTests" time="0.009"/>
+  <testcase name="perThisAspect()" classname="org.springframework.aop.aspectj.annotation.ReflectiveAspectJAdvisorFactoryTests" time="0.046"/>
+  <testcase name="failureWithoutExplicitDeclarePrecedence()" classname="org.springframework.aop.aspectj.annotation.ReflectiveAspectJAdvisorFactoryTests" time="0.012"/>
+  <testcase name="introductionAdvisorExcludedFromTargetImplementingInterface()" classname="org.springframework.aop.aspectj.annotation.ReflectiveAspectJAdvisorFactoryTests" time="0.008"/>
+  <testcase name="namedPointcutFromAspectLibrary()" classname="org.springframework.aop.aspectj.annotation.ReflectiveAspectJAdvisorFactoryTests" time="0.008"/>
+  <testcase name="namedPointcutAspectWithFQN()" classname="org.springframework.aop.aspectj.annotation.ReflectiveAspectJAdvisorFactoryTests" time="0.003"/>
+  <testcase name="bindingWithSingleArg()" classname="org.springframework.aop.aspectj.annotation.ReflectiveAspectJAdvisorFactoryTests" time="0.003"/>
   <testcase name="aspectMethodThrowsExceptionLegalOnSignature()" classname="org.springframework.aop.aspectj.annotation.ReflectiveAspectJAdvisorFactoryTests" time="0.003"/>
-  <testcase name="namedPointcutFromAspectLibraryWithBinding()" classname="org.springframework.aop.aspectj.annotation.ReflectiveAspectJAdvisorFactoryTests" time="0.01"/>
-  <testcase name="introductionOnTargetImplementingInterface()" classname="org.springframework.aop.aspectj.annotation.ReflectiveAspectJAdvisorFactoryTests" time="0.019"/>
-  <testcase name="introductionOnTargetExcludedByTypePattern()" classname="org.springframework.aop.aspectj.annotation.ReflectiveAspectJAdvisorFactoryTests" time="0.013"/>
-  <testcase name="perTypeWithinAspect()" classname="org.springframework.aop.aspectj.annotation.ReflectiveAspectJAdvisorFactoryTests" time="0.142"/>
-  <testcase name="introductionBasedOnAnnotationMatch_SPR5307()" classname="org.springframework.aop.aspectj.annotation.ReflectiveAspectJAdvisorFactoryTests" time="0.016"/>
-  <testcase name="namedPointcutAspectWithoutFQN()" classname="org.springframework.aop.aspectj.annotation.ReflectiveAspectJAdvisorFactoryTests" time="0.008"/>
+  <testcase name="namedPointcutFromAspectLibraryWithBinding()" classname="org.springframework.aop.aspectj.annotation.ReflectiveAspectJAdvisorFactoryTests" time="0.017"/>
+  <testcase name="introductionOnTargetImplementingInterface()" classname="org.springframework.aop.aspectj.annotation.ReflectiveAspectJAdvisorFactoryTests" time="0.014"/>
+  <testcase name="introductionOnTargetExcludedByTypePattern()" classname="org.springframework.aop.aspectj.annotation.ReflectiveAspectJAdvisorFactoryTests" time="0.009"/>
+  <testcase name="perTypeWithinAspect()" classname="org.springframework.aop.aspectj.annotation.ReflectiveAspectJAdvisorFactoryTests" time="0.095"/>
+  <testcase name="introductionBasedOnAnnotationMatch_SPR5307()" classname="org.springframework.aop.aspectj.annotation.ReflectiveAspectJAdvisorFactoryTests" time="0.015"/>
+  <testcase name="namedPointcutAspectWithoutFQN()" classname="org.springframework.aop.aspectj.annotation.ReflectiveAspectJAdvisorFactoryTests" time="0.003"/>
   <testcase name="twoAdvicesOnOneAspect()" classname="org.springframework.aop.aspectj.annotation.ReflectiveAspectJAdvisorFactoryTests" time="0.006"/>
   <testcase name="aspectMethodThrowsExceptionIllegalOnSignature()" classname="org.springframework.aop.aspectj.annotation.ReflectiveAspectJAdvisorFactoryTests" time="0.002"/>
-  <testcase name="declarePrecedenceNotSupported()" classname="org.springframework.aop.aspectj.annotation.ReflectiveAspectJAdvisorFactoryTests" time="0.008"/>
-  <testcase name="perTargetAspect()" classname="org.springframework.aop.aspectj.annotation.ReflectiveAspectJAdvisorFactoryTests" time="0.046"/>
-  <testcase name="afterAdviceTypes()" classname="org.springframework.aop.aspectj.annotation.ReflectiveAspectJAdvisorFactoryTests" time="0.062"/>
-  <testcase name="multiplePerTargetAspects()" classname="org.springframework.aop.aspectj.annotation.ReflectiveAspectJAdvisorFactoryTests" time="0.093"/>
-  <system-out><![CDATA[org.springframework.aop.aspectj.DeclareParentsAdvisor@b38e429
+  <testcase name="declarePrecedenceNotSupported()" classname="org.springframework.aop.aspectj.annotation.ReflectiveAspectJAdvisorFactoryTests" time="0.002"/>
+  <testcase name="perTargetAspect()" classname="org.springframework.aop.aspectj.annotation.ReflectiveAspectJAdvisorFactoryTests" time="0.041"/>
+  <testcase name="afterAdviceTypes()" classname="org.springframework.aop.aspectj.annotation.ReflectiveAspectJAdvisorFactoryTests" time="0.048"/>
+  <testcase name="multiplePerTargetAspects()" classname="org.springframework.aop.aspectj.annotation.ReflectiveAspectJAdvisorFactoryTests" time="0.046"/>
+  <system-out><![CDATA[org.springframework.aop.aspectj.DeclareParentsAdvisor@40100ffa
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

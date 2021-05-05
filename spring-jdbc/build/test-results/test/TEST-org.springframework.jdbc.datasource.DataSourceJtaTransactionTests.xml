@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.jdbc.datasource.DataSourceJtaTransactionTests" tests="28" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:39:48" hostname="wangweilideMacBook-Pro.local" time="0.529">
+<testsuite name="org.springframework.jdbc.datasource.DataSourceJtaTransactionTests" tests="28" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:25:19" hostname="wangweilideMBP.lan" time="0.557">
   <properties/>
-  <testcase name="testJtaTransactionCommitWithPropagationRequiresNewWithTransactionAwareDataSource()" classname="org.springframework.jdbc.datasource.DataSourceJtaTransactionTests" time="0.145"/>
-  <testcase name="testJtaTransactionCommit()" classname="org.springframework.jdbc.datasource.DataSourceJtaTransactionTests" time="0.01"/>
+  <testcase name="testJtaTransactionCommitWithPropagationRequiresNewWithTransactionAwareDataSource()" classname="org.springframework.jdbc.datasource.DataSourceJtaTransactionTests" time="0.219"/>
+  <testcase name="testJtaTransactionCommit()" classname="org.springframework.jdbc.datasource.DataSourceJtaTransactionTests" time="0.006"/>
   <testcase name="testJtaTransactionWithIsolationLevelDataSourceRouter()" classname="org.springframework.jdbc.datasource.DataSourceJtaTransactionTests" time="0.012"/>
-  <testcase name="testJtaTransactionCommitWithPropagationRequiresNewWithOpenOuterConnectionAndTransactionAwareDataSourceAndBeginException()" classname="org.springframework.jdbc.datasource.DataSourceJtaTransactionTests" time="0.009"/>
-  <testcase name="testJtaTransactionWithConnectionHolderStillBound()" classname="org.springframework.jdbc.datasource.DataSourceJtaTransactionTests" time="0.014"/>
-  <testcase name="testJtaTransactionCommitWithPropagationRequiredWithinNotSupported()" classname="org.springframework.jdbc.datasource.DataSourceJtaTransactionTests" time="0.01"/>
-  <testcase name="testJtaTransactionCommitWithPropagationRequiresNewWithTransactionAwareDataSourceAndSuspendException()" classname="org.springframework.jdbc.datasource.DataSourceJtaTransactionTests" time="0.01"/>
-  <testcase name="testJtaTransactionRollbackWithPropagationRequiresNewWithTransactionAwareDataSource()" classname="org.springframework.jdbc.datasource.DataSourceJtaTransactionTests" time="0.038"/>
-  <testcase name="testJtaTransactionCommitWithPropagationRequiresNewWithOpenOuterConnectionAccessed()" classname="org.springframework.jdbc.datasource.DataSourceJtaTransactionTests" time="0.021"/>
-  <testcase name="testJtaTransactionRollbackWithPropagationRequiresNew()" classname="org.springframework.jdbc.datasource.DataSourceJtaTransactionTests" time="0.017"/>
-  <testcase name="testJtaTransactionCommitWithPropagationRequiresNewAndBeginException()" classname="org.springframework.jdbc.datasource.DataSourceJtaTransactionTests" time="0.006"/>
-  <testcase name="testJtaTransactionCommitWithPropagationRequiresNewWithOpenOuterConnectionAndTransactionAwareDataSourceAndSuspendException()" classname="org.springframework.jdbc.datasource.DataSourceJtaTransactionTests" time="0.007"/>
-  <testcase name="testJtaTransactionRollback()" classname="org.springframework.jdbc.datasource.DataSourceJtaTransactionTests" time="0.004"/>
-  <testcase name="testJtaTransactionCommitWithPropagationRequiresNew()" classname="org.springframework.jdbc.datasource.DataSourceJtaTransactionTests" time="0.017"/>
-  <testcase name="testJtaTransactionCommitWithPropagationRequiresNewWithinSupports()" classname="org.springframework.jdbc.datasource.DataSourceJtaTransactionTests" time="0.006"/>
-  <testcase name="testJtaTransactionCommitWithPropagationRequiresNewWithOpenOuterConnectionAndSuspendException()" classname="org.springframework.jdbc.datasource.DataSourceJtaTransactionTests" time="0.008"/>
-  <testcase name="testJtaTransactionCommitWithPropagationRequiresNewWithAccessAfterResume()" classname="org.springframework.jdbc.datasource.DataSourceJtaTransactionTests" time="0.016"/>
-  <testcase name="testJtaTransactionRollbackWithPropagationRequiresNewWithOpenOuterConnection()" classname="org.springframework.jdbc.datasource.DataSourceJtaTransactionTests" time="0.024"/>
-  <testcase name="testJtaTransactionCommitWithPropagationRequiresNewWithTransactionAwareDataSourceAndBeginException()" classname="org.springframework.jdbc.datasource.DataSourceJtaTransactionTests" time="0.005"/>
-  <testcase name="testJtaTransactionWithIsolationLevelDataSourceRouterWithDataSourceLookup()" classname="org.springframework.jdbc.datasource.DataSourceJtaTransactionTests" time="0.016"/>
-  <testcase name="testJtaTransactionWithIsolationLevelDataSourceAdapter()" classname="org.springframework.jdbc.datasource.DataSourceJtaTransactionTests" time="0.011"/>
-  <testcase name="testJtaTransactionCommitWithPropagationRequiresNewWithOpenOuterConnectionAndBeginException()" classname="org.springframework.jdbc.datasource.DataSourceJtaTransactionTests" time="0.004"/>
-  <testcase name="testJtaTransactionCommitWithPropagationRequiredWithinSupports()" classname="org.springframework.jdbc.datasource.DataSourceJtaTransactionTests" time="0.021"/>
-  <testcase name="testJtaTransactionRollbackWithPropagationRequiresNewWithOpenOuterConnectionAccessed()" classname="org.springframework.jdbc.datasource.DataSourceJtaTransactionTests" time="0.03"/>
-  <testcase name="testJtaTransactionCommitWithPropagationRequiresNewWithinNotSupported()" classname="org.springframework.jdbc.datasource.DataSourceJtaTransactionTests" time="0.007"/>
-  <testcase name="testJtaTransactionCommitWithPropagationRequiresNewAndSuspendException()" classname="org.springframework.jdbc.datasource.DataSourceJtaTransactionTests" time="0.009"/>
-  <testcase name="testJtaTransactionRollbackWithPropagationRequiresNewWithAccessAfterResume()" classname="org.springframework.jdbc.datasource.DataSourceJtaTransactionTests" time="0.02"/>
-  <testcase name="testJtaTransactionCommitWithPropagationRequiresNewWithOpenOuterConnection()" classname="org.springframework.jdbc.datasource.DataSourceJtaTransactionTests" time="0.02"/>
+  <testcase name="testJtaTransactionCommitWithPropagationRequiresNewWithOpenOuterConnectionAndTransactionAwareDataSourceAndBeginException()" classname="org.springframework.jdbc.datasource.DataSourceJtaTransactionTests" time="0.007"/>
+  <testcase name="testJtaTransactionWithConnectionHolderStillBound()" classname="org.springframework.jdbc.datasource.DataSourceJtaTransactionTests" time="0.007"/>
+  <testcase name="testJtaTransactionCommitWithPropagationRequiredWithinNotSupported()" classname="org.springframework.jdbc.datasource.DataSourceJtaTransactionTests" time="0.006"/>
+  <testcase name="testJtaTransactionCommitWithPropagationRequiresNewWithTransactionAwareDataSourceAndSuspendException()" classname="org.springframework.jdbc.datasource.DataSourceJtaTransactionTests" time="0.006"/>
+  <testcase name="testJtaTransactionRollbackWithPropagationRequiresNewWithTransactionAwareDataSource()" classname="org.springframework.jdbc.datasource.DataSourceJtaTransactionTests" time="0.011"/>
+  <testcase name="testJtaTransactionCommitWithPropagationRequiresNewWithOpenOuterConnectionAccessed()" classname="org.springframework.jdbc.datasource.DataSourceJtaTransactionTests" time="0.009"/>
+  <testcase name="testJtaTransactionRollbackWithPropagationRequiresNew()" classname="org.springframework.jdbc.datasource.DataSourceJtaTransactionTests" time="0.007"/>
+  <testcase name="testJtaTransactionCommitWithPropagationRequiresNewAndBeginException()" classname="org.springframework.jdbc.datasource.DataSourceJtaTransactionTests" time="0.056"/>
+  <testcase name="testJtaTransactionCommitWithPropagationRequiresNewWithOpenOuterConnectionAndTransactionAwareDataSourceAndSuspendException()" classname="org.springframework.jdbc.datasource.DataSourceJtaTransactionTests" time="0.005"/>
+  <testcase name="testJtaTransactionRollback()" classname="org.springframework.jdbc.datasource.DataSourceJtaTransactionTests" time="0.003"/>
+  <testcase name="testJtaTransactionCommitWithPropagationRequiresNew()" classname="org.springframework.jdbc.datasource.DataSourceJtaTransactionTests" time="0.006"/>
+  <testcase name="testJtaTransactionCommitWithPropagationRequiresNewWithinSupports()" classname="org.springframework.jdbc.datasource.DataSourceJtaTransactionTests" time="0.029"/>
+  <testcase name="testJtaTransactionCommitWithPropagationRequiresNewWithOpenOuterConnectionAndSuspendException()" classname="org.springframework.jdbc.datasource.DataSourceJtaTransactionTests" time="0.007"/>
+  <testcase name="testJtaTransactionCommitWithPropagationRequiresNewWithAccessAfterResume()" classname="org.springframework.jdbc.datasource.DataSourceJtaTransactionTests" time="0.017"/>
+  <testcase name="testJtaTransactionRollbackWithPropagationRequiresNewWithOpenOuterConnection()" classname="org.springframework.jdbc.datasource.DataSourceJtaTransactionTests" time="0.008"/>
+  <testcase name="testJtaTransactionCommitWithPropagationRequiresNewWithTransactionAwareDataSourceAndBeginException()" classname="org.springframework.jdbc.datasource.DataSourceJtaTransactionTests" time="0.004"/>
+  <testcase name="testJtaTransactionWithIsolationLevelDataSourceRouterWithDataSourceLookup()" classname="org.springframework.jdbc.datasource.DataSourceJtaTransactionTests" time="0.007"/>
+  <testcase name="testJtaTransactionWithIsolationLevelDataSourceAdapter()" classname="org.springframework.jdbc.datasource.DataSourceJtaTransactionTests" time="0.006"/>
+  <testcase name="testJtaTransactionCommitWithPropagationRequiresNewWithOpenOuterConnectionAndBeginException()" classname="org.springframework.jdbc.datasource.DataSourceJtaTransactionTests" time="0.002"/>
+  <testcase name="testJtaTransactionCommitWithPropagationRequiredWithinSupports()" classname="org.springframework.jdbc.datasource.DataSourceJtaTransactionTests" time="0.002"/>
+  <testcase name="testJtaTransactionRollbackWithPropagationRequiresNewWithOpenOuterConnectionAccessed()" classname="org.springframework.jdbc.datasource.DataSourceJtaTransactionTests" time="0.042"/>
+  <testcase name="testJtaTransactionCommitWithPropagationRequiresNewWithinNotSupported()" classname="org.springframework.jdbc.datasource.DataSourceJtaTransactionTests" time="0.003"/>
+  <testcase name="testJtaTransactionCommitWithPropagationRequiresNewAndSuspendException()" classname="org.springframework.jdbc.datasource.DataSourceJtaTransactionTests" time="0.002"/>
+  <testcase name="testJtaTransactionRollbackWithPropagationRequiresNewWithAccessAfterResume()" classname="org.springframework.jdbc.datasource.DataSourceJtaTransactionTests" time="0.017"/>
+  <testcase name="testJtaTransactionCommitWithPropagationRequiresNewWithOpenOuterConnection()" classname="org.springframework.jdbc.datasource.DataSourceJtaTransactionTests" time="0.015"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.core.convert.support.MapToMapConverterTests" tests="14" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:37:47" hostname="wangweilideMacBook-Pro.local" time="0.013">
+<testsuite name="org.springframework.core.convert.support.MapToMapConverterTests" tests="14" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:11:34" hostname="wangweilideMBP.lan" time="0.008">
   <properties/>
   <testcase name="scalarMapNotGenericTarget()" classname="org.springframework.core.convert.support.MapToMapConverterTests" time="0.0"/>
-  <testcase name="scalarMap()" classname="org.springframework.core.convert.support.MapToMapConverterTests" time="0.0"/>
+  <testcase name="scalarMap()" classname="org.springframework.core.convert.support.MapToMapConverterTests" time="0.001"/>
   <testcase name="collectionMapNotGenericTargetCollectionToObjectInteraction()" classname="org.springframework.core.convert.support.MapToMapConverterTests" time="0.0"/>
   <testcase name="noDefaultConstructorCopyNotRequired()" classname="org.springframework.core.convert.support.MapToMapConverterTests" time="0.001"/>
   <testcase name="collectionMapNotGenericTarget()" classname="org.springframework.core.convert.support.MapToMapConverterTests" time="0.0"/>
@@ -12,9 +12,9 @@
   <testcase name="collectionMapSourceTarget()" classname="org.springframework.core.convert.support.MapToMapConverterTests" time="0.001"/>
   <testcase name="emptyMapNoTargetGenericInfo()" classname="org.springframework.core.convert.support.MapToMapConverterTests" time="0.0"/>
   <testcase name="multiValueMapToMultiValueMap()" classname="org.springframework.core.convert.support.MapToMapConverterTests" time="0.001"/>
-  <testcase name="stringToEnumMap()" classname="org.springframework.core.convert.support.MapToMapConverterTests" time="0.001"/>
+  <testcase name="stringToEnumMap()" classname="org.springframework.core.convert.support.MapToMapConverterTests" time="0.0"/>
   <testcase name="emptyMap()" classname="org.springframework.core.convert.support.MapToMapConverterTests" time="0.0"/>
-  <testcase name="emptyMapDifferentTargetImplType()" classname="org.springframework.core.convert.support.MapToMapConverterTests" time="0.001"/>
+  <testcase name="emptyMapDifferentTargetImplType()" classname="org.springframework.core.convert.support.MapToMapConverterTests" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

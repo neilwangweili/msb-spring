@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.jca.support.LocalConnectionFactoryBeanTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:39:32" hostname="wangweilideMacBook-Pro.local" time="0.063">
+<testsuite name="org.springframework.jca.support.LocalConnectionFactoryBeanTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:29:40" hostname="wangweilideMBP.lan" time="0.031">
   <properties/>
-  <testcase name="testIsSingleton()" classname="org.springframework.jca.support.LocalConnectionFactoryBeanTests" time="0.002"/>
-  <testcase name="testGetObjectTypeIsNullIfConnectionFactoryHasNotBeenConfigured()" classname="org.springframework.jca.support.LocalConnectionFactoryBeanTests" time="0.001"/>
-  <testcase name="testCreatesVanillaConnectionFactoryIfNoConnectionManagerHasBeenConfigured()" classname="org.springframework.jca.support.LocalConnectionFactoryBeanTests" time="0.023"/>
-  <testcase name="testCreatesManagedConnectionFactoryIfAConnectionManagerHasBeenConfigured()" classname="org.springframework.jca.support.LocalConnectionFactoryBeanTests" time="0.036"/>
+  <testcase name="testIsSingleton()" classname="org.springframework.jca.support.LocalConnectionFactoryBeanTests" time="0.0"/>
+  <testcase name="testGetObjectTypeIsNullIfConnectionFactoryHasNotBeenConfigured()" classname="org.springframework.jca.support.LocalConnectionFactoryBeanTests" time="0.0"/>
+  <testcase name="testCreatesVanillaConnectionFactoryIfNoConnectionManagerHasBeenConfigured()" classname="org.springframework.jca.support.LocalConnectionFactoryBeanTests" time="0.02"/>
+  <testcase name="testCreatesManagedConnectionFactoryIfAConnectionManagerHasBeenConfigured()" classname="org.springframework.jca.support.LocalConnectionFactoryBeanTests" time="0.008"/>
   <testcase name="testManagedConnectionFactoryIsRequired()" classname="org.springframework.jca.support.LocalConnectionFactoryBeanTests" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

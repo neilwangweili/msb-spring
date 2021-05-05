@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.jms.support.destination.JndiDestinationResolverTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:39:31" hostname="wangweilideMacBook-Pro.local" time="0.005">
+<testsuite name="org.springframework.jms.support.destination.JndiDestinationResolverTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:25:26" hostname="wangweilideMBP.lan" time="0.003">
   <properties/>
-  <testcase name="testDoesNotDelegateToFallbackIfNotResolvedInJndi()" classname="org.springframework.jms.support.destination.JndiDestinationResolverTests" time="0.002"/>
-  <testcase name="testHitsCacheSecondTimeThrough()" classname="org.springframework.jms.support.destination.JndiDestinationResolverTests" time="0.001"/>
+  <testcase name="testDoesNotDelegateToFallbackIfNotResolvedInJndi()" classname="org.springframework.jms.support.destination.JndiDestinationResolverTests" time="0.001"/>
+  <testcase name="testHitsCacheSecondTimeThrough()" classname="org.springframework.jms.support.destination.JndiDestinationResolverTests" time="0.0"/>
   <testcase name="testDelegatesToFallbackIfNotResolvedInJndi()" classname="org.springframework.jms.support.destination.JndiDestinationResolverTests" time="0.001"/>
-  <testcase name="testDoesNotUseCacheIfCachingIsTurnedOff()" classname="org.springframework.jms.support.destination.JndiDestinationResolverTests" time="0.001"/>
+  <testcase name="testDoesNotUseCacheIfCachingIsTurnedOff()" classname="org.springframework.jms.support.destination.JndiDestinationResolverTests" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

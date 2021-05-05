@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">4.480s</div>
+<div class="counter">5.923s</div>
 <p>duration</p>
 </div>
 </td>
@@ -79,22 +79,22 @@
 </thead>
 <tr>
 <td class="success">testBogusQuery()</td>
-<td class="success">0.040s</td>
+<td class="success">0.031s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testCanCastNativeEntityManagerFactoryToEclipseLinkEntityManagerFactoryImpl()</td>
-<td class="success">0.002s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">testCanCastSharedEntityManagerProxyToEclipseLinkEntityManager()</td>
 <td class="success">0.001s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
+<td class="success">testCanCastSharedEntityManagerProxyToEclipseLinkEntityManager()</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
 <td class="success">testCanSerializeProxies()</td>
-<td class="success">0.151s</td>
+<td class="success">0.104s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -104,72 +104,72 @@
 </tr>
 <tr>
 <td class="success">testEntityManagerProxyIsProxy()</td>
-<td class="success">0.008s</td>
+<td class="success">0.005s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testEntityManagerProxyRejectsProgrammaticTxManagement()</td>
-<td class="success">0.022s</td>
+<td class="success">0.007s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testGetReferenceWhenNoRow()</td>
-<td class="success">0.014s</td>
+<td class="success">0.017s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testInstantiateAndSaveWithSharedEmProxy()</td>
-<td class="success">0.021s</td>
+<td class="success">0.028s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testJdbcTx1_1()</td>
-<td class="success">0.004s</td>
+<td class="success">0.010s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testJdbcTx1_2()</td>
-<td class="success">0.008s</td>
+<td class="success">0.003s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testJdbcTx1_3()</td>
-<td class="success">0.004s</td>
+<td class="success">0.020s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testJdbcTx2()</td>
-<td class="success">3.542s</td>
+<td class="success">5.026s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testLazyLoading()</td>
-<td class="success">0.042s</td>
+<td class="success">0.022s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testMultipleResults()</td>
-<td class="success">0.099s</td>
+<td class="success">0.036s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testQueryNoPersons()</td>
-<td class="success">0.448s</td>
+<td class="success">0.509s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testQueryNoPersonsNotTransactional()</td>
-<td class="success">0.012s</td>
+<td class="success">0.061s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testQueryNoPersonsShared()</td>
-<td class="success">0.006s</td>
+<td class="success">0.005s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testQueryNoPersonsSharedNotTransactional()</td>
-<td class="success">0.046s</td>
+<td class="success">0.026s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -182,39 +182,39 @@
 <div id="tab1" class="tab">
 <h2>Standard output</h2>
 <span class="code">
-<pre>[EL Info]: 2021-04-26 15:39:38.668--ServerSession(2084508161)--EclipseLink, version: Eclipse Persistence Services - 2.7.8.v20201217-ecdf3c32c4
-[EL Warning]: metadata: 2021-04-26 15:39:39.497--ServerSession(2084508161)--Reverting the lazy setting on the OneToOne or ManyToOne attribute [driversLicense] for the entity class [class org.springframework.orm.jpa.domain.Person] since weaving was not enabled or did not occur.
-[EL Fine]: sql: 2021-04-26 15:39:39.641--ServerSession(2084508161)--Connection(1990017959)--CREATE TABLE PERSON (ID INTEGER NOT NULL, FIRST_NAME VARCHAR(255), LAST_NAME VARCHAR(255), DRIVERS_LICENSE_ID INTEGER, PRIMARY KEY (ID))
-[EL Fine]: sql: 2021-04-26 15:39:39.653--ServerSession(2084508161)--Connection(468680987)--CREATE TABLE DRIVERS_LICENSE (ID INTEGER NOT NULL, SERIAL_NUMBER VARCHAR(255), PRIMARY KEY (ID))
-[EL Fine]: sql: 2021-04-26 15:39:39.658--ServerSession(2084508161)--Connection(376440338)--ALTER TABLE PERSON ADD CONSTRAINT FK_PERSON_DRIVERS_LICENSE_ID FOREIGN KEY (DRIVERS_LICENSE_ID) REFERENCES DRIVERS_LICENSE (ID)
-[EL Fine]: sql: 2021-04-26 15:39:39.674--ServerSession(2084508161)--Connection(465299992)--CREATE TABLE SEQUENCE (SEQ_NAME VARCHAR(50) NOT NULL, SEQ_COUNT NUMERIC(38), PRIMARY KEY (SEQ_NAME))
-[EL Fine]: sql: 2021-04-26 15:39:39.682--ServerSession(2084508161)--Connection(1565247652)--SELECT * FROM SEQUENCE WHERE SEQ_NAME = 'SEQ_GEN'
-[EL Fine]: sql: 2021-04-26 15:39:39.686--ServerSession(2084508161)--Connection(2025702265)--INSERT INTO SEQUENCE(SEQ_NAME, SEQ_COUNT) values ('SEQ_GEN', 0)
-[EL Fine]: sql: 2021-04-26 15:39:40.48--ServerSession(2084508161)--Connection(66977704)--SELECT ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID FROM PERSON
-[EL Fine]: sql: 2021-04-26 15:39:40.482--ServerSession(2084508161)--Connection(1057106450)--SELECT ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID FROM PERSON
-[EL Fine]: sql: 2021-04-26 15:39:40.513--ClientSession(1738480568)--Connection(1941477476)--SELECT ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID FROM PERSON
-[EL Fine]: sql: 2021-04-26 15:39:40.615--ClientSession(1175142962)--Connection(182756689)--SELECT ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID FROM PERSON WHERE (ID = ?)
+<pre>[EL Info]: 2021-05-01 17:25:13.523--ServerSession(1575809764)--EclipseLink, version: Eclipse Persistence Services - 2.7.8.v20201217-ecdf3c32c4
+[EL Warning]: metadata: 2021-05-01 17:25:14.616--ServerSession(1575809764)--Reverting the lazy setting on the OneToOne or ManyToOne attribute [driversLicense] for the entity class [class org.springframework.orm.jpa.domain.Person] since weaving was not enabled or did not occur.
+[EL Fine]: sql: 2021-05-01 17:25:14.789--ServerSession(1575809764)--Connection(792445314)--CREATE TABLE PERSON (ID INTEGER NOT NULL, FIRST_NAME VARCHAR(255), LAST_NAME VARCHAR(255), DRIVERS_LICENSE_ID INTEGER, PRIMARY KEY (ID))
+[EL Fine]: sql: 2021-05-01 17:25:14.792--ServerSession(1575809764)--Connection(1076924391)--CREATE TABLE DRIVERS_LICENSE (ID INTEGER NOT NULL, SERIAL_NUMBER VARCHAR(255), PRIMARY KEY (ID))
+[EL Fine]: sql: 2021-05-01 17:25:14.793--ServerSession(1575809764)--Connection(591327297)--ALTER TABLE PERSON ADD CONSTRAINT FK_PERSON_DRIVERS_LICENSE_ID FOREIGN KEY (DRIVERS_LICENSE_ID) REFERENCES DRIVERS_LICENSE (ID)
+[EL Fine]: sql: 2021-05-01 17:25:14.797--ServerSession(1575809764)--Connection(1140287702)--CREATE TABLE SEQUENCE (SEQ_NAME VARCHAR(50) NOT NULL, SEQ_COUNT NUMERIC(38), PRIMARY KEY (SEQ_NAME))
+[EL Fine]: sql: 2021-05-01 17:25:14.803--ServerSession(1575809764)--Connection(560521562)--SELECT * FROM SEQUENCE WHERE SEQ_NAME = 'SEQ_GEN'
+[EL Fine]: sql: 2021-05-01 17:25:14.805--ServerSession(1575809764)--Connection(2093236642)--INSERT INTO SEQUENCE(SEQ_NAME, SEQ_COUNT) values ('SEQ_GEN', 0)
+[EL Fine]: sql: 2021-05-01 17:25:15.595--ServerSession(1575809764)--Connection(1773583395)--SELECT ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID FROM PERSON
+[EL Fine]: sql: 2021-05-01 17:25:15.604--ServerSession(1575809764)--Connection(2034062525)--SELECT ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID FROM PERSON
+[EL Fine]: sql: 2021-05-01 17:25:15.645--ClientSession(523648952)--Connection(657532960)--SELECT ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID FROM PERSON
+[EL Fine]: sql: 2021-05-01 17:25:15.665--ClientSession(669954830)--Connection(397146679)--SELECT ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID FROM PERSON WHERE (ID = ?)
 	bind =&gt; [666]
-[EL Fine]: sql: 2021-04-26 15:39:40.63--ClientSession(1248587648)--Connection(1894247003)--UPDATE SEQUENCE SET SEQ_COUNT = SEQ_COUNT + ? WHERE SEQ_NAME = ?
+[EL Fine]: sql: 2021-05-01 17:25:15.682--ClientSession(1129808772)--Connection(35427299)--UPDATE SEQUENCE SET SEQ_COUNT = SEQ_COUNT + ? WHERE SEQ_NAME = ?
 	bind =&gt; [50, SEQ_GEN]
-[EL Fine]: sql: 2021-04-26 15:39:40.633--ClientSession(1248587648)--Connection(1894247003)--SELECT SEQ_COUNT FROM SEQUENCE WHERE SEQ_NAME = ?
+[EL Fine]: sql: 2021-05-01 17:25:15.689--ClientSession(1129808772)--Connection(35427299)--SELECT SEQ_COUNT FROM SEQUENCE WHERE SEQ_NAME = ?
 	bind =&gt; [SEQ_GEN]
-[EL Fine]: sql: 2021-04-26 15:39:40.643--ClientSession(1248587648)--Connection(1894247003)--INSERT INTO PERSON (ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID) VALUES (?, ?, ?, ?)
+[EL Fine]: sql: 2021-05-01 17:25:15.704--ClientSession(1129808772)--Connection(35427299)--INSERT INTO PERSON (ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID) VALUES (?, ?, ?, ?)
 	bind =&gt; [1, Tony, Blair, null]
-[EL Fine]: sql: 2021-04-26 15:39:40.667--ServerSession(2084508161)--Connection(2054123607)--SELECT ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID FROM PERSON
-[EL Fine]: sql: 2021-04-26 15:39:40.69--ServerSession(2084508161)--Connection(1368376388)--SELECT ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID FROM PERSON
-[EL Fine]: sql: 2021-04-26 15:39:40.869--ClientSession(1971958624)--Connection(1254704879)--SELECT ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID FROM PERSON
-[EL Fine]: sql: 2021-04-26 15:39:40.87--ClientSession(1971958624)--Connection(1254704879)--SELECT ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID FROM PERSON
-[EL Fine]: sql: 2021-04-26 15:39:40.879--ServerSession(2084508161)--Connection(1526787196)--SELECT ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID FROM PERSON
-[EL Fine]: sql: 2021-04-26 15:39:40.88--ServerSession(2084508161)--Connection(1696168271)--SELECT ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID FROM PERSON
-[EL Fine]: sql: 2021-04-26 15:39:40.891--ClientSession(1896568959)--Connection(697925618)--SELECT ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID FROM PERSON
-[EL Fine]: sql: 2021-04-26 15:39:40.939--ClientSession(1015140445)--Connection(1932030673)--UPDATE SEQUENCE SET SEQ_COUNT = SEQ_COUNT + ? WHERE SEQ_NAME = ?
+[EL Fine]: sql: 2021-05-01 17:25:15.729--ServerSession(1575809764)--Connection(879903507)--SELECT ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID FROM PERSON
+[EL Fine]: sql: 2021-05-01 17:25:15.731--ServerSession(1575809764)--Connection(1296596340)--SELECT ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID FROM PERSON
+[EL Fine]: sql: 2021-05-01 17:25:15.875--ClientSession(921766065)--Connection(713729953)--SELECT ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID FROM PERSON
+[EL Fine]: sql: 2021-05-01 17:25:15.876--ClientSession(921766065)--Connection(713729953)--SELECT ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID FROM PERSON
+[EL Fine]: sql: 2021-05-01 17:25:15.936--ServerSession(1575809764)--Connection(882430077)--SELECT ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID FROM PERSON
+[EL Fine]: sql: 2021-05-01 17:25:15.938--ServerSession(1575809764)--Connection(1102328726)--SELECT ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID FROM PERSON
+[EL Fine]: sql: 2021-05-01 17:25:15.944--ClientSession(61736409)--Connection(399587348)--SELECT ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID FROM PERSON
+[EL Fine]: sql: 2021-05-01 17:25:15.98--ClientSession(540818536)--Connection(674880010)--UPDATE SEQUENCE SET SEQ_COUNT = SEQ_COUNT + ? WHERE SEQ_NAME = ?
 	bind =&gt; [50, SEQ_GEN]
-[EL Fine]: sql: 2021-04-26 15:39:40.94--ClientSession(1015140445)--Connection(1932030673)--SELECT SEQ_COUNT FROM SEQUENCE WHERE SEQ_NAME = ?
+[EL Fine]: sql: 2021-05-01 17:25:15.981--ClientSession(540818536)--Connection(674880010)--SELECT SEQ_COUNT FROM SEQUENCE WHERE SEQ_NAME = ?
 	bind =&gt; [SEQ_GEN]
-[EL Fine]: sql: 2021-04-26 15:39:40.947--ClientSession(1015140445)--Connection(1932030673)--INSERT INTO DRIVERS_LICENSE (ID, SERIAL_NUMBER) VALUES (?, ?)
+[EL Fine]: sql: 2021-05-01 17:25:15.982--ClientSession(540818536)--Connection(674880010)--INSERT INTO DRIVERS_LICENSE (ID, SERIAL_NUMBER) VALUES (?, ?)
 	bind =&gt; [0, 8439DK]
-[EL Fine]: sql: 2021-04-26 15:39:40.951--ClientSession(1015140445)--Connection(1932030673)--INSERT INTO PERSON (ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID) VALUES (?, ?, ?, ?)
+[EL Fine]: sql: 2021-05-01 17:25:15.983--ClientSession(540818536)--Connection(674880010)--INSERT INTO PERSON (ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID) VALUES (?, ?, ?, ?)
 	bind =&gt; [1, Tony, Blair, 0]
 </pre>
 </span>
@@ -227,7 +227,7 @@
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 6.8.3</a> at 2021年4月26日 下午3:39:49</p>
+<a href="http://www.gradle.org">Gradle 6.8.3</a> at May 1, 2021 5:25:27 PM</p>
 </div>
 </div>
 </body>

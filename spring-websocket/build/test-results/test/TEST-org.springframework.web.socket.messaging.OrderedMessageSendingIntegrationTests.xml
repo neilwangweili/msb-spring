@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.web.socket.messaging.OrderedMessageSendingIntegrationTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:42:17" hostname="wangweilideMacBook-Pro.local" time="0.253">
+<testsuite name="org.springframework.web.socket.messaging.OrderedMessageSendingIntegrationTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:49:29" hostname="wangweilideMBP.lan" time="0.229">
   <properties/>
-  <testcase name="sendAfterBlockedSend()" classname="org.springframework.web.socket.messaging.OrderedMessageSendingIntegrationTests" time="0.049"/>
-  <testcase name="exceedBufferSizeLimit()" classname="org.springframework.web.socket.messaging.OrderedMessageSendingIntegrationTests" time="0.002"/>
-  <testcase name="exceedTimeLimit()" classname="org.springframework.web.socket.messaging.OrderedMessageSendingIntegrationTests" time="0.201"/>
+  <testcase name="sendAfterBlockedSend()" classname="org.springframework.web.socket.messaging.OrderedMessageSendingIntegrationTests" time="0.024"/>
+  <testcase name="exceedBufferSizeLimit()" classname="org.springframework.web.socket.messaging.OrderedMessageSendingIntegrationTests" time="0.001"/>
+  <testcase name="exceedTimeLimit()" classname="org.springframework.web.socket.messaging.OrderedMessageSendingIntegrationTests" time="0.203"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[java.lang.InterruptedException
-	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer.doAcquireSharedInterruptibly(AbstractQueuedSynchronizer.java:1040)
-	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer.acquireSharedInterruptibly(AbstractQueuedSynchronizer.java:1345)
-	at java.base/java.util.concurrent.CountDownLatch.await(CountDownLatch.java:232)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer.doAcquireSharedInterruptibly(AbstractQueuedSynchronizer.java:998)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer.acquireSharedInterruptibly(AbstractQueuedSynchronizer.java:1304)
+	at java.util.concurrent.CountDownLatch.await(CountDownLatch.java:231)
 	at org.springframework.web.socket.handler.BlockingWebSocketSession.block(BlockingWebSocketSession.java:54)
 	at org.springframework.web.socket.handler.BlockingWebSocketSession.sendMessage(BlockingWebSocketSession.java:48)
 	at org.springframework.web.socket.handler.ConcurrentWebSocketSessionDecorator.tryFlushMessageBuffer(ConcurrentWebSocketSessionDecorator.java:190)
@@ -17,13 +17,13 @@
 	at org.springframework.web.socket.messaging.StompSubProtocolHandler.handleMessageToClient(StompSubProtocolHandler.java:481)
 	at org.springframework.web.socket.messaging.OrderedMessageSendingIntegrationTests$TestMessageHandler.handleMessage(OrderedMessageSendingIntegrationTests.java:245)
 	at org.springframework.messaging.support.ExecutorSubscribableChannel$SendTask.run(ExecutorSubscribableChannel.java:144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at java.base/java.lang.Thread.run(Thread.java:834)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
 java.lang.InterruptedException
-	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer.doAcquireSharedInterruptibly(AbstractQueuedSynchronizer.java:1040)
-	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer.acquireSharedInterruptibly(AbstractQueuedSynchronizer.java:1345)
-	at java.base/java.util.concurrent.CountDownLatch.await(CountDownLatch.java:232)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer.doAcquireSharedInterruptibly(AbstractQueuedSynchronizer.java:998)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer.acquireSharedInterruptibly(AbstractQueuedSynchronizer.java:1304)
+	at java.util.concurrent.CountDownLatch.await(CountDownLatch.java:231)
 	at org.springframework.web.socket.handler.BlockingWebSocketSession.block(BlockingWebSocketSession.java:54)
 	at org.springframework.web.socket.handler.BlockingWebSocketSession.sendMessage(BlockingWebSocketSession.java:48)
 	at org.springframework.web.socket.handler.ConcurrentWebSocketSessionDecorator.tryFlushMessageBuffer(ConcurrentWebSocketSessionDecorator.java:190)
@@ -32,8 +32,8 @@ java.lang.InterruptedException
 	at org.springframework.web.socket.messaging.StompSubProtocolHandler.handleMessageToClient(StompSubProtocolHandler.java:481)
 	at org.springframework.web.socket.messaging.OrderedMessageSendingIntegrationTests$TestMessageHandler.handleMessage(OrderedMessageSendingIntegrationTests.java:245)
 	at org.springframework.messaging.support.ExecutorSubscribableChannel$SendTask.run(ExecutorSubscribableChannel.java:144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at java.base/java.lang.Thread.run(Thread.java:834)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
 ]]></system-err>
 </testsuite>

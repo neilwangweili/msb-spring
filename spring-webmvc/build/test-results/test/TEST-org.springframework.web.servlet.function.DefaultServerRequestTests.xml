@@ -1,46 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.web.servlet.function.DefaultServerRequestTests" tests="40" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:41:28" hostname="wangweilideMacBook-Pro.local" time="0.039">
+<testsuite name="org.springframework.web.servlet.function.DefaultServerRequestTests" tests="40" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:33:40" hostname="wangweilideMBP.lan" time="0.039">
   <properties/>
   <testcase name="[1] GET" classname="org.springframework.web.servlet.function.DefaultServerRequestTests" time="0.003"/>
   <testcase name="[2] HEAD" classname="org.springframework.web.servlet.function.DefaultServerRequestTests" time="0.001"/>
   <testcase name="bodyUnacceptable()" classname="org.springframework.web.servlet.function.DefaultServerRequestTests" time="0.001"/>
   <testcase name="principal()" classname="org.springframework.web.servlet.function.DefaultServerRequestTests" time="0.001"/>
-  <testcase name="absentQueryParam()" classname="org.springframework.web.servlet.function.DefaultServerRequestTests" time="0.001"/>
-  <testcase name="[1] GET" classname="org.springframework.web.servlet.function.DefaultServerRequestTests" time="0.001"/>
-  <testcase name="[2] HEAD" classname="org.springframework.web.servlet.function.DefaultServerRequestTests" time="0.0"/>
-  <testcase name="multipartData()" classname="org.springframework.web.servlet.function.DefaultServerRequestTests" time="0.002"/>
-  <testcase name="header()" classname="org.springframework.web.servlet.function.DefaultServerRequestTests" time="0.002"/>
+  <testcase name="absentQueryParam()" classname="org.springframework.web.servlet.function.DefaultServerRequestTests" time="0.0"/>
+  <testcase name="[1] GET" classname="org.springframework.web.servlet.function.DefaultServerRequestTests" time="0.0"/>
+  <testcase name="[2] HEAD" classname="org.springframework.web.servlet.function.DefaultServerRequestTests" time="0.001"/>
+  <testcase name="multipartData()" classname="org.springframework.web.servlet.function.DefaultServerRequestTests" time="0.001"/>
+  <testcase name="header()" classname="org.springframework.web.servlet.function.DefaultServerRequestTests" time="0.003"/>
   <testcase name="uriBuilder()" classname="org.springframework.web.servlet.function.DefaultServerRequestTests" time="0.001"/>
   <testcase name="method()" classname="org.springframework.web.servlet.function.DefaultServerRequestTests" time="0.0"/>
-  <testcase name="params()" classname="org.springframework.web.servlet.function.DefaultServerRequestTests" time="0.0"/>
+  <testcase name="params()" classname="org.springframework.web.servlet.function.DefaultServerRequestTests" time="0.001"/>
   <testcase name="[1] GET" classname="org.springframework.web.servlet.function.DefaultServerRequestTests" time="0.001"/>
   <testcase name="[2] HEAD" classname="org.springframework.web.servlet.function.DefaultServerRequestTests" time="0.0"/>
-  <testcase name="[1] GET" classname="org.springframework.web.servlet.function.DefaultServerRequestTests" time="0.001"/>
+  <testcase name="[1] GET" classname="org.springframework.web.servlet.function.DefaultServerRequestTests" time="0.0"/>
   <testcase name="[2] HEAD" classname="org.springframework.web.servlet.function.DefaultServerRequestTests" time="0.001"/>
-  <testcase name="[1] GET" classname="org.springframework.web.servlet.function.DefaultServerRequestTests" time="0.001"/>
-  <testcase name="[2] HEAD" classname="org.springframework.web.servlet.function.DefaultServerRequestTests" time="0.001"/>
+  <testcase name="[1] GET" classname="org.springframework.web.servlet.function.DefaultServerRequestTests" time="0.0"/>
+  <testcase name="[2] HEAD" classname="org.springframework.web.servlet.function.DefaultServerRequestTests" time="0.0"/>
   <testcase name="uri()" classname="org.springframework.web.servlet.function.DefaultServerRequestTests" time="0.0"/>
-  <testcase name="attribute()" classname="org.springframework.web.servlet.function.DefaultServerRequestTests" time="0.0"/>
+  <testcase name="attribute()" classname="org.springframework.web.servlet.function.DefaultServerRequestTests" time="0.001"/>
   <testcase name="[1] GET" classname="org.springframework.web.servlet.function.DefaultServerRequestTests" time="0.001"/>
   <testcase name="[2] HEAD" classname="org.springframework.web.servlet.function.DefaultServerRequestTests" time="0.0"/>
-  <testcase name="bodyParameterizedTypeReference()" classname="org.springframework.web.servlet.function.DefaultServerRequestTests" time="0.005"/>
+  <testcase name="bodyParameterizedTypeReference()" classname="org.springframework.web.servlet.function.DefaultServerRequestTests" time="0.004"/>
   <testcase name="pathVariableNotFound()" classname="org.springframework.web.servlet.function.DefaultServerRequestTests" time="0.001"/>
   <testcase name="[1] GET" classname="org.springframework.web.servlet.function.DefaultServerRequestTests" time="0.0"/>
   <testcase name="[2] HEAD" classname="org.springframework.web.servlet.function.DefaultServerRequestTests" time="0.0"/>
-  <testcase name="cookies()" classname="org.springframework.web.servlet.function.DefaultServerRequestTests" time="0.001"/>
+  <testcase name="cookies()" classname="org.springframework.web.servlet.function.DefaultServerRequestTests" time="0.0"/>
   <testcase name="emptyQueryParam()" classname="org.springframework.web.servlet.function.DefaultServerRequestTests" time="0.0"/>
-  <testcase name="[1] GET" classname="org.springframework.web.servlet.function.DefaultServerRequestTests" time="0.001"/>
-  <testcase name="[2] HEAD" classname="org.springframework.web.servlet.function.DefaultServerRequestTests" time="0.001"/>
-  <testcase name="bodyClass()" classname="org.springframework.web.servlet.function.DefaultServerRequestTests" time="0.0"/>
-  <testcase name="[1] GET" classname="org.springframework.web.servlet.function.DefaultServerRequestTests" time="0.001"/>
+  <testcase name="[1] GET" classname="org.springframework.web.servlet.function.DefaultServerRequestTests" time="0.0"/>
   <testcase name="[2] HEAD" classname="org.springframework.web.servlet.function.DefaultServerRequestTests" time="0.0"/>
-  <testcase name="pathVariables()" classname="org.springframework.web.servlet.function.DefaultServerRequestTests" time="0.001"/>
+  <testcase name="bodyClass()" classname="org.springframework.web.servlet.function.DefaultServerRequestTests" time="0.001"/>
+  <testcase name="[1] GET" classname="org.springframework.web.servlet.function.DefaultServerRequestTests" time="0.0"/>
+  <testcase name="[2] HEAD" classname="org.springframework.web.servlet.function.DefaultServerRequestTests" time="0.0"/>
+  <testcase name="pathVariables()" classname="org.springframework.web.servlet.function.DefaultServerRequestTests" time="0.0"/>
   <testcase name="pathVariable()" classname="org.springframework.web.servlet.function.DefaultServerRequestTests" time="0.0"/>
-  <testcase name="[1] GET" classname="org.springframework.web.servlet.function.DefaultServerRequestTests" time="0.001"/>
+  <testcase name="[1] GET" classname="org.springframework.web.servlet.function.DefaultServerRequestTests" time="0.0"/>
   <testcase name="[2] HEAD" classname="org.springframework.web.servlet.function.DefaultServerRequestTests" time="0.0"/>
   <testcase name="session()" classname="org.springframework.web.servlet.function.DefaultServerRequestTests" time="0.0"/>
-  <testcase name="[1] GET" classname="org.springframework.web.servlet.function.DefaultServerRequestTests" time="0.0"/>
-  <testcase name="[2] HEAD" classname="org.springframework.web.servlet.function.DefaultServerRequestTests" time="0.001"/>
+  <testcase name="[1] GET" classname="org.springframework.web.servlet.function.DefaultServerRequestTests" time="0.001"/>
+  <testcase name="[2] HEAD" classname="org.springframework.web.servlet.function.DefaultServerRequestTests" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.test.web.reactive.server.CookieAssertionTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:41:25" hostname="wangweilideMacBook-Pro.local" time="0.023">
+<testsuite name="org.springframework.test.web.reactive.server.CookieAssertionTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:43:10" hostname="wangweilideMBP.lan" time="0.01">
   <properties/>
-  <testcase name="valueEquals()" classname="org.springframework.test.web.reactive.server.CookieAssertionTests" time="0.003"/>
-  <testcase name="domain()" classname="org.springframework.test.web.reactive.server.CookieAssertionTests" time="0.002"/>
-  <testcase name="exists()" classname="org.springframework.test.web.reactive.server.CookieAssertionTests" time="0.001"/>
-  <testcase name="maxAge()" classname="org.springframework.test.web.reactive.server.CookieAssertionTests" time="0.003"/>
-  <testcase name="secure()" classname="org.springframework.test.web.reactive.server.CookieAssertionTests" time="0.001"/>
-  <testcase name="doesNotExist()" classname="org.springframework.test.web.reactive.server.CookieAssertionTests" time="0.001"/>
+  <testcase name="valueEquals()" classname="org.springframework.test.web.reactive.server.CookieAssertionTests" time="0.002"/>
+  <testcase name="domain()" classname="org.springframework.test.web.reactive.server.CookieAssertionTests" time="0.0"/>
+  <testcase name="exists()" classname="org.springframework.test.web.reactive.server.CookieAssertionTests" time="0.0"/>
+  <testcase name="maxAge()" classname="org.springframework.test.web.reactive.server.CookieAssertionTests" time="0.002"/>
+  <testcase name="secure()" classname="org.springframework.test.web.reactive.server.CookieAssertionTests" time="0.0"/>
+  <testcase name="doesNotExist()" classname="org.springframework.test.web.reactive.server.CookieAssertionTests" time="0.0"/>
   <testcase name="httpOnly()" classname="org.springframework.test.web.reactive.server.CookieAssertionTests" time="0.001"/>
-  <testcase name="path()" classname="org.springframework.test.web.reactive.server.CookieAssertionTests" time="0.003"/>
-  <testcase name="value()" classname="org.springframework.test.web.reactive.server.CookieAssertionTests" time="0.002"/>
-  <testcase name="sameSite()" classname="org.springframework.test.web.reactive.server.CookieAssertionTests" time="0.002"/>
-  <system-out><![CDATA[15:41:25.247 [Test worker] ERROR o.s.t.w.r.s.ExchangeResult - Request details for assertion failure:
+  <testcase name="path()" classname="org.springframework.test.web.reactive.server.CookieAssertionTests" time="0.001"/>
+  <testcase name="value()" classname="org.springframework.test.web.reactive.server.CookieAssertionTests" time="0.001"/>
+  <testcase name="sameSite()" classname="org.springframework.test.web.reactive.server.CookieAssertionTests" time="0.001"/>
+  <system-out><![CDATA[17:43:10.792 [Test worker] ERROR o.s.t.w.r.s.ExchangeResult - Request details for assertion failure:
 
 > GET /
 > 
@@ -19,11 +19,11 @@
 No content
 
 < 200 OK OK
-< Set-Cookie: [foo=bar; Path=/foo; Domain=foo.com; Max-Age=1800; Expires=Mon, 26 Apr 2021 08:11:25 GMT; Secure; HttpOnly; SameSite=Lax]
+< Set-Cookie: [foo=bar; Path=/foo; Domain=foo.com; Max-Age=1800; Expires=Sat, 01 May 2021 10:13:10 GMT; Secure; HttpOnly; SameSite=Lax]
 
 No content
 
-15:41:25.248 [Test worker] ERROR o.s.t.w.r.s.ExchangeResult - Request details for assertion failure:
+17:43:10.792 [Test worker] ERROR o.s.t.w.r.s.ExchangeResult - Request details for assertion failure:
 
 > GET /
 > 
@@ -31,11 +31,11 @@ No content
 No content
 
 < 200 OK OK
-< Set-Cookie: [foo=bar; Path=/foo; Domain=foo.com; Max-Age=1800; Expires=Mon, 26 Apr 2021 08:11:25 GMT; Secure; HttpOnly; SameSite=Lax]
+< Set-Cookie: [foo=bar; Path=/foo; Domain=foo.com; Max-Age=1800; Expires=Sat, 01 May 2021 10:13:10 GMT; Secure; HttpOnly; SameSite=Lax]
 
 No content
 
-15:41:25.249 [Test worker] ERROR o.s.t.w.r.s.ExchangeResult - Request details for assertion failure:
+17:43:10.792 [Test worker] ERROR o.s.t.w.r.s.ExchangeResult - Request details for assertion failure:
 
 > GET /
 > 
@@ -43,11 +43,11 @@ No content
 No content
 
 < 200 OK OK
-< Set-Cookie: [foo=bar; Path=/foo; Domain=foo.com; Max-Age=1800; Expires=Mon, 26 Apr 2021 08:11:25 GMT; Secure; HttpOnly; SameSite=Lax]
+< Set-Cookie: [foo=bar; Path=/foo; Domain=foo.com; Max-Age=1800; Expires=Sat, 01 May 2021 10:13:10 GMT; Secure; HttpOnly; SameSite=Lax]
 
 No content
 
-15:41:25.250 [Test worker] ERROR o.s.t.w.r.s.ExchangeResult - Request details for assertion failure:
+17:43:10.793 [Test worker] ERROR o.s.t.w.r.s.ExchangeResult - Request details for assertion failure:
 
 > GET /
 > 
@@ -55,11 +55,11 @@ No content
 No content
 
 < 200 OK OK
-< Set-Cookie: [foo=bar; Path=/foo; Domain=foo.com; Max-Age=1800; Expires=Mon, 26 Apr 2021 08:11:25 GMT; Secure; HttpOnly; SameSite=Lax]
+< Set-Cookie: [foo=bar; Path=/foo; Domain=foo.com; Max-Age=1800; Expires=Sat, 01 May 2021 10:13:10 GMT; Secure; HttpOnly; SameSite=Lax]
 
 No content
 
-15:41:25.251 [Test worker] ERROR o.s.t.w.r.s.ExchangeResult - Request details for assertion failure:
+17:43:10.793 [Test worker] ERROR o.s.t.w.r.s.ExchangeResult - Request details for assertion failure:
 
 > GET /
 > 
@@ -67,11 +67,11 @@ No content
 No content
 
 < 200 OK OK
-< Set-Cookie: [foo=bar; Path=/foo; Domain=foo.com; Max-Age=1800; Expires=Mon, 26 Apr 2021 08:11:25 GMT; Secure; HttpOnly; SameSite=Lax]
+< Set-Cookie: [foo=bar; Path=/foo; Domain=foo.com; Max-Age=1800; Expires=Sat, 01 May 2021 10:13:10 GMT; Secure; HttpOnly; SameSite=Lax]
 
 No content
 
-15:41:25.253 [Test worker] ERROR o.s.t.w.r.s.ExchangeResult - Request details for assertion failure:
+17:43:10.794 [Test worker] ERROR o.s.t.w.r.s.ExchangeResult - Request details for assertion failure:
 
 > GET /
 > 
@@ -79,11 +79,11 @@ No content
 No content
 
 < 200 OK OK
-< Set-Cookie: [foo=bar; Path=/foo; Domain=foo.com; Max-Age=1800; Expires=Mon, 26 Apr 2021 08:11:25 GMT; Secure; HttpOnly; SameSite=Lax]
+< Set-Cookie: [foo=bar; Path=/foo; Domain=foo.com; Max-Age=1800; Expires=Sat, 01 May 2021 10:13:10 GMT; Secure; HttpOnly; SameSite=Lax]
 
 No content
 
-15:41:25.255 [Test worker] ERROR o.s.t.w.r.s.ExchangeResult - Request details for assertion failure:
+17:43:10.794 [Test worker] ERROR o.s.t.w.r.s.ExchangeResult - Request details for assertion failure:
 
 > GET /
 > 
@@ -91,11 +91,11 @@ No content
 No content
 
 < 200 OK OK
-< Set-Cookie: [foo=bar; Path=/foo; Domain=foo.com; Max-Age=1800; Expires=Mon, 26 Apr 2021 08:11:25 GMT; Secure; HttpOnly; SameSite=Lax]
+< Set-Cookie: [foo=bar; Path=/foo; Domain=foo.com; Max-Age=1800; Expires=Sat, 01 May 2021 10:13:10 GMT; Secure; HttpOnly; SameSite=Lax]
 
 No content
 
-15:41:25.257 [Test worker] ERROR o.s.t.w.r.s.ExchangeResult - Request details for assertion failure:
+17:43:10.796 [Test worker] ERROR o.s.t.w.r.s.ExchangeResult - Request details for assertion failure:
 
 > GET /
 > 
@@ -103,11 +103,11 @@ No content
 No content
 
 < 200 OK OK
-< Set-Cookie: [foo=bar; Path=/foo; Domain=foo.com; Max-Age=1800; Expires=Mon, 26 Apr 2021 08:11:25 GMT; Secure; HttpOnly; SameSite=Lax]
+< Set-Cookie: [foo=bar; Path=/foo; Domain=foo.com; Max-Age=1800; Expires=Sat, 01 May 2021 10:13:10 GMT; Secure; HttpOnly; SameSite=Lax]
 
 No content
 
-15:41:25.259 [Test worker] ERROR o.s.t.w.r.s.ExchangeResult - Request details for assertion failure:
+17:43:10.796 [Test worker] ERROR o.s.t.w.r.s.ExchangeResult - Request details for assertion failure:
 
 > GET /
 > 
@@ -115,11 +115,11 @@ No content
 No content
 
 < 200 OK OK
-< Set-Cookie: [foo=bar; Path=/foo; Domain=foo.com; Max-Age=1800; Expires=Mon, 26 Apr 2021 08:11:25 GMT; Secure; HttpOnly; SameSite=Lax]
+< Set-Cookie: [foo=bar; Path=/foo; Domain=foo.com; Max-Age=1800; Expires=Sat, 01 May 2021 10:13:10 GMT; Secure; HttpOnly; SameSite=Lax]
 
 No content
 
-15:41:25.260 [Test worker] ERROR o.s.t.w.r.s.ExchangeResult - Request details for assertion failure:
+17:43:10.797 [Test worker] ERROR o.s.t.w.r.s.ExchangeResult - Request details for assertion failure:
 
 > GET /
 > 
@@ -127,11 +127,11 @@ No content
 No content
 
 < 200 OK OK
-< Set-Cookie: [foo=bar; Path=/foo; Domain=foo.com; Max-Age=1800; Expires=Mon, 26 Apr 2021 08:11:25 GMT; Secure; HttpOnly; SameSite=Lax]
+< Set-Cookie: [foo=bar; Path=/foo; Domain=foo.com; Max-Age=1800; Expires=Sat, 01 May 2021 10:13:10 GMT; Secure; HttpOnly; SameSite=Lax]
 
 No content
 
-15:41:25.262 [Test worker] ERROR o.s.t.w.r.s.ExchangeResult - Request details for assertion failure:
+17:43:10.797 [Test worker] ERROR o.s.t.w.r.s.ExchangeResult - Request details for assertion failure:
 
 > GET /
 > 
@@ -139,11 +139,11 @@ No content
 No content
 
 < 200 OK OK
-< Set-Cookie: [foo=bar; Path=/foo; Domain=foo.com; Max-Age=1800; Expires=Mon, 26 Apr 2021 08:11:25 GMT; Secure; HttpOnly; SameSite=Lax]
+< Set-Cookie: [foo=bar; Path=/foo; Domain=foo.com; Max-Age=1800; Expires=Sat, 01 May 2021 10:13:10 GMT; Secure; HttpOnly; SameSite=Lax]
 
 No content
 
-15:41:25.263 [Test worker] ERROR o.s.t.w.r.s.ExchangeResult - Request details for assertion failure:
+17:43:10.798 [Test worker] ERROR o.s.t.w.r.s.ExchangeResult - Request details for assertion failure:
 
 > GET /
 > 
@@ -151,11 +151,11 @@ No content
 No content
 
 < 200 OK OK
-< Set-Cookie: [foo=bar; Path=/foo; Domain=foo.com; Max-Age=1800; Expires=Mon, 26 Apr 2021 08:11:25 GMT; Secure; HttpOnly; SameSite=Lax]
+< Set-Cookie: [foo=bar; Path=/foo; Domain=foo.com; Max-Age=1800; Expires=Sat, 01 May 2021 10:13:10 GMT; Secure; HttpOnly; SameSite=Lax]
 
 No content
 
-15:41:25.265 [Test worker] ERROR o.s.t.w.r.s.ExchangeResult - Request details for assertion failure:
+17:43:10.799 [Test worker] ERROR o.s.t.w.r.s.ExchangeResult - Request details for assertion failure:
 
 > GET /
 > 
@@ -163,11 +163,11 @@ No content
 No content
 
 < 200 OK OK
-< Set-Cookie: [foo=bar; Path=/foo; Domain=foo.com; Max-Age=1800; Expires=Mon, 26 Apr 2021 08:11:25 GMT; Secure; HttpOnly; SameSite=Lax]
+< Set-Cookie: [foo=bar; Path=/foo; Domain=foo.com; Max-Age=1800; Expires=Sat, 01 May 2021 10:13:10 GMT; Secure; HttpOnly; SameSite=Lax]
 
 No content
 
-15:41:25.267 [Test worker] ERROR o.s.t.w.r.s.ExchangeResult - Request details for assertion failure:
+17:43:10.800 [Test worker] ERROR o.s.t.w.r.s.ExchangeResult - Request details for assertion failure:
 
 > GET /
 > 
@@ -175,11 +175,11 @@ No content
 No content
 
 < 200 OK OK
-< Set-Cookie: [foo=bar; Path=/foo; Domain=foo.com; Max-Age=1800; Expires=Mon, 26 Apr 2021 08:11:25 GMT; Secure; HttpOnly; SameSite=Lax]
+< Set-Cookie: [foo=bar; Path=/foo; Domain=foo.com; Max-Age=1800; Expires=Sat, 01 May 2021 10:13:10 GMT; Secure; HttpOnly; SameSite=Lax]
 
 No content
 
-15:41:25.269 [Test worker] ERROR o.s.t.w.r.s.ExchangeResult - Request details for assertion failure:
+17:43:10.801 [Test worker] ERROR o.s.t.w.r.s.ExchangeResult - Request details for assertion failure:
 
 > GET /
 > 
@@ -187,7 +187,7 @@ No content
 No content
 
 < 200 OK OK
-< Set-Cookie: [foo=bar; Path=/foo; Domain=foo.com; Max-Age=1800; Expires=Mon, 26 Apr 2021 08:11:25 GMT; Secure; HttpOnly; SameSite=Lax]
+< Set-Cookie: [foo=bar; Path=/foo; Domain=foo.com; Max-Age=1800; Expires=Sat, 01 May 2021 10:13:10 GMT; Secure; HttpOnly; SameSite=Lax]
 
 No content
 

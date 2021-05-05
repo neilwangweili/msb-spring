@@ -1,85 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.validation.DataBinderTests" tests="79" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:41:31" hostname="wangweilideMacBook-Pro.local" time="0.103">
+<testsuite name="org.springframework.validation.DataBinderTests" tests="79" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:32:34" hostname="wangweilideMBP.lan" time="0.132">
   <properties/>
-  <testcase name="testBindingErrors()" classname="org.springframework.validation.DataBinderTests" time="0.005"/>
+  <testcase name="testBindingErrors()" classname="org.springframework.validation.DataBinderTests" time="0.007"/>
   <testcase name="testSetCustomMessageCodesResolverBeforeInitializeBindingResultForDirectFieldAccess()" classname="org.springframework.validation.DataBinderTests" time="0.001"/>
-  <testcase name="testAutoGrowWithinDefaultLimit()" classname="org.springframework.validation.DataBinderTests" time="0.0"/>
-  <testcase name="testSetAutoGrowCollectionLimit()" classname="org.springframework.validation.DataBinderTests" time="0.001"/>
-  <testcase name="testBindingWithSystemFieldError()" classname="org.springframework.validation.DataBinderTests" time="0.004"/>
-  <testcase name="testBindingWithErrors()" classname="org.springframework.validation.DataBinderTests" time="0.004"/>
-  <testcase name="testBindingNoErrorsWithIgnoreInvalid()" classname="org.springframework.validation.DataBinderTests" time="0.001"/>
+  <testcase name="testAutoGrowWithinDefaultLimit()" classname="org.springframework.validation.DataBinderTests" time="0.001"/>
+  <testcase name="testSetAutoGrowCollectionLimit()" classname="org.springframework.validation.DataBinderTests" time="0.003"/>
+  <testcase name="testBindingWithSystemFieldError()" classname="org.springframework.validation.DataBinderTests" time="0.007"/>
+  <testcase name="testBindingWithErrors()" classname="org.springframework.validation.DataBinderTests" time="0.003"/>
+  <testcase name="testBindingNoErrorsWithIgnoreInvalid()" classname="org.springframework.validation.DataBinderTests" time="0.0"/>
   <testcase name="testBindingErrorWithFormatterAgainstList()" classname="org.springframework.validation.DataBinderTests" time="0.001"/>
   <testcase name="testBindingWithResortedList()" classname="org.springframework.validation.DataBinderTests" time="0.001"/>
   <testcase name="testBindingWithDefaultConversionNoErrors()" classname="org.springframework.validation.DataBinderTests" time="0.0"/>
-  <testcase name="overrideBindingResultType()" classname="org.springframework.validation.DataBinderTests" time="0.0"/>
-  <testcase name="testBindToStringArrayWithArrayEditor()" classname="org.springframework.validation.DataBinderTests" time="0.002"/>
+  <testcase name="overrideBindingResultType()" classname="org.springframework.validation.DataBinderTests" time="0.001"/>
+  <testcase name="testBindToStringArrayWithArrayEditor()" classname="org.springframework.validation.DataBinderTests" time="0.003"/>
   <testcase name="testBindingNullToEmptyCollection()" classname="org.springframework.validation.DataBinderTests" time="0.0"/>
   <testcase name="testBindingErrorWithParseExceptionFromCustomFormatter()" classname="org.springframework.validation.DataBinderTests" time="0.002"/>
   <testcase name="testAutoGrowWithinCustomLimit()" classname="org.springframework.validation.DataBinderTests" time="0.0"/>
   <testcase name="testValidatorWithErrors()" classname="org.springframework.validation.DataBinderTests" time="0.001"/>
-  <testcase name="testFieldErrorAccessVariations()" classname="org.springframework.validation.DataBinderTests" time="0.001"/>
+  <testcase name="testFieldErrorAccessVariations()" classname="org.springframework.validation.DataBinderTests" time="0.0"/>
   <testcase name="testValidatorWithNestedObjectNull()" classname="org.springframework.validation.DataBinderTests" time="0.0"/>
-  <testcase name="testBindingNoErrorsWithInvalidField()" classname="org.springframework.validation.DataBinderTests" time="0.001"/>
-  <testcase name="testBindToStringArrayWithComponentEditor()" classname="org.springframework.validation.DataBinderTests" time="0.001"/>
+  <testcase name="testBindingNoErrorsWithInvalidField()" classname="org.springframework.validation.DataBinderTests" time="0.0"/>
+  <testcase name="testBindToStringArrayWithComponentEditor()" classname="org.springframework.validation.DataBinderTests" time="0.002"/>
   <testcase name="testBindingWithNestedObjectCreation()" classname="org.springframework.validation.DataBinderTests" time="0.001"/>
   <testcase name="testDirectBindingToIndexedField()" classname="org.springframework.validation.DataBinderTests" time="0.002"/>
-  <testcase name="testNestedBindingWithDefaultConversionNoErrors()" classname="org.springframework.validation.DataBinderTests" time="0.0"/>
-  <testcase name="testSpecificEditorForNestedIndexedField()" classname="org.springframework.validation.DataBinderTests" time="0.002"/>
-  <testcase name="testCustomEditorForPrimitiveProperty()" classname="org.springframework.validation.DataBinderTests" time="0.001"/>
-  <testcase name="testBindingWithCustomEditorOnObjectField()" classname="org.springframework.validation.DataBinderTests" time="0.002"/>
+  <testcase name="testNestedBindingWithDefaultConversionNoErrors()" classname="org.springframework.validation.DataBinderTests" time="0.001"/>
+  <testcase name="testSpecificEditorForNestedIndexedField()" classname="org.springframework.validation.DataBinderTests" time="0.003"/>
+  <testcase name="testCustomEditorForPrimitiveProperty()" classname="org.springframework.validation.DataBinderTests" time="0.002"/>
+  <testcase name="testBindingWithCustomEditorOnObjectField()" classname="org.springframework.validation.DataBinderTests" time="0.003"/>
   <testcase name="testAutoGrowBeyondCustomLimit()" classname="org.springframework.validation.DataBinderTests" time="0.001"/>
-  <testcase name="testRejectWithoutDefaultMessage()" classname="org.springframework.validation.DataBinderTests" time="0.001"/>
-  <testcase name="testEditorForNestedIndexedField()" classname="org.springframework.validation.DataBinderTests" time="0.001"/>
-  <testcase name="testBindingWithAllowedAndDisallowedMapFields()" classname="org.springframework.validation.DataBinderTests" time="0.001"/>
-  <testcase name="testJavaBeanPropertyConventions()" classname="org.springframework.validation.DataBinderTests" time="0.001"/>
-  <testcase name="testBindingWithFormatterAgainstList()" classname="org.springframework.validation.DataBinderTests" time="0.0"/>
+  <testcase name="testRejectWithoutDefaultMessage()" classname="org.springframework.validation.DataBinderTests" time="0.0"/>
+  <testcase name="testEditorForNestedIndexedField()" classname="org.springframework.validation.DataBinderTests" time="0.003"/>
+  <testcase name="testBindingWithAllowedAndDisallowedMapFields()" classname="org.springframework.validation.DataBinderTests" time="0.0"/>
+  <testcase name="testJavaBeanPropertyConventions()" classname="org.springframework.validation.DataBinderTests" time="0.002"/>
+  <testcase name="testBindingWithFormatterAgainstList()" classname="org.springframework.validation.DataBinderTests" time="0.001"/>
   <testcase name="testBindingWithErrorsAndCustomEditors()" classname="org.springframework.validation.DataBinderTests" time="0.003"/>
   <testcase name="testBindingErrorWithCustomFormatter()" classname="org.springframework.validation.DataBinderTests" time="0.002"/>
-  <testcase name="testCustomEditorWithOldValueAccess()" classname="org.springframework.validation.DataBinderTests" time="0.001"/>
+  <testcase name="testCustomEditorWithOldValueAccess()" classname="org.springframework.validation.DataBinderTests" time="0.002"/>
   <testcase name="testBindingWithAllowedAndDisallowedFields()" classname="org.springframework.validation.DataBinderTests" time="0.0"/>
   <testcase name="testAddAllErrors()" classname="org.springframework.validation.DataBinderTests" time="0.0"/>
   <testcase name="testDirectBindingToEmptyIndexedFieldWithRegisteredGenericEditor()" classname="org.springframework.validation.DataBinderTests" time="0.001"/>
   <testcase name="testCustomFormatterForPrimitiveProperty()" classname="org.springframework.validation.DataBinderTests" time="0.001"/>
   <testcase name="testConversionWithInappropriateStringEditor()" classname="org.springframework.validation.DataBinderTests" time="0.002"/>
-  <testcase name="testBindingWithCustomFormatter()" classname="org.springframework.validation.DataBinderTests" time="0.001"/>
+  <testcase name="testBindingWithCustomFormatter()" classname="org.springframework.validation.DataBinderTests" time="0.0"/>
   <testcase name="testBindingToIndexedField()" classname="org.springframework.validation.DataBinderTests" time="0.001"/>
-  <testcase name="testNestedGrowingList()" classname="org.springframework.validation.DataBinderTests" time="0.002"/>
+  <testcase name="testNestedGrowingList()" classname="org.springframework.validation.DataBinderTests" time="0.003"/>
   <testcase name="testBindingErrorWithFormatterAgainstFields()" classname="org.springframework.validation.DataBinderTests" time="0.001"/>
-  <testcase name="testBindingToNestedIndexedField()" classname="org.springframework.validation.DataBinderTests" time="0.001"/>
+  <testcase name="testBindingToNestedIndexedField()" classname="org.springframework.validation.DataBinderTests" time="0.002"/>
   <testcase name="testBindingWithAllowedFields()" classname="org.springframework.validation.DataBinderTests" time="0.0"/>
   <testcase name="testBindingWithDisallowedFields()" classname="org.springframework.validation.DataBinderTests" time="0.0"/>
-  <testcase name="testValidatorWithErrorsAndCodesPrefix()" classname="org.springframework.validation.DataBinderTests" time="0.001"/>
-  <testcase name="testBindingWithOverlappingAllowedAndDisallowedFields()" classname="org.springframework.validation.DataBinderTests" time="0.0"/>
-  <testcase name="testAutoGrowBeyondDefaultLimit()" classname="org.springframework.validation.DataBinderTests" time="0.001"/>
+  <testcase name="testValidatorWithErrorsAndCodesPrefix()" classname="org.springframework.validation.DataBinderTests" time="0.0"/>
+  <testcase name="testBindingWithOverlappingAllowedAndDisallowedFields()" classname="org.springframework.validation.DataBinderTests" time="0.001"/>
+  <testcase name="testAutoGrowBeyondDefaultLimit()" classname="org.springframework.validation.DataBinderTests" time="0.0"/>
   <testcase name="testBindingErrorWithRuntimeExceptionFromFormatter()" classname="org.springframework.validation.DataBinderTests" time="0.001"/>
   <testcase name="testSetCustomMessageCodesResolverAfterInitializeBindingResult()" classname="org.springframework.validation.DataBinderTests" time="0.001"/>
   <testcase name="testInnerSpecificEditorForNestedIndexedField()" classname="org.springframework.validation.DataBinderTests" time="0.001"/>
   <testcase name="testTrackDisallowedFields()" classname="org.springframework.validation.DataBinderTests" time="0.0"/>
   <testcase name="testDirectBindingToEmptyIndexedFieldWithRegisteredSpecificEditor()" classname="org.springframework.validation.DataBinderTests" time="0.001"/>
-  <testcase name="testCustomFormatterForSingleProperty()" classname="org.springframework.validation.DataBinderTests" time="0.001"/>
+  <testcase name="testCustomFormatterForSingleProperty()" classname="org.springframework.validation.DataBinderTests" time="0.002"/>
   <testcase name="testBindingWithFormatterAgainstFields()" classname="org.springframework.validation.DataBinderTests" time="0.002"/>
   <testcase name="testBindingNoErrorsNotIgnoreUnknown()" classname="org.springframework.validation.DataBinderTests" time="0.001"/>
   <testcase name="testValidatorNoErrors()" classname="org.springframework.validation.DataBinderTests" time="0.001"/>
-  <testcase name="testBindingNoErrors()" classname="org.springframework.validation.DataBinderTests" time="0.0"/>
+  <testcase name="testBindingNoErrors()" classname="org.springframework.validation.DataBinderTests" time="0.001"/>
   <testcase name="testSetCustomMessageCodesResolverBeforeInitializeBindingResultForBeanPropertyAccess()" classname="org.springframework.validation.DataBinderTests" time="0.0"/>
-  <testcase name="testOptionalProperty()" classname="org.springframework.validation.DataBinderTests" time="0.002"/>
-  <testcase name="testBindExceptionSerializable()" classname="org.springframework.validation.DataBinderTests" time="0.009"/>
+  <testcase name="testOptionalProperty()" classname="org.springframework.validation.DataBinderTests" time="0.003"/>
+  <testcase name="testBindExceptionSerializable()" classname="org.springframework.validation.DataBinderTests" time="0.015"/>
   <testcase name="testCustomEditorForAllStringProperties()" classname="org.springframework.validation.DataBinderTests" time="0.001"/>
-  <testcase name="testBindingErrorWithFormatter()" classname="org.springframework.validation.DataBinderTests" time="0.001"/>
+  <testcase name="testBindingErrorWithFormatter()" classname="org.springframework.validation.DataBinderTests" time="0.002"/>
   <testcase name="testBindingWithAllowedFieldsUsingAsterisks()" classname="org.springframework.validation.DataBinderTests" time="0.0"/>
-  <testcase name="testSetMessageCodesResolverIsNullAfterInitializeBindingResult()" classname="org.springframework.validation.DataBinderTests" time="0.0"/>
+  <testcase name="testSetMessageCodesResolverIsNullAfterInitializeBindingResult()" classname="org.springframework.validation.DataBinderTests" time="0.001"/>
   <testcase name="testCustomFormatterForAllStringProperties()" classname="org.springframework.validation.DataBinderTests" time="0.001"/>
-  <testcase name="testSetAutoGrowCollectionLimitAfterInitialization()" classname="org.springframework.validation.DataBinderTests" time="0.0"/>
+  <testcase name="testSetAutoGrowCollectionLimitAfterInitialization()" classname="org.springframework.validation.DataBinderTests" time="0.001"/>
   <testcase name="testCallSetMessageCodesResolverTwice()" classname="org.springframework.validation.DataBinderTests" time="0.001"/>
-  <testcase name="testBindingStringArrayToIntegerSet()" classname="org.springframework.validation.DataBinderTests" time="0.003"/>
+  <testcase name="testBindingStringArrayToIntegerSet()" classname="org.springframework.validation.DataBinderTests" time="0.004"/>
   <testcase name="testCustomEditorForSingleProperty()" classname="org.springframework.validation.DataBinderTests" time="0.001"/>
   <testcase name="testNestedValidatorWithoutNestedPath()" classname="org.springframework.validation.DataBinderTests" time="0.001"/>
   <testcase name="testBindingErrorWithRuntimeExceptionFromCustomFormatter()" classname="org.springframework.validation.DataBinderTests" time="0.001"/>
-  <testcase name="testBindingWithRequiredMapFields()" classname="org.springframework.validation.DataBinderTests" time="0.0"/>
+  <testcase name="testBindingWithRequiredMapFields()" classname="org.springframework.validation.DataBinderTests" time="0.001"/>
   <testcase name="testBindingWithFormatter()" classname="org.springframework.validation.DataBinderTests" time="0.001"/>
   <testcase name="testBindingErrorWithParseExceptionFromFormatter()" classname="org.springframework.validation.DataBinderTests" time="0.001"/>
-  <testcase name="testCustomEditorWithSubclass()" classname="org.springframework.validation.DataBinderTests" time="0.001"/>
-  <testcase name="testBindingWithRequiredFields()" classname="org.springframework.validation.DataBinderTests" time="0.001"/>
+  <testcase name="testCustomEditorWithSubclass()" classname="org.springframework.validation.DataBinderTests" time="0.002"/>
+  <testcase name="testBindingWithRequiredFields()" classname="org.springframework.validation.DataBinderTests" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

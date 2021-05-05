@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.beans.factory.config.PropertyPlaceholderConfigurerTests" tests="11" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:39:35" hostname="wangweilideMacBook-Pro.local" time="0.013">
+<testsuite name="org.springframework.beans.factory.config.PropertyPlaceholderConfigurerTests" tests="11" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:25:17" hostname="wangweilideMBP.lan" time="0.02">
   <properties/>
-  <testcase name="resolveFromSystemProperties()" classname="org.springframework.beans.factory.config.PropertyPlaceholderConfigurerTests" time="0.004"/>
-  <testcase name="twoPlaceholderConfigurers_withConflictingSettings()" classname="org.springframework.beans.factory.config.PropertyPlaceholderConfigurerTests" time="0.0"/>
+  <testcase name="resolveFromSystemProperties()" classname="org.springframework.beans.factory.config.PropertyPlaceholderConfigurerTests" time="0.013"/>
+  <testcase name="twoPlaceholderConfigurers_withConflictingSettings()" classname="org.springframework.beans.factory.config.PropertyPlaceholderConfigurerTests" time="0.001"/>
   <testcase name="resolveFromLocalProperties()" classname="org.springframework.beans.factory.config.PropertyPlaceholderConfigurerTests" time="0.001"/>
   <testcase name="setSystemSystemPropertiesMode_toOverride_andResolveFromSystemProperties()" classname="org.springframework.beans.factory.config.PropertyPlaceholderConfigurerTests" time="0.0"/>
   <testcase name="setSystemSystemPropertiesMode_toOverride_andSetSearchSystemEnvironment_toFalse()" classname="org.springframework.beans.factory.config.PropertyPlaceholderConfigurerTests" time="0.0"/>

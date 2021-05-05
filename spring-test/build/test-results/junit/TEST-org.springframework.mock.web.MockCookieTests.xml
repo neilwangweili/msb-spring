@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.mock.web.MockCookieTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:41:26" hostname="wangweilideMacBook-Pro.local" time="0.012">
+<testsuite name="org.springframework.mock.web.MockCookieTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:43:11" hostname="wangweilideMBP.lan" time="0.006">
   <properties/>
-  <testcase name="parseInvalidAttribute()" classname="org.springframework.mock.web.MockCookieTests" time="0.002"/>
-  <testcase name="[1] expiresValue=0" classname="org.springframework.mock.web.MockCookieTests" time="0.005"/>
-  <testcase name="[2] expiresValue=bogus" classname="org.springframework.mock.web.MockCookieTests" time="0.001"/>
+  <testcase name="parseInvalidAttribute()" classname="org.springframework.mock.web.MockCookieTests" time="0.001"/>
+  <testcase name="[1] expiresValue=0" classname="org.springframework.mock.web.MockCookieTests" time="0.002"/>
+  <testcase name="[2] expiresValue=bogus" classname="org.springframework.mock.web.MockCookieTests" time="0.0"/>
   <testcase name="setSameSite()" classname="org.springframework.mock.web.MockCookieTests" time="0.0"/>
   <testcase name="parseHeaderWithoutAttributes()" classname="org.springframework.mock.web.MockCookieTests" time="0.0"/>
-  <testcase name="parseNullHeader()" classname="org.springframework.mock.web.MockCookieTests" time="0.001"/>
+  <testcase name="parseNullHeader()" classname="org.springframework.mock.web.MockCookieTests" time="0.0"/>
   <testcase name="parseHeaderWithAttributes()" classname="org.springframework.mock.web.MockCookieTests" time="0.001"/>
   <testcase name="constructCookie()" classname="org.springframework.mock.web.MockCookieTests" time="0.0"/>
-  <testcase name="parseInvalidHeader()" classname="org.springframework.mock.web.MockCookieTests" time="0.001"/>
+  <testcase name="parseInvalidHeader()" classname="org.springframework.mock.web.MockCookieTests" time="0.0"/>
   <testcase name="parseHeaderWithAttributesCaseSensitivity()" classname="org.springframework.mock.web.MockCookieTests" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

@@ -1,55 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.jms.core.JmsMessagingTemplateTests" tests="49" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:39:25" hostname="wangweilideMacBook-Pro.local" time="0.777">
+<testsuite name="org.springframework.jms.core.JmsMessagingTemplateTests" tests="49" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:25:18" hostname="wangweilideMBP.lan" time="0.83">
   <properties/>
-  <testcase name="sendAndReceiveNoDefaultSet()" classname="org.springframework.jms.core.JmsMessagingTemplateTests" time="0.47"/>
-  <testcase name="receiveName()" classname="org.springframework.jms.core.JmsMessagingTemplateTests" time="0.004"/>
-  <testcase name="sendNoDefaultSet()" classname="org.springframework.jms.core.JmsMessagingTemplateTests" time="0.002"/>
-  <testcase name="convertMessageConversionExceptionOnReceive()" classname="org.springframework.jms.core.JmsMessagingTemplateTests" time="0.017"/>
-  <testcase name="receiveAndConvertName()" classname="org.springframework.jms.core.JmsMessagingTemplateTests" time="0.003"/>
-  <testcase name="convertMessageFormatException()" classname="org.springframework.jms.core.JmsMessagingTemplateTests" time="0.023"/>
-  <testcase name="convertAndSendPayloadName()" classname="org.springframework.jms.core.JmsMessagingTemplateTests" time="0.003"/>
-  <testcase name="sendDefaultDestinationName()" classname="org.springframework.jms.core.JmsMessagingTemplateTests" time="0.012"/>
-  <testcase name="sendPropertyInjection()" classname="org.springframework.jms.core.JmsMessagingTemplateTests" time="0.003"/>
-  <testcase name="sendDefaultDestination()" classname="org.springframework.jms.core.JmsMessagingTemplateTests" time="0.009"/>
-  <testcase name="convertSendAndReceiveDefaultDestinationName()" classname="org.springframework.jms.core.JmsMessagingTemplateTests" time="0.003"/>
-  <testcase name="receiveAndConvertNoConverter()" classname="org.springframework.jms.core.JmsMessagingTemplateTests" time="0.002"/>
+  <testcase name="sendAndReceiveNoDefaultSet()" classname="org.springframework.jms.core.JmsMessagingTemplateTests" time="0.596"/>
+  <testcase name="receiveName()" classname="org.springframework.jms.core.JmsMessagingTemplateTests" time="0.005"/>
+  <testcase name="sendNoDefaultSet()" classname="org.springframework.jms.core.JmsMessagingTemplateTests" time="0.003"/>
+  <testcase name="convertMessageConversionExceptionOnReceive()" classname="org.springframework.jms.core.JmsMessagingTemplateTests" time="0.011"/>
+  <testcase name="receiveAndConvertName()" classname="org.springframework.jms.core.JmsMessagingTemplateTests" time="0.002"/>
+  <testcase name="convertMessageFormatException()" classname="org.springframework.jms.core.JmsMessagingTemplateTests" time="0.004"/>
+  <testcase name="convertAndSendPayloadName()" classname="org.springframework.jms.core.JmsMessagingTemplateTests" time="0.002"/>
+  <testcase name="sendDefaultDestinationName()" classname="org.springframework.jms.core.JmsMessagingTemplateTests" time="0.021"/>
+  <testcase name="sendPropertyInjection()" classname="org.springframework.jms.core.JmsMessagingTemplateTests" time="0.001"/>
+  <testcase name="sendDefaultDestination()" classname="org.springframework.jms.core.JmsMessagingTemplateTests" time="0.008"/>
+  <testcase name="convertSendAndReceiveDefaultDestinationName()" classname="org.springframework.jms.core.JmsMessagingTemplateTests" time="0.001"/>
+  <testcase name="receiveAndConvertNoConverter()" classname="org.springframework.jms.core.JmsMessagingTemplateTests" time="0.001"/>
   <testcase name="convertAndSendNoDefaultSet()" classname="org.springframework.jms.core.JmsMessagingTemplateTests" time="0.001"/>
-  <testcase name="receiveAndConvertWithConversion()" classname="org.springframework.jms.core.JmsMessagingTemplateTests" time="0.014"/>
-  <testcase name="convertInvalidDestinationExceptionOnSendAndReceive()" classname="org.springframework.jms.core.JmsMessagingTemplateTests" time="0.004"/>
+  <testcase name="receiveAndConvertWithConversion()" classname="org.springframework.jms.core.JmsMessagingTemplateTests" time="0.002"/>
+  <testcase name="convertInvalidDestinationExceptionOnSendAndReceive()" classname="org.springframework.jms.core.JmsMessagingTemplateTests" time="0.031"/>
   <testcase name="convertSendAndReceiveNoDefaultSet()" classname="org.springframework.jms.core.JmsMessagingTemplateTests" time="0.003"/>
-  <testcase name="receiveAndConvert()" classname="org.springframework.jms.core.JmsMessagingTemplateTests" time="0.003"/>
-  <testcase name="convertDestinationResolutionExceptionOnSend()" classname="org.springframework.jms.core.JmsMessagingTemplateTests" time="0.003"/>
+  <testcase name="receiveAndConvert()" classname="org.springframework.jms.core.JmsMessagingTemplateTests" time="0.002"/>
+  <testcase name="convertDestinationResolutionExceptionOnSend()" classname="org.springframework.jms.core.JmsMessagingTemplateTests" time="0.006"/>
   <testcase name="sendAndReceiveName()" classname="org.springframework.jms.core.JmsMessagingTemplateTests" time="0.002"/>
-  <testcase name="convertAndSendDefaultDestinationName()" classname="org.springframework.jms.core.JmsMessagingTemplateTests" time="0.003"/>
-  <testcase name="convertSendAndReceivePayloadName()" classname="org.springframework.jms.core.JmsMessagingTemplateTests" time="0.013"/>
+  <testcase name="convertAndSendDefaultDestinationName()" classname="org.springframework.jms.core.JmsMessagingTemplateTests" time="0.002"/>
+  <testcase name="convertSendAndReceivePayloadName()" classname="org.springframework.jms.core.JmsMessagingTemplateTests" time="0.002"/>
   <testcase name="receiveNoDefaultSet()" classname="org.springframework.jms.core.JmsMessagingTemplateTests" time="0.001"/>
-  <testcase name="customConverterAlwaysTakesPrecedence()" classname="org.springframework.jms.core.JmsMessagingTemplateTests" time="0.005"/>
-  <testcase name="sendAndReceive()" classname="org.springframework.jms.core.JmsMessagingTemplateTests" time="0.013"/>
+  <testcase name="customConverterAlwaysTakesPrecedence()" classname="org.springframework.jms.core.JmsMessagingTemplateTests" time="0.023"/>
+  <testcase name="sendAndReceive()" classname="org.springframework.jms.core.JmsMessagingTemplateTests" time="0.005"/>
   <testcase name="validateJmsTemplate()" classname="org.springframework.jms.core.JmsMessagingTemplateTests" time="0.001"/>
-  <testcase name="send()" classname="org.springframework.jms.core.JmsMessagingTemplateTests" time="0.008"/>
-  <testcase name="convertMessageConversionExceptionOnSend()" classname="org.springframework.jms.core.JmsMessagingTemplateTests" time="0.003"/>
-  <testcase name="convertSendAndReceiveDefaultDestination()" classname="org.springframework.jms.core.JmsMessagingTemplateTests" time="0.007"/>
-  <testcase name="convertAndSendDefaultDestination()" classname="org.springframework.jms.core.JmsMessagingTemplateTests" time="0.004"/>
-  <testcase name="payloadConverterIsConsistentConstructor()" classname="org.springframework.jms.core.JmsMessagingTemplateTests" time="0.002"/>
-  <testcase name="convertDestinationResolutionExceptionOnReceive()" classname="org.springframework.jms.core.JmsMessagingTemplateTests" time="0.003"/>
-  <testcase name="convertMessageNotWritableException()" classname="org.springframework.jms.core.JmsMessagingTemplateTests" time="0.004"/>
-  <testcase name="payloadConverterIsConsistentSetter()" classname="org.springframework.jms.core.JmsMessagingTemplateTests" time="0.001"/>
-  <testcase name="convertSendAndReceivePayload()" classname="org.springframework.jms.core.JmsMessagingTemplateTests" time="0.003"/>
-  <testcase name="convertMessageNotReadableException()" classname="org.springframework.jms.core.JmsMessagingTemplateTests" time="0.003"/>
-  <testcase name="convertInvalidDestinationExceptionOnSendAndReceiveWithName()" classname="org.springframework.jms.core.JmsMessagingTemplateTests" time="0.003"/>
-  <testcase name="receiveAndConvertNoInput()" classname="org.springframework.jms.core.JmsMessagingTemplateTests" time="0.002"/>
-  <testcase name="sendAndReceiveDefaultDestinationName()" classname="org.springframework.jms.core.JmsMessagingTemplateTests" time="0.003"/>
-  <testcase name="receive()" classname="org.springframework.jms.core.JmsMessagingTemplateTests" time="0.003"/>
-  <testcase name="convertAndSendPayload()" classname="org.springframework.jms.core.JmsMessagingTemplateTests" time="0.004"/>
+  <testcase name="send()" classname="org.springframework.jms.core.JmsMessagingTemplateTests" time="0.002"/>
+  <testcase name="convertMessageConversionExceptionOnSend()" classname="org.springframework.jms.core.JmsMessagingTemplateTests" time="0.002"/>
+  <testcase name="convertSendAndReceiveDefaultDestination()" classname="org.springframework.jms.core.JmsMessagingTemplateTests" time="0.003"/>
+  <testcase name="convertAndSendDefaultDestination()" classname="org.springframework.jms.core.JmsMessagingTemplateTests" time="0.002"/>
+  <testcase name="payloadConverterIsConsistentConstructor()" classname="org.springframework.jms.core.JmsMessagingTemplateTests" time="0.001"/>
+  <testcase name="convertDestinationResolutionExceptionOnReceive()" classname="org.springframework.jms.core.JmsMessagingTemplateTests" time="0.002"/>
+  <testcase name="convertMessageNotWritableException()" classname="org.springframework.jms.core.JmsMessagingTemplateTests" time="0.005"/>
+  <testcase name="payloadConverterIsConsistentSetter()" classname="org.springframework.jms.core.JmsMessagingTemplateTests" time="0.009"/>
+  <testcase name="convertSendAndReceivePayload()" classname="org.springframework.jms.core.JmsMessagingTemplateTests" time="0.011"/>
+  <testcase name="convertMessageNotReadableException()" classname="org.springframework.jms.core.JmsMessagingTemplateTests" time="0.002"/>
+  <testcase name="convertInvalidDestinationExceptionOnSendAndReceiveWithName()" classname="org.springframework.jms.core.JmsMessagingTemplateTests" time="0.002"/>
+  <testcase name="receiveAndConvertNoInput()" classname="org.springframework.jms.core.JmsMessagingTemplateTests" time="0.001"/>
+  <testcase name="sendAndReceiveDefaultDestinationName()" classname="org.springframework.jms.core.JmsMessagingTemplateTests" time="0.001"/>
+  <testcase name="receive()" classname="org.springframework.jms.core.JmsMessagingTemplateTests" time="0.001"/>
+  <testcase name="convertAndSendPayload()" classname="org.springframework.jms.core.JmsMessagingTemplateTests" time="0.003"/>
   <testcase name="receiveAndConvertDefaultDestinationName()" classname="org.springframework.jms.core.JmsMessagingTemplateTests" time="0.002"/>
-  <testcase name="sendName()" classname="org.springframework.jms.core.JmsMessagingTemplateTests" time="0.003"/>
-  <testcase name="receiveDefaultDestinationName()" classname="org.springframework.jms.core.JmsMessagingTemplateTests" time="0.04"/>
-  <testcase name="sendAndReceiveDefaultDestination()" classname="org.springframework.jms.core.JmsMessagingTemplateTests" time="0.011"/>
-  <testcase name="convertAndSendPayloadAndHeaders()" classname="org.springframework.jms.core.JmsMessagingTemplateTests" time="0.004"/>
-  <testcase name="convertAndSendCustomJmsMessageConverter()" classname="org.springframework.jms.core.JmsMessagingTemplateTests" time="0.003"/>
-  <testcase name="receiveAndConvertDefaultDestination()" classname="org.springframework.jms.core.JmsMessagingTemplateTests" time="0.003"/>
+  <testcase name="sendName()" classname="org.springframework.jms.core.JmsMessagingTemplateTests" time="0.002"/>
+  <testcase name="receiveDefaultDestinationName()" classname="org.springframework.jms.core.JmsMessagingTemplateTests" time="0.001"/>
+  <testcase name="sendAndReceiveDefaultDestination()" classname="org.springframework.jms.core.JmsMessagingTemplateTests" time="0.002"/>
+  <testcase name="convertAndSendPayloadAndHeaders()" classname="org.springframework.jms.core.JmsMessagingTemplateTests" time="0.002"/>
+  <testcase name="convertAndSendCustomJmsMessageConverter()" classname="org.springframework.jms.core.JmsMessagingTemplateTests" time="0.002"/>
+  <testcase name="receiveAndConvertDefaultDestination()" classname="org.springframework.jms.core.JmsMessagingTemplateTests" time="0.002"/>
   <testcase name="receiveDefaultDestination()" classname="org.springframework.jms.core.JmsMessagingTemplateTests" time="0.002"/>
-  <testcase name="convertAndSendPayloadAndHeadersName()" classname="org.springframework.jms.core.JmsMessagingTemplateTests" time="0.003"/>
+  <testcase name="convertAndSendPayloadAndHeadersName()" classname="org.springframework.jms.core.JmsMessagingTemplateTests" time="0.002"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

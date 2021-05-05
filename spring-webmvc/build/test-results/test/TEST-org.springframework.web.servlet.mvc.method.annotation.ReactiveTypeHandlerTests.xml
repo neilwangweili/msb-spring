@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.web.servlet.mvc.method.annotation.ReactiveTypeHandlerTests" tests="12" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:41:13" hostname="wangweilideMacBook-Pro.local" time="0.042">
+<testsuite name="org.springframework.web.servlet.mvc.method.annotation.ReactiveTypeHandlerTests" tests="12" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:33:24" hostname="wangweilideMBP.lan" time="0.044">
   <properties/>
   <testcase name="writeStreamJson()" classname="org.springframework.web.servlet.mvc.method.annotation.ReactiveTypeHandlerTests" time="0.002"/>
   <testcase name="supportsType()" classname="org.springframework.web.servlet.mvc.method.annotation.ReactiveTypeHandlerTests" time="0.0"/>
   <testcase name="writeText()" classname="org.springframework.web.servlet.mvc.method.annotation.ReactiveTypeHandlerTests" time="0.002"/>
-  <testcase name="deferredResultSubscriberWithNoValues()" classname="org.springframework.web.servlet.mvc.method.annotation.ReactiveTypeHandlerTests" time="0.005"/>
-  <testcase name="doesNotSupportType()" classname="org.springframework.web.servlet.mvc.method.annotation.ReactiveTypeHandlerTests" time="0.001"/>
-  <testcase name="deferredResultSubscriberWithMultipleValues()" classname="org.springframework.web.servlet.mvc.method.annotation.ReactiveTypeHandlerTests" time="0.0"/>
-  <testcase name="deferredResultSubscriberWithOneValue()" classname="org.springframework.web.servlet.mvc.method.annotation.ReactiveTypeHandlerTests" time="0.017"/>
-  <testcase name="writeFluxOfString()" classname="org.springframework.web.servlet.mvc.method.annotation.ReactiveTypeHandlerTests" time="0.002"/>
+  <testcase name="deferredResultSubscriberWithNoValues()" classname="org.springframework.web.servlet.mvc.method.annotation.ReactiveTypeHandlerTests" time="0.007"/>
+  <testcase name="doesNotSupportType()" classname="org.springframework.web.servlet.mvc.method.annotation.ReactiveTypeHandlerTests" time="0.0"/>
+  <testcase name="deferredResultSubscriberWithMultipleValues()" classname="org.springframework.web.servlet.mvc.method.annotation.ReactiveTypeHandlerTests" time="0.001"/>
+  <testcase name="deferredResultSubscriberWithOneValue()" classname="org.springframework.web.servlet.mvc.method.annotation.ReactiveTypeHandlerTests" time="0.018"/>
+  <testcase name="writeFluxOfString()" classname="org.springframework.web.servlet.mvc.method.annotation.ReactiveTypeHandlerTests" time="0.004"/>
   <testcase name="deferredResultSubscriberWithError()" classname="org.springframework.web.servlet.mvc.method.annotation.ReactiveTypeHandlerTests" time="0.004"/>
   <testcase name="writeServerSentEventsWithBuilder()" classname="org.springframework.web.servlet.mvc.method.annotation.ReactiveTypeHandlerTests" time="0.002"/>
-  <testcase name="mediaTypes()" classname="org.springframework.web.servlet.mvc.method.annotation.ReactiveTypeHandlerTests" time="0.002"/>
+  <testcase name="mediaTypes()" classname="org.springframework.web.servlet.mvc.method.annotation.ReactiveTypeHandlerTests" time="0.001"/>
   <testcase name="writeServerSentEvents()" classname="org.springframework.web.servlet.mvc.method.annotation.ReactiveTypeHandlerTests" time="0.001"/>
-  <system-out><![CDATA[15:41:13.825 [Test worker] WARN  o.s.w.s.m.m.a.ReactiveTypeHandler - 
+  <system-out><![CDATA[17:33:24.174 [Test worker] WARN  o.s.w.s.m.m.a.ReactiveTypeHandler - 
 !!!
 Streaming through a reactive type requires an Executor to write to the response.
 Please, configure a TaskExecutor in the MVC config under "async support".
@@ -23,7 +23,7 @@ Controller:	org.springframework.web.servlet.mvc.method.annotation.ReactiveTypeHa
 Method:		handleFlux
 Returning:	reactor.core.publisher.Flux<org.springframework.web.servlet.mvc.method.annotation.ReactiveTypeHandlerTests$Bar>
 !!!
-15:41:13.828 [Test worker] WARN  o.s.w.s.m.m.a.ReactiveTypeHandler - 
+17:33:24.177 [Test worker] WARN  o.s.w.s.m.m.a.ReactiveTypeHandler - 
 !!!
 Streaming through a reactive type requires an Executor to write to the response.
 Please, configure a TaskExecutor in the MVC config under "async support".
@@ -33,7 +33,7 @@ Controller:	org.springframework.web.servlet.mvc.method.annotation.ReactiveTypeHa
 Method:		handleFluxString
 Returning:	reactor.core.publisher.Flux<java.lang.String>
 !!!
-15:41:13.855 [Test worker] WARN  o.s.w.s.m.m.a.ReactiveTypeHandler - 
+17:33:24.207 [Test worker] WARN  o.s.w.s.m.m.a.ReactiveTypeHandler - 
 !!!
 Streaming through a reactive type requires an Executor to write to the response.
 Please, configure a TaskExecutor in the MVC config under "async support".
@@ -43,7 +43,7 @@ Controller:	org.springframework.web.servlet.mvc.method.annotation.ReactiveTypeHa
 Method:		handleFluxString
 Returning:	reactor.core.publisher.Flux<java.lang.String>
 !!!
-15:41:13.862 [Test worker] WARN  o.s.w.s.m.m.a.ReactiveTypeHandler - 
+17:33:24.213 [Test worker] WARN  o.s.w.s.m.m.a.ReactiveTypeHandler - 
 !!!
 Streaming through a reactive type requires an Executor to write to the response.
 Please, configure a TaskExecutor in the MVC config under "async support".
@@ -53,7 +53,7 @@ Controller:	org.springframework.web.servlet.mvc.method.annotation.ReactiveTypeHa
 Method:		handleFluxSseEventBuilder
 Returning:	reactor.core.publisher.Flux<org.springframework.http.codec.ServerSentEvent<java.lang.String>>
 !!!
-15:41:13.865 [Test worker] WARN  o.s.w.s.m.m.a.ReactiveTypeHandler - 
+17:33:24.216 [Test worker] WARN  o.s.w.s.m.m.a.ReactiveTypeHandler - 
 !!!
 Streaming through a reactive type requires an Executor to write to the response.
 Please, configure a TaskExecutor in the MVC config under "async support".
@@ -63,7 +63,7 @@ Controller:	org.springframework.web.servlet.mvc.method.annotation.ReactiveTypeHa
 Method:		handleFluxString
 Returning:	reactor.core.publisher.Flux<java.lang.String>
 !!!
-15:41:13.866 [Test worker] WARN  o.s.w.s.m.m.a.ReactiveTypeHandler - 
+17:33:24.217 [Test worker] WARN  o.s.w.s.m.m.a.ReactiveTypeHandler - 
 !!!
 Streaming through a reactive type requires an Executor to write to the response.
 Please, configure a TaskExecutor in the MVC config under "async support".

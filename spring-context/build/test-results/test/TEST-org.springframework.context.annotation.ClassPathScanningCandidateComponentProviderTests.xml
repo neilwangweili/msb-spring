@@ -1,41 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.context.annotation.ClassPathScanningCandidateComponentProviderTests" tests="36" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:40:44" hostname="wangweilideMacBook-Pro.local" time="0.318">
+<testsuite name="org.springframework.context.annotation.ClassPathScanningCandidateComponentProviderTests" tests="36" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:31:40" hostname="wangweilideMBP.lan" time="0.545">
   <properties/>
-  <testcase name="customSupportedIncludeAndExcludeFilterWithIndex()" classname="org.springframework.context.annotation.ClassPathScanningCandidateComponentProviderTests" time="0.034"/>
-  <testcase name="customAnnotationTypeIncludeFilterWithScan()" classname="org.springframework.context.annotation.ClassPathScanningCandidateComponentProviderTests" time="0.014"/>
-  <testcase name="bogusPackageWithIndex()" classname="org.springframework.context.annotation.ClassPathScanningCandidateComponentProviderTests" time="0.001"/>
-  <testcase name="customAssignableTypeIncludeFilterWithScan()" classname="org.springframework.context.annotation.ClassPathScanningCandidateComponentProviderTests" time="0.016"/>
-  <testcase name="testWithNoFilters()" classname="org.springframework.context.annotation.ClassPathScanningCandidateComponentProviderTests" time="0.026"/>
-  <testcase name="testWithComponentAnnotationOnly()" classname="org.springframework.context.annotation.ClassPathScanningCandidateComponentProviderTests" time="0.013"/>
-  <testcase name="customSupportedIncludeAndExcludedFilterWithScan()" classname="org.springframework.context.annotation.ClassPathScanningCandidateComponentProviderTests" time="0.011"/>
+  <testcase name="customSupportedIncludeAndExcludeFilterWithIndex()" classname="org.springframework.context.annotation.ClassPathScanningCandidateComponentProviderTests" time="0.02"/>
+  <testcase name="customAnnotationTypeIncludeFilterWithScan()" classname="org.springframework.context.annotation.ClassPathScanningCandidateComponentProviderTests" time="0.028"/>
+  <testcase name="bogusPackageWithIndex()" classname="org.springframework.context.annotation.ClassPathScanningCandidateComponentProviderTests" time="0.002"/>
+  <testcase name="customAssignableTypeIncludeFilterWithScan()" classname="org.springframework.context.annotation.ClassPathScanningCandidateComponentProviderTests" time="0.011"/>
+  <testcase name="testWithNoFilters()" classname="org.springframework.context.annotation.ClassPathScanningCandidateComponentProviderTests" time="0.038"/>
+  <testcase name="testWithComponentAnnotationOnly()" classname="org.springframework.context.annotation.ClassPathScanningCandidateComponentProviderTests" time="0.028"/>
+  <testcase name="customSupportedIncludeAndExcludedFilterWithScan()" classname="org.springframework.context.annotation.ClassPathScanningCandidateComponentProviderTests" time="0.052"/>
   <testcase name="componentScanningFindsComponentsAnnotatedWithAnnotationsContainingNestedAnnotations()" classname="org.springframework.context.annotation.ClassPathScanningCandidateComponentProviderTests" time="0.01"/>
-  <testcase name="testWithClassType()" classname="org.springframework.context.annotation.ClassPathScanningCandidateComponentProviderTests" time="0.008"/>
-  <testcase name="customNotSupportedIncludeFilterUseScan()" classname="org.springframework.context.annotation.ClassPathScanningCandidateComponentProviderTests" time="0.008"/>
-  <testcase name="testWithAspectAnnotationOnly()" classname="org.springframework.context.annotation.ClassPathScanningCandidateComponentProviderTests" time="0.008"/>
-  <testcase name="testIntegrationWithAnnotationConfigApplicationContext_validMetaAnnotatedProfile()" classname="org.springframework.context.annotation.ClassPathScanningCandidateComponentProviderTests" time="0.012"/>
-  <testcase name="testIntegrationWithAnnotationConfigApplicationContext_metaProfile()" classname="org.springframework.context.annotation.ClassPathScanningCandidateComponentProviderTests" time="0.016"/>
-  <testcase name="testIntegrationWithAnnotationConfigApplicationContext_invalidProfile()" classname="org.springframework.context.annotation.ClassPathScanningCandidateComponentProviderTests" time="0.004"/>
+  <testcase name="testWithClassType()" classname="org.springframework.context.annotation.ClassPathScanningCandidateComponentProviderTests" time="0.009"/>
+  <testcase name="customNotSupportedIncludeFilterUseScan()" classname="org.springframework.context.annotation.ClassPathScanningCandidateComponentProviderTests" time="0.007"/>
+  <testcase name="testWithAspectAnnotationOnly()" classname="org.springframework.context.annotation.ClassPathScanningCandidateComponentProviderTests" time="0.007"/>
+  <testcase name="testIntegrationWithAnnotationConfigApplicationContext_validMetaAnnotatedProfile()" classname="org.springframework.context.annotation.ClassPathScanningCandidateComponentProviderTests" time="0.015"/>
+  <testcase name="testIntegrationWithAnnotationConfigApplicationContext_metaProfile()" classname="org.springframework.context.annotation.ClassPathScanningCandidateComponentProviderTests" time="0.069"/>
+  <testcase name="testIntegrationWithAnnotationConfigApplicationContext_invalidProfile()" classname="org.springframework.context.annotation.ClassPathScanningCandidateComponentProviderTests" time="0.003"/>
   <testcase name="customFiltersFollowedByResetUseIndex()" classname="org.springframework.context.annotation.ClassPathScanningCandidateComponentProviderTests" time="0.004"/>
   <testcase name="antStylePackageWithIndex()" classname="org.springframework.context.annotation.ClassPathScanningCandidateComponentProviderTests" time="0.002"/>
-  <testcase name="testIntegrationWithAnnotationConfigApplicationContext_validProfile()" classname="org.springframework.context.annotation.ClassPathScanningCandidateComponentProviderTests" time="0.004"/>
-  <testcase name="testWithActiveProfile()" classname="org.springframework.context.annotation.ClassPathScanningCandidateComponentProviderTests" time="0.004"/>
-  <testcase name="testExcludeTakesPrecedence()" classname="org.springframework.context.annotation.ClassPathScanningCandidateComponentProviderTests" time="0.009"/>
-  <testcase name="testWithNullEnvironment()" classname="org.springframework.context.annotation.ClassPathScanningCandidateComponentProviderTests" time="0.006"/>
-  <testcase name="excludeFilterWithScan()" classname="org.springframework.context.annotation.ClassPathScanningCandidateComponentProviderTests" time="0.01"/>
-  <testcase name="antStylePackageWithScan()" classname="org.springframework.context.annotation.ClassPathScanningCandidateComponentProviderTests" time="0.003"/>
-  <testcase name="customAnnotationTypeIncludeFilterWithIndex()" classname="org.springframework.context.annotation.ClassPathScanningCandidateComponentProviderTests" time="0.002"/>
-  <testcase name="testIntegrationWithAnnotationConfigApplicationContext_defaultAndDevProfile()" classname="org.springframework.context.annotation.ClassPathScanningCandidateComponentProviderTests" time="0.008"/>
+  <testcase name="testIntegrationWithAnnotationConfigApplicationContext_validProfile()" classname="org.springframework.context.annotation.ClassPathScanningCandidateComponentProviderTests" time="0.003"/>
+  <testcase name="testWithActiveProfile()" classname="org.springframework.context.annotation.ClassPathScanningCandidateComponentProviderTests" time="0.02"/>
+  <testcase name="testExcludeTakesPrecedence()" classname="org.springframework.context.annotation.ClassPathScanningCandidateComponentProviderTests" time="0.007"/>
+  <testcase name="testWithNullEnvironment()" classname="org.springframework.context.annotation.ClassPathScanningCandidateComponentProviderTests" time="0.003"/>
+  <testcase name="excludeFilterWithScan()" classname="org.springframework.context.annotation.ClassPathScanningCandidateComponentProviderTests" time="0.017"/>
+  <testcase name="antStylePackageWithScan()" classname="org.springframework.context.annotation.ClassPathScanningCandidateComponentProviderTests" time="0.005"/>
+  <testcase name="customAnnotationTypeIncludeFilterWithIndex()" classname="org.springframework.context.annotation.ClassPathScanningCandidateComponentProviderTests" time="0.012"/>
+  <testcase name="testIntegrationWithAnnotationConfigApplicationContext_defaultAndDevProfile()" classname="org.springframework.context.annotation.ClassPathScanningCandidateComponentProviderTests" time="0.011"/>
   <testcase name="defaultsWithIndex()" classname="org.springframework.context.annotation.ClassPathScanningCandidateComponentProviderTests" time="0.004"/>
-  <testcase name="testIntegrationWithAnnotationConfigApplicationContext_invalidMetaAnnotatedProfile()" classname="org.springframework.context.annotation.ClassPathScanningCandidateComponentProviderTests" time="0.003"/>
-  <testcase name="excludeFilterWithIndex()" classname="org.springframework.context.annotation.ClassPathScanningCandidateComponentProviderTests" time="0.006"/>
-  <testcase name="bogusPackageWithScan()" classname="org.springframework.context.annotation.ClassPathScanningCandidateComponentProviderTests" time="0.002"/>
-  <testcase name="testWithInterfaceType()" classname="org.springframework.context.annotation.ClassPathScanningCandidateComponentProviderTests" time="0.007"/>
-  <testcase name="testIntegrationWithAnnotationConfigApplicationContext_defaultProfile()" classname="org.springframework.context.annotation.ClassPathScanningCandidateComponentProviderTests" time="0.01"/>
-  <testcase name="testWithInactiveProfile()" classname="org.springframework.context.annotation.ClassPathScanningCandidateComponentProviderTests" time="0.004"/>
-  <testcase name="customAssignableTypeIncludeFilterWithIndex()" classname="org.springframework.context.annotation.ClassPathScanningCandidateComponentProviderTests" time="0.003"/>
-  <testcase name="defaultsWithScan()" classname="org.springframework.context.annotation.ClassPathScanningCandidateComponentProviderTests" time="0.008"/>
-  <testcase name="customSupportIncludeFilterWithNonIndexedTypeUseScan()" classname="org.springframework.context.annotation.ClassPathScanningCandidateComponentProviderTests" time="0.007"/>
-  <testcase name="testWithMultipleMatchingFilters()" classname="org.springframework.context.annotation.ClassPathScanningCandidateComponentProviderTests" time="0.018"/>
+  <testcase name="testIntegrationWithAnnotationConfigApplicationContext_invalidMetaAnnotatedProfile()" classname="org.springframework.context.annotation.ClassPathScanningCandidateComponentProviderTests" time="0.002"/>
+  <testcase name="excludeFilterWithIndex()" classname="org.springframework.context.annotation.ClassPathScanningCandidateComponentProviderTests" time="0.019"/>
+  <testcase name="bogusPackageWithScan()" classname="org.springframework.context.annotation.ClassPathScanningCandidateComponentProviderTests" time="0.001"/>
+  <testcase name="testWithInterfaceType()" classname="org.springframework.context.annotation.ClassPathScanningCandidateComponentProviderTests" time="0.008"/>
+  <testcase name="testIntegrationWithAnnotationConfigApplicationContext_defaultProfile()" classname="org.springframework.context.annotation.ClassPathScanningCandidateComponentProviderTests" time="0.003"/>
+  <testcase name="testWithInactiveProfile()" classname="org.springframework.context.annotation.ClassPathScanningCandidateComponentProviderTests" time="0.003"/>
+  <testcase name="customAssignableTypeIncludeFilterWithIndex()" classname="org.springframework.context.annotation.ClassPathScanningCandidateComponentProviderTests" time="0.018"/>
+  <testcase name="defaultsWithScan()" classname="org.springframework.context.annotation.ClassPathScanningCandidateComponentProviderTests" time="0.007"/>
+  <testcase name="customSupportIncludeFilterWithNonIndexedTypeUseScan()" classname="org.springframework.context.annotation.ClassPathScanningCandidateComponentProviderTests" time="0.034"/>
+  <testcase name="testWithMultipleMatchingFilters()" classname="org.springframework.context.annotation.ClassPathScanningCandidateComponentProviderTests" time="0.014"/>
   <testcase name="testIntegrationWithAnnotationConfigApplicationContext_noProfile()" classname="org.springframework.context.annotation.ClassPathScanningCandidateComponentProviderTests" time="0.002"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

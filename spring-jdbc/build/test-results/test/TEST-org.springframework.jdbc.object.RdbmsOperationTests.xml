@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.jdbc.object.RdbmsOperationTests" tests="13" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:39:58" hostname="wangweilideMacBook-Pro.local" time="0.02">
+<testsuite name="org.springframework.jdbc.object.RdbmsOperationTests" tests="13" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:25:29" hostname="wangweilideMBP.lan" time="0.008">
   <properties/>
   <testcase name="parameterPropagation()" classname="org.springframework.jdbc.object.RdbmsOperationTests" time="0.0"/>
-  <testcase name="emptyDataSource()" classname="org.springframework.jdbc.object.RdbmsOperationTests" time="0.001"/>
+  <testcase name="emptyDataSource()" classname="org.springframework.jdbc.object.RdbmsOperationTests" time="0.0"/>
   <testcase name="validateInOutParameter()" classname="org.springframework.jdbc.object.RdbmsOperationTests" time="0.0"/>
   <testcase name="parametersSetWithList()" classname="org.springframework.jdbc.object.RdbmsOperationTests" time="0.0"/>
   <testcase name="operationConfiguredViaJdbcTemplateMustGetDataSource()" classname="org.springframework.jdbc.object.RdbmsOperationTests" time="0.0"/>
-  <testcase name="tooManyParameters()" classname="org.springframework.jdbc.object.RdbmsOperationTests" time="0.0"/>
+  <testcase name="tooManyParameters()" classname="org.springframework.jdbc.object.RdbmsOperationTests" time="0.001"/>
   <testcase name="tooFewMapParameters()" classname="org.springframework.jdbc.object.RdbmsOperationTests" time="0.001"/>
   <testcase name="compileTwice()" classname="org.springframework.jdbc.object.RdbmsOperationTests" time="0.0"/>
-  <testcase name="tooFewParameters()" classname="org.springframework.jdbc.object.RdbmsOperationTests" time="0.001"/>
-  <testcase name="setTypeAfterCompile()" classname="org.springframework.jdbc.object.RdbmsOperationTests" time="0.007"/>
-  <testcase name="unspecifiedMapParameters()" classname="org.springframework.jdbc.object.RdbmsOperationTests" time="0.004"/>
-  <testcase name="declareParameterAfterCompile()" classname="org.springframework.jdbc.object.RdbmsOperationTests" time="0.002"/>
-  <testcase name="emptySql()" classname="org.springframework.jdbc.object.RdbmsOperationTests" time="0.001"/>
+  <testcase name="tooFewParameters()" classname="org.springframework.jdbc.object.RdbmsOperationTests" time="0.0"/>
+  <testcase name="setTypeAfterCompile()" classname="org.springframework.jdbc.object.RdbmsOperationTests" time="0.0"/>
+  <testcase name="unspecifiedMapParameters()" classname="org.springframework.jdbc.object.RdbmsOperationTests" time="0.001"/>
+  <testcase name="declareParameterAfterCompile()" classname="org.springframework.jdbc.object.RdbmsOperationTests" time="0.0"/>
+  <testcase name="emptySql()" classname="org.springframework.jdbc.object.RdbmsOperationTests" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

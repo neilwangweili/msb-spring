@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.test.context.transaction.TransactionalTestExecutionListenerTests" tests="22" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:40:28" hostname="wangweilideMacBook-Pro.local" time="0.223">
+<testsuite name="org.springframework.test.context.transaction.TransactionalTestExecutionListenerTests" tests="22" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:42:31" hostname="wangweilideMBP.lan" time="0.195">
   <properties/>
-  <testcase name="beforeTestMethodWithTransactionalDeclaredOnClassViaMetaAnnotationWithOverride()" classname="org.springframework.test.context.transaction.TransactionalTestExecutionListenerTests" time="0.046"/>
-  <testcase name="isRollbackWithClassLevelRollbackViaMetaAnnotation()" classname="org.springframework.test.context.transaction.TransactionalTestExecutionListenerTests" time="0.003"/>
-  <testcase name="isRollbackWithEmptyMethodLevelRollback()" classname="org.springframework.test.context.transaction.TransactionalTestExecutionListenerTests" time="0.002"/>
-  <testcase name="beforeTestMethodWithTransactionalDeclaredOnMethodViaMetaAnnotationWithOverride()" classname="org.springframework.test.context.transaction.TransactionalTestExecutionListenerTests" time="0.008"/>
-  <testcase name="beforeTestMethodWithTransactionalDeclaredOnMethodLocally()" classname="org.springframework.test.context.transaction.TransactionalTestExecutionListenerTests" time="0.011"/>
-  <testcase name="isRollbackWithEmptyClassLevelRollback()" classname="org.springframework.test.context.transaction.TransactionalTestExecutionListenerTests" time="0.003"/>
-  <testcase name="isRollbackWithClassLevelRollbackWithExplicitValue()" classname="org.springframework.test.context.transaction.TransactionalTestExecutionListenerTests" time="0.002"/>
-  <testcase name="afterTestMethodWithAfterTransactionDeclaredViaMetaAnnotation()" classname="org.springframework.test.context.transaction.TransactionalTestExecutionListenerTests" time="0.019"/>
-  <testcase name="afterTestMethodWithAfterTransactionDeclaredAsInterfaceDefaultMethod()" classname="org.springframework.test.context.transaction.TransactionalTestExecutionListenerTests" time="0.008"/>
-  <testcase name="beforeTestMethodWithBeforeTransactionDeclaredLocally()" classname="org.springframework.test.context.transaction.TransactionalTestExecutionListenerTests" time="0.007"/>
-  <testcase name="beforeTestMethodWithBeforeTransactionDeclaredAsInterfaceDefaultMethod()" classname="org.springframework.test.context.transaction.TransactionalTestExecutionListenerTests" time="0.016"/>
-  <testcase name="isRollbackWithClassLevelRollbackWithExplicitValueOnTestInterface()" classname="org.springframework.test.context.transaction.TransactionalTestExecutionListenerTests" time="0.003"/>
-  <testcase name="isRollbackWithMissingRollback()" classname="org.springframework.test.context.transaction.TransactionalTestExecutionListenerTests" time="0.003"/>
-  <testcase name="beforeTestMethodWithTransactionalDeclaredOnMethodViaMetaAnnotation()" classname="org.springframework.test.context.transaction.TransactionalTestExecutionListenerTests" time="0.008"/>
-  <testcase name="beforeTestMethodWithTransactionalDeclaredOnClassViaMetaAnnotation()" classname="org.springframework.test.context.transaction.TransactionalTestExecutionListenerTests" time="0.007"/>
-  <testcase name="beforeTestMethodWithBeforeTransactionDeclaredViaMetaAnnotation()" classname="org.springframework.test.context.transaction.TransactionalTestExecutionListenerTests" time="0.008"/>
-  <testcase name="transactionalTestWithoutTransactionManager()" classname="org.springframework.test.context.transaction.TransactionalTestExecutionListenerTests" time="0.011"/>
-  <testcase name="isRollbackWithClassLevelRollbackViaMetaAnnotationOnTestInterface()" classname="org.springframework.test.context.transaction.TransactionalTestExecutionListenerTests" time="0.004"/>
-  <testcase name="isRollbackWithMethodLevelRollbackViaMetaAnnotation()" classname="org.springframework.test.context.transaction.TransactionalTestExecutionListenerTests" time="0.002"/>
-  <testcase name="afterTestMethodWithAfterTransactionDeclaredLocally()" classname="org.springframework.test.context.transaction.TransactionalTestExecutionListenerTests" time="0.011"/>
-  <testcase name="beforeTestMethodWithTransactionalDeclaredOnClassLocally()" classname="org.springframework.test.context.transaction.TransactionalTestExecutionListenerTests" time="0.004"/>
+  <testcase name="beforeTestMethodWithTransactionalDeclaredOnClassViaMetaAnnotationWithOverride()" classname="org.springframework.test.context.transaction.TransactionalTestExecutionListenerTests" time="0.042"/>
+  <testcase name="isRollbackWithClassLevelRollbackViaMetaAnnotation()" classname="org.springframework.test.context.transaction.TransactionalTestExecutionListenerTests" time="0.008"/>
+  <testcase name="isRollbackWithEmptyMethodLevelRollback()" classname="org.springframework.test.context.transaction.TransactionalTestExecutionListenerTests" time="0.001"/>
+  <testcase name="beforeTestMethodWithTransactionalDeclaredOnMethodViaMetaAnnotationWithOverride()" classname="org.springframework.test.context.transaction.TransactionalTestExecutionListenerTests" time="0.003"/>
+  <testcase name="beforeTestMethodWithTransactionalDeclaredOnMethodLocally()" classname="org.springframework.test.context.transaction.TransactionalTestExecutionListenerTests" time="0.022"/>
+  <testcase name="isRollbackWithEmptyClassLevelRollback()" classname="org.springframework.test.context.transaction.TransactionalTestExecutionListenerTests" time="0.002"/>
+  <testcase name="isRollbackWithClassLevelRollbackWithExplicitValue()" classname="org.springframework.test.context.transaction.TransactionalTestExecutionListenerTests" time="0.001"/>
+  <testcase name="afterTestMethodWithAfterTransactionDeclaredViaMetaAnnotation()" classname="org.springframework.test.context.transaction.TransactionalTestExecutionListenerTests" time="0.012"/>
+  <testcase name="afterTestMethodWithAfterTransactionDeclaredAsInterfaceDefaultMethod()" classname="org.springframework.test.context.transaction.TransactionalTestExecutionListenerTests" time="0.004"/>
+  <testcase name="beforeTestMethodWithBeforeTransactionDeclaredLocally()" classname="org.springframework.test.context.transaction.TransactionalTestExecutionListenerTests" time="0.003"/>
+  <testcase name="beforeTestMethodWithBeforeTransactionDeclaredAsInterfaceDefaultMethod()" classname="org.springframework.test.context.transaction.TransactionalTestExecutionListenerTests" time="0.003"/>
+  <testcase name="isRollbackWithClassLevelRollbackWithExplicitValueOnTestInterface()" classname="org.springframework.test.context.transaction.TransactionalTestExecutionListenerTests" time="0.002"/>
+  <testcase name="isRollbackWithMissingRollback()" classname="org.springframework.test.context.transaction.TransactionalTestExecutionListenerTests" time="0.002"/>
+  <testcase name="beforeTestMethodWithTransactionalDeclaredOnMethodViaMetaAnnotation()" classname="org.springframework.test.context.transaction.TransactionalTestExecutionListenerTests" time="0.005"/>
+  <testcase name="beforeTestMethodWithTransactionalDeclaredOnClassViaMetaAnnotation()" classname="org.springframework.test.context.transaction.TransactionalTestExecutionListenerTests" time="0.019"/>
+  <testcase name="beforeTestMethodWithBeforeTransactionDeclaredViaMetaAnnotation()" classname="org.springframework.test.context.transaction.TransactionalTestExecutionListenerTests" time="0.01"/>
+  <testcase name="transactionalTestWithoutTransactionManager()" classname="org.springframework.test.context.transaction.TransactionalTestExecutionListenerTests" time="0.004"/>
+  <testcase name="isRollbackWithClassLevelRollbackViaMetaAnnotationOnTestInterface()" classname="org.springframework.test.context.transaction.TransactionalTestExecutionListenerTests" time="0.001"/>
+  <testcase name="isRollbackWithMethodLevelRollbackViaMetaAnnotation()" classname="org.springframework.test.context.transaction.TransactionalTestExecutionListenerTests" time="0.001"/>
+  <testcase name="afterTestMethodWithAfterTransactionDeclaredLocally()" classname="org.springframework.test.context.transaction.TransactionalTestExecutionListenerTests" time="0.003"/>
+  <testcase name="beforeTestMethodWithTransactionalDeclaredOnClassLocally()" classname="org.springframework.test.context.transaction.TransactionalTestExecutionListenerTests" time="0.009"/>
   <testcase name="isRollbackWithMethodLevelRollbackWithExplicitValue()" classname="org.springframework.test.context.transaction.TransactionalTestExecutionListenerTests" time="0.002"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

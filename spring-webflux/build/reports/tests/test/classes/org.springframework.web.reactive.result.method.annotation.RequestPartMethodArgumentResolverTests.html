@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.402s</div>
+<div class="counter">0.413s</div>
 <p>duration</p>
 </div>
 </td>
@@ -79,42 +79,42 @@
 </thead>
 <tr>
 <td class="success">fluxPart()</td>
-<td class="success">0.057s</td>
+<td class="success">0.046s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">fluxPartNotRequired()</td>
-<td class="success">0.016s</td>
+<td class="success">0.020s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">fluxPerson()</td>
-<td class="success">0.032s</td>
+<td class="success">0.044s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">fluxPersonNotRequired()</td>
-<td class="success">0.023s</td>
+<td class="success">0.019s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">listPart()</td>
-<td class="success">0.016s</td>
+<td class="success">0.018s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">listPartNotRequired()</td>
-<td class="success">0.015s</td>
+<td class="success">0.016s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">listPerson()</td>
-<td class="success">0.029s</td>
+<td class="success">0.022s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">listPersonNotRequired()</td>
-<td class="success">0.018s</td>
+<td class="success">0.024s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -124,7 +124,7 @@
 </tr>
 <tr>
 <td class="success">monoPartNotRequired()</td>
-<td class="success">0.015s</td>
+<td class="success">0.016s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -134,32 +134,32 @@
 </tr>
 <tr>
 <td class="success">monoPersonNotRequired()</td>
-<td class="success">0.015s</td>
+<td class="success">0.022s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">part()</td>
-<td class="success">0.017s</td>
+<td class="success">0.018s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">partNotRequired()</td>
-<td class="success">0.023s</td>
+<td class="success">0.017s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">partRequired()</td>
-<td class="success">0.015s</td>
+<td class="success">0.016s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">person()</td>
-<td class="success">0.020s</td>
+<td class="success">0.026s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">personNotRequired()</td>
-<td class="success">0.018s</td>
+<td class="success">0.016s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -177,62 +177,62 @@
 <div id="tab1" class="tab">
 <h2>Standard output</h2>
 <span class="code">
-<pre>16:35:09.319 [Test worker] DEBUG o.s.h.c.m.MultipartHttpMessageWriter - Encoding parts [name] (content masked)
-16:35:09.357 [Test worker] DEBUG o.s.h.c.m.MultipartHttpMessageReader - [255e12ac] Parsed parts [name] (content masked)
-16:35:09.369 [Test worker] DEBUG o.s.h.c.m.MultipartHttpMessageWriter - Encoding parts [] (content masked)
-16:35:09.374 [Test worker] DEBUG o.s.h.c.m.MultipartHttpMessageReader - [7216aacd] Parsed parts [] (content masked)
-16:35:09.387 [Test worker] DEBUG o.s.h.c.m.MultipartHttpMessageWriter - Encoding parts [] (content masked)
-16:35:09.392 [Test worker] DEBUG o.s.h.c.m.MultipartHttpMessageReader - [6f08dd74] Parsed parts [] (content masked)
-16:35:09.403 [Test worker] DEBUG o.s.h.c.m.MultipartHttpMessageWriter - Encoding parts [] (content masked)
-16:35:09.407 [Test worker] DEBUG o.s.h.c.m.MultipartHttpMessageReader - [6853fff5] Parsed parts [] (content masked)
-16:35:09.417 [Test worker] DEBUG o.s.h.c.m.MultipartHttpMessageWriter - Encoding parts [] (content masked)
-16:35:09.430 [Test worker] DEBUG o.s.h.c.m.MultipartHttpMessageReader - [1829f912] Parsed parts [] (content masked)
-16:35:09.441 [Test worker] DEBUG o.s.h.c.m.MultipartHttpMessageWriter - Encoding parts [name] (content masked)
-16:35:09.448 [Test worker] DEBUG o.s.h.c.m.MultipartHttpMessageReader - [25cb5f46] Parsed parts [name] (content masked)
-16:35:09.450 [Test worker] DEBUG o.s.w.r.r.m.a.RequestPartMethodArgumentResolver - [25cb5f46] Decoding part 'name'
-16:35:09.452 [Test worker] DEBUG o.s.w.r.r.m.a.RequestPartMethodArgumentResolver - [25cb5f46] Content-Type:application/json
-16:35:09.458 [Test worker] DEBUG o.s.w.r.r.m.a.RequestPartMethodArgumentResolver - [25cb5f46] 0..1 [org.springframework.web.reactive.result.method.annotation.RequestPartMethodArgumentResolverTests$Person]
-16:35:09.462 [Test worker] DEBUG o.s.h.c.j.Jackson2JsonDecoder - [25cb5f46] Decoded [org.springframework.web.reactive.result.method.annotation.RequestPartMethodArgumentResolverTests$Per (truncated)...]
-16:35:09.462 [Test worker] DEBUG o.s.w.r.r.m.a.RequestPartMethodArgumentResolver - [25cb5f46] Decoding part 'name'
-16:35:09.462 [Test worker] DEBUG o.s.w.r.r.m.a.RequestPartMethodArgumentResolver - [25cb5f46] Content-Type:application/json
-16:35:09.462 [Test worker] DEBUG o.s.w.r.r.m.a.RequestPartMethodArgumentResolver - [25cb5f46] 0..1 [org.springframework.web.reactive.result.method.annotation.RequestPartMethodArgumentResolverTests$Person]
-16:35:09.462 [Test worker] DEBUG o.s.h.c.j.Jackson2JsonDecoder - [25cb5f46] Decoded [org.springframework.web.reactive.result.method.annotation.RequestPartMethodArgumentResolverTests$Per (truncated)...]
-16:35:09.475 [Test worker] DEBUG o.s.h.c.m.MultipartHttpMessageWriter - Encoding parts [name] (content masked)
-16:35:09.482 [Test worker] DEBUG o.s.h.c.m.MultipartHttpMessageReader - [7333f90c] Parsed parts [name] (content masked)
-16:35:09.482 [Test worker] DEBUG o.s.w.r.r.m.a.RequestPartMethodArgumentResolver - [7333f90c] Decoding part 'name'
-16:35:09.482 [Test worker] DEBUG o.s.w.r.r.m.a.RequestPartMethodArgumentResolver - [7333f90c] Content-Type:application/json
-16:35:09.483 [Test worker] DEBUG o.s.w.r.r.m.a.RequestPartMethodArgumentResolver - [7333f90c] 0..1 [org.springframework.web.reactive.result.method.annotation.RequestPartMethodArgumentResolverTests$Person]
-16:35:09.483 [Test worker] DEBUG o.s.h.c.j.Jackson2JsonDecoder - [7333f90c] Decoded [org.springframework.web.reactive.result.method.annotation.RequestPartMethodArgumentResolverTests$Per (truncated)...]
-16:35:09.496 [Test worker] DEBUG o.s.h.c.m.MultipartHttpMessageWriter - Encoding parts [] (content masked)
-16:35:09.501 [Test worker] DEBUG o.s.h.c.m.MultipartHttpMessageReader - [c74feb3] Parsed parts [] (content masked)
-16:35:09.513 [Test worker] DEBUG o.s.h.c.m.MultipartHttpMessageWriter - Encoding parts [] (content masked)
-16:35:09.519 [Test worker] DEBUG o.s.h.c.m.MultipartHttpMessageReader - [60e39da8] Parsed parts [] (content masked)
-16:35:09.532 [Test worker] DEBUG o.s.h.c.m.MultipartHttpMessageWriter - Encoding parts [name] (content masked)
-16:35:09.537 [Test worker] DEBUG o.s.h.c.m.MultipartHttpMessageReader - [3cb20029] Parsed parts [name] (content masked)
-16:35:09.556 [Test worker] DEBUG o.s.h.c.m.MultipartHttpMessageWriter - Encoding parts [] (content masked)
-16:35:09.561 [Test worker] DEBUG o.s.h.c.m.MultipartHttpMessageReader - [5293a4d4] Parsed parts [] (content masked)
-16:35:09.572 [Test worker] DEBUG o.s.h.c.m.MultipartHttpMessageWriter - Encoding parts [name] (content masked)
-16:35:09.578 [Test worker] DEBUG o.s.h.c.m.MultipartHttpMessageReader - [79b94953] Parsed parts [name] (content masked)
-16:35:09.589 [Test worker] DEBUG o.s.h.c.m.MultipartHttpMessageWriter - Encoding parts [] (content masked)
-16:35:09.593 [Test worker] DEBUG o.s.h.c.m.MultipartHttpMessageReader - [5cb8511] Parsed parts [] (content masked)
-16:35:09.607 [Test worker] DEBUG o.s.h.c.m.MultipartHttpMessageWriter - Encoding parts [name] (content masked)
-16:35:09.619 [Test worker] DEBUG o.s.h.c.m.MultipartHttpMessageReader - [61bcb1d3] Parsed parts [name] (content masked)
-16:35:09.619 [Test worker] DEBUG o.s.w.r.r.m.a.RequestPartMethodArgumentResolver - [61bcb1d3] Decoding part 'name'
-16:35:09.619 [Test worker] DEBUG o.s.w.r.r.m.a.RequestPartMethodArgumentResolver - [61bcb1d3] Content-Type:application/json
-16:35:09.622 [Test worker] DEBUG o.s.w.r.r.m.a.RequestPartMethodArgumentResolver - [61bcb1d3] 0..1 [java.util.List&lt;org.springframework.web.reactive.result.method.annotation.RequestPartMethodArgumentResolverTests$Person&gt;]
-16:35:09.622 [Test worker] DEBUG o.s.h.c.j.Jackson2JsonDecoder - [61bcb1d3] Decoded [[org.springframework.web.reactive.result.method.annotation.RequestPartMethodArgumentResolverTests$Pe (truncated)...]
-16:35:09.633 [Test worker] DEBUG o.s.h.c.m.MultipartHttpMessageWriter - Encoding parts [] (content masked)
-16:35:09.638 [Test worker] DEBUG o.s.h.c.m.MultipartHttpMessageReader - [6e6cf4fa] Parsed parts [] (content masked)
-16:35:09.650 [Test worker] DEBUG o.s.h.c.m.MultipartHttpMessageWriter - Encoding parts [] (content masked)
-16:35:09.654 [Test worker] DEBUG o.s.h.c.m.MultipartHttpMessageReader - [37ea7ce] Parsed parts [] (content masked)
-16:35:09.665 [Test worker] DEBUG o.s.h.c.m.MultipartHttpMessageWriter - Encoding parts [name] (content masked)
-16:35:09.670 [Test worker] DEBUG o.s.h.c.m.MultipartHttpMessageReader - [11630f81] Parsed parts [name] (content masked)
-16:35:09.701 [Test worker] DEBUG o.s.h.c.m.MultipartHttpMessageWriter - Encoding parts [name] (content masked)
-16:35:09.707 [Test worker] DEBUG o.s.h.c.m.MultipartHttpMessageReader - [5b4df60] Parsed parts [name] (content masked)
-16:35:09.707 [Test worker] DEBUG o.s.w.r.r.m.a.RequestPartMethodArgumentResolver - [5b4df60] Decoding part 'name'
-16:35:09.707 [Test worker] DEBUG o.s.w.r.r.m.a.RequestPartMethodArgumentResolver - [5b4df60] Content-Type:application/json
-16:35:09.708 [Test worker] DEBUG o.s.w.r.r.m.a.RequestPartMethodArgumentResolver - [5b4df60] 0..1 [org.springframework.web.reactive.result.method.annotation.RequestPartMethodArgumentResolverTests$Person]
-16:35:09.708 [Test worker] DEBUG o.s.h.c.j.Jackson2JsonDecoder - [5b4df60] Decoded [org.springframework.web.reactive.result.method.annotation.RequestPartMethodArgumentResolverTests$Per (truncated)...]
+<pre>17:50:27.542 [Test worker] DEBUG o.s.h.c.m.MultipartHttpMessageWriter - Encoding parts [name] (content masked)
+17:50:27.573 [Test worker] DEBUG o.s.h.c.m.MultipartHttpMessageReader - [6cde41cd] Parsed parts [name] (content masked)
+17:50:27.586 [Test worker] DEBUG o.s.h.c.m.MultipartHttpMessageWriter - Encoding parts [] (content masked)
+17:50:27.597 [Test worker] DEBUG o.s.h.c.m.MultipartHttpMessageReader - [58bec0e0] Parsed parts [] (content masked)
+17:50:27.609 [Test worker] DEBUG o.s.h.c.m.MultipartHttpMessageWriter - Encoding parts [] (content masked)
+17:50:27.614 [Test worker] DEBUG o.s.h.c.m.MultipartHttpMessageReader - [12372da5] Parsed parts [] (content masked)
+17:50:27.626 [Test worker] DEBUG o.s.h.c.m.MultipartHttpMessageWriter - Encoding parts [] (content masked)
+17:50:27.631 [Test worker] DEBUG o.s.h.c.m.MultipartHttpMessageReader - [14ff3d55] Parsed parts [] (content masked)
+17:50:27.642 [Test worker] DEBUG o.s.h.c.m.MultipartHttpMessageWriter - Encoding parts [] (content masked)
+17:50:27.650 [Test worker] DEBUG o.s.h.c.m.MultipartHttpMessageReader - [14116d44] Parsed parts [] (content masked)
+17:50:27.662 [Test worker] DEBUG o.s.h.c.m.MultipartHttpMessageWriter - Encoding parts [name] (content masked)
+17:50:27.667 [Test worker] DEBUG o.s.h.c.m.MultipartHttpMessageReader - [2c45c7e8] Parsed parts [name] (content masked)
+17:50:27.669 [Test worker] DEBUG o.s.w.r.r.m.a.RequestPartMethodArgumentResolver - [2c45c7e8] Decoding part 'name'
+17:50:27.670 [Test worker] DEBUG o.s.w.r.r.m.a.RequestPartMethodArgumentResolver - [2c45c7e8] Content-Type:application/json
+17:50:27.689 [Test worker] DEBUG o.s.w.r.r.m.a.RequestPartMethodArgumentResolver - [2c45c7e8] 0..1 [org.springframework.web.reactive.result.method.annotation.RequestPartMethodArgumentResolverTests$Person]
+17:50:27.693 [Test worker] DEBUG o.s.h.c.j.Jackson2JsonDecoder - [2c45c7e8] Decoded [org.springframework.web.reactive.result.method.annotation.RequestPartMethodArgumentResolverTests$Per (truncated)...]
+17:50:27.693 [Test worker] DEBUG o.s.w.r.r.m.a.RequestPartMethodArgumentResolver - [2c45c7e8] Decoding part 'name'
+17:50:27.693 [Test worker] DEBUG o.s.w.r.r.m.a.RequestPartMethodArgumentResolver - [2c45c7e8] Content-Type:application/json
+17:50:27.694 [Test worker] DEBUG o.s.w.r.r.m.a.RequestPartMethodArgumentResolver - [2c45c7e8] 0..1 [org.springframework.web.reactive.result.method.annotation.RequestPartMethodArgumentResolverTests$Person]
+17:50:27.694 [Test worker] DEBUG o.s.h.c.j.Jackson2JsonDecoder - [2c45c7e8] Decoded [org.springframework.web.reactive.result.method.annotation.RequestPartMethodArgumentResolverTests$Per (truncated)...]
+17:50:27.710 [Test worker] DEBUG o.s.h.c.m.MultipartHttpMessageWriter - Encoding parts [name] (content masked)
+17:50:27.719 [Test worker] DEBUG o.s.h.c.m.MultipartHttpMessageReader - [50c5e315] Parsed parts [name] (content masked)
+17:50:27.719 [Test worker] DEBUG o.s.w.r.r.m.a.RequestPartMethodArgumentResolver - [50c5e315] Decoding part 'name'
+17:50:27.719 [Test worker] DEBUG o.s.w.r.r.m.a.RequestPartMethodArgumentResolver - [50c5e315] Content-Type:application/json
+17:50:27.720 [Test worker] DEBUG o.s.w.r.r.m.a.RequestPartMethodArgumentResolver - [50c5e315] 0..1 [org.springframework.web.reactive.result.method.annotation.RequestPartMethodArgumentResolverTests$Person]
+17:50:27.720 [Test worker] DEBUG o.s.h.c.j.Jackson2JsonDecoder - [50c5e315] Decoded [org.springframework.web.reactive.result.method.annotation.RequestPartMethodArgumentResolverTests$Per (truncated)...]
+17:50:27.732 [Test worker] DEBUG o.s.h.c.m.MultipartHttpMessageWriter - Encoding parts [] (content masked)
+17:50:27.737 [Test worker] DEBUG o.s.h.c.m.MultipartHttpMessageReader - [751c7e69] Parsed parts [] (content masked)
+17:50:27.749 [Test worker] DEBUG o.s.h.c.m.MultipartHttpMessageWriter - Encoding parts [] (content masked)
+17:50:27.754 [Test worker] DEBUG o.s.h.c.m.MultipartHttpMessageReader - [a3ef694] Parsed parts [] (content masked)
+17:50:27.766 [Test worker] DEBUG o.s.h.c.m.MultipartHttpMessageWriter - Encoding parts [name] (content masked)
+17:50:27.772 [Test worker] DEBUG o.s.h.c.m.MultipartHttpMessageReader - [5bce5b15] Parsed parts [name] (content masked)
+17:50:27.785 [Test worker] DEBUG o.s.h.c.m.MultipartHttpMessageWriter - Encoding parts [] (content masked)
+17:50:27.790 [Test worker] DEBUG o.s.h.c.m.MultipartHttpMessageReader - [770c979d] Parsed parts [] (content masked)
+17:50:27.802 [Test worker] DEBUG o.s.h.c.m.MultipartHttpMessageWriter - Encoding parts [name] (content masked)
+17:50:27.808 [Test worker] DEBUG o.s.h.c.m.MultipartHttpMessageReader - [61f54023] Parsed parts [name] (content masked)
+17:50:27.819 [Test worker] DEBUG o.s.h.c.m.MultipartHttpMessageWriter - Encoding parts [] (content masked)
+17:50:27.824 [Test worker] DEBUG o.s.h.c.m.MultipartHttpMessageReader - [1c8290df] Parsed parts [] (content masked)
+17:50:27.836 [Test worker] DEBUG o.s.h.c.m.MultipartHttpMessageWriter - Encoding parts [name] (content masked)
+17:50:27.844 [Test worker] DEBUG o.s.h.c.m.MultipartHttpMessageReader - [32614fc] Parsed parts [name] (content masked)
+17:50:27.844 [Test worker] DEBUG o.s.w.r.r.m.a.RequestPartMethodArgumentResolver - [32614fc] Decoding part 'name'
+17:50:27.844 [Test worker] DEBUG o.s.w.r.r.m.a.RequestPartMethodArgumentResolver - [32614fc] Content-Type:application/json
+17:50:27.847 [Test worker] DEBUG o.s.w.r.r.m.a.RequestPartMethodArgumentResolver - [32614fc] 0..1 [java.util.List&lt;org.springframework.web.reactive.result.method.annotation.RequestPartMethodArgumentResolverTests$Person&gt;]
+17:50:27.847 [Test worker] DEBUG o.s.h.c.j.Jackson2JsonDecoder - [32614fc] Decoded [[org.springframework.web.reactive.result.method.annotation.RequestPartMethodArgumentResolverTests$Pe (truncated)...]
+17:50:27.865 [Test worker] DEBUG o.s.h.c.m.MultipartHttpMessageWriter - Encoding parts [] (content masked)
+17:50:27.870 [Test worker] DEBUG o.s.h.c.m.MultipartHttpMessageReader - [78fc74e3] Parsed parts [] (content masked)
+17:50:27.883 [Test worker] DEBUG o.s.h.c.m.MultipartHttpMessageWriter - Encoding parts [] (content masked)
+17:50:27.889 [Test worker] DEBUG o.s.h.c.m.MultipartHttpMessageReader - [5532c377] Parsed parts [] (content masked)
+17:50:27.902 [Test worker] DEBUG o.s.h.c.m.MultipartHttpMessageWriter - Encoding parts [name] (content masked)
+17:50:27.908 [Test worker] DEBUG o.s.h.c.m.MultipartHttpMessageReader - [4ef2fe5e] Parsed parts [name] (content masked)
+17:50:27.938 [Test worker] DEBUG o.s.h.c.m.MultipartHttpMessageWriter - Encoding parts [name] (content masked)
+17:50:27.944 [Test worker] DEBUG o.s.h.c.m.MultipartHttpMessageReader - [365b6860] Parsed parts [name] (content masked)
+17:50:27.944 [Test worker] DEBUG o.s.w.r.r.m.a.RequestPartMethodArgumentResolver - [365b6860] Decoding part 'name'
+17:50:27.944 [Test worker] DEBUG o.s.w.r.r.m.a.RequestPartMethodArgumentResolver - [365b6860] Content-Type:application/json
+17:50:27.945 [Test worker] DEBUG o.s.w.r.r.m.a.RequestPartMethodArgumentResolver - [365b6860] 0..1 [org.springframework.web.reactive.result.method.annotation.RequestPartMethodArgumentResolverTests$Person]
+17:50:27.945 [Test worker] DEBUG o.s.h.c.j.Jackson2JsonDecoder - [365b6860] Decoded [org.springframework.web.reactive.result.method.annotation.RequestPartMethodArgumentResolverTests$Per (truncated)...]
 </pre>
 </span>
 </div>
@@ -244,7 +244,7 @@
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 6.8.3</a> at 2021年4月26日 下午4:46:32</p>
+<a href="http://www.gradle.org">Gradle 6.8.3</a> at May 1, 2021 6:02:02 PM</p>
 </div>
 </div>
 </body>

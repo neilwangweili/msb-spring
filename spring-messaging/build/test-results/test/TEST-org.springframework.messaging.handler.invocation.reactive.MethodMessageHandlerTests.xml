@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.messaging.handler.invocation.reactive.MethodMessageHandlerTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:39:43" hostname="wangweilideMacBook-Pro.local" time="1.059">
+<testsuite name="org.springframework.messaging.handler.invocation.reactive.MethodMessageHandlerTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:29:29" hostname="wangweilideMBP.lan" time="1.179">
   <properties/>
-  <testcase name="handleException()" classname="org.springframework.messaging.handler.invocation.reactive.MethodMessageHandlerTests" time="1.005"/>
-  <testcase name="duplicateMapping()" classname="org.springframework.messaging.handler.invocation.reactive.MethodMessageHandlerTests" time="0.002"/>
-  <testcase name="registeredMappings()" classname="org.springframework.messaging.handler.invocation.reactive.MethodMessageHandlerTests" time="0.006"/>
-  <testcase name="bestMatch()" classname="org.springframework.messaging.handler.invocation.reactive.MethodMessageHandlerTests" time="0.027"/>
-  <testcase name="argumentResolution()" classname="org.springframework.messaging.handler.invocation.reactive.MethodMessageHandlerTests" time="0.017"/>
-  <system-out><![CDATA[15:39:44.373 [Test worker] WARN  o.s.m.h.i.r.MethodMessageHandlerTests$TestMethodMessageHandler - No ApplicationContext for auto-detection of beans with message handling methods.
+  <testcase name="handleException()" classname="org.springframework.messaging.handler.invocation.reactive.MethodMessageHandlerTests" time="1.131"/>
+  <testcase name="duplicateMapping()" classname="org.springframework.messaging.handler.invocation.reactive.MethodMessageHandlerTests" time="0.001"/>
+  <testcase name="registeredMappings()" classname="org.springframework.messaging.handler.invocation.reactive.MethodMessageHandlerTests" time="0.004"/>
+  <testcase name="bestMatch()" classname="org.springframework.messaging.handler.invocation.reactive.MethodMessageHandlerTests" time="0.025"/>
+  <testcase name="argumentResolution()" classname="org.springframework.messaging.handler.invocation.reactive.MethodMessageHandlerTests" time="0.014"/>
+  <system-out><![CDATA[17:29:30.883 [Test worker] WARN  o.s.m.h.i.r.MethodMessageHandlerTests$TestMethodMessageHandler - No ApplicationContext for auto-detection of beans with message handling methods.
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

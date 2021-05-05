@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.context.annotation.ComponentScanAndImportAnnotationInteractionTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:40:48" hostname="wangweilideMacBook-Pro.local" time="0.085">
+<testsuite name="org.springframework.context.annotation.ComponentScanAndImportAnnotationInteractionTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:31:45" hostname="wangweilideMBP.lan" time="0.088">
   <properties/>
-  <testcase name="componentScanViaImport()" classname="org.springframework.context.annotation.ComponentScanAndImportAnnotationInteractionTests" time="0.018"/>
-  <testcase name="circularImportViaComponentScan()" classname="org.springframework.context.annotation.ComponentScanAndImportAnnotationInteractionTests" time="0.015"/>
+  <testcase name="componentScanViaImport()" classname="org.springframework.context.annotation.ComponentScanAndImportAnnotationInteractionTests" time="0.037"/>
+  <testcase name="circularImportViaComponentScan()" classname="org.springframework.context.annotation.ComponentScanAndImportAnnotationInteractionTests" time="0.014"/>
   <testcase name="componentScanViaImportUsingScan()" classname="org.springframework.context.annotation.ComponentScanAndImportAnnotationInteractionTests" time="0.012"/>
-  <testcase name="componentScanViaImportUsingAsm()" classname="org.springframework.context.annotation.ComponentScanAndImportAnnotationInteractionTests" time="0.018"/>
-  <testcase name="componentScanOverlapsWithImport()" classname="org.springframework.context.annotation.ComponentScanAndImportAnnotationInteractionTests" time="0.013"/>
-  <testcase name="componentScanOverlapsWithImportUsingAsm()" classname="org.springframework.context.annotation.ComponentScanAndImportAnnotationInteractionTests" time="0.009"/>
+  <testcase name="componentScanViaImportUsingAsm()" classname="org.springframework.context.annotation.ComponentScanAndImportAnnotationInteractionTests" time="0.012"/>
+  <testcase name="componentScanOverlapsWithImport()" classname="org.springframework.context.annotation.ComponentScanAndImportAnnotationInteractionTests" time="0.005"/>
+  <testcase name="componentScanOverlapsWithImportUsingAsm()" classname="org.springframework.context.annotation.ComponentScanAndImportAnnotationInteractionTests" time="0.007"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

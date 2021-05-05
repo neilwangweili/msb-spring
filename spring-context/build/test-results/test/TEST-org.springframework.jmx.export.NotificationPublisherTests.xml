@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.jmx.export.NotificationPublisherTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:41:19" hostname="wangweilideMacBook-Pro.local" time="0.045">
+<testsuite name="org.springframework.jmx.export.NotificationPublisherTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:32:21" hostname="wangweilideMBP.lan" time="0.056">
   <properties/>
-  <testcase name="testSimpleBean()" classname="org.springframework.jmx.export.NotificationPublisherTests" time="0.021"/>
-  <testcase name="testMBean()" classname="org.springframework.jmx.export.NotificationPublisherTests" time="0.007"/>
-  <testcase name="testLazyInit()" classname="org.springframework.jmx.export.NotificationPublisherTests" time="0.012"/>
-  <testcase name="testSimpleBeanRegisteredManually()" classname="org.springframework.jmx.export.NotificationPublisherTests" time="0.005"/>
+  <testcase name="testSimpleBean()" classname="org.springframework.jmx.export.NotificationPublisherTests" time="0.025"/>
+  <testcase name="testMBean()" classname="org.springframework.jmx.export.NotificationPublisherTests" time="0.006"/>
+  <testcase name="testLazyInit()" classname="org.springframework.jmx.export.NotificationPublisherTests" time="0.016"/>
+  <testcase name="testSimpleBeanRegisteredManually()" classname="org.springframework.jmx.export.NotificationPublisherTests" time="0.009"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[Apr. 26, 2021 3:41:19 P.M. ClientIntermediary close
+  <system-err><![CDATA[May 01, 2021 5:32:21 PM ClientIntermediary close
 INFO: java.io.IOException: The connection is not currently established.
 java.io.IOException: The connection is not currently established.
 	at com.sun.jmx.remote.generic.ClientSynchroMessageConnectionImpl.checkState(ClientSynchroMessageConnectionImpl.java:617)

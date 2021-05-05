@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.expression.spel.PropertyAccessTests" tests="19" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:37:33" hostname="wangweilideMacBook-Pro.local" time="0.014">
+<testsuite name="org.springframework.expression.spel.PropertyAccessTests" tests="19" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:04:56" hostname="wangweilideMBP.lan" time="0.047">
   <properties/>
   <testcase name="testNonExistentPropertiesAndMethods()" classname="org.springframework.expression.spel.PropertyAccessTests" time="0.0"/>
-  <testcase name="testAccessingPropertyOfClass()" classname="org.springframework.expression.spel.PropertyAccessTests" time="0.0"/>
-  <testcase name="propertyReadOnlyWithRecordStyle()" classname="org.springframework.expression.spel.PropertyAccessTests" time="0.003"/>
+  <testcase name="testAccessingPropertyOfClass()" classname="org.springframework.expression.spel.PropertyAccessTests" time="0.001"/>
+  <testcase name="propertyReadOnlyWithRecordStyle()" classname="org.springframework.expression.spel.PropertyAccessTests" time="0.007"/>
   <testcase name="propertyReadOnly()" classname="org.springframework.expression.spel.PropertyAccessTests" time="0.001"/>
-  <testcase name="propertyAccessWithoutMethodResolver()" classname="org.springframework.expression.spel.PropertyAccessTests" time="0.0"/>
-  <testcase name="propertyAccessWithInstanceMethodResolverAndTypedRootObject()" classname="org.springframework.expression.spel.PropertyAccessTests" time="0.001"/>
-  <testcase name="propertyReadWriteWithRootObject()" classname="org.springframework.expression.spel.PropertyAccessTests" time="0.0"/>
-  <testcase name="shouldAlwaysUsePropertyAccessorFromEvaluationContext()" classname="org.springframework.expression.spel.PropertyAccessTests" time="0.001"/>
-  <testcase name="testAccessingOnNullObject()" classname="org.springframework.expression.spel.PropertyAccessTests" time="0.001"/>
-  <testcase name="testAddingSpecificPropertyAccessor()" classname="org.springframework.expression.spel.PropertyAccessTests" time="0.002"/>
-  <testcase name="propertyReadWrite()" classname="org.springframework.expression.spel.PropertyAccessTests" time="0.0"/>
-  <testcase name="noGetClassAccess()" classname="org.springframework.expression.spel.PropertyAccessTests" time="0.0"/>
-  <testcase name="propertyAccessWithInstanceMethodResolver()" classname="org.springframework.expression.spel.PropertyAccessTests" time="0.001"/>
-  <testcase name="propertyAccessWithArrayIndexOutOfBounds()" classname="org.springframework.expression.spel.PropertyAccessTests" time="0.0"/>
-  <testcase name="testAddingRemovingAccessors()" classname="org.springframework.expression.spel.PropertyAccessTests" time="0.001"/>
+  <testcase name="propertyAccessWithoutMethodResolver()" classname="org.springframework.expression.spel.PropertyAccessTests" time="0.001"/>
+  <testcase name="propertyAccessWithInstanceMethodResolverAndTypedRootObject()" classname="org.springframework.expression.spel.PropertyAccessTests" time="0.002"/>
+  <testcase name="propertyReadWriteWithRootObject()" classname="org.springframework.expression.spel.PropertyAccessTests" time="0.001"/>
+  <testcase name="shouldAlwaysUsePropertyAccessorFromEvaluationContext()" classname="org.springframework.expression.spel.PropertyAccessTests" time="0.0"/>
+  <testcase name="testAccessingOnNullObject()" classname="org.springframework.expression.spel.PropertyAccessTests" time="0.002"/>
+  <testcase name="testAddingSpecificPropertyAccessor()" classname="org.springframework.expression.spel.PropertyAccessTests" time="0.014"/>
+  <testcase name="propertyReadWrite()" classname="org.springframework.expression.spel.PropertyAccessTests" time="0.001"/>
+  <testcase name="noGetClassAccess()" classname="org.springframework.expression.spel.PropertyAccessTests" time="0.001"/>
+  <testcase name="propertyAccessWithInstanceMethodResolver()" classname="org.springframework.expression.spel.PropertyAccessTests" time="0.002"/>
+  <testcase name="propertyAccessWithArrayIndexOutOfBounds()" classname="org.springframework.expression.spel.PropertyAccessTests" time="0.009"/>
+  <testcase name="testAddingRemovingAccessors()" classname="org.springframework.expression.spel.PropertyAccessTests" time="0.0"/>
   <testcase name="testSimpleAccess01()" classname="org.springframework.expression.spel.PropertyAccessTests" time="0.0"/>
   <testcase name="testSimpleAccess02()" classname="org.springframework.expression.spel.PropertyAccessTests" time="0.0"/>
-  <testcase name="testSimpleAccess03()" classname="org.springframework.expression.spel.PropertyAccessTests" time="0.001"/>
+  <testcase name="testSimpleAccess03()" classname="org.springframework.expression.spel.PropertyAccessTests" time="0.0"/>
   <testcase name="standardGetClassAccess()" classname="org.springframework.expression.spel.PropertyAccessTests" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

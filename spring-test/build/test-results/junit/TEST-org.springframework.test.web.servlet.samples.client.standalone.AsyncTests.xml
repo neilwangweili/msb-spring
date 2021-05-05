@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.test.web.servlet.samples.client.standalone.AsyncTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:41:10" hostname="wangweilideMacBook-Pro.local" time="0.704">
+<testsuite name="org.springframework.test.web.servlet.samples.client.standalone.AsyncTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:43:00" hostname="wangweilideMBP.lan" time="0.637">
   <properties/>
-  <testcase name="streaming()" classname="org.springframework.test.web.servlet.samples.client.standalone.AsyncTests" time="0.005"/>
+  <testcase name="streaming()" classname="org.springframework.test.web.servlet.samples.client.standalone.AsyncTests" time="0.003"/>
   <testcase name="callable()" classname="org.springframework.test.web.servlet.samples.client.standalone.AsyncTests" time="0.005"/>
   <testcase name="completableFutureWithImmediateValue()" classname="org.springframework.test.web.servlet.samples.client.standalone.AsyncTests" time="0.003"/>
-  <testcase name="listenableFuture()" classname="org.springframework.test.web.servlet.samples.client.standalone.AsyncTests" time="0.11"/>
-  <testcase name="deferredResultWithImmediateValue()" classname="org.springframework.test.web.servlet.samples.client.standalone.AsyncTests" time="0.004"/>
-  <testcase name="deferredResult()" classname="org.springframework.test.web.servlet.samples.client.standalone.AsyncTests" time="0.107"/>
-  <testcase name="streamingJson()" classname="org.springframework.test.web.servlet.samples.client.standalone.AsyncTests" time="0.005"/>
-  <testcase name="streamingSlow()" classname="org.springframework.test.web.servlet.samples.client.standalone.AsyncTests" time="0.209"/>
-  <testcase name="deferredResultWithDelayedError()" classname="org.springframework.test.web.servlet.samples.client.standalone.AsyncTests" time="0.111"/>
+  <testcase name="listenableFuture()" classname="org.springframework.test.web.servlet.samples.client.standalone.AsyncTests" time="0.107"/>
+  <testcase name="deferredResultWithImmediateValue()" classname="org.springframework.test.web.servlet.samples.client.standalone.AsyncTests" time="0.002"/>
+  <testcase name="deferredResult()" classname="org.springframework.test.web.servlet.samples.client.standalone.AsyncTests" time="0.108"/>
+  <testcase name="streamingJson()" classname="org.springframework.test.web.servlet.samples.client.standalone.AsyncTests" time="0.003"/>
+  <testcase name="streamingSlow()" classname="org.springframework.test.web.servlet.samples.client.standalone.AsyncTests" time="0.204"/>
+  <testcase name="deferredResultWithDelayedError()" classname="org.springframework.test.web.servlet.samples.client.standalone.AsyncTests" time="0.105"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

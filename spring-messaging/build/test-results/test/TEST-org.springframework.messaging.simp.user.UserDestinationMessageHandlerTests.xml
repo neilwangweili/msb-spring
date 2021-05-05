@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.messaging.simp.user.UserDestinationMessageHandlerTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:39:55" hostname="wangweilideMacBook-Pro.local" time="0.041">
+<testsuite name="org.springframework.messaging.simp.user.UserDestinationMessageHandlerTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:29:43" hostname="wangweilideMBP.lan" time="0.015">
   <properties/>
   <testcase name="handleMessageWithoutActiveSession()" classname="org.springframework.messaging.simp.user.UserDestinationMessageHandlerTests" time="0.002"/>
-  <testcase name="handleMessageFromBrokerWithoutActiveSession()" classname="org.springframework.messaging.simp.user.UserDestinationMessageHandlerTests" time="0.002"/>
-  <testcase name="handleMessageFromBrokerWithActiveSession()" classname="org.springframework.messaging.simp.user.UserDestinationMessageHandlerTests" time="0.024"/>
-  <testcase name="handleUnsubscribe()" classname="org.springframework.messaging.simp.user.UserDestinationMessageHandlerTests" time="0.001"/>
-  <testcase name="handleMessage()" classname="org.springframework.messaging.simp.user.UserDestinationMessageHandlerTests" time="0.003"/>
+  <testcase name="handleMessageFromBrokerWithoutActiveSession()" classname="org.springframework.messaging.simp.user.UserDestinationMessageHandlerTests" time="0.001"/>
+  <testcase name="handleMessageFromBrokerWithActiveSession()" classname="org.springframework.messaging.simp.user.UserDestinationMessageHandlerTests" time="0.005"/>
+  <testcase name="handleUnsubscribe()" classname="org.springframework.messaging.simp.user.UserDestinationMessageHandlerTests" time="0.002"/>
+  <testcase name="handleMessage()" classname="org.springframework.messaging.simp.user.UserDestinationMessageHandlerTests" time="0.001"/>
   <testcase name="handleSubscribe()" classname="org.springframework.messaging.simp.user.UserDestinationMessageHandlerTests" time="0.002"/>
   <testcase name="ignoreMessage()" classname="org.springframework.messaging.simp.user.UserDestinationMessageHandlerTests" time="0.001"/>
   <system-out><![CDATA[]]></system-out>

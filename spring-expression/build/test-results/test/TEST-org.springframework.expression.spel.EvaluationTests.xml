@@ -1,90 +1,90 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.expression.spel.EvaluationTests" tests="86" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:37:32" hostname="wangweilideMacBook-Pro.local" time="0.301">
+<testsuite name="org.springframework.expression.spel.EvaluationTests" tests="86" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:04:52" hostname="wangweilideMBP.lan" time="0.83">
   <properties/>
   <testcase name="testElvis01()" classname="org.springframework.expression.spel.EvaluationTests" time="0.001"/>
   <testcase name="testNumbers01()" classname="org.springframework.expression.spel.EvaluationTests" time="0.001"/>
-  <testcase name="testAdvancedNumerics()" classname="org.springframework.expression.spel.EvaluationTests" time="0.002"/>
-  <testcase name="testUnaryNotWithNullValue()" classname="org.springframework.expression.spel.EvaluationTests" time="0.001"/>
-  <testcase name="collectionGrowingViaIndexer()" classname="org.springframework.expression.spel.EvaluationTests" time="0.003"/>
+  <testcase name="testAdvancedNumerics()" classname="org.springframework.expression.spel.EvaluationTests" time="0.004"/>
+  <testcase name="testUnaryNotWithNullValue()" classname="org.springframework.expression.spel.EvaluationTests" time="0.014"/>
+  <testcase name="collectionGrowingViaIndexer()" classname="org.springframework.expression.spel.EvaluationTests" time="0.007"/>
   <testcase name="customMethodFilter()" classname="org.springframework.expression.spel.EvaluationTests" time="0.001"/>
-  <testcase name="methodCallWithRootReferenceThroughParameter()" classname="org.springframework.expression.spel.EvaluationTests" time="0.0"/>
-  <testcase name="incrementAllNodeTypes()" classname="org.springframework.expression.spel.EvaluationTests" time="0.085"/>
-  <testcase name="testIndexerError()" classname="org.springframework.expression.spel.EvaluationTests" time="0.0"/>
-  <testcase name="testPropertyField01()" classname="org.springframework.expression.spel.EvaluationTests" time="0.011"/>
-  <testcase name="testComparison()" classname="org.springframework.expression.spel.EvaluationTests" time="0.001"/>
-  <testcase name="decrement02prefix()" classname="org.springframework.expression.spel.EvaluationTests" time="0.004"/>
-  <testcase name="testFunctionAccess01()" classname="org.springframework.expression.spel.EvaluationTests" time="0.001"/>
-  <testcase name="testFunctionAccess02()" classname="org.springframework.expression.spel.EvaluationTests" time="0.0"/>
-  <testcase name="fnCallWithRootReferenceThroughParameter()" classname="org.springframework.expression.spel.EvaluationTests" time="0.0"/>
-  <testcase name="incdecTogether()" classname="org.springframework.expression.spel.EvaluationTests" time="0.0"/>
+  <testcase name="methodCallWithRootReferenceThroughParameter()" classname="org.springframework.expression.spel.EvaluationTests" time="0.001"/>
+  <testcase name="incrementAllNodeTypes()" classname="org.springframework.expression.spel.EvaluationTests" time="0.123"/>
+  <testcase name="testIndexerError()" classname="org.springframework.expression.spel.EvaluationTests" time="0.002"/>
+  <testcase name="testPropertyField01()" classname="org.springframework.expression.spel.EvaluationTests" time="0.051"/>
+  <testcase name="testComparison()" classname="org.springframework.expression.spel.EvaluationTests" time="0.002"/>
+  <testcase name="decrement02prefix()" classname="org.springframework.expression.spel.EvaluationTests" time="0.021"/>
+  <testcase name="testFunctionAccess01()" classname="org.springframework.expression.spel.EvaluationTests" time="0.003"/>
+  <testcase name="testFunctionAccess02()" classname="org.springframework.expression.spel.EvaluationTests" time="0.001"/>
+  <testcase name="fnCallWithRootReferenceThroughParameter()" classname="org.springframework.expression.spel.EvaluationTests" time="0.001"/>
+  <testcase name="incdecTogether()" classname="org.springframework.expression.spel.EvaluationTests" time="0.001"/>
   <testcase name="testRelOperatorGE01()" classname="org.springframework.expression.spel.EvaluationTests" time="0.0"/>
-  <testcase name="testRelOperatorGE02()" classname="org.springframework.expression.spel.EvaluationTests" time="0.0"/>
+  <testcase name="testRelOperatorGE02()" classname="org.springframework.expression.spel.EvaluationTests" time="0.001"/>
   <testcase name="testRelOperatorGT01()" classname="org.springframework.expression.spel.EvaluationTests" time="0.0"/>
   <testcase name="testRelOperatorLE01()" classname="org.springframework.expression.spel.EvaluationTests" time="0.0"/>
   <testcase name="testRelOperatorLT01()" classname="org.springframework.expression.spel.EvaluationTests" time="0.001"/>
   <testcase name="testTernaryOperator01()" classname="org.springframework.expression.spel.EvaluationTests" time="0.0"/>
-  <testcase name="testTernaryOperator02()" classname="org.springframework.expression.spel.EvaluationTests" time="0.001"/>
-  <testcase name="testTernaryOperator03()" classname="org.springframework.expression.spel.EvaluationTests" time="0.0"/>
-  <testcase name="testTernaryOperator04()" classname="org.springframework.expression.spel.EvaluationTests" time="0.001"/>
-  <testcase name="testTernaryOperator05()" classname="org.springframework.expression.spel.EvaluationTests" time="0.0"/>
-  <testcase name="initializingCollectionElementsOnWrite()" classname="org.springframework.expression.spel.EvaluationTests" time="0.002"/>
-  <testcase name="testPropertyField02_SPR7100()" classname="org.springframework.expression.spel.EvaluationTests" time="0.0"/>
-  <testcase name="decrement03()" classname="org.springframework.expression.spel.EvaluationTests" time="0.002"/>
-  <testcase name="decrement04()" classname="org.springframework.expression.spel.EvaluationTests" time="0.001"/>
-  <testcase name="increment01root()" classname="org.springframework.expression.spel.EvaluationTests" time="0.001"/>
-  <testcase name="testTypeReferencesPrimitive()" classname="org.springframework.expression.spel.EvaluationTests" time="0.001"/>
-  <testcase name="testPropertiesNested01()" classname="org.springframework.expression.spel.EvaluationTests" time="0.0"/>
+  <testcase name="testTernaryOperator02()" classname="org.springframework.expression.spel.EvaluationTests" time="0.008"/>
+  <testcase name="testTernaryOperator03()" classname="org.springframework.expression.spel.EvaluationTests" time="0.001"/>
+  <testcase name="testTernaryOperator04()" classname="org.springframework.expression.spel.EvaluationTests" time="0.0"/>
+  <testcase name="testTernaryOperator05()" classname="org.springframework.expression.spel.EvaluationTests" time="0.001"/>
+  <testcase name="initializingCollectionElementsOnWrite()" classname="org.springframework.expression.spel.EvaluationTests" time="0.003"/>
+  <testcase name="testPropertyField02_SPR7100()" classname="org.springframework.expression.spel.EvaluationTests" time="0.001"/>
+  <testcase name="decrement03()" classname="org.springframework.expression.spel.EvaluationTests" time="0.016"/>
+  <testcase name="decrement04()" classname="org.springframework.expression.spel.EvaluationTests" time="0.002"/>
+  <testcase name="increment01root()" classname="org.springframework.expression.spel.EvaluationTests" time="0.002"/>
+  <testcase name="testTypeReferencesPrimitive()" classname="org.springframework.expression.spel.EvaluationTests" time="0.003"/>
+  <testcase name="testPropertiesNested01()" classname="org.springframework.expression.spel.EvaluationTests" time="0.001"/>
   <testcase name="testPropertiesNested02()" classname="org.springframework.expression.spel.EvaluationTests" time="0.001"/>
   <testcase name="testPropertiesNested03()" classname="org.springframework.expression.spel.EvaluationTests" time="0.001"/>
-  <testcase name="testOrWithNullValueOnLeft()" classname="org.springframework.expression.spel.EvaluationTests" time="0.0"/>
-  <testcase name="testUnaryPlus01()" classname="org.springframework.expression.spel.EvaluationTests" time="0.0"/>
-  <testcase name="testCreateObjectsOnAttemptToReferenceNull()" classname="org.springframework.expression.spel.EvaluationTests" time="0.001"/>
-  <testcase name="increment02postfix()" classname="org.springframework.expression.spel.EvaluationTests" time="0.001"/>
-  <testcase name="testUnaryNot01()" classname="org.springframework.expression.spel.EvaluationTests" time="0.0"/>
+  <testcase name="testOrWithNullValueOnLeft()" classname="org.springframework.expression.spel.EvaluationTests" time="0.001"/>
+  <testcase name="testUnaryPlus01()" classname="org.springframework.expression.spel.EvaluationTests" time="0.001"/>
+  <testcase name="testCreateObjectsOnAttemptToReferenceNull()" classname="org.springframework.expression.spel.EvaluationTests" time="0.002"/>
+  <testcase name="increment02postfix()" classname="org.springframework.expression.spel.EvaluationTests" time="0.013"/>
+  <testcase name="testUnaryNot01()" classname="org.springframework.expression.spel.EvaluationTests" time="0.001"/>
   <testcase name="testUnaryNot02()" classname="org.springframework.expression.spel.EvaluationTests" time="0.0"/>
-  <testcase name="testCreateListsOnAttemptToIndexNull01()" classname="org.springframework.expression.spel.EvaluationTests" time="0.002"/>
+  <testcase name="testCreateListsOnAttemptToIndexNull01()" classname="org.springframework.expression.spel.EvaluationTests" time="0.008"/>
   <testcase name="testMethods01()" classname="org.springframework.expression.spel.EvaluationTests" time="0.001"/>
   <testcase name="testMethods02()" classname="org.springframework.expression.spel.EvaluationTests" time="0.001"/>
-  <testcase name="testIndexer03()" classname="org.springframework.expression.spel.EvaluationTests" time="0.0"/>
-  <testcase name="caseInsensitiveNullLiterals()" classname="org.springframework.expression.spel.EvaluationTests" time="0.001"/>
-  <testcase name="testStaticRef02()" classname="org.springframework.expression.spel.EvaluationTests" time="0.065"/>
+  <testcase name="testIndexer03()" classname="org.springframework.expression.spel.EvaluationTests" time="0.001"/>
+  <testcase name="caseInsensitiveNullLiterals()" classname="org.springframework.expression.spel.EvaluationTests" time="0.0"/>
+  <testcase name="testStaticRef02()" classname="org.springframework.expression.spel.EvaluationTests" time="0.045"/>
   <testcase name="testUnaryMinus01()" classname="org.springframework.expression.spel.EvaluationTests" time="0.0"/>
-  <testcase name="decrement01root()" classname="org.springframework.expression.spel.EvaluationTests" time="0.001"/>
-  <testcase name="testAndWithNullValueOnLeft()" classname="org.springframework.expression.spel.EvaluationTests" time="0.0"/>
-  <testcase name="testMixingOperators01()" classname="org.springframework.expression.spel.EvaluationTests" time="0.0"/>
-  <testcase name="testMatchesWithPatternAccessThreshold()" classname="org.springframework.expression.spel.EvaluationTests" time="0.06"/>
-  <testcase name="ctorCallWithRootReferenceThroughParameter()" classname="org.springframework.expression.spel.EvaluationTests" time="0.001"/>
+  <testcase name="decrement01root()" classname="org.springframework.expression.spel.EvaluationTests" time="0.002"/>
+  <testcase name="testAndWithNullValueOnLeft()" classname="org.springframework.expression.spel.EvaluationTests" time="0.001"/>
+  <testcase name="testMixingOperators01()" classname="org.springframework.expression.spel.EvaluationTests" time="0.001"/>
+  <testcase name="testMatchesWithPatternAccessThreshold()" classname="org.springframework.expression.spel.EvaluationTests" time="0.35"/>
+  <testcase name="ctorCallWithRootReferenceThroughParameter()" classname="org.springframework.expression.spel.EvaluationTests" time="0.002"/>
   <testcase name="testVariableAccess01()" classname="org.springframework.expression.spel.EvaluationTests" time="0.0"/>
-  <testcase name="increment02prefix()" classname="org.springframework.expression.spel.EvaluationTests" time="0.0"/>
+  <testcase name="increment02prefix()" classname="org.springframework.expression.spel.EvaluationTests" time="0.001"/>
   <testcase name="testTernaryOperatorWithNullValue()" classname="org.springframework.expression.spel.EvaluationTests" time="0.0"/>
-  <testcase name="limitCollectionGrowing()" classname="org.springframework.expression.spel.EvaluationTests" time="0.0"/>
-  <testcase name="decrement02postfix()" classname="org.springframework.expression.spel.EvaluationTests" time="0.0"/>
+  <testcase name="limitCollectionGrowing()" classname="org.springframework.expression.spel.EvaluationTests" time="0.001"/>
+  <testcase name="decrement02postfix()" classname="org.springframework.expression.spel.EvaluationTests" time="0.013"/>
   <testcase name="testAssignmentToVariables01()" classname="org.springframework.expression.spel.EvaluationTests" time="0.0"/>
   <testcase name="testConstructorInvocation01()" classname="org.springframework.expression.spel.EvaluationTests" time="0.001"/>
   <testcase name="testConstructorInvocation05()" classname="org.springframework.expression.spel.EvaluationTests" time="0.0"/>
   <testcase name="testConstructorInvocation06()" classname="org.springframework.expression.spel.EvaluationTests" time="0.0"/>
   <testcase name="testSafeNavigation()" classname="org.springframework.expression.spel.EvaluationTests" time="0.0"/>
-  <testcase name="increment03()" classname="org.springframework.expression.spel.EvaluationTests" time="0.001"/>
+  <testcase name="increment03()" classname="org.springframework.expression.spel.EvaluationTests" time="0.002"/>
   <testcase name="increment04()" classname="org.springframework.expression.spel.EvaluationTests" time="0.001"/>
-  <testcase name="testTypeReferences01()" classname="org.springframework.expression.spel.EvaluationTests" time="0.001"/>
-  <testcase name="testTypeReferences02()" classname="org.springframework.expression.spel.EvaluationTests" time="0.0"/>
-  <testcase name="testResolvingString()" classname="org.springframework.expression.spel.EvaluationTests" time="0.001"/>
-  <testcase name="methodCallWithRootReferenceThroughParameterThatIsAFunctionCall()" classname="org.springframework.expression.spel.EvaluationTests" time="0.001"/>
+  <testcase name="testTypeReferences01()" classname="org.springframework.expression.spel.EvaluationTests" time="0.002"/>
+  <testcase name="testTypeReferences02()" classname="org.springframework.expression.spel.EvaluationTests" time="0.001"/>
+  <testcase name="testResolvingString()" classname="org.springframework.expression.spel.EvaluationTests" time="0.002"/>
+  <testcase name="methodCallWithRootReferenceThroughParameterThatIsAFunctionCall()" classname="org.springframework.expression.spel.EvaluationTests" time="0.002"/>
   <testcase name="testAndWithNullValueOnRight()" classname="org.springframework.expression.spel.EvaluationTests" time="0.001"/>
-  <testcase name="testCreateMapsOnAttemptToIndexNull01()" classname="org.springframework.expression.spel.EvaluationTests" time="0.001"/>
-  <testcase name="testResolvingList()" classname="org.springframework.expression.spel.EvaluationTests" time="0.001"/>
-  <testcase name="testTypeReferencesAndQualifiedIdentifierCaching()" classname="org.springframework.expression.spel.EvaluationTests" time="0.0"/>
-  <testcase name="testRelOperatorsMatches01()" classname="org.springframework.expression.spel.EvaluationTests" time="0.0"/>
-  <testcase name="testRelOperatorsMatches02()" classname="org.springframework.expression.spel.EvaluationTests" time="0.0"/>
+  <testcase name="testCreateMapsOnAttemptToIndexNull01()" classname="org.springframework.expression.spel.EvaluationTests" time="0.003"/>
+  <testcase name="testResolvingList()" classname="org.springframework.expression.spel.EvaluationTests" time="0.003"/>
+  <testcase name="testTypeReferencesAndQualifiedIdentifierCaching()" classname="org.springframework.expression.spel.EvaluationTests" time="0.001"/>
+  <testcase name="testRelOperatorsMatches01()" classname="org.springframework.expression.spel.EvaluationTests" time="0.001"/>
+  <testcase name="testRelOperatorsMatches02()" classname="org.springframework.expression.spel.EvaluationTests" time="0.001"/>
   <testcase name="testRelOperatorsMatches03()" classname="org.springframework.expression.spel.EvaluationTests" time="0.0"/>
   <testcase name="testRelOperatorsMatches04()" classname="org.springframework.expression.spel.EvaluationTests" time="0.0"/>
-  <testcase name="testRelOperatorsMatches05()" classname="org.springframework.expression.spel.EvaluationTests" time="0.001"/>
-  <testcase name="testRelOperatorsInstanceof01()" classname="org.springframework.expression.spel.EvaluationTests" time="0.0"/>
+  <testcase name="testRelOperatorsMatches05()" classname="org.springframework.expression.spel.EvaluationTests" time="0.0"/>
+  <testcase name="testRelOperatorsInstanceof01()" classname="org.springframework.expression.spel.EvaluationTests" time="0.023"/>
   <testcase name="testRelOperatorsInstanceof04()" classname="org.springframework.expression.spel.EvaluationTests" time="0.001"/>
-  <testcase name="testRelOperatorsInstanceof05()" classname="org.springframework.expression.spel.EvaluationTests" time="0.0"/>
-  <testcase name="testRelOperatorsInstanceof06()" classname="org.springframework.expression.spel.EvaluationTests" time="0.0"/>
+  <testcase name="testRelOperatorsInstanceof05()" classname="org.springframework.expression.spel.EvaluationTests" time="0.001"/>
+  <testcase name="testRelOperatorsInstanceof06()" classname="org.springframework.expression.spel.EvaluationTests" time="0.001"/>
   <testcase name="testOrWithNullValueOnRight()" classname="org.springframework.expression.spel.EvaluationTests" time="0.001"/>
-  <testcase name="testStringType()" classname="org.springframework.expression.spel.EvaluationTests" time="0.0"/>
+  <testcase name="testStringType()" classname="org.springframework.expression.spel.EvaluationTests" time="0.001"/>
   <testcase name="testRogueTrailingDotCausesNPE_SPR6866()" classname="org.springframework.expression.spel.EvaluationTests" time="0.001"/>
   <testcase name="operatorVariants()" classname="org.springframework.expression.spel.EvaluationTests" time="0.0"/>
   <system-out><![CDATA[===> Expression 'true++' - AST start

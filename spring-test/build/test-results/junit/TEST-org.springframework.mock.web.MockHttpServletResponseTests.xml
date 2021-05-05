@@ -1,60 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.mock.web.MockHttpServletResponseTests" tests="53" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:41:26" hostname="wangweilideMacBook-Pro.local" time="0.026">
+<testsuite name="org.springframework.mock.web.MockHttpServletResponseTests" tests="53" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:43:11" hostname="wangweilideMBP.lan" time="0.012">
   <properties/>
   <testcase name="setContentTypeUTF8()" classname="org.springframework.mock.web.MockHttpServletResponseTests" time="0.0"/>
   <testcase name="servletWriterCommittedWhenBufferSizeExceeded()" classname="org.springframework.mock.web.MockHttpServletResponseTests" time="0.0"/>
-  <testcase name="addCookieHeaderWithExpiresAttributeWithoutMaxAgeAttribute()" classname="org.springframework.mock.web.MockHttpServletResponseTests" time="0.001"/>
-  <testcase name="resetResetsCharset()" classname="org.springframework.mock.web.MockHttpServletResponseTests" time="0.0"/>
-  <testcase name="setCookieHeaderWithMaxAgeAndExpiresAttributes()" classname="org.springframework.mock.web.MockHttpServletResponseTests" time="0.001"/>
+  <testcase name="addCookieHeaderWithExpiresAttributeWithoutMaxAgeAttribute()" classname="org.springframework.mock.web.MockHttpServletResponseTests" time="0.0"/>
+  <testcase name="resetResetsCharset()" classname="org.springframework.mock.web.MockHttpServletResponseTests" time="0.001"/>
+  <testcase name="setCookieHeaderWithMaxAgeAndExpiresAttributes()" classname="org.springframework.mock.web.MockHttpServletResponseTests" time="0.0"/>
   <testcase name="addCookieHeaderWithMaxAgeAndExpiresAttributes()" classname="org.springframework.mock.web.MockHttpServletResponseTests" time="0.0"/>
-  <testcase name="getNonExistentDateHeader()" classname="org.springframework.mock.web.MockHttpServletResponseTests" time="0.0"/>
+  <testcase name="getNonExistentDateHeader()" classname="org.springframework.mock.web.MockHttpServletResponseTests" time="0.001"/>
   <testcase name="servletWriterAutoFlushedForChar()" classname="org.springframework.mock.web.MockHttpServletResponseTests" time="0.0"/>
   <testcase name="addCookieHeaderWithMaxAgeAndZeroExpiresAttributes()" classname="org.springframework.mock.web.MockHttpServletResponseTests" time="0.0"/>
-  <testcase name="setCookieHeaderWithZeroExpiresAttribute()" classname="org.springframework.mock.web.MockHttpServletResponseTests" time="0.001"/>
+  <testcase name="setCookieHeaderWithZeroExpiresAttribute()" classname="org.springframework.mock.web.MockHttpServletResponseTests" time="0.0"/>
   <testcase name="httpHeaderNameCasingIsPreserved()" classname="org.springframework.mock.web.MockHttpServletResponseTests" time="0.0"/>
-  <testcase name="getInvalidDateHeader()" classname="org.springframework.mock.web.MockHttpServletResponseTests" time="0.001"/>
+  <testcase name="getInvalidDateHeader()" classname="org.springframework.mock.web.MockHttpServletResponseTests" time="0.0"/>
   <testcase name="contentAsUtf8()" classname="org.springframework.mock.web.MockHttpServletResponseTests" time="0.0"/>
   <testcase name="servletOutputStreamCommittedOnOutputStreamFlush()" classname="org.springframework.mock.web.MockHttpServletResponseTests" time="0.0"/>
-  <testcase name="contentLanguageHeaderWithSingleValue()" classname="org.springframework.mock.web.MockHttpServletResponseTests" time="0.003"/>
+  <testcase name="contentLanguageHeaderWithSingleValue()" classname="org.springframework.mock.web.MockHttpServletResponseTests" time="0.001"/>
   <testcase name="contentLength()" classname="org.springframework.mock.web.MockHttpServletResponseTests" time="0.0"/>
-  <testcase name="locationHeaderUpdatesGetRedirectedUrl()" classname="org.springframework.mock.web.MockHttpServletResponseTests" time="0.0"/>
+  <testcase name="locationHeaderUpdatesGetRedirectedUrl()" classname="org.springframework.mock.web.MockHttpServletResponseTests" time="0.001"/>
   <testcase name="contentTypeHeader()" classname="org.springframework.mock.web.MockHttpServletResponseTests" time="0.0"/>
   <testcase name="addCookieHeader()" classname="org.springframework.mock.web.MockHttpServletResponseTests" time="0.0"/>
   <testcase name="addCookie()" classname="org.springframework.mock.web.MockHttpServletResponseTests" time="0.0"/>
   <testcase name="modifyStatusMessageAfterSendError()" classname="org.springframework.mock.web.MockHttpServletResponseTests" time="0.0"/>
-  <testcase name="servletWriterAutoFlushedForCharArray()" classname="org.springframework.mock.web.MockHttpServletResponseTests" time="0.0"/>
-  <testcase name="sendRedirect()" classname="org.springframework.mock.web.MockHttpServletResponseTests" time="0.001"/>
+  <testcase name="servletWriterAutoFlushedForCharArray()" classname="org.springframework.mock.web.MockHttpServletResponseTests" time="0.001"/>
+  <testcase name="sendRedirect()" classname="org.springframework.mock.web.MockHttpServletResponseTests" time="0.0"/>
   <testcase name="contentLengthHeader()" classname="org.springframework.mock.web.MockHttpServletResponseTests" time="0.0"/>
   <testcase name="setLocaleWithNullValue()" classname="org.springframework.mock.web.MockHttpServletResponseTests" time="0.0"/>
-  <testcase name="getDateHeader()" classname="org.springframework.mock.web.MockHttpServletResponseTests" time="0.001"/>
+  <testcase name="getDateHeader()" classname="org.springframework.mock.web.MockHttpServletResponseTests" time="0.0"/>
   <testcase name="contentTypeHeaderWithMoreComplexCharsetSyntax()" classname="org.springframework.mock.web.MockHttpServletResponseTests" time="0.0"/>
-  <testcase name="setCookieHeader()" classname="org.springframework.mock.web.MockHttpServletResponseTests" time="0.001"/>
-  <testcase name="servletOutputStreamCommittedWhenBufferSizeExceeded()" classname="org.springframework.mock.web.MockHttpServletResponseTests" time="0.0"/>
+  <testcase name="setCookieHeader()" classname="org.springframework.mock.web.MockHttpServletResponseTests" time="0.0"/>
+  <testcase name="servletOutputStreamCommittedWhenBufferSizeExceeded()" classname="org.springframework.mock.web.MockHttpServletResponseTests" time="0.001"/>
   <testcase name="servletOutputStreamCommittedOnFlushBuffer()" classname="org.springframework.mock.web.MockHttpServletResponseTests" time="0.0"/>
-  <testcase name="addDateHeader()" classname="org.springframework.mock.web.MockHttpServletResponseTests" time="0.001"/>
+  <testcase name="addDateHeader()" classname="org.springframework.mock.web.MockHttpServletResponseTests" time="0.0"/>
   <testcase name="[1] headerName=Content-Type" classname="org.springframework.mock.web.MockHttpServletResponseTests" time="0.0"/>
   <testcase name="[2] headerName=Content-Length" classname="org.springframework.mock.web.MockHttpServletResponseTests" time="0.0"/>
   <testcase name="[3] headerName=Content-Language" classname="org.springframework.mock.web.MockHttpServletResponseTests" time="0.0"/>
   <testcase name="[4] headerName=Set-Cookie" classname="org.springframework.mock.web.MockHttpServletResponseTests" time="0.0"/>
-  <testcase name="[5] headerName=enigma" classname="org.springframework.mock.web.MockHttpServletResponseTests" time="0.001"/>
+  <testcase name="[5] headerName=enigma" classname="org.springframework.mock.web.MockHttpServletResponseTests" time="0.0"/>
   <testcase name="contentTypeHeaderUTF8()" classname="org.springframework.mock.web.MockHttpServletResponseTests" time="0.0"/>
   <testcase name="contentLengthIntHeader()" classname="org.springframework.mock.web.MockHttpServletResponseTests" time="0.0"/>
   <testcase name="[1] headerName=Content-Type" classname="org.springframework.mock.web.MockHttpServletResponseTests" time="0.0"/>
-  <testcase name="[2] headerName=Content-Length" classname="org.springframework.mock.web.MockHttpServletResponseTests" time="0.001"/>
+  <testcase name="[2] headerName=Content-Length" classname="org.springframework.mock.web.MockHttpServletResponseTests" time="0.0"/>
   <testcase name="[3] headerName=Content-Language" classname="org.springframework.mock.web.MockHttpServletResponseTests" time="0.0"/>
   <testcase name="[4] headerName=Set-Cookie" classname="org.springframework.mock.web.MockHttpServletResponseTests" time="0.0"/>
   <testcase name="[5] headerName=enigma" classname="org.springframework.mock.web.MockHttpServletResponseTests" time="0.0"/>
   <testcase name="setDateHeader()" classname="org.springframework.mock.web.MockHttpServletResponseTests" time="0.0"/>
-  <testcase name="modifyStatusAfterSendError()" classname="org.springframework.mock.web.MockHttpServletResponseTests" time="0.001"/>
+  <testcase name="modifyStatusAfterSendError()" classname="org.springframework.mock.web.MockHttpServletResponseTests" time="0.0"/>
   <testcase name="servletWriterCommittedOnWriterClose()" classname="org.springframework.mock.web.MockHttpServletResponseTests" time="0.0"/>
   <testcase name="servletWriterCommittedOnWriterFlush()" classname="org.springframework.mock.web.MockHttpServletResponseTests" time="0.0"/>
   <testcase name="setCharacterEncodingThenContentType()" classname="org.springframework.mock.web.MockHttpServletResponseTests" time="0.0"/>
-  <testcase name="cookies()" classname="org.springframework.mock.web.MockHttpServletResponseTests" time="0.001"/>
+  <testcase name="cookies()" classname="org.springframework.mock.web.MockHttpServletResponseTests" time="0.0"/>
   <testcase name="servletWriterAutoFlushedForString()" classname="org.springframework.mock.web.MockHttpServletResponseTests" time="0.0"/>
   <testcase name="setContentType()" classname="org.springframework.mock.web.MockHttpServletResponseTests" time="0.0"/>
   <testcase name="setContentTypeThenCharacterEncoding()" classname="org.springframework.mock.web.MockHttpServletResponseTests" time="0.0"/>
   <testcase name="contentLanguageHeaderWithMultipleValues()" classname="org.springframework.mock.web.MockHttpServletResponseTests" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[[MockCookie@49322c8 name = 'SESSION', value = '123', Path = '/', Domain = [null], Version = 0, Comment = [null], Secure = false, HttpOnly = false, SameSite = [null], Max-Age = -1, Expires = 'Tue, 8 Oct 2019 19:50:00 GMT']
+  <system-err><![CDATA[[MockCookie@7559405d name = 'SESSION', value = '123', Path = '/', Domain = [null], Version = 0, Comment = [null], Secure = false, HttpOnly = false, SameSite = [null], Max-Age = -1, Expires = 'Tue, 8 Oct 2019 19:50:00 GMT']
 ]]></system-err>
 </testsuite>

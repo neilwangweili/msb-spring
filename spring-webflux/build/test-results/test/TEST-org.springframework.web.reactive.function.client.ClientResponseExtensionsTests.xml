@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.web.reactive.function.client.ClientResponseExtensionsTests" tests="16" skipped="0" failures="0" errors="0" timestamp="2021-04-26T08:46:29" hostname="wangweilideMacBook-Pro.local" time="1.814">
+<testsuite name="org.springframework.web.reactive.function.client.ClientResponseExtensionsTests" tests="16" skipped="0" failures="0" errors="0" timestamp="2021-05-01T10:01:59" hostname="wangweilideMBP.lan" time="2.098">
   <properties/>
-  <testcase name="bodyToMono with reified type parameters()" classname="org.springframework.web.reactive.function.client.ClientResponseExtensionsTests" time="0.889"/>
-  <testcase name="bodyToFlow with reified type parameters()" classname="org.springframework.web.reactive.function.client.ClientResponseExtensionsTests" time="0.449"/>
-  <testcase name="awaitEntityList with KClass parameter()" classname="org.springframework.web.reactive.function.client.ClientResponseExtensionsTests" time="0.034"/>
-  <testcase name="createExceptionAndAwait()" classname="org.springframework.web.reactive.function.client.ClientResponseExtensionsTests" time="0.208"/>
-  <testcase name="awaitBodyOrNullGeneric with KClass parameter()" classname="org.springframework.web.reactive.function.client.ClientResponseExtensionsTests" time="0.009"/>
-  <testcase name="awaitEntityList()" classname="org.springframework.web.reactive.function.client.ClientResponseExtensionsTests" time="0.022"/>
-  <testcase name="awaitEntity with KClass parameter()" classname="org.springframework.web.reactive.function.client.ClientResponseExtensionsTests" time="0.009"/>
-  <testcase name="bodyToFlux with reified type parameters()" classname="org.springframework.web.reactive.function.client.ClientResponseExtensionsTests" time="0.009"/>
-  <testcase name="awaitEntity()" classname="org.springframework.web.reactive.function.client.ClientResponseExtensionsTests" time="0.026"/>
-  <testcase name="awaitBody()" classname="org.springframework.web.reactive.function.client.ClientResponseExtensionsTests" time="0.009"/>
-  <testcase name="awaitBodilessEntity()" classname="org.springframework.web.reactive.function.client.ClientResponseExtensionsTests" time="0.094"/>
-  <testcase name="bodyToFlow with KClass parameter()" classname="org.springframework.web.reactive.function.client.ClientResponseExtensionsTests" time="0.004"/>
-  <testcase name="awaitBody with KClass parameter()" classname="org.springframework.web.reactive.function.client.ClientResponseExtensionsTests" time="0.006"/>
+  <testcase name="bodyToMono with reified type parameters()" classname="org.springframework.web.reactive.function.client.ClientResponseExtensionsTests" time="0.951"/>
+  <testcase name="bodyToFlow with reified type parameters()" classname="org.springframework.web.reactive.function.client.ClientResponseExtensionsTests" time="0.415"/>
+  <testcase name="awaitEntityList with KClass parameter()" classname="org.springframework.web.reactive.function.client.ClientResponseExtensionsTests" time="0.025"/>
+  <testcase name="createExceptionAndAwait()" classname="org.springframework.web.reactive.function.client.ClientResponseExtensionsTests" time="0.394"/>
+  <testcase name="awaitBodyOrNullGeneric with KClass parameter()" classname="org.springframework.web.reactive.function.client.ClientResponseExtensionsTests" time="0.01"/>
+  <testcase name="awaitEntityList()" classname="org.springframework.web.reactive.function.client.ClientResponseExtensionsTests" time="0.019"/>
+  <testcase name="awaitEntity with KClass parameter()" classname="org.springframework.web.reactive.function.client.ClientResponseExtensionsTests" time="0.01"/>
+  <testcase name="bodyToFlux with reified type parameters()" classname="org.springframework.web.reactive.function.client.ClientResponseExtensionsTests" time="0.015"/>
+  <testcase name="awaitEntity()" classname="org.springframework.web.reactive.function.client.ClientResponseExtensionsTests" time="0.018"/>
+  <testcase name="awaitBody()" classname="org.springframework.web.reactive.function.client.ClientResponseExtensionsTests" time="0.016"/>
+  <testcase name="awaitBodilessEntity()" classname="org.springframework.web.reactive.function.client.ClientResponseExtensionsTests" time="0.155"/>
+  <testcase name="bodyToFlow with KClass parameter()" classname="org.springframework.web.reactive.function.client.ClientResponseExtensionsTests" time="0.008"/>
+  <testcase name="awaitBody with KClass parameter()" classname="org.springframework.web.reactive.function.client.ClientResponseExtensionsTests" time="0.007"/>
   <testcase name="ResponseSpec#toEntityList with reified type parameters()" classname="org.springframework.web.reactive.function.client.ClientResponseExtensionsTests" time="0.006"/>
-  <testcase name="toEntity with reified type parameters()" classname="org.springframework.web.reactive.function.client.ClientResponseExtensionsTests" time="0.005"/>
-  <testcase name="awaitBodyOrNull()" classname="org.springframework.web.reactive.function.client.ClientResponseExtensionsTests" time="0.017"/>
+  <testcase name="toEntity with reified type parameters()" classname="org.springframework.web.reactive.function.client.ClientResponseExtensionsTests" time="0.006"/>
+  <testcase name="awaitBodyOrNull()" classname="org.springframework.web.reactive.function.client.ClientResponseExtensionsTests" time="0.022"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

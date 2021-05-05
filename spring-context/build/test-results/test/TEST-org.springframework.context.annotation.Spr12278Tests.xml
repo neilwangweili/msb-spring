@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.context.annotation.Spr12278Tests" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:40:46" hostname="wangweilideMacBook-Pro.local" time="0.02">
+<testsuite name="org.springframework.context.annotation.Spr12278Tests" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:31:44" hostname="wangweilideMBP.lan" time="0.027">
   <properties/>
-  <testcase name="componentTwoConstructorsNoHint()" classname="org.springframework.context.annotation.Spr12278Tests" time="0.009"/>
-  <testcase name="componentTwoSpecificConstructorsNoHint()" classname="org.springframework.context.annotation.Spr12278Tests" time="0.007"/>
+  <testcase name="componentTwoConstructorsNoHint()" classname="org.springframework.context.annotation.Spr12278Tests" time="0.007"/>
+  <testcase name="componentTwoSpecificConstructorsNoHint()" classname="org.springframework.context.annotation.Spr12278Tests" time="0.016"/>
   <testcase name="componentSingleConstructor()" classname="org.springframework.context.annotation.Spr12278Tests" time="0.004"/>
-  <system-out><![CDATA[15:40:46.769 [Test worker] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'spr12278Tests.TwoSpecificConstructorsComponent': Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.context.annotation.Spr12278Tests$TwoSpecificConstructorsComponent]: No default constructor found; nested exception is java.lang.NoSuchMethodException: org.springframework.context.annotation.Spr12278Tests$TwoSpecificConstructorsComponent.<init>()
+  <system-out><![CDATA[17:31:44.270 [Test worker] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'spr12278Tests.TwoSpecificConstructorsComponent': Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.context.annotation.Spr12278Tests$TwoSpecificConstructorsComponent]: No default constructor found; nested exception is java.lang.NoSuchMethodException: org.springframework.context.annotation.Spr12278Tests$TwoSpecificConstructorsComponent.<init>()
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

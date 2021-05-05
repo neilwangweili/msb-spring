@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.scheduling.annotation.AsyncAnnotationBeanPostProcessorTests" tests="11" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:41:13" hostname="wangweilideMacBook-Pro.local" time="0.055">
+<testsuite name="org.springframework.scheduling.annotation.AsyncAnnotationBeanPostProcessorTests" tests="11" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:32:14" hostname="wangweilideMBP.lan" time="0.044">
   <properties/>
-  <testcase name="configuredThroughNamespace()" classname="org.springframework.scheduling.annotation.AsyncAnnotationBeanPostProcessorTests" time="0.021"/>
+  <testcase name="configuredThroughNamespace()" classname="org.springframework.scheduling.annotation.AsyncAnnotationBeanPostProcessorTests" time="0.016"/>
   <testcase name="taskExecutorByBeanName()" classname="org.springframework.scheduling.annotation.AsyncAnnotationBeanPostProcessorTests" time="0.003"/>
-  <testcase name="taskExecutorByBeanType()" classname="org.springframework.scheduling.annotation.AsyncAnnotationBeanPostProcessorTests" time="0.003"/>
+  <testcase name="taskExecutorByBeanType()" classname="org.springframework.scheduling.annotation.AsyncAnnotationBeanPostProcessorTests" time="0.002"/>
   <testcase name="exceptionHandlerThrowsUnexpectedException()" classname="org.springframework.scheduling.annotation.AsyncAnnotationBeanPostProcessorTests" time="0.001"/>
-  <testcase name="handleExceptionWithCustomExceptionHandler()" classname="org.springframework.scheduling.annotation.AsyncAnnotationBeanPostProcessorTests" time="0.002"/>
+  <testcase name="handleExceptionWithCustomExceptionHandler()" classname="org.springframework.scheduling.annotation.AsyncAnnotationBeanPostProcessorTests" time="0.001"/>
   <testcase name="threadNamePrefix()" classname="org.springframework.scheduling.annotation.AsyncAnnotationBeanPostProcessorTests" time="0.001"/>
-  <testcase name="handleExceptionWithFuture()" classname="org.springframework.scheduling.annotation.AsyncAnnotationBeanPostProcessorTests" time="0.014"/>
+  <testcase name="handleExceptionWithFuture()" classname="org.springframework.scheduling.annotation.AsyncAnnotationBeanPostProcessorTests" time="0.01"/>
   <testcase name="proxyCreated()" classname="org.springframework.scheduling.annotation.AsyncAnnotationBeanPostProcessorTests" time="0.001"/>
   <testcase name="handleExceptionWithListenableFuture()" classname="org.springframework.scheduling.annotation.AsyncAnnotationBeanPostProcessorTests" time="0.004"/>
   <testcase name="invokedAsynchronously()" classname="org.springframework.scheduling.annotation.AsyncAnnotationBeanPostProcessorTests" time="0.001"/>

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.core.annotation.MergedAnnotationsCollectionTests" tests="21" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:37:44" hostname="wangweilideMacBook-Pro.local" time="0.058">
+<testsuite name="org.springframework.core.annotation.MergedAnnotationsCollectionTests" tests="21" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:11:31" hostname="wangweilideMBP.lan" time="0.063">
   <properties/>
-  <testcase name="getMetaWhenRootHasNoAttributeValuesShouldAliasAttributes()" classname="org.springframework.core.annotation.MergedAnnotationsCollectionTests" time="0.002"/>
-  <testcase name="getWithPredicateReturnsOnlyMatching()" classname="org.springframework.core.annotation.MergedAnnotationsCollectionTests" time="0.004"/>
+  <testcase name="getMetaWhenRootHasNoAttributeValuesShouldAliasAttributes()" classname="org.springframework.core.annotation.MergedAnnotationsCollectionTests" time="0.003"/>
+  <testcase name="getWithPredicateReturnsOnlyMatching()" classname="org.springframework.core.annotation.MergedAnnotationsCollectionTests" time="0.003"/>
   <testcase name="getMetaWhenRootHasAttributeValuesShouldAliasAttributes()" classname="org.springframework.core.annotation.MergedAnnotationsCollectionTests" time="0.0"/>
-  <testcase name="createWhenAnnotationAggregateIndexIsNotZeroThrowsException()" classname="org.springframework.core.annotation.MergedAnnotationsCollectionTests" time="0.042"/>
-  <testcase name="isPresentWhenMetaPresentReturnsTrue()" classname="org.springframework.core.annotation.MergedAnnotationsCollectionTests" time="0.003"/>
-  <testcase name="getWithSelectorReturnsSelected()" classname="org.springframework.core.annotation.MergedAnnotationsCollectionTests" time="0.001"/>
-  <testcase name="getWhenNotPresentReturnsMissing()" classname="org.springframework.core.annotation.MergedAnnotationsCollectionTests" time="0.0"/>
+  <testcase name="createWhenAnnotationAggregateIndexIsNotZeroThrowsException()" classname="org.springframework.core.annotation.MergedAnnotationsCollectionTests" time="0.043"/>
+  <testcase name="isPresentWhenMetaPresentReturnsTrue()" classname="org.springframework.core.annotation.MergedAnnotationsCollectionTests" time="0.002"/>
+  <testcase name="getWithSelectorReturnsSelected()" classname="org.springframework.core.annotation.MergedAnnotationsCollectionTests" time="0.0"/>
+  <testcase name="getWhenNotPresentReturnsMissing()" classname="org.springframework.core.annotation.MergedAnnotationsCollectionTests" time="0.001"/>
   <testcase name="isDirectlyPresentWhenMetaPresentReturnsFalse()" classname="org.springframework.core.annotation.MergedAnnotationsCollectionTests" time="0.0"/>
-  <testcase name="streamStreamsInCorrectOrder()" classname="org.springframework.core.annotation.MergedAnnotationsCollectionTests" time="0.001"/>
+  <testcase name="streamStreamsInCorrectOrder()" classname="org.springframework.core.annotation.MergedAnnotationsCollectionTests" time="0.002"/>
   <testcase name="isPresentWhenNotPresentReturnsFalse()" classname="org.springframework.core.annotation.MergedAnnotationsCollectionTests" time="0.0"/>
-  <testcase name="createWhenAnnotationIsNotDirectlyPresentThrowsException()" classname="org.springframework.core.annotation.MergedAnnotationsCollectionTests" time="0.001"/>
+  <testcase name="createWhenAnnotationIsNotDirectlyPresentThrowsException()" classname="org.springframework.core.annotation.MergedAnnotationsCollectionTests" time="0.002"/>
   <testcase name="iterateIteratesInCorrectOrder()" classname="org.springframework.core.annotation.MergedAnnotationsCollectionTests" time="0.0"/>
   <testcase name="getReturnsAppropriateAnnotation()" classname="org.springframework.core.annotation.MergedAnnotationsCollectionTests" time="0.0"/>
   <testcase name="streamWithTypeStreamsInCorrectOrder()" classname="org.springframework.core.annotation.MergedAnnotationsCollectionTests" time="0.001"/>
@@ -20,8 +20,8 @@
   <testcase name="isDirectlyPresentWhenDirectlyPresentReturnsTrue()" classname="org.springframework.core.annotation.MergedAnnotationsCollectionTests" time="0.0"/>
   <testcase name="ofWhenEmptyReturnsSharedNoneInstance()" classname="org.springframework.core.annotation.MergedAnnotationsCollectionTests" time="0.0"/>
   <testcase name="isDirectlyPresentWhenNotPresentReturnsFalse()" classname="org.springframework.core.annotation.MergedAnnotationsCollectionTests" time="0.0"/>
-  <testcase name="ofWhenDirectAnnotationsIsNullThrowsException()" classname="org.springframework.core.annotation.MergedAnnotationsCollectionTests" time="0.001"/>
-  <testcase name="spliteratorIteratesInCorrectOrder()" classname="org.springframework.core.annotation.MergedAnnotationsCollectionTests" time="0.0"/>
+  <testcase name="ofWhenDirectAnnotationsIsNullThrowsException()" classname="org.springframework.core.annotation.MergedAnnotationsCollectionTests" time="0.0"/>
+  <testcase name="spliteratorIteratesInCorrectOrder()" classname="org.springframework.core.annotation.MergedAnnotationsCollectionTests" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

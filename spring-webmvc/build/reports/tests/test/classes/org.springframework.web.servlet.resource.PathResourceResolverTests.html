@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.016s</div>
+<div class="counter">0.027s</div>
 <p>duration</p>
 </div>
 </td>
@@ -84,22 +84,22 @@
 </tr>
 <tr>
 <td class="success">checkRelativeLocation()</td>
-<td class="success">0.001s</td>
+<td class="success">0s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">checkResource()</td>
-<td class="success">0.006s</td>
+<td class="success">0.024s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">checkResourceWithAllowedLocations()</td>
-<td class="success">0.001s</td>
+<td class="success">0s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">checkServletContextResource()</td>
-<td class="success">0.001s</td>
+<td class="success">0s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -109,17 +109,17 @@
 </tr>
 <tr>
 <td class="success">relativePathEncodedForUrlResource()</td>
-<td class="success">0.006s</td>
+<td class="success">0s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">resolveFromClasspath()</td>
-<td class="success">0s</td>
+<td class="success">0.001s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">resolveFromClasspathRoot()</td>
-<td class="success">0s</td>
+<td class="success">0.001s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -132,19 +132,19 @@
 <div id="tab1" class="tab">
 <h2>Standard output</h2>
 <span class="code">
-<pre>15:41:52.068 [Test worker] WARN  o.s.w.s.r.PathResourceResolver - Resource path &quot;../testsecret/secret.txt&quot; was successfully resolved but resource &quot;file:/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt&quot; is neither under the current location &quot;file:/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/test/&quot; nor under any of the allowed locations []
-15:41:52.069 [Test worker] WARN  o.s.w.s.r.PathResourceResolver - Resource path &quot;test/../../testsecret/secret.txt&quot; was successfully resolved but resource &quot;file:/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt&quot; is neither under the current location &quot;file:/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/test/&quot; nor under any of the allowed locations []
-15:41:52.069 [Test worker] WARN  o.s.w.s.r.PathResourceResolver - Resource path &quot;file:/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt&quot; was successfully resolved but resource &quot;file:/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt&quot; is neither under the current location &quot;file:/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/test/&quot; nor under any of the allowed locations []
-15:41:52.070 [Test worker] WARN  o.s.w.s.r.PathResourceResolver - Resource path &quot;/file:/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt&quot; was successfully resolved but resource &quot;file:/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt&quot; is neither under the current location &quot;file:/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/test/&quot; nor under any of the allowed locations []
-15:41:52.070 [Test worker] WARN  o.s.w.s.r.PathResourceResolver - Resource path &quot;//Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt&quot; was successfully resolved but resource &quot;file:/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt&quot; is neither under the current location &quot;file:/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/test/&quot; nor under any of the allowed locations []
-15:41:52.070 [Test worker] WARN  o.s.w.s.r.PathResourceResolver - Resource path &quot;////../../Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt&quot; was successfully resolved but resource &quot;file:/../../Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt&quot; is neither under the current location &quot;file:/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/test/&quot; nor under any of the allowed locations []
-15:41:52.071 [Test worker] WARN  o.s.w.s.r.PathResourceResolver - Resolved resource path contains encoded &quot;../&quot; or &quot;..\&quot;: file:/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/test/%2E%2E/testsecret/secret.txt
-15:41:52.071 [Test worker] WARN  o.s.w.s.r.PathResourceResolver - Resource path &quot;/%2E%2E/testsecret/secret.txt&quot; was successfully resolved but resource &quot;file:/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/test/%2E%2E/testsecret/secret.txt&quot; is neither under the current location &quot;file:/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/test/&quot; nor under any of the allowed locations []
-15:41:52.072 [Test worker] WARN  o.s.w.s.r.PathResourceResolver - Resolved resource path contains encoded &quot;../&quot; or &quot;..\&quot;: file:/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/test/%2e%2e/testsecret/secret.txt
-15:41:52.072 [Test worker] WARN  o.s.w.s.r.PathResourceResolver - Resource path &quot;/%2e%2e/testsecret/secret.txt&quot; was successfully resolved but resource &quot;file:/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/test/%2e%2e/testsecret/secret.txt&quot; is neither under the current location &quot;file:/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/test/&quot; nor under any of the allowed locations []
-15:41:52.072 [Test worker] WARN  o.s.w.s.r.PathResourceResolver - Resource path &quot; /Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt&quot; was successfully resolved but resource &quot;file:/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt&quot; is neither under the current location &quot;file:/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/test/&quot; nor under any of the allowed locations []
-15:41:52.072 [Test worker] WARN  o.s.w.s.r.PathResourceResolver - Resource path &quot;/  /Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt&quot; was successfully resolved but resource &quot;file:/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt&quot; is neither under the current location &quot;file:/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/test/&quot; nor under any of the allowed locations []
-15:41:52.072 [Test worker] WARN  o.s.w.s.r.PathResourceResolver - Resource path &quot;url:/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt&quot; was successfully resolved but resource &quot;file:/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt&quot; is neither under the current location &quot;file:/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/test/&quot; nor under any of the allowed locations []
+<pre>17:34:03.910 [Test worker] WARN  o.s.w.s.r.PathResourceResolver - Resource path &quot;../testsecret/secret.txt&quot; was successfully resolved but resource &quot;file:/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt&quot; is neither under the current location &quot;file:/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/test/&quot; nor under any of the allowed locations []
+17:34:03.911 [Test worker] WARN  o.s.w.s.r.PathResourceResolver - Resource path &quot;test/../../testsecret/secret.txt&quot; was successfully resolved but resource &quot;file:/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt&quot; is neither under the current location &quot;file:/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/test/&quot; nor under any of the allowed locations []
+17:34:03.912 [Test worker] WARN  o.s.w.s.r.PathResourceResolver - Resource path &quot;file:/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt&quot; was successfully resolved but resource &quot;file:/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt&quot; is neither under the current location &quot;file:/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/test/&quot; nor under any of the allowed locations []
+17:34:03.912 [Test worker] WARN  o.s.w.s.r.PathResourceResolver - Resource path &quot;/file:/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt&quot; was successfully resolved but resource &quot;file:/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt&quot; is neither under the current location &quot;file:/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/test/&quot; nor under any of the allowed locations []
+17:34:03.913 [Test worker] WARN  o.s.w.s.r.PathResourceResolver - Resource path &quot;//Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt&quot; was successfully resolved but resource &quot;file:/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt&quot; is neither under the current location &quot;file:/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/test/&quot; nor under any of the allowed locations []
+17:34:03.913 [Test worker] WARN  o.s.w.s.r.PathResourceResolver - Resource path &quot;////../../Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt&quot; was successfully resolved but resource &quot;file:/../../Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt&quot; is neither under the current location &quot;file:/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/test/&quot; nor under any of the allowed locations []
+17:34:03.913 [Test worker] WARN  o.s.w.s.r.PathResourceResolver - Resolved resource path contains encoded &quot;../&quot; or &quot;..\&quot;: file:/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/test/%2E%2E/testsecret/secret.txt
+17:34:03.913 [Test worker] WARN  o.s.w.s.r.PathResourceResolver - Resource path &quot;/%2E%2E/testsecret/secret.txt&quot; was successfully resolved but resource &quot;file:/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/test/%2E%2E/testsecret/secret.txt&quot; is neither under the current location &quot;file:/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/test/&quot; nor under any of the allowed locations []
+17:34:03.931 [Test worker] WARN  o.s.w.s.r.PathResourceResolver - Resolved resource path contains encoded &quot;../&quot; or &quot;..\&quot;: file:/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/test/%2e%2e/testsecret/secret.txt
+17:34:03.932 [Test worker] WARN  o.s.w.s.r.PathResourceResolver - Resource path &quot;/%2e%2e/testsecret/secret.txt&quot; was successfully resolved but resource &quot;file:/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/test/%2e%2e/testsecret/secret.txt&quot; is neither under the current location &quot;file:/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/test/&quot; nor under any of the allowed locations []
+17:34:03.932 [Test worker] WARN  o.s.w.s.r.PathResourceResolver - Resource path &quot; /Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt&quot; was successfully resolved but resource &quot;file:/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt&quot; is neither under the current location &quot;file:/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/test/&quot; nor under any of the allowed locations []
+17:34:03.932 [Test worker] WARN  o.s.w.s.r.PathResourceResolver - Resource path &quot;/  /Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt&quot; was successfully resolved but resource &quot;file:/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt&quot; is neither under the current location &quot;file:/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/test/&quot; nor under any of the allowed locations []
+17:34:03.932 [Test worker] WARN  o.s.w.s.r.PathResourceResolver - Resource path &quot;url:/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt&quot; was successfully resolved but resource &quot;file:/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt&quot; is neither under the current location &quot;file:/Users/wangweili/Documents/MyDesign/learning/msb-source/msb-spring/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/test/&quot; nor under any of the allowed locations []
 </pre>
 </span>
 </div>
@@ -156,7 +156,7 @@
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 6.8.3</a> at 2021年4月26日 下午3:41:59</p>
+<a href="http://www.gradle.org">Gradle 6.8.3</a> at May 1, 2021 5:34:13 PM</p>
 </div>
 </div>
 </body>

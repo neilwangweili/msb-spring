@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.context.support.BeanDefinitionDslTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:41:32" hostname="wangweilideMacBook-Pro.local" time="0.074">
+<testsuite name="org.springframework.context.support.BeanDefinitionDslTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:32:37" hostname="wangweilideMBP.lan" time="0.117">
   <properties/>
-  <testcase name="Declare beans leveraging constructor injection()" classname="org.springframework.context.support.BeanDefinitionDslTests" time="0.012"/>
+  <testcase name="Declare beans leveraging constructor injection()" classname="org.springframework.context.support.BeanDefinitionDslTests" time="0.023"/>
   <testcase name="Declare beans with the functional Kotlin DSL()" classname="org.springframework.context.support.BeanDefinitionDslTests" time="0.007"/>
-  <testcase name="Declare beans using profile condition with the functional Kotlin DSL()" classname="org.springframework.context.support.BeanDefinitionDslTests" time="0.005"/>
-  <testcase name="Retrieve multiple beans via a bean provider()" classname="org.springframework.context.support.BeanDefinitionDslTests" time="0.009"/>
-  <testcase name="Declare beans leveraging callable reference()" classname="org.springframework.context.support.BeanDefinitionDslTests" time="0.006"/>
-  <testcase name="Declare beans with accepted profiles()" classname="org.springframework.context.support.BeanDefinitionDslTests" time="0.022"/>
-  <testcase name="Declare beans using environment condition with the functional Kotlin DSL()" classname="org.springframework.context.support.BeanDefinitionDslTests" time="0.009"/>
-  <testcase name="Declare beans depending on environment properties()" classname="org.springframework.context.support.BeanDefinitionDslTests" time="0.003"/>
+  <testcase name="Declare beans using profile condition with the functional Kotlin DSL()" classname="org.springframework.context.support.BeanDefinitionDslTests" time="0.009"/>
+  <testcase name="Retrieve multiple beans via a bean provider()" classname="org.springframework.context.support.BeanDefinitionDslTests" time="0.011"/>
+  <testcase name="Declare beans leveraging callable reference()" classname="org.springframework.context.support.BeanDefinitionDslTests" time="0.007"/>
+  <testcase name="Declare beans with accepted profiles()" classname="org.springframework.context.support.BeanDefinitionDslTests" time="0.036"/>
+  <testcase name="Declare beans using environment condition with the functional Kotlin DSL()" classname="org.springframework.context.support.BeanDefinitionDslTests" time="0.016"/>
+  <testcase name="Declare beans depending on environment properties()" classname="org.springframework.context.support.BeanDefinitionDslTests" time="0.004"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

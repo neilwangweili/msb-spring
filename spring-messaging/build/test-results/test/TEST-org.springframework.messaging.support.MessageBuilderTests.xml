@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.messaging.support.MessageBuilderTests" tests="19" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:40:16" hostname="wangweilideMacBook-Pro.local" time="0.007">
+<testsuite name="org.springframework.messaging.support.MessageBuilderTests" tests="19" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:30:04" hostname="wangweilideMBP.lan" time="0.004">
   <properties/>
   <testcase name="copySameHeaderValuesNotModifiedSameMessage()" classname="org.springframework.messaging.support.MessageBuilderTests" time="0.0"/>
   <testcase name="buildMultipleMessages()" classname="org.springframework.messaging.support.MessageBuilderTests" time="0.0"/>
   <testcase name="idHeaderValueReadOnly()" classname="org.springframework.messaging.support.MessageBuilderTests" time="0.001"/>
-  <testcase name="buildMessageWithoutIdAndTimestamp()" classname="org.springframework.messaging.support.MessageBuilderTests" time="0.001"/>
+  <testcase name="buildMessageWithoutIdAndTimestamp()" classname="org.springframework.messaging.support.MessageBuilderTests" time="0.0"/>
   <testcase name="simpleMessageCreation()" classname="org.springframework.messaging.support.MessageBuilderTests" time="0.0"/>
   <testcase name="containsHeaderNotModifiedSameMessage()" classname="org.springframework.messaging.support.MessageBuilderTests" time="0.0"/>
   <testcase name="copyHeadersIfAbsent()" classname="org.springframework.messaging.support.MessageBuilderTests" time="0.0"/>
-  <testcase name="remove()" classname="org.springframework.messaging.support.MessageBuilderTests" time="0.0"/>
+  <testcase name="remove()" classname="org.springframework.messaging.support.MessageBuilderTests" time="0.001"/>
   <testcase name="buildMessageWithMutableHeaders()" classname="org.springframework.messaging.support.MessageBuilderTests" time="0.0"/>
-  <testcase name="buildMessageWithDefaultMutability()" classname="org.springframework.messaging.support.MessageBuilderTests" time="0.001"/>
-  <testcase name="timestampValueReadOnly()" classname="org.springframework.messaging.support.MessageBuilderTests" time="0.0"/>
-  <testcase name="createErrorMessageFromErrorMessage()" classname="org.springframework.messaging.support.MessageBuilderTests" time="0.001"/>
+  <testcase name="buildMessageWithDefaultMutability()" classname="org.springframework.messaging.support.MessageBuilderTests" time="0.0"/>
+  <testcase name="timestampValueReadOnly()" classname="org.springframework.messaging.support.MessageBuilderTests" time="0.001"/>
+  <testcase name="createErrorMessageFromErrorMessage()" classname="org.springframework.messaging.support.MessageBuilderTests" time="0.0"/>
   <testcase name="sameHeaderValueAddedNotModifiedSameMessage()" classname="org.springframework.messaging.support.MessageBuilderTests" time="0.0"/>
   <testcase name="copiedHeaderValues()" classname="org.springframework.messaging.support.MessageBuilderTests" time="0.0"/>
   <testcase name="createIdRegenerated()" classname="org.springframework.messaging.support.MessageBuilderTests" time="0.0"/>
   <testcase name="createFromMessage()" classname="org.springframework.messaging.support.MessageBuilderTests" time="0.0"/>
   <testcase name="settingToNullRemoves()" classname="org.springframework.messaging.support.MessageBuilderTests" time="0.0"/>
   <testcase name="notModifiedSameMessage()" classname="org.springframework.messaging.support.MessageBuilderTests" time="0.0"/>
-  <testcase name="headerValues()" classname="org.springframework.messaging.support.MessageBuilderTests" time="0.001"/>
+  <testcase name="headerValues()" classname="org.springframework.messaging.support.MessageBuilderTests" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.test.web.servlet.MockMvcExtensionsTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:41:27" hostname="wangweilideMacBook-Pro.local" time="0.349">
+<testsuite name="org.springframework.test.web.servlet.MockMvcExtensionsTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:43:11" hostname="wangweilideMBP.lan" time="0.225">
   <properties/>
-  <testcase name="asyncDispatch()" classname="org.springframework.test.web.servlet.MockMvcExtensionsTests" time="0.106"/>
-  <testcase name="negative assertion tests to verify the matchers throw errors when expected()" classname="org.springframework.test.web.servlet.MockMvcExtensionsTests" time="0.028"/>
-  <testcase name="modelAndView()" classname="org.springframework.test.web.servlet.MockMvcExtensionsTests" time="0.003"/>
-  <testcase name="get()" classname="org.springframework.test.web.servlet.MockMvcExtensionsTests" time="0.009"/>
-  <testcase name="post()" classname="org.springframework.test.web.servlet.MockMvcExtensionsTests" time="0.004"/>
-  <testcase name="request with custom matcher and handler()" classname="org.springframework.test.web.servlet.MockMvcExtensionsTests" time="0.009"/>
-  <testcase name="request without MockHttpServletRequestDsl()" classname="org.springframework.test.web.servlet.MockMvcExtensionsTests" time="0.009"/>
-  <testcase name="negative assertion tests for xpath()" classname="org.springframework.test.web.servlet.MockMvcExtensionsTests" time="0.022"/>
-  <testcase name="request()" classname="org.springframework.test.web.servlet.MockMvcExtensionsTests" time="0.031"/>
+  <testcase name="asyncDispatch()" classname="org.springframework.test.web.servlet.MockMvcExtensionsTests" time="0.092"/>
+  <testcase name="negative assertion tests to verify the matchers throw errors when expected()" classname="org.springframework.test.web.servlet.MockMvcExtensionsTests" time="0.017"/>
+  <testcase name="modelAndView()" classname="org.springframework.test.web.servlet.MockMvcExtensionsTests" time="0.002"/>
+  <testcase name="get()" classname="org.springframework.test.web.servlet.MockMvcExtensionsTests" time="0.007"/>
+  <testcase name="post()" classname="org.springframework.test.web.servlet.MockMvcExtensionsTests" time="0.003"/>
+  <testcase name="request with custom matcher and handler()" classname="org.springframework.test.web.servlet.MockMvcExtensionsTests" time="0.008"/>
+  <testcase name="request without MockHttpServletRequestDsl()" classname="org.springframework.test.web.servlet.MockMvcExtensionsTests" time="0.004"/>
+  <testcase name="negative assertion tests for xpath()" classname="org.springframework.test.web.servlet.MockMvcExtensionsTests" time="0.007"/>
+  <testcase name="request()" classname="org.springframework.test.web.servlet.MockMvcExtensionsTests" time="0.006"/>
   <system-out><![CDATA[
 MockHttpServletRequest:
       HTTP Method = GET

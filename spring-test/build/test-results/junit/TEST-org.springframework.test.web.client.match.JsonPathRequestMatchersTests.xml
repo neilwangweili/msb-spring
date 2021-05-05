@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.test.web.client.match.JsonPathRequestMatchersTests" tests="37" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:41:25" hostname="wangweilideMacBook-Pro.local" time="0.026">
+<testsuite name="org.springframework.test.web.client.match.JsonPathRequestMatchersTests" tests="37" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:43:10" hostname="wangweilideMBP.lan" time="0.012">
   <properties/>
-  <testcase name="valueWithNumberConversion()" classname="org.springframework.test.web.client.match.JsonPathRequestMatchersTests" time="0.002"/>
+  <testcase name="valueWithNumberConversion()" classname="org.springframework.test.web.client.match.JsonPathRequestMatchersTests" time="0.001"/>
   <testcase name="exists()" classname="org.springframework.test.web.client.match.JsonPathRequestMatchersTests" time="0.0"/>
   <testcase name="isNotEmptyForAnEmptyMap()" classname="org.springframework.test.web.client.match.JsonPathRequestMatchersTests" time="0.001"/>
   <testcase name="doesNotExistNoMatch()" classname="org.springframework.test.web.client.match.JsonPathRequestMatchersTests" time="0.001"/>
-  <testcase name="isBooleanNoMatch()" classname="org.springframework.test.web.client.match.JsonPathRequestMatchersTests" time="0.002"/>
-  <testcase name="valueWithMatcherAndNumberConversion()" classname="org.springframework.test.web.client.match.JsonPathRequestMatchersTests" time="0.001"/>
+  <testcase name="isBooleanNoMatch()" classname="org.springframework.test.web.client.match.JsonPathRequestMatchersTests" time="0.0"/>
+  <testcase name="valueWithMatcherAndNumberConversion()" classname="org.springframework.test.web.client.match.JsonPathRequestMatchersTests" time="0.0"/>
   <testcase name="existsForAnEmptyMap()" classname="org.springframework.test.web.client.match.JsonPathRequestMatchersTests" time="0.0"/>
-  <testcase name="isEmptyForAnEmptyMap()" classname="org.springframework.test.web.client.match.JsonPathRequestMatchersTests" time="0.001"/>
-  <testcase name="isArrayForAnEmptyArray()" classname="org.springframework.test.web.client.match.JsonPathRequestMatchersTests" time="0.001"/>
+  <testcase name="isEmptyForAnEmptyMap()" classname="org.springframework.test.web.client.match.JsonPathRequestMatchersTests" time="0.0"/>
+  <testcase name="isArrayForAnEmptyArray()" classname="org.springframework.test.web.client.match.JsonPathRequestMatchersTests" time="0.0"/>
   <testcase name="isEmptyForAnEmptyString()" classname="org.springframework.test.web.client.match.JsonPathRequestMatchersTests" time="0.0"/>
   <testcase name="isNotEmptyForBoolean()" classname="org.springframework.test.web.client.match.JsonPathRequestMatchersTests" time="0.0"/>
   <testcase name="isEmptyForAnEmptyArray()" classname="org.springframework.test.web.client.match.JsonPathRequestMatchersTests" time="0.0"/>
@@ -17,25 +17,25 @@
   <testcase name="isBoolean()" classname="org.springframework.test.web.client.match.JsonPathRequestMatchersTests" time="0.0"/>
   <testcase name="isNumber()" classname="org.springframework.test.web.client.match.JsonPathRequestMatchersTests" time="0.0"/>
   <testcase name="doesNotExist()" classname="org.springframework.test.web.client.match.JsonPathRequestMatchersTests" time="0.0"/>
-  <testcase name="existsForAnEmptyArray()" classname="org.springframework.test.web.client.match.JsonPathRequestMatchersTests" time="0.001"/>
-  <testcase name="isString()" classname="org.springframework.test.web.client.match.JsonPathRequestMatchersTests" time="0.0"/>
-  <testcase name="doesNotExistForAnEmptyArray()" classname="org.springframework.test.web.client.match.JsonPathRequestMatchersTests" time="0.001"/>
-  <testcase name="isArrayNoMatch()" classname="org.springframework.test.web.client.match.JsonPathRequestMatchersTests" time="0.001"/>
+  <testcase name="existsForAnEmptyArray()" classname="org.springframework.test.web.client.match.JsonPathRequestMatchersTests" time="0.0"/>
+  <testcase name="isString()" classname="org.springframework.test.web.client.match.JsonPathRequestMatchersTests" time="0.001"/>
+  <testcase name="doesNotExistForAnEmptyArray()" classname="org.springframework.test.web.client.match.JsonPathRequestMatchersTests" time="0.0"/>
+  <testcase name="isArrayNoMatch()" classname="org.springframework.test.web.client.match.JsonPathRequestMatchersTests" time="0.0"/>
   <testcase name="doesNotExistForAnEmptyMap()" classname="org.springframework.test.web.client.match.JsonPathRequestMatchersTests" time="0.0"/>
-  <testcase name="isNotEmptyForAnEmptyString()" classname="org.springframework.test.web.client.match.JsonPathRequestMatchersTests" time="0.001"/>
-  <testcase name="isStringNoMatch()" classname="org.springframework.test.web.client.match.JsonPathRequestMatchersTests" time="0.001"/>
+  <testcase name="isNotEmptyForAnEmptyString()" classname="org.springframework.test.web.client.match.JsonPathRequestMatchersTests" time="0.0"/>
+  <testcase name="isStringNoMatch()" classname="org.springframework.test.web.client.match.JsonPathRequestMatchersTests" time="0.0"/>
   <testcase name="isMapNoMatch()" classname="org.springframework.test.web.client.match.JsonPathRequestMatchersTests" time="0.0"/>
   <testcase name="isMap()" classname="org.springframework.test.web.client.match.JsonPathRequestMatchersTests" time="0.0"/>
-  <testcase name="isNumberNoMatch()" classname="org.springframework.test.web.client.match.JsonPathRequestMatchersTests" time="0.0"/>
-  <testcase name="valueWithMatcherAndMismatch()" classname="org.springframework.test.web.client.match.JsonPathRequestMatchersTests" time="0.001"/>
+  <testcase name="isNumberNoMatch()" classname="org.springframework.test.web.client.match.JsonPathRequestMatchersTests" time="0.001"/>
+  <testcase name="valueWithMatcherAndMismatch()" classname="org.springframework.test.web.client.match.JsonPathRequestMatchersTests" time="0.0"/>
   <testcase name="isNotEmptyForAnEmptyArray()" classname="org.springframework.test.web.client.match.JsonPathRequestMatchersTests" time="0.0"/>
-  <testcase name="valueWithMatcher()" classname="org.springframework.test.web.client.match.JsonPathRequestMatchersTests" time="0.001"/>
-  <testcase name="isNotEmptyForNumber()" classname="org.springframework.test.web.client.match.JsonPathRequestMatchersTests" time="0.0"/>
+  <testcase name="valueWithMatcher()" classname="org.springframework.test.web.client.match.JsonPathRequestMatchersTests" time="0.0"/>
+  <testcase name="isNotEmptyForNumber()" classname="org.springframework.test.web.client.match.JsonPathRequestMatchersTests" time="0.001"/>
   <testcase name="isNotEmptyForMap()" classname="org.springframework.test.web.client.match.JsonPathRequestMatchersTests" time="0.0"/>
   <testcase name="isNotEmptyForString()" classname="org.springframework.test.web.client.match.JsonPathRequestMatchersTests" time="0.0"/>
   <testcase name="valueWithMismatch()" classname="org.springframework.test.web.client.match.JsonPathRequestMatchersTests" time="0.0"/>
-  <testcase name="existsNoMatch()" classname="org.springframework.test.web.client.match.JsonPathRequestMatchersTests" time="0.001"/>
-  <testcase name="isMapForAnEmptyMap()" classname="org.springframework.test.web.client.match.JsonPathRequestMatchersTests" time="0.0"/>
+  <testcase name="existsNoMatch()" classname="org.springframework.test.web.client.match.JsonPathRequestMatchersTests" time="0.0"/>
+  <testcase name="isMapForAnEmptyMap()" classname="org.springframework.test.web.client.match.JsonPathRequestMatchersTests" time="0.001"/>
   <testcase name="isArray()" classname="org.springframework.test.web.client.match.JsonPathRequestMatchersTests" time="0.0"/>
   <testcase name="isNotEmptyForArray()" classname="org.springframework.test.web.client.match.JsonPathRequestMatchersTests" time="0.0"/>
   <system-out><![CDATA[]]></system-out>

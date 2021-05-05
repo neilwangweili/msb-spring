@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.beans.factory.annotation.RequiredAnnotationBeanPostProcessorTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:39:35" hostname="wangweilideMacBook-Pro.local" time="0.024">
+<testsuite name="org.springframework.beans.factory.annotation.RequiredAnnotationBeanPostProcessorTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:25:17" hostname="wangweilideMBP.lan" time="0.085">
   <properties/>
-  <testcase name="testWithStaticFactoryMethod()" classname="org.springframework.beans.factory.annotation.RequiredAnnotationBeanPostProcessorTests" time="0.011"/>
-  <testcase name="testWithThreeRequiredPropertiesOmitted()" classname="org.springframework.beans.factory.annotation.RequiredAnnotationBeanPostProcessorTests" time="0.001"/>
-  <testcase name="testWithFactoryBean()" classname="org.springframework.beans.factory.annotation.RequiredAnnotationBeanPostProcessorTests" time="0.003"/>
+  <testcase name="testWithStaticFactoryMethod()" classname="org.springframework.beans.factory.annotation.RequiredAnnotationBeanPostProcessorTests" time="0.06"/>
+  <testcase name="testWithThreeRequiredPropertiesOmitted()" classname="org.springframework.beans.factory.annotation.RequiredAnnotationBeanPostProcessorTests" time="0.004"/>
+  <testcase name="testWithFactoryBean()" classname="org.springframework.beans.factory.annotation.RequiredAnnotationBeanPostProcessorTests" time="0.007"/>
   <testcase name="testWithCustomAnnotation()" classname="org.springframework.beans.factory.annotation.RequiredAnnotationBeanPostProcessorTests" time="0.003"/>
-  <testcase name="testWithAllRequiredPropertiesSpecified()" classname="org.springframework.beans.factory.annotation.RequiredAnnotationBeanPostProcessorTests" time="0.001"/>
-  <testcase name="testWithStaticFactoryMethodAndRequiredPropertiesSpecified()" classname="org.springframework.beans.factory.annotation.RequiredAnnotationBeanPostProcessorTests" time="0.001"/>
+  <testcase name="testWithAllRequiredPropertiesSpecified()" classname="org.springframework.beans.factory.annotation.RequiredAnnotationBeanPostProcessorTests" time="0.004"/>
+  <testcase name="testWithStaticFactoryMethodAndRequiredPropertiesSpecified()" classname="org.springframework.beans.factory.annotation.RequiredAnnotationBeanPostProcessorTests" time="0.003"/>
   <testcase name="testWithRequiredPropertyOmitted()" classname="org.springframework.beans.factory.annotation.RequiredAnnotationBeanPostProcessorTests" time="0.002"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

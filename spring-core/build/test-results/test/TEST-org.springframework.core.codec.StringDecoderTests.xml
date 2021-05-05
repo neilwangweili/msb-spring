@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.core.codec.StringDecoderTests" tests="13" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:37:33" hostname="wangweilideMacBook-Pro.local" time="0.049">
+<testsuite name="org.springframework.core.codec.StringDecoderTests" tests="13" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:11:20" hostname="wangweilideMBP.lan" time="0.191">
   <properties/>
-  <testcase name="decodeToMono()" classname="org.springframework.core.codec.StringDecoderTests" time="0.003"/>
-  <testcase name="maxInMemoryLimitDoesNotApplyToParsedItemsThatDontRequireBuffering()" classname="org.springframework.core.codec.StringDecoderTests" time="0.008"/>
-  <testcase name="decode()" classname="org.springframework.core.codec.StringDecoderTests" time="0.011"/>
-  <testcase name="decodeNewlinesAcrossBuffers()" classname="org.springframework.core.codec.StringDecoderTests" time="0.002"/>
-  <testcase name="decodeToMonoWithEmptyFlux()" classname="org.springframework.core.codec.StringDecoderTests" time="0.0"/>
-  <testcase name="decodeEmptyDataBuffer()" classname="org.springframework.core.codec.StringDecoderTests" time="0.0"/>
-  <testcase name="canDecode()" classname="org.springframework.core.codec.StringDecoderTests" time="0.0"/>
-  <testcase name="maxInMemoryLimitReleaseUnprocessedLinesWhenUnlimited()" classname="org.springframework.core.codec.StringDecoderTests" time="0.001"/>
-  <testcase name="maxInMemoryLimit()" classname="org.springframework.core.codec.StringDecoderTests" time="0.003"/>
-  <testcase name="decodeNewLineIncludeDelimiters()" classname="org.springframework.core.codec.StringDecoderTests" time="0.004"/>
-  <testcase name="decodeNewLine()" classname="org.springframework.core.codec.StringDecoderTests" time="0.005"/>
+  <testcase name="decodeToMono()" classname="org.springframework.core.codec.StringDecoderTests" time="0.009"/>
+  <testcase name="maxInMemoryLimitDoesNotApplyToParsedItemsThatDontRequireBuffering()" classname="org.springframework.core.codec.StringDecoderTests" time="0.03"/>
+  <testcase name="decode()" classname="org.springframework.core.codec.StringDecoderTests" time="0.031"/>
+  <testcase name="decodeNewlinesAcrossBuffers()" classname="org.springframework.core.codec.StringDecoderTests" time="0.005"/>
+  <testcase name="decodeToMonoWithEmptyFlux()" classname="org.springframework.core.codec.StringDecoderTests" time="0.001"/>
+  <testcase name="decodeEmptyDataBuffer()" classname="org.springframework.core.codec.StringDecoderTests" time="0.009"/>
+  <testcase name="canDecode()" classname="org.springframework.core.codec.StringDecoderTests" time="0.004"/>
+  <testcase name="maxInMemoryLimitReleaseUnprocessedLinesWhenUnlimited()" classname="org.springframework.core.codec.StringDecoderTests" time="0.003"/>
+  <testcase name="maxInMemoryLimit()" classname="org.springframework.core.codec.StringDecoderTests" time="0.016"/>
+  <testcase name="decodeNewLineIncludeDelimiters()" classname="org.springframework.core.codec.StringDecoderTests" time="0.02"/>
+  <testcase name="decodeNewLine()" classname="org.springframework.core.codec.StringDecoderTests" time="0.031"/>
   <testcase name="decodeEmptyFlux()" classname="org.springframework.core.codec.StringDecoderTests" time="0.001"/>
-  <testcase name="decodeMultibyteCharacterUtf16()" classname="org.springframework.core.codec.StringDecoderTests" time="0.004"/>
+  <testcase name="decodeMultibyteCharacterUtf16()" classname="org.springframework.core.codec.StringDecoderTests" time="0.021"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

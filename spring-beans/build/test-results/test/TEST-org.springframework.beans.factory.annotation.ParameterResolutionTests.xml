@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.beans.factory.annotation.ParameterResolutionTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:39:36" hostname="wangweilideMacBook-Pro.local" time="0.131">
+<testsuite name="org.springframework.beans.factory.annotation.ParameterResolutionTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:25:18" hostname="wangweilideMBP.lan" time="0.185">
   <properties/>
-  <testcase name="nonAnnotatedParametersInTopLevelClassConstructorAreNotCandidatesForAutowiring()" classname="org.springframework.beans.factory.annotation.ParameterResolutionTests" time="0.003"/>
-  <testcase name="resolveDependencyForAnnotatedParametersInTopLevelClassConstructor()" classname="org.springframework.beans.factory.annotation.ParameterResolutionTests" time="0.112"/>
+  <testcase name="nonAnnotatedParametersInTopLevelClassConstructorAreNotCandidatesForAutowiring()" classname="org.springframework.beans.factory.annotation.ParameterResolutionTests" time="0.004"/>
+  <testcase name="resolveDependencyForAnnotatedParametersInTopLevelClassConstructor()" classname="org.springframework.beans.factory.annotation.ParameterResolutionTests" time="0.111"/>
   <testcase name="resolveDependencyPreconditionsForParameter()" classname="org.springframework.beans.factory.annotation.ParameterResolutionTests" time="0.001"/>
   <testcase name="resolveDependencyPreconditionsForBeanFactory()" classname="org.springframework.beans.factory.annotation.ParameterResolutionTests" time="0.0"/>
-  <testcase name="annotatedParametersInMethodAreCandidatesForAutowiring()" classname="org.springframework.beans.factory.annotation.ParameterResolutionTests" time="0.004"/>
-  <testcase name="resolveDependencyPreconditionsForContainingClass()" classname="org.springframework.beans.factory.annotation.ParameterResolutionTests" time="0.002"/>
-  <testcase name="annotatedParametersInTopLevelClassConstructorAreCandidatesForAutowiring()" classname="org.springframework.beans.factory.annotation.ParameterResolutionTests" time="0.005"/>
+  <testcase name="annotatedParametersInMethodAreCandidatesForAutowiring()" classname="org.springframework.beans.factory.annotation.ParameterResolutionTests" time="0.002"/>
+  <testcase name="resolveDependencyPreconditionsForContainingClass()" classname="org.springframework.beans.factory.annotation.ParameterResolutionTests" time="0.001"/>
+  <testcase name="annotatedParametersInTopLevelClassConstructorAreCandidatesForAutowiring()" classname="org.springframework.beans.factory.annotation.ParameterResolutionTests" time="0.001"/>
   <testcase name="annotatedParametersInInnerClassConstructorAreCandidatesForAutowiring()" classname="org.springframework.beans.factory.annotation.ParameterResolutionTests" time="0.002"/>
-  <testcase name="isAutowirablePreconditions()" classname="org.springframework.beans.factory.annotation.ParameterResolutionTests" time="0.0"/>
+  <testcase name="isAutowirablePreconditions()" classname="org.springframework.beans.factory.annotation.ParameterResolutionTests" time="0.002"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

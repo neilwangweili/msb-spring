@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.aop.framework.autoproxy.BeanNameAutoProxyCreatorTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:41:23" hostname="wangweilideMacBook-Pro.local" time="0.143">
+<testsuite name="org.springframework.aop.framework.autoproxy.BeanNameAutoProxyCreatorTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:32:25" hostname="wangweilideMBP.lan" time="0.086">
   <properties/>
   <testcase name="jdkIntroduction()" classname="org.springframework.aop.framework.autoproxy.BeanNameAutoProxyCreatorTests" time="0.001"/>
   <testcase name="withFrozenProxy()" classname="org.springframework.aop.framework.autoproxy.BeanNameAutoProxyCreatorTests" time="0.0"/>
-  <testcase name="cglibProxyWithWildcardMatch()" classname="org.springframework.aop.framework.autoproxy.BeanNameAutoProxyCreatorTests" time="0.009"/>
+  <testcase name="cglibProxyWithWildcardMatch()" classname="org.springframework.aop.framework.autoproxy.BeanNameAutoProxyCreatorTests" time="0.006"/>
   <testcase name="proxyWithExactNameMatch()" classname="org.springframework.aop.framework.autoproxy.BeanNameAutoProxyCreatorTests" time="0.0"/>
-  <testcase name="proxyWithWildcardMatch()" classname="org.springframework.aop.framework.autoproxy.BeanNameAutoProxyCreatorTests" time="0.001"/>
+  <testcase name="proxyWithWildcardMatch()" classname="org.springframework.aop.framework.autoproxy.BeanNameAutoProxyCreatorTests" time="0.0"/>
   <testcase name="customTargetSourceCreatorsApplyOnlyToConfiguredBeanNames()" classname="org.springframework.aop.framework.autoproxy.BeanNameAutoProxyCreatorTests" time="0.001"/>
-  <testcase name="jdkIntroductionAppliesToCreatedObjectsNotFactoryBean()" classname="org.springframework.aop.framework.autoproxy.BeanNameAutoProxyCreatorTests" time="0.001"/>
-  <testcase name="proxyWithDoubleProxying()" classname="org.springframework.aop.framework.autoproxy.BeanNameAutoProxyCreatorTests" time="0.0"/>
-  <testcase name="noProxy()" classname="org.springframework.aop.framework.autoproxy.BeanNameAutoProxyCreatorTests" time="0.001"/>
+  <testcase name="jdkIntroductionAppliesToCreatedObjectsNotFactoryBean()" classname="org.springframework.aop.framework.autoproxy.BeanNameAutoProxyCreatorTests" time="0.002"/>
+  <testcase name="proxyWithDoubleProxying()" classname="org.springframework.aop.framework.autoproxy.BeanNameAutoProxyCreatorTests" time="0.001"/>
+  <testcase name="noProxy()" classname="org.springframework.aop.framework.autoproxy.BeanNameAutoProxyCreatorTests" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

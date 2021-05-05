@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.web.servlet.mvc.method.annotation.DeferredResultReturnValueHandlerTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:41:15" hostname="wangweilideMacBook-Pro.local" time="0.01">
+<testsuite name="org.springframework.web.servlet.mvc.method.annotation.DeferredResultReturnValueHandlerTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:33:26" hostname="wangweilideMBP.lan" time="0.008">
   <properties/>
-  <testcase name="doesNotSupportReturnType()" classname="org.springframework.web.servlet.mvc.method.annotation.DeferredResultReturnValueHandlerTests" time="0.001"/>
-  <testcase name="completableFuture()" classname="org.springframework.web.servlet.mvc.method.annotation.DeferredResultReturnValueHandlerTests" time="0.001"/>
-  <testcase name="listenableFutureWithError()" classname="org.springframework.web.servlet.mvc.method.annotation.DeferredResultReturnValueHandlerTests" time="0.004"/>
+  <testcase name="doesNotSupportReturnType()" classname="org.springframework.web.servlet.mvc.method.annotation.DeferredResultReturnValueHandlerTests" time="0.0"/>
+  <testcase name="completableFuture()" classname="org.springframework.web.servlet.mvc.method.annotation.DeferredResultReturnValueHandlerTests" time="0.002"/>
+  <testcase name="listenableFutureWithError()" classname="org.springframework.web.servlet.mvc.method.annotation.DeferredResultReturnValueHandlerTests" time="0.003"/>
   <testcase name="listenableFuture()" classname="org.springframework.web.servlet.mvc.method.annotation.DeferredResultReturnValueHandlerTests" time="0.001"/>
-  <testcase name="deferredResult()" classname="org.springframework.web.servlet.mvc.method.annotation.DeferredResultReturnValueHandlerTests" time="0.001"/>
-  <testcase name="deferredResultWithError()" classname="org.springframework.web.servlet.mvc.method.annotation.DeferredResultReturnValueHandlerTests" time="0.0"/>
-  <testcase name="completableFutureWithError()" classname="org.springframework.web.servlet.mvc.method.annotation.DeferredResultReturnValueHandlerTests" time="0.001"/>
-  <testcase name="supportsReturnType()" classname="org.springframework.web.servlet.mvc.method.annotation.DeferredResultReturnValueHandlerTests" time="0.001"/>
+  <testcase name="deferredResult()" classname="org.springframework.web.servlet.mvc.method.annotation.DeferredResultReturnValueHandlerTests" time="0.0"/>
+  <testcase name="deferredResultWithError()" classname="org.springframework.web.servlet.mvc.method.annotation.DeferredResultReturnValueHandlerTests" time="0.001"/>
+  <testcase name="completableFutureWithError()" classname="org.springframework.web.servlet.mvc.method.annotation.DeferredResultReturnValueHandlerTests" time="0.0"/>
+  <testcase name="supportsReturnType()" classname="org.springframework.web.servlet.mvc.method.annotation.DeferredResultReturnValueHandlerTests" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

@@ -1,37 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests" tests="19" skipped="0" failures="0" errors="0" timestamp="2021-04-26T08:40:48" hostname="wangweilideMacBook-Pro.local" time="0.134">
+<testsuite name="org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests" tests="19" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:56:11" hostname="wangweilideMBP.lan" time="0.16">
   <properties/>
-  <testcase name="getHandlerHttpOptions()" classname="org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests" time="0.029"/>
-  <testcase name="getHandlerTestRequestParamMismatch()" classname="org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests" time="0.006"/>
-  <testcase name="getHandlerTestMediaTypeNotAcceptable()" classname="org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests" time="0.009"/>
-  <testcase name="getHandlerGlobMatch()" classname="org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests" time="0.005"/>
+  <testcase name="getHandlerHttpOptions()" classname="org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests" time="0.03"/>
+  <testcase name="getHandlerTestRequestParamMismatch()" classname="org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests" time="0.007"/>
+  <testcase name="getHandlerTestMediaTypeNotAcceptable()" classname="org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests" time="0.01"/>
+  <testcase name="getHandlerGlobMatch()" classname="org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests" time="0.006"/>
   <testcase name="handleMatchBestMatchingPatternAttributeNoPatternsDefined()" classname="org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests" time="0.004"/>
-  <testcase name="getHandlerMediaTypeNotSupported()" classname="org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests" time="0.012"/>
-  <testcase name="getHandlerRequestMethodNotAllowed()" classname="org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests" time="0.004"/>
-  <testcase name="handleMatchUriTemplateVariables()" classname="org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests" time="0.004"/>
-  <testcase name="getHandlerBestMatch()" classname="org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests" time="0.004"/>
-  <testcase name="getHandlerProducibleMediaTypesAttribute()" classname="org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests" time="0.007"/>
-  <testcase name="handleMatchBestMatchingPatternAttribute()" classname="org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests" time="0.004"/>
+  <testcase name="getHandlerMediaTypeNotSupported()" classname="org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests" time="0.015"/>
+  <testcase name="getHandlerRequestMethodNotAllowed()" classname="org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests" time="0.009"/>
+  <testcase name="handleMatchUriTemplateVariables()" classname="org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests" time="0.006"/>
+  <testcase name="getHandlerBestMatch()" classname="org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests" time="0.005"/>
+  <testcase name="getHandlerProducibleMediaTypesAttribute()" classname="org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests" time="0.009"/>
+  <testcase name="handleMatchBestMatchingPatternAttribute()" classname="org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests" time="0.005"/>
   <testcase name="handleMatchUriTemplateVariablesDecode()" classname="org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests" time="0.005"/>
   <testcase name="getHandlerEmptyPathMatch()" classname="org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests" time="0.009"/>
-  <testcase name="handlePatchUnsupportedMediaType()" classname="org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests" time="0.005"/>
-  <testcase name="getHandlerTestInvalidContentType()" classname="org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests" time="0.005"/>
+  <testcase name="handlePatchUnsupportedMediaType()" classname="org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests" time="0.006"/>
+  <testcase name="getHandlerTestInvalidContentType()" classname="org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests" time="0.006"/>
   <testcase name="getHandlerDirectMatch()" classname="org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests" time="0.005"/>
-  <testcase name="getHandlerRequestMethodMatchFalsePositive()" classname="org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests" time="0.004"/>
+  <testcase name="getHandlerRequestMethodMatchFalsePositive()" classname="org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests" time="0.005"/>
   <testcase name="handleMatchMatrixVariablesDecoding()" classname="org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests" time="0.005"/>
-  <testcase name="handleMatchMatrixVariables()" classname="org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests" time="0.007"/>
-  <system-out><![CDATA[16:40:48.154 [Test worker] DEBUG o.s.w.r.r.m.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - [136fceab] Mapped to org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMapping$HttpOptionsHandler#handle()
-16:40:48.160 [Test worker] DEBUG o.s.w.r.r.m.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - [6ef76d] Mapped to org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMapping$HttpOptionsHandler#handle()
-16:40:48.165 [Test worker] DEBUG o.s.w.r.r.m.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - [5745f4be] Mapped to org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMapping$HttpOptionsHandler#handle()
-16:40:48.169 [Test worker] DEBUG o.s.w.r.r.m.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - [3bde0bb4] Mapped to org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController#fooOptions()
-16:40:48.172 [Test worker] DEBUG o.s.w.r.r.m.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - [45ebba4d] Mapped to org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMapping$HttpOptionsHandler#handle()
-16:40:48.193 [Test worker] DEBUG o.s.w.r.r.m.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - [718b44c1] Mapped to org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController#bar()
-16:40:48.221 [Test worker] DEBUG o.s.w.r.r.m.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - [26d57bb2] Mapped to org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController#fooParam()
-16:40:48.225 [Test worker] DEBUG o.s.w.r.r.m.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - [37704c85] Mapped to org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController#xmlContent()
-16:40:48.228 [Test worker] DEBUG o.s.w.r.r.m.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - [40562e9c] Mapped to org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController#nonXmlContent()
-16:40:48.243 [Test worker] DEBUG o.s.w.r.r.m.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - [32f6895] Mapped to org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController#empty()
-16:40:48.247 [Test worker] DEBUG o.s.w.r.r.m.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - [4ee25f8c] Mapped to org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController#empty()
-16:40:48.262 [Test worker] DEBUG o.s.w.r.r.m.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - [6010e0c9] Mapped to org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController#foo()
+  <testcase name="handleMatchMatrixVariables()" classname="org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests" time="0.008"/>
+  <system-out><![CDATA[17:56:11.463 [Test worker] DEBUG o.s.w.r.r.m.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - [6627859e] Mapped to org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMapping$HttpOptionsHandler#handle()
+17:56:11.468 [Test worker] DEBUG o.s.w.r.r.m.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - [6c2dae81] Mapped to org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMapping$HttpOptionsHandler#handle()
+17:56:11.473 [Test worker] DEBUG o.s.w.r.r.m.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - [543992ba] Mapped to org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMapping$HttpOptionsHandler#handle()
+17:56:11.478 [Test worker] DEBUG o.s.w.r.r.m.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - [10b668ff] Mapped to org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController#fooOptions()
+17:56:11.482 [Test worker] DEBUG o.s.w.r.r.m.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - [2cc5901a] Mapped to org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMapping$HttpOptionsHandler#handle()
+17:56:11.507 [Test worker] DEBUG o.s.w.r.r.m.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - [6a9dcfc1] Mapped to org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController#bar()
+17:56:11.547 [Test worker] DEBUG o.s.w.r.r.m.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - [45364899] Mapped to org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController#fooParam()
+17:56:11.552 [Test worker] DEBUG o.s.w.r.r.m.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - [63f4de1e] Mapped to org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController#xmlContent()
+17:56:11.556 [Test worker] DEBUG o.s.w.r.r.m.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - [367f76e7] Mapped to org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController#nonXmlContent()
+17:56:11.572 [Test worker] DEBUG o.s.w.r.r.m.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - [431eedf8] Mapped to org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController#empty()
+17:56:11.576 [Test worker] DEBUG o.s.w.r.r.m.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - [f9c4af1] Mapped to org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController#empty()
+17:56:11.594 [Test worker] DEBUG o.s.w.r.r.m.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - [42941c73] Mapped to org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController#foo()
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

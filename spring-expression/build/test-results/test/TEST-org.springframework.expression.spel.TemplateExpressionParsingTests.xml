@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.expression.spel.TemplateExpressionParsingTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:37:31" hostname="wangweilideMacBook-Pro.local" time="0.075">
+<testsuite name="org.springframework.expression.spel.TemplateExpressionParsingTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:04:51" hostname="wangweilideMBP.lan" time="0.299">
   <properties/>
-  <testcase name="testParsingNormalExpressionThroughTemplateParser()" classname="org.springframework.expression.spel.TemplateExpressionParsingTests" time="0.002"/>
-  <testcase name="testTemplateParserContext()" classname="org.springframework.expression.spel.TemplateExpressionParsingTests" time="0.001"/>
-  <testcase name="testCompositeStringExpression()" classname="org.springframework.expression.spel.TemplateExpressionParsingTests" time="0.048"/>
+  <testcase name="testParsingNormalExpressionThroughTemplateParser()" classname="org.springframework.expression.spel.TemplateExpressionParsingTests" time="0.004"/>
+  <testcase name="testTemplateParserContext()" classname="org.springframework.expression.spel.TemplateExpressionParsingTests" time="0.003"/>
+  <testcase name="testCompositeStringExpression()" classname="org.springframework.expression.spel.TemplateExpressionParsingTests" time="0.182"/>
   <testcase name="testParsingSimpleTemplateExpression01()" classname="org.springframework.expression.spel.TemplateExpressionParsingTests" time="0.001"/>
   <testcase name="testParsingSimpleTemplateExpression02()" classname="org.springframework.expression.spel.TemplateExpressionParsingTests" time="0.0"/>
-  <testcase name="testParsingSimpleTemplateExpression03()" classname="org.springframework.expression.spel.TemplateExpressionParsingTests" time="0.0"/>
-  <testcase name="testParsingSimpleTemplateExpression04()" classname="org.springframework.expression.spel.TemplateExpressionParsingTests" time="0.0"/>
-  <testcase name="testErrorCases()" classname="org.springframework.expression.spel.TemplateExpressionParsingTests" time="0.002"/>
-  <testcase name="testNestedExpressions()" classname="org.springframework.expression.spel.TemplateExpressionParsingTests" time="0.015"/>
+  <testcase name="testParsingSimpleTemplateExpression03()" classname="org.springframework.expression.spel.TemplateExpressionParsingTests" time="0.001"/>
+  <testcase name="testParsingSimpleTemplateExpression04()" classname="org.springframework.expression.spel.TemplateExpressionParsingTests" time="0.001"/>
+  <testcase name="testErrorCases()" classname="org.springframework.expression.spel.TemplateExpressionParsingTests" time="0.004"/>
+  <testcase name="testNestedExpressions()" classname="org.springframework.expression.spel.TemplateExpressionParsingTests" time="0.084"/>
   <testcase name="testClashingWithSuffixes()" classname="org.springframework.expression.spel.TemplateExpressionParsingTests" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

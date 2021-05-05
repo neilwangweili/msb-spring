@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseBuilderTests" tests="11" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:39:50" hostname="wangweilideMacBook-Pro.local" time="4.09">
+<testsuite name="org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseBuilderTests" tests="11" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:25:20" hostname="wangweilideMBP.lan" time="5.385">
   <properties/>
-  <testcase name="createSameSchemaTwiceWithGeneratedUniqueDbNames()" classname="org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseBuilderTests" time="0.082"/>
-  <testcase name="setTypeToDerbyAndIgnoreFailedDrops()" classname="org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseBuilderTests" time="3.243"/>
-  <testcase name="addScriptWithBogusFileName()" classname="org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseBuilderTests" time="0.021"/>
-  <testcase name="createSameSchemaTwiceWithoutUniqueDbNames()" classname="org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseBuilderTests" time="0.039"/>
-  <testcase name="addScripts()" classname="org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseBuilderTests" time="0.04"/>
-  <testcase name="addScriptsWithDefaultCommentPrefix()" classname="org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseBuilderTests" time="0.041"/>
-  <testcase name="addScriptsWithCustomBlockComments()" classname="org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseBuilderTests" time="0.038"/>
-  <testcase name="addScript()" classname="org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseBuilderTests" time="0.053"/>
-  <testcase name="addScriptsWithCustomCommentPrefix()" classname="org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseBuilderTests" time="0.056"/>
-  <testcase name="setTypeToH2()" classname="org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseBuilderTests" time="0.444"/>
-  <testcase name="addDefaultScripts()" classname="org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseBuilderTests" time="0.027"/>
+  <testcase name="createSameSchemaTwiceWithGeneratedUniqueDbNames()" classname="org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseBuilderTests" time="0.08"/>
+  <testcase name="setTypeToDerbyAndIgnoreFailedDrops()" classname="org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseBuilderTests" time="4.489"/>
+  <testcase name="addScriptWithBogusFileName()" classname="org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseBuilderTests" time="0.014"/>
+  <testcase name="createSameSchemaTwiceWithoutUniqueDbNames()" classname="org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseBuilderTests" time="0.025"/>
+  <testcase name="addScripts()" classname="org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseBuilderTests" time="0.038"/>
+  <testcase name="addScriptsWithDefaultCommentPrefix()" classname="org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseBuilderTests" time="0.061"/>
+  <testcase name="addScriptsWithCustomBlockComments()" classname="org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseBuilderTests" time="0.049"/>
+  <testcase name="addScript()" classname="org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseBuilderTests" time="0.127"/>
+  <testcase name="addScriptsWithCustomCommentPrefix()" classname="org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseBuilderTests" time="0.05"/>
+  <testcase name="setTypeToH2()" classname="org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseBuilderTests" time="0.426"/>
+  <testcase name="addDefaultScripts()" classname="org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseBuilderTests" time="0.023"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

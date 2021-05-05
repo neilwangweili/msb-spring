@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.aop.target.ThreadLocalTargetSourceTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:38:46" hostname="wangweilideMacBook-Pro.local" time="0.214">
+<testsuite name="org.springframework.aop.target.ThreadLocalTargetSourceTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:22:13" hostname="wangweilideMBP.lan" time="0.103">
   <properties/>
-  <testcase name="testUseDifferentManagedInstancesInSameThread()" classname="org.springframework.aop.target.ThreadLocalTargetSourceTests" time="0.133"/>
-  <testcase name="testNewThreadHasOwnInstance()" classname="org.springframework.aop.target.ThreadLocalTargetSourceTests" time="0.027"/>
-  <testcase name="testReuseDestroyedTarget()" classname="org.springframework.aop.target.ThreadLocalTargetSourceTests" time="0.014"/>
-  <testcase name="testReuseInSameThread()" classname="org.springframework.aop.target.ThreadLocalTargetSourceTests" time="0.019"/>
-  <testcase name="testCanGetStatsViaMixin()" classname="org.springframework.aop.target.ThreadLocalTargetSourceTests" time="0.018"/>
+  <testcase name="testUseDifferentManagedInstancesInSameThread()" classname="org.springframework.aop.target.ThreadLocalTargetSourceTests" time="0.039"/>
+  <testcase name="testNewThreadHasOwnInstance()" classname="org.springframework.aop.target.ThreadLocalTargetSourceTests" time="0.029"/>
+  <testcase name="testReuseDestroyedTarget()" classname="org.springframework.aop.target.ThreadLocalTargetSourceTests" time="0.01"/>
+  <testcase name="testReuseInSameThread()" classname="org.springframework.aop.target.ThreadLocalTargetSourceTests" time="0.012"/>
+  <testcase name="testCanGetStatsViaMixin()" classname="org.springframework.aop.target.ThreadLocalTargetSourceTests" time="0.011"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.web.servlet.mvc.condition.PatternsRequestConditionTests" tests="18" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:41:04" hostname="wangweilideMacBook-Pro.local" time="0.012">
+<testsuite name="org.springframework.web.servlet.mvc.condition.PatternsRequestConditionTests" tests="18" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:33:11" hostname="wangweilideMBP.lan" time="0.017">
   <properties/>
   <testcase name="combineOnePatternWithEmptySet()" classname="org.springframework.web.servlet.mvc.condition.PatternsRequestConditionTests" time="0.001"/>
-  <testcase name="matchWithEmptyPatterns()" classname="org.springframework.web.servlet.mvc.condition.PatternsRequestConditionTests" time="0.001"/>
+  <testcase name="matchWithEmptyPatterns()" classname="org.springframework.web.servlet.mvc.condition.PatternsRequestConditionTests" time="0.0"/>
   <testcase name="matchPatternContainsExtension()" classname="org.springframework.web.servlet.mvc.condition.PatternsRequestConditionTests" time="0.0"/>
   <testcase name="comparePatternSpecificity()" classname="org.springframework.web.servlet.mvc.condition.PatternsRequestConditionTests" time="0.0"/>
-  <testcase name="prependNonEmptyPatternsOnly()" classname="org.springframework.web.servlet.mvc.condition.PatternsRequestConditionTests" time="0.001"/>
+  <testcase name="prependNonEmptyPatternsOnly()" classname="org.springframework.web.servlet.mvc.condition.PatternsRequestConditionTests" time="0.0"/>
   <testcase name="matchTrailingSlash()" classname="org.springframework.web.servlet.mvc.condition.PatternsRequestConditionTests" time="0.0"/>
   <testcase name="matchDirectPath()" classname="org.springframework.web.servlet.mvc.condition.PatternsRequestConditionTests" time="0.001"/>
-  <testcase name="matchSuffixPatternUsingFileExtensions()" classname="org.springframework.web.servlet.mvc.condition.PatternsRequestConditionTests" time="0.0"/>
-  <testcase name="getDirectUrls()" classname="org.springframework.web.servlet.mvc.condition.PatternsRequestConditionTests" time="0.0"/>
-  <testcase name="matchSortPatterns()" classname="org.springframework.web.servlet.mvc.condition.PatternsRequestConditionTests" time="0.001"/>
-  <testcase name="matchPattern()" classname="org.springframework.web.servlet.mvc.condition.PatternsRequestConditionTests" time="0.0"/>
-  <testcase name="combineMultiplePatterns()" classname="org.springframework.web.servlet.mvc.condition.PatternsRequestConditionTests" time="0.001"/>
-  <testcase name="compareNumberOfMatchingPatterns()" classname="org.springframework.web.servlet.mvc.condition.PatternsRequestConditionTests" time="0.0"/>
-  <testcase name="matchSuffixPattern()" classname="org.springframework.web.servlet.mvc.condition.PatternsRequestConditionTests" time="0.0"/>
+  <testcase name="matchSuffixPatternUsingFileExtensions()" classname="org.springframework.web.servlet.mvc.condition.PatternsRequestConditionTests" time="0.002"/>
+  <testcase name="getDirectUrls()" classname="org.springframework.web.servlet.mvc.condition.PatternsRequestConditionTests" time="0.001"/>
+  <testcase name="matchSortPatterns()" classname="org.springframework.web.servlet.mvc.condition.PatternsRequestConditionTests" time="0.0"/>
+  <testcase name="matchPattern()" classname="org.springframework.web.servlet.mvc.condition.PatternsRequestConditionTests" time="0.001"/>
+  <testcase name="combineMultiplePatterns()" classname="org.springframework.web.servlet.mvc.condition.PatternsRequestConditionTests" time="0.0"/>
+  <testcase name="compareNumberOfMatchingPatterns()" classname="org.springframework.web.servlet.mvc.condition.PatternsRequestConditionTests" time="0.001"/>
+  <testcase name="matchSuffixPattern()" classname="org.springframework.web.servlet.mvc.condition.PatternsRequestConditionTests" time="0.001"/>
   <testcase name="prependSlash()" classname="org.springframework.web.servlet.mvc.condition.PatternsRequestConditionTests" time="0.0"/>
   <testcase name="combineEmptySets()" classname="org.springframework.web.servlet.mvc.condition.PatternsRequestConditionTests" time="0.0"/>
-  <testcase name="matchSuffixPatternUsingFileExtensions2()" classname="org.springframework.web.servlet.mvc.condition.PatternsRequestConditionTests" time="0.0"/>
-  <testcase name="compareEqualPatterns()" classname="org.springframework.web.servlet.mvc.condition.PatternsRequestConditionTests" time="0.001"/>
+  <testcase name="matchSuffixPatternUsingFileExtensions2()" classname="org.springframework.web.servlet.mvc.condition.PatternsRequestConditionTests" time="0.001"/>
+  <testcase name="compareEqualPatterns()" classname="org.springframework.web.servlet.mvc.condition.PatternsRequestConditionTests" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

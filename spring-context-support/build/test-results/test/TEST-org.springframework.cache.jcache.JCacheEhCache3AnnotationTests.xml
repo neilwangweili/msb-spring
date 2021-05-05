@@ -1,72 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.cache.jcache.JCacheEhCache3AnnotationTests" tests="64" skipped="1" failures="0" errors="0" timestamp="2021-04-26T07:39:38" hostname="wangweilideMacBook-Pro.local" time="3.726">
+<testsuite name="org.springframework.cache.jcache.JCacheEhCache3AnnotationTests" tests="64" skipped="1" failures="0" errors="0" timestamp="2021-05-01T09:26:07" hostname="wangweilideMBP.lan" time="2.332">
   <properties/>
-  <testcase name="testMultiConditionalCacheAndEvict()" classname="org.springframework.cache.jcache.JCacheEhCache3AnnotationTests" time="0.535"/>
-  <testcase name="testClassEvictWithKeyEarly()" classname="org.springframework.cache.jcache.JCacheEhCache3AnnotationTests" time="0.065"/>
-  <testcase name="testClassCheckedExceptionSync()" classname="org.springframework.cache.jcache.JCacheEhCache3AnnotationTests" time="0.056"/>
-  <testcase name="testKeyExpression()" classname="org.springframework.cache.jcache.JCacheEhCache3AnnotationTests" time="0.079"/>
-  <testcase name="testConditionalUpdate()" classname="org.springframework.cache.jcache.JCacheEhCache3AnnotationTests" time="0.047"/>
-  <testcase name="testClassMultiCacheAndEvict()" classname="org.springframework.cache.jcache.JCacheEhCache3AnnotationTests" time="0.062"/>
-  <testcase name="testCacheableSyncNull()" classname="org.springframework.cache.jcache.JCacheEhCache3AnnotationTests" time="0.076"/>
-  <testcase name="testUnknownCustomKeyGenerator()" classname="org.springframework.cache.jcache.JCacheEhCache3AnnotationTests" time="0.059"/>
-  <testcase name="testClassRootVars()" classname="org.springframework.cache.jcache.JCacheEhCache3AnnotationTests" time="0.067"/>
-  <testcase name="testMethodName()" classname="org.springframework.cache.jcache.JCacheEhCache3AnnotationTests" time="0.055"/>
-  <testcase name="testEvictWithException()" classname="org.springframework.cache.jcache.JCacheEhCache3AnnotationTests" time="0.089"/>
-  <testcase name="testClassUpdate()" classname="org.springframework.cache.jcache.JCacheEhCache3AnnotationTests" time="0.067"/>
-  <testcase name="testEvict()" classname="org.springframework.cache.jcache.JCacheEhCache3AnnotationTests" time="0.098"/>
-  <testcase name="testCheckedExceptionSync()" classname="org.springframework.cache.jcache.JCacheEhCache3AnnotationTests" time="0.041"/>
-  <testcase name="testClassEvictEarly()" classname="org.springframework.cache.jcache.JCacheEhCache3AnnotationTests" time="0.047"/>
-  <testcase name="testClassNullArg()" classname="org.springframework.cache.jcache.JCacheEhCache3AnnotationTests" time="0.05"/>
-  <testcase name="testClassEvictAll()" classname="org.springframework.cache.jcache.JCacheEhCache3AnnotationTests" time="0.044"/>
-  <testcase name="testPutRefersToResult()" classname="org.springframework.cache.jcache.JCacheEhCache3AnnotationTests" time="0.048"/>
-  <testcase name="testClassCacheUnlessExpression()" classname="org.springframework.cache.jcache.JCacheEhCache3AnnotationTests" time="0.039"/>
-  <testcase name="testConditionalExpressionSync()" classname="org.springframework.cache.jcache.JCacheEhCache3AnnotationTests" time="0.062"/>
-  <testcase name="testClassConditionalUpdate()" classname="org.springframework.cache.jcache.JCacheEhCache3AnnotationTests" time="0.056"/>
-  <testcase name="testConditionalExpression()" classname="org.springframework.cache.jcache.JCacheEhCache3AnnotationTests" time="0.058"/>
-  <testcase name="testClassMultiPut()" classname="org.springframework.cache.jcache.JCacheEhCache3AnnotationTests" time="0.046"/>
-  <testcase name="testClassUncheckedException()" classname="org.springframework.cache.jcache.JCacheEhCache3AnnotationTests" time="0.042"/>
-  <testcase name="testClassCacheEvictWithWKey()" classname="org.springframework.cache.jcache.JCacheEhCache3AnnotationTests" time="0.077"/>
-  <testcase name="testClassNullValue()" classname="org.springframework.cache.jcache.JCacheEhCache3AnnotationTests" time="0.074"/>
-  <testcase name="testUncheckedExceptionSync()" classname="org.springframework.cache.jcache.JCacheEhCache3AnnotationTests" time="0.049"/>
-  <testcase name="testClassUncheckedExceptionSync()" classname="org.springframework.cache.jcache.JCacheEhCache3AnnotationTests" time="0.058"/>
-  <testcase name="testClassCacheCacheable()" classname="org.springframework.cache.jcache.JCacheEhCache3AnnotationTests" time="0.046"/>
-  <testcase name="testClassMethodName()" classname="org.springframework.cache.jcache.JCacheEhCache3AnnotationTests" time="0.077"/>
-  <testcase name="testCustomKeyGenerator()" classname="org.springframework.cache.jcache.JCacheEhCache3AnnotationTests" time="0.037"/>
-  <testcase name="testCacheable()" classname="org.springframework.cache.jcache.JCacheEhCache3AnnotationTests" time="0.079"/>
-  <testcase name="testCheckedException()" classname="org.springframework.cache.jcache.JCacheEhCache3AnnotationTests" time="0.036"/>
-  <testcase name="testClassPutRefersToResult()" classname="org.springframework.cache.jcache.JCacheEhCache3AnnotationTests" time="0.046"/>
-  <testcase name="testVarArgsKey()" classname="org.springframework.cache.jcache.JCacheEhCache3AnnotationTests" time="0.046"/>
-  <testcase name="testMultiCache()" classname="org.springframework.cache.jcache.JCacheEhCache3AnnotationTests" time="0.036"/>
-  <testcase name="testMultiEvict()" classname="org.springframework.cache.jcache.JCacheEhCache3AnnotationTests" time="0.07"/>
+  <testcase name="testMultiConditionalCacheAndEvict()" classname="org.springframework.cache.jcache.JCacheEhCache3AnnotationTests" time="0.291"/>
+  <testcase name="testClassEvictWithKeyEarly()" classname="org.springframework.cache.jcache.JCacheEhCache3AnnotationTests" time="0.038"/>
+  <testcase name="testClassCheckedExceptionSync()" classname="org.springframework.cache.jcache.JCacheEhCache3AnnotationTests" time="0.045"/>
+  <testcase name="testKeyExpression()" classname="org.springframework.cache.jcache.JCacheEhCache3AnnotationTests" time="0.039"/>
+  <testcase name="testConditionalUpdate()" classname="org.springframework.cache.jcache.JCacheEhCache3AnnotationTests" time="0.03"/>
+  <testcase name="testClassMultiCacheAndEvict()" classname="org.springframework.cache.jcache.JCacheEhCache3AnnotationTests" time="0.05"/>
+  <testcase name="testCacheableSyncNull()" classname="org.springframework.cache.jcache.JCacheEhCache3AnnotationTests" time="0.037"/>
+  <testcase name="testUnknownCustomKeyGenerator()" classname="org.springframework.cache.jcache.JCacheEhCache3AnnotationTests" time="0.03"/>
+  <testcase name="testClassRootVars()" classname="org.springframework.cache.jcache.JCacheEhCache3AnnotationTests" time="0.026"/>
+  <testcase name="testMethodName()" classname="org.springframework.cache.jcache.JCacheEhCache3AnnotationTests" time="0.029"/>
+  <testcase name="testEvictWithException()" classname="org.springframework.cache.jcache.JCacheEhCache3AnnotationTests" time="0.028"/>
+  <testcase name="testClassUpdate()" classname="org.springframework.cache.jcache.JCacheEhCache3AnnotationTests" time="0.031"/>
+  <testcase name="testEvict()" classname="org.springframework.cache.jcache.JCacheEhCache3AnnotationTests" time="0.026"/>
+  <testcase name="testCheckedExceptionSync()" classname="org.springframework.cache.jcache.JCacheEhCache3AnnotationTests" time="0.025"/>
+  <testcase name="testClassEvictEarly()" classname="org.springframework.cache.jcache.JCacheEhCache3AnnotationTests" time="0.029"/>
+  <testcase name="testClassNullArg()" classname="org.springframework.cache.jcache.JCacheEhCache3AnnotationTests" time="0.035"/>
+  <testcase name="testClassEvictAll()" classname="org.springframework.cache.jcache.JCacheEhCache3AnnotationTests" time="0.038"/>
+  <testcase name="testPutRefersToResult()" classname="org.springframework.cache.jcache.JCacheEhCache3AnnotationTests" time="0.025"/>
+  <testcase name="testClassCacheUnlessExpression()" classname="org.springframework.cache.jcache.JCacheEhCache3AnnotationTests" time="0.029"/>
+  <testcase name="testConditionalExpressionSync()" classname="org.springframework.cache.jcache.JCacheEhCache3AnnotationTests" time="0.024"/>
+  <testcase name="testClassConditionalUpdate()" classname="org.springframework.cache.jcache.JCacheEhCache3AnnotationTests" time="0.039"/>
+  <testcase name="testConditionalExpression()" classname="org.springframework.cache.jcache.JCacheEhCache3AnnotationTests" time="0.026"/>
+  <testcase name="testClassMultiPut()" classname="org.springframework.cache.jcache.JCacheEhCache3AnnotationTests" time="0.024"/>
+  <testcase name="testClassUncheckedException()" classname="org.springframework.cache.jcache.JCacheEhCache3AnnotationTests" time="0.021"/>
+  <testcase name="testClassCacheEvictWithWKey()" classname="org.springframework.cache.jcache.JCacheEhCache3AnnotationTests" time="0.02"/>
+  <testcase name="testClassNullValue()" classname="org.springframework.cache.jcache.JCacheEhCache3AnnotationTests" time="0.026"/>
+  <testcase name="testUncheckedExceptionSync()" classname="org.springframework.cache.jcache.JCacheEhCache3AnnotationTests" time="0.026"/>
+  <testcase name="testClassUncheckedExceptionSync()" classname="org.springframework.cache.jcache.JCacheEhCache3AnnotationTests" time="0.028"/>
+  <testcase name="testClassCacheCacheable()" classname="org.springframework.cache.jcache.JCacheEhCache3AnnotationTests" time="0.028"/>
+  <testcase name="testClassMethodName()" classname="org.springframework.cache.jcache.JCacheEhCache3AnnotationTests" time="0.03"/>
+  <testcase name="testCustomKeyGenerator()" classname="org.springframework.cache.jcache.JCacheEhCache3AnnotationTests" time="0.025"/>
+  <testcase name="testCacheable()" classname="org.springframework.cache.jcache.JCacheEhCache3AnnotationTests" time="0.024"/>
+  <testcase name="testCheckedException()" classname="org.springframework.cache.jcache.JCacheEhCache3AnnotationTests" time="0.022"/>
+  <testcase name="testClassPutRefersToResult()" classname="org.springframework.cache.jcache.JCacheEhCache3AnnotationTests" time="0.028"/>
+  <testcase name="testVarArgsKey()" classname="org.springframework.cache.jcache.JCacheEhCache3AnnotationTests" time="0.027"/>
+  <testcase name="testMultiCache()" classname="org.springframework.cache.jcache.JCacheEhCache3AnnotationTests" time="0.03"/>
+  <testcase name="testMultiEvict()" classname="org.springframework.cache.jcache.JCacheEhCache3AnnotationTests" time="0.026"/>
   <testcase name="testMultiCacheAndEvict()" classname="org.springframework.cache.jcache.JCacheEhCache3AnnotationTests" time="0.031"/>
-  <testcase name="testRootVars()" classname="org.springframework.cache.jcache.JCacheEhCache3AnnotationTests" time="0.037"/>
-  <testcase name="testClassMultiConditionalCacheAndEvict()" classname="org.springframework.cache.jcache.JCacheEhCache3AnnotationTests" time="0.039"/>
-  <testcase name="testClassEvictWithException()" classname="org.springframework.cache.jcache.JCacheEhCache3AnnotationTests" time="0.077"/>
-  <testcase name="testClassCheckedException()" classname="org.springframework.cache.jcache.JCacheEhCache3AnnotationTests" time="0.049"/>
-  <testcase name="testClassCacheEvict()" classname="org.springframework.cache.jcache.JCacheEhCache3AnnotationTests" time="0.049"/>
-  <testcase name="testEvictWithKey()" classname="org.springframework.cache.jcache.JCacheEhCache3AnnotationTests" time="0.053"/>
-  <testcase name="testUnlessExpression()" classname="org.springframework.cache.jcache.JCacheEhCache3AnnotationTests" time="0.038"/>
-  <testcase name="testEvictAllEarly()" classname="org.springframework.cache.jcache.JCacheEhCache3AnnotationTests" time="0.044"/>
-  <testcase name="testEvictAll()" classname="org.springframework.cache.jcache.JCacheEhCache3AnnotationTests" time="0.041"/>
+  <testcase name="testRootVars()" classname="org.springframework.cache.jcache.JCacheEhCache3AnnotationTests" time="0.036"/>
+  <testcase name="testClassMultiConditionalCacheAndEvict()" classname="org.springframework.cache.jcache.JCacheEhCache3AnnotationTests" time="0.031"/>
+  <testcase name="testClassEvictWithException()" classname="org.springframework.cache.jcache.JCacheEhCache3AnnotationTests" time="0.025"/>
+  <testcase name="testClassCheckedException()" classname="org.springframework.cache.jcache.JCacheEhCache3AnnotationTests" time="0.044"/>
+  <testcase name="testClassCacheEvict()" classname="org.springframework.cache.jcache.JCacheEhCache3AnnotationTests" time="0.037"/>
+  <testcase name="testEvictWithKey()" classname="org.springframework.cache.jcache.JCacheEhCache3AnnotationTests" time="0.124"/>
+  <testcase name="testUnlessExpression()" classname="org.springframework.cache.jcache.JCacheEhCache3AnnotationTests" time="0.041"/>
+  <testcase name="testEvictAllEarly()" classname="org.springframework.cache.jcache.JCacheEhCache3AnnotationTests" time="0.049"/>
+  <testcase name="testEvictAll()" classname="org.springframework.cache.jcache.JCacheEhCache3AnnotationTests" time="0.035"/>
   <testcase name="testCacheableNull()" classname="org.springframework.cache.jcache.JCacheEhCache3AnnotationTests" time="0.035"/>
-  <testcase name="testCacheableSync()" classname="org.springframework.cache.jcache.JCacheEhCache3AnnotationTests" time="0.033"/>
-  <testcase name="testEvictWithKeyEarly()" classname="org.springframework.cache.jcache.JCacheEhCache3AnnotationTests" time="0.051"/>
-  <testcase name="testMultiPut()" classname="org.springframework.cache.jcache.JCacheEhCache3AnnotationTests" time="0.041"/>
+  <testcase name="testCacheableSync()" classname="org.springframework.cache.jcache.JCacheEhCache3AnnotationTests" time="0.028"/>
+  <testcase name="testEvictWithKeyEarly()" classname="org.springframework.cache.jcache.JCacheEhCache3AnnotationTests" time="0.038"/>
+  <testcase name="testMultiPut()" classname="org.springframework.cache.jcache.JCacheEhCache3AnnotationTests" time="0.034"/>
   <testcase name="testUnknownCustomCacheManager()" classname="org.springframework.cache.jcache.JCacheEhCache3AnnotationTests" time="0.043"/>
-  <testcase name="testUncheckedException()" classname="org.springframework.cache.jcache.JCacheEhCache3AnnotationTests" time="0.029"/>
-  <testcase name="testNullValue()" classname="org.springframework.cache.jcache.JCacheEhCache3AnnotationTests" time="0.031"/>
-  <testcase name="testEvictEarly()" classname="org.springframework.cache.jcache.JCacheEhCache3AnnotationTests" time="0.033"/>
-  <testcase name="testUpdate()" classname="org.springframework.cache.jcache.JCacheEhCache3AnnotationTests" time="0.029"/>
-  <testcase name="testNullArg()" classname="org.springframework.cache.jcache.JCacheEhCache3AnnotationTests" time="0.036"/>
-  <testcase name="testClassMultiCache()" classname="org.springframework.cache.jcache.JCacheEhCache3AnnotationTests" time="0.047"/>
-  <testcase name="testClassMultiEvict()" classname="org.springframework.cache.jcache.JCacheEhCache3AnnotationTests" time="0.041"/>
-  <testcase name="testEvictAllWithTransaction()" classname="org.springframework.cache.jcache.JCacheEhCache3AnnotationTests" time="0.029"/>
+  <testcase name="testUncheckedException()" classname="org.springframework.cache.jcache.JCacheEhCache3AnnotationTests" time="0.027"/>
+  <testcase name="testNullValue()" classname="org.springframework.cache.jcache.JCacheEhCache3AnnotationTests" time="0.024"/>
+  <testcase name="testEvictEarly()" classname="org.springframework.cache.jcache.JCacheEhCache3AnnotationTests" time="0.038"/>
+  <testcase name="testUpdate()" classname="org.springframework.cache.jcache.JCacheEhCache3AnnotationTests" time="0.024"/>
+  <testcase name="testNullArg()" classname="org.springframework.cache.jcache.JCacheEhCache3AnnotationTests" time="0.028"/>
+  <testcase name="testClassMultiCache()" classname="org.springframework.cache.jcache.JCacheEhCache3AnnotationTests" time="0.032"/>
+  <testcase name="testClassMultiEvict()" classname="org.springframework.cache.jcache.JCacheEhCache3AnnotationTests" time="0.031"/>
+  <testcase name="testEvictAllWithTransaction()" classname="org.springframework.cache.jcache.JCacheEhCache3AnnotationTests" time="0.024"/>
   <testcase name="testCustomCacheManager()" classname="org.springframework.cache.jcache.JCacheEhCache3AnnotationTests" time="0.0">
     <skipped/>
   </testcase>
-  <testcase name="testEvictEarlyWithTransaction()" classname="org.springframework.cache.jcache.JCacheEhCache3AnnotationTests" time="0.037"/>
-  <testcase name="testEvictAllEarlyWithTransaction()" classname="org.springframework.cache.jcache.JCacheEhCache3AnnotationTests" time="0.043"/>
-  <testcase name="testEvictWithTransaction()" classname="org.springframework.cache.jcache.JCacheEhCache3AnnotationTests" time="0.035"/>
+  <testcase name="testEvictEarlyWithTransaction()" classname="org.springframework.cache.jcache.JCacheEhCache3AnnotationTests" time="0.031"/>
+  <testcase name="testEvictAllEarlyWithTransaction()" classname="org.springframework.cache.jcache.JCacheEhCache3AnnotationTests" time="0.027"/>
+  <testcase name="testEvictWithTransaction()" classname="org.springframework.cache.jcache.JCacheEhCache3AnnotationTests" time="0.026"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

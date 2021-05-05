@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.jms.listener.endpoint.JmsMessageEndpointManagerTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:39:18" hostname="wangweilideMacBook-Pro.local" time="0.018">
+<testsuite name="org.springframework.jms.listener.endpoint.JmsMessageEndpointManagerTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:25:12" hostname="wangweilideMBP.lan" time="0.039">
   <properties/>
-  <testcase name="getReplyQosSettingsWithNoConfig()" classname="org.springframework.jms.listener.endpoint.JmsMessageEndpointManagerTests" time="0.006"/>
+  <testcase name="getReplyQosSettingsWithNoConfig()" classname="org.springframework.jms.listener.endpoint.JmsMessageEndpointManagerTests" time="0.027"/>
   <testcase name="getMessageConverterNoConfig()" classname="org.springframework.jms.listener.endpoint.JmsMessageEndpointManagerTests" time="0.0"/>
-  <testcase name="isPubSubDomainWithNoConfig()" classname="org.springframework.jms.listener.endpoint.JmsMessageEndpointManagerTests" time="0.001"/>
-  <testcase name="isPubSubDomainWithQueue()" classname="org.springframework.jms.listener.endpoint.JmsMessageEndpointManagerTests" time="0.002"/>
+  <testcase name="isPubSubDomainWithNoConfig()" classname="org.springframework.jms.listener.endpoint.JmsMessageEndpointManagerTests" time="0.0"/>
+  <testcase name="isPubSubDomainWithQueue()" classname="org.springframework.jms.listener.endpoint.JmsMessageEndpointManagerTests" time="0.003"/>
   <testcase name="isPubSubDomainWithTopic()" classname="org.springframework.jms.listener.endpoint.JmsMessageEndpointManagerTests" time="0.0"/>
-  <testcase name="getDestinationResolverNoConfig()" classname="org.springframework.jms.listener.endpoint.JmsMessageEndpointManagerTests" time="0.0"/>
-  <testcase name="pubSubDomainCustomForReply()" classname="org.springframework.jms.listener.endpoint.JmsMessageEndpointManagerTests" time="0.001"/>
+  <testcase name="getDestinationResolverNoConfig()" classname="org.springframework.jms.listener.endpoint.JmsMessageEndpointManagerTests" time="0.001"/>
+  <testcase name="pubSubDomainCustomForReply()" classname="org.springframework.jms.listener.endpoint.JmsMessageEndpointManagerTests" time="0.0"/>
   <testcase name="customReplyQosSettings()" classname="org.springframework.jms.listener.endpoint.JmsMessageEndpointManagerTests" time="0.002"/>
   <testcase name="isReplyPubSubDomainWithNoConfig()" classname="org.springframework.jms.listener.endpoint.JmsMessageEndpointManagerTests" time="0.001"/>
   <system-out><![CDATA[]]></system-out>

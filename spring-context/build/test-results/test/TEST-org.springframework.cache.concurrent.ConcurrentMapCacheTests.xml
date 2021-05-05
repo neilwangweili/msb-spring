@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.cache.concurrent.ConcurrentMapCacheTests" tests="17" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:41:11" hostname="wangweilideMacBook-Pro.local" time="0.069">
+<testsuite name="org.springframework.cache.concurrent.ConcurrentMapCacheTests" tests="17" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:32:13" hostname="wangweilideMBP.lan" time="0.064">
   <properties/>
   <testcase name="testCacheGetCallableNotInvokedWithHitNull()" classname="org.springframework.cache.concurrent.ConcurrentMapCacheTests" time="0.001"/>
-  <testcase name="testCacheGetSynchronized()" classname="org.springframework.cache.concurrent.ConcurrentMapCacheTests" time="0.058"/>
-  <testcase name="testCachePutIfAbsent()" classname="org.springframework.cache.concurrent.ConcurrentMapCacheTests" time="0.001"/>
-  <testcase name="testCacheClear()" classname="org.springframework.cache.concurrent.ConcurrentMapCacheTests" time="0.0"/>
+  <testcase name="testCacheGetSynchronized()" classname="org.springframework.cache.concurrent.ConcurrentMapCacheTests" time="0.054"/>
+  <testcase name="testCachePutIfAbsent()" classname="org.springframework.cache.concurrent.ConcurrentMapCacheTests" time="0.0"/>
+  <testcase name="testCacheClear()" classname="org.springframework.cache.concurrent.ConcurrentMapCacheTests" time="0.001"/>
   <testcase name="testCacheRemove()" classname="org.springframework.cache.concurrent.ConcurrentMapCacheTests" time="0.0"/>
   <testcase name="testCacheGetCallableNotInvokedWithHit()" classname="org.springframework.cache.concurrent.ConcurrentMapCacheTests" time="0.0"/>
-  <testcase name="testCacheName()" classname="org.springframework.cache.concurrent.ConcurrentMapCacheTests" time="0.0"/>
-  <testcase name="testCachePut()" classname="org.springframework.cache.concurrent.ConcurrentMapCacheTests" time="0.001"/>
+  <testcase name="testCacheName()" classname="org.springframework.cache.concurrent.ConcurrentMapCacheTests" time="0.001"/>
+  <testcase name="testCachePut()" classname="org.springframework.cache.concurrent.ConcurrentMapCacheTests" time="0.0"/>
   <testcase name="testCacheGetCallable()" classname="org.springframework.cache.concurrent.ConcurrentMapCacheTests" time="0.0"/>
   <testcase name="testNativeCache()" classname="org.springframework.cache.concurrent.ConcurrentMapCacheTests" time="0.0"/>
-  <testcase name="testCacheGetCallableFail()" classname="org.springframework.cache.concurrent.ConcurrentMapCacheTests" time="0.0"/>
-  <testcase name="testCacheGetCallableWithNull()" classname="org.springframework.cache.concurrent.ConcurrentMapCacheTests" time="0.001"/>
-  <testcase name="testCachePutNullValueAllowNullFalse()" classname="org.springframework.cache.concurrent.ConcurrentMapCacheTests" time="0.0"/>
+  <testcase name="testCacheGetCallableFail()" classname="org.springframework.cache.concurrent.ConcurrentMapCacheTests" time="0.001"/>
+  <testcase name="testCacheGetCallableWithNull()" classname="org.springframework.cache.concurrent.ConcurrentMapCacheTests" time="0.0"/>
+  <testcase name="testCachePutNullValueAllowNullFalse()" classname="org.springframework.cache.concurrent.ConcurrentMapCacheTests" time="0.001"/>
   <testcase name="testSerializer()" classname="org.springframework.cache.concurrent.ConcurrentMapCacheTests" time="0.001"/>
   <testcase name="testIsStoreByReferenceByDefault()" classname="org.springframework.cache.concurrent.ConcurrentMapCacheTests" time="0.0"/>
-  <testcase name="testNonSerializableContent()" classname="org.springframework.cache.concurrent.ConcurrentMapCacheTests" time="0.002"/>
+  <testcase name="testNonSerializableContent()" classname="org.springframework.cache.concurrent.ConcurrentMapCacheTests" time="0.001"/>
   <testcase name="testInvalidSerializedContent()" classname="org.springframework.cache.concurrent.ConcurrentMapCacheTests" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

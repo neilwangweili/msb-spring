@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.messaging.simp.stomp.StompHeaderAccessorTests" tests="15" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:39:55" hostname="wangweilideMacBook-Pro.local" time="0.008">
+<testsuite name="org.springframework.messaging.simp.stomp.StompHeaderAccessorTests" tests="15" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:29:43" hostname="wangweilideMBP.lan" time="0.018">
   <properties/>
-  <testcase name="toNativeHeadersMessageFrame()" classname="org.springframework.messaging.simp.stomp.StompHeaderAccessorTests" time="0.0"/>
+  <testcase name="toNativeHeadersMessageFrame()" classname="org.springframework.messaging.simp.stomp.StompHeaderAccessorTests" time="0.001"/>
   <testcase name="getShortLogMessage()" classname="org.springframework.messaging.simp.stomp.StompHeaderAccessorTests" time="0.0"/>
-  <testcase name="createWithCommand()" classname="org.springframework.messaging.simp.stomp.StompHeaderAccessorTests" time="0.0"/>
+  <testcase name="createWithCommand()" classname="org.springframework.messaging.simp.stomp.StompHeaderAccessorTests" time="0.001"/>
   <testcase name="createWithConnectNativeHeaders()" classname="org.springframework.messaging.simp.stomp.StompHeaderAccessorTests" time="0.0"/>
   <testcase name="toNativeHeadersContentType()" classname="org.springframework.messaging.simp.stomp.StompHeaderAccessorTests" time="0.0"/>
-  <testcase name="messageIdAndTimestampDefaultBehavior()" classname="org.springframework.messaging.simp.stomp.StompHeaderAccessorTests" time="0.0"/>
-  <testcase name="getAccessor()" classname="org.springframework.messaging.simp.stomp.StompHeaderAccessorTests" time="0.001"/>
-  <testcase name="modifyCustomNativeHeader()" classname="org.springframework.messaging.simp.stomp.StompHeaderAccessorTests" time="0.0"/>
+  <testcase name="messageIdAndTimestampDefaultBehavior()" classname="org.springframework.messaging.simp.stomp.StompHeaderAccessorTests" time="0.001"/>
+  <testcase name="getAccessor()" classname="org.springframework.messaging.simp.stomp.StompHeaderAccessorTests" time="0.0"/>
+  <testcase name="modifyCustomNativeHeader()" classname="org.springframework.messaging.simp.stomp.StompHeaderAccessorTests" time="0.011"/>
   <testcase name="toNativeHeadersUnsubscribe()" classname="org.springframework.messaging.simp.stomp.StompHeaderAccessorTests" time="0.0"/>
-  <testcase name="toNativeHeadersSubscribe()" classname="org.springframework.messaging.simp.stomp.StompHeaderAccessorTests" time="0.001"/>
-  <testcase name="createWithMessageFrameNativeHeaders()" classname="org.springframework.messaging.simp.stomp.StompHeaderAccessorTests" time="0.0"/>
+  <testcase name="toNativeHeadersSubscribe()" classname="org.springframework.messaging.simp.stomp.StompHeaderAccessorTests" time="0.0"/>
+  <testcase name="createWithMessageFrameNativeHeaders()" classname="org.springframework.messaging.simp.stomp.StompHeaderAccessorTests" time="0.001"/>
   <testcase name="messageIdAndTimestampEnabled()" classname="org.springframework.messaging.simp.stomp.StompHeaderAccessorTests" time="0.0"/>
   <testcase name="createWithSubscribeNativeHeaders()" classname="org.springframework.messaging.simp.stomp.StompHeaderAccessorTests" time="0.0"/>
   <testcase name="encodeConnectWithLoginAndPasscode()" classname="org.springframework.messaging.simp.stomp.StompHeaderAccessorTests" time="0.001"/>
-  <testcase name="createWithUnubscribeNativeHeaders()" classname="org.springframework.messaging.simp.stomp.StompHeaderAccessorTests" time="0.001"/>
+  <testcase name="createWithUnubscribeNativeHeaders()" classname="org.springframework.messaging.simp.stomp.StompHeaderAccessorTests" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

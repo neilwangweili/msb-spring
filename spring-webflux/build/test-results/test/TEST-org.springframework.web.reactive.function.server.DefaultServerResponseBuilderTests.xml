@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.web.reactive.function.server.DefaultServerResponseBuilderTests" tests="28" skipped="0" failures="0" errors="0" timestamp="2021-04-26T08:38:19" hostname="wangweilideMacBook-Pro.local" time="0.053">
+<testsuite name="org.springframework.web.reactive.function.server.DefaultServerResponseBuilderTests" tests="28" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:53:41" hostname="wangweilideMBP.lan" time="0.038">
   <properties/>
-  <testcase name="accepted()" classname="org.springframework.web.reactive.function.server.DefaultServerResponseBuilderTests" time="0.001"/>
-  <testcase name="notModifiedEtag()" classname="org.springframework.web.reactive.function.server.DefaultServerResponseBuilderTests" time="0.007"/>
+  <testcase name="accepted()" classname="org.springframework.web.reactive.function.server.DefaultServerResponseBuilderTests" time="0.002"/>
+  <testcase name="notModifiedEtag()" classname="org.springframework.web.reactive.function.server.DefaultServerResponseBuilderTests" time="0.008"/>
   <testcase name="buildVoidPublisher()" classname="org.springframework.web.reactive.function.server.DefaultServerResponseBuilderTests" time="0.006"/>
   <testcase name="temporaryRedirect()" classname="org.springframework.web.reactive.function.server.DefaultServerResponseBuilderTests" time="0.0"/>
-  <testcase name="status()" classname="org.springframework.web.reactive.function.server.DefaultServerResponseBuilderTests" time="0.0"/>
+  <testcase name="status()" classname="org.springframework.web.reactive.function.server.DefaultServerResponseBuilderTests" time="0.001"/>
   <testcase name="varyBy()" classname="org.springframework.web.reactive.function.server.DefaultServerResponseBuilderTests" time="0.0"/>
-  <testcase name="contentLength()" classname="org.springframework.web.reactive.function.server.DefaultServerResponseBuilderTests" time="0.0"/>
+  <testcase name="contentLength()" classname="org.springframework.web.reactive.function.server.DefaultServerResponseBuilderTests" time="0.001"/>
   <testcase name="permanentRedirect()" classname="org.springframework.web.reactive.function.server.DefaultServerResponseBuilderTests" time="0.0"/>
-  <testcase name="contentType()" classname="org.springframework.web.reactive.function.server.DefaultServerResponseBuilderTests" time="0.001"/>
+  <testcase name="contentType()" classname="org.springframework.web.reactive.function.server.DefaultServerResponseBuilderTests" time="0.0"/>
   <testcase name="badRequest()" classname="org.springframework.web.reactive.function.server.DefaultServerResponseBuilderTests" time="0.0"/>
-  <testcase name="ok()" classname="org.springframework.web.reactive.function.server.DefaultServerResponseBuilderTests" time="0.017"/>
-  <testcase name="eTag()" classname="org.springframework.web.reactive.function.server.DefaultServerResponseBuilderTests" time="0.0"/>
-  <testcase name="from()" classname="org.springframework.web.reactive.function.server.DefaultServerResponseBuilderTests" time="0.002"/>
-  <testcase name="allow()" classname="org.springframework.web.reactive.function.server.DefaultServerResponseBuilderTests" time="0.0"/>
-  <testcase name="build()" classname="org.springframework.web.reactive.function.server.DefaultServerResponseBuilderTests" time="0.004"/>
+  <testcase name="ok()" classname="org.springframework.web.reactive.function.server.DefaultServerResponseBuilderTests" time="0.0"/>
+  <testcase name="eTag()" classname="org.springframework.web.reactive.function.server.DefaultServerResponseBuilderTests" time="0.001"/>
+  <testcase name="from()" classname="org.springframework.web.reactive.function.server.DefaultServerResponseBuilderTests" time="0.001"/>
+  <testcase name="allow()" classname="org.springframework.web.reactive.function.server.DefaultServerResponseBuilderTests" time="0.001"/>
+  <testcase name="build()" classname="org.springframework.web.reactive.function.server.DefaultServerResponseBuilderTests" time="0.005"/>
   <testcase name="cacheControlTag()" classname="org.springframework.web.reactive.function.server.DefaultServerResponseBuilderTests" time="0.0"/>
   <testcase name="statusCode()" classname="org.springframework.web.reactive.function.server.DefaultServerResponseBuilderTests" time="0.001"/>
   <testcase name="copyCookies()" classname="org.springframework.web.reactive.function.server.DefaultServerResponseBuilderTests" time="0.0"/>
   <testcase name="notModifiedLastModified()" classname="org.springframework.web.reactive.function.server.DefaultServerResponseBuilderTests" time="0.006"/>
   <testcase name="bodyObjectPublisher()" classname="org.springframework.web.reactive.function.server.DefaultServerResponseBuilderTests" time="0.0"/>
-  <testcase name="headers()" classname="org.springframework.web.reactive.function.server.DefaultServerResponseBuilderTests" time="0.0"/>
-  <testcase name="cookies()" classname="org.springframework.web.reactive.function.server.DefaultServerResponseBuilderTests" time="0.001"/>
+  <testcase name="headers()" classname="org.springframework.web.reactive.function.server.DefaultServerResponseBuilderTests" time="0.001"/>
+  <testcase name="cookies()" classname="org.springframework.web.reactive.function.server.DefaultServerResponseBuilderTests" time="0.0"/>
   <testcase name="seeOther()" classname="org.springframework.web.reactive.function.server.DefaultServerResponseBuilderTests" time="0.0"/>
-  <testcase name="created()" classname="org.springframework.web.reactive.function.server.DefaultServerResponseBuilderTests" time="0.001"/>
+  <testcase name="created()" classname="org.springframework.web.reactive.function.server.DefaultServerResponseBuilderTests" time="0.0"/>
   <testcase name="noContent()" classname="org.springframework.web.reactive.function.server.DefaultServerResponseBuilderTests" time="0.0"/>
   <testcase name="notFound()" classname="org.springframework.web.reactive.function.server.DefaultServerResponseBuilderTests" time="0.0"/>
-  <testcase name="unprocessableEntity()" classname="org.springframework.web.reactive.function.server.DefaultServerResponseBuilderTests" time="0.001"/>
+  <testcase name="unprocessableEntity()" classname="org.springframework.web.reactive.function.server.DefaultServerResponseBuilderTests" time="0.0"/>
   <testcase name="lastModified()" classname="org.springframework.web.reactive.function.server.DefaultServerResponseBuilderTests" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

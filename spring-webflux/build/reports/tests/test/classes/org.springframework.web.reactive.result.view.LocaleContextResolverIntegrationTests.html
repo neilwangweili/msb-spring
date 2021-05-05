@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">13.501s</div>
+<div class="counter">13.996s</div>
 <p>duration</p>
 </div>
 </td>
@@ -79,27 +79,27 @@
 </tr>
 </thead>
 <tr>
-<td class="success">[1] org.springframework.web.testfixture.http.server.reactive.bootstrap.JettyHttpServer@70df0548</td>
+<td class="success">[1] org.springframework.web.testfixture.http.server.reactive.bootstrap.JettyHttpServer@1ec7cec6</td>
 <td class="success">fixedLocale(HttpServer)[1]</td>
-<td class="success">1.247s</td>
+<td class="success">1.828s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
-<td class="success">[2] org.springframework.web.testfixture.http.server.reactive.bootstrap.ReactorHttpServer@39f9b2fb</td>
+<td class="success">[2] org.springframework.web.testfixture.http.server.reactive.bootstrap.ReactorHttpServer@31586fa</td>
 <td class="success">fixedLocale(HttpServer)[2]</td>
-<td class="success">0.149s</td>
+<td class="success">0.139s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
-<td class="success">[3] org.springframework.web.testfixture.http.server.reactive.bootstrap.TomcatHttpServer@19bbccca</td>
+<td class="success">[3] org.springframework.web.testfixture.http.server.reactive.bootstrap.TomcatHttpServer@18c9ddc0</td>
 <td class="success">fixedLocale(HttpServer)[3]</td>
-<td class="success">11.941s</td>
+<td class="success">11.837s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
-<td class="success">[4] org.springframework.web.testfixture.http.server.reactive.bootstrap.UndertowHttpServer@770182db</td>
+<td class="success">[4] org.springframework.web.testfixture.http.server.reactive.bootstrap.UndertowHttpServer@2ed87562</td>
 <td class="success">fixedLocale(HttpServer)[4]</td>
-<td class="success">0.164s</td>
+<td class="success">0.192s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -107,72 +107,72 @@
 <div id="tab1" class="tab">
 <h2>Standard output</h2>
 <span class="code">
-<pre>16:32:00.982 [Test worker] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - 1 mappings in 'requestMappingHandlerMapping'
-16:32:01.141 [Test worker] INFO  o.h.v.i.u.Version - HV000001: Hibernate Validator 6.2.0.Final
-16:32:01.383 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
-16:32:01.420 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
-16:32:01.435 [Test worker] INFO  o.e.j.u.log - Logging initialized @9846ms to org.eclipse.jetty.util.log.Slf4jLog
-16:32:01.478 [Test worker] WARN  o.e.j.s.h.ContextHandler - Empty contextPath
-16:32:01.516 [Test worker] INFO  o.e.j.s.h.ContextHandler - Started o.e.j.s.ServletContextHandler@76141284{/,null,AVAILABLE}
-16:32:01.545 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Starting JettyHttpServer...
-16:32:01.549 [Test worker] INFO  o.e.j.s.Server - jetty-9.4.39.v20210325; built: 2021-03-25T14:42:11.471Z; git: 9fc7ca5a922f2a37b84ec9dbc26a5168cee7e667; jvm 11.0.9+7-LTS
-16:32:01.584 [Test worker] INFO  o.e.j.s.AbstractConnector - Started ServerConnector@6c9082e7{HTTP/1.1, (http/1.1)}{0.0.0.0:61194}
-16:32:01.584 [Test worker] INFO  o.e.j.s.Server - Started @9997ms
-16:32:01.585 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Server started on port 61194(0 millis).
-16:32:01.635 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [790ff1f1] HTTP GET http://localhost:61194/
-16:32:02.050 [qtp1323276543-58] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [c3afd11] HTTP GET &quot;/&quot;
-16:32:02.053 [qtp1323276543-58] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - [c3afd11] Mapped to org.springframework.web.reactive.result.view.LocaleContextResolverIntegrationTests$TestController#foo()
-16:32:02.059 [qtp1323276543-58] DEBUG o.s.w.r.r.v.ViewResolutionResultHandler - [c3afd11] Using 'text/html' given [*/*] and supported [text/html]
-16:32:02.060 [qtp1323276543-58] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [c3afd11] Completed 200 OK
-16:32:02.077 [reactor-http-nio-2] DEBUG o.s.w.r.f.c.ExchangeFunctions - [790ff1f1] [b710d294-1, L:/127.0.0.1:61195 - R:localhost/127.0.0.1:61194] Response 200 OK
-16:32:02.089 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Stopping JettyHttpServer...
-16:32:02.091 [Test worker] INFO  o.e.j.s.h.ContextHandler - Stopped o.e.j.s.ServletContextHandler@76141284{/,null,STOPPED}
-16:32:02.101 [Test worker] INFO  o.e.j.s.AbstractConnector - Stopped ServerConnector@6c9082e7{HTTP/1.1, (http/1.1)}{0.0.0.0:0}
-16:32:02.102 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Server stopped (0 millis).
-16:32:02.152 [Test worker] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - 1 mappings in 'requestMappingHandlerMapping'
-16:32:02.177 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
-16:32:02.186 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
-16:32:02.200 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Starting ReactorHttpServer...
-16:32:02.209 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Server started on port 61198(0 millis).
-16:32:02.210 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [31f7b44a] HTTP GET http://localhost:61198/
-16:32:02.253 [reactor-http-nio-5] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [1ed56799-1, L:/127.0.0.1:61198 - R:/127.0.0.1:61199] HTTP GET &quot;/&quot;
-16:32:02.255 [reactor-http-nio-5] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - [1ed56799-1, L:/127.0.0.1:61198 - R:/127.0.0.1:61199] Mapped to org.springframework.web.reactive.result.view.LocaleContextResolverIntegrationTests$TestController#foo()
-16:32:02.256 [reactor-http-nio-5] DEBUG o.s.w.r.r.v.ViewResolutionResultHandler - [1ed56799-1, L:/127.0.0.1:61198 - R:/127.0.0.1:61199] Using 'text/html' given [*/*] and supported [text/html]
-16:32:02.256 [reactor-http-nio-5] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [1ed56799-1, L:/127.0.0.1:61198 - R:/127.0.0.1:61199] Completed 200 OK
-16:32:02.262 [reactor-http-nio-4] DEBUG o.s.w.r.f.c.ExchangeFunctions - [31f7b44a] [ef76183c-1, L:/127.0.0.1:61199 - R:localhost/127.0.0.1:61198] Response 200 OK
-16:32:02.263 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Stopping ReactorHttpServer...
-16:32:02.264 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Server stopped (0 millis).
-16:32:02.307 [Test worker] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - 1 mappings in 'requestMappingHandlerMapping'
-16:32:02.332 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
-16:32:02.339 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
-16:32:02.423 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Starting TomcatHttpServer...
-16:32:02.927 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Server started on port 61204(0 millis).
-16:32:02.928 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [6522e4e6] HTTP GET http://localhost:61204/
-16:32:03.032 [http-nio-auto-1-exec-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [5c738ae6] HTTP GET &quot;/&quot;
-16:32:03.033 [http-nio-auto-1-exec-1] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - [5c738ae6] Mapped to org.springframework.web.reactive.result.view.LocaleContextResolverIntegrationTests$TestController#foo()
-16:32:03.035 [http-nio-auto-1-exec-1] DEBUG o.s.w.r.r.v.ViewResolutionResultHandler - [5c738ae6] Using 'text/html' given [*/*] and supported [text/html]
-16:32:03.035 [http-nio-auto-1-exec-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [5c738ae6] Completed 200 OK
-16:32:03.043 [reactor-http-nio-6] DEBUG o.s.w.r.f.c.ExchangeFunctions - [6522e4e6] [6edb06c7-1, L:/127.0.0.1:61205 - R:localhost/127.0.0.1:61204] Response 200 OK
-16:32:03.044 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Stopping TomcatHttpServer...
-16:32:14.214 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Server stopped (0 millis).
-16:32:14.235 [Test worker] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - 1 mappings in 'requestMappingHandlerMapping'
-16:32:14.246 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
-16:32:14.250 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
-16:32:14.254 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Starting UndertowHttpServer...
-16:32:14.260 [Test worker] INFO  i.undertow - starting server: Undertow - 2.2.7.Final
-16:32:14.268 [Test worker] INFO  o.xnio - XNIO version 3.8.0.Final
-16:32:14.281 [Test worker] INFO  o.x.nio - XNIO NIO Implementation Version 3.8.0.Final
-16:32:14.303 [Test worker] INFO  o.j.threads - JBoss Threads version 3.1.0.Final
-16:32:14.344 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Server started on port 61242(0 millis).
-16:32:14.345 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [6ffb51d5] HTTP GET http://localhost:61242/
-16:32:14.372 [XNIO-1 I/O-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [246136c0-1] HTTP GET &quot;/&quot;
-16:32:14.373 [XNIO-1 I/O-2] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - [246136c0-1] Mapped to org.springframework.web.reactive.result.view.LocaleContextResolverIntegrationTests$TestController#foo()
-16:32:14.373 [XNIO-1 I/O-2] DEBUG o.s.w.r.r.v.ViewResolutionResultHandler - [246136c0-1] Using 'text/html' given [*/*] and supported [text/html]
-16:32:14.373 [XNIO-1 I/O-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [246136c0-1] Completed 200 OK
-16:32:14.378 [reactor-http-nio-7] DEBUG o.s.w.r.f.c.ExchangeFunctions - [6ffb51d5] [0e10c51b-1, L:/127.0.0.1:61243 - R:localhost/127.0.0.1:61242] Response 200 OK
-16:32:14.378 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Stopping UndertowHttpServer...
-16:32:14.378 [Test worker] INFO  i.undertow - stopping server: Undertow - 2.2.7.Final
-16:32:14.384 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Server stopped (0 millis).
+<pre>17:47:22.315 [Test worker] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - 1 mappings in 'requestMappingHandlerMapping'
+17:47:22.663 [Test worker] INFO  o.h.v.i.u.Version - HV000001: Hibernate Validator 6.2.0.Final
+17:47:23.045 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
+17:47:23.113 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+17:47:23.134 [Test worker] INFO  o.e.j.u.log - Logging initialized @10169ms to org.eclipse.jetty.util.log.Slf4jLog
+17:47:23.201 [Test worker] WARN  o.e.j.s.h.ContextHandler - Empty contextPath
+17:47:23.259 [Test worker] INFO  o.e.j.s.h.ContextHandler - Started o.e.j.s.ServletContextHandler@592c6a9e{/,null,AVAILABLE}
+17:47:23.311 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Starting JettyHttpServer...
+17:47:23.317 [Test worker] INFO  o.e.j.s.Server - jetty-9.4.39.v20210325; built: 2021-03-25T14:42:11.471Z; git: 9fc7ca5a922f2a37b84ec9dbc26a5168cee7e667; jvm 1.8.0_181-b13
+17:47:23.383 [Test worker] INFO  o.e.j.s.AbstractConnector - Started ServerConnector@2290221{HTTP/1.1, (http/1.1)}{0.0.0.0:51689}
+17:47:23.384 [Test worker] INFO  o.e.j.s.Server - Started @10421ms
+17:47:23.387 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Server started on port 51689(0 millis).
+17:47:23.466 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [206da0ea] HTTP GET http://localhost:51689/
+17:47:23.931 [qtp461588388-57] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [7fe1a8d7] HTTP GET &quot;/&quot;
+17:47:23.933 [qtp461588388-57] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - [7fe1a8d7] Mapped to org.springframework.web.reactive.result.view.LocaleContextResolverIntegrationTests$TestController#foo()
+17:47:23.938 [qtp461588388-57] DEBUG o.s.w.r.r.v.ViewResolutionResultHandler - [7fe1a8d7] Using 'text/html' given [*/*] and supported [text/html]
+17:47:23.939 [qtp461588388-57] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [7fe1a8d7] Completed 200 OK
+17:47:23.954 [reactor-http-nio-2] DEBUG o.s.w.r.f.c.ExchangeFunctions - [206da0ea] [eb14936d-1, L:/127.0.0.1:51690 - R:localhost/127.0.0.1:51689] Response 200 OK
+17:47:23.965 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Stopping JettyHttpServer...
+17:47:23.966 [Test worker] INFO  o.e.j.s.h.ContextHandler - Stopped o.e.j.s.ServletContextHandler@592c6a9e{/,null,STOPPED}
+17:47:23.976 [Test worker] INFO  o.e.j.s.AbstractConnector - Stopped ServerConnector@2290221{HTTP/1.1, (http/1.1)}{0.0.0.0:0}
+17:47:23.978 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Server stopped (0 millis).
+17:47:24.028 [Test worker] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - 1 mappings in 'requestMappingHandlerMapping'
+17:47:24.050 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
+17:47:24.058 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+17:47:24.074 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Starting ReactorHttpServer...
+17:47:24.085 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Server started on port 51693(0 millis).
+17:47:24.086 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [6616d63f] HTTP GET http://localhost:51693/
+17:47:24.118 [reactor-http-nio-5] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [2967b7cf-1, L:/127.0.0.1:51693 - R:/127.0.0.1:51694] HTTP GET &quot;/&quot;
+17:47:24.119 [reactor-http-nio-5] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - [2967b7cf-1, L:/127.0.0.1:51693 - R:/127.0.0.1:51694] Mapped to org.springframework.web.reactive.result.view.LocaleContextResolverIntegrationTests$TestController#foo()
+17:47:24.121 [reactor-http-nio-5] DEBUG o.s.w.r.r.v.ViewResolutionResultHandler - [2967b7cf-1, L:/127.0.0.1:51693 - R:/127.0.0.1:51694] Using 'text/html' given [*/*] and supported [text/html]
+17:47:24.121 [reactor-http-nio-5] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [2967b7cf-1, L:/127.0.0.1:51693 - R:/127.0.0.1:51694] Completed 200 OK
+17:47:24.125 [reactor-http-nio-4] DEBUG o.s.w.r.f.c.ExchangeFunctions - [6616d63f] [e84fd00b-1, L:/127.0.0.1:51694 - R:localhost/127.0.0.1:51693] Response 200 OK
+17:47:24.126 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Stopping ReactorHttpServer...
+17:47:24.128 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Server stopped (0 millis).
+17:47:24.180 [Test worker] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - 1 mappings in 'requestMappingHandlerMapping'
+17:47:24.206 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
+17:47:24.213 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+17:47:24.294 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Starting TomcatHttpServer...
+17:47:24.697 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Server started on port 51697(0 millis).
+17:47:24.698 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [fc3bf38] HTTP GET http://localhost:51697/
+17:47:24.789 [http-nio-auto-1-exec-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [b983e1e] HTTP GET &quot;/&quot;
+17:47:24.790 [http-nio-auto-1-exec-1] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - [b983e1e] Mapped to org.springframework.web.reactive.result.view.LocaleContextResolverIntegrationTests$TestController#foo()
+17:47:24.792 [http-nio-auto-1-exec-1] DEBUG o.s.w.r.r.v.ViewResolutionResultHandler - [b983e1e] Using 'text/html' given [*/*] and supported [text/html]
+17:47:24.792 [http-nio-auto-1-exec-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [b983e1e] Completed 200 OK
+17:47:24.798 [reactor-http-nio-6] DEBUG o.s.w.r.f.c.ExchangeFunctions - [fc3bf38] [a360829f-1, L:/127.0.0.1:51698 - R:localhost/127.0.0.1:51697] Response 200 OK
+17:47:24.799 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Stopping TomcatHttpServer...
+17:47:35.976 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Server stopped (0 millis).
+17:47:36.008 [Test worker] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - 1 mappings in 'requestMappingHandlerMapping'
+17:47:36.021 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
+17:47:36.024 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+17:47:36.029 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Starting UndertowHttpServer...
+17:47:36.037 [Test worker] INFO  i.undertow - starting server: Undertow - 2.2.7.Final
+17:47:36.047 [Test worker] INFO  o.xnio - XNIO version 3.8.0.Final
+17:47:36.061 [Test worker] INFO  o.x.nio - XNIO NIO Implementation Version 3.8.0.Final
+17:47:36.088 [Test worker] INFO  o.j.threads - JBoss Threads version 3.1.0.Final
+17:47:36.134 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Server started on port 51741(0 millis).
+17:47:36.134 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [1c6d0407] HTTP GET http://localhost:51741/
+17:47:36.163 [XNIO-1 I/O-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [56a63503-1] HTTP GET &quot;/&quot;
+17:47:36.164 [XNIO-1 I/O-1] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - [56a63503-1] Mapped to org.springframework.web.reactive.result.view.LocaleContextResolverIntegrationTests$TestController#foo()
+17:47:36.164 [XNIO-1 I/O-1] DEBUG o.s.w.r.r.v.ViewResolutionResultHandler - [56a63503-1] Using 'text/html' given [*/*] and supported [text/html]
+17:47:36.164 [XNIO-1 I/O-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [56a63503-1] Completed 200 OK
+17:47:36.169 [reactor-http-nio-7] DEBUG o.s.w.r.f.c.ExchangeFunctions - [1c6d0407] [e1c92dd0-1, L:/127.0.0.1:51742 - R:localhost/127.0.0.1:51741] Response 200 OK
+17:47:36.170 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Stopping UndertowHttpServer...
+17:47:36.170 [Test worker] INFO  i.undertow - stopping server: Undertow - 2.2.7.Final
+17:47:36.175 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Server stopped (0 millis).
 </pre>
 </span>
 </div>
@@ -184,7 +184,7 @@
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 6.8.3</a> at 2021年4月26日 下午4:46:32</p>
+<a href="http://www.gradle.org">Gradle 6.8.3</a> at May 1, 2021 6:02:02 PM</p>
 </div>
 </div>
 </body>

@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.messaging.simp.broker.DefaultSubscriptionRegistryTests" tests="19" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:39:52" hostname="wangweilideMacBook-Pro.local" time="0.029">
+<testsuite name="org.springframework.messaging.simp.broker.DefaultSubscriptionRegistryTests" tests="19" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:29:39" hostname="wangweilideMBP.lan" time="0.028">
   <properties/>
-  <testcase name="findSubscriptionsReturnsMapSafeToIterateIncludingValues()" classname="org.springframework.messaging.simp.broker.DefaultSubscriptionRegistryTests" time="0.005"/>
+  <testcase name="findSubscriptionsReturnsMapSafeToIterateIncludingValues()" classname="org.springframework.messaging.simp.broker.DefaultSubscriptionRegistryTests" time="0.006"/>
   <testcase name="cacheLimitExceeded()" classname="org.springframework.messaging.simp.broker.DefaultSubscriptionRegistryTests" time="0.001"/>
   <testcase name="registerSubscriptionWithSelectorNotSupported()" classname="org.springframework.messaging.simp.broker.DefaultSubscriptionRegistryTests" time="0.0"/>
   <testcase name="registerSubscriptionWithDestinationPatternRegex()" classname="org.springframework.messaging.simp.broker.DefaultSubscriptionRegistryTests" time="0.001"/>
-  <testcase name="registerSubscriptionOneSession()" classname="org.springframework.messaging.simp.broker.DefaultSubscriptionRegistryTests" time="0.0"/>
+  <testcase name="registerSubscriptionOneSession()" classname="org.springframework.messaging.simp.broker.DefaultSubscriptionRegistryTests" time="0.001"/>
   <testcase name="unregisterSubscription()" classname="org.springframework.messaging.simp.broker.DefaultSubscriptionRegistryTests" time="0.0"/>
-  <testcase name="registerSubscription()" classname="org.springframework.messaging.simp.broker.DefaultSubscriptionRegistryTests" time="0.001"/>
-  <testcase name="findSubscriptionsReturnsMapSafeToIterate()" classname="org.springframework.messaging.simp.broker.DefaultSubscriptionRegistryTests" time="0.0"/>
-  <testcase name="registerSubscriptionTwiceAndUnregister()" classname="org.springframework.messaging.simp.broker.DefaultSubscriptionRegistryTests" time="0.0"/>
-  <testcase name="registerSubscriptionMultipleSessions()" classname="org.springframework.messaging.simp.broker.DefaultSubscriptionRegistryTests" time="0.0"/>
-  <testcase name="registerSubscriptionWithSelector()" classname="org.springframework.messaging.simp.broker.DefaultSubscriptionRegistryTests" time="0.006"/>
+  <testcase name="registerSubscription()" classname="org.springframework.messaging.simp.broker.DefaultSubscriptionRegistryTests" time="0.0"/>
+  <testcase name="findSubscriptionsReturnsMapSafeToIterate()" classname="org.springframework.messaging.simp.broker.DefaultSubscriptionRegistryTests" time="0.001"/>
+  <testcase name="registerSubscriptionTwiceAndUnregister()" classname="org.springframework.messaging.simp.broker.DefaultSubscriptionRegistryTests" time="0.001"/>
+  <testcase name="registerSubscriptionMultipleSessions()" classname="org.springframework.messaging.simp.broker.DefaultSubscriptionRegistryTests" time="0.001"/>
+  <testcase name="registerSubscriptionWithSelector()" classname="org.springframework.messaging.simp.broker.DefaultSubscriptionRegistryTests" time="0.005"/>
   <testcase name="registerAndUnregisterMultipleDestinations()" classname="org.springframework.messaging.simp.broker.DefaultSubscriptionRegistryTests" time="0.001"/>
   <testcase name="registerSameSubscriptionTwice()" classname="org.springframework.messaging.simp.broker.DefaultSubscriptionRegistryTests" time="0.001"/>
   <testcase name="registerSubscriptionsWithSimpleAndPatternDestinations()" classname="org.springframework.messaging.simp.broker.DefaultSubscriptionRegistryTests" time="0.002"/>
-  <testcase name="unregisterAllSubscriptions()" classname="org.springframework.messaging.simp.broker.DefaultSubscriptionRegistryTests" time="0.001"/>
+  <testcase name="unregisterAllSubscriptions()" classname="org.springframework.messaging.simp.broker.DefaultSubscriptionRegistryTests" time="0.0"/>
   <testcase name="registerSubscriptionInvalidInput()" classname="org.springframework.messaging.simp.broker.DefaultSubscriptionRegistryTests" time="0.001"/>
-  <testcase name="unregisterAllSubscriptionsNoMatch()" classname="org.springframework.messaging.simp.broker.DefaultSubscriptionRegistryTests" time="0.001"/>
-  <testcase name="registerSubscriptionWithDestinationPattern()" classname="org.springframework.messaging.simp.broker.DefaultSubscriptionRegistryTests" time="0.001"/>
-  <testcase name="findSubscriptionsNoMatches()" classname="org.springframework.messaging.simp.broker.DefaultSubscriptionRegistryTests" time="0.001"/>
-  <system-out><![CDATA[15:39:52.169 [Test worker] ERROR o.s.m.s.b.DefaultSubscriptionRegistry - No sessionId in  GenericMessage [payload=, headers={simpMessageType=SUBSCRIBE, simpSubscriptionId=subs01, simpDestination=/foo}]
-15:39:52.169 [Test worker] ERROR o.s.m.s.b.DefaultSubscriptionRegistry - No subscriptionId in GenericMessage [payload=, headers={simpMessageType=SUBSCRIBE, simpSessionId=sess01, simpDestination=/foo}]
-15:39:52.170 [Test worker] ERROR o.s.m.s.b.DefaultSubscriptionRegistry - No destination in GenericMessage [payload=, headers={simpMessageType=SUBSCRIBE, simpSubscriptionId=subs01, simpSessionId=sess01}]
+  <testcase name="unregisterAllSubscriptionsNoMatch()" classname="org.springframework.messaging.simp.broker.DefaultSubscriptionRegistryTests" time="0.0"/>
+  <testcase name="registerSubscriptionWithDestinationPattern()" classname="org.springframework.messaging.simp.broker.DefaultSubscriptionRegistryTests" time="0.0"/>
+  <testcase name="findSubscriptionsNoMatches()" classname="org.springframework.messaging.simp.broker.DefaultSubscriptionRegistryTests" time="0.0"/>
+  <system-out><![CDATA[17:29:39.717 [Test worker] ERROR o.s.m.s.b.DefaultSubscriptionRegistry - No sessionId in  GenericMessage [payload=, headers={simpMessageType=SUBSCRIBE, simpSubscriptionId=subs01, simpDestination=/foo}]
+17:29:39.717 [Test worker] ERROR o.s.m.s.b.DefaultSubscriptionRegistry - No subscriptionId in GenericMessage [payload=, headers={simpMessageType=SUBSCRIBE, simpSessionId=sess01, simpDestination=/foo}]
+17:29:39.717 [Test worker] ERROR o.s.m.s.b.DefaultSubscriptionRegistry - No destination in GenericMessage [payload=, headers={simpMessageType=SUBSCRIBE, simpSubscriptionId=subs01, simpSessionId=sess01}]
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

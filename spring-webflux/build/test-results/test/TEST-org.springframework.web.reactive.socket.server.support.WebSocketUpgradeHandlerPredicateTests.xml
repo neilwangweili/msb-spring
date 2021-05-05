@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.web.reactive.socket.server.support.WebSocketUpgradeHandlerPredicateTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-04-26T08:39:29" hostname="wangweilideMacBook-Pro.local" time="0.021">
+<testsuite name="org.springframework.web.reactive.socket.server.support.WebSocketUpgradeHandlerPredicateTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:54:51" hostname="wangweilideMBP.lan" time="0.025">
   <properties/>
   <testcase name="match()" classname="org.springframework.web.reactive.socket.server.support.WebSocketUpgradeHandlerPredicateTests" time="0.0"/>
-  <testcase name="simpleUrlHandlerMapping()" classname="org.springframework.web.reactive.socket.server.support.WebSocketUpgradeHandlerPredicateTests" time="0.001"/>
-  <testcase name="noMatch()" classname="org.springframework.web.reactive.socket.server.support.WebSocketUpgradeHandlerPredicateTests" time="0.001"/>
-  <system-out><![CDATA[16:39:29.852 [Test worker] DEBUG o.s.w.r.h.SimpleUrlHandlerMapping - Patterns [/path] in <unknown>
-16:39:29.852 [Test worker] DEBUG o.s.w.r.h.SimpleUrlHandlerMapping - [25a27e41] Mapped to Mock for WebSocketHandler, hashCode: 1248557415
-16:39:29.853 [Test worker] DEBUG o.s.w.r.h.SimpleUrlHandlerMapping - [481fa862] Mapped to Mock for WebSocketHandler, hashCode: 1248557415
+  <testcase name="simpleUrlHandlerMapping()" classname="org.springframework.web.reactive.socket.server.support.WebSocketUpgradeHandlerPredicateTests" time="0.0"/>
+  <testcase name="noMatch()" classname="org.springframework.web.reactive.socket.server.support.WebSocketUpgradeHandlerPredicateTests" time="0.0"/>
+  <system-out><![CDATA[17:54:51.947 [Test worker] DEBUG o.s.w.r.h.SimpleUrlHandlerMapping - Patterns [/path] in <unknown>
+17:54:51.947 [Test worker] DEBUG o.s.w.r.h.SimpleUrlHandlerMapping - [571e42] Mapped to Mock for WebSocketHandler, hashCode: 698399215
+17:54:51.947 [Test worker] DEBUG o.s.w.r.h.SimpleUrlHandlerMapping - [6df0aded] Mapped to Mock for WebSocketHandler, hashCode: 698399215
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

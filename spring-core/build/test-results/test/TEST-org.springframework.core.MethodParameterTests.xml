@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.core.MethodParameterTests" tests="14" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:37:33" hostname="wangweilideMacBook-Pro.local" time="0.016">
+<testsuite name="org.springframework.core.MethodParameterTests" tests="14" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:11:19" hostname="wangweilideMBP.lan" time="0.041">
   <properties/>
-  <testcase name="equalsAndHashCodeConsidersNesting()" classname="org.springframework.core.MethodParameterTests" time="0.001"/>
-  <testcase name="annotatedConstructorParameterInInnerClass()" classname="org.springframework.core.MethodParameterTests" time="0.001"/>
+  <testcase name="equalsAndHashCodeConsidersNesting()" classname="org.springframework.core.MethodParameterTests" time="0.004"/>
+  <testcase name="annotatedConstructorParameterInInnerClass()" classname="org.springframework.core.MethodParameterTests" time="0.002"/>
   <testcase name="genericConstructorParameterInInnerClass()" classname="org.springframework.core.MethodParameterTests" time="0.002"/>
-  <testcase name="withTypeIndexReturnsNewInstance()" classname="org.springframework.core.MethodParameterTests" time="0.001"/>
+  <testcase name="withTypeIndexReturnsNewInstance()" classname="org.springframework.core.MethodParameterTests" time="0.002"/>
   <testcase name="mutatingNestingLevelShouldNotChangeNewInstance()" classname="org.springframework.core.MethodParameterTests" time="0.001"/>
   <testcase name="equals()" classname="org.springframework.core.MethodParameterTests" time="0.0"/>
   <testcase name="annotatedConstructorParameterInStaticNestedClass()" classname="org.springframework.core.MethodParameterTests" time="0.0"/>
-  <testcase name="nestedWithTypeIndexReturnsNewInstance()" classname="org.springframework.core.MethodParameterTests" time="0.0"/>
-  <testcase name="multipleResolveParameterTypeCalls()" classname="org.springframework.core.MethodParameterTests" time="0.003"/>
-  <testcase name="testFactoryMethods()" classname="org.springframework.core.MethodParameterTests" time="0.0"/>
-  <testcase name="testHashCode()" classname="org.springframework.core.MethodParameterTests" time="0.0"/>
+  <testcase name="nestedWithTypeIndexReturnsNewInstance()" classname="org.springframework.core.MethodParameterTests" time="0.001"/>
+  <testcase name="multipleResolveParameterTypeCalls()" classname="org.springframework.core.MethodParameterTests" time="0.005"/>
+  <testcase name="testFactoryMethods()" classname="org.springframework.core.MethodParameterTests" time="0.001"/>
+  <testcase name="testHashCode()" classname="org.springframework.core.MethodParameterTests" time="0.001"/>
   <testcase name="equalsAndHashCodeConsidersContainingClass()" classname="org.springframework.core.MethodParameterTests" time="0.001"/>
   <testcase name="withContainingClassReturnsNewInstance()" classname="org.springframework.core.MethodParameterTests" time="0.0"/>
-  <testcase name="indexValidation()" classname="org.springframework.core.MethodParameterTests" time="0.0"/>
+  <testcase name="indexValidation()" classname="org.springframework.core.MethodParameterTests" time="0.002"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

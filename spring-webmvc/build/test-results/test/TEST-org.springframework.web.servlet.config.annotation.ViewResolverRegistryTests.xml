@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.web.servlet.config.annotation.ViewResolverRegistryTests" tests="18" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:41:16" hostname="wangweilideMacBook-Pro.local" time="0.016">
+<testsuite name="org.springframework.web.servlet.config.annotation.ViewResolverRegistryTests" tests="18" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:33:27" hostname="wangweilideMBP.lan" time="0.02">
   <properties/>
-  <testcase name="hasRegistrations()" classname="org.springframework.web.servlet.config.annotation.ViewResolverRegistryTests" time="0.004"/>
+  <testcase name="hasRegistrations()" classname="org.springframework.web.servlet.config.annotation.ViewResolverRegistryTests" time="0.006"/>
   <testcase name="freeMarker()" classname="org.springframework.web.servlet.config.annotation.ViewResolverRegistryTests" time="0.001"/>
   <testcase name="hasRegistrationsWhenContentNegotiationEnabled()" classname="org.springframework.web.servlet.config.annotation.ViewResolverRegistryTests" time="0.0"/>
-  <testcase name="freeMarkerDefaultValues()" classname="org.springframework.web.servlet.config.annotation.ViewResolverRegistryTests" time="0.0"/>
+  <testcase name="freeMarkerDefaultValues()" classname="org.springframework.web.servlet.config.annotation.ViewResolverRegistryTests" time="0.001"/>
   <testcase name="contentNegotiation()" classname="org.springframework.web.servlet.config.annotation.ViewResolverRegistryTests" time="0.002"/>
   <testcase name="noResolvers()" classname="org.springframework.web.servlet.config.annotation.ViewResolverRegistryTests" time="0.0"/>
-  <testcase name="scriptTemplateDefaultValues()" classname="org.springframework.web.servlet.config.annotation.ViewResolverRegistryTests" time="0.001"/>
+  <testcase name="scriptTemplateDefaultValues()" classname="org.springframework.web.servlet.config.annotation.ViewResolverRegistryTests" time="0.0"/>
   <testcase name="scriptTemplate()" classname="org.springframework.web.servlet.config.annotation.ViewResolverRegistryTests" time="0.0"/>
   <testcase name="jsp()" classname="org.springframework.web.servlet.config.annotation.ViewResolverRegistryTests" time="0.0"/>
   <testcase name="jspDefaultValues()" classname="org.springframework.web.servlet.config.annotation.ViewResolverRegistryTests" time="0.0"/>
@@ -15,10 +15,10 @@
   <testcase name="tiles()" classname="org.springframework.web.servlet.config.annotation.ViewResolverRegistryTests" time="0.001"/>
   <testcase name="groovyMarkup()" classname="org.springframework.web.servlet.config.annotation.ViewResolverRegistryTests" time="0.001"/>
   <testcase name="groovyMarkupDefaultValues()" classname="org.springframework.web.servlet.config.annotation.ViewResolverRegistryTests" time="0.0"/>
-  <testcase name="contentNegotiationAddsDefaultViewRegistrations()" classname="org.springframework.web.servlet.config.annotation.ViewResolverRegistryTests" time="0.002"/>
+  <testcase name="contentNegotiationAddsDefaultViewRegistrations()" classname="org.springframework.web.servlet.config.annotation.ViewResolverRegistryTests" time="0.004"/>
   <testcase name="jspMultipleResolvers()" classname="org.springframework.web.servlet.config.annotation.ViewResolverRegistryTests" time="0.0"/>
   <testcase name="customViewResolver()" classname="org.springframework.web.servlet.config.annotation.ViewResolverRegistryTests" time="0.0"/>
-  <testcase name="beanName()" classname="org.springframework.web.servlet.config.annotation.ViewResolverRegistryTests" time="0.001"/>
+  <testcase name="beanName()" classname="org.springframework.web.servlet.config.annotation.ViewResolverRegistryTests" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.r2dbc.connection.TransactionAwareConnectionFactoryProxyUnitTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:39:22" hostname="wangweilideMacBook-Pro.local" time="0.133">
+<testsuite name="org.springframework.r2dbc.connection.TransactionAwareConnectionFactoryProxyUnitTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:25:14" hostname="wangweilideMBP.lan" time="0.042">
   <properties/>
-  <testcase name="unwrapShouldReturnTargetConnectionEvenWhenClosed()" classname="org.springframework.r2dbc.connection.TransactionAwareConnectionFactoryProxyUnitTests" time="0.016"/>
-  <testcase name="getMetadataShouldThrowsErrorEvenWhenClosed()" classname="org.springframework.r2dbc.connection.TransactionAwareConnectionFactoryProxyUnitTests" time="0.012"/>
-  <testcase name="equalsShouldCompareCorrectly()" classname="org.springframework.r2dbc.connection.TransactionAwareConnectionFactoryProxyUnitTests" time="0.003"/>
-  <testcase name="hashCodeShouldReturnProxyHash()" classname="org.springframework.r2dbc.connection.TransactionAwareConnectionFactoryProxyUnitTests" time="0.003"/>
-  <testcase name="createShouldWrapConnection()" classname="org.springframework.r2dbc.connection.TransactionAwareConnectionFactoryProxyUnitTests" time="0.005"/>
-  <testcase name="getTargetConnectionShouldReturnTargetConnection()" classname="org.springframework.r2dbc.connection.TransactionAwareConnectionFactoryProxyUnitTests" time="0.013"/>
-  <testcase name="unwrapShouldReturnTargetConnection()" classname="org.springframework.r2dbc.connection.TransactionAwareConnectionFactoryProxyUnitTests" time="0.046"/>
-  <testcase name="shouldEmitBoundConnection()" classname="org.springframework.r2dbc.connection.TransactionAwareConnectionFactoryProxyUnitTests" time="0.02"/>
+  <testcase name="unwrapShouldReturnTargetConnectionEvenWhenClosed()" classname="org.springframework.r2dbc.connection.TransactionAwareConnectionFactoryProxyUnitTests" time="0.004"/>
+  <testcase name="getMetadataShouldThrowsErrorEvenWhenClosed()" classname="org.springframework.r2dbc.connection.TransactionAwareConnectionFactoryProxyUnitTests" time="0.002"/>
+  <testcase name="equalsShouldCompareCorrectly()" classname="org.springframework.r2dbc.connection.TransactionAwareConnectionFactoryProxyUnitTests" time="0.002"/>
+  <testcase name="hashCodeShouldReturnProxyHash()" classname="org.springframework.r2dbc.connection.TransactionAwareConnectionFactoryProxyUnitTests" time="0.002"/>
+  <testcase name="createShouldWrapConnection()" classname="org.springframework.r2dbc.connection.TransactionAwareConnectionFactoryProxyUnitTests" time="0.001"/>
+  <testcase name="getTargetConnectionShouldReturnTargetConnection()" classname="org.springframework.r2dbc.connection.TransactionAwareConnectionFactoryProxyUnitTests" time="0.005"/>
+  <testcase name="unwrapShouldReturnTargetConnection()" classname="org.springframework.r2dbc.connection.TransactionAwareConnectionFactoryProxyUnitTests" time="0.002"/>
+  <testcase name="shouldEmitBoundConnection()" classname="org.springframework.r2dbc.connection.TransactionAwareConnectionFactoryProxyUnitTests" time="0.005"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

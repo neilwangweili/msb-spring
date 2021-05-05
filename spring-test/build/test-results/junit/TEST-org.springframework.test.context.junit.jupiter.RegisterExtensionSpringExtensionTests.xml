@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.test.context.junit.jupiter.RegisterExtensionSpringExtensionTests" tests="17" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:40:52" hostname="wangweilideMacBook-Pro.local" time="0.015">
+<testsuite name="org.springframework.test.context.junit.jupiter.RegisterExtensionSpringExtensionTests" tests="17" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:42:45" hostname="wangweilideMBP.lan" time="0.017">
   <properties/>
-  <testcase name="autowiredParameterWithImplicitQualifierBasedOnParameterName(Person)" classname="org.springframework.test.context.junit.jupiter.RegisterExtensionSpringExtensionTests" time="0.001"/>
-  <testcase name="valueParameterWithPrimitiveType(int)" classname="org.springframework.test.context.junit.jupiter.RegisterExtensionSpringExtensionTests" time="0.001"/>
-  <testcase name="applicationContextInjectedIntoMethod(ApplicationContext)" classname="org.springframework.test.context.junit.jupiter.RegisterExtensionSpringExtensionTests" time="0.001"/>
-  <testcase name="autowiredParameterAsJavaUtilOptional(Optional)" classname="org.springframework.test.context.junit.jupiter.RegisterExtensionSpringExtensionTests" time="0.001"/>
-  <testcase name="valueParameterFromDefaultValueForPropertyPlaceholder(Boolean)" classname="org.springframework.test.context.junit.jupiter.RegisterExtensionSpringExtensionTests" time="0.001"/>
-  <testcase name="valueParameterFromPropertyPlaceholder(Integer)" classname="org.springframework.test.context.junit.jupiter.RegisterExtensionSpringExtensionTests" time="0.001"/>
+  <testcase name="autowiredParameterWithImplicitQualifierBasedOnParameterName(Person)" classname="org.springframework.test.context.junit.jupiter.RegisterExtensionSpringExtensionTests" time="0.0"/>
+  <testcase name="valueParameterWithPrimitiveType(int)" classname="org.springframework.test.context.junit.jupiter.RegisterExtensionSpringExtensionTests" time="0.0"/>
+  <testcase name="applicationContextInjectedIntoMethod(ApplicationContext)" classname="org.springframework.test.context.junit.jupiter.RegisterExtensionSpringExtensionTests" time="0.0"/>
+  <testcase name="autowiredParameterAsJavaUtilOptional(Optional)" classname="org.springframework.test.context.junit.jupiter.RegisterExtensionSpringExtensionTests" time="0.0"/>
+  <testcase name="valueParameterFromDefaultValueForPropertyPlaceholder(Boolean)" classname="org.springframework.test.context.junit.jupiter.RegisterExtensionSpringExtensionTests" time="0.0"/>
+  <testcase name="valueParameterFromPropertyPlaceholder(Integer)" classname="org.springframework.test.context.junit.jupiter.RegisterExtensionSpringExtensionTests" time="0.0"/>
   <testcase name="autowiredParameterWithExplicitQualifier(Person)" classname="org.springframework.test.context.junit.jupiter.RegisterExtensionSpringExtensionTests" time="0.001"/>
   <testcase name="valueParameterFromSpelExpressionWithNestedPropertyPlaceholder(String)" classname="org.springframework.test.context.junit.jupiter.RegisterExtensionSpringExtensionTests" time="0.001"/>
   <testcase name="autowiredParameterOfList(List)" classname="org.springframework.test.context.junit.jupiter.RegisterExtensionSpringExtensionTests" time="0.001"/>
-  <testcase name="autowiredParameterByTypeForPrimaryBean(Cat)" classname="org.springframework.test.context.junit.jupiter.RegisterExtensionSpringExtensionTests" time="0.001"/>
+  <testcase name="autowiredParameterByTypeForPrimaryBean(Cat)" classname="org.springframework.test.context.junit.jupiter.RegisterExtensionSpringExtensionTests" time="0.0"/>
   <testcase name="autowiredParameterThatDoesNotExistButIsNotRequired(Number)" classname="org.springframework.test.context.junit.jupiter.RegisterExtensionSpringExtensionTests" time="0.0"/>
   <testcase name="genericApplicationContextInjectedIntoMethod(GenericApplicationContext)" classname="org.springframework.test.context.junit.jupiter.RegisterExtensionSpringExtensionTests" time="0.0"/>
   <testcase name="autowiredParameterThatDoesNotExistAsJavaUtilOptional(Optional)" classname="org.springframework.test.context.junit.jupiter.RegisterExtensionSpringExtensionTests" time="0.001"/>
-  <testcase name="autowiredParameterByTypeForSingleBean(Dog)" classname="org.springframework.test.context.junit.jupiter.RegisterExtensionSpringExtensionTests" time="0.001"/>
+  <testcase name="autowiredParameterByTypeForSingleBean(Dog)" classname="org.springframework.test.context.junit.jupiter.RegisterExtensionSpringExtensionTests" time="0.0"/>
   <testcase name="autowiredFields()" classname="org.springframework.test.context.junit.jupiter.RegisterExtensionSpringExtensionTests" time="0.0"/>
   <testcase name="junitAndSpringMethodInjectionCombined(Cat, TestInfo, ApplicationContext, TestReporter)" classname="org.springframework.test.context.junit.jupiter.RegisterExtensionSpringExtensionTests" time="0.0"/>
   <testcase name="valueParameterFromSpelExpression(String)" classname="org.springframework.test.context.junit.jupiter.RegisterExtensionSpringExtensionTests" time="0.0"/>

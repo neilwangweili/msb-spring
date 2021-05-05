@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.context.annotation.AnnotationBeanNameGeneratorTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:40:46" hostname="wangweilideMacBook-Pro.local" time="0.011">
+<testsuite name="org.springframework.context.annotation.AnnotationBeanNameGeneratorTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:31:43" hostname="wangweilideMBP.lan" time="0.008">
   <properties/>
   <testcase name="generateBeanNameWithNamedComponentWhereTheNameIsBlank()" classname="org.springframework.context.annotation.AnnotationBeanNameGeneratorTests" time="0.001"/>
-  <testcase name="generateBeanNameWithNamedComponent()" classname="org.springframework.context.annotation.AnnotationBeanNameGeneratorTests" time="0.001"/>
+  <testcase name="generateBeanNameWithNamedComponent()" classname="org.springframework.context.annotation.AnnotationBeanNameGeneratorTests" time="0.0"/>
   <testcase name="generateBeanNameWithDefaultNamedComponent()" classname="org.springframework.context.annotation.AnnotationBeanNameGeneratorTests" time="0.0"/>
-  <testcase name="generateBeanNameFromMetaComponentWithStringValue()" classname="org.springframework.context.annotation.AnnotationBeanNameGeneratorTests" time="0.0"/>
-  <testcase name="generateBeanNameWithAnonymousComponentYieldsGeneratedBeanName()" classname="org.springframework.context.annotation.AnnotationBeanNameGeneratorTests" time="0.001"/>
-  <testcase name="generateBeanNameFromComposedControllerAnnotationWithoutName()" classname="org.springframework.context.annotation.AnnotationBeanNameGeneratorTests" time="0.004"/>
-  <testcase name="generateBeanNameFromComposedControllerAnnotationWithStringValue()" classname="org.springframework.context.annotation.AnnotationBeanNameGeneratorTests" time="0.0"/>
-  <testcase name="generateBeanNameFromComposedControllerAnnotationWithBlankName()" classname="org.springframework.context.annotation.AnnotationBeanNameGeneratorTests" time="0.001"/>
+  <testcase name="generateBeanNameFromMetaComponentWithStringValue()" classname="org.springframework.context.annotation.AnnotationBeanNameGeneratorTests" time="0.001"/>
+  <testcase name="generateBeanNameWithAnonymousComponentYieldsGeneratedBeanName()" classname="org.springframework.context.annotation.AnnotationBeanNameGeneratorTests" time="0.0"/>
+  <testcase name="generateBeanNameFromComposedControllerAnnotationWithoutName()" classname="org.springframework.context.annotation.AnnotationBeanNameGeneratorTests" time="0.002"/>
+  <testcase name="generateBeanNameFromComposedControllerAnnotationWithStringValue()" classname="org.springframework.context.annotation.AnnotationBeanNameGeneratorTests" time="0.001"/>
+  <testcase name="generateBeanNameFromComposedControllerAnnotationWithBlankName()" classname="org.springframework.context.annotation.AnnotationBeanNameGeneratorTests" time="0.0"/>
   <testcase name="generateBeanNameFromMetaComponentWithNonStringValue()" classname="org.springframework.context.annotation.AnnotationBeanNameGeneratorTests" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
