@@ -28,7 +28,7 @@ import static org.assertj.core.api.Assertions.assertThat;
  * @author Neil Wang
  * @version 1.0.0
  */
-public class MyBeanFactoryPostProcessorTests {
+public class SpringSourceSummaryTests {
 
     private ApplicationContext applicationContext;
     private A a;
