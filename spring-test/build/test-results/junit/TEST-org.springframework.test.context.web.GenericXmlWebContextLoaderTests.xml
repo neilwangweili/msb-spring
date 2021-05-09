@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.test.context.web.GenericXmlWebContextLoaderTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-05-09T12:41:53" hostname="wangweilidembp" time="0.001">
-  <properties/>
-  <testcase name="configMustNotContainAnnotatedClasses()" classname="org.springframework.test.context.web.GenericXmlWebContextLoaderTests" time="0.001"/>
-  <system-out><![CDATA[20:41:53.325 [Test worker] ERROR o.s.t.c.w.AbstractGenericWebContextLoader - Test class [org.springframework.test.context.web.GenericXmlWebContextLoaderTests] has been configured with @ContextConfiguration's 'classes' attribute {class org.springframework.test.context.web.GenericXmlWebContextLoaderTests}, but GenericXmlWebContextLoader does not support annotated classes.
-]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
