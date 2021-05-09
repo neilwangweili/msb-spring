@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">24.929s</div>
+<div class="counter">28.081s</div>
 <p>duration</p>
 </div>
 </td>
@@ -82,39 +82,39 @@
 </tr>
 </thead>
 <tr>
-<td class="success">[1] server [org.springframework.web.socket.JettyWebSocketTestServer@16013829], client [org.springframework.web.socket.client.jetty.JettyWebSocketClient@f512d2e]</td>
+<td class="success">[1] server [org.springframework.web.socket.JettyWebSocketTestServer@27504b6e], client [org.springframework.web.socket.client.jetty.JettyWebSocketClient@3cc8ca44]</td>
 <td class="success">registerWebSocketHandler(WebSocketTestServer, WebSocketClient, TestInfo)[1]</td>
-<td class="success">1.272s</td>
+<td class="success">2.687s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
-<td class="success">[2] server [org.springframework.web.socket.TomcatWebSocketTestServer@edf8d42], client [org.springframework.web.socket.client.standard.StandardWebSocketClient@3b8114c5]</td>
+<td class="success">[2] server [org.springframework.web.socket.TomcatWebSocketTestServer@29409440], client [org.springframework.web.socket.client.standard.StandardWebSocketClient@220e0f4d]</td>
 <td class="success">registerWebSocketHandler(WebSocketTestServer, WebSocketClient, TestInfo)[2]</td>
-<td class="success">12.047s</td>
+<td class="success">13.599s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
-<td class="success">[3] server [org.springframework.web.socket.UndertowTestServer@3f7631c1], client [org.springframework.web.socket.client.standard.StandardWebSocketClient@2b94bc7b]</td>
+<td class="success">[3] server [org.springframework.web.socket.UndertowTestServer@7c9fcce7], client [org.springframework.web.socket.client.standard.StandardWebSocketClient@1e508cd0]</td>
 <td class="success">registerWebSocketHandler(WebSocketTestServer, WebSocketClient, TestInfo)[3]</td>
-<td class="success">0.307s</td>
+<td class="success">0.436s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
-<td class="success">[1] server [org.springframework.web.socket.JettyWebSocketTestServer@b2e6525], client [org.springframework.web.socket.client.jetty.JettyWebSocketClient@1585a856]</td>
+<td class="success">[1] server [org.springframework.web.socket.JettyWebSocketTestServer@6f83e055], client [org.springframework.web.socket.client.jetty.JettyWebSocketClient@aa41557]</td>
 <td class="success">registerWebSocketHandlerWithSockJS(WebSocketTestServer, WebSocketClient, TestInfo)[1]</td>
-<td class="success">0.066s</td>
+<td class="success">0.065s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
-<td class="success">[2] server [org.springframework.web.socket.TomcatWebSocketTestServer@7a6967c7], client [org.springframework.web.socket.client.standard.StandardWebSocketClient@5ca705f2]</td>
+<td class="success">[2] server [org.springframework.web.socket.TomcatWebSocketTestServer@7627e126], client [org.springframework.web.socket.client.standard.StandardWebSocketClient@3f6bde91]</td>
 <td class="success">registerWebSocketHandlerWithSockJS(WebSocketTestServer, WebSocketClient, TestInfo)[2]</td>
-<td class="success">11.200s</td>
+<td class="success">11.192s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
-<td class="success">[3] server [org.springframework.web.socket.UndertowTestServer@4c1900f7], client [org.springframework.web.socket.client.standard.StandardWebSocketClient@1da8564d]</td>
+<td class="success">[3] server [org.springframework.web.socket.UndertowTestServer@774e3299], client [org.springframework.web.socket.client.standard.StandardWebSocketClient@2c576e6b]</td>
 <td class="success">registerWebSocketHandlerWithSockJS(WebSocketTestServer, WebSocketClient, TestInfo)[3]</td>
-<td class="success">0.037s</td>
+<td class="success">0.102s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -122,7 +122,7 @@
 <div id="tab1" class="tab">
 <h2>Standard output</h2>
 <span class="code">
-<pre>17:47:32.938 [XNIO-2 I/O-13] ERROR o.x.listener - XNIO001007: A channel event listener threw an exception
+<pre>20:43:24.711 [XNIO-2 I/O-15] ERROR o.x.listener - XNIO001007: A channel event listener threw an exception
 java.lang.RuntimeException: java.util.concurrent.RejectedExecutionException: XNIO007007: Thread is terminating
 	at io.undertow.websockets.jsr.ServerWebSocketContainer.invokeEndpointMethod(ServerWebSocketContainer.java:612) ~[undertow-websockets-jsr-2.2.7.Final.jar:2.2.7.Final]
 	at io.undertow.websockets.jsr.ServerWebSocketContainer.invokeEndpointMethod(ServerWebSocketContainer.java:600) ~[undertow-websockets-jsr-2.2.7.Final.jar:2.2.7.Final]
@@ -152,7 +152,7 @@ Caused by: java.util.concurrent.RejectedExecutionException: XNIO007007: Thread i
 	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43) ~[undertow-servlet-2.2.7.Final.jar:2.2.7.Final]
 	at io.undertow.websockets.jsr.ServerWebSocketContainer.invokeEndpointMethod(ServerWebSocketContainer.java:610) ~[undertow-websockets-jsr-2.2.7.Final.jar:2.2.7.Final]
 	... 17 more
-17:47:32.939 [XNIO-2 I/O-13] ERROR o.x.listener - XNIO001007: A channel event listener threw an exception
+20:43:24.713 [XNIO-2 I/O-15] ERROR o.x.listener - XNIO001007: A channel event listener threw an exception
 java.util.concurrent.RejectedExecutionException: XNIO007007: Thread is terminating
 	at org.xnio.nio.WorkerThread.execute(WorkerThread.java:620) ~[xnio-nio-3.8.0.Final.jar:3.8.0.Final]
 	at io.undertow.websockets.jsr.UndertowSession$3.handleEvent(UndertowSession.java:396) ~[undertow-websockets-jsr-2.2.7.Final.jar:2.2.7.Final]
@@ -170,7 +170,7 @@ java.util.concurrent.RejectedExecutionException: XNIO007007: Thread is terminati
 	at org.xnio.conduits.ReadReadyHandler$ChannelListenerHandler.forceTermination(ReadReadyHandler.java:58) [xnio-api-3.8.0.Final.jar:3.8.0.Final]
 	at org.xnio.nio.NioSocketConduit.forceTermination(NioSocketConduit.java:106) [xnio-nio-3.8.0.Final.jar:3.8.0.Final]
 	at org.xnio.nio.WorkerThread.run(WorkerThread.java:507) [xnio-nio-3.8.0.Final.jar:3.8.0.Final]
-17:47:44.244 [XNIO-4 I/O-3] ERROR o.x.listener - XNIO001007: A channel event listener threw an exception
+20:43:36.078 [XNIO-4 I/O-13] ERROR o.x.listener - XNIO001007: A channel event listener threw an exception
 java.util.concurrent.RejectedExecutionException: XNIO007007: Thread is terminating
 	at org.xnio.nio.WorkerThread.execute(WorkerThread.java:620) ~[xnio-nio-3.8.0.Final.jar:3.8.0.Final]
 	at io.undertow.websockets.jsr.UndertowSession$3.handleEvent(UndertowSession.java:396) ~[undertow-websockets-jsr-2.2.7.Final.jar:2.2.7.Final]
@@ -194,46 +194,46 @@ java.util.concurrent.RejectedExecutionException: XNIO007007: Thread is terminati
 <div id="tab2" class="tab">
 <h2>Standard error</h2>
 <span class="code">
-<pre>May 01, 2021 5:47:20 PM org.apache.coyote.AbstractProtocol init
-INFO: Initializing ProtocolHandler [&quot;http-nio-auto-1&quot;]
-May 01, 2021 5:47:20 PM org.apache.catalina.core.StandardService startInternal
-INFO: Starting service [Tomcat]
-May 01, 2021 5:47:20 PM org.apache.catalina.core.StandardEngine startInternal
-INFO: Starting Servlet engine: [Apache Tomcat/9.0.45]
-May 01, 2021 5:47:21 PM org.apache.coyote.AbstractProtocol start
-INFO: Starting ProtocolHandler [&quot;http-nio-auto-1-51672&quot;]
-May 01, 2021 5:47:21 PM org.apache.catalina.core.ApplicationContext log
-INFO: Initializing Spring DispatcherServlet 'dispatcherServlet'
-May 01, 2021 5:47:21 PM org.apache.catalina.core.ApplicationContext log
-INFO: Destroying Spring FrameworkServlet 'dispatcherServlet'
-May 01, 2021 5:47:21 PM org.apache.coyote.AbstractProtocol pause
-INFO: Pausing ProtocolHandler [&quot;http-nio-auto-1-51672&quot;]
-May 01, 2021 5:47:22 PM org.apache.catalina.core.StandardService stopInternal
-INFO: Stopping service [Tomcat]
-May 01, 2021 5:47:22 PM org.apache.coyote.AbstractProtocol stop
-INFO: Stopping ProtocolHandler [&quot;http-nio-auto-1-51672&quot;]
-May 01, 2021 5:47:32 PM org.apache.tomcat.util.net.Acceptor stop
-WARNING: The acceptor thread [http-nio-auto-1-Acceptor] did not stop cleanly
-May 01, 2021 5:47:33 PM org.apache.coyote.AbstractProtocol init
-INFO: Initializing ProtocolHandler [&quot;http-nio-auto-2&quot;]
-May 01, 2021 5:47:33 PM org.apache.catalina.core.StandardService startInternal
-INFO: Starting service [Tomcat]
-May 01, 2021 5:47:33 PM org.apache.catalina.core.StandardEngine startInternal
-INFO: Starting Servlet engine: [Apache Tomcat/9.0.45]
-May 01, 2021 5:47:33 PM org.apache.coyote.AbstractProtocol start
-INFO: Starting ProtocolHandler [&quot;http-nio-auto-2-51737&quot;]
-May 01, 2021 5:47:33 PM org.apache.catalina.core.ApplicationContext log
-INFO: Initializing Spring DispatcherServlet 'dispatcherServlet'
-May 01, 2021 5:47:33 PM org.apache.catalina.core.ApplicationContext log
-INFO: Destroying Spring FrameworkServlet 'dispatcherServlet'
-May 01, 2021 5:47:33 PM org.apache.coyote.AbstractProtocol pause
-INFO: Pausing ProtocolHandler [&quot;http-nio-auto-2-51737&quot;]
-May 01, 2021 5:47:34 PM org.apache.catalina.core.StandardService stopInternal
-INFO: Stopping service [Tomcat]
-May 01, 2021 5:47:34 PM org.apache.coyote.AbstractProtocol stop
-INFO: Stopping ProtocolHandler [&quot;http-nio-auto-2-51737&quot;]
-May 01, 2021 5:47:44 PM org.apache.tomcat.util.net.Acceptor stop
-WARNING: The acceptor thread [http-nio-auto-2-Acceptor] did not stop cleanly
+<pre>5月 09, 2021 8:43:11 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler [&quot;http-nio-auto-1&quot;]
+5月 09, 2021 8:43:11 下午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service [Tomcat]
+5月 09, 2021 8:43:11 下午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet engine: [Apache Tomcat/9.0.45]
+5月 09, 2021 8:43:12 下午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler [&quot;http-nio-auto-1-64643&quot;]
+5月 09, 2021 8:43:12 下午 org.apache.catalina.core.ApplicationContext log
+信息: Initializing Spring DispatcherServlet 'dispatcherServlet'
+5月 09, 2021 8:43:13 下午 org.apache.catalina.core.ApplicationContext log
+信息: Destroying Spring FrameworkServlet 'dispatcherServlet'
+5月 09, 2021 8:43:13 下午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler [&quot;http-nio-auto-1-64643&quot;]
+5月 09, 2021 8:43:14 下午 org.apache.catalina.core.StandardService stopInternal
+信息: Stopping service [Tomcat]
+5月 09, 2021 8:43:14 下午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler [&quot;http-nio-auto-1-64643&quot;]
+5月 09, 2021 8:43:24 下午 org.apache.tomcat.util.net.Acceptor stop
+警告: The acceptor thread [http-nio-auto-1-Acceptor] did not stop cleanly
+5月 09, 2021 8:43:24 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler [&quot;http-nio-auto-2&quot;]
+5月 09, 2021 8:43:24 下午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service [Tomcat]
+5月 09, 2021 8:43:24 下午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet engine: [Apache Tomcat/9.0.45]
+5月 09, 2021 8:43:24 下午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler [&quot;http-nio-auto-2-64716&quot;]
+5月 09, 2021 8:43:24 下午 org.apache.catalina.core.ApplicationContext log
+信息: Initializing Spring DispatcherServlet 'dispatcherServlet'
+5月 09, 2021 8:43:24 下午 org.apache.catalina.core.ApplicationContext log
+信息: Destroying Spring FrameworkServlet 'dispatcherServlet'
+5月 09, 2021 8:43:24 下午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler [&quot;http-nio-auto-2-64716&quot;]
+5月 09, 2021 8:43:25 下午 org.apache.catalina.core.StandardService stopInternal
+信息: Stopping service [Tomcat]
+5月 09, 2021 8:43:25 下午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler [&quot;http-nio-auto-2-64716&quot;]
+5月 09, 2021 8:43:35 下午 org.apache.tomcat.util.net.Acceptor stop
+警告: The acceptor thread [http-nio-auto-2-Acceptor] did not stop cleanly
 </pre>
 </span>
 </div>
@@ -245,7 +245,7 @@ WARNING: The acceptor thread [http-nio-auto-2-Acceptor] did not stop cleanly
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 6.8.3</a> at May 1, 2021 5:49:30 PM</p>
+<a href="http://www.gradle.org">Gradle 6.8.3</a> at 2021年5月9日 下午8:45:22</p>
 </div>
 </div>
 </body>

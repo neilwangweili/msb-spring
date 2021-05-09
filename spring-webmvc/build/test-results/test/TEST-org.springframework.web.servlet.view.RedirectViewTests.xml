@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.web.servlet.view.RedirectViewTests" tests="22" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:33:43" hostname="wangweilideMBP.lan" time="0.007">
+<testsuite name="org.springframework.web.servlet.view.RedirectViewTests" tests="22" skipped="0" failures="0" errors="0" timestamp="2021-05-09T12:42:01" hostname="wangweilidembp" time="0.013">
   <properties/>
   <testcase name="emptyMapWithContextRelative()" classname="org.springframework.web.servlet.view.RedirectViewTests" time="0.001"/>
-  <testcase name="updateTargetUrlWithContextLoader()" classname="org.springframework.web.servlet.view.RedirectViewTests" time="0.001"/>
-  <testcase name="singleParam()" classname="org.springframework.web.servlet.view.RedirectViewTests" time="0.0"/>
+  <testcase name="updateTargetUrlWithContextLoader()" classname="org.springframework.web.servlet.view.RedirectViewTests" time="0.002"/>
+  <testcase name="singleParam()" classname="org.springframework.web.servlet.view.RedirectViewTests" time="0.001"/>
   <testcase name="attributeStatusCodeHttp10()" classname="org.springframework.web.servlet.view.RedirectViewTests" time="0.0"/>
   <testcase name="attributeStatusCodeHttp11()" classname="org.springframework.web.servlet.view.RedirectViewTests" time="0.0"/>
-  <testcase name="contextRelativeWithValidatedContextPath()" classname="org.springframework.web.servlet.view.RedirectViewTests" time="0.0"/>
+  <testcase name="contextRelativeWithValidatedContextPath()" classname="org.springframework.web.servlet.view.RedirectViewTests" time="0.001"/>
   <testcase name="arrayParam()" classname="org.springframework.web.servlet.view.RedirectViewTests" time="0.0"/>
   <testcase name="http11()" classname="org.springframework.web.servlet.view.RedirectViewTests" time="0.0"/>
-  <testcase name="propagateQueryParams()" classname="org.springframework.web.servlet.view.RedirectViewTests" time="0.0"/>
+  <testcase name="propagateQueryParams()" classname="org.springframework.web.servlet.view.RedirectViewTests" time="0.001"/>
   <testcase name="contextRelativeQueryParam()" classname="org.springframework.web.servlet.view.RedirectViewTests" time="0.0"/>
   <testcase name="twoParams()" classname="org.springframework.web.servlet.view.RedirectViewTests" time="0.0"/>
-  <testcase name="updateTargetUrl()" classname="org.springframework.web.servlet.view.RedirectViewTests" time="0.0"/>
+  <testcase name="updateTargetUrl()" classname="org.springframework.web.servlet.view.RedirectViewTests" time="0.002"/>
   <testcase name="noUrlSet()" classname="org.springframework.web.servlet.view.RedirectViewTests" time="0.001"/>
   <testcase name="explicitStatusCodeHttp10()" classname="org.springframework.web.servlet.view.RedirectViewTests" time="0.0"/>
-  <testcase name="explicitStatusCodeHttp11()" classname="org.springframework.web.servlet.view.RedirectViewTests" time="0.0"/>
-  <testcase name="objectConversion()" classname="org.springframework.web.servlet.view.RedirectViewTests" time="0.0"/>
+  <testcase name="explicitStatusCodeHttp11()" classname="org.springframework.web.servlet.view.RedirectViewTests" time="0.001"/>
+  <testcase name="objectConversion()" classname="org.springframework.web.servlet.view.RedirectViewTests" time="0.001"/>
   <testcase name="remoteHost()" classname="org.springframework.web.servlet.view.RedirectViewTests" time="0.0"/>
-  <testcase name="collectionParam()" classname="org.springframework.web.servlet.view.RedirectViewTests" time="0.0"/>
-  <testcase name="paramWithAnchor()" classname="org.springframework.web.servlet.view.RedirectViewTests" time="0.001"/>
+  <testcase name="collectionParam()" classname="org.springframework.web.servlet.view.RedirectViewTests" time="0.001"/>
+  <testcase name="paramWithAnchor()" classname="org.springframework.web.servlet.view.RedirectViewTests" time="0.0"/>
   <testcase name="emptyMap()" classname="org.springframework.web.servlet.view.RedirectViewTests" time="0.0"/>
-  <testcase name="flashMap()" classname="org.springframework.web.servlet.view.RedirectViewTests" time="0.0"/>
+  <testcase name="flashMap()" classname="org.springframework.web.servlet.view.RedirectViewTests" time="0.001"/>
   <testcase name="singleParamWithoutExposingModelAttributes()" classname="org.springframework.web.servlet.view.RedirectViewTests" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

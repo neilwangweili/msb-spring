@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.http.ContentDispositionTests" tests="22" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:44:13" hostname="wangweilideMacBook-Pro.local" time="0.006">
+<testsuite name="org.springframework.http.ContentDispositionTests" tests="22" skipped="0" failures="0" errors="0" timestamp="2021-05-09T12:46:23" hostname="wangweilidembp" time="0.005">
   <properties/>
-  <testcase name="parseEncodedFilenameWithoutCharset()" classname="org.springframework.http.ContentDispositionTests" time="0.001"/>
+  <testcase name="parseEncodedFilenameWithoutCharset()" classname="org.springframework.http.ContentDispositionTests" time="0.0"/>
   <testcase name="parseEncodedFilenameWithInvalidCharset()" classname="org.springframework.http.ContentDispositionTests" time="0.0"/>
   <testcase name="formatWithEncodedFilenameUsingInvalidCharset()" classname="org.springframework.http.ContentDispositionTests" time="0.0"/>
   <testcase name="format()" classname="org.springframework.http.ContentDispositionTests" time="0.0"/>
@@ -9,19 +9,19 @@
   <testcase name="parseDates()" classname="org.springframework.http.ContentDispositionTests" time="0.001"/>
   <testcase name="parseEmpty()" classname="org.springframework.http.ContentDispositionTests" time="0.0"/>
   <testcase name="parseNoType()" classname="org.springframework.http.ContentDispositionTests" time="0.0"/>
-  <testcase name="formatWithEncodedFilename()" classname="org.springframework.http.ContentDispositionTests" time="0.001"/>
-  <testcase name="parseIgnoresInvalidDates()" classname="org.springframework.http.ContentDispositionTests" time="0.0"/>
+  <testcase name="formatWithEncodedFilename()" classname="org.springframework.http.ContentDispositionTests" time="0.0"/>
+  <testcase name="parseIgnoresInvalidDates()" classname="org.springframework.http.ContentDispositionTests" time="0.001"/>
   <testcase name="parseFilenameWithSemicolon()" classname="org.springframework.http.ContentDispositionTests" time="0.0"/>
   <testcase name="parse()" classname="org.springframework.http.ContentDispositionTests" time="0.0"/>
   <testcase name="parseInvalidParameter()" classname="org.springframework.http.ContentDispositionTests" time="0.0"/>
-  <testcase name="parseEncodedFilenameWithPaddedCharset()" classname="org.springframework.http.ContentDispositionTests" time="0.001"/>
+  <testcase name="parseEncodedFilenameWithPaddedCharset()" classname="org.springframework.http.ContentDispositionTests" time="0.0"/>
   <testcase name="parseBase64EncodedShiftJISFilename()" classname="org.springframework.http.ContentDispositionTests" time="0.0"/>
   <testcase name="parseFilenameUnquoted()" classname="org.springframework.http.ContentDispositionTests" time="0.0"/>
   <testcase name="formatWithEncodedFilenameUsingUsAscii()" classname="org.springframework.http.ContentDispositionTests" time="0.0"/>
   <testcase name="parseEncodedFilename()" classname="org.springframework.http.ContentDispositionTests" time="0.0"/>
   <testcase name="formatWithFilenameWithQuotes()" classname="org.springframework.http.ContentDispositionTests" time="0.0"/>
   <testcase name="parseWithExtraSemicolons()" classname="org.springframework.http.ContentDispositionTests" time="0.0"/>
-  <testcase name="parseWithEscapedQuote()" classname="org.springframework.http.ContentDispositionTests" time="0.0"/>
+  <testcase name="parseWithEscapedQuote()" classname="org.springframework.http.ContentDispositionTests" time="0.001"/>
   <testcase name="parseBase64EncodedFilename()" classname="org.springframework.http.ContentDispositionTests" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

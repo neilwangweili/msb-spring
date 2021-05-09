@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.test.context.event.EventPublishingTestExecutionListenerIntegrationTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:42:49" hostname="wangweilideMBP.lan" time="0.105">
+<testsuite name="org.springframework.test.context.event.EventPublishingTestExecutionListenerIntegrationTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2021-05-09T12:41:58" hostname="wangweilidembp" time="0.133">
   <properties/>
-  <testcase name="afterTestExecutionAnnotation()" classname="org.springframework.test.context.event.EventPublishingTestExecutionListenerIntegrationTests" time="0.004"/>
-  <testcase name="beforeTestMethodAnnotationWithFailingAsyncEventListener()" classname="org.springframework.test.context.event.EventPublishingTestExecutionListenerIntegrationTests" time="0.013"/>
+  <testcase name="afterTestExecutionAnnotation()" classname="org.springframework.test.context.event.EventPublishingTestExecutionListenerIntegrationTests" time="0.005"/>
+  <testcase name="beforeTestMethodAnnotationWithFailingAsyncEventListener()" classname="org.springframework.test.context.event.EventPublishingTestExecutionListenerIntegrationTests" time="0.014"/>
   <testcase name="afterTestMethodAnnotation()" classname="org.springframework.test.context.event.EventPublishingTestExecutionListenerIntegrationTests" time="0.002"/>
-  <testcase name="beforeTestMethodAnnotationWithFailingEventListener()" classname="org.springframework.test.context.event.EventPublishingTestExecutionListenerIntegrationTests" time="0.004"/>
+  <testcase name="beforeTestMethodAnnotationWithFailingEventListener()" classname="org.springframework.test.context.event.EventPublishingTestExecutionListenerIntegrationTests" time="0.005"/>
   <testcase name="beforeTestClassAnnotation()" classname="org.springframework.test.context.event.EventPublishingTestExecutionListenerIntegrationTests" time="0.003"/>
-  <testcase name="beforeTestMethodAnnotationWithFailingCondition()" classname="org.springframework.test.context.event.EventPublishingTestExecutionListenerIntegrationTests" time="0.002"/>
+  <testcase name="beforeTestMethodAnnotationWithFailingCondition()" classname="org.springframework.test.context.event.EventPublishingTestExecutionListenerIntegrationTests" time="0.003"/>
   <testcase name="beforeTestExecutionAnnotation()" classname="org.springframework.test.context.event.EventPublishingTestExecutionListenerIntegrationTests" time="0.001"/>
   <testcase name="afterTestClassAnnotation()" classname="org.springframework.test.context.event.EventPublishingTestExecutionListenerIntegrationTests" time="0.001"/>
-  <testcase name="prepareTestInstanceAnnotation()" classname="org.springframework.test.context.event.EventPublishingTestExecutionListenerIntegrationTests" time="0.001"/>
-  <testcase name="beforeTestMethodAnnotation()" classname="org.springframework.test.context.event.EventPublishingTestExecutionListenerIntegrationTests" time="0.002"/>
-  <system-out><![CDATA[17:42:49.670 [Test worker] WARN  o.s.t.c.TestContextManager - Caught exception while invoking 'beforeTestMethod' callback on TestExecutionListener [org.springframework.test.context.event.EventPublishingTestExecutionListener@22bbfe98] for test method [public void org.springframework.test.context.event.EventPublishingTestExecutionListenerIntegrationTests$ExampleTestCase.testWithFailingEventListener()] and test instance [org.springframework.test.context.event.EventPublishingTestExecutionListenerIntegrationTests$ExampleTestCase@2edf6c73]
+  <testcase name="prepareTestInstanceAnnotation()" classname="org.springframework.test.context.event.EventPublishingTestExecutionListenerIntegrationTests" time="0.002"/>
+  <testcase name="beforeTestMethodAnnotation()" classname="org.springframework.test.context.event.EventPublishingTestExecutionListenerIntegrationTests" time="0.003"/>
+  <system-out><![CDATA[20:41:58.802 [Test worker] WARN  o.s.t.c.TestContextManager - Caught exception while invoking 'beforeTestMethod' callback on TestExecutionListener [org.springframework.test.context.event.EventPublishingTestExecutionListener@676b91a7] for test method [public void org.springframework.test.context.event.EventPublishingTestExecutionListenerIntegrationTests$ExampleTestCase.testWithFailingEventListener()] and test instance [org.springframework.test.context.event.EventPublishingTestExecutionListenerIntegrationTests$ExampleTestCase@623418de]
 java.lang.RuntimeException: Boom!
 	at org.springframework.test.context.event.EventPublishingTestExecutionListenerIntegrationTests$TestEventListenerConfiguration.beforeTestMethodWithFailure(EventPublishingTestExecutionListenerIntegrationTests.java:262) ~[test/:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_181]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_181]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_181]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_181]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
 	at org.springframework.context.event.ApplicationListenerMethodAdapter.doInvoke(ApplicationListenerMethodAdapter.java:344) ~[spring-context-5.3.7-SNAPSHOT.jar:5.3.7-SNAPSHOT]
 	at org.springframework.context.event.ApplicationListenerMethodAdapter.processEvent(ApplicationListenerMethodAdapter.java:229) ~[spring-context-5.3.7-SNAPSHOT.jar:5.3.7-SNAPSHOT]
 	at org.springframework.context.event.ApplicationListenerMethodAdapter.onApplicationEvent(ApplicationListenerMethodAdapter.java:166) ~[spring-context-5.3.7-SNAPSHOT.jar:5.3.7-SNAPSHOT]
@@ -33,10 +33,10 @@ java.lang.RuntimeException: Boom!
 	at org.assertj.core.api.ThrowableAssert.catchThrowable(ThrowableAssert.java:62) ~[assertj-core-3.19.0.jar:?]
 	at org.assertj.core.api.ThrowableTypeAssert.isThrownBy(ThrowableTypeAssert.java:59) ~[assertj-core-3.19.0.jar:?]
 	at org.springframework.test.context.event.EventPublishingTestExecutionListenerIntegrationTests.beforeTestMethodAnnotationWithFailingEventListener(EventPublishingTestExecutionListenerIntegrationTests.java:129) ~[test/:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_181]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_181]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_181]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_181]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
 	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:688) ~[junit-platform-commons-1.7.1.jar:1.7.1]
 	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60) ~[junit-jupiter-engine-5.7.1.jar:5.7.1]
 	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131) ~[junit-jupiter-engine-5.7.1.jar:5.7.1]
@@ -64,7 +64,7 @@ java.lang.RuntimeException: Boom!
 	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.7.1.jar:1.7.1]
 	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126) ~[junit-platform-engine-1.7.1.jar:1.7.1]
 	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84) ~[junit-platform-engine-1.7.1.jar:1.7.1]
-	at java.util.ArrayList.forEach(ArrayList.java:1257) ~[?:1.8.0_181]
+	at java.util.ArrayList.forEach(ArrayList.java:1541) ~[?:?]
 	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38) ~[junit-platform-engine-1.7.1.jar:1.7.1]
 	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143) ~[junit-platform-engine-1.7.1.jar:1.7.1]
 	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.7.1.jar:1.7.1]
@@ -74,7 +74,7 @@ java.lang.RuntimeException: Boom!
 	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.7.1.jar:1.7.1]
 	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126) ~[junit-platform-engine-1.7.1.jar:1.7.1]
 	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84) ~[junit-platform-engine-1.7.1.jar:1.7.1]
-	at java.util.ArrayList.forEach(ArrayList.java:1257) ~[?:1.8.0_181]
+	at java.util.ArrayList.forEach(ArrayList.java:1541) ~[?:?]
 	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38) ~[junit-platform-engine-1.7.1.jar:1.7.1]
 	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143) ~[junit-platform-engine-1.7.1.jar:1.7.1]
 	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.7.1.jar:1.7.1]
@@ -98,20 +98,20 @@ java.lang.RuntimeException: Boom!
 	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:79) [gradle-testing-junit-platform-6.8.3.jar:6.8.3]
 	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:75) [gradle-testing-junit-platform-6.8.3.jar:6.8.3]
 	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61) [gradle-testing-base-6.8.3.jar:6.8.3]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_181]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_181]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_181]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_181]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
 	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36) [gradle-messaging-6.8.3.jar:6.8.3]
 	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) [gradle-messaging-6.8.3.jar:6.8.3]
 	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33) [gradle-messaging-6.8.3.jar:6.8.3]
 	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94) [gradle-messaging-6.8.3.jar:6.8.3]
 	at com.sun.proxy.$Proxy2.stop(Unknown Source) [?:?]
 	at org.gradle.api.internal.tasks.testing.worker.TestWorker.stop(TestWorker.java:133) [gradle-testing-base-6.8.3.jar:6.8.3]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_181]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_181]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_181]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_181]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
 	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36) [gradle-messaging-6.8.3.jar:6.8.3]
 	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) [gradle-messaging-6.8.3.jar:6.8.3]
 	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:182) [gradle-messaging-6.8.3.jar:6.8.3]
@@ -119,10 +119,10 @@ java.lang.RuntimeException: Boom!
 	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:414) [gradle-messaging-6.8.3.jar:6.8.3]
 	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64) [gradle-base-services-6.8.3.jar:6.8.3]
 	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48) [gradle-base-services-6.8.3.jar:6.8.3]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_181]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56) [gradle-base-services-6.8.3.jar:6.8.3]
-	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.web.servlet.mvc.WebContentInterceptorTests" tests="15" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:33:08" hostname="wangweilideMBP.lan" time="0.036">
+<testsuite name="org.springframework.web.servlet.mvc.WebContentInterceptorTests" tests="15" skipped="0" failures="0" errors="0" timestamp="2021-05-09T12:41:24" hostname="wangweilidembp" time="0.039">
   <properties/>
-  <testcase name="[1] requestFactory=org.springframework.web.servlet.handler.PathPatternsTestUtils$$Lambda$552/1215411934@54dc195a" classname="org.springframework.web.servlet.mvc.WebContentInterceptorTests" time="0.004"/>
-  <testcase name="[2] requestFactory=org.springframework.web.servlet.handler.PathPatternsTestUtils$$Lambda$553/587426784@7942ff1a" classname="org.springframework.web.servlet.mvc.WebContentInterceptorTests" time="0.001"/>
-  <testcase name="[1] requestFactory=org.springframework.web.servlet.handler.PathPatternsTestUtils$$Lambda$552/1215411934@6272a659" classname="org.springframework.web.servlet.mvc.WebContentInterceptorTests" time="0.001"/>
-  <testcase name="[2] requestFactory=org.springframework.web.servlet.handler.PathPatternsTestUtils$$Lambda$553/587426784@4b38d906" classname="org.springframework.web.servlet.mvc.WebContentInterceptorTests" time="0.001"/>
-  <testcase name="[1] requestFactory=org.springframework.web.servlet.handler.PathPatternsTestUtils$$Lambda$552/1215411934@54c39f22" classname="org.springframework.web.servlet.mvc.WebContentInterceptorTests" time="0.001"/>
-  <testcase name="[2] requestFactory=org.springframework.web.servlet.handler.PathPatternsTestUtils$$Lambda$553/587426784@40dd39b1" classname="org.springframework.web.servlet.mvc.WebContentInterceptorTests" time="0.001"/>
-  <testcase name="[1] requestFactory=org.springframework.web.servlet.handler.PathPatternsTestUtils$$Lambda$552/1215411934@8af8407" classname="org.springframework.web.servlet.mvc.WebContentInterceptorTests" time="0.001"/>
-  <testcase name="[2] requestFactory=org.springframework.web.servlet.handler.PathPatternsTestUtils$$Lambda$553/587426784@a3e6ee5" classname="org.springframework.web.servlet.mvc.WebContentInterceptorTests" time="0.001"/>
-  <testcase name="[1] requestFactory=org.springframework.web.servlet.handler.PathPatternsTestUtils$$Lambda$552/1215411934@469d6921" classname="org.springframework.web.servlet.mvc.WebContentInterceptorTests" time="0.008"/>
-  <testcase name="[2] requestFactory=org.springframework.web.servlet.handler.PathPatternsTestUtils$$Lambda$553/587426784@6f24d0f2" classname="org.springframework.web.servlet.mvc.WebContentInterceptorTests" time="0.001"/>
-  <testcase name="[1] requestFactory=org.springframework.web.servlet.handler.PathPatternsTestUtils$$Lambda$552/1215411934@1bdfeead" classname="org.springframework.web.servlet.mvc.WebContentInterceptorTests" time="0.0"/>
-  <testcase name="[2] requestFactory=org.springframework.web.servlet.handler.PathPatternsTestUtils$$Lambda$553/587426784@626fe275" classname="org.springframework.web.servlet.mvc.WebContentInterceptorTests" time="0.0"/>
+  <testcase name="[1] requestFactory=org.springframework.web.servlet.handler.PathPatternsTestUtils$$Lambda$643/0x0000000800662c40@44fe281" classname="org.springframework.web.servlet.mvc.WebContentInterceptorTests" time="0.003"/>
+  <testcase name="[2] requestFactory=org.springframework.web.servlet.handler.PathPatternsTestUtils$$Lambda$644/0x0000000800662040@4d7c67c9" classname="org.springframework.web.servlet.mvc.WebContentInterceptorTests" time="0.001"/>
+  <testcase name="[1] requestFactory=org.springframework.web.servlet.handler.PathPatternsTestUtils$$Lambda$643/0x0000000800662c40@b291957" classname="org.springframework.web.servlet.mvc.WebContentInterceptorTests" time="0.001"/>
+  <testcase name="[2] requestFactory=org.springframework.web.servlet.handler.PathPatternsTestUtils$$Lambda$644/0x0000000800662040@4bf98c61" classname="org.springframework.web.servlet.mvc.WebContentInterceptorTests" time="0.0"/>
+  <testcase name="[1] requestFactory=org.springframework.web.servlet.handler.PathPatternsTestUtils$$Lambda$643/0x0000000800662c40@21f5718f" classname="org.springframework.web.servlet.mvc.WebContentInterceptorTests" time="0.002"/>
+  <testcase name="[2] requestFactory=org.springframework.web.servlet.handler.PathPatternsTestUtils$$Lambda$644/0x0000000800662040@415735c2" classname="org.springframework.web.servlet.mvc.WebContentInterceptorTests" time="0.001"/>
+  <testcase name="[1] requestFactory=org.springframework.web.servlet.handler.PathPatternsTestUtils$$Lambda$643/0x0000000800662c40@6cb560f" classname="org.springframework.web.servlet.mvc.WebContentInterceptorTests" time="0.001"/>
+  <testcase name="[2] requestFactory=org.springframework.web.servlet.handler.PathPatternsTestUtils$$Lambda$644/0x0000000800662040@2efe4f" classname="org.springframework.web.servlet.mvc.WebContentInterceptorTests" time="0.001"/>
+  <testcase name="[1] requestFactory=org.springframework.web.servlet.handler.PathPatternsTestUtils$$Lambda$643/0x0000000800662c40@6902e726" classname="org.springframework.web.servlet.mvc.WebContentInterceptorTests" time="0.007"/>
+  <testcase name="[2] requestFactory=org.springframework.web.servlet.handler.PathPatternsTestUtils$$Lambda$644/0x0000000800662040@110326e1" classname="org.springframework.web.servlet.mvc.WebContentInterceptorTests" time="0.001"/>
+  <testcase name="[1] requestFactory=org.springframework.web.servlet.handler.PathPatternsTestUtils$$Lambda$643/0x0000000800662c40@4d2471e0" classname="org.springframework.web.servlet.mvc.WebContentInterceptorTests" time="0.0"/>
+  <testcase name="[2] requestFactory=org.springframework.web.servlet.handler.PathPatternsTestUtils$$Lambda$644/0x0000000800662040@3a0f228d" classname="org.springframework.web.servlet.mvc.WebContentInterceptorTests" time="0.001"/>
   <testcase name="throwsExceptionWithNullPathMatcher()" classname="org.springframework.web.servlet.mvc.WebContentInterceptorTests" time="0.001"/>
-  <testcase name="[1] requestFactory=org.springframework.web.servlet.handler.PathPatternsTestUtils$$Lambda$552/1215411934@62328ddc" classname="org.springframework.web.servlet.mvc.WebContentInterceptorTests" time="0.001"/>
-  <testcase name="[2] requestFactory=org.springframework.web.servlet.handler.PathPatternsTestUtils$$Lambda$553/587426784@7fd3b7a5" classname="org.springframework.web.servlet.mvc.WebContentInterceptorTests" time="0.001"/>
+  <testcase name="[1] requestFactory=org.springframework.web.servlet.handler.PathPatternsTestUtils$$Lambda$643/0x0000000800662c40@4cf6cb6b" classname="org.springframework.web.servlet.mvc.WebContentInterceptorTests" time="0.001"/>
+  <testcase name="[2] requestFactory=org.springframework.web.servlet.handler.PathPatternsTestUtils$$Lambda$644/0x0000000800662040@22331864" classname="org.springframework.web.servlet.mvc.WebContentInterceptorTests" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

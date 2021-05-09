@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.http.server.reactive.ServerHttpRequestIntegrationTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:43:39" hostname="wangweilideMacBook-Pro.local" time="11.175">
+<testsuite name="org.springframework.http.server.reactive.ServerHttpRequestIntegrationTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2021-05-09T12:45:49" hostname="wangweilidembp" time="11.197">
   <properties/>
-  <testcase name="[1] org.springframework.web.testfixture.http.server.reactive.bootstrap.JettyHttpServer@67c59d3d" classname="org.springframework.http.server.reactive.ServerHttpRequestIntegrationTests" time="0.009"/>
-  <testcase name="[2] org.springframework.web.testfixture.http.server.reactive.bootstrap.ReactorHttpServer@5e9ece2e" classname="org.springframework.http.server.reactive.ServerHttpRequestIntegrationTests" time="0.004"/>
-  <testcase name="[3] org.springframework.web.testfixture.http.server.reactive.bootstrap.TomcatHttpServer@9af4953" classname="org.springframework.http.server.reactive.ServerHttpRequestIntegrationTests" time="11.151"/>
-  <testcase name="[4] org.springframework.web.testfixture.http.server.reactive.bootstrap.UndertowHttpServer@6a003a0e" classname="org.springframework.http.server.reactive.ServerHttpRequestIntegrationTests" time="0.011"/>
+  <testcase name="[1] org.springframework.web.testfixture.http.server.reactive.bootstrap.JettyHttpServer@77c74aac" classname="org.springframework.http.server.reactive.ServerHttpRequestIntegrationTests" time="0.007"/>
+  <testcase name="[2] org.springframework.web.testfixture.http.server.reactive.bootstrap.ReactorHttpServer@1e59199a" classname="org.springframework.http.server.reactive.ServerHttpRequestIntegrationTests" time="0.004"/>
+  <testcase name="[3] org.springframework.web.testfixture.http.server.reactive.bootstrap.TomcatHttpServer@37e389b0" classname="org.springframework.http.server.reactive.ServerHttpRequestIntegrationTests" time="11.178"/>
+  <testcase name="[4] org.springframework.web.testfixture.http.server.reactive.bootstrap.UndertowHttpServer@56bbc85c" classname="org.springframework.http.server.reactive.ServerHttpRequestIntegrationTests" time="0.008"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[Apr 26, 2021 3:43:39 PM org.apache.catalina.core.StandardService startInternal
+  <system-err><![CDATA[May 09, 2021 8:45:49 PM org.apache.catalina.core.StandardService startInternal
 INFO: Starting service [Tomcat]
-Apr 26, 2021 3:43:39 PM org.apache.catalina.core.StandardEngine startInternal
+May 09, 2021 8:45:49 PM org.apache.catalina.core.StandardEngine startInternal
 INFO: Starting Servlet engine: [Apache Tomcat/9.0.45]
-Apr 26, 2021 3:43:39 PM org.apache.coyote.AbstractProtocol init
+May 09, 2021 8:45:49 PM org.apache.coyote.AbstractProtocol init
 INFO: Initializing ProtocolHandler ["http-nio-auto-13"]
-Apr 26, 2021 3:43:39 PM org.apache.coyote.AbstractProtocol start
-INFO: Starting ProtocolHandler ["http-nio-auto-13-65346"]
-Apr 26, 2021 3:43:39 PM org.apache.coyote.AbstractProtocol pause
-INFO: Pausing ProtocolHandler ["http-nio-auto-13-65346"]
-Apr 26, 2021 3:43:40 PM org.apache.catalina.core.StandardService stopInternal
+May 09, 2021 8:45:49 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-auto-13-49845"]
+May 09, 2021 8:45:49 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-nio-auto-13-49845"]
+May 09, 2021 8:45:50 PM org.apache.catalina.core.StandardService stopInternal
 INFO: Stopping service [Tomcat]
-Apr 26, 2021 3:43:40 PM org.apache.coyote.AbstractProtocol stop
-INFO: Stopping ProtocolHandler ["http-nio-auto-13-65346"]
-Apr 26, 2021 3:43:50 PM org.apache.tomcat.util.net.Acceptor stop
+May 09, 2021 8:45:50 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-nio-auto-13-49845"]
+May 09, 2021 8:46:00 PM org.apache.tomcat.util.net.Acceptor stop
 WARNING: The acceptor thread [http-nio-auto-13-Acceptor] did not stop cleanly
-Apr 26, 2021 3:43:50 PM org.apache.coyote.AbstractProtocol destroy
-INFO: Destroying ProtocolHandler ["http-nio-auto-13-65346"]
+May 09, 2021 8:46:00 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-nio-auto-13-49845"]
 ]]></system-err>
 </testsuite>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.jms.support.JmsAccessorTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:25:25" hostname="wangweilideMBP.lan" time="0.026">
+<testsuite name="org.springframework.jms.support.JmsAccessorTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2021-05-09T12:40:22" hostname="wangweilidembp" time="0.003">
   <properties/>
-  <testcase name="testSessionTransactedModeReallyDoesDefaultToFalse()" classname="org.springframework.jms.support.JmsAccessorTests" time="0.023"/>
+  <testcase name="testSessionTransactedModeReallyDoesDefaultToFalse()" classname="org.springframework.jms.support.JmsAccessorTests" time="0.001"/>
   <testcase name="testChokesIfConnectionFactoryIsNotSupplied()" classname="org.springframework.jms.support.JmsAccessorTests" time="0.001"/>
   <testcase name="testSetAcknowledgeModeNameChokesIfBadAckModeIsSupplied()" classname="org.springframework.jms.support.JmsAccessorTests" time="0.001"/>
-  <testcase name="testAcknowledgeModeReallyDoesDefaultToAutoAcknowledge()" classname="org.springframework.jms.support.JmsAccessorTests" time="0.001"/>
+  <testcase name="testAcknowledgeModeReallyDoesDefaultToAutoAcknowledge()" classname="org.springframework.jms.support.JmsAccessorTests" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

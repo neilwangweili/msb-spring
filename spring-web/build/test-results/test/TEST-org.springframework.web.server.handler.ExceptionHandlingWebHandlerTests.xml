@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.web.server.handler.ExceptionHandlingWebHandlerTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:41:08" hostname="wangweilideMacBook-Pro.local" time="0.09">
+<testsuite name="org.springframework.web.server.handler.ExceptionHandlingWebHandlerTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2021-05-09T12:43:21" hostname="wangweilidembp" time="0.084">
   <properties/>
-  <testcase name="unresolvedException()" classname="org.springframework.web.server.handler.ExceptionHandlingWebHandlerTests" time="0.036"/>
-  <testcase name="handleErrorSignal()" classname="org.springframework.web.server.handler.ExceptionHandlingWebHandlerTests" time="0.002"/>
-  <testcase name="handleErrorSignalWithMultipleHttpErrorHandlers()" classname="org.springframework.web.server.handler.ExceptionHandlingWebHandlerTests" time="0.001"/>
-  <testcase name="unresolvedExceptionWithWebHttpHandlerAdapter()" classname="org.springframework.web.server.handler.ExceptionHandlingWebHandlerTests" time="0.04"/>
-  <testcase name="thrownExceptionBecomesErrorSignal()" classname="org.springframework.web.server.handler.ExceptionHandlingWebHandlerTests" time="0.0"/>
-  <system-out><![CDATA[15:41:08.518 [Test worker] ERROR o.s.w.s.a.HttpWebHandlerAdapter - [18dec728] 500 Server Error for HTTP GET ""
+  <testcase name="unresolvedException()" classname="org.springframework.web.server.handler.ExceptionHandlingWebHandlerTests" time="0.035"/>
+  <testcase name="handleErrorSignal()" classname="org.springframework.web.server.handler.ExceptionHandlingWebHandlerTests" time="0.003"/>
+  <testcase name="handleErrorSignalWithMultipleHttpErrorHandlers()" classname="org.springframework.web.server.handler.ExceptionHandlingWebHandlerTests" time="0.0"/>
+  <testcase name="unresolvedExceptionWithWebHttpHandlerAdapter()" classname="org.springframework.web.server.handler.ExceptionHandlingWebHandlerTests" time="0.032"/>
+  <testcase name="thrownExceptionBecomesErrorSignal()" classname="org.springframework.web.server.handler.ExceptionHandlingWebHandlerTests" time="0.001"/>
+  <system-out><![CDATA[20:43:21.688 [Test worker] ERROR o.s.w.s.a.HttpWebHandlerAdapter - [6e4eb631] 500 Server Error for HTTP GET ""
 java.lang.IllegalStateException: boo
 	at org.springframework.web.server.handler.ExceptionHandlingWebHandlerTests.<init>(ExceptionHandlingWebHandlerTests.java:41) ~[test/:?]
 	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 

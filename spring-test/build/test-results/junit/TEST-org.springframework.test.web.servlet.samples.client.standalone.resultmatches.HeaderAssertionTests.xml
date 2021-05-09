@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.test.web.servlet.samples.client.standalone.resultmatches.HeaderAssertionTests" tests="15" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:43:06" hostname="wangweilideMBP.lan" time="0.178">
+<testsuite name="org.springframework.test.web.servlet.samples.client.standalone.resultmatches.HeaderAssertionTests" tests="15" skipped="0" failures="0" errors="0" timestamp="2021-05-09T12:42:17" hostname="wangweilidembp" time="0.434">
   <properties/>
-  <testcase name="longValueWithMissingResponseHeader()" classname="org.springframework.test.web.servlet.samples.client.standalone.resultmatches.HeaderAssertionTests" time="0.014"/>
-  <testcase name="exists()" classname="org.springframework.test.web.servlet.samples.client.standalone.resultmatches.HeaderAssertionTests" time="0.011"/>
-  <testcase name="stringWithMatcherAndMissingResponseHeader()" classname="org.springframework.test.web.servlet.samples.client.standalone.resultmatches.HeaderAssertionTests" time="0.009"/>
-  <testcase name="stringWithMatcherAndCorrectResponseHeaderValue()" classname="org.springframework.test.web.servlet.samples.client.standalone.resultmatches.HeaderAssertionTests" time="0.01"/>
-  <testcase name="multiStringHeaderValue()" classname="org.springframework.test.web.servlet.samples.client.standalone.resultmatches.HeaderAssertionTests" time="0.011"/>
-  <testcase name="longValueWithIncorrectResponseHeaderValue()" classname="org.springframework.test.web.servlet.samples.client.standalone.resultmatches.HeaderAssertionTests" time="0.012"/>
-  <testcase name="doesNotExist()" classname="org.springframework.test.web.servlet.samples.client.standalone.resultmatches.HeaderAssertionTests" time="0.01"/>
-  <testcase name="existsFail()" classname="org.springframework.test.web.servlet.samples.client.standalone.resultmatches.HeaderAssertionTests" time="0.012"/>
-  <testcase name="doesNotExistFail()" classname="org.springframework.test.web.servlet.samples.client.standalone.resultmatches.HeaderAssertionTests" time="0.012"/>
-  <testcase name="multiStringHeaderValueWithMatchers()" classname="org.springframework.test.web.servlet.samples.client.standalone.resultmatches.HeaderAssertionTests" time="0.011"/>
-  <testcase name="stringWithMissingResponseHeader()" classname="org.springframework.test.web.servlet.samples.client.standalone.resultmatches.HeaderAssertionTests" time="0.01"/>
-  <testcase name="dateValueWithCorrectResponseHeaderValue()" classname="org.springframework.test.web.servlet.samples.client.standalone.resultmatches.HeaderAssertionTests" time="0.014"/>
-  <testcase name="longValueWithCorrectResponseHeaderValue()" classname="org.springframework.test.web.servlet.samples.client.standalone.resultmatches.HeaderAssertionTests" time="0.012"/>
-  <testcase name="stringWithMatcherAndIncorrectResponseHeaderValue()" classname="org.springframework.test.web.servlet.samples.client.standalone.resultmatches.HeaderAssertionTests" time="0.018"/>
-  <testcase name="stringWithCorrectResponseHeaderValue()" classname="org.springframework.test.web.servlet.samples.client.standalone.resultmatches.HeaderAssertionTests" time="0.012"/>
-  <system-out><![CDATA[17:43:06.882 [Test worker] ERROR o.s.t.w.r.s.ExchangeResult - Request details for assertion failure:
+  <testcase name="longValueWithMissingResponseHeader()" classname="org.springframework.test.web.servlet.samples.client.standalone.resultmatches.HeaderAssertionTests" time="0.02"/>
+  <testcase name="exists()" classname="org.springframework.test.web.servlet.samples.client.standalone.resultmatches.HeaderAssertionTests" time="0.025"/>
+  <testcase name="stringWithMatcherAndMissingResponseHeader()" classname="org.springframework.test.web.servlet.samples.client.standalone.resultmatches.HeaderAssertionTests" time="0.025"/>
+  <testcase name="stringWithMatcherAndCorrectResponseHeaderValue()" classname="org.springframework.test.web.servlet.samples.client.standalone.resultmatches.HeaderAssertionTests" time="0.026"/>
+  <testcase name="multiStringHeaderValue()" classname="org.springframework.test.web.servlet.samples.client.standalone.resultmatches.HeaderAssertionTests" time="0.023"/>
+  <testcase name="longValueWithIncorrectResponseHeaderValue()" classname="org.springframework.test.web.servlet.samples.client.standalone.resultmatches.HeaderAssertionTests" time="0.016"/>
+  <testcase name="doesNotExist()" classname="org.springframework.test.web.servlet.samples.client.standalone.resultmatches.HeaderAssertionTests" time="0.018"/>
+  <testcase name="existsFail()" classname="org.springframework.test.web.servlet.samples.client.standalone.resultmatches.HeaderAssertionTests" time="0.044"/>
+  <testcase name="doesNotExistFail()" classname="org.springframework.test.web.servlet.samples.client.standalone.resultmatches.HeaderAssertionTests" time="0.027"/>
+  <testcase name="multiStringHeaderValueWithMatchers()" classname="org.springframework.test.web.servlet.samples.client.standalone.resultmatches.HeaderAssertionTests" time="0.047"/>
+  <testcase name="stringWithMissingResponseHeader()" classname="org.springframework.test.web.servlet.samples.client.standalone.resultmatches.HeaderAssertionTests" time="0.015"/>
+  <testcase name="dateValueWithCorrectResponseHeaderValue()" classname="org.springframework.test.web.servlet.samples.client.standalone.resultmatches.HeaderAssertionTests" time="0.017"/>
+  <testcase name="longValueWithCorrectResponseHeaderValue()" classname="org.springframework.test.web.servlet.samples.client.standalone.resultmatches.HeaderAssertionTests" time="0.018"/>
+  <testcase name="stringWithMatcherAndIncorrectResponseHeaderValue()" classname="org.springframework.test.web.servlet.samples.client.standalone.resultmatches.HeaderAssertionTests" time="0.083"/>
+  <testcase name="stringWithCorrectResponseHeaderValue()" classname="org.springframework.test.web.servlet.samples.client.standalone.resultmatches.HeaderAssertionTests" time="0.027"/>
+  <system-out><![CDATA[20:42:17.272 [Test worker] ERROR o.s.t.w.r.s.ExchangeResult - Request details for assertion failure:
 
 > GET /persons/1
 > WebTestClient-Request-Id: [1]
-> If-Modified-Since: [Sat, 01 May 2021 09:43:06 GMT]
+> If-Modified-Since: [Sun, 09 May 2021 12:42:17 GMT]
 
 No content
 
 < 304 NOT_MODIFIED Not Modified
-< Last-Modified: [Sat, 01 May 2021 09:43:06 GMT]
+< Last-Modified: [Sun, 09 May 2021 12:42:17 GMT]
 < X-Rate-Limiting: [42]
 < Vary: [foo, bar]
 
@@ -37,7 +37,7 @@ MockHttpServletRequest:
       HTTP Method = GET
       Request URI = /persons/1
        Parameters = {}
-          Headers = [WebTestClient-Request-Id:"1", If-Modified-Since:"Sat, 01 May 2021 09:43:06 GMT"]
+          Headers = [WebTestClient-Request-Id:"1", If-Modified-Since:"Sun, 09 May 2021 12:42:17 GMT"]
              Body = <no character encoding set>
     Session Attrs = {}
 
@@ -63,7 +63,7 @@ FlashMap:
 MockHttpServletResponse:
            Status = 304
     Error message = null
-          Headers = [Last-Modified:"Sat, 01 May 2021 09:43:06 GMT", X-Rate-Limiting:"42", Vary:"foo", "bar"]
+          Headers = [Last-Modified:"Sun, 09 May 2021 12:42:17 GMT", X-Rate-Limiting:"42", Vary:"foo", "bar"]
      Content type = null
              Body = 
     Forwarded URL = null
@@ -71,7 +71,7 @@ MockHttpServletResponse:
           Cookies = []
 
 
-17:43:06.935 [Test worker] ERROR o.s.t.w.r.s.ExchangeResult - Request details for assertion failure:
+20:42:17.389 [Test worker] ERROR o.s.t.w.r.s.ExchangeResult - Request details for assertion failure:
 
 > GET /persons/1
 > WebTestClient-Request-Id: [1]
@@ -79,7 +79,7 @@ MockHttpServletResponse:
 No content
 
 < 200 OK OK
-< Last-Modified: [Sat, 01 May 2021 09:43:06 GMT]
+< Last-Modified: [Sun, 09 May 2021 12:42:17 GMT]
 < X-Rate-Limiting: [42]
 < Vary: [foo, bar]
 < Content-Type: [application/xml]
@@ -118,7 +118,7 @@ FlashMap:
 MockHttpServletResponse:
            Status = 200
     Error message = null
-          Headers = [Last-Modified:"Sat, 01 May 2021 09:43:06 GMT", X-Rate-Limiting:"42", Vary:"foo", "bar", Content-Type:"application/xml"]
+          Headers = [Last-Modified:"Sun, 09 May 2021 12:42:17 GMT", X-Rate-Limiting:"42", Vary:"foo", "bar", Content-Type:"application/xml"]
      Content type = application/xml
              Body = <?xml version="1.0" encoding="UTF-8" standalone="yes"?><person><name>Jason</name><someBoolean>false</someBoolean><someDouble>0.0</someDouble></person>
     Forwarded URL = null
@@ -126,7 +126,7 @@ MockHttpServletResponse:
           Cookies = []
 
 
-17:43:06.958 [Test worker] ERROR o.s.t.w.r.s.ExchangeResult - Request details for assertion failure:
+20:42:17.450 [Test worker] ERROR o.s.t.w.r.s.ExchangeResult - Request details for assertion failure:
 
 > GET /persons/1
 > WebTestClient-Request-Id: [1]
@@ -134,7 +134,7 @@ MockHttpServletResponse:
 No content
 
 < 200 OK OK
-< Last-Modified: [Sat, 01 May 2021 09:43:06 GMT]
+< Last-Modified: [Sun, 09 May 2021 12:42:17 GMT]
 < X-Rate-Limiting: [42]
 < Vary: [foo, bar]
 < Content-Type: [application/xml]
@@ -173,7 +173,7 @@ FlashMap:
 MockHttpServletResponse:
            Status = 200
     Error message = null
-          Headers = [Last-Modified:"Sat, 01 May 2021 09:43:06 GMT", X-Rate-Limiting:"42", Vary:"foo", "bar", Content-Type:"application/xml"]
+          Headers = [Last-Modified:"Sun, 09 May 2021 12:42:17 GMT", X-Rate-Limiting:"42", Vary:"foo", "bar", Content-Type:"application/xml"]
      Content type = application/xml
              Body = <?xml version="1.0" encoding="UTF-8" standalone="yes"?><person><name>Jason</name><someBoolean>false</someBoolean><someDouble>0.0</someDouble></person>
     Forwarded URL = null
@@ -181,7 +181,7 @@ MockHttpServletResponse:
           Cookies = []
 
 
-17:43:06.970 [Test worker] ERROR o.s.t.w.r.s.ExchangeResult - Request details for assertion failure:
+20:42:17.479 [Test worker] ERROR o.s.t.w.r.s.ExchangeResult - Request details for assertion failure:
 
 > GET /persons/1
 > WebTestClient-Request-Id: [1]
@@ -189,7 +189,7 @@ MockHttpServletResponse:
 No content
 
 < 200 OK OK
-< Last-Modified: [Sat, 01 May 2021 09:43:06 GMT]
+< Last-Modified: [Sun, 09 May 2021 12:42:17 GMT]
 < X-Rate-Limiting: [42]
 < Vary: [foo, bar]
 < Content-Type: [application/xml]
@@ -228,7 +228,7 @@ FlashMap:
 MockHttpServletResponse:
            Status = 200
     Error message = null
-          Headers = [Last-Modified:"Sat, 01 May 2021 09:43:06 GMT", X-Rate-Limiting:"42", Vary:"foo", "bar", Content-Type:"application/xml"]
+          Headers = [Last-Modified:"Sun, 09 May 2021 12:42:17 GMT", X-Rate-Limiting:"42", Vary:"foo", "bar", Content-Type:"application/xml"]
      Content type = application/xml
              Body = <?xml version="1.0" encoding="UTF-8" standalone="yes"?><person><name>Jason</name><someBoolean>false</someBoolean><someDouble>0.0</someDouble></person>
     Forwarded URL = null
@@ -236,16 +236,16 @@ MockHttpServletResponse:
           Cookies = []
 
 
-17:43:07.030 [Test worker] ERROR o.s.t.w.r.s.ExchangeResult - Request details for assertion failure:
+20:42:17.625 [Test worker] ERROR o.s.t.w.r.s.ExchangeResult - Request details for assertion failure:
 
 > GET /persons/1
 > WebTestClient-Request-Id: [1]
-> If-Modified-Since: [Sat, 01 May 2021 09:42:07 GMT]
+> If-Modified-Since: [Sun, 09 May 2021 12:41:17 GMT]
 
 No content
 
 < 200 OK OK
-< Last-Modified: [Sat, 01 May 2021 09:43:07 GMT]
+< Last-Modified: [Sun, 09 May 2021 12:42:17 GMT]
 < X-Rate-Limiting: [42]
 < Vary: [foo, bar]
 < Content-Type: [application/xml]
@@ -258,7 +258,7 @@ MockHttpServletRequest:
       HTTP Method = GET
       Request URI = /persons/1
        Parameters = {}
-          Headers = [WebTestClient-Request-Id:"1", If-Modified-Since:"Sat, 01 May 2021 09:42:07 GMT"]
+          Headers = [WebTestClient-Request-Id:"1", If-Modified-Since:"Sun, 09 May 2021 12:41:17 GMT"]
              Body = <no character encoding set>
     Session Attrs = {}
 
@@ -284,7 +284,7 @@ FlashMap:
 MockHttpServletResponse:
            Status = 200
     Error message = null
-          Headers = [Last-Modified:"Sat, 01 May 2021 09:43:07 GMT", X-Rate-Limiting:"42", Vary:"foo", "bar", Content-Type:"application/xml"]
+          Headers = [Last-Modified:"Sun, 09 May 2021 12:42:17 GMT", X-Rate-Limiting:"42", Vary:"foo", "bar", Content-Type:"application/xml"]
      Content type = application/xml
              Body = <?xml version="1.0" encoding="UTF-8" standalone="yes"?><person><name>Jason</name><someBoolean>false</someBoolean><someDouble>0.0</someDouble></person>
     Forwarded URL = null
@@ -292,16 +292,16 @@ MockHttpServletResponse:
           Cookies = []
 
 
-17:43:07.033 [Test worker] ERROR o.s.t.w.r.s.ExchangeResult - Request details for assertion failure:
+20:42:17.653 [Test worker] ERROR o.s.t.w.r.s.ExchangeResult - Request details for assertion failure:
 
 > GET /persons/1
 > WebTestClient-Request-Id: [2]
-> If-Modified-Since: [Sat, 01 May 2021 09:42:07 GMT]
+> If-Modified-Since: [Sun, 09 May 2021 12:41:17 GMT]
 
 No content
 
 < 200 OK OK
-< Last-Modified: [Sat, 01 May 2021 09:43:07 GMT]
+< Last-Modified: [Sun, 09 May 2021 12:42:17 GMT]
 < X-Rate-Limiting: [42]
 < Vary: [foo, bar]
 < Content-Type: [application/xml]
@@ -314,7 +314,7 @@ MockHttpServletRequest:
       HTTP Method = GET
       Request URI = /persons/1
        Parameters = {}
-          Headers = [WebTestClient-Request-Id:"2", If-Modified-Since:"Sat, 01 May 2021 09:42:07 GMT"]
+          Headers = [WebTestClient-Request-Id:"2", If-Modified-Since:"Sun, 09 May 2021 12:41:17 GMT"]
              Body = <no character encoding set>
     Session Attrs = {}
 
@@ -340,7 +340,7 @@ FlashMap:
 MockHttpServletResponse:
            Status = 200
     Error message = null
-          Headers = [Last-Modified:"Sat, 01 May 2021 09:43:07 GMT", X-Rate-Limiting:"42", Vary:"foo", "bar", Content-Type:"application/xml"]
+          Headers = [Last-Modified:"Sun, 09 May 2021 12:42:17 GMT", X-Rate-Limiting:"42", Vary:"foo", "bar", Content-Type:"application/xml"]
      Content type = application/xml
              Body = <?xml version="1.0" encoding="UTF-8" standalone="yes"?><person><name>Jason</name><someBoolean>false</someBoolean><someDouble>0.0</someDouble></person>
     Forwarded URL = null
@@ -348,16 +348,16 @@ MockHttpServletResponse:
           Cookies = []
 
 
-17:43:07.035 [Test worker] ERROR o.s.t.w.r.s.ExchangeResult - Request details for assertion failure:
+20:42:17.658 [Test worker] ERROR o.s.t.w.r.s.ExchangeResult - Request details for assertion failure:
 
 > GET /persons/1
 > WebTestClient-Request-Id: [3]
-> If-Modified-Since: [Sat, 01 May 2021 09:42:07 GMT]
+> If-Modified-Since: [Sun, 09 May 2021 12:41:17 GMT]
 
 No content
 
 < 200 OK OK
-< Last-Modified: [Sat, 01 May 2021 09:43:07 GMT]
+< Last-Modified: [Sun, 09 May 2021 12:42:17 GMT]
 < X-Rate-Limiting: [42]
 < Vary: [foo, bar]
 < Content-Type: [application/xml]
@@ -370,7 +370,7 @@ MockHttpServletRequest:
       HTTP Method = GET
       Request URI = /persons/1
        Parameters = {}
-          Headers = [WebTestClient-Request-Id:"3", If-Modified-Since:"Sat, 01 May 2021 09:42:07 GMT"]
+          Headers = [WebTestClient-Request-Id:"3", If-Modified-Since:"Sun, 09 May 2021 12:41:17 GMT"]
              Body = <no character encoding set>
     Session Attrs = {}
 
@@ -396,7 +396,7 @@ FlashMap:
 MockHttpServletResponse:
            Status = 200
     Error message = null
-          Headers = [Last-Modified:"Sat, 01 May 2021 09:43:07 GMT", X-Rate-Limiting:"42", Vary:"foo", "bar", Content-Type:"application/xml"]
+          Headers = [Last-Modified:"Sun, 09 May 2021 12:42:17 GMT", X-Rate-Limiting:"42", Vary:"foo", "bar", Content-Type:"application/xml"]
      Content type = application/xml
              Body = <?xml version="1.0" encoding="UTF-8" standalone="yes"?><person><name>Jason</name><someBoolean>false</someBoolean><someDouble>0.0</someDouble></person>
     Forwarded URL = null

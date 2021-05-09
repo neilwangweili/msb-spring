@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.web.context.support.Spr8510Tests" tests="7" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:41:04" hostname="wangweilideMacBook-Pro.local" time="0.063">
+<testsuite name="org.springframework.web.context.support.Spr8510Tests" tests="7" skipped="0" failures="0" errors="0" timestamp="2021-05-09T12:43:15" hostname="wangweilidembp" time="0.125">
   <properties/>
-  <testcase name="abstractRefreshableWAC_fallsBackToInitParam()" classname="org.springframework.web.context.support.Spr8510Tests" time="0.021"/>
-  <testcase name="abstractRefreshableWAC_fallsBackToConventionBasedNaming()" classname="org.springframework.web.context.support.Spr8510Tests" time="0.006"/>
-  <testcase name="customAbstractRefreshableWAC_fallsBackToInitParam()" classname="org.springframework.web.context.support.Spr8510Tests" time="0.006"/>
-  <testcase name="genericWAC()" classname="org.springframework.web.context.support.Spr8510Tests" time="0.009"/>
-  <testcase name="annotationConfigWAC()" classname="org.springframework.web.context.support.Spr8510Tests" time="0.006"/>
-  <testcase name="abstractRefreshableWAC_respectsInitParam_overProgrammaticConfigLocations()" classname="org.springframework.web.context.support.Spr8510Tests" time="0.005"/>
-  <testcase name="abstractRefreshableWAC_respectsProgrammaticConfigLocations()" classname="org.springframework.web.context.support.Spr8510Tests" time="0.006"/>
-  <system-out><![CDATA[15:41:04.946 [Test worker] ERROR o.s.w.c.ContextLoader - Context initialization failed
+  <testcase name="abstractRefreshableWAC_fallsBackToInitParam()" classname="org.springframework.web.context.support.Spr8510Tests" time="0.038"/>
+  <testcase name="abstractRefreshableWAC_fallsBackToConventionBasedNaming()" classname="org.springframework.web.context.support.Spr8510Tests" time="0.009"/>
+  <testcase name="customAbstractRefreshableWAC_fallsBackToInitParam()" classname="org.springframework.web.context.support.Spr8510Tests" time="0.007"/>
+  <testcase name="genericWAC()" classname="org.springframework.web.context.support.Spr8510Tests" time="0.008"/>
+  <testcase name="annotationConfigWAC()" classname="org.springframework.web.context.support.Spr8510Tests" time="0.033"/>
+  <testcase name="abstractRefreshableWAC_respectsInitParam_overProgrammaticConfigLocations()" classname="org.springframework.web.context.support.Spr8510Tests" time="0.012"/>
+  <testcase name="abstractRefreshableWAC_respectsProgrammaticConfigLocations()" classname="org.springframework.web.context.support.Spr8510Tests" time="0.011"/>
+  <system-out><![CDATA[20:43:15.786 [Test worker] ERROR o.s.w.c.ContextLoader - Context initialization failed
 org.springframework.beans.factory.BeanDefinitionStoreException: IOException parsing XML document from ServletContext resource [/from-init-param.xml]; nested exception is java.io.FileNotFoundException: Could not open ServletContext resource [/from-init-param.xml]
 	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:342) ~[spring-beans-5.3.7-SNAPSHOT.jar:5.3.7-SNAPSHOT]
 	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:310) ~[spring-beans-5.3.7-SNAPSHOT.jar:5.3.7-SNAPSHOT]
@@ -18,7 +18,7 @@ org.springframework.beans.factory.BeanDefinitionStoreException: IOException pars
 	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:125) ~[spring-web-5.3.7-SNAPSHOT.jar:?]
 	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:94) ~[spring-web-5.3.7-SNAPSHOT.jar:?]
 	at org.springframework.context.support.AbstractRefreshableApplicationContext.refreshBeanFactory(AbstractRefreshableApplicationContext.java:130) ~[spring-context-5.3.7-SNAPSHOT.jar:5.3.7-SNAPSHOT]
-	at org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory(AbstractApplicationContext.java:671) ~[spring-context-5.3.7-SNAPSHOT.jar:5.3.7-SNAPSHOT]
+	at org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory(AbstractApplicationContext.java:673) ~[spring-context-5.3.7-SNAPSHOT.jar:5.3.7-SNAPSHOT]
 	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:553) ~[spring-context-5.3.7-SNAPSHOT.jar:5.3.7-SNAPSHOT]
 	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:401) ~[spring-web-5.3.7-SNAPSHOT.jar:?]
 	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:292) ~[spring-web-5.3.7-SNAPSHOT.jar:?]
@@ -121,7 +121,7 @@ Caused by: java.io.FileNotFoundException: Could not open ServletContext resource
 	at org.springframework.web.context.support.ServletContextResource.getInputStream(ServletContextResource.java:159) ~[spring-web-5.3.7-SNAPSHOT.jar:?]
 	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:333) ~[spring-beans-5.3.7-SNAPSHOT.jar:5.3.7-SNAPSHOT]
 	... 106 more
-15:41:04.954 [Test worker] ERROR o.s.w.c.ContextLoader - Context initialization failed
+20:43:15.806 [Test worker] ERROR o.s.w.c.ContextLoader - Context initialization failed
 org.springframework.beans.factory.BeanDefinitionStoreException: IOException parsing XML document from ServletContext resource [/WEB-INF/applicationContext.xml]; nested exception is java.io.FileNotFoundException: Could not open ServletContext resource [/WEB-INF/applicationContext.xml]
 	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:342) ~[spring-beans-5.3.7-SNAPSHOT.jar:5.3.7-SNAPSHOT]
 	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:310) ~[spring-beans-5.3.7-SNAPSHOT.jar:5.3.7-SNAPSHOT]
@@ -131,7 +131,7 @@ org.springframework.beans.factory.BeanDefinitionStoreException: IOException pars
 	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:125) ~[spring-web-5.3.7-SNAPSHOT.jar:?]
 	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:94) ~[spring-web-5.3.7-SNAPSHOT.jar:?]
 	at org.springframework.context.support.AbstractRefreshableApplicationContext.refreshBeanFactory(AbstractRefreshableApplicationContext.java:130) ~[spring-context-5.3.7-SNAPSHOT.jar:5.3.7-SNAPSHOT]
-	at org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory(AbstractApplicationContext.java:671) ~[spring-context-5.3.7-SNAPSHOT.jar:5.3.7-SNAPSHOT]
+	at org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory(AbstractApplicationContext.java:673) ~[spring-context-5.3.7-SNAPSHOT.jar:5.3.7-SNAPSHOT]
 	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:553) ~[spring-context-5.3.7-SNAPSHOT.jar:5.3.7-SNAPSHOT]
 	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:401) ~[spring-web-5.3.7-SNAPSHOT.jar:?]
 	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:292) ~[spring-web-5.3.7-SNAPSHOT.jar:?]
@@ -234,7 +234,7 @@ Caused by: java.io.FileNotFoundException: Could not open ServletContext resource
 	at org.springframework.web.context.support.ServletContextResource.getInputStream(ServletContextResource.java:159) ~[spring-web-5.3.7-SNAPSHOT.jar:?]
 	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:333) ~[spring-beans-5.3.7-SNAPSHOT.jar:5.3.7-SNAPSHOT]
 	... 106 more
-15:41:04.962 [Test worker] ERROR o.s.w.c.ContextLoader - Context initialization failed
+20:43:15.817 [Test worker] ERROR o.s.w.c.ContextLoader - Context initialization failed
 org.springframework.beans.factory.BeanDefinitionStoreException: IOException parsing XML document from ServletContext resource [/from-init-param.xml]; nested exception is java.io.FileNotFoundException: Could not open ServletContext resource [/from-init-param.xml]
 	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:342) ~[spring-beans-5.3.7-SNAPSHOT.jar:5.3.7-SNAPSHOT]
 	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:310) ~[spring-beans-5.3.7-SNAPSHOT.jar:5.3.7-SNAPSHOT]
@@ -244,7 +244,7 @@ org.springframework.beans.factory.BeanDefinitionStoreException: IOException pars
 	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:125) ~[spring-web-5.3.7-SNAPSHOT.jar:?]
 	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:94) ~[spring-web-5.3.7-SNAPSHOT.jar:?]
 	at org.springframework.context.support.AbstractRefreshableApplicationContext.refreshBeanFactory(AbstractRefreshableApplicationContext.java:130) ~[spring-context-5.3.7-SNAPSHOT.jar:5.3.7-SNAPSHOT]
-	at org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory(AbstractApplicationContext.java:671) ~[spring-context-5.3.7-SNAPSHOT.jar:5.3.7-SNAPSHOT]
+	at org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory(AbstractApplicationContext.java:673) ~[spring-context-5.3.7-SNAPSHOT.jar:5.3.7-SNAPSHOT]
 	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:553) ~[spring-context-5.3.7-SNAPSHOT.jar:5.3.7-SNAPSHOT]
 	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:401) ~[spring-web-5.3.7-SNAPSHOT.jar:?]
 	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:292) ~[spring-web-5.3.7-SNAPSHOT.jar:?]
@@ -347,7 +347,7 @@ Caused by: java.io.FileNotFoundException: Could not open ServletContext resource
 	at org.springframework.web.context.support.ServletContextResource.getInputStream(ServletContextResource.java:159) ~[spring-web-5.3.7-SNAPSHOT.jar:?]
 	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:333) ~[spring-beans-5.3.7-SNAPSHOT.jar:5.3.7-SNAPSHOT]
 	... 106 more
-15:41:04.984 [Test worker] ERROR o.s.w.c.ContextLoader - Context initialization failed
+20:43:15.867 [Test worker] ERROR o.s.w.c.ContextLoader - Context initialization failed
 org.springframework.beans.factory.BeanDefinitionStoreException: IOException parsing XML document from ServletContext resource [/from-init-param.xml]; nested exception is java.io.FileNotFoundException: Could not open ServletContext resource [/from-init-param.xml]
 	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:342) ~[spring-beans-5.3.7-SNAPSHOT.jar:5.3.7-SNAPSHOT]
 	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:310) ~[spring-beans-5.3.7-SNAPSHOT.jar:5.3.7-SNAPSHOT]
@@ -357,7 +357,7 @@ org.springframework.beans.factory.BeanDefinitionStoreException: IOException pars
 	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:125) ~[spring-web-5.3.7-SNAPSHOT.jar:?]
 	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:94) ~[spring-web-5.3.7-SNAPSHOT.jar:?]
 	at org.springframework.context.support.AbstractRefreshableApplicationContext.refreshBeanFactory(AbstractRefreshableApplicationContext.java:130) ~[spring-context-5.3.7-SNAPSHOT.jar:5.3.7-SNAPSHOT]
-	at org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory(AbstractApplicationContext.java:671) ~[spring-context-5.3.7-SNAPSHOT.jar:5.3.7-SNAPSHOT]
+	at org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory(AbstractApplicationContext.java:673) ~[spring-context-5.3.7-SNAPSHOT.jar:5.3.7-SNAPSHOT]
 	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:553) ~[spring-context-5.3.7-SNAPSHOT.jar:5.3.7-SNAPSHOT]
 	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:401) ~[spring-web-5.3.7-SNAPSHOT.jar:?]
 	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:292) ~[spring-web-5.3.7-SNAPSHOT.jar:?]
@@ -460,7 +460,7 @@ Caused by: java.io.FileNotFoundException: Could not open ServletContext resource
 	at org.springframework.web.context.support.ServletContextResource.getInputStream(ServletContextResource.java:159) ~[spring-web-5.3.7-SNAPSHOT.jar:?]
 	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:333) ~[spring-beans-5.3.7-SNAPSHOT.jar:5.3.7-SNAPSHOT]
 	... 106 more
-15:41:04.990 [Test worker] ERROR o.s.w.c.ContextLoader - Context initialization failed
+20:43:15.881 [Test worker] ERROR o.s.w.c.ContextLoader - Context initialization failed
 org.springframework.beans.factory.BeanDefinitionStoreException: IOException parsing XML document from ServletContext resource [/programmatic.xml]; nested exception is java.io.FileNotFoundException: Could not open ServletContext resource [/programmatic.xml]
 	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:342) ~[spring-beans-5.3.7-SNAPSHOT.jar:5.3.7-SNAPSHOT]
 	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:310) ~[spring-beans-5.3.7-SNAPSHOT.jar:5.3.7-SNAPSHOT]
@@ -470,7 +470,7 @@ org.springframework.beans.factory.BeanDefinitionStoreException: IOException pars
 	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:125) ~[spring-web-5.3.7-SNAPSHOT.jar:?]
 	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:94) ~[spring-web-5.3.7-SNAPSHOT.jar:?]
 	at org.springframework.context.support.AbstractRefreshableApplicationContext.refreshBeanFactory(AbstractRefreshableApplicationContext.java:130) ~[spring-context-5.3.7-SNAPSHOT.jar:5.3.7-SNAPSHOT]
-	at org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory(AbstractApplicationContext.java:671) ~[spring-context-5.3.7-SNAPSHOT.jar:5.3.7-SNAPSHOT]
+	at org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory(AbstractApplicationContext.java:673) ~[spring-context-5.3.7-SNAPSHOT.jar:5.3.7-SNAPSHOT]
 	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:553) ~[spring-context-5.3.7-SNAPSHOT.jar:5.3.7-SNAPSHOT]
 	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:401) ~[spring-web-5.3.7-SNAPSHOT.jar:?]
 	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:292) ~[spring-web-5.3.7-SNAPSHOT.jar:?]

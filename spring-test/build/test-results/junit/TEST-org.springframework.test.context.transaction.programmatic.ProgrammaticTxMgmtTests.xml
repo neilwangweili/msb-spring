@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.test.context.transaction.programmatic.ProgrammaticTxMgmtTests" tests="12" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:42:29" hostname="wangweilideMBP.lan" time="0.291">
+<testsuite name="org.springframework.test.context.transaction.programmatic.ProgrammaticTxMgmtTests" tests="12" skipped="0" failures="0" errors="0" timestamp="2021-05-09T12:41:25" hostname="wangweilidembp" time="0.304">
   <properties/>
-  <testcase name="rollbackTxAndStartNewTx()" classname="org.springframework.test.context.transaction.programmatic.ProgrammaticTxMgmtTests" time="0.218"/>
-  <testcase name="isFlaggedForRollbackWithNonExistentTransactionContext()" classname="org.springframework.test.context.transaction.programmatic.ProgrammaticTxMgmtTests" time="0.011"/>
-  <testcase name="flagForCommitWithNonExistentTransactionContext()" classname="org.springframework.test.context.transaction.programmatic.ProgrammaticTxMgmtTests" time="0.002"/>
+  <testcase name="rollbackTxAndStartNewTx()" classname="org.springframework.test.context.transaction.programmatic.ProgrammaticTxMgmtTests" time="0.222"/>
+  <testcase name="isFlaggedForRollbackWithNonExistentTransactionContext()" classname="org.springframework.test.context.transaction.programmatic.ProgrammaticTxMgmtTests" time="0.009"/>
+  <testcase name="flagForCommitWithNonExistentTransactionContext()" classname="org.springframework.test.context.transaction.programmatic.ProgrammaticTxMgmtTests" time="0.003"/>
   <testcase name="isActiveWithNonExistentTransactionContext()" classname="org.springframework.test.context.transaction.programmatic.ProgrammaticTxMgmtTests" time="0.002"/>
-  <testcase name="flagForRollbackWithNonExistentTransactionContext()" classname="org.springframework.test.context.transaction.programmatic.ProgrammaticTxMgmtTests" time="0.002"/>
-  <testcase name="endTxWithNonExistentTransactionContext()" classname="org.springframework.test.context.transaction.programmatic.ProgrammaticTxMgmtTests" time="0.003"/>
+  <testcase name="flagForRollbackWithNonExistentTransactionContext()" classname="org.springframework.test.context.transaction.programmatic.ProgrammaticTxMgmtTests" time="0.003"/>
+  <testcase name="endTxWithNonExistentTransactionContext()" classname="org.springframework.test.context.transaction.programmatic.ProgrammaticTxMgmtTests" time="0.002"/>
   <testcase name="rollbackTxButDoNotStartNewTx()" classname="org.springframework.test.context.transaction.programmatic.ProgrammaticTxMgmtTests" time="0.007"/>
-  <testcase name="startTxWithExistingTransaction()" classname="org.springframework.test.context.transaction.programmatic.ProgrammaticTxMgmtTests" time="0.007"/>
-  <testcase name="startTxWithNonExistentTransactionContext()" classname="org.springframework.test.context.transaction.programmatic.ProgrammaticTxMgmtTests" time="0.002"/>
-  <testcase name="commitTxButDoNotStartNewTx()" classname="org.springframework.test.context.transaction.programmatic.ProgrammaticTxMgmtTests" time="0.011"/>
-  <testcase name="commitTxAndStartNewTx()" classname="org.springframework.test.context.transaction.programmatic.ProgrammaticTxMgmtTests" time="0.008"/>
-  <testcase name="rollbackTxAndStartNewTxWithDefaultCommitSemantics()" classname="org.springframework.test.context.transaction.programmatic.ProgrammaticTxMgmtTests" time="0.009"/>
+  <testcase name="startTxWithExistingTransaction()" classname="org.springframework.test.context.transaction.programmatic.ProgrammaticTxMgmtTests" time="0.006"/>
+  <testcase name="startTxWithNonExistentTransactionContext()" classname="org.springframework.test.context.transaction.programmatic.ProgrammaticTxMgmtTests" time="0.003"/>
+  <testcase name="commitTxButDoNotStartNewTx()" classname="org.springframework.test.context.transaction.programmatic.ProgrammaticTxMgmtTests" time="0.01"/>
+  <testcase name="commitTxAndStartNewTx()" classname="org.springframework.test.context.transaction.programmatic.ProgrammaticTxMgmtTests" time="0.013"/>
+  <testcase name="rollbackTxAndStartNewTxWithDefaultCommitSemantics()" classname="org.springframework.test.context.transaction.programmatic.ProgrammaticTxMgmtTests" time="0.01"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

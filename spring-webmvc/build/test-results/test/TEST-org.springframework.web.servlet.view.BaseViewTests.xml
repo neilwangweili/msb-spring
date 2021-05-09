@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.web.servlet.view.BaseViewTests" tests="12" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:34:00" hostname="wangweilideMBP.lan" time="0.009">
+<testsuite name="org.springframework.web.servlet.view.BaseViewTests" tests="12" skipped="0" failures="0" errors="0" timestamp="2021-05-09T12:42:16" hostname="wangweilidembp" time="0.006">
   <properties/>
-  <testcase name="renderWithStaticAttributesNoCollision()" classname="org.springframework.web.servlet.view.BaseViewTests" time="0.003"/>
-  <testcase name="attributeCSVParsingInvalid()" classname="org.springframework.web.servlet.view.BaseViewTests" time="0.003"/>
+  <testcase name="renderWithStaticAttributesNoCollision()" classname="org.springframework.web.servlet.view.BaseViewTests" time="0.002"/>
+  <testcase name="attributeCSVParsingInvalid()" classname="org.springframework.web.servlet.view.BaseViewTests" time="0.001"/>
   <testcase name="ignoresNullAttributes()" classname="org.springframework.web.servlet.view.BaseViewTests" time="0.0"/>
-  <testcase name="renderWithoutStaticAttributes()" classname="org.springframework.web.servlet.view.BaseViewTests" time="0.0"/>
+  <testcase name="renderWithoutStaticAttributes()" classname="org.springframework.web.servlet.view.BaseViewTests" time="0.001"/>
   <testcase name="attributeCSVParsingValidWithWeirdCharacters()" classname="org.springframework.web.servlet.view.BaseViewTests" time="0.0"/>
   <testcase name="attributeCSVParsingValid()" classname="org.springframework.web.servlet.view.BaseViewTests" time="0.0"/>
   <testcase name="attributeCSVParsingIgnoresTrailingComma()" classname="org.springframework.web.servlet.view.BaseViewTests" time="0.0"/>
-  <testcase name="pathVarsOverrideStaticAttributes()" classname="org.springframework.web.servlet.view.BaseViewTests" time="0.001"/>
-  <testcase name="attributeCSVParsingIgnoresEmptyString()" classname="org.springframework.web.servlet.view.BaseViewTests" time="0.0"/>
+  <testcase name="pathVarsOverrideStaticAttributes()" classname="org.springframework.web.servlet.view.BaseViewTests" time="0.0"/>
+  <testcase name="attributeCSVParsingIgnoresEmptyString()" classname="org.springframework.web.servlet.view.BaseViewTests" time="0.001"/>
   <testcase name="dynamicModelOverridesStaticAttributesIfCollision()" classname="org.springframework.web.servlet.view.BaseViewTests" time="0.0"/>
-  <testcase name="dynamicModelOverridesPathVariables()" classname="org.springframework.web.servlet.view.BaseViewTests" time="0.001"/>
+  <testcase name="dynamicModelOverridesPathVariables()" classname="org.springframework.web.servlet.view.BaseViewTests" time="0.0"/>
   <testcase name="attributeCSVParsingIgnoresNull()" classname="org.springframework.web.servlet.view.BaseViewTests" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

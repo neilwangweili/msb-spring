@@ -1,22 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.web.servlet.view.script.ScriptTemplateViewTests" tests="16" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:33:46" hostname="wangweilideMBP.lan" time="0.258">
+<testsuite name="org.springframework.web.servlet.view.script.ScriptTemplateViewTests" tests="16" skipped="0" failures="0" errors="0" timestamp="2021-05-09T12:42:05" hostname="wangweilidembp" time="0.27">
   <properties/>
-  <testcase name="detectScriptTemplateConfigWithEngineName()" classname="org.springframework.web.servlet.view.script.ScriptTemplateViewTests" time="0.219"/>
-  <testcase name="nonInvocableScriptEngineWithRenderFunction()" classname="org.springframework.web.servlet.view.script.ScriptTemplateViewTests" time="0.006"/>
-  <testcase name="engineAndEngineNameBothDefined()" classname="org.springframework.web.servlet.view.script.ScriptTemplateViewTests" time="0.006"/>
-  <testcase name="nonSharedEngine()" classname="org.springframework.web.servlet.view.script.ScriptTemplateViewTests" time="0.013"/>
-  <testcase name="missingTemplate()" classname="org.springframework.web.servlet.view.script.ScriptTemplateViewTests" time="0.002"/>
+  <testcase name="detectScriptTemplateConfigWithEngineName()" classname="org.springframework.web.servlet.view.script.ScriptTemplateViewTests" time="0.226"/>
+  <testcase name="nonInvocableScriptEngineWithRenderFunction()" classname="org.springframework.web.servlet.view.script.ScriptTemplateViewTests" time="0.008"/>
+  <testcase name="engineAndEngineNameBothDefined()" classname="org.springframework.web.servlet.view.script.ScriptTemplateViewTests" time="0.009"/>
+  <testcase name="nonSharedEngine()" classname="org.springframework.web.servlet.view.script.ScriptTemplateViewTests" time="0.012"/>
+  <testcase name="missingTemplate()" classname="org.springframework.web.servlet.view.script.ScriptTemplateViewTests" time="0.001"/>
   <testcase name="contentType()" classname="org.springframework.web.servlet.view.script.ScriptTemplateViewTests" time="0.005"/>
-  <testcase name="engineSupplierWithNonSharedEngine()" classname="org.springframework.web.servlet.view.script.ScriptTemplateViewTests" time="0.001"/>
+  <testcase name="engineSupplierWithNonSharedEngine()" classname="org.springframework.web.servlet.view.script.ScriptTemplateViewTests" time="0.0"/>
   <testcase name="engineNameAndEngineSupplierBothDefined()" classname="org.springframework.web.servlet.view.script.ScriptTemplateViewTests" time="0.001"/>
   <testcase name="missingScriptTemplateConfig()" classname="org.springframework.web.servlet.view.script.ScriptTemplateViewTests" time="0.0"/>
-  <testcase name="engineSetterAndNonSharedEngine()" classname="org.springframework.web.servlet.view.script.ScriptTemplateViewTests" time="0.001"/>
-  <testcase name="customEngineAndRenderFunction()" classname="org.springframework.web.servlet.view.script.ScriptTemplateViewTests" time="0.0"/>
+  <testcase name="engineSetterAndNonSharedEngine()" classname="org.springframework.web.servlet.view.script.ScriptTemplateViewTests" time="0.0"/>
+  <testcase name="customEngineAndRenderFunction()" classname="org.springframework.web.servlet.view.script.ScriptTemplateViewTests" time="0.001"/>
   <testcase name="resourceLoaderPath()" classname="org.springframework.web.servlet.view.script.ScriptTemplateViewTests" time="0.002"/>
-  <testcase name="engineSupplierWithSharedEngine()" classname="org.springframework.web.servlet.view.script.ScriptTemplateViewTests" time="0.001"/>
+  <testcase name="engineSupplierWithSharedEngine()" classname="org.springframework.web.servlet.view.script.ScriptTemplateViewTests" time="0.0"/>
   <testcase name="engineAndEngineSupplierBothDefined()" classname="org.springframework.web.servlet.view.script.ScriptTemplateViewTests" time="0.0"/>
   <testcase name="nonInvocableScriptEngine()" classname="org.springframework.web.servlet.view.script.ScriptTemplateViewTests" time="0.001"/>
-  <testcase name="detectScriptTemplateConfigWithEngine()" classname="org.springframework.web.servlet.view.script.ScriptTemplateViewTests" time="0.0"/>
+  <testcase name="detectScriptTemplateConfigWithEngine()" classname="org.springframework.web.servlet.view.script.ScriptTemplateViewTests" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
+  <system-err><![CDATA[Warning: Nashorn engine is planned to be removed from a future JDK release
+Warning: Nashorn engine is planned to be removed from a future JDK release
+Warning: Nashorn engine is planned to be removed from a future JDK release
+Warning: Nashorn engine is planned to be removed from a future JDK release
+Warning: Nashorn engine is planned to be removed from a future JDK release
+]]></system-err>
 </testsuite>

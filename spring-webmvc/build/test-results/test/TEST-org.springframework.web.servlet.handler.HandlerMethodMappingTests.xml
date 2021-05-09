@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.web.servlet.handler.HandlerMethodMappingTests" tests="11" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:33:00" hostname="wangweilideMBP.lan" time="3.413">
+<testsuite name="org.springframework.web.servlet.handler.HandlerMethodMappingTests" tests="11" skipped="0" failures="0" errors="0" timestamp="2021-05-09T12:41:18" hostname="wangweilidembp" time="2.71">
   <properties/>
-  <testcase name="directMatch()" classname="org.springframework.web.servlet.handler.HandlerMethodMappingTests" time="2.917"/>
-  <testcase name="ambiguousMatchOnPreFlightRequestWithCorsConfig()" classname="org.springframework.web.servlet.handler.HandlerMethodMappingTests" time="0.169"/>
-  <testcase name="ambiguousMatchOnPreFlightRequestWithoutCorsConfig()" classname="org.springframework.web.servlet.handler.HandlerMethodMappingTests" time="0.021"/>
-  <testcase name="getCorsConfigWithBeanNameHandler()" classname="org.springframework.web.servlet.handler.HandlerMethodMappingTests" time="0.263"/>
-  <testcase name="detectHandlerMethodsInAncestorContexts()" classname="org.springframework.web.servlet.handler.HandlerMethodMappingTests" time="0.022"/>
-  <testcase name="patternMatch()" classname="org.springframework.web.servlet.handler.HandlerMethodMappingTests" time="0.001"/>
-  <testcase name="unregisterMapping()" classname="org.springframework.web.servlet.handler.HandlerMethodMappingTests" time="0.002"/>
+  <testcase name="directMatch()" classname="org.springframework.web.servlet.handler.HandlerMethodMappingTests" time="2.462"/>
+  <testcase name="ambiguousMatchOnPreFlightRequestWithCorsConfig()" classname="org.springframework.web.servlet.handler.HandlerMethodMappingTests" time="0.087"/>
+  <testcase name="ambiguousMatchOnPreFlightRequestWithoutCorsConfig()" classname="org.springframework.web.servlet.handler.HandlerMethodMappingTests" time="0.005"/>
+  <testcase name="getCorsConfigWithBeanNameHandler()" classname="org.springframework.web.servlet.handler.HandlerMethodMappingTests" time="0.116"/>
+  <testcase name="detectHandlerMethodsInAncestorContexts()" classname="org.springframework.web.servlet.handler.HandlerMethodMappingTests" time="0.019"/>
+  <testcase name="patternMatch()" classname="org.springframework.web.servlet.handler.HandlerMethodMappingTests" time="0.002"/>
+  <testcase name="unregisterMapping()" classname="org.springframework.web.servlet.handler.HandlerMethodMappingTests" time="0.001"/>
   <testcase name="registerMappingWithSameMethodAndTwoHandlerInstances()" classname="org.springframework.web.servlet.handler.HandlerMethodMappingTests" time="0.001"/>
-  <testcase name="registerDuplicates()" classname="org.springframework.web.servlet.handler.HandlerMethodMappingTests" time="0.005"/>
+  <testcase name="registerDuplicates()" classname="org.springframework.web.servlet.handler.HandlerMethodMappingTests" time="0.006"/>
   <testcase name="registerMapping()" classname="org.springframework.web.servlet.handler.HandlerMethodMappingTests" time="0.001"/>
   <testcase name="ambiguousMatch()" classname="org.springframework.web.servlet.handler.HandlerMethodMappingTests" time="0.002"/>
   <system-out><![CDATA[]]></system-out>

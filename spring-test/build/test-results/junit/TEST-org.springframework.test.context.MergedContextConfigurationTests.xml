@@ -1,41 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.test.context.MergedContextConfigurationTests" tests="35" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:42:38" hostname="wangweilideMBP.lan" time="0.024">
+<testsuite name="org.springframework.test.context.MergedContextConfigurationTests" tests="35" skipped="0" failures="0" errors="0" timestamp="2021-05-09T12:41:35" hostname="wangweilidembp" time="0.051">
   <properties/>
-  <testcase name="equalsWithSameProfilesReversed()" classname="org.springframework.test.context.MergedContextConfigurationTests" time="0.0"/>
-  <testcase name="equalsWithSameDuplicateProfiles()" classname="org.springframework.test.context.MergedContextConfigurationTests" time="0.0"/>
-  <testcase name="equalsWithSameProfiles()" classname="org.springframework.test.context.MergedContextConfigurationTests" time="0.0"/>
+  <testcase name="equalsWithSameProfilesReversed()" classname="org.springframework.test.context.MergedContextConfigurationTests" time="0.001"/>
+  <testcase name="equalsWithSameDuplicateProfiles()" classname="org.springframework.test.context.MergedContextConfigurationTests" time="0.001"/>
+  <testcase name="equalsWithSameProfiles()" classname="org.springframework.test.context.MergedContextConfigurationTests" time="0.001"/>
   <testcase name="hashCodeWithSameDuplicateProfiles()" classname="org.springframework.test.context.MergedContextConfigurationTests" time="0.001"/>
   <testcase name="equalsWithEmptyArraysAndDifferentLoaders()" classname="org.springframework.test.context.MergedContextConfigurationTests" time="0.0"/>
   <testcase name="hashCodeWithSameParent()" classname="org.springframework.test.context.MergedContextConfigurationTests" time="0.0"/>
   <testcase name="equalsBasics()" classname="org.springframework.test.context.MergedContextConfigurationTests" time="0.001"/>
   <testcase name="equalsWithSameConfigClasses()" classname="org.springframework.test.context.MergedContextConfigurationTests" time="0.0"/>
-  <testcase name="equalsWithDifferentInitializers()" classname="org.springframework.test.context.MergedContextConfigurationTests" time="0.0"/>
-  <testcase name="equalsWithSameParent()" classname="org.springframework.test.context.MergedContextConfigurationTests" time="0.0"/>
+  <testcase name="equalsWithDifferentInitializers()" classname="org.springframework.test.context.MergedContextConfigurationTests" time="0.001"/>
+  <testcase name="equalsWithSameParent()" classname="org.springframework.test.context.MergedContextConfigurationTests" time="0.001"/>
   <testcase name="hashCodeWithDifferentInitializers()" classname="org.springframework.test.context.MergedContextConfigurationTests" time="0.001"/>
   <testcase name="hashCodeWithDifferentProfiles()" classname="org.springframework.test.context.MergedContextConfigurationTests" time="0.0"/>
-  <testcase name="equalsWithDifferentContextCustomizers()" classname="org.springframework.test.context.MergedContextConfigurationTests" time="0.01"/>
+  <testcase name="equalsWithDifferentContextCustomizers()" classname="org.springframework.test.context.MergedContextConfigurationTests" time="0.017"/>
   <testcase name="equalsWithSameLocations()" classname="org.springframework.test.context.MergedContextConfigurationTests" time="0.0"/>
   <testcase name="hashCodeWithDifferentConfigClasses()" classname="org.springframework.test.context.MergedContextConfigurationTests" time="0.0"/>
-  <testcase name="equalsWithEmptyArrays()" classname="org.springframework.test.context.MergedContextConfigurationTests" time="0.0"/>
-  <testcase name="hashCodeWithSameInitializers()" classname="org.springframework.test.context.MergedContextConfigurationTests" time="0.0"/>
-  <testcase name="equalsWithSameContextCustomizers()" classname="org.springframework.test.context.MergedContextConfigurationTests" time="0.0"/>
+  <testcase name="equalsWithEmptyArrays()" classname="org.springframework.test.context.MergedContextConfigurationTests" time="0.001"/>
+  <testcase name="hashCodeWithSameInitializers()" classname="org.springframework.test.context.MergedContextConfigurationTests" time="0.001"/>
+  <testcase name="equalsWithSameContextCustomizers()" classname="org.springframework.test.context.MergedContextConfigurationTests" time="0.001"/>
   <testcase name="hashCodeWithSameConfigClasses()" classname="org.springframework.test.context.MergedContextConfigurationTests" time="0.0"/>
-  <testcase name="equalsWithSameInitializers()" classname="org.springframework.test.context.MergedContextConfigurationTests" time="0.0"/>
+  <testcase name="equalsWithSameInitializers()" classname="org.springframework.test.context.MergedContextConfigurationTests" time="0.001"/>
   <testcase name="hashCodeWithDifferentParents()" classname="org.springframework.test.context.MergedContextConfigurationTests" time="0.0"/>
   <testcase name="hashCodeWithSameProfilesReversed()" classname="org.springframework.test.context.MergedContextConfigurationTests" time="0.0"/>
-  <testcase name="equalsWithDifferentParents()" classname="org.springframework.test.context.MergedContextConfigurationTests" time="0.0"/>
+  <testcase name="equalsWithDifferentParents()" classname="org.springframework.test.context.MergedContextConfigurationTests" time="0.001"/>
   <testcase name="equalsWithDifferentConfigClasses()" classname="org.springframework.test.context.MergedContextConfigurationTests" time="0.001"/>
   <testcase name="equalsWithNulls()" classname="org.springframework.test.context.MergedContextConfigurationTests" time="0.0"/>
-  <testcase name="hashCodeWithNulls()" classname="org.springframework.test.context.MergedContextConfigurationTests" time="0.001"/>
-  <testcase name="equalsWithDifferentProfiles()" classname="org.springframework.test.context.MergedContextConfigurationTests" time="0.0"/>
-  <testcase name="hashCodeWithEmptyArrays()" classname="org.springframework.test.context.MergedContextConfigurationTests" time="0.001"/>
+  <testcase name="hashCodeWithNulls()" classname="org.springframework.test.context.MergedContextConfigurationTests" time="0.0"/>
+  <testcase name="equalsWithDifferentProfiles()" classname="org.springframework.test.context.MergedContextConfigurationTests" time="0.001"/>
+  <testcase name="hashCodeWithEmptyArrays()" classname="org.springframework.test.context.MergedContextConfigurationTests" time="0.0"/>
   <testcase name="hashCodeWithNullArrays()" classname="org.springframework.test.context.MergedContextConfigurationTests" time="0.0"/>
   <testcase name="hashCodeWithEmptyArraysAndDifferentLoaders()" classname="org.springframework.test.context.MergedContextConfigurationTests" time="0.0"/>
-  <testcase name="hashCodeWithSameProfiles()" classname="org.springframework.test.context.MergedContextConfigurationTests" time="0.0"/>
+  <testcase name="hashCodeWithSameProfiles()" classname="org.springframework.test.context.MergedContextConfigurationTests" time="0.001"/>
   <testcase name="hashCodeWithSameLocations()" classname="org.springframework.test.context.MergedContextConfigurationTests" time="0.0"/>
-  <testcase name="equalsWithNullArrays()" classname="org.springframework.test.context.MergedContextConfigurationTests" time="0.001"/>
-  <testcase name="equalsWithDifferentLocations()" classname="org.springframework.test.context.MergedContextConfigurationTests" time="0.0"/>
-  <testcase name="hashCodeWithDifferentLocations()" classname="org.springframework.test.context.MergedContextConfigurationTests" time="0.0"/>
+  <testcase name="equalsWithNullArrays()" classname="org.springframework.test.context.MergedContextConfigurationTests" time="0.0"/>
+  <testcase name="equalsWithDifferentLocations()" classname="org.springframework.test.context.MergedContextConfigurationTests" time="0.001"/>
+  <testcase name="hashCodeWithDifferentLocations()" classname="org.springframework.test.context.MergedContextConfigurationTests" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

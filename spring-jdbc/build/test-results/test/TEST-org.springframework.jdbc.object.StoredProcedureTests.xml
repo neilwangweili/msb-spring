@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.jdbc.object.StoredProcedureTests" tests="18" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:25:29" hostname="wangweilideMBP.lan" time="0.045">
+<testsuite name="org.springframework.jdbc.object.StoredProcedureTests" tests="18" skipped="0" failures="0" errors="0" timestamp="2021-05-09T12:40:48" hostname="wangweilidembp" time="0.246">
   <properties/>
-  <testcase name="testStoredProcedureSkippingResultsProcessing()" classname="org.springframework.jdbc.object.StoredProcedureTests" time="0.002"/>
+  <testcase name="testStoredProcedureSkippingResultsProcessing()" classname="org.springframework.jdbc.object.StoredProcedureTests" time="0.005"/>
   <testcase name="testMissingParameter()" classname="org.springframework.jdbc.object.StoredProcedureTests" time="0.002"/>
-  <testcase name="testStoredProcedureWithUndeclaredResults()" classname="org.springframework.jdbc.object.StoredProcedureTests" time="0.004"/>
-  <testcase name="testNumericWithScale()" classname="org.springframework.jdbc.object.StoredProcedureTests" time="0.002"/>
-  <testcase name="testAddInvoices()" classname="org.springframework.jdbc.object.StoredProcedureTests" time="0.003"/>
-  <testcase name="testStoredProcedureSkippingUndeclaredResults()" classname="org.springframework.jdbc.object.StoredProcedureTests" time="0.002"/>
-  <testcase name="testNoSuchStoredProcedure()" classname="org.springframework.jdbc.object.StoredProcedureTests" time="0.006"/>
-  <testcase name="testStoredProcedureWithResultSet()" classname="org.springframework.jdbc.object.StoredProcedureTests" time="0.003"/>
-  <testcase name="testParameterMapper()" classname="org.springframework.jdbc.object.StoredProcedureTests" time="0.004"/>
-  <testcase name="testSqlTypeValue()" classname="org.springframework.jdbc.object.StoredProcedureTests" time="0.003"/>
-  <testcase name="testStoredProcedureConfiguredViaJdbcTemplateWithCustomExceptionTranslator()" classname="org.springframework.jdbc.object.StoredProcedureTests" time="0.002"/>
-  <testcase name="testStoredProcedureWithResultSetMapped()" classname="org.springframework.jdbc.object.StoredProcedureTests" time="0.001"/>
-  <testcase name="testUnnamedParameter()" classname="org.springframework.jdbc.object.StoredProcedureTests" time="0.001"/>
-  <testcase name="testAddInvoicesWithinTransaction()" classname="org.springframework.jdbc.object.StoredProcedureTests" time="0.002"/>
-  <testcase name="testAddInvoicesUsingObjectArray()" classname="org.springframework.jdbc.object.StoredProcedureTests" time="0.001"/>
-  <testcase name="testNullArg()" classname="org.springframework.jdbc.object.StoredProcedureTests" time="0.002"/>
-  <testcase name="testStoredProcedureConfiguredViaJdbcTemplate()" classname="org.springframework.jdbc.object.StoredProcedureTests" time="0.001"/>
-  <testcase name="testStoredProcedureExceptionTranslator()" classname="org.springframework.jdbc.object.StoredProcedureTests" time="0.003"/>
-  <system-out><![CDATA[17:25:30.012 [Test worker] WARN  o.s.j.s.SQLErrorCodesFactory - Error while extracting database name
-org.springframework.jdbc.support.MetaDataAccessException: DatabaseMetaData returned by Connection [Mock for Connection, hashCode: 1669677688] was null
+  <testcase name="testStoredProcedureWithUndeclaredResults()" classname="org.springframework.jdbc.object.StoredProcedureTests" time="0.033"/>
+  <testcase name="testNumericWithScale()" classname="org.springframework.jdbc.object.StoredProcedureTests" time="0.006"/>
+  <testcase name="testAddInvoices()" classname="org.springframework.jdbc.object.StoredProcedureTests" time="0.023"/>
+  <testcase name="testStoredProcedureSkippingUndeclaredResults()" classname="org.springframework.jdbc.object.StoredProcedureTests" time="0.01"/>
+  <testcase name="testNoSuchStoredProcedure()" classname="org.springframework.jdbc.object.StoredProcedureTests" time="0.027"/>
+  <testcase name="testStoredProcedureWithResultSet()" classname="org.springframework.jdbc.object.StoredProcedureTests" time="0.014"/>
+  <testcase name="testParameterMapper()" classname="org.springframework.jdbc.object.StoredProcedureTests" time="0.013"/>
+  <testcase name="testSqlTypeValue()" classname="org.springframework.jdbc.object.StoredProcedureTests" time="0.018"/>
+  <testcase name="testStoredProcedureConfiguredViaJdbcTemplateWithCustomExceptionTranslator()" classname="org.springframework.jdbc.object.StoredProcedureTests" time="0.009"/>
+  <testcase name="testStoredProcedureWithResultSetMapped()" classname="org.springframework.jdbc.object.StoredProcedureTests" time="0.009"/>
+  <testcase name="testUnnamedParameter()" classname="org.springframework.jdbc.object.StoredProcedureTests" time="0.002"/>
+  <testcase name="testAddInvoicesWithinTransaction()" classname="org.springframework.jdbc.object.StoredProcedureTests" time="0.006"/>
+  <testcase name="testAddInvoicesUsingObjectArray()" classname="org.springframework.jdbc.object.StoredProcedureTests" time="0.03"/>
+  <testcase name="testNullArg()" classname="org.springframework.jdbc.object.StoredProcedureTests" time="0.009"/>
+  <testcase name="testStoredProcedureConfiguredViaJdbcTemplate()" classname="org.springframework.jdbc.object.StoredProcedureTests" time="0.005"/>
+  <testcase name="testStoredProcedureExceptionTranslator()" classname="org.springframework.jdbc.object.StoredProcedureTests" time="0.016"/>
+  <system-out><![CDATA[20:40:48.473 [Test worker] WARN  o.s.j.s.SQLErrorCodesFactory - Error while extracting database name
+org.springframework.jdbc.support.MetaDataAccessException: DatabaseMetaData returned by Connection [Mock for Connection, hashCode: 602596905] was null
 	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:358) ~[spring-jdbc-5.3.7-SNAPSHOT.jar:?]
 	at org.springframework.jdbc.support.SQLErrorCodesFactory.resolveErrorCodes(SQLErrorCodesFactory.java:235) ~[spring-jdbc-5.3.7-SNAPSHOT.jar:?]
 	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.lambda$setDataSource$0(SQLErrorCodeSQLExceptionTranslator.java:140) ~[spring-jdbc-5.3.7-SNAPSHOT.jar:?]
@@ -36,10 +36,10 @@ org.springframework.jdbc.support.MetaDataAccessException: DatabaseMetaData retur
 	at org.assertj.core.api.ThrowableAssert.catchThrowable(ThrowableAssert.java:62) ~[assertj-core-3.19.0.jar:?]
 	at org.assertj.core.api.ThrowableTypeAssert.isThrownBy(ThrowableTypeAssert.java:59) ~[assertj-core-3.19.0.jar:?]
 	at org.springframework.jdbc.object.StoredProcedureTests.testNoSuchStoredProcedure(StoredProcedureTests.java:103) ~[test/:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_181]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_181]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_181]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_181]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
 	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:688) ~[junit-platform-commons-1.7.1.jar:1.7.1]
 	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60) ~[junit-jupiter-engine-5.7.1.jar:5.7.1]
 	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131) ~[junit-jupiter-engine-5.7.1.jar:5.7.1]
@@ -67,7 +67,7 @@ org.springframework.jdbc.support.MetaDataAccessException: DatabaseMetaData retur
 	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.7.1.jar:1.7.1]
 	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126) ~[junit-platform-engine-1.7.1.jar:1.7.1]
 	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84) ~[junit-platform-engine-1.7.1.jar:1.7.1]
-	at java.util.ArrayList.forEach(ArrayList.java:1257) ~[?:1.8.0_181]
+	at java.util.ArrayList.forEach(ArrayList.java:1541) ~[?:?]
 	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38) ~[junit-platform-engine-1.7.1.jar:1.7.1]
 	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143) ~[junit-platform-engine-1.7.1.jar:1.7.1]
 	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.7.1.jar:1.7.1]
@@ -77,7 +77,7 @@ org.springframework.jdbc.support.MetaDataAccessException: DatabaseMetaData retur
 	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.7.1.jar:1.7.1]
 	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126) ~[junit-platform-engine-1.7.1.jar:1.7.1]
 	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84) ~[junit-platform-engine-1.7.1.jar:1.7.1]
-	at java.util.ArrayList.forEach(ArrayList.java:1257) ~[?:1.8.0_181]
+	at java.util.ArrayList.forEach(ArrayList.java:1541) ~[?:?]
 	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38) ~[junit-platform-engine-1.7.1.jar:1.7.1]
 	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143) ~[junit-platform-engine-1.7.1.jar:1.7.1]
 	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.7.1.jar:1.7.1]
@@ -101,20 +101,20 @@ org.springframework.jdbc.support.MetaDataAccessException: DatabaseMetaData retur
 	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:79) [gradle-testing-junit-platform-6.8.3.jar:6.8.3]
 	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:75) [gradle-testing-junit-platform-6.8.3.jar:6.8.3]
 	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61) [gradle-testing-base-6.8.3.jar:6.8.3]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_181]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_181]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_181]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_181]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
 	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36) [gradle-messaging-6.8.3.jar:6.8.3]
 	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) [gradle-messaging-6.8.3.jar:6.8.3]
 	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33) [gradle-messaging-6.8.3.jar:6.8.3]
 	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94) [gradle-messaging-6.8.3.jar:6.8.3]
 	at com.sun.proxy.$Proxy2.stop(Unknown Source) [?:?]
 	at org.gradle.api.internal.tasks.testing.worker.TestWorker.stop(TestWorker.java:133) [gradle-testing-base-6.8.3.jar:6.8.3]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_181]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_181]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_181]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_181]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
 	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36) [gradle-messaging-6.8.3.jar:6.8.3]
 	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) [gradle-messaging-6.8.3.jar:6.8.3]
 	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:182) [gradle-messaging-6.8.3.jar:6.8.3]
@@ -122,12 +122,12 @@ org.springframework.jdbc.support.MetaDataAccessException: DatabaseMetaData retur
 	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:414) [gradle-messaging-6.8.3.jar:6.8.3]
 	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64) [gradle-base-services-6.8.3.jar:6.8.3]
 	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48) [gradle-base-services-6.8.3.jar:6.8.3]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_181]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56) [gradle-base-services-6.8.3.jar:6.8.3]
-	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
-17:25:30.014 [Test worker] WARN  o.s.j.s.SQLErrorCodesFactory - Error while extracting database name
-org.springframework.jdbc.support.MetaDataAccessException: DatabaseMetaData returned by Connection [Mock for Connection, hashCode: 1669677688] was null
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+20:40:48.491 [Test worker] WARN  o.s.j.s.SQLErrorCodesFactory - Error while extracting database name
+org.springframework.jdbc.support.MetaDataAccessException: DatabaseMetaData returned by Connection [Mock for Connection, hashCode: 602596905] was null
 	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:358) ~[spring-jdbc-5.3.7-SNAPSHOT.jar:?]
 	at org.springframework.jdbc.support.SQLErrorCodesFactory.resolveErrorCodes(SQLErrorCodesFactory.java:235) ~[spring-jdbc-5.3.7-SNAPSHOT.jar:?]
 	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.lambda$setDataSource$0(SQLErrorCodeSQLExceptionTranslator.java:140) ~[spring-jdbc-5.3.7-SNAPSHOT.jar:?]
@@ -144,10 +144,10 @@ org.springframework.jdbc.support.MetaDataAccessException: DatabaseMetaData retur
 	at org.assertj.core.api.ThrowableAssert.catchThrowable(ThrowableAssert.java:62) ~[assertj-core-3.19.0.jar:?]
 	at org.assertj.core.api.ThrowableTypeAssert.isThrownBy(ThrowableTypeAssert.java:59) ~[assertj-core-3.19.0.jar:?]
 	at org.springframework.jdbc.object.StoredProcedureTests.testNoSuchStoredProcedure(StoredProcedureTests.java:103) ~[test/:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_181]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_181]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_181]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_181]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
 	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:688) ~[junit-platform-commons-1.7.1.jar:1.7.1]
 	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60) ~[junit-jupiter-engine-5.7.1.jar:5.7.1]
 	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131) ~[junit-jupiter-engine-5.7.1.jar:5.7.1]
@@ -175,7 +175,7 @@ org.springframework.jdbc.support.MetaDataAccessException: DatabaseMetaData retur
 	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.7.1.jar:1.7.1]
 	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126) ~[junit-platform-engine-1.7.1.jar:1.7.1]
 	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84) ~[junit-platform-engine-1.7.1.jar:1.7.1]
-	at java.util.ArrayList.forEach(ArrayList.java:1257) ~[?:1.8.0_181]
+	at java.util.ArrayList.forEach(ArrayList.java:1541) ~[?:?]
 	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38) ~[junit-platform-engine-1.7.1.jar:1.7.1]
 	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143) ~[junit-platform-engine-1.7.1.jar:1.7.1]
 	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.7.1.jar:1.7.1]
@@ -185,7 +185,7 @@ org.springframework.jdbc.support.MetaDataAccessException: DatabaseMetaData retur
 	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.7.1.jar:1.7.1]
 	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126) ~[junit-platform-engine-1.7.1.jar:1.7.1]
 	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84) ~[junit-platform-engine-1.7.1.jar:1.7.1]
-	at java.util.ArrayList.forEach(ArrayList.java:1257) ~[?:1.8.0_181]
+	at java.util.ArrayList.forEach(ArrayList.java:1541) ~[?:?]
 	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38) ~[junit-platform-engine-1.7.1.jar:1.7.1]
 	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143) ~[junit-platform-engine-1.7.1.jar:1.7.1]
 	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.7.1.jar:1.7.1]
@@ -209,20 +209,20 @@ org.springframework.jdbc.support.MetaDataAccessException: DatabaseMetaData retur
 	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:79) [gradle-testing-junit-platform-6.8.3.jar:6.8.3]
 	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:75) [gradle-testing-junit-platform-6.8.3.jar:6.8.3]
 	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61) [gradle-testing-base-6.8.3.jar:6.8.3]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_181]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_181]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_181]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_181]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
 	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36) [gradle-messaging-6.8.3.jar:6.8.3]
 	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) [gradle-messaging-6.8.3.jar:6.8.3]
 	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33) [gradle-messaging-6.8.3.jar:6.8.3]
 	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94) [gradle-messaging-6.8.3.jar:6.8.3]
 	at com.sun.proxy.$Proxy2.stop(Unknown Source) [?:?]
 	at org.gradle.api.internal.tasks.testing.worker.TestWorker.stop(TestWorker.java:133) [gradle-testing-base-6.8.3.jar:6.8.3]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_181]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_181]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_181]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_181]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
 	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36) [gradle-messaging-6.8.3.jar:6.8.3]
 	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) [gradle-messaging-6.8.3.jar:6.8.3]
 	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:182) [gradle-messaging-6.8.3.jar:6.8.3]
@@ -230,10 +230,10 @@ org.springframework.jdbc.support.MetaDataAccessException: DatabaseMetaData retur
 	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:414) [gradle-messaging-6.8.3.jar:6.8.3]
 	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64) [gradle-base-services-6.8.3.jar:6.8.3]
 	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48) [gradle-base-services-6.8.3.jar:6.8.3]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_181]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56) [gradle-base-services-6.8.3.jar:6.8.3]
-	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

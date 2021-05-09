@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.messaging.converter.DefaultContentTypeResolverTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:29:37" hostname="wangweilideMBP.lan" time="0.004">
+<testsuite name="org.springframework.messaging.converter.DefaultContentTypeResolverTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-05-09T12:40:37" hostname="wangweilidembp" time="0.017">
   <properties/>
-  <testcase name="resolveUnknownHeaderType()" classname="org.springframework.messaging.converter.DefaultContentTypeResolverTests" time="0.0"/>
-  <testcase name="resolveNoContentTypeHeader()" classname="org.springframework.messaging.converter.DefaultContentTypeResolverTests" time="0.0"/>
-  <testcase name="resolveInvalidStringContentType()" classname="org.springframework.messaging.converter.DefaultContentTypeResolverTests" time="0.001"/>
+  <testcase name="resolveUnknownHeaderType()" classname="org.springframework.messaging.converter.DefaultContentTypeResolverTests" time="0.002"/>
+  <testcase name="resolveNoContentTypeHeader()" classname="org.springframework.messaging.converter.DefaultContentTypeResolverTests" time="0.002"/>
+  <testcase name="resolveInvalidStringContentType()" classname="org.springframework.messaging.converter.DefaultContentTypeResolverTests" time="0.003"/>
   <testcase name="resolveDefaultMimeType()" classname="org.springframework.messaging.converter.DefaultContentTypeResolverTests" time="0.001"/>
   <testcase name="resolve()" classname="org.springframework.messaging.converter.DefaultContentTypeResolverTests" time="0.0"/>
-  <testcase name="resolveStringContentType()" classname="org.springframework.messaging.converter.DefaultContentTypeResolverTests" time="0.001"/>
+  <testcase name="resolveStringContentType()" classname="org.springframework.messaging.converter.DefaultContentTypeResolverTests" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

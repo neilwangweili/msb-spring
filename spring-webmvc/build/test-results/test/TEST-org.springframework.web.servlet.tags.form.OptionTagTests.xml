@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.web.servlet.tags.form.OptionTagTests" tests="18" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:33:42" hostname="wangweilideMBP.lan" time="0.07">
+<testsuite name="org.springframework.web.servlet.tags.form.OptionTagTests" tests="18" skipped="0" failures="0" errors="0" timestamp="2021-05-09T12:42:00" hostname="wangweilidembp" time="0.1">
   <properties/>
-  <testcase name="asBodyTagWithEditor()" classname="org.springframework.web.servlet.tags.form.OptionTagTests" time="0.007"/>
-  <testcase name="withNoLabel()" classname="org.springframework.web.servlet.tags.form.OptionTagTests" time="0.004"/>
-  <testcase name="multiBind()" classname="org.springframework.web.servlet.tags.form.OptionTagTests" time="0.005"/>
-  <testcase name="renderSelected()" classname="org.springframework.web.servlet.tags.form.OptionTagTests" time="0.003"/>
-  <testcase name="canBeDisabledEvenWhenSelected()" classname="org.springframework.web.servlet.tags.form.OptionTagTests" time="0.003"/>
-  <testcase name="asBodyTagCollapsed()" classname="org.springframework.web.servlet.tags.form.OptionTagTests" time="0.003"/>
-  <testcase name="optionTagNotNestedWithinSelectTag()" classname="org.springframework.web.servlet.tags.form.OptionTagTests" time="0.005"/>
-  <testcase name="renderNotSelected()" classname="org.springframework.web.servlet.tags.form.OptionTagTests" time="0.003"/>
-  <testcase name="withCustomObjectSelected()" classname="org.springframework.web.servlet.tags.form.OptionTagTests" time="0.004"/>
-  <testcase name="renderWithDynamicAttributes()" classname="org.springframework.web.servlet.tags.form.OptionTagTests" time="0.003"/>
-  <testcase name="withCustomObjectNotSelected()" classname="org.springframework.web.servlet.tags.form.OptionTagTests" time="0.003"/>
-  <testcase name="withoutContext()" classname="org.springframework.web.servlet.tags.form.OptionTagTests" time="0.003"/>
-  <testcase name="asBodyTagSelected()" classname="org.springframework.web.servlet.tags.form.OptionTagTests" time="0.002"/>
-  <testcase name="withCustomObjectAndEditorSelected()" classname="org.springframework.web.servlet.tags.form.OptionTagTests" time="0.003"/>
-  <testcase name="withCustomObjectAndEditorNotSelected()" classname="org.springframework.web.servlet.tags.form.OptionTagTests" time="0.004"/>
-  <testcase name="asBodyTag()" classname="org.springframework.web.servlet.tags.form.OptionTagTests" time="0.004"/>
-  <testcase name="withPropertyEditor()" classname="org.springframework.web.servlet.tags.form.OptionTagTests" time="0.004"/>
-  <testcase name="withPropertyEditorStringComparison()" classname="org.springframework.web.servlet.tags.form.OptionTagTests" time="0.003"/>
-  <system-out><![CDATA[17:33:42.886 [Test worker] ERROR o.s.w.s.t.f.OptionTagTests$1 - The 'option' tag can only be used inside a valid 'select' tag.
+  <testcase name="asBodyTagWithEditor()" classname="org.springframework.web.servlet.tags.form.OptionTagTests" time="0.009"/>
+  <testcase name="withNoLabel()" classname="org.springframework.web.servlet.tags.form.OptionTagTests" time="0.005"/>
+  <testcase name="multiBind()" classname="org.springframework.web.servlet.tags.form.OptionTagTests" time="0.006"/>
+  <testcase name="renderSelected()" classname="org.springframework.web.servlet.tags.form.OptionTagTests" time="0.004"/>
+  <testcase name="canBeDisabledEvenWhenSelected()" classname="org.springframework.web.servlet.tags.form.OptionTagTests" time="0.006"/>
+  <testcase name="asBodyTagCollapsed()" classname="org.springframework.web.servlet.tags.form.OptionTagTests" time="0.006"/>
+  <testcase name="optionTagNotNestedWithinSelectTag()" classname="org.springframework.web.servlet.tags.form.OptionTagTests" time="0.007"/>
+  <testcase name="renderNotSelected()" classname="org.springframework.web.servlet.tags.form.OptionTagTests" time="0.004"/>
+  <testcase name="withCustomObjectSelected()" classname="org.springframework.web.servlet.tags.form.OptionTagTests" time="0.003"/>
+  <testcase name="renderWithDynamicAttributes()" classname="org.springframework.web.servlet.tags.form.OptionTagTests" time="0.004"/>
+  <testcase name="withCustomObjectNotSelected()" classname="org.springframework.web.servlet.tags.form.OptionTagTests" time="0.005"/>
+  <testcase name="withoutContext()" classname="org.springframework.web.servlet.tags.form.OptionTagTests" time="0.007"/>
+  <testcase name="asBodyTagSelected()" classname="org.springframework.web.servlet.tags.form.OptionTagTests" time="0.004"/>
+  <testcase name="withCustomObjectAndEditorSelected()" classname="org.springframework.web.servlet.tags.form.OptionTagTests" time="0.005"/>
+  <testcase name="withCustomObjectAndEditorNotSelected()" classname="org.springframework.web.servlet.tags.form.OptionTagTests" time="0.005"/>
+  <testcase name="asBodyTag()" classname="org.springframework.web.servlet.tags.form.OptionTagTests" time="0.005"/>
+  <testcase name="withPropertyEditor()" classname="org.springframework.web.servlet.tags.form.OptionTagTests" time="0.005"/>
+  <testcase name="withPropertyEditorStringComparison()" classname="org.springframework.web.servlet.tags.form.OptionTagTests" time="0.005"/>
+  <system-out><![CDATA[20:42:00.679 [Test worker] ERROR o.s.w.s.t.f.OptionTagTests$1 - The 'option' tag can only be used inside a valid 'select' tag.
 java.lang.IllegalStateException: The 'option' tag can only be used inside a valid 'select' tag.
 	at org.springframework.web.util.TagUtils.assertHasAncestorOfType(TagUtils.java:134) ~[spring-web-5.3.7-SNAPSHOT.jar:?]
 	at org.springframework.web.servlet.tags.form.OptionTag.assertUnderSelectTag(OptionTag.java:385) ~[spring-webmvc-5.3.7-SNAPSHOT.jar:?]
@@ -30,10 +30,10 @@ java.lang.IllegalStateException: The 'option' tag can only be used inside a vali
 	at org.assertj.core.api.ThrowableAssert.catchThrowable(ThrowableAssert.java:62) ~[assertj-core-3.19.0.jar:?]
 	at org.assertj.core.api.ThrowableTypeAssert.isThrownBy(ThrowableTypeAssert.java:59) ~[assertj-core-3.19.0.jar:?]
 	at org.springframework.web.servlet.tags.form.OptionTagTests.optionTagNotNestedWithinSelectTag(OptionTagTests.java:469) ~[test/:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_181]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_181]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_181]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_181]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
 	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:688) ~[junit-platform-commons-1.7.1.jar:1.7.1]
 	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60) ~[junit-jupiter-engine-5.7.1.jar:5.7.1]
 	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131) ~[junit-jupiter-engine-5.7.1.jar:5.7.1]
@@ -61,7 +61,7 @@ java.lang.IllegalStateException: The 'option' tag can only be used inside a vali
 	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.7.1.jar:1.7.1]
 	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126) ~[junit-platform-engine-1.7.1.jar:1.7.1]
 	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84) ~[junit-platform-engine-1.7.1.jar:1.7.1]
-	at java.util.ArrayList.forEach(ArrayList.java:1257) ~[?:1.8.0_181]
+	at java.util.ArrayList.forEach(ArrayList.java:1541) ~[?:?]
 	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38) ~[junit-platform-engine-1.7.1.jar:1.7.1]
 	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143) ~[junit-platform-engine-1.7.1.jar:1.7.1]
 	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.7.1.jar:1.7.1]
@@ -71,7 +71,7 @@ java.lang.IllegalStateException: The 'option' tag can only be used inside a vali
 	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.7.1.jar:1.7.1]
 	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126) ~[junit-platform-engine-1.7.1.jar:1.7.1]
 	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84) ~[junit-platform-engine-1.7.1.jar:1.7.1]
-	at java.util.ArrayList.forEach(ArrayList.java:1257) ~[?:1.8.0_181]
+	at java.util.ArrayList.forEach(ArrayList.java:1541) ~[?:?]
 	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38) ~[junit-platform-engine-1.7.1.jar:1.7.1]
 	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143) ~[junit-platform-engine-1.7.1.jar:1.7.1]
 	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.7.1.jar:1.7.1]
@@ -95,20 +95,20 @@ java.lang.IllegalStateException: The 'option' tag can only be used inside a vali
 	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:79) [gradle-testing-junit-platform-6.8.3.jar:6.8.3]
 	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:75) [gradle-testing-junit-platform-6.8.3.jar:6.8.3]
 	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61) [gradle-testing-base-6.8.3.jar:6.8.3]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_181]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_181]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_181]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_181]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
 	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36) [gradle-messaging-6.8.3.jar:6.8.3]
 	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) [gradle-messaging-6.8.3.jar:6.8.3]
 	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33) [gradle-messaging-6.8.3.jar:6.8.3]
 	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94) [gradle-messaging-6.8.3.jar:6.8.3]
 	at com.sun.proxy.$Proxy2.stop(Unknown Source) [?:?]
 	at org.gradle.api.internal.tasks.testing.worker.TestWorker.stop(TestWorker.java:133) [gradle-testing-base-6.8.3.jar:6.8.3]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_181]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_181]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_181]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_181]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
 	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36) [gradle-messaging-6.8.3.jar:6.8.3]
 	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) [gradle-messaging-6.8.3.jar:6.8.3]
 	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:182) [gradle-messaging-6.8.3.jar:6.8.3]
@@ -116,11 +116,11 @@ java.lang.IllegalStateException: The 'option' tag can only be used inside a vali
 	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:414) [gradle-messaging-6.8.3.jar:6.8.3]
 	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64) [gradle-base-services-6.8.3.jar:6.8.3]
 	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48) [gradle-base-services-6.8.3.jar:6.8.3]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_181]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56) [gradle-base-services-6.8.3.jar:6.8.3]
-	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
-17:33:42.903 [Test worker] ERROR o.s.w.s.t.f.OptionTagTests$1 - The 'option' tag can only be used inside a valid 'select' tag.
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+20:42:00.704 [Test worker] ERROR o.s.w.s.t.f.OptionTagTests$1 - The 'option' tag can only be used inside a valid 'select' tag.
 java.lang.IllegalStateException: The 'option' tag can only be used inside a valid 'select' tag.
 	at org.springframework.web.util.TagUtils.assertHasAncestorOfType(TagUtils.java:134) ~[spring-web-5.3.7-SNAPSHOT.jar:?]
 	at org.springframework.web.servlet.tags.form.OptionTag.assertUnderSelectTag(OptionTag.java:385) ~[spring-webmvc-5.3.7-SNAPSHOT.jar:?]
@@ -131,10 +131,10 @@ java.lang.IllegalStateException: The 'option' tag can only be used inside a vali
 	at org.assertj.core.api.ThrowableAssert.catchThrowable(ThrowableAssert.java:62) ~[assertj-core-3.19.0.jar:?]
 	at org.assertj.core.api.ThrowableTypeAssert.isThrownBy(ThrowableTypeAssert.java:59) ~[assertj-core-3.19.0.jar:?]
 	at org.springframework.web.servlet.tags.form.OptionTagTests.withoutContext(OptionTagTests.java:202) ~[test/:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_181]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_181]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_181]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_181]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
 	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:688) ~[junit-platform-commons-1.7.1.jar:1.7.1]
 	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60) ~[junit-jupiter-engine-5.7.1.jar:5.7.1]
 	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131) ~[junit-jupiter-engine-5.7.1.jar:5.7.1]
@@ -162,7 +162,7 @@ java.lang.IllegalStateException: The 'option' tag can only be used inside a vali
 	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.7.1.jar:1.7.1]
 	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126) ~[junit-platform-engine-1.7.1.jar:1.7.1]
 	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84) ~[junit-platform-engine-1.7.1.jar:1.7.1]
-	at java.util.ArrayList.forEach(ArrayList.java:1257) ~[?:1.8.0_181]
+	at java.util.ArrayList.forEach(ArrayList.java:1541) ~[?:?]
 	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38) ~[junit-platform-engine-1.7.1.jar:1.7.1]
 	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143) ~[junit-platform-engine-1.7.1.jar:1.7.1]
 	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.7.1.jar:1.7.1]
@@ -172,7 +172,7 @@ java.lang.IllegalStateException: The 'option' tag can only be used inside a vali
 	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.7.1.jar:1.7.1]
 	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126) ~[junit-platform-engine-1.7.1.jar:1.7.1]
 	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84) ~[junit-platform-engine-1.7.1.jar:1.7.1]
-	at java.util.ArrayList.forEach(ArrayList.java:1257) ~[?:1.8.0_181]
+	at java.util.ArrayList.forEach(ArrayList.java:1541) ~[?:?]
 	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38) ~[junit-platform-engine-1.7.1.jar:1.7.1]
 	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143) ~[junit-platform-engine-1.7.1.jar:1.7.1]
 	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.7.1.jar:1.7.1]
@@ -196,20 +196,20 @@ java.lang.IllegalStateException: The 'option' tag can only be used inside a vali
 	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:79) [gradle-testing-junit-platform-6.8.3.jar:6.8.3]
 	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:75) [gradle-testing-junit-platform-6.8.3.jar:6.8.3]
 	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61) [gradle-testing-base-6.8.3.jar:6.8.3]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_181]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_181]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_181]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_181]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
 	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36) [gradle-messaging-6.8.3.jar:6.8.3]
 	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) [gradle-messaging-6.8.3.jar:6.8.3]
 	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33) [gradle-messaging-6.8.3.jar:6.8.3]
 	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94) [gradle-messaging-6.8.3.jar:6.8.3]
 	at com.sun.proxy.$Proxy2.stop(Unknown Source) [?:?]
 	at org.gradle.api.internal.tasks.testing.worker.TestWorker.stop(TestWorker.java:133) [gradle-testing-base-6.8.3.jar:6.8.3]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_181]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_181]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_181]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_181]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
 	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36) [gradle-messaging-6.8.3.jar:6.8.3]
 	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) [gradle-messaging-6.8.3.jar:6.8.3]
 	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:182) [gradle-messaging-6.8.3.jar:6.8.3]
@@ -217,10 +217,10 @@ java.lang.IllegalStateException: The 'option' tag can only be used inside a vali
 	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:414) [gradle-messaging-6.8.3.jar:6.8.3]
 	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64) [gradle-base-services-6.8.3.jar:6.8.3]
 	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48) [gradle-base-services-6.8.3.jar:6.8.3]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_181]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56) [gradle-base-services-6.8.3.jar:6.8.3]
-	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

@@ -1,63 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.http.client.BufferedSimpleAsyncHttpRequestFactoryTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:44:13" hostname="wangweilideMacBook-Pro.local" time="0.047">
+<testsuite name="org.springframework.http.client.BufferedSimpleAsyncHttpRequestFactoryTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2021-05-09T12:46:24" hostname="wangweilidembp" time="0.04">
   <properties/>
   <testcase name="cancel()" classname="org.springframework.http.client.BufferedSimpleAsyncHttpRequestFactoryTests" time="0.002"/>
   <testcase name="headersAfterExecute()" classname="org.springframework.http.client.BufferedSimpleAsyncHttpRequestFactoryTests" time="0.007"/>
   <testcase name="status()" classname="org.springframework.http.client.BufferedSimpleAsyncHttpRequestFactoryTests" time="0.004"/>
-  <testcase name="echo()" classname="org.springframework.http.client.BufferedSimpleAsyncHttpRequestFactoryTests" time="0.006"/>
-  <testcase name="statusCallback()" classname="org.springframework.http.client.BufferedSimpleAsyncHttpRequestFactoryTests" time="0.004"/>
-  <testcase name="multipleWrites()" classname="org.springframework.http.client.BufferedSimpleAsyncHttpRequestFactoryTests" time="0.007"/>
-  <testcase name="httpMethods()" classname="org.springframework.http.client.BufferedSimpleAsyncHttpRequestFactoryTests" time="0.017"/>
+  <testcase name="echo()" classname="org.springframework.http.client.BufferedSimpleAsyncHttpRequestFactoryTests" time="0.005"/>
+  <testcase name="statusCallback()" classname="org.springframework.http.client.BufferedSimpleAsyncHttpRequestFactoryTests" time="0.003"/>
+  <testcase name="multipleWrites()" classname="org.springframework.http.client.BufferedSimpleAsyncHttpRequestFactoryTests" time="0.005"/>
+  <testcase name="httpMethods()" classname="org.springframework.http.client.BufferedSimpleAsyncHttpRequestFactoryTests" time="0.014"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[Apr 26, 2021 3:44:13 PM okhttp3.mockwebserver.MockWebServer$3 execute
-INFO: MockWebServer[49199] starting to accept connections
-Apr 26, 2021 3:44:13 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
-INFO: MockWebServer[49199] done accepting connections: Socket closed
-Apr 26, 2021 3:44:13 PM okhttp3.mockwebserver.MockWebServer$3 execute
-INFO: MockWebServer[49200] starting to accept connections
-Apr 26, 2021 3:44:13 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
-INFO: MockWebServer[49200] received request: POST /echo HTTP/1.1 and responded: HTTP/1.1 200 OK
-Apr 26, 2021 3:44:13 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
-INFO: MockWebServer[49200] done accepting connections: Socket closed
-Apr 26, 2021 3:44:13 PM okhttp3.mockwebserver.MockWebServer$3 execute
-INFO: MockWebServer[49202] starting to accept connections
-Apr 26, 2021 3:44:13 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
-INFO: MockWebServer[49202] received request: GET /status/notfound HTTP/1.1 and responded: HTTP/1.1 404 Client Error
-Apr 26, 2021 3:44:13 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
-INFO: MockWebServer[49202] done accepting connections: Socket closed
-Apr 26, 2021 3:44:13 PM okhttp3.mockwebserver.MockWebServer$3 execute
-INFO: MockWebServer[49204] starting to accept connections
-Apr 26, 2021 3:44:13 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
-INFO: MockWebServer[49204] received request: PUT /echo HTTP/1.1 and responded: HTTP/1.1 200 OK
-Apr 26, 2021 3:44:13 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
-INFO: MockWebServer[49204] done accepting connections: Socket closed
-Apr 26, 2021 3:44:13 PM okhttp3.mockwebserver.MockWebServer$3 execute
-INFO: MockWebServer[49206] starting to accept connections
-Apr 26, 2021 3:44:13 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
-INFO: MockWebServer[49206] received request: GET /status/notfound HTTP/1.1 and responded: HTTP/1.1 404 Client Error
-Apr 26, 2021 3:44:13 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
-INFO: MockWebServer[49206] done accepting connections: Socket closed
-Apr 26, 2021 3:44:13 PM okhttp3.mockwebserver.MockWebServer$3 execute
-INFO: MockWebServer[49208] starting to accept connections
-Apr 26, 2021 3:44:13 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
-INFO: MockWebServer[49208] received request: POST /echo HTTP/1.1 and responded: HTTP/1.1 200 OK
-Apr 26, 2021 3:44:13 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
-INFO: MockWebServer[49208] done accepting connections: Socket closed
-Apr 26, 2021 3:44:13 PM okhttp3.mockwebserver.MockWebServer$3 execute
-INFO: MockWebServer[49210] starting to accept connections
-Apr 26, 2021 3:44:13 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
-INFO: MockWebServer[49210] received request: GET /methods/get HTTP/1.1 and responded: HTTP/1.1 200 OK
-Apr 26, 2021 3:44:13 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
-INFO: MockWebServer[49210] received request: HEAD /methods/head HTTP/1.1 and responded: HTTP/1.1 200 OK
-Apr 26, 2021 3:44:13 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
-INFO: MockWebServer[49210] received request: POST /methods/post HTTP/1.1 and responded: HTTP/1.1 200 OK
-Apr 26, 2021 3:44:13 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
-INFO: MockWebServer[49210] received request: PUT /methods/put HTTP/1.1 and responded: HTTP/1.1 200 OK
-Apr 26, 2021 3:44:13 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
-INFO: MockWebServer[49210] received request: OPTIONS /methods/options HTTP/1.1 and responded: HTTP/1.1 200 OK
-Apr 26, 2021 3:44:13 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
-INFO: MockWebServer[49210] received request: DELETE /methods/delete HTTP/1.1 and responded: HTTP/1.1 200 OK
-Apr 26, 2021 3:44:13 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
-INFO: MockWebServer[49210] done accepting connections: Socket closed
+  <system-err><![CDATA[May 09, 2021 8:46:24 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[50074] starting to accept connections
+May 09, 2021 8:46:24 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[50074] done accepting connections: Socket closed
+May 09, 2021 8:46:24 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[50075] starting to accept connections
+May 09, 2021 8:46:24 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[50075] received request: POST /echo HTTP/1.1 and responded: HTTP/1.1 200 OK
+May 09, 2021 8:46:24 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[50075] done accepting connections: Socket closed
+May 09, 2021 8:46:24 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[50077] starting to accept connections
+May 09, 2021 8:46:24 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[50077] received request: GET /status/notfound HTTP/1.1 and responded: HTTP/1.1 404 Client Error
+May 09, 2021 8:46:24 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[50077] done accepting connections: Socket closed
+May 09, 2021 8:46:24 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[50079] starting to accept connections
+May 09, 2021 8:46:24 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[50079] received request: PUT /echo HTTP/1.1 and responded: HTTP/1.1 200 OK
+May 09, 2021 8:46:24 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[50079] done accepting connections: Socket closed
+May 09, 2021 8:46:24 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[50081] starting to accept connections
+May 09, 2021 8:46:24 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[50081] received request: GET /status/notfound HTTP/1.1 and responded: HTTP/1.1 404 Client Error
+May 09, 2021 8:46:24 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[50081] done accepting connections: Socket closed
+May 09, 2021 8:46:24 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[50083] starting to accept connections
+May 09, 2021 8:46:24 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[50083] received request: POST /echo HTTP/1.1 and responded: HTTP/1.1 200 OK
+May 09, 2021 8:46:24 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[50083] done accepting connections: Socket closed
+May 09, 2021 8:46:24 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[50085] starting to accept connections
+May 09, 2021 8:46:24 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[50085] received request: GET /methods/get HTTP/1.1 and responded: HTTP/1.1 200 OK
+May 09, 2021 8:46:24 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[50085] received request: HEAD /methods/head HTTP/1.1 and responded: HTTP/1.1 200 OK
+May 09, 2021 8:46:24 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[50085] received request: POST /methods/post HTTP/1.1 and responded: HTTP/1.1 200 OK
+May 09, 2021 8:46:24 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[50085] received request: PUT /methods/put HTTP/1.1 and responded: HTTP/1.1 200 OK
+May 09, 2021 8:46:24 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[50085] received request: OPTIONS /methods/options HTTP/1.1 and responded: HTTP/1.1 200 OK
+May 09, 2021 8:46:24 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[50085] received request: DELETE /methods/delete HTTP/1.1 and responded: HTTP/1.1 200 OK
+May 09, 2021 8:46:24 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[50085] done accepting connections: Socket closed
 ]]></system-err>
 </testsuite>

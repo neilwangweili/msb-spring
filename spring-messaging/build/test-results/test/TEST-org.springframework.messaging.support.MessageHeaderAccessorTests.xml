@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.messaging.support.MessageHeaderAccessorTests" tests="24" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:30:04" hostname="wangweilideMBP.lan" time="0.064">
+<testsuite name="org.springframework.messaging.support.MessageHeaderAccessorTests" tests="24" skipped="0" failures="0" errors="0" timestamp="2021-05-09T12:41:07" hostname="wangweilidembp" time="0.076">
   <properties/>
-  <testcase name="getMutableAccessorNewInstanceMatchingType()" classname="org.springframework.messaging.support.MessageHeaderAccessorTests" time="0.0"/>
+  <testcase name="getMutableAccessorNewInstanceMatchingType()" classname="org.springframework.messaging.support.MessageHeaderAccessorTests" time="0.001"/>
   <testcase name="leaveMutable()" classname="org.springframework.messaging.support.MessageHeaderAccessorTests" time="0.0"/>
   <testcase name="copyHeadersIfAbsent()" classname="org.springframework.messaging.support.MessageHeaderAccessorTests" time="0.0"/>
   <testcase name="getShortLogMessagePayload()" classname="org.springframework.messaging.support.MessageHeaderAccessorTests" time="0.001"/>
   <testcase name="newEmptyHeaders()" classname="org.springframework.messaging.support.MessageHeaderAccessorTests" time="0.0"/>
-  <testcase name="idGeneratorCustom()" classname="org.springframework.messaging.support.MessageHeaderAccessorTests" time="0.0"/>
+  <testcase name="idGeneratorCustom()" classname="org.springframework.messaging.support.MessageHeaderAccessorTests" time="0.001"/>
   <testcase name="getMutableAccessorSameInstance()" classname="org.springframework.messaging.support.MessageHeaderAccessorTests" time="0.0"/>
   <testcase name="testRemoveHeader()" classname="org.springframework.messaging.support.MessageHeaderAccessorTests" time="0.0"/>
   <testcase name="getDetailedLogMessagePayload()" classname="org.springframework.messaging.support.MessageHeaderAccessorTests" time="0.001"/>
   <testcase name="getMutableAccessorNewInstance()" classname="org.springframework.messaging.support.MessageHeaderAccessorTests" time="0.0"/>
-  <testcase name="getAccessor()" classname="org.springframework.messaging.support.MessageHeaderAccessorTests" time="0.0"/>
+  <testcase name="getAccessor()" classname="org.springframework.messaging.support.MessageHeaderAccessorTests" time="0.001"/>
   <testcase name="idTimestampWithMutableHeaders()" classname="org.springframework.messaging.support.MessageHeaderAccessorTests" time="0.001"/>
   <testcase name="toMap()" classname="org.springframework.messaging.support.MessageHeaderAccessorTests" time="0.0"/>
   <testcase name="copyHeaders()" classname="org.springframework.messaging.support.MessageHeaderAccessorTests" time="0.0"/>
   <testcase name="timestampDefaultBehavior()" classname="org.springframework.messaging.support.MessageHeaderAccessorTests" time="0.0"/>
-  <testcase name="existingHeaders()" classname="org.springframework.messaging.support.MessageHeaderAccessorTests" time="0.0"/>
-  <testcase name="serializeMutableHeaders()" classname="org.springframework.messaging.support.MessageHeaderAccessorTests" time="0.003"/>
+  <testcase name="existingHeaders()" classname="org.springframework.messaging.support.MessageHeaderAccessorTests" time="0.001"/>
+  <testcase name="serializeMutableHeaders()" classname="org.springframework.messaging.support.MessageHeaderAccessorTests" time="0.007"/>
   <testcase name="leaveMutableDefaultBehavior()" classname="org.springframework.messaging.support.MessageHeaderAccessorTests" time="0.001"/>
-  <testcase name="timestampEnabled()" classname="org.springframework.messaging.support.MessageHeaderAccessorTests" time="0.0"/>
+  <testcase name="timestampEnabled()" classname="org.springframework.messaging.support.MessageHeaderAccessorTests" time="0.001"/>
   <testcase name="copyHeadersFromNullMap()" classname="org.springframework.messaging.support.MessageHeaderAccessorTests" time="0.0"/>
   <testcase name="existingHeadersModification()" classname="org.springframework.messaging.support.MessageHeaderAccessorTests" time="0.054"/>
-  <testcase name="removeHeaders()" classname="org.springframework.messaging.support.MessageHeaderAccessorTests" time="0.0"/>
+  <testcase name="removeHeaders()" classname="org.springframework.messaging.support.MessageHeaderAccessorTests" time="0.001"/>
   <testcase name="idGeneratorDefaultBehavior()" classname="org.springframework.messaging.support.MessageHeaderAccessorTests" time="0.0"/>
   <testcase name="testRemoveHeaderEvenIfNull()" classname="org.springframework.messaging.support.MessageHeaderAccessorTests" time="0.0"/>
   <system-out><![CDATA[]]></system-out>

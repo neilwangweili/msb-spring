@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.012s</div>
+<div class="counter">0.032s</div>
 <p>duration</p>
 </div>
 </td>
@@ -79,7 +79,7 @@
 </thead>
 <tr>
 <td class="success">buildContextHierarchyMapForSingleTestClassWithMultiLevelContextHierarchyWithDuplicatedContextConfig()</td>
-<td class="success">0.001s</td>
+<td class="success">0.002s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -94,12 +94,12 @@
 </tr>
 <tr>
 <td class="success">buildContextHierarchyMapForTestClassHierarchyWithMultiLevelContextHierarchiesAndOverriddenInitializers()</td>
-<td class="success">0.005s</td>
+<td class="success">0.008s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">buildContextHierarchyMapForTestClassHierarchyWithMultiLevelContextHierarchiesAndPartiallyNamedConfig()</td>
-<td class="success">0s</td>
+<td class="success">0.001s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -109,37 +109,37 @@
 </tr>
 <tr>
 <td class="success">resolveContextHierarchyAttributesForSingleTestClassWithContextConfigurationAndContextHierarchy()</td>
-<td class="success">0s</td>
+<td class="success">0.001s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">resolveContextHierarchyAttributesForSingleTestClassWithContextConfigurationAndContextHierarchyOnSingleMetaAnnotation()</td>
-<td class="success">0.001s</td>
+<td class="success">0.003s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">resolveContextHierarchyAttributesForSingleTestClassWithImplicitSingleLevelContextHierarchy()</td>
-<td class="success">0s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">resolveContextHierarchyAttributesForSingleTestClassWithSingleLevelContextHierarchy()</td>
-<td class="success">0s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">resolveContextHierarchyAttributesForSingleTestClassWithSingleLevelContextHierarchyFromMetaAnnotation()</td>
 <td class="success">0.001s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
+<td class="success">resolveContextHierarchyAttributesForSingleTestClassWithSingleLevelContextHierarchy()</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">resolveContextHierarchyAttributesForSingleTestClassWithSingleLevelContextHierarchyFromMetaAnnotation()</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
 <td class="success">resolveContextHierarchyAttributesForSingleTestClassWithTripleLevelContextHierarchy()</td>
-<td class="success">0s</td>
+<td class="success">0.001s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">resolveContextHierarchyAttributesForTestClassHierarchyWithBareContextConfigurationInSubclass()</td>
-<td class="success">0s</td>
+<td class="success">0.001s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -149,27 +149,27 @@
 </tr>
 <tr>
 <td class="success">resolveContextHierarchyAttributesForTestClassHierarchyWithBareMetaContextConfigWithOverridesInSubclass()</td>
-<td class="success">0.001s</td>
+<td class="success">0.003s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">resolveContextHierarchyAttributesForTestClassHierarchyWithBareMetaContextConfigWithOverridesInSuperclass()</td>
-<td class="success">0s</td>
+<td class="success">0.001s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">resolveContextHierarchyAttributesForTestClassHierarchyWithMultiLevelContextHierarchies()</td>
-<td class="success">0s</td>
+<td class="success">0.001s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">resolveContextHierarchyAttributesForTestClassHierarchyWithSingleLevelContextHierarchies()</td>
-<td class="success">0s</td>
+<td class="success">0.001s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">resolveContextHierarchyAttributesForTestClassHierarchyWithSingleLevelContextHierarchiesAndMetaAnnotations()</td>
-<td class="success">0.001s</td>
+<td class="success">0.003s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -177,10 +177,10 @@
 <div id="tab1" class="tab">
 <h2>Standard output</h2>
 <span class="code">
-<pre>17:42:48.248 [Test worker] ERROR o.s.t.c.s.ContextLoaderUtils - Class [org.springframework.test.context.support.ContextLoaderUtilsContextHierarchyTests$ContextConfigurationAndContextHierarchyOnSingleMeta] has been configured with both @ContextConfiguration and @ContextHierarchy. Only one of these annotations may be declared on a test class or composed annotation.
-17:42:48.258 [Test worker] ERROR o.s.t.c.s.ContextLoaderUtils - The @ContextConfiguration elements configured via @ContextHierarchy in test class [org.springframework.test.context.support.ContextLoaderUtilsContextHierarchyTests$SingleTestClassWithMultiLevelContextHierarchyWithEmptyContextConfig] and its superclasses must define unique contexts per hierarchy level.
-17:42:48.259 [Test worker] ERROR o.s.t.c.s.ContextLoaderUtils - Class [org.springframework.test.context.support.ContextLoaderUtilsContextHierarchyTests$SingleTestClassWithContextConfigurationAndContextHierarchy] has been configured with both @ContextConfiguration and @ContextHierarchy. Only one of these annotations may be declared on a test class or composed annotation.
-17:42:48.260 [Test worker] ERROR o.s.t.c.s.ContextLoaderUtils - The @ContextConfiguration elements configured via @ContextHierarchy in test class [org.springframework.test.context.support.ContextLoaderUtilsContextHierarchyTests$SingleTestClassWithMultiLevelContextHierarchyWithDuplicatedContextConfig] and its superclasses must define unique contexts per hierarchy level.
+<pre>20:41:56.753 [Test worker] ERROR o.s.t.c.s.ContextLoaderUtils - Class [org.springframework.test.context.support.ContextLoaderUtilsContextHierarchyTests$ContextConfigurationAndContextHierarchyOnSingleMeta] has been configured with both @ContextConfiguration and @ContextHierarchy. Only one of these annotations may be declared on a test class or composed annotation.
+20:41:56.778 [Test worker] ERROR o.s.t.c.s.ContextLoaderUtils - The @ContextConfiguration elements configured via @ContextHierarchy in test class [org.springframework.test.context.support.ContextLoaderUtilsContextHierarchyTests$SingleTestClassWithMultiLevelContextHierarchyWithEmptyContextConfig] and its superclasses must define unique contexts per hierarchy level.
+20:41:56.782 [Test worker] ERROR o.s.t.c.s.ContextLoaderUtils - Class [org.springframework.test.context.support.ContextLoaderUtilsContextHierarchyTests$SingleTestClassWithContextConfigurationAndContextHierarchy] has been configured with both @ContextConfiguration and @ContextHierarchy. Only one of these annotations may be declared on a test class or composed annotation.
+20:41:56.785 [Test worker] ERROR o.s.t.c.s.ContextLoaderUtils - The @ContextConfiguration elements configured via @ContextHierarchy in test class [org.springframework.test.context.support.ContextLoaderUtilsContextHierarchyTests$SingleTestClassWithMultiLevelContextHierarchyWithDuplicatedContextConfig] and its superclasses must define unique contexts per hierarchy level.
 </pre>
 </span>
 </div>
@@ -192,7 +192,7 @@
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 6.8.3</a> at May 1, 2021 5:43:28 PM</p>
+<a href="http://www.gradle.org">Gradle 6.8.3</a> at 2021年5月9日 下午8:42:42</p>
 </div>
 </div>
 </body>

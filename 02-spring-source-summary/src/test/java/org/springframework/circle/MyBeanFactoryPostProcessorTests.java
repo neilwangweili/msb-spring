@@ -32,11 +32,15 @@ public class MyBeanFactoryPostProcessorTests {
 
     private ApplicationContext applicationContext;
     private A a;
+    private A aByFactoryBean;
+    private AFactoryBean aFactoryBean;
 
     @BeforeEach
     void setUp() {
         applicationContext = new ClassPathXmlApplicationContext("tx.xml");
-        a = applicationContext.getBean(A.class);
+        a = (A) applicationContext.getBean("a");
+        aByFactoryBean = (A) applicationContext.getBean("aFactoryBean");
+        aFactoryBean = (AFactoryBean) applicationContext.getBean("&aFactoryBean");
     }
 
     @Test
@@ -52,7 +56,7 @@ public class MyBeanFactoryPostProcessorTests {
 
     @Test
     public void should_get_environment_correctly_if_A_implements_application_context_environment() {
-        assertThat(a.environment().getDefaultProfiles()[0]).isEqualTo("default");
+        assertThat(a.environment().getProperty("java.runtime.name")).isEqualTo("Java(TM) SE Runtime Environment");
     }
 
     @Test
@@ -60,4 +64,13 @@ public class MyBeanFactoryPostProcessorTests {
         assertThat(a.beanName()).isEqualTo("a");
     }
 
+    @Test
+    void should_a_factory_bean_created_a() {
+        assertThat(aByFactoryBean).hasToString("A{name='null'}");
+    }
+
+    @Test
+    void should_a_factory_bean_created_a_factory_bean() throws Exception {
+        assertThat(aFactoryBean.getObject()).isInstanceOf(A.class);
+    }
 }

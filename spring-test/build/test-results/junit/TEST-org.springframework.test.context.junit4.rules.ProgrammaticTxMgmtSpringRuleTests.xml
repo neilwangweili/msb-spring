@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.test.context.junit4.rules.ProgrammaticTxMgmtSpringRuleTests" tests="12" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:43:18" hostname="wangweilideMBP.lan" time="0.06">
+<testsuite name="org.springframework.test.context.junit4.rules.ProgrammaticTxMgmtSpringRuleTests" tests="12" skipped="0" failures="0" errors="0" timestamp="2021-05-09T12:42:36" hostname="wangweilidembp" time="0.081">
   <properties/>
-  <testcase name="rollbackTxAndStartNewTx" classname="org.springframework.test.context.junit4.rules.ProgrammaticTxMgmtSpringRuleTests" time="0.029"/>
-  <testcase name="isFlaggedForRollbackWithNonExistentTransactionContext" classname="org.springframework.test.context.junit4.rules.ProgrammaticTxMgmtSpringRuleTests" time="0.003"/>
+  <testcase name="rollbackTxAndStartNewTx" classname="org.springframework.test.context.junit4.rules.ProgrammaticTxMgmtSpringRuleTests" time="0.046"/>
+  <testcase name="isFlaggedForRollbackWithNonExistentTransactionContext" classname="org.springframework.test.context.junit4.rules.ProgrammaticTxMgmtSpringRuleTests" time="0.002"/>
   <testcase name="flagForCommitWithNonExistentTransactionContext" classname="org.springframework.test.context.junit4.rules.ProgrammaticTxMgmtSpringRuleTests" time="0.002"/>
   <testcase name="isActiveWithNonExistentTransactionContext" classname="org.springframework.test.context.junit4.rules.ProgrammaticTxMgmtSpringRuleTests" time="0.001"/>
   <testcase name="flagForRollbackWithNonExistentTransactionContext" classname="org.springframework.test.context.junit4.rules.ProgrammaticTxMgmtSpringRuleTests" time="0.001"/>
   <testcase name="endTxWithNonExistentTransactionContext" classname="org.springframework.test.context.junit4.rules.ProgrammaticTxMgmtSpringRuleTests" time="0.002"/>
   <testcase name="rollbackTxButDoNotStartNewTx" classname="org.springframework.test.context.junit4.rules.ProgrammaticTxMgmtSpringRuleTests" time="0.004"/>
-  <testcase name="startTxWithExistingTransaction" classname="org.springframework.test.context.junit4.rules.ProgrammaticTxMgmtSpringRuleTests" time="0.003"/>
-  <testcase name="startTxWithNonExistentTransactionContext" classname="org.springframework.test.context.junit4.rules.ProgrammaticTxMgmtSpringRuleTests" time="0.001"/>
-  <testcase name="commitTxButDoNotStartNewTx" classname="org.springframework.test.context.junit4.rules.ProgrammaticTxMgmtSpringRuleTests" time="0.003"/>
-  <testcase name="commitTxAndStartNewTx" classname="org.springframework.test.context.junit4.rules.ProgrammaticTxMgmtSpringRuleTests" time="0.004"/>
-  <testcase name="rollbackTxAndStartNewTxWithDefaultCommitSemantics" classname="org.springframework.test.context.junit4.rules.ProgrammaticTxMgmtSpringRuleTests" time="0.004"/>
+  <testcase name="startTxWithExistingTransaction" classname="org.springframework.test.context.junit4.rules.ProgrammaticTxMgmtSpringRuleTests" time="0.004"/>
+  <testcase name="startTxWithNonExistentTransactionContext" classname="org.springframework.test.context.junit4.rules.ProgrammaticTxMgmtSpringRuleTests" time="0.002"/>
+  <testcase name="commitTxButDoNotStartNewTx" classname="org.springframework.test.context.junit4.rules.ProgrammaticTxMgmtSpringRuleTests" time="0.005"/>
+  <testcase name="commitTxAndStartNewTx" classname="org.springframework.test.context.junit4.rules.ProgrammaticTxMgmtSpringRuleTests" time="0.005"/>
+  <testcase name="rollbackTxAndStartNewTxWithDefaultCommitSemantics" classname="org.springframework.test.context.junit4.rules.ProgrammaticTxMgmtSpringRuleTests" time="0.007"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

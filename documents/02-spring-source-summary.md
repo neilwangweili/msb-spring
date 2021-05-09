@@ -66,4 +66,22 @@
         > 区别于BeanPostProcessor：增强bean信息
        
         1.eg. PlaceHolderConfigurerSupport : spEl表达式的解析。详见代码：02-spring-source-summary
+    1. 一些重要接口
+        1. BeanFactory(必须遵循完整的创建流程，由spring管控)
+        1. Aware
+        1. BeanDefinition
+        1. BeanDefinitionReader
+        1. BeanFactoryPostProcessor
+        1. BeanPostProcessor
+        1. Environment
+            1. StandardEnvironment  存放系统中的某些值、环境变量值
+                1. 当完成整个容器的创建时，就会将系统中的某些值、环境变量值放入容器之中
+                1. System.getEnv()
+                1. System.getProperties()
+        1. BeanDefinitionRegistry(对定义的Bean信息进行CRUD操作)
+        1. FactoryBean(使用getObject()就可以返回具体对象，整个对象的创建过程由用户自己控制，更加灵活)
+            1. getObject()
+            1. isSingleTon()
+            1. getObjectType()
+            1. spring先去容器中获取，若获取不到，则调用getObject()去获取，这个不会走spring正常生命周期
 1. **aop**

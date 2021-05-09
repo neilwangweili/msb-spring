@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.web.util.UriTemplateTests" tests="23" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:41:06" hostname="wangweilideMacBook-Pro.local" time="0.024">
+<testsuite name="org.springframework.web.util.UriTemplateTests" tests="23" skipped="0" failures="0" errors="0" timestamp="2021-05-09T12:43:19" hostname="wangweilidembp" time="0.045">
   <properties/>
   <testcase name="expandVarArgsWithArrayValue()" classname="org.springframework.web.util.UriTemplateTests" time="0.003"/>
   <testcase name="matchesCustomRegex()" classname="org.springframework.web.util.UriTemplateTests" time="0.0"/>
-  <testcase name="expandMapDuplicateVariables()" classname="org.springframework.web.util.UriTemplateTests" time="0.001"/>
+  <testcase name="expandMapDuplicateVariables()" classname="org.springframework.web.util.UriTemplateTests" time="0.0"/>
   <testcase name="matchDuplicate()" classname="org.springframework.web.util.UriTemplateTests" time="0.001"/>
   <testcase name="expandWithAtSign()" classname="org.springframework.web.util.UriTemplateTests" time="0.001"/>
-  <testcase name="expandWithDollar()" classname="org.springframework.web.util.UriTemplateTests" time="0.001"/>
+  <testcase name="expandWithDollar()" classname="org.springframework.web.util.UriTemplateTests" time="0.0"/>
   <testcase name="expandEncoded()" classname="org.springframework.web.util.UriTemplateTests" time="0.0"/>
   <testcase name="matchWithMultipleSegmentsAtTheEnd()" classname="org.springframework.web.util.UriTemplateTests" time="0.001"/>
   <testcase name="matchCustomRegex()" classname="org.springframework.web.util.UriTemplateTests" time="0.001"/>
-  <testcase name="expandMapEncoded()" classname="org.springframework.web.util.UriTemplateTests" time="0.001"/>
-  <testcase name="matchCustomRegexWithNestedCurlyBraces()" classname="org.springframework.web.util.UriTemplateTests" time="0.001"/>
-  <testcase name="queryVariables()" classname="org.springframework.web.util.UriTemplateTests" time="0.0"/>
-  <testcase name="matchMultipleInOneSegment()" classname="org.springframework.web.util.UriTemplateTests" time="0.0"/>
+  <testcase name="expandMapEncoded()" classname="org.springframework.web.util.UriTemplateTests" time="0.0"/>
+  <testcase name="matchCustomRegexWithNestedCurlyBraces()" classname="org.springframework.web.util.UriTemplateTests" time="0.0"/>
+  <testcase name="queryVariables()" classname="org.springframework.web.util.UriTemplateTests" time="0.001"/>
+  <testcase name="matchMultipleInOneSegment()" classname="org.springframework.web.util.UriTemplateTests" time="0.024"/>
   <testcase name="expandMapUnboundVariables()" classname="org.springframework.web.util.UriTemplateTests" time="0.001"/>
   <testcase name="expandMap()" classname="org.springframework.web.util.UriTemplateTests" time="0.0"/>
   <testcase name="match()" classname="org.springframework.web.util.UriTemplateTests" time="0.001"/>
-  <testcase name="getVariableNames()" classname="org.springframework.web.util.UriTemplateTests" time="0.0"/>
+  <testcase name="getVariableNames()" classname="org.springframework.web.util.UriTemplateTests" time="0.001"/>
   <testcase name="matchesWithSlashAtTheEnd()" classname="org.springframework.web.util.UriTemplateTests" time="0.0"/>
   <testcase name="fragments()" classname="org.springframework.web.util.UriTemplateTests" time="0.001"/>
-  <testcase name="expandVarArgs()" classname="org.springframework.web.util.UriTemplateTests" time="0.0"/>
+  <testcase name="expandVarArgs()" classname="org.springframework.web.util.UriTemplateTests" time="0.001"/>
   <testcase name="matches()" classname="org.springframework.web.util.UriTemplateTests" time="0.0"/>
   <testcase name="expandVarArgsNotEnoughVariables()" classname="org.springframework.web.util.UriTemplateTests" time="0.001"/>
-  <testcase name="expandMapNonString()" classname="org.springframework.web.util.UriTemplateTests" time="0.0"/>
+  <testcase name="expandMapNonString()" classname="org.springframework.web.util.UriTemplateTests" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

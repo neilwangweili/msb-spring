@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.beans.factory.config.PropertyPlaceholderConfigurerTests" tests="11" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:25:17" hostname="wangweilideMBP.lan" time="0.02">
+<testsuite name="org.springframework.beans.factory.config.PropertyPlaceholderConfigurerTests" tests="11" skipped="0" failures="0" errors="0" timestamp="2021-05-09T12:40:05" hostname="wangweilidembp" time="0.042">
   <properties/>
-  <testcase name="resolveFromSystemProperties()" classname="org.springframework.beans.factory.config.PropertyPlaceholderConfigurerTests" time="0.013"/>
+  <testcase name="resolveFromSystemProperties()" classname="org.springframework.beans.factory.config.PropertyPlaceholderConfigurerTests" time="0.001"/>
   <testcase name="twoPlaceholderConfigurers_withConflictingSettings()" classname="org.springframework.beans.factory.config.PropertyPlaceholderConfigurerTests" time="0.001"/>
   <testcase name="resolveFromLocalProperties()" classname="org.springframework.beans.factory.config.PropertyPlaceholderConfigurerTests" time="0.001"/>
-  <testcase name="setSystemSystemPropertiesMode_toOverride_andResolveFromSystemProperties()" classname="org.springframework.beans.factory.config.PropertyPlaceholderConfigurerTests" time="0.0"/>
-  <testcase name="setSystemSystemPropertiesMode_toOverride_andSetSearchSystemEnvironment_toFalse()" classname="org.springframework.beans.factory.config.PropertyPlaceholderConfigurerTests" time="0.0"/>
-  <testcase name="customPlaceholderPrefixAndSuffix()" classname="org.springframework.beans.factory.config.PropertyPlaceholderConfigurerTests" time="0.001"/>
-  <testcase name="nullValueIsPreserved()" classname="org.springframework.beans.factory.config.PropertyPlaceholderConfigurerTests" time="0.0"/>
-  <testcase name="setSystemPropertiesMode_defaultIsFallback()" classname="org.springframework.beans.factory.config.PropertyPlaceholderConfigurerTests" time="0.001"/>
-  <testcase name="localPropertiesViaResource()" classname="org.springframework.beans.factory.config.PropertyPlaceholderConfigurerTests" time="0.001"/>
-  <testcase name="trimValuesIsOffByDefault()" classname="org.springframework.beans.factory.config.PropertyPlaceholderConfigurerTests" time="0.0"/>
+  <testcase name="setSystemSystemPropertiesMode_toOverride_andResolveFromSystemProperties()" classname="org.springframework.beans.factory.config.PropertyPlaceholderConfigurerTests" time="0.001"/>
+  <testcase name="setSystemSystemPropertiesMode_toOverride_andSetSearchSystemEnvironment_toFalse()" classname="org.springframework.beans.factory.config.PropertyPlaceholderConfigurerTests" time="0.001"/>
+  <testcase name="customPlaceholderPrefixAndSuffix()" classname="org.springframework.beans.factory.config.PropertyPlaceholderConfigurerTests" time="0.002"/>
+  <testcase name="nullValueIsPreserved()" classname="org.springframework.beans.factory.config.PropertyPlaceholderConfigurerTests" time="0.001"/>
+  <testcase name="setSystemPropertiesMode_defaultIsFallback()" classname="org.springframework.beans.factory.config.PropertyPlaceholderConfigurerTests" time="0.0"/>
+  <testcase name="localPropertiesViaResource()" classname="org.springframework.beans.factory.config.PropertyPlaceholderConfigurerTests" time="0.008"/>
+  <testcase name="trimValuesIsOffByDefault()" classname="org.springframework.beans.factory.config.PropertyPlaceholderConfigurerTests" time="0.001"/>
   <testcase name="trimValuesIsApplied()" classname="org.springframework.beans.factory.config.PropertyPlaceholderConfigurerTests" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

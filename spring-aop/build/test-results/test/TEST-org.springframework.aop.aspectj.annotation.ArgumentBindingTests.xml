@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.aop.aspectj.annotation.ArgumentBindingTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:22:14" hostname="wangweilideMBP.lan" time="0.016">
+<testsuite name="org.springframework.aop.aspectj.annotation.ArgumentBindingTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-05-09T12:39:35" hostname="wangweilidembp" time="0.017">
   <properties/>
-  <testcase name="testAnnotationArgumentNameBinding()" classname="org.springframework.aop.aspectj.annotation.ArgumentBindingTests" time="0.009"/>
+  <testcase name="testAnnotationArgumentNameBinding()" classname="org.springframework.aop.aspectj.annotation.ArgumentBindingTests" time="0.01"/>
   <testcase name="testParameterNameDiscoverWithReferencePointcut()" classname="org.springframework.aop.aspectj.annotation.ArgumentBindingTests" time="0.0"/>
-  <testcase name="testBindingInPointcutUsedByAdvice()" classname="org.springframework.aop.aspectj.annotation.ArgumentBindingTests" time="0.007"/>
+  <testcase name="testBindingInPointcutUsedByAdvice()" classname="org.springframework.aop.aspectj.annotation.ArgumentBindingTests" time="0.005"/>
   <system-out><![CDATA[Invoked with transaction @org.springframework.aop.aspectj.annotation.Transactional()
 got 'Supercalifragalisticexpialidocious' at 'execution(void org.springframework.beans.testfixture.beans.ITestBean.setName(String))'
 ]]></system-out>

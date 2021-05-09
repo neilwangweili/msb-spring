@@ -1,47 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.beans.factory.annotation.InjectAnnotationBeanPostProcessorTests" tests="41" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:25:17" hostname="wangweilideMBP.lan" time="0.356">
+<testsuite name="org.springframework.beans.factory.annotation.InjectAnnotationBeanPostProcessorTests" tests="41" skipped="0" failures="0" errors="0" timestamp="2021-05-09T12:40:05" hostname="wangweilidembp" time="0.382">
   <properties/>
-  <testcase name="testObjectFactoryWithTypedMapMethod()" classname="org.springframework.beans.factory.annotation.InjectAnnotationBeanPostProcessorTests" time="0.068"/>
-  <testcase name="testObjectFactoryWithTypedListMethod()" classname="org.springframework.beans.factory.annotation.InjectAnnotationBeanPostProcessorTests" time="0.028"/>
-  <testcase name="testObjectFactoryInjection()" classname="org.springframework.beans.factory.annotation.InjectAnnotationBeanPostProcessorTests" time="0.01"/>
-  <testcase name="testResourceInjection()" classname="org.springframework.beans.factory.annotation.InjectAnnotationBeanPostProcessorTests" time="0.004"/>
+  <testcase name="testObjectFactoryWithTypedMapMethod()" classname="org.springframework.beans.factory.annotation.InjectAnnotationBeanPostProcessorTests" time="0.097"/>
+  <testcase name="testObjectFactoryWithTypedListMethod()" classname="org.springframework.beans.factory.annotation.InjectAnnotationBeanPostProcessorTests" time="0.009"/>
+  <testcase name="testObjectFactoryInjection()" classname="org.springframework.beans.factory.annotation.InjectAnnotationBeanPostProcessorTests" time="0.022"/>
+  <testcase name="testResourceInjection()" classname="org.springframework.beans.factory.annotation.InjectAnnotationBeanPostProcessorTests" time="0.013"/>
   <testcase name="testConstructorResourceInjectionWithMultipleCandidatesAndFallback()" classname="org.springframework.beans.factory.annotation.InjectAnnotationBeanPostProcessorTests" time="0.001"/>
-  <testcase name="testObjectFactoryWithBeanField()" classname="org.springframework.beans.factory.annotation.InjectAnnotationBeanPostProcessorTests" time="0.011"/>
+  <testcase name="testObjectFactoryWithBeanField()" classname="org.springframework.beans.factory.annotation.InjectAnnotationBeanPostProcessorTests" time="0.034"/>
   <testcase name="testExtendedResourceInjection()" classname="org.springframework.beans.factory.annotation.InjectAnnotationBeanPostProcessorTests" time="0.009"/>
-  <testcase name="testOptionalMethodInjectionWithBeanAvailable()" classname="org.springframework.beans.factory.annotation.InjectAnnotationBeanPostProcessorTests" time="0.005"/>
-  <testcase name="testExtendedResourceInjectionWithOverriding()" classname="org.springframework.beans.factory.annotation.InjectAnnotationBeanPostProcessorTests" time="0.002"/>
-  <testcase name="testMethodInjectionWithMapAndMultipleMatches()" classname="org.springframework.beans.factory.annotation.InjectAnnotationBeanPostProcessorTests" time="0.003"/>
+  <testcase name="testOptionalMethodInjectionWithBeanAvailable()" classname="org.springframework.beans.factory.annotation.InjectAnnotationBeanPostProcessorTests" time="0.017"/>
+  <testcase name="testExtendedResourceInjectionWithOverriding()" classname="org.springframework.beans.factory.annotation.InjectAnnotationBeanPostProcessorTests" time="0.011"/>
+  <testcase name="testMethodInjectionWithMapAndMultipleMatches()" classname="org.springframework.beans.factory.annotation.InjectAnnotationBeanPostProcessorTests" time="0.004"/>
   <testcase name="testProviderOfOptionalFieldInjectionWithBeanAvailable()" classname="org.springframework.beans.factory.annotation.InjectAnnotationBeanPostProcessorTests" time="0.002"/>
   <testcase name="testBeanAutowiredWithFactoryBean()" classname="org.springframework.beans.factory.annotation.InjectAnnotationBeanPostProcessorTests" time="0.001"/>
-  <testcase name="testExtendedResourceInjectionWithAtRequired()" classname="org.springframework.beans.factory.annotation.InjectAnnotationBeanPostProcessorTests" time="0.002"/>
-  <testcase name="testOptionalListFieldInjectionWithBeanNotAvailable()" classname="org.springframework.beans.factory.annotation.InjectAnnotationBeanPostProcessorTests" time="0.049"/>
-  <testcase name="testOptionalFieldInjectionWithBeanAvailable()" classname="org.springframework.beans.factory.annotation.InjectAnnotationBeanPostProcessorTests" time="0.001"/>
-  <testcase name="testNullableFieldInjectionWithBeanAvailable()" classname="org.springframework.beans.factory.annotation.InjectAnnotationBeanPostProcessorTests" time="0.002"/>
-  <testcase name="testProviderOfOptionalMethodInjectionWithBeanAvailable()" classname="org.springframework.beans.factory.annotation.InjectAnnotationBeanPostProcessorTests" time="0.006"/>
+  <testcase name="testExtendedResourceInjectionWithAtRequired()" classname="org.springframework.beans.factory.annotation.InjectAnnotationBeanPostProcessorTests" time="0.016"/>
+  <testcase name="testOptionalListFieldInjectionWithBeanNotAvailable()" classname="org.springframework.beans.factory.annotation.InjectAnnotationBeanPostProcessorTests" time="0.004"/>
+  <testcase name="testOptionalFieldInjectionWithBeanAvailable()" classname="org.springframework.beans.factory.annotation.InjectAnnotationBeanPostProcessorTests" time="0.004"/>
+  <testcase name="testNullableFieldInjectionWithBeanAvailable()" classname="org.springframework.beans.factory.annotation.InjectAnnotationBeanPostProcessorTests" time="0.02"/>
+  <testcase name="testProviderOfOptionalMethodInjectionWithBeanAvailable()" classname="org.springframework.beans.factory.annotation.InjectAnnotationBeanPostProcessorTests" time="0.004"/>
   <testcase name="testOptionalListMethodInjectionWithBeanAvailable()" classname="org.springframework.beans.factory.annotation.InjectAnnotationBeanPostProcessorTests" time="0.004"/>
-  <testcase name="testObjectFactoryWithBeanMethod()" classname="org.springframework.beans.factory.annotation.InjectAnnotationBeanPostProcessorTests" time="0.006"/>
-  <testcase name="testObjectFactoryWithTypedListField()" classname="org.springframework.beans.factory.annotation.InjectAnnotationBeanPostProcessorTests" time="0.021"/>
-  <testcase name="testOptionalFieldInjectionWithBeanNotAvailable()" classname="org.springframework.beans.factory.annotation.InjectAnnotationBeanPostProcessorTests" time="0.004"/>
-  <testcase name="testMethodInjectionWithMapAndMultipleMatchesButOnlyOneAutowireCandidate()" classname="org.springframework.beans.factory.annotation.InjectAnnotationBeanPostProcessorTests" time="0.002"/>
-  <testcase name="testProviderOfOptionalMethodInjectionWithBeanNotAvailable()" classname="org.springframework.beans.factory.annotation.InjectAnnotationBeanPostProcessorTests" time="0.001"/>
+  <testcase name="testObjectFactoryWithBeanMethod()" classname="org.springframework.beans.factory.annotation.InjectAnnotationBeanPostProcessorTests" time="0.007"/>
+  <testcase name="testObjectFactoryWithTypedListField()" classname="org.springframework.beans.factory.annotation.InjectAnnotationBeanPostProcessorTests" time="0.018"/>
+  <testcase name="testOptionalFieldInjectionWithBeanNotAvailable()" classname="org.springframework.beans.factory.annotation.InjectAnnotationBeanPostProcessorTests" time="0.001"/>
+  <testcase name="testMethodInjectionWithMapAndMultipleMatchesButOnlyOneAutowireCandidate()" classname="org.springframework.beans.factory.annotation.InjectAnnotationBeanPostProcessorTests" time="0.001"/>
+  <testcase name="testProviderOfOptionalMethodInjectionWithBeanNotAvailable()" classname="org.springframework.beans.factory.annotation.InjectAnnotationBeanPostProcessorTests" time="0.0"/>
   <testcase name="testOptionalListFieldInjectionWithBeanAvailable()" classname="org.springframework.beans.factory.annotation.InjectAnnotationBeanPostProcessorTests" time="0.001"/>
-  <testcase name="testIncompleteBeanDefinition()" classname="org.springframework.beans.factory.annotation.InjectAnnotationBeanPostProcessorTests" time="0.0"/>
-  <testcase name="testAnnotatedDefaultConstructor()" classname="org.springframework.beans.factory.annotation.InjectAnnotationBeanPostProcessorTests" time="0.0"/>
+  <testcase name="testIncompleteBeanDefinition()" classname="org.springframework.beans.factory.annotation.InjectAnnotationBeanPostProcessorTests" time="0.001"/>
+  <testcase name="testAnnotatedDefaultConstructor()" classname="org.springframework.beans.factory.annotation.InjectAnnotationBeanPostProcessorTests" time="0.005"/>
   <testcase name="testObjectFactoryFieldInjectionIntoPrototypeBean()" classname="org.springframework.beans.factory.annotation.InjectAnnotationBeanPostProcessorTests" time="0.002"/>
-  <testcase name="testObjectFactoryMethodInjectionIntoPrototypeBean()" classname="org.springframework.beans.factory.annotation.InjectAnnotationBeanPostProcessorTests" time="0.035"/>
+  <testcase name="testObjectFactoryMethodInjectionIntoPrototypeBean()" classname="org.springframework.beans.factory.annotation.InjectAnnotationBeanPostProcessorTests" time="0.005"/>
   <testcase name="testObjectFactoryQualifierInjection()" classname="org.springframework.beans.factory.annotation.InjectAnnotationBeanPostProcessorTests" time="0.008"/>
-  <testcase name="testConstructorInjectionWithMap()" classname="org.springframework.beans.factory.annotation.InjectAnnotationBeanPostProcessorTests" time="0.011"/>
+  <testcase name="testConstructorInjectionWithMap()" classname="org.springframework.beans.factory.annotation.InjectAnnotationBeanPostProcessorTests" time="0.023"/>
   <testcase name="testProviderOfOptionalFieldInjectionWithBeanNotAvailable()" classname="org.springframework.beans.factory.annotation.InjectAnnotationBeanPostProcessorTests" time="0.001"/>
   <testcase name="testMethodInjectionWithMap()" classname="org.springframework.beans.factory.annotation.InjectAnnotationBeanPostProcessorTests" time="0.001"/>
-  <testcase name="testConstructorResourceInjection()" classname="org.springframework.beans.factory.annotation.InjectAnnotationBeanPostProcessorTests" time="0.004"/>
-  <testcase name="testNullableFieldInjectionWithBeanNotAvailable()" classname="org.springframework.beans.factory.annotation.InjectAnnotationBeanPostProcessorTests" time="0.012"/>
-  <testcase name="testObjectFactoryWithTypedMapField()" classname="org.springframework.beans.factory.annotation.InjectAnnotationBeanPostProcessorTests" time="0.004"/>
-  <testcase name="testFieldInjectionWithMap()" classname="org.springframework.beans.factory.annotation.InjectAnnotationBeanPostProcessorTests" time="0.003"/>
-  <testcase name="testOptionalListMethodInjectionWithBeanNotAvailable()" classname="org.springframework.beans.factory.annotation.InjectAnnotationBeanPostProcessorTests" time="0.001"/>
+  <testcase name="testConstructorResourceInjection()" classname="org.springframework.beans.factory.annotation.InjectAnnotationBeanPostProcessorTests" time="0.005"/>
+  <testcase name="testNullableFieldInjectionWithBeanNotAvailable()" classname="org.springframework.beans.factory.annotation.InjectAnnotationBeanPostProcessorTests" time="0.001"/>
+  <testcase name="testObjectFactoryWithTypedMapField()" classname="org.springframework.beans.factory.annotation.InjectAnnotationBeanPostProcessorTests" time="0.006"/>
+  <testcase name="testFieldInjectionWithMap()" classname="org.springframework.beans.factory.annotation.InjectAnnotationBeanPostProcessorTests" time="0.001"/>
+  <testcase name="testOptionalListMethodInjectionWithBeanNotAvailable()" classname="org.springframework.beans.factory.annotation.InjectAnnotationBeanPostProcessorTests" time="0.0"/>
   <testcase name="testConstructorResourceInjectionWithMultipleCandidatesAsCollection()" classname="org.springframework.beans.factory.annotation.InjectAnnotationBeanPostProcessorTests" time="0.001"/>
-  <testcase name="testNullableMethodInjectionWithBeanAvailable()" classname="org.springframework.beans.factory.annotation.InjectAnnotationBeanPostProcessorTests" time="0.018"/>
+  <testcase name="testNullableMethodInjectionWithBeanAvailable()" classname="org.springframework.beans.factory.annotation.InjectAnnotationBeanPostProcessorTests" time="0.003"/>
   <testcase name="testNullableMethodInjectionWithBeanNotAvailable()" classname="org.springframework.beans.factory.annotation.InjectAnnotationBeanPostProcessorTests" time="0.001"/>
-  <testcase name="testOptionalMethodInjectionWithBeanNotAvailable()" classname="org.springframework.beans.factory.annotation.InjectAnnotationBeanPostProcessorTests" time="0.003"/>
+  <testcase name="testOptionalMethodInjectionWithBeanNotAvailable()" classname="org.springframework.beans.factory.annotation.InjectAnnotationBeanPostProcessorTests" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

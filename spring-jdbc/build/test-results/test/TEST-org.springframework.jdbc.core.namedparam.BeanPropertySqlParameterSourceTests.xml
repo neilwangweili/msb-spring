@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.jdbc.core.namedparam.BeanPropertySqlParameterSourceTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:25:28" hostname="wangweilideMBP.lan" time="0.014">
+<testsuite name="org.springframework.jdbc.core.namedparam.BeanPropertySqlParameterSourceTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2021-05-09T12:40:44" hostname="wangweilidembp" time="0.042">
   <properties/>
   <testcase name="hasValueWhereTheUnderlyingBeanPropertyIsNotReadable()" classname="org.springframework.jdbc.core.namedparam.BeanPropertySqlParameterSourceTests" time="0.002"/>
   <testcase name="hasValueWhereTheUnderlyingBeanHasNoSuchProperty()" classname="org.springframework.jdbc.core.namedparam.BeanPropertySqlParameterSourceTests" time="0.001"/>
@@ -9,8 +9,8 @@
   <testcase name="successfulPropertyAccessWithOverriddenSqlType()" classname="org.springframework.jdbc.core.namedparam.BeanPropertySqlParameterSourceTests" time="0.001"/>
   <testcase name="withNullBeanPassedToCtor()" classname="org.springframework.jdbc.core.namedparam.BeanPropertySqlParameterSourceTests" time="0.001"/>
   <testcase name="toStringShowsCustomSqlType()" classname="org.springframework.jdbc.core.namedparam.BeanPropertySqlParameterSourceTests" time="0.001"/>
-  <testcase name="successfulPropertyAccess()" classname="org.springframework.jdbc.core.namedparam.BeanPropertySqlParameterSourceTests" time="0.001"/>
-  <testcase name="toStringShowsParameterDetails()" classname="org.springframework.jdbc.core.namedparam.BeanPropertySqlParameterSourceTests" time="0.001"/>
+  <testcase name="successfulPropertyAccess()" classname="org.springframework.jdbc.core.namedparam.BeanPropertySqlParameterSourceTests" time="0.0"/>
+  <testcase name="toStringShowsParameterDetails()" classname="org.springframework.jdbc.core.namedparam.BeanPropertySqlParameterSourceTests" time="0.025"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

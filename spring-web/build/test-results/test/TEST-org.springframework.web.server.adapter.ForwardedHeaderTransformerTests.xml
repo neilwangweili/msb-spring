@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.web.server.adapter.ForwardedHeaderTransformerTests" tests="12" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:41:08" hostname="wangweilideMacBook-Pro.local" time="0.118">
+<testsuite name="org.springframework.web.server.adapter.ForwardedHeaderTransformerTests" tests="12" skipped="0" failures="0" errors="0" timestamp="2021-05-09T12:43:21" hostname="wangweilidembp" time="0.011">
   <properties/>
-  <testcase name="shouldConcatenatePrefixesWithTrailingSlashes()" classname="org.springframework.web.server.adapter.ForwardedHeaderTransformerTests" time="0.004"/>
+  <testcase name="shouldConcatenatePrefixesWithTrailingSlashes()" classname="org.springframework.web.server.adapter.ForwardedHeaderTransformerTests" time="0.003"/>
   <testcase name="xForwardedFor()" classname="org.springframework.web.server.adapter.ForwardedHeaderTransformerTests" time="0.001"/>
-  <testcase name="forwardedHeader()" classname="org.springframework.web.server.adapter.ForwardedHeaderTransformerTests" time="0.001"/>
+  <testcase name="forwardedHeader()" classname="org.springframework.web.server.adapter.ForwardedHeaderTransformerTests" time="0.0"/>
   <testcase name="xForwardedPrefixShouldNotLeadToDecodedPath()" classname="org.springframework.web.server.adapter.ForwardedHeaderTransformerTests" time="0.001"/>
-  <testcase name="forwardedFor()" classname="org.springframework.web.server.adapter.ForwardedHeaderTransformerTests" time="0.107"/>
+  <testcase name="forwardedFor()" classname="org.springframework.web.server.adapter.ForwardedHeaderTransformerTests" time="0.002"/>
   <testcase name="forwardedForNotPresent()" classname="org.springframework.web.server.adapter.ForwardedHeaderTransformerTests" time="0.0"/>
   <testcase name="xForwardedPrefixTrailingSlash()" classname="org.springframework.web.server.adapter.ForwardedHeaderTransformerTests" time="0.001"/>
   <testcase name="xForwardedHeaders()" classname="org.springframework.web.server.adapter.ForwardedHeaderTransformerTests" time="0.0"/>
-  <testcase name="removeOnly()" classname="org.springframework.web.server.adapter.ForwardedHeaderTransformerTests" time="0.0"/>
+  <testcase name="removeOnly()" classname="org.springframework.web.server.adapter.ForwardedHeaderTransformerTests" time="0.001"/>
   <testcase name="shouldConcatenatePrefixes()" classname="org.springframework.web.server.adapter.ForwardedHeaderTransformerTests" time="0.0"/>
-  <testcase name="xForwardedPrefix()" classname="org.springframework.web.server.adapter.ForwardedHeaderTransformerTests" time="0.0"/>
+  <testcase name="xForwardedPrefix()" classname="org.springframework.web.server.adapter.ForwardedHeaderTransformerTests" time="0.001"/>
   <testcase name="shouldNotDoubleEncode()" classname="org.springframework.web.server.adapter.ForwardedHeaderTransformerTests" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

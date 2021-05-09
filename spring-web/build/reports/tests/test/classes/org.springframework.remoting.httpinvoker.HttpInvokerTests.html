@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.329s</div>
+<div class="counter">0.708s</div>
 <p>duration</p>
 </div>
 </td>
@@ -79,42 +79,42 @@
 </thead>
 <tr>
 <td class="success">httpInvokerProxyFactoryBeanAndServiceExporter()</td>
-<td class="success">0.030s</td>
+<td class="success">0.128s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">httpInvokerProxyFactoryBeanAndServiceExporterWithCustomInvocationObject()</td>
-<td class="success">0.016s</td>
+<td class="success">0.033s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">httpInvokerProxyFactoryBeanAndServiceExporterWithExplicitClassLoader()</td>
-<td class="success">0.024s</td>
+<td class="success">0.062s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">httpInvokerProxyFactoryBeanAndServiceExporterWithGzipCompression()</td>
-<td class="success">0.220s</td>
+<td class="success">0.343s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">httpInvokerProxyFactoryBeanAndServiceExporterWithIOException()</td>
-<td class="success">0.001s</td>
+<td class="success">0.009s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">httpInvokerProxyFactoryBeanAndServiceExporterWithInvocationAttributes()</td>
-<td class="success">0.005s</td>
+<td class="success">0.009s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">httpInvokerProxyFactoryBeanAndServiceExporterWithWrappedInvocations()</td>
-<td class="success">0.019s</td>
+<td class="success">0.116s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">httpInvokerWithSpecialLocalMethods()</td>
-<td class="success">0.014s</td>
+<td class="success">0.008s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -122,7 +122,7 @@
 <div id="tab1" class="tab">
 <h2>Standard output</h2>
 <span class="code">
-<pre>15:41:02.292 [Test worker] WARN  o.s.r.s.RemoteInvocationTraceInterceptor - Processing of HttpInvokerTests.2 remote call resulted in fatal exception: org.springframework.beans.testfixture.beans.ITestBean.exceptional
+<pre>20:43:10.417 [Test worker] WARN  o.s.r.s.RemoteInvocationTraceInterceptor - Processing of HttpInvokerTests.2 remote call resulted in fatal exception: org.springframework.beans.testfixture.beans.ITestBean.exceptional
 java.lang.IllegalStateException: null
 	at org.springframework.remoting.httpinvoker.HttpInvokerTests.lambda$httpInvokerProxyFactoryBeanAndServiceExporterWithGzipCompression$4(HttpInvokerTests.java:218) ~[test/:?]
 	at org.assertj.core.api.ThrowableAssert.catchThrowable(ThrowableAssert.java:62) ~[assertj-core-3.19.0.jar:?]
@@ -218,7 +218,7 @@ java.lang.IllegalStateException: null
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56) [gradle-base-services-6.8.3.jar:6.8.3]
 	at java.lang.Thread.run(Thread.java:834) [?:?]
-15:41:02.442 [Test worker] WARN  o.s.r.s.RemoteInvocationTraceInterceptor - Processing of HttpInvokerServiceExporter remote call resulted in fatal exception: org.springframework.beans.testfixture.beans.ITestBean.exceptional
+20:43:10.747 [Test worker] WARN  o.s.r.s.RemoteInvocationTraceInterceptor - Processing of HttpInvokerServiceExporter remote call resulted in fatal exception: org.springframework.beans.testfixture.beans.ITestBean.exceptional
 java.lang.IllegalStateException: null
 	at org.springframework.remoting.httpinvoker.HttpInvokerTests.lambda$doTestHttpInvokerProxyFactoryBeanAndServiceExporter$0(HttpInvokerTests.java:121) ~[test/:?]
 	at org.assertj.core.api.ThrowableAssert.catchThrowable(ThrowableAssert.java:62) ~[assertj-core-3.19.0.jar:?]
@@ -315,7 +315,7 @@ java.lang.IllegalStateException: null
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56) [gradle-base-services-6.8.3.jar:6.8.3]
 	at java.lang.Thread.run(Thread.java:834) [?:?]
-15:41:02.467 [Test worker] WARN  o.s.r.s.RemoteInvocationTraceInterceptor - Processing of HttpInvokerServiceExporter remote call resulted in fatal exception: org.springframework.beans.testfixture.beans.ITestBean.exceptional
+20:43:10.865 [Test worker] WARN  o.s.r.s.RemoteInvocationTraceInterceptor - Processing of HttpInvokerServiceExporter remote call resulted in fatal exception: org.springframework.beans.testfixture.beans.ITestBean.exceptional
 java.lang.IllegalStateException: null
 	at org.springframework.remoting.httpinvoker.HttpInvokerTests.lambda$doTestHttpInvokerProxyFactoryBeanAndServiceExporter$0(HttpInvokerTests.java:121) ~[test/:?]
 	at org.assertj.core.api.ThrowableAssert.catchThrowable(ThrowableAssert.java:62) ~[assertj-core-3.19.0.jar:?]
@@ -412,7 +412,7 @@ java.lang.IllegalStateException: null
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56) [gradle-base-services-6.8.3.jar:6.8.3]
 	at java.lang.Thread.run(Thread.java:834) [?:?]
-15:41:02.493 [Test worker] WARN  o.s.r.s.RemoteInvocationTraceInterceptor - Processing of HttpInvokerTests.4 remote call resulted in fatal exception: org.springframework.beans.testfixture.beans.ITestBean.exceptional
+20:43:10.944 [Test worker] WARN  o.s.r.s.RemoteInvocationTraceInterceptor - Processing of HttpInvokerTests.4 remote call resulted in fatal exception: org.springframework.beans.testfixture.beans.ITestBean.exceptional
 java.lang.IllegalStateException: null
 	at org.springframework.remoting.httpinvoker.HttpInvokerTests.lambda$httpInvokerProxyFactoryBeanAndServiceExporterWithWrappedInvocations$6(HttpInvokerTests.java:288) ~[test/:?]
 	at org.assertj.core.api.ThrowableAssert.catchThrowable(ThrowableAssert.java:62) ~[assertj-core-3.19.0.jar:?]
@@ -519,7 +519,7 @@ java.lang.IllegalStateException: null
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 6.8.3</a> at 2021年4月26日 下午3:44:23</p>
+<a href="http://www.gradle.org">Gradle 6.8.3</a> at 2021年5月9日 下午8:46:33</p>
 </div>
 </div>
 </body>

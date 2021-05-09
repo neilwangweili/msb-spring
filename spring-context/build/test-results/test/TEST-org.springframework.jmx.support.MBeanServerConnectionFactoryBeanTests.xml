@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.jmx.support.MBeanServerConnectionFactoryBeanTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:32:20" hostname="wangweilideMBP.lan" time="0.249">
+<testsuite name="org.springframework.jmx.support.MBeanServerConnectionFactoryBeanTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2021-05-09T12:42:09" hostname="wangweilidembp" time="0.231">
   <properties/>
-  <testcase name="lazyConnectionAndNoAccess()" classname="org.springframework.jmx.support.MBeanServerConnectionFactoryBeanTests" time="0.013"/>
-  <testcase name="noServiceUrl()" classname="org.springframework.jmx.support.MBeanServerConnectionFactoryBeanTests" time="0.0"/>
-  <testcase name="lazyConnection()" classname="org.springframework.jmx.support.MBeanServerConnectionFactoryBeanTests" time="0.112"/>
-  <testcase name="validConnection()" classname="org.springframework.jmx.support.MBeanServerConnectionFactoryBeanTests" time="0.121"/>
+  <testcase name="lazyConnectionAndNoAccess()" classname="org.springframework.jmx.support.MBeanServerConnectionFactoryBeanTests" time="0.012"/>
+  <testcase name="noServiceUrl()" classname="org.springframework.jmx.support.MBeanServerConnectionFactoryBeanTests" time="0.001"/>
+  <testcase name="lazyConnection()" classname="org.springframework.jmx.support.MBeanServerConnectionFactoryBeanTests" time="0.11"/>
+  <testcase name="validConnection()" classname="org.springframework.jmx.support.MBeanServerConnectionFactoryBeanTests" time="0.107"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[May 01, 2021 5:32:20 PM ClientIntermediary close
+  <system-err><![CDATA[May 09, 2021 8:42:09 P.M. ClientIntermediary close
 INFO: java.io.IOException: The connection is not currently established.
 java.io.IOException: The connection is not currently established.
 	at com.sun.jmx.remote.generic.ClientSynchroMessageConnectionImpl.checkState(ClientSynchroMessageConnectionImpl.java:617)

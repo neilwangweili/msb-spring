@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.jdbc.support.DatabaseStartupValidatorTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:25:30" hostname="wangweilideMBP.lan" time="4.017">
+<testsuite name="org.springframework.jdbc.support.DatabaseStartupValidatorTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2021-05-09T12:40:48" hostname="wangweilidembp" time="4.03">
   <properties/>
-  <testcase name="shouldCallValidatonTwiceInCaseOfException()" classname="org.springframework.jdbc.support.DatabaseStartupValidatorTests" time="1.005"/>
-  <testcase name="shouldCallValidatonTwiceWhenNotValid()" classname="org.springframework.jdbc.support.DatabaseStartupValidatorTests" time="1.001"/>
-  <testcase name="shouldExecuteValidatonTwiceOnError()" classname="org.springframework.jdbc.support.DatabaseStartupValidatorTests" time="1.002"/>
-  <testcase name="useValidationQueryInsteadOfIsValid()" classname="org.springframework.jdbc.support.DatabaseStartupValidatorTests" time="0.001"/>
-  <testcase name="exceededTimeoutThrowsException()" classname="org.springframework.jdbc.support.DatabaseStartupValidatorTests" time="1.004"/>
-  <testcase name="shouldUseJdbc4IsValidByDefault()" classname="org.springframework.jdbc.support.DatabaseStartupValidatorTests" time="0.001"/>
-  <testcase name="properSetupForDataSource()" classname="org.springframework.jdbc.support.DatabaseStartupValidatorTests" time="0.0"/>
+  <testcase name="shouldCallValidatonTwiceInCaseOfException()" classname="org.springframework.jdbc.support.DatabaseStartupValidatorTests" time="1.006"/>
+  <testcase name="shouldCallValidatonTwiceWhenNotValid()" classname="org.springframework.jdbc.support.DatabaseStartupValidatorTests" time="1.004"/>
+  <testcase name="shouldExecuteValidatonTwiceOnError()" classname="org.springframework.jdbc.support.DatabaseStartupValidatorTests" time="1.007"/>
+  <testcase name="useValidationQueryInsteadOfIsValid()" classname="org.springframework.jdbc.support.DatabaseStartupValidatorTests" time="0.003"/>
+  <testcase name="exceededTimeoutThrowsException()" classname="org.springframework.jdbc.support.DatabaseStartupValidatorTests" time="1.006"/>
+  <testcase name="shouldUseJdbc4IsValidByDefault()" classname="org.springframework.jdbc.support.DatabaseStartupValidatorTests" time="0.002"/>
+  <testcase name="properSetupForDataSource()" classname="org.springframework.jdbc.support.DatabaseStartupValidatorTests" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.web.servlet.mvc.method.RequestMappingInfoTests" tests="15" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:33:12" hostname="wangweilideMBP.lan" time="0.052">
+<testsuite name="org.springframework.web.servlet.mvc.method.RequestMappingInfoTests" tests="15" skipped="0" failures="0" errors="0" timestamp="2021-05-09T12:41:27" hostname="wangweilidembp" time="0.027">
   <properties/>
   <testcase name="preFlightRequest()" classname="org.springframework.web.servlet.mvc.method.RequestMappingInfoTests" time="0.001"/>
   <testcase name="matchParamsCondition()" classname="org.springframework.web.servlet.mvc.method.RequestMappingInfoTests" time="0.0"/>
-  <testcase name="[1] builder=org.springframework.web.servlet.mvc.method.RequestMappingInfo$DefaultBuilder@12031b4" classname="org.springframework.web.servlet.mvc.method.RequestMappingInfoTests" time="0.002"/>
-  <testcase name="[2] builder=org.springframework.web.servlet.mvc.method.RequestMappingInfo$DefaultBuilder@3deb75a" classname="org.springframework.web.servlet.mvc.method.RequestMappingInfoTests" time="0.001"/>
-  <testcase name="matchCustomCondition()" classname="org.springframework.web.servlet.mvc.method.RequestMappingInfoTests" time="0.001"/>
-  <testcase name="[1] infoBuilder=org.springframework.web.servlet.mvc.method.RequestMappingInfo$DefaultBuilder@58922247" classname="org.springframework.web.servlet.mvc.method.RequestMappingInfoTests" time="0.003"/>
-  <testcase name="[2] infoBuilder=org.springframework.web.servlet.mvc.method.RequestMappingInfo$DefaultBuilder@30f1fe2a" classname="org.springframework.web.servlet.mvc.method.RequestMappingInfoTests" time="0.001"/>
-  <testcase name="mutate()" classname="org.springframework.web.servlet.mvc.method.RequestMappingInfoTests" time="0.001"/>
-  <testcase name="[1] infoBuilder=org.springframework.web.servlet.mvc.method.RequestMappingInfo$DefaultBuilder@464ed137" classname="org.springframework.web.servlet.mvc.method.RequestMappingInfoTests" time="0.01"/>
-  <testcase name="[2] infoBuilder=org.springframework.web.servlet.mvc.method.RequestMappingInfo$DefaultBuilder@f0753a3" classname="org.springframework.web.servlet.mvc.method.RequestMappingInfoTests" time="0.001"/>
-  <testcase name="compareToWithImpicitVsExplicitHttpMethodDeclaration()" classname="org.springframework.web.servlet.mvc.method.RequestMappingInfoTests" time="0.001"/>
-  <testcase name="matchProducesCondition()" classname="org.springframework.web.servlet.mvc.method.RequestMappingInfoTests" time="0.001"/>
-  <testcase name="matchHeadersCondition()" classname="org.springframework.web.servlet.mvc.method.RequestMappingInfoTests" time="0.0"/>
+  <testcase name="[1] builder=org.springframework.web.servlet.mvc.method.RequestMappingInfo$DefaultBuilder@6b74385e" classname="org.springframework.web.servlet.mvc.method.RequestMappingInfoTests" time="0.001"/>
+  <testcase name="[2] builder=org.springframework.web.servlet.mvc.method.RequestMappingInfo$DefaultBuilder@1911e5f0" classname="org.springframework.web.servlet.mvc.method.RequestMappingInfoTests" time="0.001"/>
+  <testcase name="matchCustomCondition()" classname="org.springframework.web.servlet.mvc.method.RequestMappingInfoTests" time="0.006"/>
+  <testcase name="[1] infoBuilder=org.springframework.web.servlet.mvc.method.RequestMappingInfo$DefaultBuilder@517ec11c" classname="org.springframework.web.servlet.mvc.method.RequestMappingInfoTests" time="0.002"/>
+  <testcase name="[2] infoBuilder=org.springframework.web.servlet.mvc.method.RequestMappingInfo$DefaultBuilder@423bcffc" classname="org.springframework.web.servlet.mvc.method.RequestMappingInfoTests" time="0.001"/>
+  <testcase name="mutate()" classname="org.springframework.web.servlet.mvc.method.RequestMappingInfoTests" time="0.002"/>
+  <testcase name="[1] infoBuilder=org.springframework.web.servlet.mvc.method.RequestMappingInfo$DefaultBuilder@39beb740" classname="org.springframework.web.servlet.mvc.method.RequestMappingInfoTests" time="0.0"/>
+  <testcase name="[2] infoBuilder=org.springframework.web.servlet.mvc.method.RequestMappingInfo$DefaultBuilder@2566dba4" classname="org.springframework.web.servlet.mvc.method.RequestMappingInfoTests" time="0.0"/>
+  <testcase name="compareToWithImpicitVsExplicitHttpMethodDeclaration()" classname="org.springframework.web.servlet.mvc.method.RequestMappingInfoTests" time="0.002"/>
+  <testcase name="matchProducesCondition()" classname="org.springframework.web.servlet.mvc.method.RequestMappingInfoTests" time="0.0"/>
+  <testcase name="matchHeadersCondition()" classname="org.springframework.web.servlet.mvc.method.RequestMappingInfoTests" time="0.001"/>
   <testcase name="compareToWithHttpHeadMapping()" classname="org.springframework.web.servlet.mvc.method.RequestMappingInfoTests" time="0.001"/>
-  <testcase name="matchConsumesCondition()" classname="org.springframework.web.servlet.mvc.method.RequestMappingInfoTests" time="0.001"/>
+  <testcase name="matchConsumesCondition()" classname="org.springframework.web.servlet.mvc.method.RequestMappingInfoTests" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

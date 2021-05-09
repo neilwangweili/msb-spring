@@ -1,25 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.jmx.export.NotificationPublisherTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:32:21" hostname="wangweilideMBP.lan" time="0.056">
+<testsuite name="org.springframework.jmx.export.NotificationPublisherTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2021-05-09T12:42:09" hostname="wangweilidembp" time="0.034">
   <properties/>
-  <testcase name="testSimpleBean()" classname="org.springframework.jmx.export.NotificationPublisherTests" time="0.025"/>
-  <testcase name="testMBean()" classname="org.springframework.jmx.export.NotificationPublisherTests" time="0.006"/>
-  <testcase name="testLazyInit()" classname="org.springframework.jmx.export.NotificationPublisherTests" time="0.016"/>
-  <testcase name="testSimpleBeanRegisteredManually()" classname="org.springframework.jmx.export.NotificationPublisherTests" time="0.009"/>
+  <testcase name="testSimpleBean()" classname="org.springframework.jmx.export.NotificationPublisherTests" time="0.015"/>
+  <testcase name="testMBean()" classname="org.springframework.jmx.export.NotificationPublisherTests" time="0.004"/>
+  <testcase name="testLazyInit()" classname="org.springframework.jmx.export.NotificationPublisherTests" time="0.01"/>
+  <testcase name="testSimpleBeanRegisteredManually()" classname="org.springframework.jmx.export.NotificationPublisherTests" time="0.004"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[May 01, 2021 5:32:21 PM ClientIntermediary close
-INFO: java.io.IOException: The connection is not currently established.
-java.io.IOException: The connection is not currently established.
-	at com.sun.jmx.remote.generic.ClientSynchroMessageConnectionImpl.checkState(ClientSynchroMessageConnectionImpl.java:617)
-	at com.sun.jmx.remote.generic.ClientSynchroMessageConnectionImpl.sendOneWay(ClientSynchroMessageConnectionImpl.java:202)
-	at javax.management.remote.generic.GenericConnector.close(GenericConnector.java:300)
-	at javax.management.remote.generic.GenericConnector.close(GenericConnector.java:271)
-	at javax.management.remote.generic.ClientIntermediary$GenericClientCommunicatorAdmin.doStop(ClientIntermediary.java:897)
-	at com.sun.jmx.remote.opt.internal.ClientCommunicatorAdmin.restart(ClientCommunicatorAdmin.java:172)
-	at com.sun.jmx.remote.opt.internal.ClientCommunicatorAdmin.gotIOException(ClientCommunicatorAdmin.java:73)
-	at javax.management.remote.generic.GenericConnector$RequestHandler.execute(GenericConnector.java:662)
-	at com.sun.jmx.remote.generic.ClientSynchroMessageConnectionImpl$RemoteJob.run(ClientSynchroMessageConnectionImpl.java:568)
-	at com.sun.jmx.remote.opt.util.ThreadService$ThreadServiceJob.run(ThreadService.java:248)
-	at com.sun.jmx.remote.opt.util.JobExecutor.run(JobExecutor.java:99)
-
-]]></system-err>
+  <system-err><![CDATA[]]></system-err>
 </testsuite>

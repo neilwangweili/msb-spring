@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapterTests" tests="13" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:33:23" hostname="wangweilideMBP.lan" time="0.103">
+<testsuite name="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapterTests" tests="13" skipped="0" failures="0" errors="0" timestamp="2021-05-09T12:41:40" hostname="wangweilidembp" time="0.195">
   <properties/>
-  <testcase name="setReturnValueHandlers()" classname="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapterTests" time="0.005"/>
-  <testcase name="cacheControlWithSessionAttributes()" classname="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapterTests" time="0.006"/>
-  <testcase name="setInitBinderArgumentResolvers()" classname="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapterTests" time="0.006"/>
-  <testcase name="setArgumentResolvers()" classname="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapterTests" time="0.008"/>
+  <testcase name="setReturnValueHandlers()" classname="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapterTests" time="0.01"/>
+  <testcase name="cacheControlWithSessionAttributes()" classname="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapterTests" time="0.014"/>
+  <testcase name="setInitBinderArgumentResolvers()" classname="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapterTests" time="0.019"/>
+  <testcase name="setArgumentResolvers()" classname="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapterTests" time="0.035"/>
   <testcase name="setCustomReturnValueHandlers()" classname="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapterTests" time="0.009"/>
-  <testcase name="responseBodyAdvice()" classname="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapterTests" time="0.01"/>
-  <testcase name="modelAttributePackageNameAdvice()" classname="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapterTests" time="0.007"/>
-  <testcase name="modelAttributeAdvice()" classname="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapterTests" time="0.007"/>
-  <testcase name="setCustomArgumentResolvers()" classname="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapterTests" time="0.008"/>
-  <testcase name="modelAttributeAdviceInParentContext()" classname="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapterTests" time="0.01"/>
-  <testcase name="setAlwaysUseRedirectAttributes()" classname="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapterTests" time="0.007"/>
-  <testcase name="prototypeControllerAdvice()" classname="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapterTests" time="0.009"/>
-  <testcase name="cacheControlWithoutSessionAttributes()" classname="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapterTests" time="0.008"/>
+  <testcase name="responseBodyAdvice()" classname="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapterTests" time="0.018"/>
+  <testcase name="modelAttributePackageNameAdvice()" classname="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapterTests" time="0.012"/>
+  <testcase name="modelAttributeAdvice()" classname="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapterTests" time="0.011"/>
+  <testcase name="setCustomArgumentResolvers()" classname="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapterTests" time="0.01"/>
+  <testcase name="modelAttributeAdviceInParentContext()" classname="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapterTests" time="0.012"/>
+  <testcase name="setAlwaysUseRedirectAttributes()" classname="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapterTests" time="0.011"/>
+  <testcase name="prototypeControllerAdvice()" classname="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapterTests" time="0.014"/>
+  <testcase name="cacheControlWithoutSessionAttributes()" classname="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapterTests" time="0.011"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.http.codec.EncoderHttpMessageWriterTests" tests="11" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:42:15" hostname="wangweilideMacBook-Pro.local" time="0.027">
+<testsuite name="org.springframework.http.codec.EncoderHttpMessageWriterTests" tests="11" skipped="0" failures="0" errors="0" timestamp="2021-05-09T12:44:26" hostname="wangweilidembp" time="0.025">
   <properties/>
-  <testcase name="useDefaultMediaTypeCharset()" classname="org.springframework.http.codec.EncoderHttpMessageWriterTests" time="0.012"/>
+  <testcase name="useDefaultMediaTypeCharset()" classname="org.springframework.http.codec.EncoderHttpMessageWriterTests" time="0.01"/>
   <testcase name="monoBodyDoesNotCancelEncodedFlux()" classname="org.springframework.http.codec.EncoderHttpMessageWriterTests" time="0.001"/>
   <testcase name="useDefaultMediaType()" classname="org.springframework.http.codec.EncoderHttpMessageWriterTests" time="0.004"/>
   <testcase name="emptyBodyWritten()" classname="org.springframework.http.codec.EncoderHttpMessageWriterTests" time="0.001"/>
   <testcase name="canWrite()" classname="org.springframework.http.codec.EncoderHttpMessageWriterTests" time="0.001"/>
-  <testcase name="setContentLengthForMonoBody()" classname="org.springframework.http.codec.EncoderHttpMessageWriterTests" time="0.002"/>
+  <testcase name="setContentLengthForMonoBody()" classname="org.springframework.http.codec.EncoderHttpMessageWriterTests" time="0.001"/>
   <testcase name="useNegotiatedMediaTypeCharset()" classname="org.springframework.http.codec.EncoderHttpMessageWriterTests" time="0.001"/>
   <testcase name="isStreamingMediaType()" classname="org.springframework.http.codec.EncoderHttpMessageWriterTests" time="0.002"/>
   <testcase name="useNegotiatedMediaType()" classname="org.springframework.http.codec.EncoderHttpMessageWriterTests" time="0.001"/>

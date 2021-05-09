@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.beans.factory.config.PropertyResourceConfigurerTests" tests="31" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:25:17" hostname="wangweilideMBP.lan" time="0.05">
+<testsuite name="org.springframework.beans.factory.config.PropertyResourceConfigurerTests" tests="31" skipped="0" failures="0" errors="0" timestamp="2021-05-09T12:40:05" hostname="wangweilidembp" time="0.071">
   <properties/>
-  <testcase name="testPropertyOverrideConfigurerWithPropertiesFile()" classname="org.springframework.beans.factory.config.PropertyResourceConfigurerTests" time="0.001"/>
-  <testcase name="testPropertyPlaceholderConfigurerWithEmptyStringInPlaceholderAsNull()" classname="org.springframework.beans.factory.config.PropertyResourceConfigurerTests" time="0.002"/>
+  <testcase name="testPropertyOverrideConfigurerWithPropertiesFile()" classname="org.springframework.beans.factory.config.PropertyResourceConfigurerTests" time="0.003"/>
+  <testcase name="testPropertyPlaceholderConfigurerWithEmptyStringInPlaceholderAsNull()" classname="org.springframework.beans.factory.config.PropertyResourceConfigurerTests" time="0.001"/>
   <testcase name="testPropertyPlaceholderConfigurerWithCircularReference()" classname="org.springframework.beans.factory.config.PropertyResourceConfigurerTests" time="0.001"/>
-  <testcase name="testPropertyPlaceholderConfigurerWithDefaultProperties()" classname="org.springframework.beans.factory.config.PropertyResourceConfigurerTests" time="0.0"/>
+  <testcase name="testPropertyPlaceholderConfigurerWithDefaultProperties()" classname="org.springframework.beans.factory.config.PropertyResourceConfigurerTests" time="0.001"/>
   <testcase name="testPropertyOverrideConfigurerWithHeldProperties()" classname="org.springframework.beans.factory.config.PropertyResourceConfigurerTests" time="0.003"/>
   <testcase name="testPropertyOverrideConfigurerWithNestedMapPropertyAndDotInMapKey()" classname="org.springframework.beans.factory.config.PropertyResourceConfigurerTests" time="0.001"/>
-  <testcase name="testPropertyPlaceholderConfigurerWithUnresolvableSystemProperty()" classname="org.springframework.beans.factory.config.PropertyResourceConfigurerTests" time="0.001"/>
-  <testcase name="testPropertyPlaceholderConfigurerWithOverridingSystemProperty()" classname="org.springframework.beans.factory.config.PropertyResourceConfigurerTests" time="0.0"/>
+  <testcase name="testPropertyPlaceholderConfigurerWithUnresolvableSystemProperty()" classname="org.springframework.beans.factory.config.PropertyResourceConfigurerTests" time="0.013"/>
+  <testcase name="testPropertyPlaceholderConfigurerWithOverridingSystemProperty()" classname="org.springframework.beans.factory.config.PropertyResourceConfigurerTests" time="0.001"/>
   <testcase name="testPropertyPlaceholderConfigurerWithIgnoreUnresolvablePlaceholder()" classname="org.springframework.beans.factory.config.PropertyResourceConfigurerTests" time="0.001"/>
   <testcase name="testPropertyPlaceholderConfigurerWithSystemPropertyNotUsed()" classname="org.springframework.beans.factory.config.PropertyResourceConfigurerTests" time="0.0"/>
   <testcase name="testPropertyPlaceholderConfigurerWithInlineDefault()" classname="org.springframework.beans.factory.config.PropertyResourceConfigurerTests" time="0.001"/>
   <testcase name="testPropertyPlaceholderConfigurerWithEmptyStringAsNull()" classname="org.springframework.beans.factory.config.PropertyResourceConfigurerTests" time="0.0"/>
-  <testcase name="testPropertyOverrideConfigurerWithIgnoreInvalidKeys()" classname="org.springframework.beans.factory.config.PropertyResourceConfigurerTests" time="0.001"/>
-  <testcase name="testPropertyOverrideConfigurerWithPropertiesXmlFile()" classname="org.springframework.beans.factory.config.PropertyResourceConfigurerTests" time="0.004"/>
-  <testcase name="testPreferencesPlaceholderConfigurerWithCustomTreePaths()" classname="org.springframework.beans.factory.config.PropertyResourceConfigurerTests" time="0.003"/>
+  <testcase name="testPropertyOverrideConfigurerWithIgnoreInvalidKeys()" classname="org.springframework.beans.factory.config.PropertyResourceConfigurerTests" time="0.0"/>
+  <testcase name="testPropertyOverrideConfigurerWithPropertiesXmlFile()" classname="org.springframework.beans.factory.config.PropertyResourceConfigurerTests" time="0.008"/>
+  <testcase name="testPreferencesPlaceholderConfigurerWithCustomTreePaths()" classname="org.springframework.beans.factory.config.PropertyResourceConfigurerTests" time="0.004"/>
   <testcase name="testPreferencesPlaceholderConfigurer()" classname="org.springframework.beans.factory.config.PropertyResourceConfigurerTests" time="0.001"/>
-  <testcase name="testPropertyPlaceholderConfigurerWithParentChildSeparation()" classname="org.springframework.beans.factory.config.PropertyResourceConfigurerTests" time="0.004"/>
-  <testcase name="testPropertyOverrideConfigurerWithNestedPropertyAndDotInBeanName()" classname="org.springframework.beans.factory.config.PropertyResourceConfigurerTests" time="0.0"/>
-  <testcase name="testPropertyPlaceholderConfigurerWithAliases()" classname="org.springframework.beans.factory.config.PropertyResourceConfigurerTests" time="0.005"/>
+  <testcase name="testPropertyPlaceholderConfigurerWithParentChildSeparation()" classname="org.springframework.beans.factory.config.PropertyResourceConfigurerTests" time="0.01"/>
+  <testcase name="testPropertyOverrideConfigurerWithNestedPropertyAndDotInBeanName()" classname="org.springframework.beans.factory.config.PropertyResourceConfigurerTests" time="0.001"/>
+  <testcase name="testPropertyPlaceholderConfigurerWithAliases()" classname="org.springframework.beans.factory.config.PropertyResourceConfigurerTests" time="0.001"/>
   <testcase name="testPropertyPlaceholderConfigurerWithUnresolvablePlaceholder()" classname="org.springframework.beans.factory.config.PropertyResourceConfigurerTests" time="0.001"/>
   <testcase name="testPropertyOverrideConfigurerWithConvertProperties()" classname="org.springframework.beans.factory.config.PropertyResourceConfigurerTests" time="0.001"/>
-  <testcase name="testPropertyPlaceholderConfigurerWithSelfReferencingPlaceholderInAlias()" classname="org.springframework.beans.factory.config.PropertyResourceConfigurerTests" time="0.0"/>
+  <testcase name="testPropertyPlaceholderConfigurerWithSelfReferencingPlaceholderInAlias()" classname="org.springframework.beans.factory.config.PropertyResourceConfigurerTests" time="0.001"/>
   <testcase name="testPropertyOverrideConfigurerWithInvalidKey()" classname="org.springframework.beans.factory.config.PropertyResourceConfigurerTests" time="0.001"/>
-  <testcase name="testPreferencesPlaceholderConfigurerWithPathInPlaceholder()" classname="org.springframework.beans.factory.config.PropertyResourceConfigurerTests" time="0.001"/>
+  <testcase name="testPreferencesPlaceholderConfigurerWithPathInPlaceholder()" classname="org.springframework.beans.factory.config.PropertyResourceConfigurerTests" time="0.002"/>
   <testcase name="testPropertyOverrideConfigurerWithNestedProperty()" classname="org.springframework.beans.factory.config.PropertyResourceConfigurerTests" time="0.0"/>
-  <testcase name="testPropertyPlaceholderConfigurer()" classname="org.springframework.beans.factory.config.PropertyResourceConfigurerTests" time="0.001"/>
-  <testcase name="testPropertyPlaceholderConfigurerWithPlaceholderInAlias()" classname="org.springframework.beans.factory.config.PropertyResourceConfigurerTests" time="0.001"/>
+  <testcase name="testPropertyPlaceholderConfigurer()" classname="org.springframework.beans.factory.config.PropertyResourceConfigurerTests" time="0.003"/>
+  <testcase name="testPropertyPlaceholderConfigurerWithPlaceholderInAlias()" classname="org.springframework.beans.factory.config.PropertyResourceConfigurerTests" time="0.0"/>
   <testcase name="testPropertyPlaceholderConfigurerWithNestedPlaceholderInKey()" classname="org.springframework.beans.factory.config.PropertyResourceConfigurerTests" time="0.0"/>
   <testcase name="testPropertyOverrideConfigurer()" classname="org.springframework.beans.factory.config.PropertyResourceConfigurerTests" time="0.001"/>
   <testcase name="testPropertyPlaceholderConfigurerWithSystemPropertyFallback()" classname="org.springframework.beans.factory.config.PropertyResourceConfigurerTests" time="0.0"/>

@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.http.codec.json.Jackson2TokenizerTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:42:14" hostname="wangweilideMacBook-Pro.local" time="0.044">
+<testsuite name="org.springframework.http.codec.json.Jackson2TokenizerTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2021-05-09T12:44:25" hostname="wangweilidembp" time="0.039">
   <properties/>
   <testcase name="jsonEOFExceptionIsWrappedAsDecodingError()" classname="org.springframework.http.codec.json.Jackson2TokenizerTests" time="0.001"/>
   <testcase name="[1] useBigDecimalForFloats=false" classname="org.springframework.http.codec.json.Jackson2TokenizerTests" time="0.001"/>
   <testcase name="[2] useBigDecimalForFloats=true" classname="org.springframework.http.codec.json.Jackson2TokenizerTests" time="0.0"/>
   <testcase name="errorInStream()" classname="org.springframework.http.codec.json.Jackson2TokenizerTests" time="0.001"/>
-  <testcase name="tokenizeArrayElements()" classname="org.springframework.http.codec.json.Jackson2TokenizerTests" time="0.013"/>
-  <testcase name="testLimit()" classname="org.springframework.http.codec.json.Jackson2TokenizerTests" time="0.008"/>
-  <testcase name="doNotTokenizeArrayElements()" classname="org.springframework.http.codec.json.Jackson2TokenizerTests" time="0.009"/>
-  <testcase name="testLimitTokenized()" classname="org.springframework.http.codec.json.Jackson2TokenizerTests" time="0.005"/>
-  <testcase name="tokenizeStream()" classname="org.springframework.http.codec.json.Jackson2TokenizerTests" time="0.003"/>
+  <testcase name="tokenizeArrayElements()" classname="org.springframework.http.codec.json.Jackson2TokenizerTests" time="0.011"/>
+  <testcase name="testLimit()" classname="org.springframework.http.codec.json.Jackson2TokenizerTests" time="0.005"/>
+  <testcase name="doNotTokenizeArrayElements()" classname="org.springframework.http.codec.json.Jackson2TokenizerTests" time="0.007"/>
+  <testcase name="testLimitTokenized()" classname="org.springframework.http.codec.json.Jackson2TokenizerTests" time="0.007"/>
+  <testcase name="tokenizeStream()" classname="org.springframework.http.codec.json.Jackson2TokenizerTests" time="0.005"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

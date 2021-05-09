@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.web.context.request.SessionScopeTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:41:06" hostname="wangweilideMacBook-Pro.local" time="0.115">
+<testsuite name="org.springframework.web.context.request.SessionScopeTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-05-09T12:43:18" hostname="wangweilidembp" time="0.116">
   <properties/>
-  <testcase name="destructionWithSessionSerializationAndSerializableBeanPostProcessor()" classname="org.springframework.web.context.request.SessionScopeTests" time="0.044"/>
-  <testcase name="destructionAtSessionTermination()" classname="org.springframework.web.context.request.SessionScopeTests" time="0.018"/>
-  <testcase name="getFromScopeWithSingleAccess()" classname="org.springframework.web.context.request.SessionScopeTests" time="0.008"/>
-  <testcase name="getFromScope()" classname="org.springframework.web.context.request.SessionScopeTests" time="0.008"/>
-  <testcase name="destructionWithSessionSerialization()" classname="org.springframework.web.context.request.SessionScopeTests" time="0.023"/>
-  <testcase name="destructionWithSessionSerializationAndBeanPostProcessor()" classname="org.springframework.web.context.request.SessionScopeTests" time="0.011"/>
+  <testcase name="destructionWithSessionSerializationAndSerializableBeanPostProcessor()" classname="org.springframework.web.context.request.SessionScopeTests" time="0.048"/>
+  <testcase name="destructionAtSessionTermination()" classname="org.springframework.web.context.request.SessionScopeTests" time="0.008"/>
+  <testcase name="getFromScopeWithSingleAccess()" classname="org.springframework.web.context.request.SessionScopeTests" time="0.009"/>
+  <testcase name="getFromScope()" classname="org.springframework.web.context.request.SessionScopeTests" time="0.024"/>
+  <testcase name="destructionWithSessionSerialization()" classname="org.springframework.web.context.request.SessionScopeTests" time="0.013"/>
+  <testcase name="destructionWithSessionSerializationAndBeanPostProcessor()" classname="org.springframework.web.context.request.SessionScopeTests" time="0.007"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

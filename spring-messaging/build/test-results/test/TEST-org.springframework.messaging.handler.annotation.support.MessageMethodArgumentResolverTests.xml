@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.messaging.handler.annotation.support.MessageMethodArgumentResolverTests" tests="15" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:29:34" hostname="wangweilideMBP.lan" time="0.952">
+<testsuite name="org.springframework.messaging.handler.annotation.support.MessageMethodArgumentResolverTests" tests="15" skipped="0" failures="0" errors="0" timestamp="2021-05-09T12:40:34" hostname="wangweilidembp" time="1.015">
   <properties/>
-  <testcase name="resolveWithPayloadTypeSubclass()" classname="org.springframework.messaging.handler.annotation.support.MessageMethodArgumentResolverTests" time="0.084"/>
-  <testcase name="resolveWithConversion()" classname="org.springframework.messaging.handler.annotation.support.MessageMethodArgumentResolverTests" time="0.073"/>
+  <testcase name="resolveWithPayloadTypeSubclass()" classname="org.springframework.messaging.handler.annotation.support.MessageMethodArgumentResolverTests" time="0.081"/>
+  <testcase name="resolveWithConversion()" classname="org.springframework.messaging.handler.annotation.support.MessageMethodArgumentResolverTests" time="0.036"/>
   <testcase name="resolveWithConversionEmptyPayload()" classname="org.springframework.messaging.handler.annotation.support.MessageMethodArgumentResolverTests" time="0.002"/>
-  <testcase name="resolveWithJacksonConverter()" classname="org.springframework.messaging.handler.annotation.support.MessageMethodArgumentResolverTests" time="0.758"/>
-  <testcase name="resolveWithConversionNeededButNoConverter()" classname="org.springframework.messaging.handler.annotation.support.MessageMethodArgumentResolverTests" time="0.001"/>
-  <testcase name="resolveWithPayloadTypeUpperBound()" classname="org.springframework.messaging.handler.annotation.support.MessageMethodArgumentResolverTests" time="0.0"/>
-  <testcase name="resolveWithMessageSubclassAndPayloadWildcard()" classname="org.springframework.messaging.handler.annotation.support.MessageMethodArgumentResolverTests" time="0.001"/>
-  <testcase name="resolveWithConversionEmptyPayloadButNoConverter()" classname="org.springframework.messaging.handler.annotation.support.MessageMethodArgumentResolverTests" time="0.001"/>
+  <testcase name="resolveWithJacksonConverter()" classname="org.springframework.messaging.handler.annotation.support.MessageMethodArgumentResolverTests" time="0.832"/>
+  <testcase name="resolveWithConversionNeededButNoConverter()" classname="org.springframework.messaging.handler.annotation.support.MessageMethodArgumentResolverTests" time="0.002"/>
+  <testcase name="resolveWithPayloadTypeUpperBound()" classname="org.springframework.messaging.handler.annotation.support.MessageMethodArgumentResolverTests" time="0.001"/>
+  <testcase name="resolveWithMessageSubclassAndPayloadWildcard()" classname="org.springframework.messaging.handler.annotation.support.MessageMethodArgumentResolverTests" time="0.014"/>
+  <testcase name="resolveWithConversionEmptyPayloadButNoConverter()" classname="org.springframework.messaging.handler.annotation.support.MessageMethodArgumentResolverTests" time="0.01"/>
   <testcase name="resolveWithPayloadTypeAsWildcardAndNoConverter()" classname="org.springframework.messaging.handler.annotation.support.MessageMethodArgumentResolverTests" time="0.001"/>
-  <testcase name="resolveWithPayloadTypeOutOfBound()" classname="org.springframework.messaging.handler.annotation.support.MessageMethodArgumentResolverTests" time="0.005"/>
-  <testcase name="resolveMessageSubclassMatch()" classname="org.springframework.messaging.handler.annotation.support.MessageMethodArgumentResolverTests" time="0.003"/>
+  <testcase name="resolveWithPayloadTypeOutOfBound()" classname="org.springframework.messaging.handler.annotation.support.MessageMethodArgumentResolverTests" time="0.002"/>
+  <testcase name="resolveMessageSubclassMatch()" classname="org.springframework.messaging.handler.annotation.support.MessageMethodArgumentResolverTests" time="0.001"/>
   <testcase name="resolveWithPayloadTypeAsWildcard()" classname="org.springframework.messaging.handler.annotation.support.MessageMethodArgumentResolverTests" time="0.001"/>
   <testcase name="resolveWithConversionNoMatchingConverter()" classname="org.springframework.messaging.handler.annotation.support.MessageMethodArgumentResolverTests" time="0.002"/>
-  <testcase name="resolveWithMatchingPayloadType()" classname="org.springframework.messaging.handler.annotation.support.MessageMethodArgumentResolverTests" time="0.001"/>
+  <testcase name="resolveWithMatchingPayloadType()" classname="org.springframework.messaging.handler.annotation.support.MessageMethodArgumentResolverTests" time="0.01"/>
   <testcase name="resolveWithWrongMessageType()" classname="org.springframework.messaging.handler.annotation.support.MessageMethodArgumentResolverTests" time="0.002"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.web.filter.ShallowEtagHeaderFilterTests" tests="11" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:42:08" hostname="wangweilideMacBook-Pro.local" time="0.018">
+<testsuite name="org.springframework.web.filter.ShallowEtagHeaderFilterTests" tests="11" skipped="0" failures="0" errors="0" timestamp="2021-05-09T12:44:20" hostname="wangweilidembp" time="0.008">
   <properties/>
-  <testcase name="filterMatchWeakEtag()" classname="org.springframework.web.filter.ShallowEtagHeaderFilterTests" time="0.009"/>
+  <testcase name="filterMatchWeakEtag()" classname="org.springframework.web.filter.ShallowEtagHeaderFilterTests" time="0.004"/>
   <testcase name="filterWriter()" classname="org.springframework.web.filter.ShallowEtagHeaderFilterTests" time="0.001"/>
-  <testcase name="filterSendError()" classname="org.springframework.web.filter.ShallowEtagHeaderFilterTests" time="0.001"/>
+  <testcase name="filterSendError()" classname="org.springframework.web.filter.ShallowEtagHeaderFilterTests" time="0.0"/>
   <testcase name="filterSendRedirect()" classname="org.springframework.web.filter.ShallowEtagHeaderFilterTests" time="0.0"/>
-  <testcase name="filterMatch()" classname="org.springframework.web.filter.ShallowEtagHeaderFilterTests" time="0.0"/>
-  <testcase name="filterNoMatchWeakETag()" classname="org.springframework.web.filter.ShallowEtagHeaderFilterTests" time="0.002"/>
+  <testcase name="filterMatch()" classname="org.springframework.web.filter.ShallowEtagHeaderFilterTests" time="0.001"/>
+  <testcase name="filterNoMatchWeakETag()" classname="org.springframework.web.filter.ShallowEtagHeaderFilterTests" time="0.0"/>
   <testcase name="filterWriterWithDisabledCaching()" classname="org.springframework.web.filter.ShallowEtagHeaderFilterTests" time="0.001"/>
   <testcase name="isEligibleForEtag()" classname="org.springframework.web.filter.ShallowEtagHeaderFilterTests" time="0.0"/>
-  <testcase name="filterFlushResponse()" classname="org.springframework.web.filter.ShallowEtagHeaderFilterTests" time="0.001"/>
-  <testcase name="filterSendErrorMessage()" classname="org.springframework.web.filter.ShallowEtagHeaderFilterTests" time="0.0"/>
-  <testcase name="filterNoMatch()" classname="org.springframework.web.filter.ShallowEtagHeaderFilterTests" time="0.001"/>
+  <testcase name="filterFlushResponse()" classname="org.springframework.web.filter.ShallowEtagHeaderFilterTests" time="0.0"/>
+  <testcase name="filterSendErrorMessage()" classname="org.springframework.web.filter.ShallowEtagHeaderFilterTests" time="0.001"/>
+  <testcase name="filterNoMatch()" classname="org.springframework.web.filter.ShallowEtagHeaderFilterTests" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

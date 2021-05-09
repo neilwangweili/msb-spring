@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.core.io.buffer.DataBufferTests" tests="228" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:11:25" hostname="wangweilideMBP.lan" time="0.245">
+<testsuite name="org.springframework.core.io.buffer.DataBufferTests" tests="228" skipped="0" failures="0" errors="0" timestamp="2021-05-09T12:39:22" hostname="wangweilidembp" time="0.285">
   <properties/>
-  <testcase name="[1] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="[1] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
   <testcase name="[2] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
   <testcase name="[3] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
   <testcase name="[4] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
@@ -9,42 +9,24 @@
   <testcase name="[6] DefaultDataBufferFactory - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
   <testcase name="[1] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
   <testcase name="[2] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
-  <testcase name="[3] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
-  <testcase name="[4] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="[3] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="[4] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
   <testcase name="[5] DefaultDataBufferFactory - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
   <testcase name="[6] DefaultDataBufferFactory - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
   <testcase name="[1] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
-  <testcase name="[2] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="[2] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
   <testcase name="[3] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
-  <testcase name="[4] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
-  <testcase name="[5] DefaultDataBufferFactory - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.004"/>
+  <testcase name="[4] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="[5] DefaultDataBufferFactory - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.003"/>
   <testcase name="[6] DefaultDataBufferFactory - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
-  <testcase name="[1] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="[1] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
   <testcase name="[2] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
   <testcase name="[3] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
-  <testcase name="[4] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="[4] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
   <testcase name="[5] DefaultDataBufferFactory - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
   <testcase name="[6] DefaultDataBufferFactory - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
   <testcase name="[1] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
   <testcase name="[2] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
-  <testcase name="[3] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
-  <testcase name="[4] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
-  <testcase name="[5] DefaultDataBufferFactory - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
-  <testcase name="[6] DefaultDataBufferFactory - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
-  <testcase name="[1] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
-  <testcase name="[2] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
-  <testcase name="[3] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
-  <testcase name="[4] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
-  <testcase name="[5] DefaultDataBufferFactory - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
-  <testcase name="[6] DefaultDataBufferFactory - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
-  <testcase name="[1] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
-  <testcase name="[2] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
-  <testcase name="[3] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
-  <testcase name="[4] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
-  <testcase name="[5] DefaultDataBufferFactory - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
-  <testcase name="[6] DefaultDataBufferFactory - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
-  <testcase name="[1] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
-  <testcase name="[2] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
   <testcase name="[3] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
   <testcase name="[4] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
   <testcase name="[5] DefaultDataBufferFactory - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
@@ -53,101 +35,101 @@
   <testcase name="[2] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
   <testcase name="[3] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
   <testcase name="[4] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
-  <testcase name="[5] DefaultDataBufferFactory - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="[5] DefaultDataBufferFactory - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
   <testcase name="[6] DefaultDataBufferFactory - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
   <testcase name="[1] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
-  <testcase name="[2] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="[2] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="[3] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="[4] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="[5] DefaultDataBufferFactory - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="[6] DefaultDataBufferFactory - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="[1] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="[2] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
   <testcase name="[3] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
   <testcase name="[4] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
   <testcase name="[5] DefaultDataBufferFactory - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
   <testcase name="[6] DefaultDataBufferFactory - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="[1] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="[2] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="[3] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="[4] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="[5] DefaultDataBufferFactory - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="[6] DefaultDataBufferFactory - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="[1] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="[2] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="[3] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="[4] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="[5] DefaultDataBufferFactory - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="[6] DefaultDataBufferFactory - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="[1] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="[2] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="[3] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="[4] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="[5] DefaultDataBufferFactory - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="[6] DefaultDataBufferFactory - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="[1] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="[2] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="[3] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="[4] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="[5] DefaultDataBufferFactory - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="[6] DefaultDataBufferFactory - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="[1] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.003"/>
+  <testcase name="[2] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="[3] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="[4] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="[5] DefaultDataBufferFactory - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="[6] DefaultDataBufferFactory - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="[1] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="[2] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="[3] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="[4] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="[5] DefaultDataBufferFactory - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="[6] DefaultDataBufferFactory - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="[1] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="[2] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="[3] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="[4] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="[5] DefaultDataBufferFactory - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="[6] DefaultDataBufferFactory - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="[1] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="[2] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="[3] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="[4] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="[5] DefaultDataBufferFactory - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="[6] DefaultDataBufferFactory - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="[1] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="[2] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="[3] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="[4] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="[5] DefaultDataBufferFactory - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="[6] DefaultDataBufferFactory - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
   <testcase name="[1] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.002"/>
   <testcase name="[2] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
   <testcase name="[3] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
-  <testcase name="[4] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
-  <testcase name="[5] DefaultDataBufferFactory - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
-  <testcase name="[6] DefaultDataBufferFactory - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
-  <testcase name="[1] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
-  <testcase name="[2] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
-  <testcase name="[3] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
-  <testcase name="[4] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
-  <testcase name="[5] DefaultDataBufferFactory - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="[4] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="[5] DefaultDataBufferFactory - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
   <testcase name="[6] DefaultDataBufferFactory - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
-  <testcase name="[1] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.005"/>
-  <testcase name="[2] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
-  <testcase name="[3] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
-  <testcase name="[4] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
-  <testcase name="[5] DefaultDataBufferFactory - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
-  <testcase name="[6] DefaultDataBufferFactory - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
-  <testcase name="[1] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
-  <testcase name="[2] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
-  <testcase name="[3] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
-  <testcase name="[4] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
-  <testcase name="[5] DefaultDataBufferFactory - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
-  <testcase name="[6] DefaultDataBufferFactory - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
-  <testcase name="[1] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
-  <testcase name="[2] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
-  <testcase name="[3] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
-  <testcase name="[4] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
-  <testcase name="[5] DefaultDataBufferFactory - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
-  <testcase name="[6] DefaultDataBufferFactory - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
-  <testcase name="[1] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
-  <testcase name="[2] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
-  <testcase name="[3] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
-  <testcase name="[4] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
-  <testcase name="[5] DefaultDataBufferFactory - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
-  <testcase name="[6] DefaultDataBufferFactory - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
   <testcase name="[1] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
   <testcase name="[2] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
   <testcase name="[3] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
   <testcase name="[4] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
   <testcase name="[5] DefaultDataBufferFactory - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
-  <testcase name="[6] DefaultDataBufferFactory - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="[6] DefaultDataBufferFactory - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
   <testcase name="[1] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
   <testcase name="[2] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
   <testcase name="[3] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
-  <testcase name="[4] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.002"/>
-  <testcase name="[5] DefaultDataBufferFactory - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
-  <testcase name="[6] DefaultDataBufferFactory - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
-  <testcase name="[1] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
-  <testcase name="[2] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
-  <testcase name="[3] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
-  <testcase name="[4] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
-  <testcase name="[5] DefaultDataBufferFactory - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
-  <testcase name="[6] DefaultDataBufferFactory - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
-  <testcase name="[1] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
-  <testcase name="[2] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
-  <testcase name="[3] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
-  <testcase name="[4] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
-  <testcase name="[5] DefaultDataBufferFactory - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
-  <testcase name="[6] DefaultDataBufferFactory - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
-  <testcase name="[1] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
-  <testcase name="[2] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
-  <testcase name="[3] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
-  <testcase name="[4] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
-  <testcase name="[5] DefaultDataBufferFactory - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
-  <testcase name="[6] DefaultDataBufferFactory - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
-  <testcase name="[1] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
-  <testcase name="[2] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
-  <testcase name="[3] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
-  <testcase name="[4] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
-  <testcase name="[5] DefaultDataBufferFactory - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
-  <testcase name="[6] DefaultDataBufferFactory - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
-  <testcase name="[1] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
-  <testcase name="[2] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
-  <testcase name="[3] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
   <testcase name="[4] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
   <testcase name="[5] DefaultDataBufferFactory - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
   <testcase name="[6] DefaultDataBufferFactory - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
   <testcase name="[1] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
   <testcase name="[2] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
   <testcase name="[3] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
-  <testcase name="[4] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="[4] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
   <testcase name="[5] DefaultDataBufferFactory - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
   <testcase name="[6] DefaultDataBufferFactory - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
-  <testcase name="[1] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
-  <testcase name="[2] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
-  <testcase name="[3] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="[1] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="[2] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="[3] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
   <testcase name="[4] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
   <testcase name="[5] DefaultDataBufferFactory - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
   <testcase name="[6] DefaultDataBufferFactory - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
@@ -158,75 +140,93 @@
   <testcase name="[5] DefaultDataBufferFactory - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
   <testcase name="[6] DefaultDataBufferFactory - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
   <testcase name="[1] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
-  <testcase name="[2] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
-  <testcase name="[3] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
-  <testcase name="[4] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
-  <testcase name="[5] DefaultDataBufferFactory - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
-  <testcase name="[6] DefaultDataBufferFactory - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
-  <testcase name="[1] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
   <testcase name="[2] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
-  <testcase name="[3] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
-  <testcase name="[4] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
-  <testcase name="[5] DefaultDataBufferFactory - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
-  <testcase name="[6] DefaultDataBufferFactory - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
-  <testcase name="[1] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
-  <testcase name="[2] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
-  <testcase name="[3] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
-  <testcase name="[4] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
-  <testcase name="[5] DefaultDataBufferFactory - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
-  <testcase name="[6] DefaultDataBufferFactory - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
-  <testcase name="[1] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
-  <testcase name="[2] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
-  <testcase name="[3] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
-  <testcase name="[4] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
-  <testcase name="[5] DefaultDataBufferFactory - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
-  <testcase name="[6] DefaultDataBufferFactory - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
-  <testcase name="[1] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
-  <testcase name="[2] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
-  <testcase name="[3] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
-  <testcase name="[4] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
-  <testcase name="[5] DefaultDataBufferFactory - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
-  <testcase name="[6] DefaultDataBufferFactory - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
-  <testcase name="[1] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
-  <testcase name="[2] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
   <testcase name="[3] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
   <testcase name="[4] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
   <testcase name="[5] DefaultDataBufferFactory - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
   <testcase name="[6] DefaultDataBufferFactory - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
-  <testcase name="[1] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
-  <testcase name="[2] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
-  <testcase name="[3] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
-  <testcase name="[4] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
-  <testcase name="[5] DefaultDataBufferFactory - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
-  <testcase name="[6] DefaultDataBufferFactory - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
-  <testcase name="[1] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="[1] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
   <testcase name="[2] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
   <testcase name="[3] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
   <testcase name="[4] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
   <testcase name="[5] DefaultDataBufferFactory - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
   <testcase name="[6] DefaultDataBufferFactory - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
-  <testcase name="[1] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
-  <testcase name="[2] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
-  <testcase name="[3] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="[1] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="[2] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="[3] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
   <testcase name="[4] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
-  <testcase name="[5] DefaultDataBufferFactory - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="[5] DefaultDataBufferFactory - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="[6] DefaultDataBufferFactory - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="[1] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="[2] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="[3] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="[4] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="[5] DefaultDataBufferFactory - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
   <testcase name="[6] DefaultDataBufferFactory - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
   <testcase name="[1] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
   <testcase name="[2] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
-  <testcase name="[3] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="[3] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="[4] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="[5] DefaultDataBufferFactory - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="[6] DefaultDataBufferFactory - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="[1] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="[2] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="[3] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
   <testcase name="[4] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
   <testcase name="[5] DefaultDataBufferFactory - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
-  <testcase name="[6] DefaultDataBufferFactory - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="[6] DefaultDataBufferFactory - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="[1] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="[2] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="[3] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="[4] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="[5] DefaultDataBufferFactory - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="[6] DefaultDataBufferFactory - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
   <testcase name="[1] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
   <testcase name="[2] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
   <testcase name="[3] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
   <testcase name="[4] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
   <testcase name="[5] DefaultDataBufferFactory - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
   <testcase name="[6] DefaultDataBufferFactory - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
-  <testcase name="[1] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.002"/>
+  <testcase name="[1] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="[2] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="[3] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="[4] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="[5] DefaultDataBufferFactory - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="[6] DefaultDataBufferFactory - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="[1] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="[2] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="[3] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="[4] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="[5] DefaultDataBufferFactory - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="[6] DefaultDataBufferFactory - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="[1] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
   <testcase name="[2] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
   <testcase name="[3] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
   <testcase name="[4] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="[5] DefaultDataBufferFactory - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="[6] DefaultDataBufferFactory - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="[1] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="[2] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="[3] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="[4] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="[5] DefaultDataBufferFactory - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="[6] DefaultDataBufferFactory - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="[1] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="[2] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="[3] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="[4] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="[5] DefaultDataBufferFactory - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="[6] DefaultDataBufferFactory - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="[1] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="[2] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="[3] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="[4] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="[5] DefaultDataBufferFactory - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="[6] DefaultDataBufferFactory - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="[1] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="[2] NettyDataBufferFactory - UnpooledByteBufAllocator - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="[3] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="[4] NettyDataBufferFactory - PooledByteBufAllocator - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
   <testcase name="[5] DefaultDataBufferFactory - preferDirect = true" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
   <testcase name="[6] DefaultDataBufferFactory - preferDirect = false" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
   <system-out><![CDATA[]]></system-out>

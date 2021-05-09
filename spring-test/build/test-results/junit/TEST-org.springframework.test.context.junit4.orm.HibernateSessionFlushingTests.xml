@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.test.context.junit4.orm.HibernateSessionFlushingTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:43:26" hostname="wangweilideMBP.lan" time="0.503">
+<testsuite name="org.springframework.test.context.junit4.orm.HibernateSessionFlushingTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-05-09T12:42:40" hostname="wangweilidembp" time="0.22">
   <properties/>
-  <testcase name="findSamWithReadOnlySession" classname="org.springframework.test.context.junit4.orm.HibernateSessionFlushingTests" time="0.474"/>
-  <testcase name="saveJuergenWithNullDriversLicense" classname="org.springframework.test.context.junit4.orm.HibernateSessionFlushingTests" time="0.009"/>
-  <testcase name="findSam" classname="org.springframework.test.context.junit4.orm.HibernateSessionFlushingTests" time="0.002"/>
-  <testcase name="updateSamWithNullDriversLicenseWithSessionFlush" classname="org.springframework.test.context.junit4.orm.HibernateSessionFlushingTests" time="0.01"/>
+  <testcase name="findSamWithReadOnlySession" classname="org.springframework.test.context.junit4.orm.HibernateSessionFlushingTests" time="0.195"/>
+  <testcase name="saveJuergenWithNullDriversLicense" classname="org.springframework.test.context.junit4.orm.HibernateSessionFlushingTests" time="0.007"/>
+  <testcase name="findSam" classname="org.springframework.test.context.junit4.orm.HibernateSessionFlushingTests" time="0.001"/>
+  <testcase name="updateSamWithNullDriversLicenseWithSessionFlush" classname="org.springframework.test.context.junit4.orm.HibernateSessionFlushingTests" time="0.009"/>
   <testcase name="saveJuergenWithDriversLicense" classname="org.springframework.test.context.junit4.orm.HibernateSessionFlushingTests" time="0.005"/>
   <testcase name="updateSamWithNullDriversLicenseWithoutSessionFlush" classname="org.springframework.test.context.junit4.orm.HibernateSessionFlushingTests" time="0.002"/>
-  <system-out><![CDATA[17:43:26.751 [Test worker] ERROR o.h.e.j.s.SqlExceptionHelper - integrity constraint violation: NOT NULL check constraint; SYS_CT_10095 table: PERSON column: DRIVERS_LICENSE_ID
-17:43:26.759 [Test worker] ERROR o.h.e.j.s.SqlExceptionHelper - integrity constraint violation: NOT NULL check constraint; SYS_CT_10095 table: PERSON column: DRIVERS_LICENSE_ID
+  <system-out><![CDATA[20:42:41.078 [Test worker] ERROR o.h.e.j.s.SqlExceptionHelper - integrity constraint violation: NOT NULL check constraint; SYS_CT_10095 table: PERSON column: DRIVERS_LICENSE_ID
+20:42:41.085 [Test worker] ERROR o.h.e.j.s.SqlExceptionHelper - integrity constraint violation: NOT NULL check constraint; SYS_CT_10095 table: PERSON column: DRIVERS_LICENSE_ID
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

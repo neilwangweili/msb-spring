@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.test.context.support.GenericPropertiesContextLoaderTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:42:48" hostname="wangweilideMBP.lan" time="0.0">
+<testsuite name="org.springframework.test.context.support.GenericPropertiesContextLoaderTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-05-09T12:41:56" hostname="wangweilidembp" time="0.002">
   <properties/>
-  <testcase name="configMustNotContainAnnotatedClasses()" classname="org.springframework.test.context.support.GenericPropertiesContextLoaderTests" time="0.0"/>
-  <system-out><![CDATA[17:42:48.211 [Test worker] ERROR o.s.t.c.s.AbstractGenericContextLoader - Test class [org.springframework.test.context.support.GenericPropertiesContextLoaderTests] has been configured with @ContextConfiguration's 'classes' attribute {class org.springframework.test.context.support.GenericPropertiesContextLoaderTests}, but GenericPropertiesContextLoader does not support annotated classes.
+  <testcase name="configMustNotContainAnnotatedClasses()" classname="org.springframework.test.context.support.GenericPropertiesContextLoaderTests" time="0.002"/>
+  <system-out><![CDATA[20:41:56.648 [Test worker] ERROR o.s.t.c.s.AbstractGenericContextLoader - Test class [org.springframework.test.context.support.GenericPropertiesContextLoaderTests] has been configured with @ContextConfiguration's 'classes' attribute {class org.springframework.test.context.support.GenericPropertiesContextLoaderTests}, but GenericPropertiesContextLoader does not support annotated classes.
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

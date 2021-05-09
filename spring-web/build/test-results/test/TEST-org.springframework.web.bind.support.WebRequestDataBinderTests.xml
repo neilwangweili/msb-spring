@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.web.bind.support.WebRequestDataBinderTests" tests="19" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:42:08" hostname="wangweilideMacBook-Pro.local" time="0.016">
+<testsuite name="org.springframework.web.bind.support.WebRequestDataBinderTests" tests="19" skipped="0" failures="0" errors="0" timestamp="2021-05-09T12:44:20" hostname="wangweilidembp" time="0.011">
   <properties/>
   <testcase name="testFieldDefault()" classname="org.springframework.web.bind.support.WebRequestDataBinderTests" time="0.0"/>
   <testcase name="testMultipleValuesForParameter()" classname="org.springframework.web.bind.support.WebRequestDataBinderTests" time="0.0"/>
   <testcase name="testNoParameters()" classname="org.springframework.web.bind.support.WebRequestDataBinderTests" time="0.0"/>
-  <testcase name="testFieldPrefixCausesFieldReset()" classname="org.springframework.web.bind.support.WebRequestDataBinderTests" time="0.001"/>
-  <testcase name="testBindingWithNestedObjectCreation()" classname="org.springframework.web.bind.support.WebRequestDataBinderTests" time="0.002"/>
-  <testcase name="testCollectionFieldsDefault()" classname="org.springframework.web.bind.support.WebRequestDataBinderTests" time="0.001"/>
+  <testcase name="testFieldPrefixCausesFieldReset()" classname="org.springframework.web.bind.support.WebRequestDataBinderTests" time="0.0"/>
+  <testcase name="testBindingWithNestedObjectCreation()" classname="org.springframework.web.bind.support.WebRequestDataBinderTests" time="0.001"/>
+  <testcase name="testCollectionFieldsDefault()" classname="org.springframework.web.bind.support.WebRequestDataBinderTests" time="0.0"/>
   <testcase name="testFieldDefaultPreemptsFieldMarker()" classname="org.springframework.web.bind.support.WebRequestDataBinderTests" time="0.0"/>
-  <testcase name="testMultipartFilesAsStringArray()" classname="org.springframework.web.bind.support.WebRequestDataBinderTests" time="0.001"/>
+  <testcase name="testMultipartFilesAsStringArray()" classname="org.springframework.web.bind.support.WebRequestDataBinderTests" time="0.0"/>
   <testcase name="testEnumBinding()" classname="org.springframework.web.bind.support.WebRequestDataBinderTests" time="0.002"/>
   <testcase name="testFieldDefaultNonBoolean()" classname="org.springframework.web.bind.support.WebRequestDataBinderTests" time="0.0"/>
   <testcase name="testMultipartFileAsString()" classname="org.springframework.web.bind.support.WebRequestDataBinderTests" time="0.0"/>
   <testcase name="testFieldPrefixCausesFieldResetWithIgnoreUnknownFields()" classname="org.springframework.web.bind.support.WebRequestDataBinderTests" time="0.0"/>
-  <testcase name="testFieldWithEmptyArrayIndex()" classname="org.springframework.web.bind.support.WebRequestDataBinderTests" time="0.001"/>
+  <testcase name="testFieldWithEmptyArrayIndex()" classname="org.springframework.web.bind.support.WebRequestDataBinderTests" time="0.0"/>
   <testcase name="testWithCommaSeparatedStringArray()" classname="org.springframework.web.bind.support.WebRequestDataBinderTests" time="0.0"/>
   <testcase name="testNoPrefix()" classname="org.springframework.web.bind.support.WebRequestDataBinderTests" time="0.0"/>
   <testcase name="testFieldDefaultWithNestedProperty()" classname="org.springframework.web.bind.support.WebRequestDataBinderTests" time="0.0"/>
-  <testcase name="testBindingWithNestedObjectCreationThroughAutoGrow()" classname="org.springframework.web.bind.support.WebRequestDataBinderTests" time="0.004"/>
-  <testcase name="testPrefix()" classname="org.springframework.web.bind.support.WebRequestDataBinderTests" time="0.0"/>
-  <testcase name="testMultipartFileAsStringArray()" classname="org.springframework.web.bind.support.WebRequestDataBinderTests" time="0.001"/>
+  <testcase name="testBindingWithNestedObjectCreationThroughAutoGrow()" classname="org.springframework.web.bind.support.WebRequestDataBinderTests" time="0.003"/>
+  <testcase name="testPrefix()" classname="org.springframework.web.bind.support.WebRequestDataBinderTests" time="0.001"/>
+  <testcase name="testMultipartFileAsStringArray()" classname="org.springframework.web.bind.support.WebRequestDataBinderTests" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

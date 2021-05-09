@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.messaging.rsocket.DefaultRSocketRequesterTests" tests="11" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:30:03" hostname="wangweilideMBP.lan" time="0.305">
+<testsuite name="org.springframework.messaging.rsocket.DefaultRSocketRequesterTests" tests="11" skipped="0" failures="0" errors="0" timestamp="2021-05-09T12:41:06" hostname="wangweilidembp" time="0.371">
   <properties/>
-  <testcase name="retrieveMonoWithoutData()" classname="org.springframework.messaging.rsocket.DefaultRSocketRequesterTests" time="0.0"/>
+  <testcase name="retrieveMonoWithoutData()" classname="org.springframework.messaging.rsocket.DefaultRSocketRequesterTests" time="0.004"/>
   <testcase name="sendWithoutData()" classname="org.springframework.messaging.rsocket.DefaultRSocketRequesterTests" time="0.001"/>
-  <testcase name="retrieveFluxVoid()" classname="org.springframework.messaging.rsocket.DefaultRSocketRequesterTests" time="0.023"/>
+  <testcase name="retrieveFluxVoid()" classname="org.springframework.messaging.rsocket.DefaultRSocketRequesterTests" time="0.033"/>
   <testcase name="fluxToMonoIsRejected()" classname="org.springframework.messaging.rsocket.DefaultRSocketRequesterTests" time="0.001"/>
-  <testcase name="retrieveFlux()" classname="org.springframework.messaging.rsocket.DefaultRSocketRequesterTests" time="0.033"/>
-  <testcase name="retrieveMono()" classname="org.springframework.messaging.rsocket.DefaultRSocketRequesterTests" time="0.012"/>
-  <testcase name="testSendWithAsyncMetadata()" classname="org.springframework.messaging.rsocket.DefaultRSocketRequesterTests" time="0.005"/>
-  <testcase name="sendFlux()" classname="org.springframework.messaging.rsocket.DefaultRSocketRequesterTests" time="0.141"/>
-  <testcase name="sendMono()" classname="org.springframework.messaging.rsocket.DefaultRSocketRequesterTests" time="0.076"/>
-  <testcase name="retrieveMonoVoid()" classname="org.springframework.messaging.rsocket.DefaultRSocketRequesterTests" time="0.01"/>
-  <testcase name="retrieveFluxWithoutData()" classname="org.springframework.messaging.rsocket.DefaultRSocketRequesterTests" time="0.0"/>
+  <testcase name="retrieveFlux()" classname="org.springframework.messaging.rsocket.DefaultRSocketRequesterTests" time="0.036"/>
+  <testcase name="retrieveMono()" classname="org.springframework.messaging.rsocket.DefaultRSocketRequesterTests" time="0.014"/>
+  <testcase name="testSendWithAsyncMetadata()" classname="org.springframework.messaging.rsocket.DefaultRSocketRequesterTests" time="0.008"/>
+  <testcase name="sendFlux()" classname="org.springframework.messaging.rsocket.DefaultRSocketRequesterTests" time="0.175"/>
+  <testcase name="sendMono()" classname="org.springframework.messaging.rsocket.DefaultRSocketRequesterTests" time="0.083"/>
+  <testcase name="retrieveMonoVoid()" classname="org.springframework.messaging.rsocket.DefaultRSocketRequesterTests" time="0.012"/>
+  <testcase name="retrieveFluxWithoutData()" classname="org.springframework.messaging.rsocket.DefaultRSocketRequesterTests" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

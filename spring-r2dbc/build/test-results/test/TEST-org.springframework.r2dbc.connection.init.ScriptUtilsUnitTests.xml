@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.r2dbc.connection.init.ScriptUtilsUnitTests" tests="11" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:25:14" hostname="wangweilideMBP.lan" time="0.043">
+<testsuite name="org.springframework.r2dbc.connection.init.ScriptUtilsUnitTests" tests="11" skipped="0" failures="0" errors="0" timestamp="2021-05-09T12:40:22" hostname="wangweilidembp" time="0.041">
   <properties/>
-  <testcase name="readAndSplitScriptContainingMultiLineComments()" classname="org.springframework.r2dbc.connection.init.ScriptUtilsUnitTests" time="0.013"/>
-  <testcase name="splitSqlScriptDelimitedWithSemicolon()" classname="org.springframework.r2dbc.connection.init.ScriptUtilsUnitTests" time="0.005"/>
-  <testcase name="splitSqlScriptDelimitedWithNewLine()" classname="org.springframework.r2dbc.connection.init.ScriptUtilsUnitTests" time="0.0"/>
-  <testcase name="readAndSplitScriptContainingCommentsWithWindowsLineEnding()" classname="org.springframework.r2dbc.connection.init.ScriptUtilsUnitTests" time="0.009"/>
+  <testcase name="readAndSplitScriptContainingMultiLineComments()" classname="org.springframework.r2dbc.connection.init.ScriptUtilsUnitTests" time="0.007"/>
+  <testcase name="splitSqlScriptDelimitedWithSemicolon()" classname="org.springframework.r2dbc.connection.init.ScriptUtilsUnitTests" time="0.003"/>
+  <testcase name="splitSqlScriptDelimitedWithNewLine()" classname="org.springframework.r2dbc.connection.init.ScriptUtilsUnitTests" time="0.001"/>
+  <testcase name="readAndSplitScriptContainingCommentsWithWindowsLineEnding()" classname="org.springframework.r2dbc.connection.init.ScriptUtilsUnitTests" time="0.005"/>
   <testcase name="containsDelimiters()" classname="org.springframework.r2dbc.connection.init.ScriptUtilsUnitTests" time="0.001"/>
-  <testcase name="readAndSplitScriptContainingMultiLineNestedComments()" classname="org.springframework.r2dbc.connection.init.ScriptUtilsUnitTests" time="0.003"/>
-  <testcase name="readAndSplitScriptWithMultipleNewlinesAsSeparator()" classname="org.springframework.r2dbc.connection.init.ScriptUtilsUnitTests" time="0.002"/>
-  <testcase name="readAndSplitScriptContainingCommentsWithLeadingTabs()" classname="org.springframework.r2dbc.connection.init.ScriptUtilsUnitTests" time="0.002"/>
+  <testcase name="readAndSplitScriptContainingMultiLineNestedComments()" classname="org.springframework.r2dbc.connection.init.ScriptUtilsUnitTests" time="0.004"/>
+  <testcase name="readAndSplitScriptWithMultipleNewlinesAsSeparator()" classname="org.springframework.r2dbc.connection.init.ScriptUtilsUnitTests" time="0.003"/>
+  <testcase name="readAndSplitScriptContainingCommentsWithLeadingTabs()" classname="org.springframework.r2dbc.connection.init.ScriptUtilsUnitTests" time="0.005"/>
   <testcase name="splitScriptWithSingleQuotesNestedInsideDoubleQuotes()" classname="org.springframework.r2dbc.connection.init.ScriptUtilsUnitTests" time="0.001"/>
-  <testcase name="readAndSplitScriptContainingComments()" classname="org.springframework.r2dbc.connection.init.ScriptUtilsUnitTests" time="0.001"/>
-  <testcase name="splitSqlScriptDelimitedWithNewLineButDefaultDelimiterSpecified()" classname="org.springframework.r2dbc.connection.init.ScriptUtilsUnitTests" time="0.001"/>
+  <testcase name="readAndSplitScriptContainingComments()" classname="org.springframework.r2dbc.connection.init.ScriptUtilsUnitTests" time="0.003"/>
+  <testcase name="splitSqlScriptDelimitedWithNewLineButDefaultDelimiterSpecified()" classname="org.springframework.r2dbc.connection.init.ScriptUtilsUnitTests" time="0.002"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

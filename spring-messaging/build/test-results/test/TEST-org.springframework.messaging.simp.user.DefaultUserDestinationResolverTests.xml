@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.messaging.simp.user.DefaultUserDestinationResolverTests" tests="12" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:29:43" hostname="wangweilideMBP.lan" time="0.019">
+<testsuite name="org.springframework.messaging.simp.user.DefaultUserDestinationResolverTests" tests="12" skipped="0" failures="0" errors="0" timestamp="2021-05-09T12:40:45" hostname="wangweilidembp" time="0.049">
   <properties/>
   <testcase name="handleSubscribeNoUser()" classname="org.springframework.messaging.simp.user.DefaultUserDestinationResolverTests" time="0.001"/>
   <testcase name="handleMessageWithNoUser()" classname="org.springframework.messaging.simp.user.DefaultUserDestinationResolverTests" time="0.001"/>
-  <testcase name="handleSubscribeInvalidUserName()" classname="org.springframework.messaging.simp.user.DefaultUserDestinationResolverTests" time="0.001"/>
-  <testcase name="handleMessageEncodedUserName()" classname="org.springframework.messaging.simp.user.DefaultUserDestinationResolverTests" time="0.001"/>
-  <testcase name="handleMessageForDestinationWithDotSeparator()" classname="org.springframework.messaging.simp.user.DefaultUserDestinationResolverTests" time="0.0"/>
+  <testcase name="handleSubscribeInvalidUserName()" classname="org.springframework.messaging.simp.user.DefaultUserDestinationResolverTests" time="0.002"/>
+  <testcase name="handleMessageEncodedUserName()" classname="org.springframework.messaging.simp.user.DefaultUserDestinationResolverTests" time="0.011"/>
+  <testcase name="handleMessageForDestinationWithDotSeparator()" classname="org.springframework.messaging.simp.user.DefaultUserDestinationResolverTests" time="0.008"/>
   <testcase name="handleMessageToOtherUser()" classname="org.springframework.messaging.simp.user.DefaultUserDestinationResolverTests" time="0.002"/>
-  <testcase name="handleUnsubscribe()" classname="org.springframework.messaging.simp.user.DefaultUserDestinationResolverTests" time="0.001"/>
+  <testcase name="handleUnsubscribe()" classname="org.springframework.messaging.simp.user.DefaultUserDestinationResolverTests" time="0.0"/>
   <testcase name="handleMessage()" classname="org.springframework.messaging.simp.user.DefaultUserDestinationResolverTests" time="0.001"/>
-  <testcase name="handleSubscribe()" classname="org.springframework.messaging.simp.user.DefaultUserDestinationResolverTests" time="0.001"/>
-  <testcase name="handleSubscribeForDestinationWithoutLeadingSlash()" classname="org.springframework.messaging.simp.user.DefaultUserDestinationResolverTests" time="0.001"/>
+  <testcase name="handleSubscribe()" classname="org.springframework.messaging.simp.user.DefaultUserDestinationResolverTests" time="0.008"/>
+  <testcase name="handleSubscribeForDestinationWithoutLeadingSlash()" classname="org.springframework.messaging.simp.user.DefaultUserDestinationResolverTests" time="0.002"/>
   <testcase name="handleSubscribeOneUserMultipleSessions()" classname="org.springframework.messaging.simp.user.DefaultUserDestinationResolverTests" time="0.001"/>
   <testcase name="ignoreMessage()" classname="org.springframework.messaging.simp.user.DefaultUserDestinationResolverTests" time="0.001"/>
   <system-out><![CDATA[]]></system-out>

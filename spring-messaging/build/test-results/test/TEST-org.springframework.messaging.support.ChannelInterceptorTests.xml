@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.messaging.support.ChannelInterceptorTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:30:04" hostname="wangweilideMBP.lan" time="0.003">
+<testsuite name="org.springframework.messaging.support.ChannelInterceptorTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-05-09T12:41:07" hostname="wangweilidembp" time="0.005">
   <properties/>
-  <testcase name="preSendInterceptorReturningModifiedMessage()" classname="org.springframework.messaging.support.ChannelInterceptorTests" time="0.0"/>
-  <testcase name="afterCompletionWithSendException()" classname="org.springframework.messaging.support.ChannelInterceptorTests" time="0.001"/>
-  <testcase name="postSendInterceptorMessageWasSent()" classname="org.springframework.messaging.support.ChannelInterceptorTests" time="0.001"/>
+  <testcase name="preSendInterceptorReturningModifiedMessage()" classname="org.springframework.messaging.support.ChannelInterceptorTests" time="0.001"/>
+  <testcase name="afterCompletionWithSendException()" classname="org.springframework.messaging.support.ChannelInterceptorTests" time="0.0"/>
+  <testcase name="postSendInterceptorMessageWasSent()" classname="org.springframework.messaging.support.ChannelInterceptorTests" time="0.0"/>
   <testcase name="postSendInterceptorMessageWasNotSent()" classname="org.springframework.messaging.support.ChannelInterceptorTests" time="0.001"/>
   <testcase name="preSendInterceptorReturningNull()" classname="org.springframework.messaging.support.ChannelInterceptorTests" time="0.0"/>
-  <testcase name="afterCompletionWithPreSendException()" classname="org.springframework.messaging.support.ChannelInterceptorTests" time="0.0"/>
+  <testcase name="afterCompletionWithPreSendException()" classname="org.springframework.messaging.support.ChannelInterceptorTests" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

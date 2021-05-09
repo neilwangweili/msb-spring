@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.remoting.httpinvoker.HttpInvokerTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:41:02" hostname="wangweilideMacBook-Pro.local" time="0.333">
+<testsuite name="org.springframework.remoting.httpinvoker.HttpInvokerTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2021-05-09T12:43:10" hostname="wangweilidembp" time="0.711">
   <properties/>
-  <testcase name="httpInvokerWithSpecialLocalMethods()" classname="org.springframework.remoting.httpinvoker.HttpInvokerTests" time="0.014"/>
-  <testcase name="httpInvokerProxyFactoryBeanAndServiceExporterWithGzipCompression()" classname="org.springframework.remoting.httpinvoker.HttpInvokerTests" time="0.22"/>
-  <testcase name="httpInvokerProxyFactoryBeanAndServiceExporterWithIOException()" classname="org.springframework.remoting.httpinvoker.HttpInvokerTests" time="0.001"/>
-  <testcase name="httpInvokerProxyFactoryBeanAndServiceExporterWithCustomInvocationObject()" classname="org.springframework.remoting.httpinvoker.HttpInvokerTests" time="0.016"/>
-  <testcase name="httpInvokerProxyFactoryBeanAndServiceExporter()" classname="org.springframework.remoting.httpinvoker.HttpInvokerTests" time="0.03"/>
-  <testcase name="httpInvokerProxyFactoryBeanAndServiceExporterWithExplicitClassLoader()" classname="org.springframework.remoting.httpinvoker.HttpInvokerTests" time="0.024"/>
-  <testcase name="httpInvokerProxyFactoryBeanAndServiceExporterWithInvocationAttributes()" classname="org.springframework.remoting.httpinvoker.HttpInvokerTests" time="0.005"/>
-  <testcase name="httpInvokerProxyFactoryBeanAndServiceExporterWithWrappedInvocations()" classname="org.springframework.remoting.httpinvoker.HttpInvokerTests" time="0.019"/>
-  <system-out><![CDATA[15:41:02.292 [Test worker] WARN  o.s.r.s.RemoteInvocationTraceInterceptor - Processing of HttpInvokerTests.2 remote call resulted in fatal exception: org.springframework.beans.testfixture.beans.ITestBean.exceptional
+  <testcase name="httpInvokerWithSpecialLocalMethods()" classname="org.springframework.remoting.httpinvoker.HttpInvokerTests" time="0.008"/>
+  <testcase name="httpInvokerProxyFactoryBeanAndServiceExporterWithGzipCompression()" classname="org.springframework.remoting.httpinvoker.HttpInvokerTests" time="0.343"/>
+  <testcase name="httpInvokerProxyFactoryBeanAndServiceExporterWithIOException()" classname="org.springframework.remoting.httpinvoker.HttpInvokerTests" time="0.009"/>
+  <testcase name="httpInvokerProxyFactoryBeanAndServiceExporterWithCustomInvocationObject()" classname="org.springframework.remoting.httpinvoker.HttpInvokerTests" time="0.033"/>
+  <testcase name="httpInvokerProxyFactoryBeanAndServiceExporter()" classname="org.springframework.remoting.httpinvoker.HttpInvokerTests" time="0.128"/>
+  <testcase name="httpInvokerProxyFactoryBeanAndServiceExporterWithExplicitClassLoader()" classname="org.springframework.remoting.httpinvoker.HttpInvokerTests" time="0.062"/>
+  <testcase name="httpInvokerProxyFactoryBeanAndServiceExporterWithInvocationAttributes()" classname="org.springframework.remoting.httpinvoker.HttpInvokerTests" time="0.009"/>
+  <testcase name="httpInvokerProxyFactoryBeanAndServiceExporterWithWrappedInvocations()" classname="org.springframework.remoting.httpinvoker.HttpInvokerTests" time="0.116"/>
+  <system-out><![CDATA[20:43:10.417 [Test worker] WARN  o.s.r.s.RemoteInvocationTraceInterceptor - Processing of HttpInvokerTests.2 remote call resulted in fatal exception: org.springframework.beans.testfixture.beans.ITestBean.exceptional
 java.lang.IllegalStateException: null
 	at org.springframework.remoting.httpinvoker.HttpInvokerTests.lambda$httpInvokerProxyFactoryBeanAndServiceExporterWithGzipCompression$4(HttpInvokerTests.java:218) ~[test/:?]
 	at org.assertj.core.api.ThrowableAssert.catchThrowable(ThrowableAssert.java:62) ~[assertj-core-3.19.0.jar:?]
@@ -105,7 +105,7 @@ java.lang.IllegalStateException: null
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56) [gradle-base-services-6.8.3.jar:6.8.3]
 	at java.lang.Thread.run(Thread.java:834) [?:?]
-15:41:02.442 [Test worker] WARN  o.s.r.s.RemoteInvocationTraceInterceptor - Processing of HttpInvokerServiceExporter remote call resulted in fatal exception: org.springframework.beans.testfixture.beans.ITestBean.exceptional
+20:43:10.747 [Test worker] WARN  o.s.r.s.RemoteInvocationTraceInterceptor - Processing of HttpInvokerServiceExporter remote call resulted in fatal exception: org.springframework.beans.testfixture.beans.ITestBean.exceptional
 java.lang.IllegalStateException: null
 	at org.springframework.remoting.httpinvoker.HttpInvokerTests.lambda$doTestHttpInvokerProxyFactoryBeanAndServiceExporter$0(HttpInvokerTests.java:121) ~[test/:?]
 	at org.assertj.core.api.ThrowableAssert.catchThrowable(ThrowableAssert.java:62) ~[assertj-core-3.19.0.jar:?]
@@ -202,7 +202,7 @@ java.lang.IllegalStateException: null
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56) [gradle-base-services-6.8.3.jar:6.8.3]
 	at java.lang.Thread.run(Thread.java:834) [?:?]
-15:41:02.467 [Test worker] WARN  o.s.r.s.RemoteInvocationTraceInterceptor - Processing of HttpInvokerServiceExporter remote call resulted in fatal exception: org.springframework.beans.testfixture.beans.ITestBean.exceptional
+20:43:10.865 [Test worker] WARN  o.s.r.s.RemoteInvocationTraceInterceptor - Processing of HttpInvokerServiceExporter remote call resulted in fatal exception: org.springframework.beans.testfixture.beans.ITestBean.exceptional
 java.lang.IllegalStateException: null
 	at org.springframework.remoting.httpinvoker.HttpInvokerTests.lambda$doTestHttpInvokerProxyFactoryBeanAndServiceExporter$0(HttpInvokerTests.java:121) ~[test/:?]
 	at org.assertj.core.api.ThrowableAssert.catchThrowable(ThrowableAssert.java:62) ~[assertj-core-3.19.0.jar:?]
@@ -299,7 +299,7 @@ java.lang.IllegalStateException: null
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56) [gradle-base-services-6.8.3.jar:6.8.3]
 	at java.lang.Thread.run(Thread.java:834) [?:?]
-15:41:02.493 [Test worker] WARN  o.s.r.s.RemoteInvocationTraceInterceptor - Processing of HttpInvokerTests.4 remote call resulted in fatal exception: org.springframework.beans.testfixture.beans.ITestBean.exceptional
+20:43:10.944 [Test worker] WARN  o.s.r.s.RemoteInvocationTraceInterceptor - Processing of HttpInvokerTests.4 remote call resulted in fatal exception: org.springframework.beans.testfixture.beans.ITestBean.exceptional
 java.lang.IllegalStateException: null
 	at org.springframework.remoting.httpinvoker.HttpInvokerTests.lambda$httpInvokerProxyFactoryBeanAndServiceExporterWithWrappedInvocations$6(HttpInvokerTests.java:288) ~[test/:?]
 	at org.assertj.core.api.ThrowableAssert.catchThrowable(ThrowableAssert.java:62) ~[assertj-core-3.19.0.jar:?]

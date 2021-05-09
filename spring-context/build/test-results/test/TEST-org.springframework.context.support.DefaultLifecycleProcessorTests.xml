@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.context.support.DefaultLifecycleProcessorTests" tests="20" skipped="5" failures="0" errors="0" timestamp="2021-05-01T09:31:52" hostname="wangweilideMBP.lan" time="0.964">
+<testsuite name="org.springframework.context.support.DefaultLifecycleProcessorTests" tests="20" skipped="5" failures="0" errors="0" timestamp="2021-05-09T12:41:44" hostname="wangweilidembp" time="0.974">
   <properties/>
-  <testcase name="dependencyStartedFirstAndIsSmartLifecycle()" classname="org.springframework.context.support.DefaultLifecycleProcessorTests" time="0.006"/>
+  <testcase name="dependencyStartedFirstAndIsSmartLifecycle()" classname="org.springframework.context.support.DefaultLifecycleProcessorTests" time="0.008"/>
   <testcase name="dependentShutdownFirstButNotSmartLifecycle()" classname="org.springframework.context.support.DefaultLifecycleProcessorTests" time="0.0">
     <skipped/>
   </testcase>
-  <testcase name="singleSmartLifecycleAutoStartup()" classname="org.springframework.context.support.DefaultLifecycleProcessorTests" time="0.003"/>
-  <testcase name="defaultLifecycleProcessorInstance()" classname="org.springframework.context.support.DefaultLifecycleProcessorTests" time="0.003"/>
-  <testcase name="mixedShutdown()" classname="org.springframework.context.support.DefaultLifecycleProcessorTests" time="0.917"/>
-  <testcase name="singleLifecycleShutdown()" classname="org.springframework.context.support.DefaultLifecycleProcessorTests" time="0.0"/>
-  <testcase name="dependencyStartedFirstButNotSmartLifecycle()" classname="org.springframework.context.support.DefaultLifecycleProcessorTests" time="0.002"/>
+  <testcase name="singleSmartLifecycleAutoStartup()" classname="org.springframework.context.support.DefaultLifecycleProcessorTests" time="0.002"/>
+  <testcase name="defaultLifecycleProcessorInstance()" classname="org.springframework.context.support.DefaultLifecycleProcessorTests" time="0.002"/>
+  <testcase name="mixedShutdown()" classname="org.springframework.context.support.DefaultLifecycleProcessorTests" time="0.913"/>
+  <testcase name="singleLifecycleShutdown()" classname="org.springframework.context.support.DefaultLifecycleProcessorTests" time="0.001"/>
+  <testcase name="dependencyStartedFirstButNotSmartLifecycle()" classname="org.springframework.context.support.DefaultLifecycleProcessorTests" time="0.012"/>
   <testcase name="customLifecycleProcessorInstance()" classname="org.springframework.context.support.DefaultLifecycleProcessorTests" time="0.006"/>
-  <testcase name="singleSmartLifecycleAutoStartupWithNonAutoStartupDependency()" classname="org.springframework.context.support.DefaultLifecycleProcessorTests" time="0.002"/>
-  <testcase name="singleSmartLifecycleWithoutAutoStartup()" classname="org.springframework.context.support.DefaultLifecycleProcessorTests" time="0.002"/>
+  <testcase name="singleSmartLifecycleAutoStartupWithNonAutoStartupDependency()" classname="org.springframework.context.support.DefaultLifecycleProcessorTests" time="0.001"/>
+  <testcase name="singleSmartLifecycleWithoutAutoStartup()" classname="org.springframework.context.support.DefaultLifecycleProcessorTests" time="0.001"/>
   <testcase name="dependencyStartedFirstEvenIfItsPhaseIsHigher()" classname="org.springframework.context.support.DefaultLifecycleProcessorTests" time="0.004"/>
   <testcase name="smartLifecycleGroupShutdown()" classname="org.springframework.context.support.DefaultLifecycleProcessorTests" time="0.0">
     <skipped/>
@@ -20,14 +20,14 @@
   <testcase name="singleSmartLifecycleShutdown()" classname="org.springframework.context.support.DefaultLifecycleProcessorTests" time="0.0">
     <skipped/>
   </testcase>
-  <testcase name="singleSmartLifecycleAutoStartupWithLazyInitFactoryBean()" classname="org.springframework.context.support.DefaultLifecycleProcessorTests" time="0.002"/>
-  <testcase name="contextRefreshThenStopAndRestartWithMixedBeans()" classname="org.springframework.context.support.DefaultLifecycleProcessorTests" time="0.002"/>
-  <testcase name="smartLifecycleGroupStartup()" classname="org.springframework.context.support.DefaultLifecycleProcessorTests" time="0.003"/>
-  <testcase name="singleSmartLifecycleAutoStartupWithLazyInit()" classname="org.springframework.context.support.DefaultLifecycleProcessorTests" time="0.0"/>
+  <testcase name="singleSmartLifecycleAutoStartupWithLazyInitFactoryBean()" classname="org.springframework.context.support.DefaultLifecycleProcessorTests" time="0.001"/>
+  <testcase name="contextRefreshThenStopAndRestartWithMixedBeans()" classname="org.springframework.context.support.DefaultLifecycleProcessorTests" time="0.003"/>
+  <testcase name="smartLifecycleGroupStartup()" classname="org.springframework.context.support.DefaultLifecycleProcessorTests" time="0.004"/>
+  <testcase name="singleSmartLifecycleAutoStartupWithLazyInit()" classname="org.springframework.context.support.DefaultLifecycleProcessorTests" time="0.004"/>
   <testcase name="dependentShutdownFirstEvenIfItsPhaseIsLower()" classname="org.springframework.context.support.DefaultLifecycleProcessorTests" time="0.0">
     <skipped/>
   </testcase>
-  <testcase name="contextRefreshThenStartWithMixedBeans()" classname="org.springframework.context.support.DefaultLifecycleProcessorTests" time="0.0"/>
+  <testcase name="contextRefreshThenStartWithMixedBeans()" classname="org.springframework.context.support.DefaultLifecycleProcessorTests" time="0.001"/>
   <testcase name="dependentShutdownFirstAndIsSmartLifecycle()" classname="org.springframework.context.support.DefaultLifecycleProcessorTests" time="0.0">
     <skipped/>
   </testcase>

@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.messaging.simp.annotation.support.SendToMethodReturnValueHandlerTests" tests="24" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:29:43" hostname="wangweilideMBP.lan" time="0.213">
+<testsuite name="org.springframework.messaging.simp.annotation.support.SendToMethodReturnValueHandlerTests" tests="24" skipped="0" failures="0" errors="0" timestamp="2021-05-09T12:40:45" hostname="wangweilidembp" time="0.286">
   <properties/>
-  <testcase name="sendToUserDefaultDestinationSingleSession()" classname="org.springframework.messaging.simp.annotation.support.SendToMethodReturnValueHandlerTests" time="0.004"/>
-  <testcase name="jsonView()" classname="org.springframework.messaging.simp.annotation.support.SendToMethodReturnValueHandlerTests" time="0.023"/>
-  <testcase name="sendToClassDefaultNoAnnotation()" classname="org.springframework.messaging.simp.annotation.support.SendToMethodReturnValueHandlerTests" time="0.007"/>
-  <testcase name="sendToClassDefaultEmptyAnnotation()" classname="org.springframework.messaging.simp.annotation.support.SendToMethodReturnValueHandlerTests" time="0.003"/>
-  <testcase name="sendToWithDestinationPlaceholders()" classname="org.springframework.messaging.simp.annotation.support.SendToMethodReturnValueHandlerTests" time="0.01"/>
-  <testcase name="sendToUserWithUserNameProvider()" classname="org.springframework.messaging.simp.annotation.support.SendToMethodReturnValueHandlerTests" time="0.002"/>
-  <testcase name="sendToClassDefaultOverride()" classname="org.springframework.messaging.simp.annotation.support.SendToMethodReturnValueHandlerTests" time="0.001"/>
-  <testcase name="sendToUserDefaultDestination()" classname="org.springframework.messaging.simp.annotation.support.SendToMethodReturnValueHandlerTests" time="0.002"/>
-  <testcase name="sendToDefaultDestination()" classname="org.springframework.messaging.simp.annotation.support.SendToMethodReturnValueHandlerTests" time="0.002"/>
-  <testcase name="sendToAndSendToUser()" classname="org.springframework.messaging.simp.annotation.support.SendToMethodReturnValueHandlerTests" time="0.003"/>
-  <testcase name="sendToDefaultDestinationWhenUsingDotPathSeparator()" classname="org.springframework.messaging.simp.annotation.support.SendToMethodReturnValueHandlerTests" time="0.001"/>
-  <testcase name="sendTo()" classname="org.springframework.messaging.simp.annotation.support.SendToMethodReturnValueHandlerTests" time="0.005"/>
-  <testcase name="sendToUserClassDefaultOverride()" classname="org.springframework.messaging.simp.annotation.support.SendToMethodReturnValueHandlerTests" time="0.004"/>
+  <testcase name="sendToUserDefaultDestinationSingleSession()" classname="org.springframework.messaging.simp.annotation.support.SendToMethodReturnValueHandlerTests" time="0.006"/>
+  <testcase name="jsonView()" classname="org.springframework.messaging.simp.annotation.support.SendToMethodReturnValueHandlerTests" time="0.031"/>
+  <testcase name="sendToClassDefaultNoAnnotation()" classname="org.springframework.messaging.simp.annotation.support.SendToMethodReturnValueHandlerTests" time="0.006"/>
+  <testcase name="sendToClassDefaultEmptyAnnotation()" classname="org.springframework.messaging.simp.annotation.support.SendToMethodReturnValueHandlerTests" time="0.018"/>
+  <testcase name="sendToWithDestinationPlaceholders()" classname="org.springframework.messaging.simp.annotation.support.SendToMethodReturnValueHandlerTests" time="0.003"/>
+  <testcase name="sendToUserWithUserNameProvider()" classname="org.springframework.messaging.simp.annotation.support.SendToMethodReturnValueHandlerTests" time="0.008"/>
+  <testcase name="sendToClassDefaultOverride()" classname="org.springframework.messaging.simp.annotation.support.SendToMethodReturnValueHandlerTests" time="0.004"/>
+  <testcase name="sendToUserDefaultDestination()" classname="org.springframework.messaging.simp.annotation.support.SendToMethodReturnValueHandlerTests" time="0.003"/>
+  <testcase name="sendToDefaultDestination()" classname="org.springframework.messaging.simp.annotation.support.SendToMethodReturnValueHandlerTests" time="0.003"/>
+  <testcase name="sendToAndSendToUser()" classname="org.springframework.messaging.simp.annotation.support.SendToMethodReturnValueHandlerTests" time="0.004"/>
+  <testcase name="sendToDefaultDestinationWhenUsingDotPathSeparator()" classname="org.springframework.messaging.simp.annotation.support.SendToMethodReturnValueHandlerTests" time="0.016"/>
+  <testcase name="sendTo()" classname="org.springframework.messaging.simp.annotation.support.SendToMethodReturnValueHandlerTests" time="0.002"/>
+  <testcase name="sendToUserClassDefaultOverride()" classname="org.springframework.messaging.simp.annotation.support.SendToMethodReturnValueHandlerTests" time="0.005"/>
   <testcase name="sendToUserWithSendToDefaultOverride()" classname="org.springframework.messaging.simp.annotation.support.SendToMethodReturnValueHandlerTests" time="0.003"/>
-  <testcase name="sendToUserDefaultDestinationWhenUsingDotPathSeparator()" classname="org.springframework.messaging.simp.annotation.support.SendToMethodReturnValueHandlerTests" time="0.002"/>
-  <testcase name="sendToUserClassDefaultEmptyAnnotation()" classname="org.springframework.messaging.simp.annotation.support.SendToMethodReturnValueHandlerTests" time="0.018"/>
-  <testcase name="sendToUser()" classname="org.springframework.messaging.simp.annotation.support.SendToMethodReturnValueHandlerTests" time="0.002"/>
-  <testcase name="sendToUserSingleSession()" classname="org.springframework.messaging.simp.annotation.support.SendToMethodReturnValueHandlerTests" time="0.006"/>
-  <testcase name="sendToNoAnnotations()" classname="org.springframework.messaging.simp.annotation.support.SendToMethodReturnValueHandlerTests" time="0.002"/>
-  <testcase name="testHeadersToSend()" classname="org.springframework.messaging.simp.annotation.support.SendToMethodReturnValueHandlerTests" time="0.094"/>
-  <testcase name="sendToUserWithSendToOverride()" classname="org.springframework.messaging.simp.annotation.support.SendToMethodReturnValueHandlerTests" time="0.002"/>
-  <testcase name="sendToUserClassDefaultNoAnnotation()" classname="org.springframework.messaging.simp.annotation.support.SendToMethodReturnValueHandlerTests" time="0.002"/>
-  <testcase name="sendToUserSessionWithoutUserName()" classname="org.springframework.messaging.simp.annotation.support.SendToMethodReturnValueHandlerTests" time="0.002"/>
-  <testcase name="supportsReturnType()" classname="org.springframework.messaging.simp.annotation.support.SendToMethodReturnValueHandlerTests" time="0.007"/>
+  <testcase name="sendToUserDefaultDestinationWhenUsingDotPathSeparator()" classname="org.springframework.messaging.simp.annotation.support.SendToMethodReturnValueHandlerTests" time="0.003"/>
+  <testcase name="sendToUserClassDefaultEmptyAnnotation()" classname="org.springframework.messaging.simp.annotation.support.SendToMethodReturnValueHandlerTests" time="0.019"/>
+  <testcase name="sendToUser()" classname="org.springframework.messaging.simp.annotation.support.SendToMethodReturnValueHandlerTests" time="0.004"/>
+  <testcase name="sendToUserSingleSession()" classname="org.springframework.messaging.simp.annotation.support.SendToMethodReturnValueHandlerTests" time="0.019"/>
+  <testcase name="sendToNoAnnotations()" classname="org.springframework.messaging.simp.annotation.support.SendToMethodReturnValueHandlerTests" time="0.004"/>
+  <testcase name="testHeadersToSend()" classname="org.springframework.messaging.simp.annotation.support.SendToMethodReturnValueHandlerTests" time="0.066"/>
+  <testcase name="sendToUserWithSendToOverride()" classname="org.springframework.messaging.simp.annotation.support.SendToMethodReturnValueHandlerTests" time="0.004"/>
+  <testcase name="sendToUserClassDefaultNoAnnotation()" classname="org.springframework.messaging.simp.annotation.support.SendToMethodReturnValueHandlerTests" time="0.016"/>
+  <testcase name="sendToUserSessionWithoutUserName()" classname="org.springframework.messaging.simp.annotation.support.SendToMethodReturnValueHandlerTests" time="0.005"/>
+  <testcase name="supportsReturnType()" classname="org.springframework.messaging.simp.annotation.support.SendToMethodReturnValueHandlerTests" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

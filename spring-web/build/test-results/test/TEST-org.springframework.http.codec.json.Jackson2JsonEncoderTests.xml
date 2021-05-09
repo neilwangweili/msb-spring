@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.http.codec.json.Jackson2JsonEncoderTests" tests="13" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:42:14" hostname="wangweilideMacBook-Pro.local" time="0.026">
+<testsuite name="org.springframework.http.codec.json.Jackson2JsonEncoderTests" tests="13" skipped="0" failures="0" errors="0" timestamp="2021-05-09T12:44:25" hostname="wangweilidembp" time="0.018">
   <properties/>
-  <testcase name="encode()" classname="org.springframework.http.codec.json.Jackson2JsonEncoderTests" time="0.004"/>
-  <testcase name="encodeWithType()" classname="org.springframework.http.codec.json.Jackson2JsonEncoderTests" time="0.002"/>
+  <testcase name="encode()" classname="org.springframework.http.codec.json.Jackson2JsonEncoderTests" time="0.003"/>
+  <testcase name="encodeWithType()" classname="org.springframework.http.codec.json.Jackson2JsonEncoderTests" time="0.001"/>
   <testcase name="encodeWithFlushAfterWriteOff()" classname="org.springframework.http.codec.json.Jackson2JsonEncoderTests" time="0.002"/>
-  <testcase name="canEncode()" classname="org.springframework.http.codec.json.Jackson2JsonEncoderTests" time="0.001"/>
-  <testcase name="canEncodeWithCustomMimeType()" classname="org.springframework.http.codec.json.Jackson2JsonEncoderTests" time="0.0"/>
-  <testcase name="canNotEncode()" classname="org.springframework.http.codec.json.Jackson2JsonEncoderTests" time="0.001"/>
-  <testcase name="encodeNonStream()" classname="org.springframework.http.codec.json.Jackson2JsonEncoderTests" time="0.003"/>
-  <testcase name="classLevelJsonView()" classname="org.springframework.http.codec.json.Jackson2JsonEncoderTests" time="0.005"/>
+  <testcase name="canEncode()" classname="org.springframework.http.codec.json.Jackson2JsonEncoderTests" time="0.0"/>
+  <testcase name="canEncodeWithCustomMimeType()" classname="org.springframework.http.codec.json.Jackson2JsonEncoderTests" time="0.001"/>
+  <testcase name="canNotEncode()" classname="org.springframework.http.codec.json.Jackson2JsonEncoderTests" time="0.0"/>
+  <testcase name="encodeNonStream()" classname="org.springframework.http.codec.json.Jackson2JsonEncoderTests" time="0.001"/>
+  <testcase name="classLevelJsonView()" classname="org.springframework.http.codec.json.Jackson2JsonEncoderTests" time="0.002"/>
   <testcase name="jacksonValue()" classname="org.springframework.http.codec.json.Jackson2JsonEncoderTests" time="0.001"/>
   <testcase name="encodableMimeTypesIsImmutable()" classname="org.springframework.http.codec.json.Jackson2JsonEncoderTests" time="0.0"/>
-  <testcase name="encodeAsStreamWithCustomStreamingType()" classname="org.springframework.http.codec.json.Jackson2JsonEncoderTests" time="0.002"/>
+  <testcase name="encodeAsStreamWithCustomStreamingType()" classname="org.springframework.http.codec.json.Jackson2JsonEncoderTests" time="0.003"/>
   <testcase name="encodeAscii()" classname="org.springframework.http.codec.json.Jackson2JsonEncoderTests" time="0.001"/>
   <testcase name="fieldLevelJsonView()" classname="org.springframework.http.codec.json.Jackson2JsonEncoderTests" time="0.001"/>
   <system-out><![CDATA[]]></system-out>

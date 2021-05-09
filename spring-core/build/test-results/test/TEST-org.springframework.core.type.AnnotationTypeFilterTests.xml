@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.core.type.AnnotationTypeFilterTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:11:33" hostname="wangweilideMBP.lan" time="0.01">
+<testsuite name="org.springframework.core.type.AnnotationTypeFilterTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-05-09T12:39:32" hostname="wangweilidembp" time="0.017">
   <properties/>
-  <testcase name="directAnnotationMatch()" classname="org.springframework.core.type.AnnotationTypeFilterTests" time="0.005"/>
+  <testcase name="directAnnotationMatch()" classname="org.springframework.core.type.AnnotationTypeFilterTests" time="0.008"/>
   <testcase name="inheritedAnnotationFromInterfaceDoesNotMatch()" classname="org.springframework.core.type.AnnotationTypeFilterTests" time="0.001"/>
   <testcase name="inheritedAnnotationFromBaseClassDoesMatch()" classname="org.springframework.core.type.AnnotationTypeFilterTests" time="0.001"/>
-  <testcase name="matchesInterfacesIfConfigured()" classname="org.springframework.core.type.AnnotationTypeFilterTests" time="0.0"/>
+  <testcase name="matchesInterfacesIfConfigured()" classname="org.springframework.core.type.AnnotationTypeFilterTests" time="0.001"/>
   <testcase name="nonAnnotatedClassDoesntMatch()" classname="org.springframework.core.type.AnnotationTypeFilterTests" time="0.001"/>
-  <testcase name="nonInheritedAnnotationDoesNotMatch()" classname="org.springframework.core.type.AnnotationTypeFilterTests" time="0.001"/>
+  <testcase name="nonInheritedAnnotationDoesNotMatch()" classname="org.springframework.core.type.AnnotationTypeFilterTests" time="0.002"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

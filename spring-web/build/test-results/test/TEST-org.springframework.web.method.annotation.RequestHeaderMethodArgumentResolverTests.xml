@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.web.method.annotation.RequestHeaderMethodArgumentResolverTests" tests="17" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:42:11" hostname="wangweilideMacBook-Pro.local" time="0.036">
+<testsuite name="org.springframework.web.method.annotation.RequestHeaderMethodArgumentResolverTests" tests="17" skipped="0" failures="0" errors="0" timestamp="2021-05-09T12:44:23" hostname="wangweilidembp" time="0.029">
   <properties/>
-  <testcase name="resolveDefaultValueFromSystemProperty()" classname="org.springframework.web.method.annotation.RequestHeaderMethodArgumentResolverTests" time="0.003"/>
-  <testcase name="uuidConversionWithInvalidValue()" classname="org.springframework.web.method.annotation.RequestHeaderMethodArgumentResolverTests" time="0.004"/>
+  <testcase name="resolveDefaultValueFromSystemProperty()" classname="org.springframework.web.method.annotation.RequestHeaderMethodArgumentResolverTests" time="0.002"/>
+  <testcase name="uuidConversionWithInvalidValue()" classname="org.springframework.web.method.annotation.RequestHeaderMethodArgumentResolverTests" time="0.003"/>
   <testcase name="resolveStringArrayArgument()" classname="org.springframework.web.method.annotation.RequestHeaderMethodArgumentResolverTests" time="0.001"/>
   <testcase name="resolveDefaultValueFromRequest()" classname="org.springframework.web.method.annotation.RequestHeaderMethodArgumentResolverTests" time="0.001"/>
   <testcase name="resolveNameFromSystemPropertyThroughPlaceholder()" classname="org.springframework.web.method.annotation.RequestHeaderMethodArgumentResolverTests" time="0.001"/>
   <testcase name="uuidConversionWithBlankValueOptional()" classname="org.springframework.web.method.annotation.RequestHeaderMethodArgumentResolverTests" time="0.002"/>
   <testcase name="resolveNameFromSystemPropertyThroughExpression()" classname="org.springframework.web.method.annotation.RequestHeaderMethodArgumentResolverTests" time="0.001"/>
-  <testcase name="dateConversion()" classname="org.springframework.web.method.annotation.RequestHeaderMethodArgumentResolverTests" time="0.003"/>
+  <testcase name="dateConversion()" classname="org.springframework.web.method.annotation.RequestHeaderMethodArgumentResolverTests" time="0.002"/>
   <testcase name="instantConversion()" classname="org.springframework.web.method.annotation.RequestHeaderMethodArgumentResolverTests" time="0.002"/>
   <testcase name="uuidConversionWithEmptyValue()" classname="org.springframework.web.method.annotation.RequestHeaderMethodArgumentResolverTests" time="0.003"/>
   <testcase name="uuidConversionWithEmptyValueOptional()" classname="org.springframework.web.method.annotation.RequestHeaderMethodArgumentResolverTests" time="0.001"/>
-  <testcase name="uuidConversionWithBlankValue()" classname="org.springframework.web.method.annotation.RequestHeaderMethodArgumentResolverTests" time="0.002"/>
+  <testcase name="uuidConversionWithBlankValue()" classname="org.springframework.web.method.annotation.RequestHeaderMethodArgumentResolverTests" time="0.001"/>
   <testcase name="resolveStringArgument()" classname="org.springframework.web.method.annotation.RequestHeaderMethodArgumentResolverTests" time="0.001"/>
   <testcase name="uuidConversionWithValidValue()" classname="org.springframework.web.method.annotation.RequestHeaderMethodArgumentResolverTests" time="0.002"/>
   <testcase name="resolveDefaultValue()" classname="org.springframework.web.method.annotation.RequestHeaderMethodArgumentResolverTests" time="0.001"/>
   <testcase name="notFound()" classname="org.springframework.web.method.annotation.RequestHeaderMethodArgumentResolverTests" time="0.002"/>
-  <testcase name="supportsParameter()" classname="org.springframework.web.method.annotation.RequestHeaderMethodArgumentResolverTests" time="0.002"/>
+  <testcase name="supportsParameter()" classname="org.springframework.web.method.annotation.RequestHeaderMethodArgumentResolverTests" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

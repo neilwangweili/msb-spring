@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.messaging.handler.annotation.support.PayloadMethodArgumentResolverTests" tests="12" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:29:35" hostname="wangweilideMBP.lan" time="0.057">
+<testsuite name="org.springframework.messaging.handler.annotation.support.PayloadMethodArgumentResolverTests" tests="12" skipped="0" failures="0" errors="0" timestamp="2021-05-09T12:40:35" hostname="wangweilidembp" time="0.049">
   <properties/>
-  <testcase name="resolveRequiredEmptyNonAnnotatedParameter()" classname="org.springframework.messaging.handler.annotation.support.PayloadMethodArgumentResolverTests" time="0.005"/>
-  <testcase name="resolveValidation()" classname="org.springframework.messaging.handler.annotation.support.PayloadMethodArgumentResolverTests" time="0.005"/>
-  <testcase name="resolveFailValidation()" classname="org.springframework.messaging.handler.annotation.support.PayloadMethodArgumentResolverTests" time="0.002"/>
-  <testcase name="resolveRequiredEmpty()" classname="org.springframework.messaging.handler.annotation.support.PayloadMethodArgumentResolverTests" time="0.001"/>
-  <testcase name="resolveNonAnnotatedParameterFailValidation()" classname="org.springframework.messaging.handler.annotation.support.PayloadMethodArgumentResolverTests" time="0.001"/>
-  <testcase name="resolveNonAnnotatedParameter()" classname="org.springframework.messaging.handler.annotation.support.PayloadMethodArgumentResolverTests" time="0.003"/>
+  <testcase name="resolveRequiredEmptyNonAnnotatedParameter()" classname="org.springframework.messaging.handler.annotation.support.PayloadMethodArgumentResolverTests" time="0.015"/>
+  <testcase name="resolveValidation()" classname="org.springframework.messaging.handler.annotation.support.PayloadMethodArgumentResolverTests" time="0.007"/>
+  <testcase name="resolveFailValidation()" classname="org.springframework.messaging.handler.annotation.support.PayloadMethodArgumentResolverTests" time="0.004"/>
+  <testcase name="resolveRequiredEmpty()" classname="org.springframework.messaging.handler.annotation.support.PayloadMethodArgumentResolverTests" time="0.002"/>
+  <testcase name="resolveNonAnnotatedParameterFailValidation()" classname="org.springframework.messaging.handler.annotation.support.PayloadMethodArgumentResolverTests" time="0.002"/>
+  <testcase name="resolveNonAnnotatedParameter()" classname="org.springframework.messaging.handler.annotation.support.PayloadMethodArgumentResolverTests" time="0.004"/>
   <testcase name="resolveSpelExpressionNotSupported()" classname="org.springframework.messaging.handler.annotation.support.PayloadMethodArgumentResolverTests" time="0.002"/>
   <testcase name="resolveNotRequired()" classname="org.springframework.messaging.handler.annotation.support.PayloadMethodArgumentResolverTests" time="0.001"/>
-  <testcase name="resolveFailValidationNoConversionNecessary()" classname="org.springframework.messaging.handler.annotation.support.PayloadMethodArgumentResolverTests" time="0.021"/>
+  <testcase name="resolveFailValidationNoConversionNecessary()" classname="org.springframework.messaging.handler.annotation.support.PayloadMethodArgumentResolverTests" time="0.004"/>
   <testcase name="supportsParameter()" classname="org.springframework.messaging.handler.annotation.support.PayloadMethodArgumentResolverTests" time="0.001"/>
   <testcase name="resolveRequired()" classname="org.springframework.messaging.handler.annotation.support.PayloadMethodArgumentResolverTests" time="0.001"/>
-  <testcase name="resolveNonConvertibleParam()" classname="org.springframework.messaging.handler.annotation.support.PayloadMethodArgumentResolverTests" time="0.007"/>
+  <testcase name="resolveNonConvertibleParam()" classname="org.springframework.messaging.handler.annotation.support.PayloadMethodArgumentResolverTests" time="0.002"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

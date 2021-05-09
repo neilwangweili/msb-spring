@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.web.socket.messaging.WebSocketStompClientIntegrationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:49:17" hostname="wangweilideMBP.lan" time="12.185">
+<testsuite name="org.springframework.web.socket.messaging.WebSocketStompClientIntegrationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-05-09T12:45:09" hostname="wangweilidembp" time="12.198">
   <properties/>
-  <testcase name="publishSubscribe()" classname="org.springframework.web.socket.messaging.WebSocketStompClientIntegrationTests" time="12.185"/>
-  <system-out><![CDATA[17:49:18.063 [WebSocketClient-AsyncIO-1] ERROR o.s.w.s.m.WebSocketStompClientIntegrationTests - org.springframework.messaging.simp.stomp.ConnectionLostException: Connection closed
+  <testcase name="publishSubscribe()" classname="org.springframework.web.socket.messaging.WebSocketStompClientIntegrationTests" time="12.198"/>
+  <system-out><![CDATA[20:45:10.345 [WebSocketClient-AsyncIO-1] ERROR o.s.w.s.m.WebSocketStompClientIntegrationTests - org.springframework.messaging.simp.stomp.ConnectionLostException: Connection closed
 ]]></system-out>
-  <system-err><![CDATA[May 01, 2021 5:49:17 PM org.apache.coyote.AbstractProtocol init
-INFO: Initializing ProtocolHandler ["http-nio-auto-11"]
-May 01, 2021 5:49:17 PM org.apache.catalina.core.StandardService startInternal
-INFO: Starting service [Tomcat]
-May 01, 2021 5:49:17 PM org.apache.catalina.core.StandardEngine startInternal
-INFO: Starting Servlet engine: [Apache Tomcat/9.0.45]
-May 01, 2021 5:49:17 PM org.apache.coyote.AbstractProtocol start
-INFO: Starting ProtocolHandler ["http-nio-auto-11-52791"]
-May 01, 2021 5:49:17 PM org.apache.catalina.core.ApplicationContext log
-INFO: Initializing Spring DispatcherServlet 'dispatcherServlet'
-May 01, 2021 5:49:18 PM org.apache.catalina.core.ApplicationContext log
-INFO: Destroying Spring FrameworkServlet 'dispatcherServlet'
-May 01, 2021 5:49:18 PM org.apache.coyote.AbstractProtocol pause
-INFO: Pausing ProtocolHandler ["http-nio-auto-11-52791"]
-May 01, 2021 5:49:19 PM org.apache.catalina.core.StandardService stopInternal
-INFO: Stopping service [Tomcat]
-May 01, 2021 5:49:19 PM org.apache.coyote.AbstractProtocol stop
-INFO: Stopping ProtocolHandler ["http-nio-auto-11-52791"]
-May 01, 2021 5:49:29 PM org.apache.tomcat.util.net.Acceptor stop
-WARNING: The acceptor thread [http-nio-auto-11-Acceptor] did not stop cleanly
+  <system-err><![CDATA[5月 09, 2021 8:45:09 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-nio-auto-11"]
+5月 09, 2021 8:45:09 下午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service [Tomcat]
+5月 09, 2021 8:45:09 下午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet engine: [Apache Tomcat/9.0.45]
+5月 09, 2021 8:45:09 下午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-nio-auto-11-49553"]
+5月 09, 2021 8:45:09 下午 org.apache.catalina.core.ApplicationContext log
+信息: Initializing Spring DispatcherServlet 'dispatcherServlet'
+5月 09, 2021 8:45:10 下午 org.apache.catalina.core.ApplicationContext log
+信息: Destroying Spring FrameworkServlet 'dispatcherServlet'
+5月 09, 2021 8:45:10 下午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["http-nio-auto-11-49553"]
+5月 09, 2021 8:45:11 下午 org.apache.catalina.core.StandardService stopInternal
+信息: Stopping service [Tomcat]
+5月 09, 2021 8:45:11 下午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["http-nio-auto-11-49553"]
+5月 09, 2021 8:45:21 下午 org.apache.tomcat.util.net.Acceptor stop
+警告: The acceptor thread [http-nio-auto-11-Acceptor] did not stop cleanly
 ]]></system-err>
 </testsuite>

@@ -1,37 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.test.context.support.TestPropertySourceUtilsTests" tests="29" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:42:48" hostname="wangweilideMBP.lan" time="0.018">
+<testsuite name="org.springframework.test.context.support.TestPropertySourceUtilsTests" tests="29" skipped="0" failures="0" errors="0" timestamp="2021-05-09T12:41:56" hostname="wangweilidembp" time="0.042">
   <properties/>
-  <testcase name="addInlinedPropertiesToEnvironmentWithMalformedUnicodeInValue()" classname="org.springframework.test.context.support.TestPropertySourceUtilsTests" time="0.002"/>
-  <testcase name="addPropertiesFilesToEnvironmentWithSinglePropertyFromVirtualFile()" classname="org.springframework.test.context.support.TestPropertySourceUtilsTests" time="0.005"/>
+  <testcase name="addInlinedPropertiesToEnvironmentWithMalformedUnicodeInValue()" classname="org.springframework.test.context.support.TestPropertySourceUtilsTests" time="0.003"/>
+  <testcase name="addPropertiesFilesToEnvironmentWithSinglePropertyFromVirtualFile()" classname="org.springframework.test.context.support.TestPropertySourceUtilsTests" time="0.011"/>
   <testcase name="locationsAndValueAttributes()" classname="org.springframework.test.context.support.TestPropertySourceUtilsTests" time="0.001"/>
-  <testcase name="overriddenProperties()" classname="org.springframework.test.context.support.TestPropertySourceUtilsTests" time="0.0"/>
-  <testcase name="repeatedTestPropertySourcesWithConflictingInheritPropertiesFlags()" classname="org.springframework.test.context.support.TestPropertySourceUtilsTests" time="0.001"/>
-  <testcase name="overriddenLocations()" classname="org.springframework.test.context.support.TestPropertySourceUtilsTests" time="0.0"/>
-  <testcase name="addInlinedPropertiesToEnvironmentWithNullEnvironment()" classname="org.springframework.test.context.support.TestPropertySourceUtilsTests" time="0.0"/>
-  <testcase name="emptyAnnotation()" classname="org.springframework.test.context.support.TestPropertySourceUtilsTests" time="0.001"/>
+  <testcase name="overriddenProperties()" classname="org.springframework.test.context.support.TestPropertySourceUtilsTests" time="0.002"/>
+  <testcase name="repeatedTestPropertySourcesWithConflictingInheritPropertiesFlags()" classname="org.springframework.test.context.support.TestPropertySourceUtilsTests" time="0.002"/>
+  <testcase name="overriddenLocations()" classname="org.springframework.test.context.support.TestPropertySourceUtilsTests" time="0.001"/>
+  <testcase name="addInlinedPropertiesToEnvironmentWithNullEnvironment()" classname="org.springframework.test.context.support.TestPropertySourceUtilsTests" time="0.001"/>
+  <testcase name="emptyAnnotation()" classname="org.springframework.test.context.support.TestPropertySourceUtilsTests" time="0.002"/>
   <testcase name="locationsAndPropertiesDuplicatedOnSuperclass()" classname="org.springframework.test.context.support.TestPropertySourceUtilsTests" time="0.0"/>
-  <testcase name="overriddenLocationsAndProperties()" classname="org.springframework.test.context.support.TestPropertySourceUtilsTests" time="0.001"/>
-  <testcase name="addInlinedPropertiesToEnvironmentWithMultipleKeyValuePairsInSingleInlinedProperty()" classname="org.springframework.test.context.support.TestPropertySourceUtilsTests" time="0.0"/>
+  <testcase name="overriddenLocationsAndProperties()" classname="org.springframework.test.context.support.TestPropertySourceUtilsTests" time="0.0"/>
+  <testcase name="addInlinedPropertiesToEnvironmentWithMultipleKeyValuePairsInSingleInlinedProperty()" classname="org.springframework.test.context.support.TestPropertySourceUtilsTests" time="0.001"/>
   <testcase name="locationsAndPropertiesDuplicatedLocally()" classname="org.springframework.test.context.support.TestPropertySourceUtilsTests" time="0.0"/>
   <testcase name="addInlinedPropertiesToEnvironmentWithNullContext()" classname="org.springframework.test.context.support.TestPropertySourceUtilsTests" time="0.001"/>
   <testcase name="value()" classname="org.springframework.test.context.support.TestPropertySourceUtilsTests" time="0.0"/>
   <testcase name="locationsAndProperties()" classname="org.springframework.test.context.support.TestPropertySourceUtilsTests" time="0.0"/>
-  <testcase name="addPropertiesFilesToEnvironmentWithNullContext()" classname="org.springframework.test.context.support.TestPropertySourceUtilsTests" time="0.0"/>
+  <testcase name="addPropertiesFilesToEnvironmentWithNullContext()" classname="org.springframework.test.context.support.TestPropertySourceUtilsTests" time="0.001"/>
   <testcase name="addPropertiesFilesToEnvironmentWithNullEnvironment()" classname="org.springframework.test.context.support.TestPropertySourceUtilsTests" time="0.001"/>
   <testcase name="addInlinedPropertiesToEnvironmentWithEmptyProperty()" classname="org.springframework.test.context.support.TestPropertySourceUtilsTests" time="0.0"/>
-  <testcase name="addPropertiesFilesToEnvironmentWithEnvironmentAndNullLocations()" classname="org.springframework.test.context.support.TestPropertySourceUtilsTests" time="0.0"/>
+  <testcase name="addPropertiesFilesToEnvironmentWithEnvironmentAndNullLocations()" classname="org.springframework.test.context.support.TestPropertySourceUtilsTests" time="0.001"/>
   <testcase name="addPropertiesFilesToEnvironmentWithContextAndNullLocations()" classname="org.springframework.test.context.support.TestPropertySourceUtilsTests" time="0.0"/>
-  <testcase name="extendedEmptyAnnotation()" classname="org.springframework.test.context.support.TestPropertySourceUtilsTests" time="0.001"/>
-  <testcase name="addPropertiesFilesToEnvironmentWithEnvironmentLocationsAndNullResourceLoader()" classname="org.springframework.test.context.support.TestPropertySourceUtilsTests" time="0.0"/>
-  <testcase name="convertInlinedPropertiesToMapWithNullInlinedProperties()" classname="org.springframework.test.context.support.TestPropertySourceUtilsTests" time="0.0"/>
-  <testcase name="repeatedTestPropertySourcesWithConflictingInheritLocationsFlags()" classname="org.springframework.test.context.support.TestPropertySourceUtilsTests" time="0.0"/>
+  <testcase name="extendedEmptyAnnotation()" classname="org.springframework.test.context.support.TestPropertySourceUtilsTests" time="0.002"/>
+  <testcase name="addPropertiesFilesToEnvironmentWithEnvironmentLocationsAndNullResourceLoader()" classname="org.springframework.test.context.support.TestPropertySourceUtilsTests" time="0.001"/>
+  <testcase name="convertInlinedPropertiesToMapWithNullInlinedProperties()" classname="org.springframework.test.context.support.TestPropertySourceUtilsTests" time="0.001"/>
+  <testcase name="repeatedTestPropertySourcesWithConflictingInheritLocationsFlags()" classname="org.springframework.test.context.support.TestPropertySourceUtilsTests" time="0.002"/>
   <testcase name="addInlinedPropertiesToEnvironmentWithEnvironmentAndNullInlinedProperties()" classname="org.springframework.test.context.support.TestPropertySourceUtilsTests" time="0.001"/>
-  <testcase name="extendedLocationsAndProperties()" classname="org.springframework.test.context.support.TestPropertySourceUtilsTests" time="0.0"/>
-  <testcase name="addInlinedPropertiesToEnvironmentWithContextAndNullInlinedProperties()" classname="org.springframework.test.context.support.TestPropertySourceUtilsTests" time="0.0"/>
+  <testcase name="extendedLocationsAndProperties()" classname="org.springframework.test.context.support.TestPropertySourceUtilsTests" time="0.001"/>
+  <testcase name="addInlinedPropertiesToEnvironmentWithContextAndNullInlinedProperties()" classname="org.springframework.test.context.support.TestPropertySourceUtilsTests" time="0.001"/>
   <testcase name="inheritedLocationsAndProperties()" classname="org.springframework.test.context.support.TestPropertySourceUtilsTests" time="0.0"/>
-  <testcase name="locationsAndPropertiesDuplicatedOnEnclosingClass()" classname="org.springframework.test.context.support.TestPropertySourceUtilsTests" time="0.001"/>
-  <system-out><![CDATA[17:42:48.204 [Test worker] ERROR o.s.t.c.s.TestPropertySourceAttributes - Could not detect default properties file for test class [org.springframework.test.context.support.TestPropertySourceUtilsTests$EmptyPropertySources]: class path resource [org/springframework/test/context/support/TestPropertySourceUtilsTests$EmptyPropertySources.properties] does not exist. Either declare the 'locations' or 'properties' attributes of @TestPropertySource or make the default properties file available.
-17:42:48.208 [Test worker] ERROR o.s.t.c.s.TestPropertySourceAttributes - Could not detect default properties file for test class [org.springframework.test.context.support.TestPropertySourceUtilsTests$ExtendedEmptyPropertySources]: class path resource [org/springframework/test/context/support/TestPropertySourceUtilsTests$ExtendedEmptyPropertySources.properties] does not exist. Either declare the 'locations' or 'properties' attributes of @TestPropertySource or make the default properties file available.
+  <testcase name="locationsAndPropertiesDuplicatedOnEnclosingClass()" classname="org.springframework.test.context.support.TestPropertySourceUtilsTests" time="0.002"/>
+  <system-out><![CDATA[20:41:56.627 [Test worker] ERROR o.s.t.c.s.TestPropertySourceAttributes - Could not detect default properties file for test class [org.springframework.test.context.support.TestPropertySourceUtilsTests$EmptyPropertySources]: class path resource [org/springframework/test/context/support/TestPropertySourceUtilsTests$EmptyPropertySources.properties] does not exist. Either declare the 'locations' or 'properties' attributes of @TestPropertySource or make the default properties file available.
+20:41:56.637 [Test worker] ERROR o.s.t.c.s.TestPropertySourceAttributes - Could not detect default properties file for test class [org.springframework.test.context.support.TestPropertySourceUtilsTests$ExtendedEmptyPropertySources]: class path resource [org/springframework/test/context/support/TestPropertySourceUtilsTests$ExtendedEmptyPropertySources.properties] does not exist. Either declare the 'locations' or 'properties' attributes of @TestPropertySource or make the default properties file available.
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

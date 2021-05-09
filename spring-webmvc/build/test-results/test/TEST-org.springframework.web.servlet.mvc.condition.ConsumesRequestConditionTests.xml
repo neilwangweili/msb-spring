@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.web.servlet.mvc.condition.ConsumesRequestConditionTests" tests="15" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:33:11" hostname="wangweilideMBP.lan" time="0.01">
+<testsuite name="org.springframework.web.servlet.mvc.condition.ConsumesRequestConditionTests" tests="15" skipped="0" failures="0" errors="0" timestamp="2021-05-09T12:41:26" hostname="wangweilidembp" time="0.013">
   <properties/>
   <testcase name="combineWithDefault()" classname="org.springframework.web.servlet.mvc.condition.ConsumesRequestConditionTests" time="0.0"/>
   <testcase name="parseConsumesAndHeaders()" classname="org.springframework.web.servlet.mvc.condition.ConsumesRequestConditionTests" time="0.001"/>
   <testcase name="consumesNoContent()" classname="org.springframework.web.servlet.mvc.condition.ConsumesRequestConditionTests" time="0.0"/>
-  <testcase name="getMatchingCondition()" classname="org.springframework.web.servlet.mvc.condition.ConsumesRequestConditionTests" time="0.002"/>
+  <testcase name="getMatchingCondition()" classname="org.springframework.web.servlet.mvc.condition.ConsumesRequestConditionTests" time="0.0"/>
   <testcase name="consumesMultipleMatch()" classname="org.springframework.web.servlet.mvc.condition.ConsumesRequestConditionTests" time="0.0"/>
-  <testcase name="compareToSingle()" classname="org.springframework.web.servlet.mvc.condition.ConsumesRequestConditionTests" time="0.001"/>
-  <testcase name="consumesMatch()" classname="org.springframework.web.servlet.mvc.condition.ConsumesRequestConditionTests" time="0.0"/>
+  <testcase name="compareToSingle()" classname="org.springframework.web.servlet.mvc.condition.ConsumesRequestConditionTests" time="0.0"/>
+  <testcase name="consumesMatch()" classname="org.springframework.web.servlet.mvc.condition.ConsumesRequestConditionTests" time="0.001"/>
   <testcase name="consumesSingleNoMatch()" classname="org.springframework.web.servlet.mvc.condition.ConsumesRequestConditionTests" time="0.001"/>
   <testcase name="consumesWildcardMatch()" classname="org.springframework.web.servlet.mvc.condition.ConsumesRequestConditionTests" time="0.0"/>
-  <testcase name="consumesParseError()" classname="org.springframework.web.servlet.mvc.condition.ConsumesRequestConditionTests" time="0.001"/>
+  <testcase name="consumesParseError()" classname="org.springframework.web.servlet.mvc.condition.ConsumesRequestConditionTests" time="0.0"/>
   <testcase name="combine()" classname="org.springframework.web.servlet.mvc.condition.ConsumesRequestConditionTests" time="0.0"/>
   <testcase name="compareToMultiple()" classname="org.springframework.web.servlet.mvc.condition.ConsumesRequestConditionTests" time="0.001"/>
-  <testcase name="negatedConsumesMatch()" classname="org.springframework.web.servlet.mvc.condition.ConsumesRequestConditionTests" time="0.0"/>
+  <testcase name="negatedConsumesMatch()" classname="org.springframework.web.servlet.mvc.condition.ConsumesRequestConditionTests" time="0.001"/>
   <testcase name="getConsumableMediaTypesNegatedExpression()" classname="org.springframework.web.servlet.mvc.condition.ConsumesRequestConditionTests" time="0.0"/>
   <testcase name="consumesParseErrorWithNegation()" classname="org.springframework.web.servlet.mvc.condition.ConsumesRequestConditionTests" time="0.0"/>
   <system-out><![CDATA[]]></system-out>

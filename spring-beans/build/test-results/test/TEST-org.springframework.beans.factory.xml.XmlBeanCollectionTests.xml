@@ -1,40 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.beans.factory.xml.XmlBeanCollectionTests" tests="34" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:25:19" hostname="wangweilideMBP.lan" time="1.238">
+<testsuite name="org.springframework.beans.factory.xml.XmlBeanCollectionTests" tests="34" skipped="0" failures="0" errors="0" timestamp="2021-05-09T12:40:08" hostname="wangweilidembp" time="1.557">
   <properties/>
-  <testcase name="testPopulatedConcurrentSet()" classname="org.springframework.beans.factory.xml.XmlBeanCollectionTests" time="0.05"/>
-  <testcase name="testPropertyWithLiteralValueSubelement()" classname="org.springframework.beans.factory.xml.XmlBeanCollectionTests" time="0.028"/>
-  <testcase name="testObjectArray()" classname="org.springframework.beans.factory.xml.XmlBeanCollectionTests" time="0.038"/>
-  <testcase name="testMapWithLiteralsAndReferences()" classname="org.springframework.beans.factory.xml.XmlBeanCollectionTests" time="0.062"/>
-  <testcase name="testEmptyProps()" classname="org.springframework.beans.factory.xml.XmlBeanCollectionTests" time="0.017"/>
-  <testcase name="testMapFactory()" classname="org.springframework.beans.factory.xml.XmlBeanCollectionTests" time="0.046"/>
-  <testcase name="testListFactory()" classname="org.springframework.beans.factory.xml.XmlBeanCollectionTests" time="0.039"/>
-  <testcase name="testPrototypeMapFactory()" classname="org.springframework.beans.factory.xml.XmlBeanCollectionTests" time="0.055"/>
-  <testcase name="testProps()" classname="org.springframework.beans.factory.xml.XmlBeanCollectionTests" time="0.024"/>
-  <testcase name="testClassArray()" classname="org.springframework.beans.factory.xml.XmlBeanCollectionTests" time="0.039"/>
-  <testcase name="testRefSubelementsBuildCollection()" classname="org.springframework.beans.factory.xml.XmlBeanCollectionTests" time="0.04"/>
-  <testcase name="testChoiceBetweenSetAndMap()" classname="org.springframework.beans.factory.xml.XmlBeanCollectionTests" time="0.02"/>
-  <testcase name="testBuildCollectionFromMixtureOfReferencesAndValues()" classname="org.springframework.beans.factory.xml.XmlBeanCollectionTests" time="0.04"/>
-  <testcase name="testCollectionFactoryDefaults()" classname="org.springframework.beans.factory.xml.XmlBeanCollectionTests" time="0.075"/>
-  <testcase name="testMapWithLiteralsReferencesAndList()" classname="org.springframework.beans.factory.xml.XmlBeanCollectionTests" time="0.043"/>
-  <testcase name="testIntegerArray()" classname="org.springframework.beans.factory.xml.XmlBeanCollectionTests" time="0.02"/>
-  <testcase name="testEnumSetFactory()" classname="org.springframework.beans.factory.xml.XmlBeanCollectionTests" time="0.019"/>
-  <testcase name="testClassList()" classname="org.springframework.beans.factory.xml.XmlBeanCollectionTests" time="0.051"/>
-  <testcase name="testPopulatedProps()" classname="org.springframework.beans.factory.xml.XmlBeanCollectionTests" time="0.025"/>
-  <testcase name="testPrototypeListFactory()" classname="org.springframework.beans.factory.xml.XmlBeanCollectionTests" time="0.032"/>
-  <testcase name="testRefSubelementsBuildCollectionFromSingleElement()" classname="org.springframework.beans.factory.xml.XmlBeanCollectionTests" time="0.016"/>
-  <testcase name="testSetFactory()" classname="org.springframework.beans.factory.xml.XmlBeanCollectionTests" time="0.049"/>
-  <testcase name="testMapWithLiteralsOnly()" classname="org.springframework.beans.factory.xml.XmlBeanCollectionTests" time="0.044"/>
-  <testcase name="testRefSubelementsBuildCollectionWithPrototypes()" classname="org.springframework.beans.factory.xml.XmlBeanCollectionTests" time="0.034"/>
-  <testcase name="testPropertyWithIdRefBeanAttrSubelement()" classname="org.springframework.beans.factory.xml.XmlBeanCollectionTests" time="0.017"/>
-  <testcase name="testInvalidBeanNameReference()" classname="org.springframework.beans.factory.xml.XmlBeanCollectionTests" time="0.05"/>
-  <testcase name="testPrototypeSetFactory()" classname="org.springframework.beans.factory.xml.XmlBeanCollectionTests" time="0.015"/>
-  <testcase name="testRefSubelement()" classname="org.springframework.beans.factory.xml.XmlBeanCollectionTests" time="0.027"/>
-  <testcase name="testPopulatedIdentityMap()" classname="org.springframework.beans.factory.xml.XmlBeanCollectionTests" time="0.015"/>
-  <testcase name="testMapWithLiteralsAndPrototypeReferences()" classname="org.springframework.beans.factory.xml.XmlBeanCollectionTests" time="0.053"/>
-  <testcase name="testEmptyMap()" classname="org.springframework.beans.factory.xml.XmlBeanCollectionTests" time="0.017"/>
-  <testcase name="testEmptySet()" classname="org.springframework.beans.factory.xml.XmlBeanCollectionTests" time="0.07"/>
-  <testcase name="testPropertyWithIdRefLocalAttrSubelement()" classname="org.springframework.beans.factory.xml.XmlBeanCollectionTests" time="0.026"/>
-  <testcase name="testPopulatedSet()" classname="org.springframework.beans.factory.xml.XmlBeanCollectionTests" time="0.034"/>
+  <testcase name="testPopulatedConcurrentSet()" classname="org.springframework.beans.factory.xml.XmlBeanCollectionTests" time="0.062"/>
+  <testcase name="testPropertyWithLiteralValueSubelement()" classname="org.springframework.beans.factory.xml.XmlBeanCollectionTests" time="0.047"/>
+  <testcase name="testObjectArray()" classname="org.springframework.beans.factory.xml.XmlBeanCollectionTests" time="0.046"/>
+  <testcase name="testMapWithLiteralsAndReferences()" classname="org.springframework.beans.factory.xml.XmlBeanCollectionTests" time="0.066"/>
+  <testcase name="testEmptyProps()" classname="org.springframework.beans.factory.xml.XmlBeanCollectionTests" time="0.026"/>
+  <testcase name="testMapFactory()" classname="org.springframework.beans.factory.xml.XmlBeanCollectionTests" time="0.06"/>
+  <testcase name="testListFactory()" classname="org.springframework.beans.factory.xml.XmlBeanCollectionTests" time="0.041"/>
+  <testcase name="testPrototypeMapFactory()" classname="org.springframework.beans.factory.xml.XmlBeanCollectionTests" time="0.043"/>
+  <testcase name="testProps()" classname="org.springframework.beans.factory.xml.XmlBeanCollectionTests" time="0.031"/>
+  <testcase name="testClassArray()" classname="org.springframework.beans.factory.xml.XmlBeanCollectionTests" time="0.047"/>
+  <testcase name="testRefSubelementsBuildCollection()" classname="org.springframework.beans.factory.xml.XmlBeanCollectionTests" time="0.018"/>
+  <testcase name="testChoiceBetweenSetAndMap()" classname="org.springframework.beans.factory.xml.XmlBeanCollectionTests" time="0.05"/>
+  <testcase name="testBuildCollectionFromMixtureOfReferencesAndValues()" classname="org.springframework.beans.factory.xml.XmlBeanCollectionTests" time="0.059"/>
+  <testcase name="testCollectionFactoryDefaults()" classname="org.springframework.beans.factory.xml.XmlBeanCollectionTests" time="0.045"/>
+  <testcase name="testMapWithLiteralsReferencesAndList()" classname="org.springframework.beans.factory.xml.XmlBeanCollectionTests" time="0.024"/>
+  <testcase name="testIntegerArray()" classname="org.springframework.beans.factory.xml.XmlBeanCollectionTests" time="0.032"/>
+  <testcase name="testEnumSetFactory()" classname="org.springframework.beans.factory.xml.XmlBeanCollectionTests" time="0.056"/>
+  <testcase name="testClassList()" classname="org.springframework.beans.factory.xml.XmlBeanCollectionTests" time="0.018"/>
+  <testcase name="testPopulatedProps()" classname="org.springframework.beans.factory.xml.XmlBeanCollectionTests" time="0.053"/>
+  <testcase name="testPrototypeListFactory()" classname="org.springframework.beans.factory.xml.XmlBeanCollectionTests" time="0.078"/>
+  <testcase name="testRefSubelementsBuildCollectionFromSingleElement()" classname="org.springframework.beans.factory.xml.XmlBeanCollectionTests" time="0.044"/>
+  <testcase name="testSetFactory()" classname="org.springframework.beans.factory.xml.XmlBeanCollectionTests" time="0.03"/>
+  <testcase name="testMapWithLiteralsOnly()" classname="org.springframework.beans.factory.xml.XmlBeanCollectionTests" time="0.084"/>
+  <testcase name="testRefSubelementsBuildCollectionWithPrototypes()" classname="org.springframework.beans.factory.xml.XmlBeanCollectionTests" time="0.033"/>
+  <testcase name="testPropertyWithIdRefBeanAttrSubelement()" classname="org.springframework.beans.factory.xml.XmlBeanCollectionTests" time="0.03"/>
+  <testcase name="testInvalidBeanNameReference()" classname="org.springframework.beans.factory.xml.XmlBeanCollectionTests" time="0.054"/>
+  <testcase name="testPrototypeSetFactory()" classname="org.springframework.beans.factory.xml.XmlBeanCollectionTests" time="0.043"/>
+  <testcase name="testRefSubelement()" classname="org.springframework.beans.factory.xml.XmlBeanCollectionTests" time="0.038"/>
+  <testcase name="testPopulatedIdentityMap()" classname="org.springframework.beans.factory.xml.XmlBeanCollectionTests" time="0.043"/>
+  <testcase name="testMapWithLiteralsAndPrototypeReferences()" classname="org.springframework.beans.factory.xml.XmlBeanCollectionTests" time="0.048"/>
+  <testcase name="testEmptyMap()" classname="org.springframework.beans.factory.xml.XmlBeanCollectionTests" time="0.03"/>
+  <testcase name="testEmptySet()" classname="org.springframework.beans.factory.xml.XmlBeanCollectionTests" time="0.06"/>
+  <testcase name="testPropertyWithIdRefLocalAttrSubelement()" classname="org.springframework.beans.factory.xml.XmlBeanCollectionTests" time="0.028"/>
+  <testcase name="testPopulatedSet()" classname="org.springframework.beans.factory.xml.XmlBeanCollectionTests" time="0.055"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

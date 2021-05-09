@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.core.annotation.AttributeMethodsTests" tests="18" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:11:30" hostname="wangweilideMBP.lan" time="0.013">
+<testsuite name="org.springframework.core.annotation.AttributeMethodsTests" tests="18" skipped="0" failures="0" errors="0" timestamp="2021-05-09T12:39:29" hostname="wangweilidembp" time="0.024">
   <properties/>
   <testcase name="hasOnlyValueAttributeWhenHasOnlySingleNonValueAttributeReturnsFalse()" classname="org.springframework.core.annotation.AttributeMethodsTests" time="0.0"/>
   <testcase name="canThrowTypeNotPresentExceptionWhenNotClassOrClassArrayAttributeReturnsFalse()" classname="org.springframework.core.annotation.AttributeMethodsTests" time="0.0"/>
-  <testcase name="hasOnlyValueAttributeWhenHasOnlyMultipleAttributesIncludingValueReturnsFalse()" classname="org.springframework.core.annotation.AttributeMethodsTests" time="0.001"/>
-  <testcase name="forAnnotationTypeWhenHasMultipleAttributesReturnsAttributes()" classname="org.springframework.core.annotation.AttributeMethodsTests" time="0.001"/>
+  <testcase name="hasOnlyValueAttributeWhenHasOnlyMultipleAttributesIncludingValueReturnsFalse()" classname="org.springframework.core.annotation.AttributeMethodsTests" time="0.0"/>
+  <testcase name="forAnnotationTypeWhenHasMultipleAttributesReturnsAttributes()" classname="org.springframework.core.annotation.AttributeMethodsTests" time="0.002"/>
   <testcase name="forAnnotationTypeWhenHasNoAttributesReturnsNone()" classname="org.springframework.core.annotation.AttributeMethodsTests" time="0.0"/>
-  <testcase name="sizeReturnsSize()" classname="org.springframework.core.annotation.AttributeMethodsTests" time="0.0"/>
+  <testcase name="sizeReturnsSize()" classname="org.springframework.core.annotation.AttributeMethodsTests" time="0.001"/>
   <testcase name="hasDefaultValueMethodWhenHasDefaultValueMethodReturnsTrue()" classname="org.springframework.core.annotation.AttributeMethodsTests" time="0.0"/>
-  <testcase name="isValidWhenHasTypeNotPresentExceptionReturnsFalse()" classname="org.springframework.core.annotation.AttributeMethodsTests" time="0.008"/>
-  <testcase name="validateWhenHasTypeNotPresentExceptionThrowsException()" classname="org.springframework.core.annotation.AttributeMethodsTests" time="0.0"/>
+  <testcase name="isValidWhenHasTypeNotPresentExceptionReturnsFalse()" classname="org.springframework.core.annotation.AttributeMethodsTests" time="0.014"/>
+  <testcase name="validateWhenHasTypeNotPresentExceptionThrowsException()" classname="org.springframework.core.annotation.AttributeMethodsTests" time="0.002"/>
   <testcase name="canThrowTypeNotPresentExceptionWhenHasClassAttributeReturnsTrue()" classname="org.springframework.core.annotation.AttributeMethodsTests" time="0.0"/>
-  <testcase name="forAnnotationTypeWhenNullReturnsNone()" classname="org.springframework.core.annotation.AttributeMethodsTests" time="0.001"/>
+  <testcase name="forAnnotationTypeWhenNullReturnsNone()" classname="org.springframework.core.annotation.AttributeMethodsTests" time="0.0"/>
   <testcase name="indexOfMethodReturnsIndex()" classname="org.springframework.core.annotation.AttributeMethodsTests" time="0.0"/>
   <testcase name="isValidWhenDoesNotHaveTypeNotPresentExceptionReturnsTrue()" classname="org.springframework.core.annotation.AttributeMethodsTests" time="0.0"/>
-  <testcase name="indexOfNameReturnsIndex()" classname="org.springframework.core.annotation.AttributeMethodsTests" time="0.0"/>
+  <testcase name="indexOfNameReturnsIndex()" classname="org.springframework.core.annotation.AttributeMethodsTests" time="0.001"/>
   <testcase name="hasOnlyValueAttributeWhenHasOnlyValueAttributeReturnsTrue()" classname="org.springframework.core.annotation.AttributeMethodsTests" time="0.0"/>
   <testcase name="validateWhenDoesNotHaveTypeNotPresentExceptionThrowsNothing()" classname="org.springframework.core.annotation.AttributeMethodsTests" time="0.001"/>
   <testcase name="canThrowTypeNotPresentExceptionWhenHasClassArrayAttributeReturnsTrue()" classname="org.springframework.core.annotation.AttributeMethodsTests" time="0.0"/>

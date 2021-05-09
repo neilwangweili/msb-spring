@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.aop.framework.IntroductionBenchmarkTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:22:12" hostname="wangweilideMBP.lan" time="0.271">
+<testsuite name="org.springframework.aop.framework.IntroductionBenchmarkTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-05-09T12:39:33" hostname="wangweilidembp" time="0.343">
   <properties/>
-  <testcase name="timeManyInvocations()" classname="org.springframework.aop.framework.IntroductionBenchmarkTests" time="0.271"/>
-  <system-out><![CDATA[StopWatch '': running time = 251457013 ns
+  <testcase name="timeManyInvocations()" classname="org.springframework.aop.framework.IntroductionBenchmarkTests" time="0.343"/>
+  <system-out><![CDATA[StopWatch '': running time = 329783614 ns
 ---------------------------------------------
 ns         %     Task name
 ---------------------------------------------
-106912254  043%  100000 invocations on proxy, not hitting introduction
-140460404  056%  100000 invocations on proxy, hitting introduction
-004084355  002%  100000 invocations on target
+179743070  055%  100000 invocations on proxy, not hitting introduction
+147045684  045%  100000 invocations on proxy, hitting introduction
+002994860  001%  100000 invocations on target
 
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>

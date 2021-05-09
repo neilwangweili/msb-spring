@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.messaging.simp.broker.SimpleBrokerMessageHandlerTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:29:40" hostname="wangweilideMBP.lan" time="0.16">
+<testsuite name="org.springframework.messaging.simp.broker.SimpleBrokerMessageHandlerTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2021-05-09T12:40:40" hostname="wangweilidembp" time="0.258">
   <properties/>
-  <testcase name="subscribePublish()" classname="org.springframework.messaging.simp.broker.SimpleBrokerMessageHandlerTests" time="0.071"/>
-  <testcase name="readWriteIntervalCalculation()" classname="org.springframework.messaging.simp.broker.SimpleBrokerMessageHandlerTests" time="0.013"/>
-  <testcase name="readInactivity()" classname="org.springframework.messaging.simp.broker.SimpleBrokerMessageHandlerTests" time="0.015"/>
+  <testcase name="subscribePublish()" classname="org.springframework.messaging.simp.broker.SimpleBrokerMessageHandlerTests" time="0.097"/>
+  <testcase name="readWriteIntervalCalculation()" classname="org.springframework.messaging.simp.broker.SimpleBrokerMessageHandlerTests" time="0.025"/>
+  <testcase name="readInactivity()" classname="org.springframework.messaging.simp.broker.SimpleBrokerMessageHandlerTests" time="0.019"/>
   <testcase name="heartbeatValueWithAndWithoutTaskScheduler()" classname="org.springframework.messaging.simp.broker.SimpleBrokerMessageHandlerTests" time="0.004"/>
   <testcase name="startWithHeartbeatValueWithoutTaskScheduler()" classname="org.springframework.messaging.simp.broker.SimpleBrokerMessageHandlerTests" time="0.002"/>
-  <testcase name="startAndStopWithHeartbeatValue()" classname="org.springframework.messaging.simp.broker.SimpleBrokerMessageHandlerTests" time="0.028"/>
-  <testcase name="startWithOneZeroHeartbeatValue()" classname="org.springframework.messaging.simp.broker.SimpleBrokerMessageHandlerTests" time="0.002"/>
-  <testcase name="connect()" classname="org.springframework.messaging.simp.broker.SimpleBrokerMessageHandlerTests" time="0.002"/>
-  <testcase name="writeInactivity()" classname="org.springframework.messaging.simp.broker.SimpleBrokerMessageHandlerTests" time="0.015"/>
-  <testcase name="subscribeDisconnectPublish()" classname="org.springframework.messaging.simp.broker.SimpleBrokerMessageHandlerTests" time="0.004"/>
+  <testcase name="startAndStopWithHeartbeatValue()" classname="org.springframework.messaging.simp.broker.SimpleBrokerMessageHandlerTests" time="0.049"/>
+  <testcase name="startWithOneZeroHeartbeatValue()" classname="org.springframework.messaging.simp.broker.SimpleBrokerMessageHandlerTests" time="0.021"/>
+  <testcase name="connect()" classname="org.springframework.messaging.simp.broker.SimpleBrokerMessageHandlerTests" time="0.01"/>
+  <testcase name="writeInactivity()" classname="org.springframework.messaging.simp.broker.SimpleBrokerMessageHandlerTests" time="0.017"/>
+  <testcase name="subscribeDisconnectPublish()" classname="org.springframework.messaging.simp.broker.SimpleBrokerMessageHandlerTests" time="0.008"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

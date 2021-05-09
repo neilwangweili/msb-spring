@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.messaging.core.GenericMessagingTemplateTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:29:35" hostname="wangweilideMBP.lan" time="1.617">
+<testsuite name="org.springframework.messaging.core.GenericMessagingTemplateTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2021-05-09T12:40:35" hostname="wangweilidembp" time="1.612">
   <properties/>
-  <testcase name="sendAndReceiveVariableTimeoutCustomHeaders()" classname="org.springframework.messaging.core.GenericMessagingTemplateTests" time="0.598"/>
-  <testcase name="sendAndReceive()" classname="org.springframework.messaging.core.GenericMessagingTemplateTests" time="0.004"/>
-  <testcase name="sendAndReceiveVariableTimeout()" classname="org.springframework.messaging.core.GenericMessagingTemplateTests" time="0.505"/>
-  <testcase name="sendWithTimeout()" classname="org.springframework.messaging.core.GenericMessagingTemplateTests" time="0.002"/>
+  <testcase name="sendAndReceiveVariableTimeoutCustomHeaders()" classname="org.springframework.messaging.core.GenericMessagingTemplateTests" time="0.569"/>
+  <testcase name="sendAndReceive()" classname="org.springframework.messaging.core.GenericMessagingTemplateTests" time="0.013"/>
+  <testcase name="sendAndReceiveVariableTimeout()" classname="org.springframework.messaging.core.GenericMessagingTemplateTests" time="0.51"/>
+  <testcase name="sendWithTimeout()" classname="org.springframework.messaging.core.GenericMessagingTemplateTests" time="0.004"/>
   <testcase name="convertAndSendWithSimpMessageHeaders()" classname="org.springframework.messaging.core.GenericMessagingTemplateTests" time="0.001"/>
-  <testcase name="sendWithTimeoutMutable()" classname="org.springframework.messaging.core.GenericMessagingTemplateTests" time="0.002"/>
-  <testcase name="sendAndReceiveTimeout()" classname="org.springframework.messaging.core.GenericMessagingTemplateTests" time="0.504"/>
-  <system-out><![CDATA[17:29:35.847 [ThreadPoolTaskExecutor-1] WARN  o.s.m.c.GenericMessagingTemplate$TemporaryReplyChannel - Reply message received but the receiving thread has exited due to a timeout: GenericMessage [payload=response, headers={id=990a6d6a-c99a-47f9-a941-f05bd91dc469, timestamp=1619861375847}]
-17:29:36.366 [ThreadPoolTaskExecutor-1] WARN  o.s.m.c.GenericMessagingTemplate$TemporaryReplyChannel - Reply message received but the receiving thread has exited due to a timeout: GenericMessage [payload=response, headers={id=224969e4-c464-46f1-3797-38a2f3ad91e7, timestamp=1619861376366}]
-17:29:36.876 [ThreadPoolTaskExecutor-1] WARN  o.s.m.c.GenericMessagingTemplate$TemporaryReplyChannel - Reply message received but the receiving thread has exited due to a timeout: GenericMessage [payload=response, headers={id=a1f7e600-9d5a-b10c-ea55-a3a33033a22b, timestamp=1619861376876}]
+  <testcase name="sendWithTimeoutMutable()" classname="org.springframework.messaging.core.GenericMessagingTemplateTests" time="0.003"/>
+  <testcase name="sendAndReceiveTimeout()" classname="org.springframework.messaging.core.GenericMessagingTemplateTests" time="0.508"/>
+  <system-out><![CDATA[20:40:35.727 [ThreadPoolTaskExecutor-1] WARN  o.s.m.c.GenericMessagingTemplate$TemporaryReplyChannel - Reply message received but the receiving thread has exited due to a timeout: GenericMessage [payload=response, headers={id=72f6d55d-5b5c-665f-0dfa-2f4cb7132bcb, timestamp=1620564035727}]
+20:40:36.263 [ThreadPoolTaskExecutor-1] WARN  o.s.m.c.GenericMessagingTemplate$TemporaryReplyChannel - Reply message received but the receiving thread has exited due to a timeout: GenericMessage [payload=response, headers={id=b3f40e2d-0105-daa6-dd91-7d72b89ba974, timestamp=1620564036263}]
+20:40:36.781 [ThreadPoolTaskExecutor-1] WARN  o.s.m.c.GenericMessagingTemplate$TemporaryReplyChannel - Reply message received but the receiving thread has exited due to a timeout: GenericMessage [payload=response, headers={id=e97aec30-2ca0-18cc-3ca7-82a8393ab5d8, timestamp=1620564036781}]
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

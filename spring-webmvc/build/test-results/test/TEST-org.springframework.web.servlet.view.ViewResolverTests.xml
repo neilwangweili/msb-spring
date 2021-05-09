@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.web.servlet.view.ViewResolverTests" tests="19" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:34:00" hostname="wangweilideMBP.lan" time="0.042">
+<testsuite name="org.springframework.web.servlet.view.ViewResolverTests" tests="19" skipped="0" failures="0" errors="0" timestamp="2021-05-09T12:42:16" hostname="wangweilidembp" time="0.035">
   <properties/>
   <testcase name="internalResourceViewResolverWithJstl()" classname="org.springframework.web.servlet.view.ViewResolverTests" time="0.001"/>
   <testcase name="internalResourceViewResolverWithPrefixes()" classname="org.springframework.web.servlet.view.ViewResolverTests" time="0.001"/>
-  <testcase name="xmlViewResolverWithoutCache()" classname="org.springframework.web.servlet.view.ViewResolverTests" time="0.002"/>
+  <testcase name="xmlViewResolverWithoutCache()" classname="org.springframework.web.servlet.view.ViewResolverTests" time="0.001"/>
   <testcase name="internalResourceViewResolverWithAttributes()" classname="org.springframework.web.servlet.view.ViewResolverTests" time="0.001"/>
   <testcase name="urlBasedViewResolverWithPrefixes()" classname="org.springframework.web.servlet.view.ViewResolverTests" time="0.001"/>
   <testcase name="cacheRemoval()" classname="org.springframework.web.servlet.view.ViewResolverTests" time="0.0"/>
-  <testcase name="internalResourceViewResolverWithSpecificContextBeans()" classname="org.springframework.web.servlet.view.ViewResolverTests" time="0.007"/>
-  <testcase name="xmlViewResolver()" classname="org.springframework.web.servlet.view.ViewResolverTests" time="0.013"/>
+  <testcase name="internalResourceViewResolverWithSpecificContextBeans()" classname="org.springframework.web.servlet.view.ViewResolverTests" time="0.005"/>
+  <testcase name="xmlViewResolver()" classname="org.springframework.web.servlet.view.ViewResolverTests" time="0.01"/>
   <testcase name="internalResourceViewResolverWithJstlAndContextParam()" classname="org.springframework.web.servlet.view.ViewResolverTests" time="0.004"/>
   <testcase name="beanNameViewResolver()" classname="org.springframework.web.servlet.view.ViewResolverTests" time="0.001"/>
-  <testcase name="urlBasedViewResolverDoesNotOverrideCustomRequestContextAttributeWithNull()" classname="org.springframework.web.servlet.view.ViewResolverTests" time="0.001"/>
+  <testcase name="urlBasedViewResolverDoesNotOverrideCustomRequestContextAttributeWithNull()" classname="org.springframework.web.servlet.view.ViewResolverTests" time="0.0"/>
   <testcase name="internalResourceViewResolverWithoutPrefixes()" classname="org.springframework.web.servlet.view.ViewResolverTests" time="0.001"/>
   <testcase name="xmlViewResolverDefaultLocation()" classname="org.springframework.web.servlet.view.ViewResolverTests" time="0.001"/>
-  <testcase name="internalResourceViewResolverWithContextBeans()" classname="org.springframework.web.servlet.view.ViewResolverTests" time="0.002"/>
-  <testcase name="cacheFilterEnabled()" classname="org.springframework.web.servlet.view.ViewResolverTests" time="0.001"/>
+  <testcase name="internalResourceViewResolverWithContextBeans()" classname="org.springframework.web.servlet.view.ViewResolverTests" time="0.003"/>
+  <testcase name="cacheFilterEnabled()" classname="org.springframework.web.servlet.view.ViewResolverTests" time="0.0"/>
   <testcase name="cacheFilterDisabled()" classname="org.springframework.web.servlet.view.ViewResolverTests" time="0.001"/>
   <testcase name="cacheUnresolved()" classname="org.springframework.web.servlet.view.ViewResolverTests" time="0.0"/>
   <testcase name="urlBasedViewResolverWithoutPrefixes()" classname="org.springframework.web.servlet.view.ViewResolverTests" time="0.001"/>

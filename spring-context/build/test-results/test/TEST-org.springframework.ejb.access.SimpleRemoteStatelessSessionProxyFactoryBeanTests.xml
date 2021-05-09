@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.ejb.access.SimpleRemoteStatelessSessionProxyFactoryBeanTests" tests="21" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:32:33" hostname="wangweilideMBP.lan" time="0.05">
+<testsuite name="org.springframework.ejb.access.SimpleRemoteStatelessSessionProxyFactoryBeanTests" tests="21" skipped="0" failures="0" errors="0" timestamp="2021-05-09T12:42:17" hostname="wangweilidembp" time="0.057">
   <properties/>
   <testcase name="testInvokesMethodOnEjbInstanceWithBusinessInterfaceWithRemoteException()" classname="org.springframework.ejb.access.SimpleRemoteStatelessSessionProxyFactoryBeanTests" time="0.002"/>
   <testcase name="testInvokesMethodOnEjbInstance()" classname="org.springframework.ejb.access.SimpleRemoteStatelessSessionProxyFactoryBeanTests" time="0.002"/>
-  <testcase name="testPerformsLookupWithAccessContext()" classname="org.springframework.ejb.access.SimpleRemoteStatelessSessionProxyFactoryBeanTests" time="0.001"/>
-  <testcase name="testInvokesMethodOnEjbInstanceWithNoCache()" classname="org.springframework.ejb.access.SimpleRemoteStatelessSessionProxyFactoryBeanTests" time="0.002"/>
+  <testcase name="testPerformsLookupWithAccessContext()" classname="org.springframework.ejb.access.SimpleRemoteStatelessSessionProxyFactoryBeanTests" time="0.002"/>
+  <testcase name="testInvokesMethodOnEjbInstanceWithNoCache()" classname="org.springframework.ejb.access.SimpleRemoteStatelessSessionProxyFactoryBeanTests" time="0.004"/>
   <testcase name="testApplicationException()" classname="org.springframework.ejb.access.SimpleRemoteStatelessSessionProxyFactoryBeanTests" time="0.002"/>
   <testcase name="testPerformsLookup()" classname="org.springframework.ejb.access.SimpleRemoteStatelessSessionProxyFactoryBeanTests" time="0.001"/>
   <testcase name="testInvokesMethodOnEjbInstanceWithConnectExceptionWithRefreshAndNoCache()" classname="org.springframework.ejb.access.SimpleRemoteStatelessSessionProxyFactoryBeanTests" time="0.003"/>
-  <testcase name="testInvokesMethodOnEjbInstanceWithConnectExceptionWithRefreshAndLazyLookup()" classname="org.springframework.ejb.access.SimpleRemoteStatelessSessionProxyFactoryBeanTests" time="0.002"/>
+  <testcase name="testInvokesMethodOnEjbInstanceWithConnectExceptionWithRefreshAndLazyLookup()" classname="org.springframework.ejb.access.SimpleRemoteStatelessSessionProxyFactoryBeanTests" time="0.003"/>
   <testcase name="testInvokesMethodOnEjbInstanceWithConnectExceptionWithRefresh()" classname="org.springframework.ejb.access.SimpleRemoteStatelessSessionProxyFactoryBeanTests" time="0.003"/>
-  <testcase name="testInvokesMethodOnEjbInstanceWithLazyLookupAndNoCache()" classname="org.springframework.ejb.access.SimpleRemoteStatelessSessionProxyFactoryBeanTests" time="0.001"/>
+  <testcase name="testInvokesMethodOnEjbInstanceWithLazyLookupAndNoCache()" classname="org.springframework.ejb.access.SimpleRemoteStatelessSessionProxyFactoryBeanTests" time="0.002"/>
   <testcase name="testInvokesMethodOnEjbInstanceWithRemoteException()" classname="org.springframework.ejb.access.SimpleRemoteStatelessSessionProxyFactoryBeanTests" time="0.002"/>
-  <testcase name="testInvokesMethodOnEjbInstanceWithLazyLookup()" classname="org.springframework.ejb.access.SimpleRemoteStatelessSessionProxyFactoryBeanTests" time="0.001"/>
+  <testcase name="testInvokesMethodOnEjbInstanceWithLazyLookup()" classname="org.springframework.ejb.access.SimpleRemoteStatelessSessionProxyFactoryBeanTests" time="0.002"/>
   <testcase name="testLookupFailure()" classname="org.springframework.ejb.access.SimpleRemoteStatelessSessionProxyFactoryBeanTests" time="0.0"/>
   <testcase name="testInvokesMethodOnEjbInstanceWithConnectExceptionWithRefreshAndLazyLookupAndNoCache()" classname="org.springframework.ejb.access.SimpleRemoteStatelessSessionProxyFactoryBeanTests" time="0.003"/>
-  <testcase name="testInvokesMethodOnEjbInstanceWithBusinessInterface()" classname="org.springframework.ejb.access.SimpleRemoteStatelessSessionProxyFactoryBeanTests" time="0.001"/>
-  <testcase name="testInvokesMethodOnEjb3StyleBean()" classname="org.springframework.ejb.access.SimpleRemoteStatelessSessionProxyFactoryBeanTests" time="0.01"/>
+  <testcase name="testInvokesMethodOnEjbInstanceWithBusinessInterface()" classname="org.springframework.ejb.access.SimpleRemoteStatelessSessionProxyFactoryBeanTests" time="0.002"/>
+  <testcase name="testInvokesMethodOnEjb3StyleBean()" classname="org.springframework.ejb.access.SimpleRemoteStatelessSessionProxyFactoryBeanTests" time="0.009"/>
   <testcase name="testRemoteException()" classname="org.springframework.ejb.access.SimpleRemoteStatelessSessionProxyFactoryBeanTests" time="0.006"/>
   <testcase name="testCreateExceptionWithLocalBusinessInterface()" classname="org.springframework.ejb.access.SimpleRemoteStatelessSessionProxyFactoryBeanTests" time="0.004"/>
   <testcase name="testNoBusinessInterfaceSpecified()" classname="org.springframework.ejb.access.SimpleRemoteStatelessSessionProxyFactoryBeanTests" time="0.001"/>
   <testcase name="testCreateException()" classname="org.springframework.ejb.access.SimpleRemoteStatelessSessionProxyFactoryBeanTests" time="0.001"/>
-  <testcase name="testInvokesMethod()" classname="org.springframework.ejb.access.SimpleRemoteStatelessSessionProxyFactoryBeanTests" time="0.001"/>
+  <testcase name="testInvokesMethod()" classname="org.springframework.ejb.access.SimpleRemoteStatelessSessionProxyFactoryBeanTests" time="0.002"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

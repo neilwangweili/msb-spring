@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.827s</div>
+<div class="counter">1.787s</div>
 <p>duration</p>
 </div>
 </td>
@@ -89,7 +89,7 @@
 </tr>
 <tr>
 <td class="success">multipleSchedulersWithQuartzProperties()</td>
-<td class="success">0.040s</td>
+<td class="success">0.068s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -99,27 +99,27 @@
 </tr>
 <tr>
 <td class="success">schedulerAutoStartsOnContextRefreshedEventByDefault()</td>
-<td class="success">0.003s</td>
+<td class="success">0.026s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">schedulerAutoStartupFalse()</td>
-<td class="success">0.009s</td>
+<td class="success">0.010s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">schedulerFactoryBeanWithApplicationContext()</td>
-<td class="success">0.083s</td>
+<td class="success">0.135s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">schedulerRepositoryExposure()</td>
-<td class="success">0.062s</td>
+<td class="success">0.106s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">schedulerWithHsqlDataSource()</td>
-<td class="success">0.613s</td>
+<td class="success">1.425s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -162,7 +162,7 @@
 <div id="tab1" class="tab">
 <h2>Standard output</h2>
 <span class="code">
-<pre>17:26:12.024 [scheduler_QuartzSchedulerThread] ERROR o.q.c.ErrorLogger - An error occurred while scanning for the next triggers to fire.
+<pre>20:40:41.657 [scheduler_QuartzSchedulerThread] ERROR o.q.c.ErrorLogger - An error occurred while scanning for the next triggers to fire.
 org.quartz.JobPersistenceException: Couldn't acquire next trigger: user lacks privilege or object not found: SCHED_TIME in statement [INSERT INTO QRTZ_FIRED_TRIGGERS (SCHED_NAME, ENTRY_ID, TRIGGER_NAME, TRIGGER_GROUP, INSTANCE_NAME, FIRED_TIME, SCHED_TIME, STATE, JOB_NAME, JOB_GROUP, IS_NONCONCURRENT, REQUESTS_RECOVERY, PRIORITY) VALUES('scheduler', ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
 	at org.quartz.impl.jdbcjobstore.JobStoreSupport.acquireNextTrigger(JobStoreSupport.java:2923) ~[quartz-2.3.2.jar:?]
 	at org.quartz.impl.jdbcjobstore.JobStoreSupport$41.execute(JobStoreSupport.java:2805) ~[quartz-2.3.2.jar:?]
@@ -175,11 +175,11 @@ Caused by: java.sql.SQLSyntaxErrorException: user lacks privilege or object not 
 	at org.hsqldb.jdbc.JDBCUtil.sqlException(Unknown Source) ~[hsqldb-2.5.1.jar:2.5.1]
 	at org.hsqldb.jdbc.JDBCPreparedStatement.&lt;init&gt;(Unknown Source) ~[hsqldb-2.5.1.jar:2.5.1]
 	at org.hsqldb.jdbc.JDBCConnection.prepareStatement(Unknown Source) ~[hsqldb-2.5.1.jar:2.5.1]
-	at sun.reflect.GeneratedMethodAccessor143.invoke(Unknown Source) ~[?:?]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_181]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_181]
+	at jdk.internal.reflect.GeneratedMethodAccessor142.invoke(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
 	at org.quartz.impl.jdbcjobstore.AttributeRestoringConnectionInvocationHandler.invoke(AttributeRestoringConnectionInvocationHandler.java:73) ~[quartz-2.3.2.jar:?]
-	at com.sun.proxy.$Proxy82.prepareStatement(Unknown Source) ~[?:?]
+	at com.sun.proxy.$Proxy83.prepareStatement(Unknown Source) ~[?:?]
 	at org.quartz.impl.jdbcjobstore.StdJDBCDelegate.insertFiredTrigger(StdJDBCDelegate.java:2645) ~[quartz-2.3.2.jar:?]
 	at org.quartz.impl.jdbcjobstore.JobStoreSupport.acquireNextTrigger(JobStoreSupport.java:2906) ~[quartz-2.3.2.jar:?]
 	... 5 more
@@ -196,11 +196,11 @@ Caused by: org.hsqldb.HsqlException: user lacks privilege or object not found: S
 	at org.hsqldb.Session.execute(Unknown Source) ~[hsqldb-2.5.1.jar:2.5.1]
 	at org.hsqldb.jdbc.JDBCPreparedStatement.&lt;init&gt;(Unknown Source) ~[hsqldb-2.5.1.jar:2.5.1]
 	at org.hsqldb.jdbc.JDBCConnection.prepareStatement(Unknown Source) ~[hsqldb-2.5.1.jar:2.5.1]
-	at sun.reflect.GeneratedMethodAccessor143.invoke(Unknown Source) ~[?:?]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_181]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_181]
+	at jdk.internal.reflect.GeneratedMethodAccessor142.invoke(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
 	at org.quartz.impl.jdbcjobstore.AttributeRestoringConnectionInvocationHandler.invoke(AttributeRestoringConnectionInvocationHandler.java:73) ~[quartz-2.3.2.jar:?]
-	at com.sun.proxy.$Proxy82.prepareStatement(Unknown Source) ~[?:?]
+	at com.sun.proxy.$Proxy83.prepareStatement(Unknown Source) ~[?:?]
 	at org.quartz.impl.jdbcjobstore.StdJDBCDelegate.insertFiredTrigger(StdJDBCDelegate.java:2645) ~[quartz-2.3.2.jar:?]
 	at org.quartz.impl.jdbcjobstore.JobStoreSupport.acquireNextTrigger(JobStoreSupport.java:2906) ~[quartz-2.3.2.jar:?]
 	... 5 more
@@ -215,7 +215,7 @@ Caused by: org.hsqldb.HsqlException: user lacks privilege or object not found: S
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 6.8.3</a> at May 1, 2021 5:26:13 PM</p>
+<a href="http://www.gradle.org">Gradle 6.8.3</a> at 2021年5月9日 下午8:40:46</p>
 </div>
 </div>
 </body>

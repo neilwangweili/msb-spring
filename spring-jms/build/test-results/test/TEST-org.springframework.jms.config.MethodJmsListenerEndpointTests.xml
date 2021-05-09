@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.jms.config.MethodJmsListenerEndpointTests" tests="27" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:25:19" hostname="wangweilideMBP.lan" time="0.265">
+<testsuite name="org.springframework.jms.config.MethodJmsListenerEndpointTests" tests="27" skipped="0" failures="0" errors="0" timestamp="2021-05-09T12:40:15" hostname="wangweilidembp" time="0.447">
   <properties/>
-  <testcase name="processAndReplyWithCustomReplyQosSettings()" classname="org.springframework.jms.config.MethodJmsListenerEndpointTests" time="0.03"/>
-  <testcase name="processAndReplyWithSendToQueue()" classname="org.springframework.jms.config.MethodJmsListenerEndpointTests" time="0.001"/>
-  <testcase name="processAndReplyWithSendToTopic()" classname="org.springframework.jms.config.MethodJmsListenerEndpointTests" time="0.002"/>
-  <testcase name="resolveHeaders()" classname="org.springframework.jms.config.MethodJmsListenerEndpointTests" time="0.034"/>
-  <testcase name="processFromQueueAndReplyWithSendToTopic()" classname="org.springframework.jms.config.MethodJmsListenerEndpointTests" time="0.002"/>
-  <testcase name="resolveConvertedPayload()" classname="org.springframework.jms.config.MethodJmsListenerEndpointTests" time="0.0"/>
-  <testcase name="invalidSendTo()" classname="org.springframework.jms.config.MethodJmsListenerEndpointTests" time="0.001"/>
-  <testcase name="validatePayloadInvalid()" classname="org.springframework.jms.config.MethodJmsListenerEndpointTests" time="0.003"/>
+  <testcase name="processAndReplyWithCustomReplyQosSettings()" classname="org.springframework.jms.config.MethodJmsListenerEndpointTests" time="0.031"/>
+  <testcase name="processAndReplyWithSendToQueue()" classname="org.springframework.jms.config.MethodJmsListenerEndpointTests" time="0.012"/>
+  <testcase name="processAndReplyWithSendToTopic()" classname="org.springframework.jms.config.MethodJmsListenerEndpointTests" time="0.032"/>
+  <testcase name="resolveHeaders()" classname="org.springframework.jms.config.MethodJmsListenerEndpointTests" time="0.016"/>
+  <testcase name="processFromQueueAndReplyWithSendToTopic()" classname="org.springframework.jms.config.MethodJmsListenerEndpointTests" time="0.037"/>
+  <testcase name="resolveConvertedPayload()" classname="org.springframework.jms.config.MethodJmsListenerEndpointTests" time="0.001"/>
+  <testcase name="invalidSendTo()" classname="org.springframework.jms.config.MethodJmsListenerEndpointTests" time="0.005"/>
+  <testcase name="validatePayloadInvalid()" classname="org.springframework.jms.config.MethodJmsListenerEndpointTests" time="0.016"/>
   <testcase name="resolveJmsMessageHeaderAccessor()" classname="org.springframework.jms.config.MethodJmsListenerEndpointTests" time="0.001"/>
-  <testcase name="resolveHeaderAndPayload()" classname="org.springframework.jms.config.MethodJmsListenerEndpointTests" time="0.063"/>
+  <testcase name="resolveHeaderAndPayload()" classname="org.springframework.jms.config.MethodJmsListenerEndpointTests" time="0.038"/>
   <testcase name="resolveMessageAndSession()" classname="org.springframework.jms.config.MethodJmsListenerEndpointTests" time="0.001"/>
-  <testcase name="validatePayloadValid()" classname="org.springframework.jms.config.MethodJmsListenerEndpointTests" time="0.012"/>
-  <testcase name="resolveCustomHeaderNameAndPayload()" classname="org.springframework.jms.config.MethodJmsListenerEndpointTests" time="0.001"/>
-  <testcase name="resolveCustomHeaderNameAndPayloadWithHeaderNameSet()" classname="org.springframework.jms.config.MethodJmsListenerEndpointTests" time="0.001"/>
-  <testcase name="invalidPayloadType()" classname="org.springframework.jms.config.MethodJmsListenerEndpointTests" time="0.001"/>
+  <testcase name="validatePayloadValid()" classname="org.springframework.jms.config.MethodJmsListenerEndpointTests" time="0.046"/>
+  <testcase name="resolveCustomHeaderNameAndPayload()" classname="org.springframework.jms.config.MethodJmsListenerEndpointTests" time="0.019"/>
+  <testcase name="resolveCustomHeaderNameAndPayloadWithHeaderNameSet()" classname="org.springframework.jms.config.MethodJmsListenerEndpointTests" time="0.002"/>
+  <testcase name="invalidPayloadType()" classname="org.springframework.jms.config.MethodJmsListenerEndpointTests" time="0.002"/>
   <testcase name="createMessageListenerNoFactory()" classname="org.springframework.jms.config.MethodJmsListenerEndpointTests" time="0.001"/>
-  <testcase name="processFromTopicAndReplyWithSendToQueue()" classname="org.springframework.jms.config.MethodJmsListenerEndpointTests" time="0.002"/>
+  <testcase name="processFromTopicAndReplyWithSendToQueue()" classname="org.springframework.jms.config.MethodJmsListenerEndpointTests" time="0.008"/>
   <testcase name="setExtraCollaborators()" classname="org.springframework.jms.config.MethodJmsListenerEndpointTests" time="0.001"/>
   <testcase name="invalidMessagePayloadType()" classname="org.springframework.jms.config.MethodJmsListenerEndpointTests" time="0.002"/>
-  <testcase name="processAndReply()" classname="org.springframework.jms.config.MethodJmsListenerEndpointTests" time="0.003"/>
-  <testcase name="processAndReplyWithNullReplyQosSettings()" classname="org.springframework.jms.config.MethodJmsListenerEndpointTests" time="0.002"/>
+  <testcase name="processAndReply()" classname="org.springframework.jms.config.MethodJmsListenerEndpointTests" time="0.004"/>
+  <testcase name="processAndReplyWithNullReplyQosSettings()" classname="org.springframework.jms.config.MethodJmsListenerEndpointTests" time="0.005"/>
   <testcase name="resolveMessageHeaders()" classname="org.springframework.jms.config.MethodJmsListenerEndpointTests" time="0.001"/>
-  <testcase name="resolveGenericMessage()" classname="org.springframework.jms.config.MethodJmsListenerEndpointTests" time="0.0"/>
+  <testcase name="resolveGenericMessage()" classname="org.springframework.jms.config.MethodJmsListenerEndpointTests" time="0.001"/>
   <testcase name="emptySendTo()" classname="org.springframework.jms.config.MethodJmsListenerEndpointTests" time="0.002"/>
-  <testcase name="resolveObjectPayload()" classname="org.springframework.jms.config.MethodJmsListenerEndpointTests" time="0.001"/>
+  <testcase name="resolveObjectPayload()" classname="org.springframework.jms.config.MethodJmsListenerEndpointTests" time="0.002"/>
   <testcase name="createMessageListener()" classname="org.springframework.jms.config.MethodJmsListenerEndpointTests" time="0.001"/>
-  <testcase name="processAndReplyWithDefaultSendTo()" classname="org.springframework.jms.config.MethodJmsListenerEndpointTests" time="0.004"/>
+  <testcase name="processAndReplyWithDefaultSendTo()" classname="org.springframework.jms.config.MethodJmsListenerEndpointTests" time="0.005"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

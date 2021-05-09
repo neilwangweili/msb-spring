@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.web.util.UriComponentsTests" tests="21" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:41:06" hostname="wangweilideMacBook-Pro.local" time="0.034">
+<testsuite name="org.springframework.web.util.UriComponentsTests" tests="21" skipped="0" failures="0" errors="0" timestamp="2021-05-09T12:43:19" hostname="wangweilidembp" time="0.028">
   <properties/>
-  <testcase name="expand()" classname="org.springframework.web.util.UriComponentsTests" time="0.0"/>
+  <testcase name="expand()" classname="org.springframework.web.util.UriComponentsTests" time="0.001"/>
   <testcase name="invalidCharacters()" classname="org.springframework.web.util.UriComponentsTests" time="0.001"/>
   <testcase name="expandEncoded()" classname="org.springframework.web.util.UriComponentsTests" time="0.001"/>
   <testcase name="expandWithRegexVar()" classname="org.springframework.web.util.UriComponentsTests" time="0.001"/>
-  <testcase name="copyToUriComponentsBuilder()" classname="org.springframework.web.util.UriComponentsTests" time="0.001"/>
-  <testcase name="toUriEncoded()" classname="org.springframework.web.util.UriComponentsTests" time="0.0"/>
+  <testcase name="copyToUriComponentsBuilder()" classname="org.springframework.web.util.UriComponentsTests" time="0.0"/>
+  <testcase name="toUriEncoded()" classname="org.springframework.web.util.UriComponentsTests" time="0.001"/>
   <testcase name="encodeAndExpandPartially()" classname="org.springframework.web.util.UriComponentsTests" time="0.001"/>
   <testcase name="port()" classname="org.springframework.web.util.UriComponentsTests" time="0.001"/>
-  <testcase name="invalidEncodedSequence()" classname="org.springframework.web.util.UriComponentsTests" time="0.001"/>
+  <testcase name="invalidEncodedSequence()" classname="org.springframework.web.util.UriComponentsTests" time="0.0"/>
   <testcase name="encodeAndExpand()" classname="org.springframework.web.util.UriComponentsTests" time="0.0"/>
-  <testcase name="normalize()" classname="org.springframework.web.util.UriComponentsTests" time="0.0"/>
+  <testcase name="normalize()" classname="org.springframework.web.util.UriComponentsTests" time="0.001"/>
   <testcase name="uirTemplateExpandWithMismatchedCurlyBraces()" classname="org.springframework.web.util.UriComponentsTests" time="0.0"/>
-  <testcase name="toUriNotEncoded()" classname="org.springframework.web.util.UriComponentsTests" time="0.0"/>
-  <testcase name="expandWithFragmentOrder()" classname="org.springframework.web.util.UriComponentsTests" time="0.002"/>
-  <testcase name="serializable()" classname="org.springframework.web.util.UriComponentsTests" time="0.013"/>
-  <testcase name="toUriAlreadyEncoded()" classname="org.springframework.web.util.UriComponentsTests" time="0.001"/>
+  <testcase name="toUriNotEncoded()" classname="org.springframework.web.util.UriComponentsTests" time="0.001"/>
+  <testcase name="expandWithFragmentOrder()" classname="org.springframework.web.util.UriComponentsTests" time="0.0"/>
+  <testcase name="serializable()" classname="org.springframework.web.util.UriComponentsTests" time="0.012"/>
+  <testcase name="toUriAlreadyEncoded()" classname="org.springframework.web.util.UriComponentsTests" time="0.0"/>
   <testcase name="encodeAndExpandWithDollarSign()" classname="org.springframework.web.util.UriComponentsTests" time="0.0"/>
   <testcase name="equalsHierarchicalUriComponents()" classname="org.springframework.web.util.UriComponentsTests" time="0.0"/>
   <testcase name="expandAndEncode()" classname="org.springframework.web.util.UriComponentsTests" time="0.001"/>
   <testcase name="equalsOpaqueUriComponents()" classname="org.springframework.web.util.UriComponentsTests" time="0.0"/>
-  <testcase name="toUriWithIpv6HostAlreadyEncoded()" classname="org.springframework.web.util.UriComponentsTests" time="0.0"/>
+  <testcase name="toUriWithIpv6HostAlreadyEncoded()" classname="org.springframework.web.util.UriComponentsTests" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

@@ -12,4 +12,6 @@
 
     <bean class="org.springframework.processor.MyBeanPostProcessor"/>
 
+    <bean id="aFactoryBean" class="org.springframework.circle.AFactoryBean"/>
+
 </beans>

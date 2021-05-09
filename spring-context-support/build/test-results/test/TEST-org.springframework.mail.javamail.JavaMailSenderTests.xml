@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.mail.javamail.JavaMailSenderTests" tests="19" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:26:12" hostname="wangweilideMBP.lan" time="0.186">
+<testsuite name="org.springframework.mail.javamail.JavaMailSenderTests" tests="19" skipped="0" failures="0" errors="0" timestamp="2021-05-09T12:40:42" hostname="wangweilidembp" time="0.468">
   <properties/>
-  <testcase name="javaMailProperties()" classname="org.springframework.mail.javamail.JavaMailSenderTests" time="0.068"/>
-  <testcase name="failedMimeMessage()" classname="org.springframework.mail.javamail.JavaMailSenderTests" time="0.014"/>
-  <testcase name="javaMailSenderWithMimeMessagePreparator()" classname="org.springframework.mail.javamail.JavaMailSenderTests" time="0.006"/>
+  <testcase name="javaMailProperties()" classname="org.springframework.mail.javamail.JavaMailSenderTests" time="0.183"/>
+  <testcase name="failedMimeMessage()" classname="org.springframework.mail.javamail.JavaMailSenderTests" time="0.033"/>
+  <testcase name="javaMailSenderWithMimeMessagePreparator()" classname="org.springframework.mail.javamail.JavaMailSenderTests" time="0.008"/>
   <testcase name="testConnectionWithFailure()" classname="org.springframework.mail.javamail.JavaMailSenderTests" time="0.004"/>
-  <testcase name="testConnection()" classname="org.springframework.mail.javamail.JavaMailSenderTests" time="0.002"/>
+  <testcase name="testConnection()" classname="org.springframework.mail.javamail.JavaMailSenderTests" time="0.026"/>
   <testcase name="javaMailSenderWithCustomSession()" classname="org.springframework.mail.javamail.JavaMailSenderTests" time="0.004"/>
-  <testcase name="javaMailSenderWithSimpleMessage()" classname="org.springframework.mail.javamail.JavaMailSenderTests" time="0.02"/>
+  <testcase name="javaMailSenderWithSimpleMessage()" classname="org.springframework.mail.javamail.JavaMailSenderTests" time="0.051"/>
   <testcase name="javaMailSenderWithMimeMessageHelperAndDefaultEncoding()" classname="org.springframework.mail.javamail.JavaMailSenderTests" time="0.004"/>
-  <testcase name="failedMailServerConnect()" classname="org.springframework.mail.javamail.JavaMailSenderTests" time="0.017"/>
-  <testcase name="javaMailSenderWithMimeMessagePreparators()" classname="org.springframework.mail.javamail.JavaMailSenderTests" time="0.004"/>
-  <testcase name="javaMailSenderWithMimeMessage()" classname="org.springframework.mail.javamail.JavaMailSenderTests" time="0.003"/>
-  <testcase name="failedMailServerClose()" classname="org.springframework.mail.javamail.JavaMailSenderTests" time="0.004"/>
-  <testcase name="javaMailSenderWithParseExceptionOnSimpleMessage()" classname="org.springframework.mail.javamail.JavaMailSenderTests" time="0.002"/>
-  <testcase name="javaMailSenderWithSimpleMessages()" classname="org.springframework.mail.javamail.JavaMailSenderTests" time="0.003"/>
+  <testcase name="failedMailServerConnect()" classname="org.springframework.mail.javamail.JavaMailSenderTests" time="0.047"/>
+  <testcase name="javaMailSenderWithMimeMessagePreparators()" classname="org.springframework.mail.javamail.JavaMailSenderTests" time="0.022"/>
+  <testcase name="javaMailSenderWithMimeMessage()" classname="org.springframework.mail.javamail.JavaMailSenderTests" time="0.004"/>
+  <testcase name="failedMailServerClose()" classname="org.springframework.mail.javamail.JavaMailSenderTests" time="0.013"/>
+  <testcase name="javaMailSenderWithParseExceptionOnSimpleMessage()" classname="org.springframework.mail.javamail.JavaMailSenderTests" time="0.004"/>
+  <testcase name="javaMailSenderWithSimpleMessages()" classname="org.springframework.mail.javamail.JavaMailSenderTests" time="0.016"/>
   <testcase name="javaMailSenderWithMimeMessageHelperAndSpecificEncoding()" classname="org.springframework.mail.javamail.JavaMailSenderTests" time="0.004"/>
-  <testcase name="javaMailSenderWithParseExceptionOnMimeMessagePreparator()" classname="org.springframework.mail.javamail.JavaMailSenderTests" time="0.004"/>
-  <testcase name="failedSimpleMessage()" classname="org.springframework.mail.javamail.JavaMailSenderTests" time="0.011"/>
+  <testcase name="javaMailSenderWithParseExceptionOnMimeMessagePreparator()" classname="org.springframework.mail.javamail.JavaMailSenderTests" time="0.012"/>
+  <testcase name="failedSimpleMessage()" classname="org.springframework.mail.javamail.JavaMailSenderTests" time="0.014"/>
   <testcase name="javaMailSenderWithMimeMessageHelper()" classname="org.springframework.mail.javamail.JavaMailSenderTests" time="0.004"/>
-  <testcase name="javaMailSenderWithMimeMessages()" classname="org.springframework.mail.javamail.JavaMailSenderTests" time="0.003"/>
+  <testcase name="javaMailSenderWithMimeMessages()" classname="org.springframework.mail.javamail.JavaMailSenderTests" time="0.005"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[org.springframework.mail.MailSendException: Failed messages: javax.mail.MessagingException: failed; message exception details (1) are:
 Failed message 1:
@@ -28,10 +28,10 @@ javax.mail.MessagingException: failed
 	at org.springframework.mail.javamail.JavaMailSenderImpl.doSend(JavaMailSenderImpl.java:465)
 	at org.springframework.mail.javamail.JavaMailSenderImpl.send(JavaMailSenderImpl.java:361)
 	at org.springframework.mail.javamail.JavaMailSenderTests.failedMimeMessage(JavaMailSenderTests.java:470)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:688)
 	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
 	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
@@ -59,7 +59,7 @@ javax.mail.MessagingException: failed
 	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
 	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
 	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
-	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
 	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
 	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
 	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
@@ -69,7 +69,7 @@ javax.mail.MessagingException: failed
 	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
 	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
 	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
-	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
 	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
 	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
 	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
@@ -93,20 +93,20 @@ javax.mail.MessagingException: failed
 	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:79)
 	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:75)
 	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
 	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
 	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
 	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
 	at com.sun.proxy.$Proxy2.stop(Unknown Source)
 	at org.gradle.api.internal.tasks.testing.worker.TestWorker.stop(TestWorker.java:133)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
 	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
 	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:182)
@@ -114,10 +114,10 @@ javax.mail.MessagingException: failed
 	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:414)
 	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
 	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
-	at java.lang.Thread.run(Thread.java:748)
+	at java.base/java.lang.Thread.run(Thread.java:834)
 org.springframework.mail.MailSendException: Failed messages: javax.mail.MessagingException: failed; message exception details (1) are:
 Failed message 1:
 javax.mail.MessagingException: failed
@@ -125,10 +125,10 @@ javax.mail.MessagingException: failed
 	at org.springframework.mail.javamail.JavaMailSenderImpl.doSend(JavaMailSenderImpl.java:465)
 	at org.springframework.mail.javamail.JavaMailSenderImpl.send(JavaMailSenderImpl.java:323)
 	at org.springframework.mail.javamail.JavaMailSenderTests.failedSimpleMessage(JavaMailSenderTests.java:437)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:688)
 	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
 	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
@@ -156,7 +156,7 @@ javax.mail.MessagingException: failed
 	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
 	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
 	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
-	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
 	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
 	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
 	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
@@ -166,7 +166,7 @@ javax.mail.MessagingException: failed
 	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
 	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
 	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
-	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
 	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
 	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
 	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
@@ -190,20 +190,20 @@ javax.mail.MessagingException: failed
 	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:79)
 	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:75)
 	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
 	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
 	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
 	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
 	at com.sun.proxy.$Proxy2.stop(Unknown Source)
 	at org.gradle.api.internal.tasks.testing.worker.TestWorker.stop(TestWorker.java:133)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
 	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
 	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:182)
@@ -211,9 +211,9 @@ javax.mail.MessagingException: failed
 	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:414)
 	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
 	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
-	at java.lang.Thread.run(Thread.java:748)
+	at java.base/java.lang.Thread.run(Thread.java:834)
 ]]></system-err>
 </testsuite>

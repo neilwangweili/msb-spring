@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.http.server.reactive.ChannelSendOperatorTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:42:18" hostname="wangweilideMacBook-Pro.local" time="0.229">
+<testsuite name="org.springframework.http.server.reactive.ChannelSendOperatorTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2021-05-09T12:44:28" hostname="wangweilidembp" time="0.227">
   <properties/>
-  <testcase name="writeMultipleItems()" classname="org.springframework.http.server.reactive.ChannelSendOperatorTests" time="0.056"/>
+  <testcase name="writeMultipleItems()" classname="org.springframework.http.server.reactive.ChannelSendOperatorTests" time="0.054"/>
   <testcase name="errorInWriteFunction()" classname="org.springframework.http.server.reactive.ChannelSendOperatorTests" time="0.001"/>
   <testcase name="errorBeforeFirstItem()" classname="org.springframework.http.server.reactive.ChannelSendOperatorTests" time="0.0"/>
-  <testcase name="cancelWhileItemCached()" classname="org.springframework.http.server.reactive.ChannelSendOperatorTests" time="0.002"/>
-  <testcase name="completionBeforeFirstItem()" classname="org.springframework.http.server.reactive.ChannelSendOperatorTests" time="0.054"/>
-  <testcase name="errorAfterMultipleItems()" classname="org.springframework.http.server.reactive.ChannelSendOperatorTests" time="0.057"/>
+  <testcase name="cancelWhileItemCached()" classname="org.springframework.http.server.reactive.ChannelSendOperatorTests" time="0.001"/>
+  <testcase name="completionBeforeFirstItem()" classname="org.springframework.http.server.reactive.ChannelSendOperatorTests" time="0.055"/>
+  <testcase name="errorAfterMultipleItems()" classname="org.springframework.http.server.reactive.ChannelSendOperatorTests" time="0.055"/>
   <testcase name="errorFromWriteFunctionWhileItemCached()" classname="org.springframework.http.server.reactive.ChannelSendOperatorTests" time="0.001"/>
   <testcase name="errorFromWriteSourceWhileItemCached()" classname="org.springframework.http.server.reactive.ChannelSendOperatorTests" time="0.003"/>
-  <testcase name="writeOneItem()" classname="org.springframework.http.server.reactive.ChannelSendOperatorTests" time="0.054"/>
-  <system-out><![CDATA[15:42:18.443 [Test worker] ERROR r.c.p.Operators - Operator called default onErrorDropped
+  <testcase name="writeOneItem()" classname="org.springframework.http.server.reactive.ChannelSendOperatorTests" time="0.056"/>
+  <system-out><![CDATA[20:44:29.143 [Test worker] ERROR r.c.p.Operators - Operator called default onErrorDropped
 reactor.core.Exceptions$ErrorCallbackNotImplemented: java.lang.IllegalStateException: err
 	Suppressed: java.lang.IllegalStateException: err
 		at org.springframework.http.server.reactive.ChannelSendOperatorTests.lambda$errorFromWriteSourceWhileItemCached$4(ChannelSendOperatorTests.java:165) ~[test/:?]

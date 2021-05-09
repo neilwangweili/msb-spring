@@ -1,45 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessorMockTests" tests="39" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:33:25" hostname="wangweilideMBP.lan" time="0.102">
+<testsuite name="org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessorMockTests" tests="39" skipped="0" failures="0" errors="0" timestamp="2021-05-09T12:41:44" hostname="wangweilidembp" time="0.216">
   <properties/>
-  <testcase name="disableRangeSupportForStreamingResponses()" classname="org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessorMockTests" time="0.003"/>
-  <testcase name="shouldHandleETagAndLastModifiedWithHttp304()" classname="org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessorMockTests" time="0.011"/>
-  <testcase name="shouldFailResolvingWhenConverterCannotRead()" classname="org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessorMockTests" time="0.003"/>
-  <testcase name="varyHeader()" classname="org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessorMockTests" time="0.003"/>
-  <testcase name="shouldHandleReturnValue()" classname="org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessorMockTests" time="0.002"/>
-  <testcase name="handleReturnValueVaryHeader()" classname="org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessorMockTests" time="0.003"/>
-  <testcase name="shouldFailWithServerErrorIfContentTypeFromProducibleAttribute()" classname="org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessorMockTests" time="0.003"/>
-  <testcase name="handleReturnTypeResourceIllegalByteRange()" classname="org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessorMockTests" time="0.003"/>
-  <testcase name="varyHeaderWithExistingWildcard()" classname="org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessorMockTests" time="0.001"/>
-  <testcase name="shouldFailHandlingWhenConverterCannotWrite()" classname="org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessorMockTests" time="0.001"/>
-  <testcase name="varyHeaderWithExistingCommaValues()" classname="org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessorMockTests" time="0.002"/>
-  <testcase name="shouldHandleInvalidIfNoneMatchWithHttp200()" classname="org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessorMockTests" time="0.003"/>
-  <testcase name="handleEtagWithHttp304AndEtagFilterHasNoImpact()" classname="org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessorMockTests" time="0.003"/>
-  <testcase name="shouldHandleResponseHeaderNoBody()" classname="org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessorMockTests" time="0.001"/>
-  <testcase name="shouldHandleResource()" classname="org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessorMockTests" time="0.002"/>
-  <testcase name="shouldHandleChangedETagAndLastModified()" classname="org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessorMockTests" time="0.002"/>
-  <testcase name="shouldHandleResourceByteRange()" classname="org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessorMockTests" time="0.002"/>
-  <testcase name="shouldResolveHttpEntityArgument()" classname="org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessorMockTests" time="0.001"/>
-  <testcase name="shouldFailResolvingWhenContentTypeNotSupported()" classname="org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessorMockTests" time="0.002"/>
-  <testcase name="shouldHandleGetIfNoneMatchWildcard()" classname="org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessorMockTests" time="0.002"/>
-  <testcase name="handleEtagWithHttp304()" classname="org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessorMockTests" time="0.001"/>
-  <testcase name="shouldHandleValidatorHeadersInputResponses()" classname="org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessorMockTests" time="0.002"/>
-  <testcase name="shouldNotFailPreconditionForPutRequests()" classname="org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessorMockTests" time="0.004"/>
-  <testcase name="shouldHandleNotModifiedResponse()" classname="org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessorMockTests" time="0.003"/>
-  <testcase name="shouldFailWithServerErrorIfContentTypeFromResponseEntity()" classname="org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessorMockTests" time="0.002"/>
+  <testcase name="disableRangeSupportForStreamingResponses()" classname="org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessorMockTests" time="0.008"/>
+  <testcase name="shouldHandleETagAndLastModifiedWithHttp304()" classname="org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessorMockTests" time="0.027"/>
+  <testcase name="shouldFailResolvingWhenConverterCannotRead()" classname="org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessorMockTests" time="0.006"/>
+  <testcase name="varyHeader()" classname="org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessorMockTests" time="0.007"/>
+  <testcase name="shouldHandleReturnValue()" classname="org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessorMockTests" time="0.004"/>
+  <testcase name="handleReturnValueVaryHeader()" classname="org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessorMockTests" time="0.005"/>
+  <testcase name="shouldFailWithServerErrorIfContentTypeFromProducibleAttribute()" classname="org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessorMockTests" time="0.004"/>
+  <testcase name="handleReturnTypeResourceIllegalByteRange()" classname="org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessorMockTests" time="0.004"/>
+  <testcase name="varyHeaderWithExistingWildcard()" classname="org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessorMockTests" time="0.005"/>
+  <testcase name="shouldFailHandlingWhenConverterCannotWrite()" classname="org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessorMockTests" time="0.007"/>
+  <testcase name="varyHeaderWithExistingCommaValues()" classname="org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessorMockTests" time="0.007"/>
+  <testcase name="shouldHandleInvalidIfNoneMatchWithHttp200()" classname="org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessorMockTests" time="0.009"/>
+  <testcase name="handleEtagWithHttp304AndEtagFilterHasNoImpact()" classname="org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessorMockTests" time="0.004"/>
+  <testcase name="shouldHandleResponseHeaderNoBody()" classname="org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessorMockTests" time="0.003"/>
+  <testcase name="shouldHandleResource()" classname="org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessorMockTests" time="0.005"/>
+  <testcase name="shouldHandleChangedETagAndLastModified()" classname="org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessorMockTests" time="0.007"/>
+  <testcase name="shouldHandleResourceByteRange()" classname="org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessorMockTests" time="0.006"/>
+  <testcase name="shouldResolveHttpEntityArgument()" classname="org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessorMockTests" time="0.003"/>
+  <testcase name="shouldFailResolvingWhenContentTypeNotSupported()" classname="org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessorMockTests" time="0.003"/>
+  <testcase name="shouldHandleGetIfNoneMatchWildcard()" classname="org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessorMockTests" time="0.006"/>
+  <testcase name="handleEtagWithHttp304()" classname="org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessorMockTests" time="0.005"/>
+  <testcase name="shouldHandleValidatorHeadersInputResponses()" classname="org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessorMockTests" time="0.004"/>
+  <testcase name="shouldNotFailPreconditionForPutRequests()" classname="org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessorMockTests" time="0.006"/>
+  <testcase name="shouldHandleNotModifiedResponse()" classname="org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessorMockTests" time="0.006"/>
+  <testcase name="shouldFailWithServerErrorIfContentTypeFromResponseEntity()" classname="org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessorMockTests" time="0.005"/>
   <testcase name="shouldHandleIfNoneMatchIfUnmodifiedSince()" classname="org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessorMockTests" time="0.002"/>
-  <testcase name="shouldHandleReturnValueWithResponseBodyAdvice()" classname="org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessorMockTests" time="0.002"/>
-  <testcase name="shouldFailHandlingWhenContentTypeNotSupported()" classname="org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessorMockTests" time="0.001"/>
-  <testcase name="shouldHandleResponseHeaderAndBody()" classname="org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessorMockTests" time="0.002"/>
-  <testcase name="shouldFailHandlingWhenAcceptHeaderIllegal()" classname="org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessorMockTests" time="0.001"/>
-  <testcase name="shouldResolveRequestEntityArgument()" classname="org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessorMockTests" time="0.003"/>
-  <testcase name="supportsParameter()" classname="org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessorMockTests" time="0.0"/>
-  <testcase name="varyHeaderWithExistingCommaSeparatedValues()" classname="org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessorMockTests" time="0.002"/>
-  <testcase name="supportsReturnType()" classname="org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessorMockTests" time="0.001"/>
-  <testcase name="shouldHandleIfNoneMatchIfMatch()" classname="org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessorMockTests" time="0.002"/>
-  <testcase name="shouldHandleLastModifiedWithHttp304()" classname="org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessorMockTests" time="0.003"/>
-  <testcase name="shouldHandleReturnValueWithProducibleMediaType()" classname="org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessorMockTests" time="0.002"/>
-  <testcase name="disableRangeSupportIfContentRangePresent()" classname="org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessorMockTests" time="0.002"/>
-  <testcase name="shouldHandleConditionalRequestIfNoneMatchWildcard()" classname="org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessorMockTests" time="0.002"/>
+  <testcase name="shouldHandleReturnValueWithResponseBodyAdvice()" classname="org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessorMockTests" time="0.004"/>
+  <testcase name="shouldFailHandlingWhenContentTypeNotSupported()" classname="org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessorMockTests" time="0.003"/>
+  <testcase name="shouldHandleResponseHeaderAndBody()" classname="org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessorMockTests" time="0.004"/>
+  <testcase name="shouldFailHandlingWhenAcceptHeaderIllegal()" classname="org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessorMockTests" time="0.004"/>
+  <testcase name="shouldResolveRequestEntityArgument()" classname="org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessorMockTests" time="0.006"/>
+  <testcase name="supportsParameter()" classname="org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessorMockTests" time="0.003"/>
+  <testcase name="varyHeaderWithExistingCommaSeparatedValues()" classname="org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessorMockTests" time="0.006"/>
+  <testcase name="supportsReturnType()" classname="org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessorMockTests" time="0.002"/>
+  <testcase name="shouldHandleIfNoneMatchIfMatch()" classname="org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessorMockTests" time="0.003"/>
+  <testcase name="shouldHandleLastModifiedWithHttp304()" classname="org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessorMockTests" time="0.005"/>
+  <testcase name="shouldHandleReturnValueWithProducibleMediaType()" classname="org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessorMockTests" time="0.003"/>
+  <testcase name="disableRangeSupportIfContentRangePresent()" classname="org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessorMockTests" time="0.004"/>
+  <testcase name="shouldHandleConditionalRequestIfNoneMatchWildcard()" classname="org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessorMockTests" time="0.005"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

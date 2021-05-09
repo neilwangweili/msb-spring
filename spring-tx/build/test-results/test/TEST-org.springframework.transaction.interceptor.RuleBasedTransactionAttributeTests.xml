@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.transaction.interceptor.RuleBasedTransactionAttributeTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:29:39" hostname="wangweilideMBP.lan" time="0.005">
+<testsuite name="org.springframework.transaction.interceptor.RuleBasedTransactionAttributeTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2021-05-09T12:40:27" hostname="wangweilidembp" time="0.027">
   <properties/>
   <testcase name="testRuleForRollbackOnChecked()" classname="org.springframework.transaction.interceptor.RuleBasedTransactionAttributeTests" time="0.001"/>
-  <testcase name="testConflictingRulesToDetermineExactContract()" classname="org.springframework.transaction.interceptor.RuleBasedTransactionAttributeTests" time="0.001"/>
-  <testcase name="testRuleForCommitOnSubclassOfChecked()" classname="org.springframework.transaction.interceptor.RuleBasedTransactionAttributeTests" time="0.0"/>
-  <testcase name="testDefaultRule()" classname="org.springframework.transaction.interceptor.RuleBasedTransactionAttributeTests" time="0.001"/>
+  <testcase name="testConflictingRulesToDetermineExactContract()" classname="org.springframework.transaction.interceptor.RuleBasedTransactionAttributeTests" time="0.02"/>
+  <testcase name="testRuleForCommitOnSubclassOfChecked()" classname="org.springframework.transaction.interceptor.RuleBasedTransactionAttributeTests" time="0.001"/>
+  <testcase name="testDefaultRule()" classname="org.springframework.transaction.interceptor.RuleBasedTransactionAttributeTests" time="0.0"/>
   <testcase name="testToStringMatchesEditor()" classname="org.springframework.transaction.interceptor.RuleBasedTransactionAttributeTests" time="0.0"/>
-  <testcase name="testRuleForSelectiveRollbackOnCheckedWithClass()" classname="org.springframework.transaction.interceptor.RuleBasedTransactionAttributeTests" time="0.001"/>
-  <testcase name="testRollbackNever()" classname="org.springframework.transaction.interceptor.RuleBasedTransactionAttributeTests" time="0.0"/>
-  <testcase name="testRuleForSelectiveRollbackOnCheckedWithString()" classname="org.springframework.transaction.interceptor.RuleBasedTransactionAttributeTests" time="0.001"/>
+  <testcase name="testRuleForSelectiveRollbackOnCheckedWithClass()" classname="org.springframework.transaction.interceptor.RuleBasedTransactionAttributeTests" time="0.0"/>
+  <testcase name="testRollbackNever()" classname="org.springframework.transaction.interceptor.RuleBasedTransactionAttributeTests" time="0.001"/>
+  <testcase name="testRuleForSelectiveRollbackOnCheckedWithString()" classname="org.springframework.transaction.interceptor.RuleBasedTransactionAttributeTests" time="0.0"/>
   <testcase name="testRuleForCommitOnUnchecked()" classname="org.springframework.transaction.interceptor.RuleBasedTransactionAttributeTests" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

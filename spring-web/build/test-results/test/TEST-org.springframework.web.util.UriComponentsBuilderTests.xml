@@ -1,88 +1,88 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.web.util.UriComponentsBuilderTests" tests="83" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:41:06" hostname="wangweilideMacBook-Pro.local" time="0.114">
+<testsuite name="org.springframework.web.util.UriComponentsBuilderTests" tests="83" skipped="0" failures="0" errors="0" timestamp="2021-05-09T12:43:19" hostname="wangweilidembp" time="0.165">
   <properties/>
-  <testcase name="fromUriStringIPv6Host()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.002"/>
+  <testcase name="fromUriStringIPv6Host()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.001"/>
   <testcase name="fromUriStringInvalidIPv6Host()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.001"/>
   <testcase name="fromHttpUrlCaseInsensitiveScheme()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.001"/>
   <testcase name="emptySegments()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.002"/>
   <testcase name="fromHttpRequestForwardedHeaderWithProtoAndServerPort()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.001"/>
   <testcase name="queryParamWithValueWithEquals()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.0"/>
-  <testcase name="queryParamWithList()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.002"/>
-  <testcase name="verifyDoubleSlashReplacedWithSingleOne()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.0"/>
-  <testcase name="encodeTemplateWithInvalidPlaceholderSyntax()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.004"/>
-  <testcase name="fromUriEncodedQuery()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.002"/>
-  <testcase name="testDeepClone()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.001"/>
+  <testcase name="queryParamWithList()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.001"/>
+  <testcase name="verifyDoubleSlashReplacedWithSingleOne()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.001"/>
+  <testcase name="encodeTemplateWithInvalidPlaceholderSyntax()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.002"/>
+  <testcase name="fromUriEncodedQuery()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.024"/>
+  <testcase name="testDeepClone()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.002"/>
   <testcase name="fromHttpUrlWithoutFragment()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.001"/>
-  <testcase name="fromHttpUrlInvalidIPv6Host()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.0"/>
+  <testcase name="fromHttpUrlInvalidIPv6Host()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.001"/>
   <testcase name="fromHttpRequestWithForwardedProtoMultiValueHeader()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.0"/>
-  <testcase name="pathSegmentsThenPath()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.001"/>
+  <testcase name="pathSegmentsThenPath()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.0"/>
   <testcase name="fromPath()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.002"/>
-  <testcase name="fromHttpRequestForwardedHeaderWithHostPortAndWithoutServerPort()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.002"/>
-  <testcase name="parsesEmptyFragment()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.0"/>
-  <testcase name="pathSegmentsSomeEmpty()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.001"/>
-  <testcase name="testCloneAndMerge()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.001"/>
+  <testcase name="fromHttpRequestForwardedHeaderWithHostPortAndWithoutServerPort()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.0"/>
+  <testcase name="parsesEmptyFragment()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.001"/>
+  <testcase name="pathSegmentsSomeEmpty()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.0"/>
+  <testcase name="testCloneAndMerge()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.004"/>
   <testcase name="fromHttpRequestForwardedHeaderQuoted()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.0"/>
-  <testcase name="parsesEmptyUri()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.001"/>
-  <testcase name="fromUriString()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.001"/>
-  <testcase name="fromHttpRequestWithForwardedInvalidIPv6Address()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.001"/>
+  <testcase name="parsesEmptyUri()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.0"/>
+  <testcase name="fromUriString()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.0"/>
+  <testcase name="fromHttpRequestWithForwardedInvalidIPv6Address()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.0"/>
   <testcase name="fromHttpRequestForwardedHeaderWithHostPortAndServerPort()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.0"/>
-  <testcase name="fromHttpRequestWithForwardedHostMultiValuedHeader()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.0"/>
-  <testcase name="queryParamIfPresentCollection()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.001"/>
+  <testcase name="fromHttpRequestWithForwardedHostMultiValuedHeader()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.001"/>
+  <testcase name="queryParamIfPresentCollection()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.002"/>
   <testcase name="emptyQueryParams()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.0"/>
   <testcase name="replaceQueryParams()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.0"/>
   <testcase name="fromHttpRequestWithEmptyScheme()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.001"/>
-  <testcase name="fromHttpRequestWithForwardedPortMultiValueHeader()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.0"/>
-  <testcase name="queryParamWithOptionalValue()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.0"/>
-  <testcase name="fromHttpRequest()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.0"/>
-  <testcase name="queryParamWithoutValueWithEquals()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.0"/>
+  <testcase name="fromHttpRequestWithForwardedPortMultiValueHeader()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.001"/>
+  <testcase name="queryParamWithOptionalValue()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.001"/>
+  <testcase name="fromHttpRequest()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.003"/>
+  <testcase name="queryParamWithoutValueWithEquals()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.001"/>
   <testcase name="queryParam()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.0"/>
   <testcase name="multipleFromSameBuilder()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.0"/>
-  <testcase name="pathSegments()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.0"/>
-  <testcase name="pathThenPath()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.001"/>
-  <testcase name="relativeUrls()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.001"/>
+  <testcase name="pathSegments()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.001"/>
+  <testcase name="pathThenPath()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.015"/>
+  <testcase name="relativeUrls()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.003"/>
   <testcase name="fromHttpUrlWithFragment()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.001"/>
-  <testcase name="path()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.0"/>
+  <testcase name="path()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.003"/>
   <testcase name="toUriStringWithCurlyBraces()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.001"/>
   <testcase name="plain()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.0"/>
   <testcase name="replaceQueryParam()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.001"/>
-  <testcase name="fromHttpRequestForwardedHeaderComma()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.001"/>
-  <testcase name="fromOpaqueUri()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.001"/>
-  <testcase name="fromHierarchicalUri()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.001"/>
-  <testcase name="fromHttpRequestWithForwardedProtoWithDefaultPort()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.0"/>
-  <testcase name="fromUriStringQueryParamWithReservedCharInValue()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.001"/>
-  <testcase name="fromHttpRequestWithForwardedHostWithForwardedScheme()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.0"/>
-  <testcase name="opaqueUriDoesNotResetOnNullInput()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.0"/>
-  <testcase name="fromHttpRequestMultipleForwardedHeaderComma()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.001"/>
-  <testcase name="replacePath()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.0"/>
+  <testcase name="fromHttpRequestForwardedHeaderComma()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.002"/>
+  <testcase name="fromOpaqueUri()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.0"/>
+  <testcase name="fromHierarchicalUri()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.0"/>
+  <testcase name="fromHttpRequestWithForwardedProtoWithDefaultPort()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.001"/>
+  <testcase name="fromUriStringQueryParamWithReservedCharInValue()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.0"/>
+  <testcase name="fromHttpRequestWithForwardedHostWithForwardedScheme()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.01"/>
+  <testcase name="opaqueUriDoesNotResetOnNullInput()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.001"/>
+  <testcase name="fromHttpRequestMultipleForwardedHeaderComma()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.0"/>
+  <testcase name="replacePath()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.001"/>
   <testcase name="fromHttpRequestWithTrailingSlash()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.0"/>
-  <testcase name="replaceQuery()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.001"/>
-  <testcase name="fromHttpRequestMultipleForwardedHeader()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.0"/>
+  <testcase name="replaceQuery()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.004"/>
+  <testcase name="fromHttpRequestMultipleForwardedHeader()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.001"/>
   <testcase name="pathWithDuplicateSlashes()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.0"/>
   <testcase name="queryParamIfPresent()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.0"/>
-  <testcase name="uriComponentsNotEqualAfterNormalization()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.0"/>
+  <testcase name="uriComponentsNotEqualAfterNormalization()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.001"/>
   <testcase name="fromHttpRequestWithForwardedSsl()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.0"/>
   <testcase name="fromHttpUrlQueryParamEncodedAndContainingPlus()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.001"/>
-  <testcase name="fromHttpRequestResetsPortBeforeSettingIt()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.0"/>
+  <testcase name="fromHttpRequestResetsPortBeforeSettingIt()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.001"/>
   <testcase name="examplesInReferenceManual()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.001"/>
   <testcase name="pathThenPathSegments()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.001"/>
   <testcase name="buildAndExpandOpaque()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.0"/>
   <testcase name="emptyQueryParam()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.001"/>
-  <testcase name="pathSegmentsThenPathSegments()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.001"/>
+  <testcase name="pathSegmentsThenPathSegments()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.0"/>
   <testcase name="fromHttpRequestWithForwardedProtoAndDefaultPort()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.001"/>
   <testcase name="queryParamWithoutValueWithoutEquals()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.0"/>
   <testcase name="fromUriStringNoPathWithReservedCharInQuery()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.001"/>
-  <testcase name="uriComponentsWithMergedQueryParams()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.0"/>
-  <testcase name="fromHttpRequestForwardedHeaderWithoutHostPortAndWithServerPort()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.001"/>
-  <testcase name="fromHttpRequestWithForwardedHostWithDefaultPort()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.005"/>
-  <testcase name="buildAndExpandHierarchical()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.002"/>
-  <testcase name="fromHttpRequestForwardedHeader()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.003"/>
-  <testcase name="fromHttpRequestWithForwardedHost()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.002"/>
-  <testcase name="fromHttpRequestWithForwardedIPv6()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.001"/>
-  <testcase name="fromUriStringQueryParamEncodedAndContainingPlus()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.0"/>
+  <testcase name="uriComponentsWithMergedQueryParams()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.001"/>
+  <testcase name="fromHttpRequestForwardedHeaderWithoutHostPortAndWithServerPort()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.0"/>
+  <testcase name="fromHttpRequestWithForwardedHostWithDefaultPort()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.0"/>
+  <testcase name="buildAndExpandHierarchical()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.0"/>
+  <testcase name="fromHttpRequestForwardedHeader()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.0"/>
+  <testcase name="fromHttpRequestWithForwardedHost()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.0"/>
+  <testcase name="fromHttpRequestWithForwardedIPv6()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.0"/>
+  <testcase name="fromUriStringQueryParamEncodedAndContainingPlus()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.001"/>
   <testcase name="fromHttpRequestWithForwardedHostAndPort()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.001"/>
   <testcase name="fromHttpRequestWithForwardedIPv6HostAndPort()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.001"/>
-  <testcase name="fromHttpRequestWithForwardedIPv4Host()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.001"/>
-  <testcase name="fromHttpRequestWithForwardedIPv6Host()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.001"/>
+  <testcase name="fromHttpRequestWithForwardedIPv4Host()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.0"/>
+  <testcase name="fromHttpRequestWithForwardedIPv6Host()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.0"/>
   <testcase name="fromHttpRequestWithForwardedHostIncludingPort()" classname="org.springframework.web.util.UriComponentsBuilderTests" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.jms.listener.adapter.MessageListenerAdapterTests" tests="19" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:25:12" hostname="wangweilideMBP.lan" time="0.426">
+<testsuite name="org.springframework.jms.listener.adapter.MessageListenerAdapterTests" tests="19" skipped="0" failures="0" errors="0" timestamp="2021-05-09T12:40:03" hostname="wangweilidembp" time="0.589">
   <properties/>
-  <testcase name="testWithResponsiveMessageDelegateWhenReturnTypeIsAJMSMessageAndNoMessageConverterIsSupplied()" classname="org.springframework.jms.listener.adapter.MessageListenerAdapterTests" time="0.066"/>
-  <testcase name="testWhenTheAdapterItselfIsTheDelegate()" classname="org.springframework.jms.listener.adapter.MessageListenerAdapterTests" time="0.002"/>
-  <testcase name="testWithResponsiveMessageDelegateWhenReturnTypeIsNotAJMSMessageAndNoMessageConverterIsSupplied()" classname="org.springframework.jms.listener.adapter.MessageListenerAdapterTests" time="0.013"/>
-  <testcase name="testWithMessageContentsDelegateForObjectMessage()" classname="org.springframework.jms.listener.adapter.MessageListenerAdapterTests" time="0.098"/>
-  <testcase name="testWithMessageContentsDelegateForBytesMessage()" classname="org.springframework.jms.listener.adapter.MessageListenerAdapterTests" time="0.126"/>
-  <testcase name="testWithResponsiveMessageDelegate_DoesNotSendReturnTextMessageIfNoSessionSupplied()" classname="org.springframework.jms.listener.adapter.MessageListenerAdapterTests" time="0.029"/>
+  <testcase name="testWithResponsiveMessageDelegateWhenReturnTypeIsAJMSMessageAndNoMessageConverterIsSupplied()" classname="org.springframework.jms.listener.adapter.MessageListenerAdapterTests" time="0.11"/>
+  <testcase name="testWhenTheAdapterItselfIsTheDelegate()" classname="org.springframework.jms.listener.adapter.MessageListenerAdapterTests" time="0.017"/>
+  <testcase name="testWithResponsiveMessageDelegateWhenReturnTypeIsNotAJMSMessageAndNoMessageConverterIsSupplied()" classname="org.springframework.jms.listener.adapter.MessageListenerAdapterTests" time="0.033"/>
+  <testcase name="testWithMessageContentsDelegateForObjectMessage()" classname="org.springframework.jms.listener.adapter.MessageListenerAdapterTests" time="0.125"/>
+  <testcase name="testWithMessageContentsDelegateForBytesMessage()" classname="org.springframework.jms.listener.adapter.MessageListenerAdapterTests" time="0.118"/>
+  <testcase name="testWithResponsiveMessageDelegate_DoesNotSendReturnTextMessageIfNoSessionSupplied()" classname="org.springframework.jms.listener.adapter.MessageListenerAdapterTests" time="0.019"/>
   <testcase name="testWithResponsiveMessageDelegateNoDefaultDestinationAndNoReplyToDestination_SendsReturnTextMessageWhenSessionSupplied()" classname="org.springframework.jms.listener.adapter.MessageListenerAdapterTests" time="0.006"/>
-  <testcase name="testWithResponsiveMessageDelegateNoDefaultDestination_SendsReturnTextMessageWhenSessionSupplied()" classname="org.springframework.jms.listener.adapter.MessageListenerAdapterTests" time="0.005"/>
-  <testcase name="testWithMessageContentsDelegateForTextMessage()" classname="org.springframework.jms.listener.adapter.MessageListenerAdapterTests" time="0.001"/>
-  <testcase name="testWithResponsiveMessageDelegateWithDefaultDestination_SendsReturnTextMessageWhenSessionSupplied()" classname="org.springframework.jms.listener.adapter.MessageListenerAdapterTests" time="0.002"/>
-  <testcase name="testWithResponsiveMessageDelegateNoDefaultDestination_SendsReturnTextMessageWhenSessionSupplied_AndSendingThrowsJMSException()" classname="org.springframework.jms.listener.adapter.MessageListenerAdapterTests" time="0.036"/>
-  <testcase name="testWithResponsiveMessageDelegateDoesNotSendReturnTextMessageWhenSessionSupplied_AndListenerMethodThrowsException()" classname="org.springframework.jms.listener.adapter.MessageListenerAdapterTests" time="0.002"/>
-  <testcase name="testThatAnExceptionThrownFromTheHandlingMethodIsSimplySwallowedByDefault()" classname="org.springframework.jms.listener.adapter.MessageListenerAdapterTests" time="0.015"/>
-  <testcase name="testWithMessageDelegate()" classname="org.springframework.jms.listener.adapter.MessageListenerAdapterTests" time="0.009"/>
+  <testcase name="testWithResponsiveMessageDelegateNoDefaultDestination_SendsReturnTextMessageWhenSessionSupplied()" classname="org.springframework.jms.listener.adapter.MessageListenerAdapterTests" time="0.007"/>
+  <testcase name="testWithMessageContentsDelegateForTextMessage()" classname="org.springframework.jms.listener.adapter.MessageListenerAdapterTests" time="0.014"/>
+  <testcase name="testWithResponsiveMessageDelegateWithDefaultDestination_SendsReturnTextMessageWhenSessionSupplied()" classname="org.springframework.jms.listener.adapter.MessageListenerAdapterTests" time="0.007"/>
+  <testcase name="testWithResponsiveMessageDelegateNoDefaultDestination_SendsReturnTextMessageWhenSessionSupplied_AndSendingThrowsJMSException()" classname="org.springframework.jms.listener.adapter.MessageListenerAdapterTests" time="0.037"/>
+  <testcase name="testWithResponsiveMessageDelegateDoesNotSendReturnTextMessageWhenSessionSupplied_AndListenerMethodThrowsException()" classname="org.springframework.jms.listener.adapter.MessageListenerAdapterTests" time="0.003"/>
+  <testcase name="testThatAnExceptionThrownFromTheHandlingMethodIsSimplySwallowedByDefault()" classname="org.springframework.jms.listener.adapter.MessageListenerAdapterTests" time="0.02"/>
+  <testcase name="testWithMessageDelegate()" classname="org.springframework.jms.listener.adapter.MessageListenerAdapterTests" time="0.001"/>
   <testcase name="testThatTheDefaultMessageConverterisIndeedTheSimpleMessageConverter()" classname="org.springframework.jms.listener.adapter.MessageListenerAdapterTests" time="0.001"/>
-  <testcase name="testRainyDayWithNoApplicableHandlingMethods()" classname="org.springframework.jms.listener.adapter.MessageListenerAdapterTests" time="0.002"/>
+  <testcase name="testRainyDayWithNoApplicableHandlingMethods()" classname="org.springframework.jms.listener.adapter.MessageListenerAdapterTests" time="0.007"/>
   <testcase name="testThatWhenNoDelegateIsSuppliedTheDelegateIsAssumedToBeTheMessageListenerAdapterItself()" classname="org.springframework.jms.listener.adapter.MessageListenerAdapterTests" time="0.0"/>
   <testcase name="testThatTheDefaultMessageHandlingMethodNameIsTheConstantDefault()" classname="org.springframework.jms.listener.adapter.MessageListenerAdapterTests" time="0.001"/>
-  <testcase name="testWithMessageContentsDelegateForObjectMessageWithPlainObject()" classname="org.springframework.jms.listener.adapter.MessageListenerAdapterTests" time="0.001"/>
-  <system-out><![CDATA[17:25:12.498 [Test worker] WARN  o.s.j.l.a.MessageListenerAdapter - Listener method returned result [I fancy a good cuppa right now]: not generating response message for it because of no JMS Session given
+  <testcase name="testWithMessageContentsDelegateForObjectMessageWithPlainObject()" classname="org.springframework.jms.listener.adapter.MessageListenerAdapterTests" time="0.002"/>
+  <system-out><![CDATA[20:40:04.309 [Test worker] WARN  o.s.j.l.a.MessageListenerAdapter - Listener method returned result [I fancy a good cuppa right now]: not generating response message for it because of no JMS Session given
 org.springframework.jms.listener.adapter.ListenerExecutionFailedException: Failed to invoke target method 'walnutsRock' with arguments {I fancy a good cuppa right now}; nested exception is java.lang.NoSuchMethodException: org.springframework.jms.listener.adapter.StubMessageListenerAdapter.walnutsRock(java.lang.String)
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>

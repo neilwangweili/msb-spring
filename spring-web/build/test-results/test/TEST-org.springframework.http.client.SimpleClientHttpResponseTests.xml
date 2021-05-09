@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.http.client.SimpleClientHttpResponseTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:44:13" hostname="wangweilideMacBook-Pro.local" time="0.004">
+<testsuite name="org.springframework.http.client.SimpleClientHttpResponseTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2021-05-09T12:46:24" hostname="wangweilidembp" time="0.004">
   <properties/>
-  <testcase name="shouldDrainResponseEvenIfResponseNotRead()" classname="org.springframework.http.client.SimpleClientHttpResponseTests" time="0.0"/>
+  <testcase name="shouldDrainResponseEvenIfResponseNotRead()" classname="org.springframework.http.client.SimpleClientHttpResponseTests" time="0.001"/>
   <testcase name="shouldDrainStreamWhenResponseClosed()" classname="org.springframework.http.client.SimpleClientHttpResponseTests" time="0.0"/>
-  <testcase name="shouldDrainErrorStreamWhenResponseClosed()" classname="org.springframework.http.client.SimpleClientHttpResponseTests" time="0.001"/>
+  <testcase name="shouldDrainErrorStreamWhenResponseClosed()" classname="org.springframework.http.client.SimpleClientHttpResponseTests" time="0.0"/>
   <testcase name="shouldNotDrainWhenErrorStreamClosed()" classname="org.springframework.http.client.SimpleClientHttpResponseTests" time="0.001"/>
   <testcase name="shouldNotCloseConnectionWhenResponseClosed()" classname="org.springframework.http.client.SimpleClientHttpResponseTests" time="0.001"/>
   <system-out><![CDATA[]]></system-out>

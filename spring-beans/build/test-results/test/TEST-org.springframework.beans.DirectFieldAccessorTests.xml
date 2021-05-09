@@ -1,99 +1,99 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.beans.DirectFieldAccessorTests" tests="93" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:25:11" hostname="wangweilideMBP.lan" time="0.158">
+<testsuite name="org.springframework.beans.DirectFieldAccessorTests" tests="93" skipped="0" failures="0" errors="0" timestamp="2021-05-09T12:39:58" hostname="wangweilidembp" time="0.176">
   <properties/>
-  <testcase name="isWritableProperty()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.015"/>
+  <testcase name="isWritableProperty()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.01"/>
   <testcase name="getNestedDeepProperty()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.001"/>
   <testcase name="setAnotherPropertyIntermediatePropertyIsNull()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.001"/>
-  <testcase name="isReadablePropertyNotReadable()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.0"/>
+  <testcase name="isReadablePropertyNotReadable()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.001"/>
   <testcase name="setPropertyIsReflectedImmediately()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.0"/>
-  <testcase name="isReadableProperty()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.0"/>
+  <testcase name="isReadableProperty()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.001"/>
   <testcase name="setPropertyIntermediateListIsNullWithNoConversionService()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.002"/>
   <testcase name="setPrimitiveArrayProperty()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.0"/>
   <testcase name="getUnknownProperty()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.001"/>
-  <testcase name="setStringArrayPropertyWithStringSplitting()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.0"/>
-  <testcase name="setNestedPropertyPolymorphic()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.001"/>
+  <testcase name="setStringArrayPropertyWithStringSplitting()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.001"/>
+  <testcase name="setNestedPropertyPolymorphic()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.0"/>
   <testcase name="setPropertyIntermediateListIsNullWithAutoGrow()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.001"/>
-  <testcase name="setPropertyTypeMismatch()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.019"/>
+  <testcase name="setPropertyTypeMismatch()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.001"/>
   <testcase name="setMapPropertyWithCustomUnmodifiableMap()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.001"/>
-  <testcase name="getAndSetIndexedPropertiesWithDirectAccess()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.009"/>
+  <testcase name="getAndSetIndexedPropertiesWithDirectAccess()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.005"/>
   <testcase name="setStringArrayProperty()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.001"/>
   <testcase name="setPropertyWithPrimitiveConversion()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.001"/>
   <testcase name="setSimpleProperty()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.0"/>
-  <testcase name="setYetAnotherNestedProperties()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.001"/>
-  <testcase name="isReadablePropertyNoSuchProperty()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.0"/>
-  <testcase name="propertyType()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.0"/>
+  <testcase name="setYetAnotherNestedProperties()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.002"/>
+  <testcase name="isReadablePropertyNoSuchProperty()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.001"/>
+  <testcase name="propertyType()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.001"/>
   <testcase name="setEmptyPropertyValues()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.0"/>
   <testcase name="setUnknownProperty()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.0"/>
-  <testcase name="setPrimitiveProperties()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.002"/>
-  <testcase name="setMapPropertyWithUnmodifiableMap()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.0"/>
-  <testcase name="setNestedProperty()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.001"/>
+  <testcase name="setPrimitiveProperties()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.011"/>
+  <testcase name="setMapPropertyWithUnmodifiableMap()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.001"/>
+  <testcase name="setNestedProperty()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.0"/>
   <testcase name="setStringArrayPropertyWithCustomStringDelimiter()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.0"/>
-  <testcase name="setBooleanProperty()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.0"/>
-  <testcase name="setCollectionPropertyWithIntArrayValue()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.013"/>
-  <testcase name="setPropertyInProtectedBaseBean()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.0"/>
-  <testcase name="setUnknownOptionalProperty()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.002"/>
-  <testcase name="setValidPropertyValues()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.0"/>
+  <testcase name="setBooleanProperty()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.003"/>
+  <testcase name="setCollectionPropertyWithIntArrayValue()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.001"/>
+  <testcase name="setPropertyInProtectedBaseBean()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.001"/>
+  <testcase name="setUnknownOptionalProperty()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.0"/>
+  <testcase name="setValidPropertyValues()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.001"/>
   <testcase name="setUnknownNestedProperty()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.0"/>
   <testcase name="setIndexedPropertyIgnored()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.0"/>
-  <testcase name="setIndividualValidPropertyValues()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.0"/>
+  <testcase name="setIndividualValidPropertyValues()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.001"/>
   <testcase name="setPropertyWithCustomEditor()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.0"/>
-  <testcase name="setCollectionPropertyWithIntegerValue()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.001"/>
+  <testcase name="setCollectionPropertyWithIntegerValue()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.01"/>
   <testcase name="getSimpleProperty()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.0"/>
   <testcase name="setStringPropertyWithCustomEditor()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.001"/>
   <testcase name="isWritablePropertyNoSuchProperty()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.0"/>
   <testcase name="setMapPropertyWithTypeConversion()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.001"/>
   <testcase name="propertyTypeUnknownProperty()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.0"/>
-  <testcase name="getPropertyIntermediateMapEntryIsNullWithAutoGrow()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.001"/>
+  <testcase name="getPropertyIntermediateMapEntryIsNullWithAutoGrow()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.002"/>
   <testcase name="setMapProperty()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.001"/>
-  <testcase name="setCollectionProperty()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.0"/>
-  <testcase name="testErrorMessageOfNestedProperty()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.001"/>
-  <testcase name="setPropertyIntermediateListIsNullWithBadConversionService()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.004"/>
+  <testcase name="setCollectionProperty()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.001"/>
+  <testcase name="testErrorMessageOfNestedProperty()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.0"/>
+  <testcase name="setPropertyIntermediateListIsNullWithBadConversionService()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.009"/>
   <testcase name="setStringArrayPropertyWithCustomStringEditor()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.0"/>
-  <testcase name="getNestedProperty()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.001"/>
-  <testcase name="setNumberPropertiesWithCoercion()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.0"/>
-  <testcase name="setNestedDeepProperty()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.0"/>
-  <testcase name="setCollectionPropertyWithArrayValue()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.0"/>
-  <testcase name="setAnotherNestedProperty()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.001"/>
+  <testcase name="getNestedProperty()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.0"/>
+  <testcase name="setNumberPropertiesWithCoercion()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.001"/>
+  <testcase name="setNestedDeepProperty()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.001"/>
+  <testcase name="setCollectionPropertyWithArrayValue()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.001"/>
+  <testcase name="setAnotherNestedProperty()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.0"/>
   <testcase name="setGenericEnumProperty()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.0"/>
-  <testcase name="getUnknownNestedProperty()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.001"/>
-  <testcase name="isReadableWritableForIndexedProperties()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.001"/>
-  <testcase name="setGenericArrayProperty()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.0"/>
-  <testcase name="setPrimitiveArrayPropertyLargeMatchingWithSpecificEditor()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.002"/>
+  <testcase name="getUnknownNestedProperty()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.0"/>
+  <testcase name="isReadableWritableForIndexedProperties()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.002"/>
+  <testcase name="setGenericArrayProperty()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.001"/>
+  <testcase name="setPrimitiveArrayPropertyLargeMatchingWithSpecificEditor()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.01"/>
   <testcase name="setEnumProperty()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.001"/>
-  <testcase name="cornerSpr10115()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.007"/>
+  <testcase name="cornerSpr10115()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.001"/>
   <testcase name="cornerSpr13837()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.0"/>
-  <testcase name="setUnknownPropertyWithPossibleMatches()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.001"/>
+  <testcase name="setUnknownPropertyWithPossibleMatches()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.0"/>
   <testcase name="isReadablePropertyNull()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.0"/>
   <testcase name="setCollectionPropertyWithStringValueAndCustomEditor()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.001"/>
   <testcase name="setWildcardEnumProperty()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.0"/>
-  <testcase name="getAnotherNestedDeepProperty()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.001"/>
+  <testcase name="getAnotherNestedDeepProperty()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.0"/>
   <testcase name="setPropertyIntermediatePropertyIsNullWithAutoGrow()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.0"/>
-  <testcase name="propertyTypeIndexedProperty()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.001"/>
+  <testcase name="propertyTypeIndexedProperty()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.0"/>
   <testcase name="propertyTypeDescriptor()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.0"/>
-  <testcase name="setPropertyToNull()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.0"/>
-  <testcase name="getPropertyIntermediatePropertyIsNullWithAutoGrow()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.001"/>
-  <testcase name="setCollectionPropertyNonMatchingType()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.0"/>
-  <testcase name="setRawMapPropertyWithNoEditorRegistered()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.001"/>
+  <testcase name="setPropertyToNull()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.001"/>
+  <testcase name="getPropertyIntermediatePropertyIsNullWithAutoGrow()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.0"/>
+  <testcase name="setCollectionPropertyNonMatchingType()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.001"/>
+  <testcase name="setRawMapPropertyWithNoEditorRegistered()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.0"/>
   <testcase name="getAndSetIndexedProperties()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.001"/>
-  <testcase name="setEmptyValueForPrimitiveProperty()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.0"/>
+  <testcase name="setEmptyValueForPrimitiveProperty()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.001"/>
   <testcase name="setPropertiesProperty()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.001"/>
-  <testcase name="setNumberProperties()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.0"/>
-  <testcase name="setMapPropertyNonMatchingType()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.0"/>
-  <testcase name="setPropertyValuesIgnoresInvalidNestedOnRequest()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.0"/>
-  <testcase name="setPropertyIntermediatePropertyIsNull()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.0"/>
-  <testcase name="setPrimitiveArrayPropertyWithAutoGrow()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.001"/>
-  <testcase name="isWritablePropertyNull()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.0"/>
+  <testcase name="setNumberProperties()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.001"/>
+  <testcase name="setMapPropertyNonMatchingType()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.001"/>
+  <testcase name="setPropertyValuesIgnoresInvalidNestedOnRequest()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.001"/>
+  <testcase name="setPropertyIntermediatePropertyIsNull()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.001"/>
+  <testcase name="setPrimitiveArrayPropertyWithAutoGrow()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.0"/>
+  <testcase name="isWritablePropertyNull()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.007"/>
   <testcase name="createWithNullTarget()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.0"/>
-  <testcase name="propertyTypeDescriptorUnknownProperty()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.001"/>
+  <testcase name="propertyTypeDescriptorUnknownProperty()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.0"/>
   <testcase name="setArrayPropertyToObject()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.001"/>
   <testcase name="setIntArrayPropertyWithStringSplitting()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.0"/>
   <testcase name="setStringArrayWithAutoGrow()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.001"/>
-  <testcase name="getPropertyIntermediatePropertyIsNull()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.0"/>
-  <testcase name="setIntArrayPropertyWithCustomEditor()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.001"/>
+  <testcase name="getPropertyIntermediatePropertyIsNull()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.001"/>
+  <testcase name="setIntArrayPropertyWithCustomEditor()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.003"/>
   <testcase name="setIntArrayProperty()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.0"/>
-  <testcase name="setPrimitiveArrayPropertyLargeMatchingWithIndexSpecificEditor()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.003"/>
-  <testcase name="setCollectionPropertyWithStringValue()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.001"/>
-  <testcase name="withShadowedField()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.01"/>
+  <testcase name="setPrimitiveArrayPropertyLargeMatchingWithIndexSpecificEditor()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.004"/>
+  <testcase name="setCollectionPropertyWithStringValue()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.0"/>
+  <testcase name="withShadowedField()" classname="org.springframework.beans.DirectFieldAccessorTests" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

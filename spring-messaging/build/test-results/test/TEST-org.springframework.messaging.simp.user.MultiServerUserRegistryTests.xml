@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.messaging.simp.user.MultiServerUserRegistryTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:29:43" hostname="wangweilideMBP.lan" time="0.157">
+<testsuite name="org.springframework.messaging.simp.user.MultiServerUserRegistryTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2021-05-09T12:40:45" hostname="wangweilidembp" time="0.198">
   <properties/>
-  <testcase name="getUserFromRemoteRegistry()" classname="org.springframework.messaging.simp.user.MultiServerUserRegistryTests" time="0.08"/>
-  <testcase name="getUserFromLocalRegistry()" classname="org.springframework.messaging.simp.user.MultiServerUserRegistryTests" time="0.032"/>
-  <testcase name="purgeExpiredRegistries()" classname="org.springframework.messaging.simp.user.MultiServerUserRegistryTests" time="0.012"/>
-  <testcase name="findSubscriptionsFromRemoteRegistry()" classname="org.springframework.messaging.simp.user.MultiServerUserRegistryTests" time="0.018"/>
-  <testcase name="getSessionsWhenUserIsConnectedToMultipleServers()" classname="org.springframework.messaging.simp.user.MultiServerUserRegistryTests" time="0.012"/>
+  <testcase name="getUserFromRemoteRegistry()" classname="org.springframework.messaging.simp.user.MultiServerUserRegistryTests" time="0.069"/>
+  <testcase name="getUserFromLocalRegistry()" classname="org.springframework.messaging.simp.user.MultiServerUserRegistryTests" time="0.015"/>
+  <testcase name="purgeExpiredRegistries()" classname="org.springframework.messaging.simp.user.MultiServerUserRegistryTests" time="0.013"/>
+  <testcase name="findSubscriptionsFromRemoteRegistry()" classname="org.springframework.messaging.simp.user.MultiServerUserRegistryTests" time="0.017"/>
+  <testcase name="getSessionsWhenUserIsConnectedToMultipleServers()" classname="org.springframework.messaging.simp.user.MultiServerUserRegistryTests" time="0.083"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.context.support.ClassPathXmlApplicationContextTests" tests="20" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:31:50" hostname="wangweilideMBP.lan" time="1.883">
+<testsuite name="org.springframework.context.support.ClassPathXmlApplicationContextTests" tests="20" skipped="0" failures="0" errors="0" timestamp="2021-05-09T12:41:40" hostname="wangweilidembp" time="2.853">
   <properties/>
-  <testcase name="testSingleConfigLocationWithClass()" classname="org.springframework.context.support.ClassPathXmlApplicationContextTests" time="0.014"/>
-  <testcase name="testAliasWithPlaceholder()" classname="org.springframework.context.support.ClassPathXmlApplicationContextTests" time="0.472"/>
-  <testcase name="testContextWithInvalidValueType()" classname="org.springframework.context.support.ClassPathXmlApplicationContextTests" time="0.018"/>
-  <testcase name="testResourceAndInputStream()" classname="org.springframework.context.support.ClassPathXmlApplicationContextTests" time="0.022"/>
-  <testcase name="testContextWithInvalidLazyClass()" classname="org.springframework.context.support.ClassPathXmlApplicationContextTests" time="0.014"/>
-  <testcase name="testMessageSourceAware()" classname="org.springframework.context.support.ClassPathXmlApplicationContextTests" time="0.183"/>
-  <testcase name="testContextWithClassNameThatContainsPlaceholder()" classname="org.springframework.context.support.ClassPathXmlApplicationContextTests" time="0.006"/>
-  <testcase name="testGenericApplicationContextWithXmlBeanDefinitionsAndClassLoaderNull()" classname="org.springframework.context.support.ClassPathXmlApplicationContextTests" time="0.127"/>
-  <testcase name="testAliasThatOverridesParent()" classname="org.springframework.context.support.ClassPathXmlApplicationContextTests" time="0.006"/>
-  <testcase name="testChildWithProxy()" classname="org.springframework.context.support.ClassPathXmlApplicationContextTests" time="0.091"/>
-  <testcase name="testSingleConfigLocation()" classname="org.springframework.context.support.ClassPathXmlApplicationContextTests" time="0.003"/>
-  <testcase name="testResourceArrayPropertyEditor()" classname="org.springframework.context.support.ClassPathXmlApplicationContextTests" time="0.096"/>
-  <testcase name="testGenericApplicationContextWithXmlBeanDefinitionsAndSpecifiedId()" classname="org.springframework.context.support.ClassPathXmlApplicationContextTests" time="0.106"/>
-  <testcase name="testFactoryBeanAndApplicationListener()" classname="org.springframework.context.support.ClassPathXmlApplicationContextTests" time="0.101"/>
-  <testcase name="testMultipleConfigLocationsWithClass()" classname="org.springframework.context.support.ClassPathXmlApplicationContextTests" time="0.111"/>
-  <testcase name="testMultipleConfigLocations()" classname="org.springframework.context.support.ClassPathXmlApplicationContextTests" time="0.307"/>
-  <testcase name="testAliasForParentContext()" classname="org.springframework.context.support.ClassPathXmlApplicationContextTests" time="0.005"/>
-  <testcase name="testGenericApplicationContextWithXmlBeanDefinitions()" classname="org.springframework.context.support.ClassPathXmlApplicationContextTests" time="0.09"/>
-  <testcase name="testAliasThatOverridesEarlierBean()" classname="org.springframework.context.support.ClassPathXmlApplicationContextTests" time="0.004"/>
-  <testcase name="testConfigLocationPattern()" classname="org.springframework.context.support.ClassPathXmlApplicationContextTests" time="0.104"/>
-  <system-out><![CDATA[17:31:50.898 [Test worker] WARN  o.s.c.s.ClassPathXmlApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'someMessageSource' defined in class path resource [org/springframework/context/support/invalidValueType.xml]: Initialization of bean failed; nested exception is org.springframework.beans.TypeMismatchException: Failed to convert property value of type 'java.lang.String' to required type 'boolean' for property 'useCodeAsDefaultMessage'; nested exception is java.lang.IllegalArgumentException: Invalid boolean value [xxx]
+  <testcase name="testSingleConfigLocationWithClass()" classname="org.springframework.context.support.ClassPathXmlApplicationContextTests" time="0.019"/>
+  <testcase name="testAliasWithPlaceholder()" classname="org.springframework.context.support.ClassPathXmlApplicationContextTests" time="0.406"/>
+  <testcase name="testContextWithInvalidValueType()" classname="org.springframework.context.support.ClassPathXmlApplicationContextTests" time="0.023"/>
+  <testcase name="testResourceAndInputStream()" classname="org.springframework.context.support.ClassPathXmlApplicationContextTests" time="0.034"/>
+  <testcase name="testContextWithInvalidLazyClass()" classname="org.springframework.context.support.ClassPathXmlApplicationContextTests" time="0.018"/>
+  <testcase name="testMessageSourceAware()" classname="org.springframework.context.support.ClassPathXmlApplicationContextTests" time="0.154"/>
+  <testcase name="testContextWithClassNameThatContainsPlaceholder()" classname="org.springframework.context.support.ClassPathXmlApplicationContextTests" time="0.011"/>
+  <testcase name="testGenericApplicationContextWithXmlBeanDefinitionsAndClassLoaderNull()" classname="org.springframework.context.support.ClassPathXmlApplicationContextTests" time="0.17"/>
+  <testcase name="testAliasThatOverridesParent()" classname="org.springframework.context.support.ClassPathXmlApplicationContextTests" time="0.012"/>
+  <testcase name="testChildWithProxy()" classname="org.springframework.context.support.ClassPathXmlApplicationContextTests" time="0.216"/>
+  <testcase name="testSingleConfigLocation()" classname="org.springframework.context.support.ClassPathXmlApplicationContextTests" time="0.005"/>
+  <testcase name="testResourceArrayPropertyEditor()" classname="org.springframework.context.support.ClassPathXmlApplicationContextTests" time="0.196"/>
+  <testcase name="testGenericApplicationContextWithXmlBeanDefinitionsAndSpecifiedId()" classname="org.springframework.context.support.ClassPathXmlApplicationContextTests" time="0.195"/>
+  <testcase name="testFactoryBeanAndApplicationListener()" classname="org.springframework.context.support.ClassPathXmlApplicationContextTests" time="0.197"/>
+  <testcase name="testMultipleConfigLocationsWithClass()" classname="org.springframework.context.support.ClassPathXmlApplicationContextTests" time="0.207"/>
+  <testcase name="testMultipleConfigLocations()" classname="org.springframework.context.support.ClassPathXmlApplicationContextTests" time="0.585"/>
+  <testcase name="testAliasForParentContext()" classname="org.springframework.context.support.ClassPathXmlApplicationContextTests" time="0.008"/>
+  <testcase name="testGenericApplicationContextWithXmlBeanDefinitions()" classname="org.springframework.context.support.ClassPathXmlApplicationContextTests" time="0.199"/>
+  <testcase name="testAliasThatOverridesEarlierBean()" classname="org.springframework.context.support.ClassPathXmlApplicationContextTests" time="0.008"/>
+  <testcase name="testConfigLocationPattern()" classname="org.springframework.context.support.ClassPathXmlApplicationContextTests" time="0.184"/>
+  <system-out><![CDATA[20:41:41.344 [Test worker] WARN  o.s.c.s.ClassPathXmlApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'someMessageSource' defined in class path resource [org/springframework/context/support/invalidValueType.xml]: Initialization of bean failed; nested exception is org.springframework.beans.TypeMismatchException: Failed to convert property value of type 'java.lang.String' to required type 'boolean' for property 'useCodeAsDefaultMessage'; nested exception is java.lang.IllegalArgumentException: Invalid boolean value [xxx]
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

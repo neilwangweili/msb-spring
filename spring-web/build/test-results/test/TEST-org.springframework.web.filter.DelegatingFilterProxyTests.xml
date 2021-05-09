@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.web.filter.DelegatingFilterProxyTests" tests="13" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:42:07" hostname="wangweilideMacBook-Pro.local" time="0.036">
+<testsuite name="org.springframework.web.filter.DelegatingFilterProxyTests" tests="13" skipped="0" failures="0" errors="0" timestamp="2021-05-09T12:44:20" hostname="wangweilidembp" time="0.013">
   <properties/>
-  <testcase name="testDelegatingFilterProxyNotInjectedWacServletAttrPreferred()" classname="org.springframework.web.filter.DelegatingFilterProxyTests" time="0.006"/>
-  <testcase name="testDelegatingFilterProxyAndCustomContextAttribute()" classname="org.springframework.web.filter.DelegatingFilterProxyTests" time="0.005"/>
+  <testcase name="testDelegatingFilterProxyNotInjectedWacServletAttrPreferred()" classname="org.springframework.web.filter.DelegatingFilterProxyTests" time="0.002"/>
+  <testcase name="testDelegatingFilterProxyAndCustomContextAttribute()" classname="org.springframework.web.filter.DelegatingFilterProxyTests" time="0.002"/>
   <testcase name="testDelegatingFilterProxy()" classname="org.springframework.web.filter.DelegatingFilterProxyTests" time="0.001"/>
   <testcase name="testDelegatingFilterProxyWithFilterDelegateInstance()" classname="org.springframework.web.filter.DelegatingFilterProxyTests" time="0.0"/>
   <testcase name="testDelegatingFilterProxyWithTargetBeanNameAndNotYetRefreshedApplicationContext()" classname="org.springframework.web.filter.DelegatingFilterProxyTests" time="0.001"/>
-  <testcase name="testDelegatingFilterProxyInjectedPreferred()" classname="org.springframework.web.filter.DelegatingFilterProxyTests" time="0.002"/>
-  <testcase name="testDelegatingFilterProxyWithTargetBeanNameAndNoApplicationContext()" classname="org.springframework.web.filter.DelegatingFilterProxyTests" time="0.001"/>
-  <testcase name="testDelegatingFilterProxyWithTargetBeanName()" classname="org.springframework.web.filter.DelegatingFilterProxyTests" time="0.004"/>
-  <testcase name="testDelegatingFilterProxyWithFilterName()" classname="org.springframework.web.filter.DelegatingFilterProxyTests" time="0.002"/>
-  <testcase name="testDelegatingFilterProxyWithTargetFilterLifecycle()" classname="org.springframework.web.filter.DelegatingFilterProxyTests" time="0.006"/>
+  <testcase name="testDelegatingFilterProxyInjectedPreferred()" classname="org.springframework.web.filter.DelegatingFilterProxyTests" time="0.001"/>
+  <testcase name="testDelegatingFilterProxyWithTargetBeanNameAndNoApplicationContext()" classname="org.springframework.web.filter.DelegatingFilterProxyTests" time="0.0"/>
+  <testcase name="testDelegatingFilterProxyWithTargetBeanName()" classname="org.springframework.web.filter.DelegatingFilterProxyTests" time="0.001"/>
+  <testcase name="testDelegatingFilterProxyWithFilterName()" classname="org.springframework.web.filter.DelegatingFilterProxyTests" time="0.0"/>
+  <testcase name="testDelegatingFilterProxyWithTargetFilterLifecycle()" classname="org.springframework.web.filter.DelegatingFilterProxyTests" time="0.001"/>
   <testcase name="testDelegatingFilterProxyWithFrameworkServletContext()" classname="org.springframework.web.filter.DelegatingFilterProxyTests" time="0.001"/>
   <testcase name="testDelegatingFilterProxyNotInjectedWithRootPreferred()" classname="org.springframework.web.filter.DelegatingFilterProxyTests" time="0.001"/>
-  <testcase name="testDelegatingFilterProxyWithLazyContextStartup()" classname="org.springframework.web.filter.DelegatingFilterProxyTests" time="0.002"/>
+  <testcase name="testDelegatingFilterProxyWithLazyContextStartup()" classname="org.springframework.web.filter.DelegatingFilterProxyTests" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

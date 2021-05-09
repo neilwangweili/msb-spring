@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.http.codec.ServerSentEventHttpMessageReaderTests" tests="11" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:42:15" hostname="wangweilideMacBook-Pro.local" time="2.622">
+<testsuite name="org.springframework.http.codec.ServerSentEventHttpMessageReaderTests" tests="11" skipped="0" failures="0" errors="0" timestamp="2021-05-09T12:44:26" hostname="wangweilidembp" time="2.45">
   <properties/>
-  <testcase name="readServerSentEvents()" classname="org.springframework.http.codec.ServerSentEventHttpMessageReaderTests" time="0.009"/>
+  <testcase name="readServerSentEvents()" classname="org.springframework.http.codec.ServerSentEventHttpMessageReaderTests" time="0.008"/>
   <testcase name="readServerSentEventsWithMultipleChunks()" classname="org.springframework.http.codec.ServerSentEventHttpMessageReaderTests" time="0.004"/>
   <testcase name="decodeFullContentAsString()" classname="org.springframework.http.codec.ServerSentEventHttpMessageReaderTests" time="0.001"/>
   <testcase name="readError()" classname="org.springframework.http.codec.ServerSentEventHttpMessageReaderTests" time="0.002"/>
   <testcase name="readPojo()" classname="org.springframework.http.codec.ServerSentEventHttpMessageReaderTests" time="0.003"/>
   <testcase name="readString()" classname="org.springframework.http.codec.ServerSentEventHttpMessageReaderTests" time="0.002"/>
   <testcase name="cantRead()" classname="org.springframework.http.codec.ServerSentEventHttpMessageReaderTests" time="0.0"/>
-  <testcase name="maxInMemoryLimit()" classname="org.springframework.http.codec.ServerSentEventHttpMessageReaderTests" time="0.001"/>
+  <testcase name="maxInMemoryLimit()" classname="org.springframework.http.codec.ServerSentEventHttpMessageReaderTests" time="0.002"/>
   <testcase name="canRead()" classname="org.springframework.http.codec.ServerSentEventHttpMessageReaderTests" time="0.0"/>
   <testcase name="readPojoWithCommentOnly()" classname="org.springframework.http.codec.ServerSentEventHttpMessageReaderTests" time="0.001"/>
-  <testcase name="maxInMemoryLimitAllowsReadingPojoLargerThanDefaultSize()" classname="org.springframework.http.codec.ServerSentEventHttpMessageReaderTests" time="2.595"/>
+  <testcase name="maxInMemoryLimitAllowsReadingPojoLargerThanDefaultSize()" classname="org.springframework.http.codec.ServerSentEventHttpMessageReaderTests" time="2.426"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

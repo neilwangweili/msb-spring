@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.scripting.support.StaticScriptSourceTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:32:00" hostname="wangweilideMBP.lan" time="0.003">
+<testsuite name="org.springframework.scripting.support.StaticScriptSourceTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2021-05-09T12:41:50" hostname="wangweilidembp" time="0.003">
   <properties/>
   <testcase name="isModifiedNotToggledWhenSameScriptIsSet()" classname="org.springframework.scripting.support.StaticScriptSourceTests" time="0.0"/>
   <testcase name="createWithWhitespaceOnlyScript()" classname="org.springframework.scripting.support.StaticScriptSourceTests" time="0.001"/>
   <testcase name="isModifiedIsTrueByDefault()" classname="org.springframework.scripting.support.StaticScriptSourceTests" time="0.0"/>
-  <testcase name="gettingScriptViaToStringDoesNotToggleIsModified()" classname="org.springframework.scripting.support.StaticScriptSourceTests" time="0.0"/>
+  <testcase name="gettingScriptViaToStringDoesNotToggleIsModified()" classname="org.springframework.scripting.support.StaticScriptSourceTests" time="0.001"/>
   <testcase name="isModifiedToggledWhenDifferentScriptIsSet()" classname="org.springframework.scripting.support.StaticScriptSourceTests" time="0.0"/>
   <testcase name="createWithEmptyScript()" classname="org.springframework.scripting.support.StaticScriptSourceTests" time="0.001"/>
   <testcase name="gettingScriptTogglesIsModified()" classname="org.springframework.scripting.support.StaticScriptSourceTests" time="0.0"/>
-  <testcase name="createWithNullScript()" classname="org.springframework.scripting.support.StaticScriptSourceTests" time="0.001"/>
+  <testcase name="createWithNullScript()" classname="org.springframework.scripting.support.StaticScriptSourceTests" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

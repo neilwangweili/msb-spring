@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.http.converter.ResourceRegionHttpMessageConverterTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:42:11" hostname="wangweilideMacBook-Pro.local" time="0.056">
+<testsuite name="org.springframework.http.converter.ResourceRegionHttpMessageConverterTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2021-05-09T12:44:23" hostname="wangweilidembp" time="0.036">
   <properties/>
-  <testcase name="partialContentMultipleByteRanges()" classname="org.springframework.http.converter.ResourceRegionHttpMessageConverterTests" time="0.011"/>
+  <testcase name="partialContentMultipleByteRanges()" classname="org.springframework.http.converter.ResourceRegionHttpMessageConverterTests" time="0.008"/>
   <testcase name="canWriteResourceCollection()" classname="org.springframework.http.converter.ResourceRegionHttpMessageConverterTests" time="0.001"/>
-  <testcase name="partialContentMultipleByteRangesInRandomOrderAndOverlapping()" classname="org.springframework.http.converter.ResourceRegionHttpMessageConverterTests" time="0.011"/>
+  <testcase name="partialContentMultipleByteRangesInRandomOrderAndOverlapping()" classname="org.springframework.http.converter.ResourceRegionHttpMessageConverterTests" time="0.007"/>
   <testcase name="canWriteResource()" classname="org.springframework.http.converter.ResourceRegionHttpMessageConverterTests" time="0.0"/>
-  <testcase name="shouldWritePartialContentByteRangeNoEnd()" classname="org.springframework.http.converter.ResourceRegionHttpMessageConverterTests" time="0.002"/>
-  <testcase name="applicationOctetStreamDefaultContentType()" classname="org.springframework.http.converter.ResourceRegionHttpMessageConverterTests" time="0.03"/>
+  <testcase name="shouldWritePartialContentByteRangeNoEnd()" classname="org.springframework.http.converter.ResourceRegionHttpMessageConverterTests" time="0.001"/>
+  <testcase name="applicationOctetStreamDefaultContentType()" classname="org.springframework.http.converter.ResourceRegionHttpMessageConverterTests" time="0.017"/>
   <testcase name="canReadResource()" classname="org.springframework.http.converter.ResourceRegionHttpMessageConverterTests" time="0.0"/>
   <testcase name="shouldWritePartialContentByteRange()" classname="org.springframework.http.converter.ResourceRegionHttpMessageConverterTests" time="0.001"/>
   <system-out><![CDATA[]]></system-out>

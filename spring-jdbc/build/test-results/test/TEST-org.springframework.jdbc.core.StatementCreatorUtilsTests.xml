@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.jdbc.core.StatementCreatorUtilsTests" tests="22" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:25:27" hostname="wangweilideMBP.lan" time="0.028">
+<testsuite name="org.springframework.jdbc.core.StatementCreatorUtilsTests" tests="22" skipped="0" failures="0" errors="0" timestamp="2021-05-09T12:40:43" hostname="wangweilidembp" time="0.16">
   <properties/>
-  <testcase name="testSetParameterValueWithNullAndUnknownTypeOnInformix()" classname="org.springframework.jdbc.core.StatementCreatorUtilsTests" time="0.001"/>
-  <testcase name="testSetParameterValueWithDateAndCalendar()" classname="org.springframework.jdbc.core.StatementCreatorUtilsTests" time="0.0"/>
-  <testcase name="testSetParameterValueWithTimestampAndUtilDate()" classname="org.springframework.jdbc.core.StatementCreatorUtilsTests" time="0.0"/>
-  <testcase name="testSetParameterValueWithNullAndGetParameterTypeWorking()" classname="org.springframework.jdbc.core.StatementCreatorUtilsTests" time="0.009"/>
-  <testcase name="testSetParameterValueWithSqlTimestamp()" classname="org.springframework.jdbc.core.StatementCreatorUtilsTests" time="0.001"/>
+  <testcase name="testSetParameterValueWithNullAndUnknownTypeOnInformix()" classname="org.springframework.jdbc.core.StatementCreatorUtilsTests" time="0.027"/>
+  <testcase name="testSetParameterValueWithDateAndCalendar()" classname="org.springframework.jdbc.core.StatementCreatorUtilsTests" time="0.003"/>
+  <testcase name="testSetParameterValueWithTimestampAndUtilDate()" classname="org.springframework.jdbc.core.StatementCreatorUtilsTests" time="0.001"/>
+  <testcase name="testSetParameterValueWithNullAndGetParameterTypeWorking()" classname="org.springframework.jdbc.core.StatementCreatorUtilsTests" time="0.05"/>
+  <testcase name="testSetParameterValueWithSqlTimestamp()" classname="org.springframework.jdbc.core.StatementCreatorUtilsTests" time="0.002"/>
   <testcase name="testSetParameterValueWithTimeAndCalendar()" classname="org.springframework.jdbc.core.StatementCreatorUtilsTests" time="0.001"/>
-  <testcase name="testSetParameterValueWithDateAndUnknownType()" classname="org.springframework.jdbc.core.StatementCreatorUtilsTests" time="0.0"/>
-  <testcase name="testSetParameterValueWithDateAndUtilDate()" classname="org.springframework.jdbc.core.StatementCreatorUtilsTests" time="0.001"/>
-  <testcase name="testSetParameterValueWithCalendarAndUnknownType()" classname="org.springframework.jdbc.core.StatementCreatorUtilsTests" time="0.0"/>
-  <testcase name="testSetParameterValueWithString()" classname="org.springframework.jdbc.core.StatementCreatorUtilsTests" time="0.0"/>
+  <testcase name="testSetParameterValueWithDateAndUnknownType()" classname="org.springframework.jdbc.core.StatementCreatorUtilsTests" time="0.001"/>
+  <testcase name="testSetParameterValueWithDateAndUtilDate()" classname="org.springframework.jdbc.core.StatementCreatorUtilsTests" time="0.015"/>
+  <testcase name="testSetParameterValueWithCalendarAndUnknownType()" classname="org.springframework.jdbc.core.StatementCreatorUtilsTests" time="0.002"/>
+  <testcase name="testSetParameterValueWithString()" classname="org.springframework.jdbc.core.StatementCreatorUtilsTests" time="0.001"/>
   <testcase name="testSetParameterValueWithStringAndUnknownType()" classname="org.springframework.jdbc.core.StatementCreatorUtilsTests" time="0.001"/>
-  <testcase name="testSetParameterValueWithStringAndVendorSpecificType()" classname="org.springframework.jdbc.core.StatementCreatorUtilsTests" time="0.001"/>
-  <testcase name="testSetParameterValueWithNullAndVendorSpecificType()" classname="org.springframework.jdbc.core.StatementCreatorUtilsTests" time="0.001"/>
+  <testcase name="testSetParameterValueWithStringAndVendorSpecificType()" classname="org.springframework.jdbc.core.StatementCreatorUtilsTests" time="0.003"/>
+  <testcase name="testSetParameterValueWithNullAndVendorSpecificType()" classname="org.springframework.jdbc.core.StatementCreatorUtilsTests" time="0.013"/>
   <testcase name="testSetParameterValueWithTimeAndUtilDate()" classname="org.springframework.jdbc.core.StatementCreatorUtilsTests" time="0.001"/>
   <testcase name="testSetParameterValueWithSqlDate()" classname="org.springframework.jdbc.core.StatementCreatorUtilsTests" time="0.001"/>
-  <testcase name="testSetParameterValueWithSqlTime()" classname="org.springframework.jdbc.core.StatementCreatorUtilsTests" time="0.001"/>
-  <testcase name="testSetParameterValueWithNullAndUnknownType()" classname="org.springframework.jdbc.core.StatementCreatorUtilsTests" time="0.001"/>
-  <testcase name="testSetParameterValueWithNullAndType()" classname="org.springframework.jdbc.core.StatementCreatorUtilsTests" time="0.0"/>
+  <testcase name="testSetParameterValueWithSqlTime()" classname="org.springframework.jdbc.core.StatementCreatorUtilsTests" time="0.002"/>
+  <testcase name="testSetParameterValueWithNullAndUnknownType()" classname="org.springframework.jdbc.core.StatementCreatorUtilsTests" time="0.003"/>
+  <testcase name="testSetParameterValueWithNullAndType()" classname="org.springframework.jdbc.core.StatementCreatorUtilsTests" time="0.002"/>
   <testcase name="testSetParameterValueWithStringAndSpecialType()" classname="org.springframework.jdbc.core.StatementCreatorUtilsTests" time="0.001"/>
-  <testcase name="testSetParameterValueWithNullAndTypeName()" classname="org.springframework.jdbc.core.StatementCreatorUtilsTests" time="0.0"/>
-  <testcase name="testSetParameterValueWithTimestampAndCalendar()" classname="org.springframework.jdbc.core.StatementCreatorUtilsTests" time="0.0"/>
-  <testcase name="testSetParameterValueWithNullAndUnknownTypeOnDerbyEmbedded()" classname="org.springframework.jdbc.core.StatementCreatorUtilsTests" time="0.001"/>
+  <testcase name="testSetParameterValueWithNullAndTypeName()" classname="org.springframework.jdbc.core.StatementCreatorUtilsTests" time="0.001"/>
+  <testcase name="testSetParameterValueWithTimestampAndCalendar()" classname="org.springframework.jdbc.core.StatementCreatorUtilsTests" time="0.001"/>
+  <testcase name="testSetParameterValueWithNullAndUnknownTypeOnDerbyEmbedded()" classname="org.springframework.jdbc.core.StatementCreatorUtilsTests" time="0.004"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

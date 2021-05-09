@@ -1,86 +1,86 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.expression.spel.SpelCompilationCoverageTests" tests="80" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:04:53" hostname="wangweilideMBP.lan" time="2.584">
+<testsuite name="org.springframework.expression.spel.SpelCompilationCoverageTests" tests="80" skipped="0" failures="0" errors="0" timestamp="2021-05-09T12:39:17" hostname="wangweilidembp" time="0.991">
   <properties/>
-  <testcase name="operatorInstanceOf()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="1.158"/>
-  <testcase name="opDivide_mixedNumberTypes()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.116"/>
-  <testcase name="opEq_SPR14863()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.003"/>
-  <testcase name="variableReference_userDefined()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.018"/>
-  <testcase name="plusNeedingCheckcast_SPR12426()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.004"/>
-  <testcase name="opMinus_mixedNumberTypes()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.082"/>
-  <testcase name="methodReference_simpleInstanceMethodNoArgReturnPrimitive()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.002"/>
+  <testcase name="operatorInstanceOf()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.455"/>
+  <testcase name="opDivide_mixedNumberTypes()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.054"/>
+  <testcase name="opEq_SPR14863()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.001"/>
+  <testcase name="variableReference_userDefined()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.002"/>
+  <testcase name="plusNeedingCheckcast_SPR12426()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.001"/>
+  <testcase name="opMinus_mixedNumberTypes()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.031"/>
+  <testcase name="methodReference_simpleInstanceMethodNoArgReturnPrimitive()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.001"/>
   <testcase name="variableReference_root()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.001"/>
-  <testcase name="compilerWithGenerics_12040_2()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.004"/>
-  <testcase name="compilerWithGenerics_12040_3()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.005"/>
+  <testcase name="compilerWithGenerics_12040_2()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.002"/>
+  <testcase name="compilerWithGenerics_12040_3()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.003"/>
   <testcase name="compiledExpressionShouldWorkWhenUsingCustomFunctionWithVarargs()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.002"/>
   <testcase name="variantGetter()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.001"/>
-  <testcase name="ternaryOperator_SPR15192()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.015"/>
-  <testcase name="booleanLiteral()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.0"/>
-  <testcase name="opDivide()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.016"/>
-  <testcase name="ternary()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.006"/>
-  <testcase name="longLiteral()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.003"/>
-  <testcase name="opMinus()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.011"/>
-  <testcase name="compilationOfBasicNullSafeMethodReference()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.001"/>
-  <testcase name="testNullComparison_SPR22358()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.016"/>
-  <testcase name="operatorInstanceOf_SPR14250()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.004"/>
-  <testcase name="methodReferenceMissingCastAndRootObjectAccessing_SPR12326()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.005"/>
-  <testcase name="opPlus()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.033"/>
+  <testcase name="ternaryOperator_SPR15192()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.004"/>
+  <testcase name="booleanLiteral()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.001"/>
+  <testcase name="opDivide()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.009"/>
+  <testcase name="ternary()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.003"/>
+  <testcase name="longLiteral()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.0"/>
+  <testcase name="opMinus()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.007"/>
+  <testcase name="compilationOfBasicNullSafeMethodReference()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.0"/>
+  <testcase name="testNullComparison_SPR22358()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.011"/>
+  <testcase name="operatorInstanceOf_SPR14250()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.002"/>
+  <testcase name="methodReferenceMissingCastAndRootObjectAccessing_SPR12326()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.003"/>
+  <testcase name="opPlus()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.007"/>
   <testcase name="functionReferenceVisibility_SPR12359()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.001"/>
-  <testcase name="nullsafeFieldPropertyDereferencing_SPR16489()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.003"/>
-  <testcase name="errorHandling()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.009"/>
+  <testcase name="nullsafeFieldPropertyDereferencing_SPR16489()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.002"/>
+  <testcase name="errorHandling()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.003"/>
   <testcase name="compoundExpression()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.002"/>
-  <testcase name="methodReference()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.007"/>
+  <testcase name="methodReference()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.005"/>
   <testcase name="methodReference_literalArguments_int()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.001"/>
-  <testcase name="compilerWithGenerics_12040()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.012"/>
-  <testcase name="repeatedCompilation()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.32"/>
+  <testcase name="compilerWithGenerics_12040()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.005"/>
+  <testcase name="repeatedCompilation()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.131"/>
   <testcase name="failsWhenSettingContextForExpression_SPR12326()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.002"/>
   <testcase name="functionReferenceVarargs()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.0"/>
-  <testcase name="indexerMapAccessor_12045()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.01"/>
-  <testcase name="opMultiply()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.008"/>
-  <testcase name="opEq()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.062"/>
-  <testcase name="opGe()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.017"/>
-  <testcase name="opGt()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.005"/>
-  <testcase name="opLe()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.006"/>
-  <testcase name="opLt()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.005"/>
-  <testcase name="opNe()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.038"/>
-  <testcase name="opOr()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.001"/>
-  <testcase name="functionReferenceVarargs_SPR12359()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.013"/>
+  <testcase name="indexerMapAccessor_12045()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.002"/>
+  <testcase name="opMultiply()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.006"/>
+  <testcase name="opEq()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.011"/>
+  <testcase name="opGe()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.004"/>
+  <testcase name="opGt()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.003"/>
+  <testcase name="opLe()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.004"/>
+  <testcase name="opLt()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.003"/>
+  <testcase name="opNe()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.009"/>
+  <testcase name="opOr()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.002"/>
+  <testcase name="functionReferenceVarargs_SPR12359()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.007"/>
   <testcase name="elvis()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.001"/>
-  <testcase name="opAnd()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.029"/>
+  <testcase name="opAnd()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.002"/>
   <testcase name="operatorNot()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.001"/>
-  <testcase name="mixingItUp_propertyAccessIndexerOpLtTernaryRootNull()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.029"/>
+  <testcase name="mixingItUp_propertyAccessIndexerOpLtTernaryRootNull()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.002"/>
   <testcase name="stringLiteral()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.001"/>
-  <testcase name="mixingItUp_indexerOpEqTernary()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.001"/>
-  <testcase name="opModulus_12041()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.019"/>
-  <testcase name="realLiteral()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.002"/>
-  <testcase name="nullsafeMethodChaining_SPR16489()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.014"/>
-  <testcase name="inlineList()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.005"/>
-  <testcase name="opPlusString()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.014"/>
-  <testcase name="methodReferenceVarargs()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.02"/>
-  <testcase name="functionReference()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.002"/>
+  <testcase name="mixingItUp_indexerOpEqTernary()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.0"/>
+  <testcase name="opModulus_12041()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.004"/>
+  <testcase name="realLiteral()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.001"/>
+  <testcase name="nullsafeMethodChaining_SPR16489()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.003"/>
+  <testcase name="inlineList()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.004"/>
+  <testcase name="opPlusString()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.002"/>
+  <testcase name="methodReferenceVarargs()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.008"/>
+  <testcase name="functionReference()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.001"/>
   <testcase name="constructorReference()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.003"/>
-  <testcase name="propertyReference()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.002"/>
+  <testcase name="propertyReference()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.001"/>
   <testcase name="propertyReferenceVisibility_SPR12771()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.001"/>
-  <testcase name="opModulus_mixedNumberTypes()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.072"/>
-  <testcase name="opNe_SPR14863()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.002"/>
-  <testcase name="opPlus_mixedNumberTypes()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.059"/>
-  <testcase name="methodReference_staticMethod()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.001"/>
-  <testcase name="methodReferenceReflectiveMethodSelectionWithVarargs()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.002"/>
-  <testcase name="functionReferenceNonCompilableArguments_SPR12359()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.002"/>
-  <testcase name="opMultiply_mixedNumberTypes()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.059"/>
-  <testcase name="intLiteral()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.002"/>
-  <testcase name="elvisOperator_SPR15192()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.013"/>
-  <testcase name="elvisOperator_SPR17214()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.01"/>
-  <testcase name="nullLiteral()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.0"/>
-  <testcase name="ternaryWithBooleanReturn_SPR12271()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.011"/>
-  <testcase name="indexer()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.01"/>
+  <testcase name="opModulus_mixedNumberTypes()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.025"/>
+  <testcase name="opNe_SPR14863()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.001"/>
+  <testcase name="opPlus_mixedNumberTypes()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.035"/>
+  <testcase name="methodReference_staticMethod()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.0"/>
+  <testcase name="methodReferenceReflectiveMethodSelectionWithVarargs()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.001"/>
+  <testcase name="functionReferenceNonCompilableArguments_SPR12359()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.001"/>
+  <testcase name="opMultiply_mixedNumberTypes()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.023"/>
+  <testcase name="intLiteral()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.001"/>
+  <testcase name="elvisOperator_SPR15192()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.002"/>
+  <testcase name="elvisOperator_SPR17214()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.003"/>
+  <testcase name="nullLiteral()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.001"/>
+  <testcase name="ternaryWithBooleanReturn_SPR12271()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.001"/>
+  <testcase name="indexer()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.006"/>
   <testcase name="methodReference_simpleInstanceMethodNoArg()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.001"/>
   <testcase name="nestedInlineLists()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.006"/>
-  <testcase name="constructorReference_SPR12326()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.021"/>
-  <testcase name="constructorReference_SPR13781()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.02"/>
+  <testcase name="constructorReference_SPR12326()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.007"/>
+  <testcase name="constructorReference_SPR13781()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.009"/>
   <testcase name="floatLiteral()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.001"/>
-  <testcase name="typeReference()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.016"/>
-  <testcase name="methodReference_simpleInstanceMethodOneArgReturnPrimitive1()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.001"/>
-  <testcase name="methodReference_simpleInstanceMethodOneArgReturnPrimitive2()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.002"/>
+  <testcase name="typeReference()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.002"/>
+  <testcase name="methodReference_simpleInstanceMethodOneArgReturnPrimitive1()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.0"/>
+  <testcase name="methodReference_simpleInstanceMethodOneArgReturnPrimitive2()" classname="org.springframework.expression.spel.SpelCompilationCoverageTests" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.beans.factory.xml.AutowireWithExclusionTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:25:25" hostname="wangweilideMBP.lan" time="0.328">
+<testsuite name="org.springframework.beans.factory.xml.AutowireWithExclusionTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2021-05-09T12:40:15" hostname="wangweilidembp" time="0.247">
   <properties/>
-  <testcase name="byTypeAutowireWithInclusion()" classname="org.springframework.beans.factory.xml.AutowireWithExclusionTests" time="0.127"/>
+  <testcase name="byTypeAutowireWithInclusion()" classname="org.springframework.beans.factory.xml.AutowireWithExclusionTests" time="0.053"/>
   <testcase name="byTypeAutowireWithAutoSelfExclusion()" classname="org.springframework.beans.factory.xml.AutowireWithExclusionTests" time="0.008"/>
-  <testcase name="byTypeAutowireWithPrimaryOverridingParentFactory()" classname="org.springframework.beans.factory.xml.AutowireWithExclusionTests" time="0.038"/>
-  <testcase name="constructorAutowireWithAutoSelfExclusion()" classname="org.springframework.beans.factory.xml.AutowireWithExclusionTests" time="0.003"/>
-  <testcase name="constructorAutowireWithExclusion()" classname="org.springframework.beans.factory.xml.AutowireWithExclusionTests" time="0.003"/>
-  <testcase name="byTypeAutowireWithExclusionInParentFactory()" classname="org.springframework.beans.factory.xml.AutowireWithExclusionTests" time="0.054"/>
-  <testcase name="byTypeAutowireWithPrimaryInParentAndChild()" classname="org.springframework.beans.factory.xml.AutowireWithExclusionTests" time="0.008"/>
-  <testcase name="byTypeAutowireWithPrimaryInParentFactory()" classname="org.springframework.beans.factory.xml.AutowireWithExclusionTests" time="0.008"/>
-  <testcase name="byTypeAutowireWithExclusion()" classname="org.springframework.beans.factory.xml.AutowireWithExclusionTests" time="0.031"/>
-  <testcase name="byTypeAutowireWithSelectiveInclusion()" classname="org.springframework.beans.factory.xml.AutowireWithExclusionTests" time="0.017"/>
+  <testcase name="byTypeAutowireWithPrimaryOverridingParentFactory()" classname="org.springframework.beans.factory.xml.AutowireWithExclusionTests" time="0.021"/>
+  <testcase name="constructorAutowireWithAutoSelfExclusion()" classname="org.springframework.beans.factory.xml.AutowireWithExclusionTests" time="0.007"/>
+  <testcase name="constructorAutowireWithExclusion()" classname="org.springframework.beans.factory.xml.AutowireWithExclusionTests" time="0.004"/>
+  <testcase name="byTypeAutowireWithExclusionInParentFactory()" classname="org.springframework.beans.factory.xml.AutowireWithExclusionTests" time="0.043"/>
+  <testcase name="byTypeAutowireWithPrimaryInParentAndChild()" classname="org.springframework.beans.factory.xml.AutowireWithExclusionTests" time="0.031"/>
+  <testcase name="byTypeAutowireWithPrimaryInParentFactory()" classname="org.springframework.beans.factory.xml.AutowireWithExclusionTests" time="0.051"/>
+  <testcase name="byTypeAutowireWithExclusion()" classname="org.springframework.beans.factory.xml.AutowireWithExclusionTests" time="0.007"/>
+  <testcase name="byTypeAutowireWithSelectiveInclusion()" classname="org.springframework.beans.factory.xml.AutowireWithExclusionTests" time="0.019"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

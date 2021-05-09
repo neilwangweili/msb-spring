@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.beans.factory.config.ServiceLocatorFactoryBeanTests" tests="12" skipped="2" failures="0" errors="0" timestamp="2021-05-01T09:25:17" hostname="wangweilideMBP.lan" time="0.04">
+<testsuite name="org.springframework.beans.factory.config.ServiceLocatorFactoryBeanTests" tests="12" skipped="2" failures="0" errors="0" timestamp="2021-05-09T12:40:05" hostname="wangweilidembp" time="0.067">
   <properties/>
   <testcase name="testWhenServiceLocatorExceptionClassIsNotAnExceptionSubclass()" classname="org.springframework.beans.factory.config.ServiceLocatorFactoryBeanTests" time="0.002"/>
-  <testcase name="testStringArgGetter()" classname="org.springframework.beans.factory.config.ServiceLocatorFactoryBeanTests" time="0.007"/>
-  <testcase name="testWhenServiceLocatorMethodCalledWithTooManyParameters()" classname="org.springframework.beans.factory.config.ServiceLocatorFactoryBeanTests" time="0.001"/>
-  <testcase name="testErrorOnTooManyOrTooFew()" classname="org.springframework.beans.factory.config.ServiceLocatorFactoryBeanTests" time="0.008"/>
+  <testcase name="testStringArgGetter()" classname="org.springframework.beans.factory.config.ServiceLocatorFactoryBeanTests" time="0.018"/>
+  <testcase name="testWhenServiceLocatorMethodCalledWithTooManyParameters()" classname="org.springframework.beans.factory.config.ServiceLocatorFactoryBeanTests" time="0.002"/>
+  <testcase name="testErrorOnTooManyOrTooFew()" classname="org.springframework.beans.factory.config.ServiceLocatorFactoryBeanTests" time="0.01"/>
   <testcase name="testCombinedLocatorInterface()" classname="org.springframework.beans.factory.config.ServiceLocatorFactoryBeanTests" time="0.001">
     <skipped/>
   </testcase>
-  <testcase name="testRequiresListableBeanFactoryAndChokesOnAnythingElse()" classname="org.springframework.beans.factory.config.ServiceLocatorFactoryBeanTests" time="0.0"/>
+  <testcase name="testRequiresListableBeanFactoryAndChokesOnAnythingElse()" classname="org.springframework.beans.factory.config.ServiceLocatorFactoryBeanTests" time="0.001"/>
   <testcase name="testServiceMappings()" classname="org.springframework.beans.factory.config.ServiceLocatorFactoryBeanTests" time="0.0">
     <skipped/>
   </testcase>
-  <testcase name="testWhenServiceLocatorInterfaceIsNotAnInterfaceType()" classname="org.springframework.beans.factory.config.ServiceLocatorFactoryBeanTests" time="0.0"/>
-  <testcase name="testErrorOnTooManyOrTooFewWithCustomServiceLocatorException()" classname="org.springframework.beans.factory.config.ServiceLocatorFactoryBeanTests" time="0.012"/>
+  <testcase name="testWhenServiceLocatorInterfaceIsNotAnInterfaceType()" classname="org.springframework.beans.factory.config.ServiceLocatorFactoryBeanTests" time="0.001"/>
+  <testcase name="testErrorOnTooManyOrTooFewWithCustomServiceLocatorException()" classname="org.springframework.beans.factory.config.ServiceLocatorFactoryBeanTests" time="0.023"/>
   <testcase name="testNoServiceLocatorInterfaceSupplied()" classname="org.springframework.beans.factory.config.ServiceLocatorFactoryBeanTests" time="0.001"/>
-  <testcase name="testNoArgGetter()" classname="org.springframework.beans.factory.config.ServiceLocatorFactoryBeanTests" time="0.002"/>
+  <testcase name="testNoArgGetter()" classname="org.springframework.beans.factory.config.ServiceLocatorFactoryBeanTests" time="0.0"/>
   <testcase name="testWhenServiceLocatorExceptionClassToExceptionTypeWithOnlyNoArgCtor()" classname="org.springframework.beans.factory.config.ServiceLocatorFactoryBeanTests" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

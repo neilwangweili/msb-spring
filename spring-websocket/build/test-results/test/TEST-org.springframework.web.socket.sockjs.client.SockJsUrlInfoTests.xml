@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.web.socket.sockjs.client.SockJsUrlInfoTests" tests="14" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:48:08" hostname="wangweilideMBP.lan" time="0.011">
+<testsuite name="org.springframework.web.socket.sockjs.client.SockJsUrlInfoTests" tests="14" skipped="0" failures="0" errors="0" timestamp="2021-05-09T12:44:00" hostname="wangweilidembp" time="0.017">
   <properties/>
-  <testcase name="[1] scheme=http, expectedScheme=http, transportType=XHR_STREAMING" classname="org.springframework.web.socket.sockjs.client.SockJsUrlInfoTests" time="0.002"/>
+  <testcase name="[1] scheme=http, expectedScheme=http, transportType=XHR_STREAMING" classname="org.springframework.web.socket.sockjs.client.SockJsUrlInfoTests" time="0.003"/>
   <testcase name="[2] scheme=http, expectedScheme=ws, transportType=WEBSOCKET" classname="org.springframework.web.socket.sockjs.client.SockJsUrlInfoTests" time="0.001"/>
   <testcase name="[3] scheme=https, expectedScheme=https, transportType=XHR_STREAMING" classname="org.springframework.web.socket.sockjs.client.SockJsUrlInfoTests" time="0.001"/>
   <testcase name="[4] scheme=https, expectedScheme=wss, transportType=WEBSOCKET" classname="org.springframework.web.socket.sockjs.client.SockJsUrlInfoTests" time="0.0"/>
   <testcase name="[5] scheme=ws, expectedScheme=http, transportType=XHR_STREAMING" classname="org.springframework.web.socket.sockjs.client.SockJsUrlInfoTests" time="0.0"/>
-  <testcase name="[6] scheme=ws, expectedScheme=ws, transportType=WEBSOCKET" classname="org.springframework.web.socket.sockjs.client.SockJsUrlInfoTests" time="0.0"/>
-  <testcase name="[7] scheme=wss, expectedScheme=https, transportType=XHR_STREAMING" classname="org.springframework.web.socket.sockjs.client.SockJsUrlInfoTests" time="0.0"/>
+  <testcase name="[6] scheme=ws, expectedScheme=ws, transportType=WEBSOCKET" classname="org.springframework.web.socket.sockjs.client.SockJsUrlInfoTests" time="0.001"/>
+  <testcase name="[7] scheme=wss, expectedScheme=https, transportType=XHR_STREAMING" classname="org.springframework.web.socket.sockjs.client.SockJsUrlInfoTests" time="0.001"/>
   <testcase name="[8] scheme=wss, expectedScheme=wss, transportType=WEBSOCKET" classname="org.springframework.web.socket.sockjs.client.SockJsUrlInfoTests" time="0.0"/>
-  <testcase name="sessionId()" classname="org.springframework.web.socket.sockjs.client.SockJsUrlInfoTests" time="0.001"/>
-  <testcase name="serverId()" classname="org.springframework.web.socket.sockjs.client.SockJsUrlInfoTests" time="0.001"/>
+  <testcase name="sessionId()" classname="org.springframework.web.socket.sockjs.client.SockJsUrlInfoTests" time="0.0"/>
+  <testcase name="serverId()" classname="org.springframework.web.socket.sockjs.client.SockJsUrlInfoTests" time="0.002"/>
   <testcase name="[1] scheme=http, expectedScheme=http" classname="org.springframework.web.socket.sockjs.client.SockJsUrlInfoTests" time="0.001"/>
-  <testcase name="[2] scheme=https, expectedScheme=https" classname="org.springframework.web.socket.sockjs.client.SockJsUrlInfoTests" time="0.0"/>
+  <testcase name="[2] scheme=https, expectedScheme=https" classname="org.springframework.web.socket.sockjs.client.SockJsUrlInfoTests" time="0.001"/>
   <testcase name="[3] scheme=ws, expectedScheme=http" classname="org.springframework.web.socket.sockjs.client.SockJsUrlInfoTests" time="0.001"/>
   <testcase name="[4] scheme=wss, expectedScheme=https" classname="org.springframework.web.socket.sockjs.client.SockJsUrlInfoTests" time="0.0"/>
   <system-out><![CDATA[]]></system-out>

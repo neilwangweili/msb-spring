@@ -1,61 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.aop.aspectj.autoproxy.benchmark.BenchmarkTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:32:27" hostname="wangweilideMBP.lan" time="0.2">
+<testsuite name="org.springframework.aop.aspectj.autoproxy.benchmark.BenchmarkTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2021-05-09T12:42:13" hostname="wangweilidembp" time="0.115">
   <properties/>
-  <testcase name="testRepeatedMixWithSpringAop()" classname="org.springframework.aop.aspectj.autoproxy.benchmark.BenchmarkTests" time="0.039"/>
-  <testcase name="testRepeatedAroundAdviceInvocationsWithSpringAop()" classname="org.springframework.aop.aspectj.autoproxy.benchmark.BenchmarkTests" time="0.02"/>
-  <testcase name="testRepeatedBeforeAdviceInvocationsWithAspectJ()" classname="org.springframework.aop.aspectj.autoproxy.benchmark.BenchmarkTests" time="0.032"/>
-  <testcase name="testRepeatedAroundAdviceInvocationsWithAspectJ()" classname="org.springframework.aop.aspectj.autoproxy.benchmark.BenchmarkTests" time="0.023"/>
-  <testcase name="testRepeatedAfterReturningAdviceInvocationsWithAspectJ()" classname="org.springframework.aop.aspectj.autoproxy.benchmark.BenchmarkTests" time="0.021"/>
-  <testcase name="testRepeatedBeforeAdviceInvocationsWithSpringAop()" classname="org.springframework.aop.aspectj.autoproxy.benchmark.BenchmarkTests" time="0.018"/>
-  <testcase name="testRepeatedAfterReturningAdviceInvocationsWithSpringAop()" classname="org.springframework.aop.aspectj.autoproxy.benchmark.BenchmarkTests" time="0.021"/>
-  <testcase name="testRepeatedMixWithAspectJ()" classname="org.springframework.aop.aspectj.autoproxy.benchmark.BenchmarkTests" time="0.023"/>
-  <system-out><![CDATA[StopWatch '': running time = 1359257 ns
+  <testcase name="testRepeatedMixWithSpringAop()" classname="org.springframework.aop.aspectj.autoproxy.benchmark.BenchmarkTests" time="0.021"/>
+  <testcase name="testRepeatedAroundAdviceInvocationsWithSpringAop()" classname="org.springframework.aop.aspectj.autoproxy.benchmark.BenchmarkTests" time="0.013"/>
+  <testcase name="testRepeatedBeforeAdviceInvocationsWithAspectJ()" classname="org.springframework.aop.aspectj.autoproxy.benchmark.BenchmarkTests" time="0.015"/>
+  <testcase name="testRepeatedAroundAdviceInvocationsWithAspectJ()" classname="org.springframework.aop.aspectj.autoproxy.benchmark.BenchmarkTests" time="0.012"/>
+  <testcase name="testRepeatedAfterReturningAdviceInvocationsWithAspectJ()" classname="org.springframework.aop.aspectj.autoproxy.benchmark.BenchmarkTests" time="0.012"/>
+  <testcase name="testRepeatedBeforeAdviceInvocationsWithSpringAop()" classname="org.springframework.aop.aspectj.autoproxy.benchmark.BenchmarkTests" time="0.012"/>
+  <testcase name="testRepeatedAfterReturningAdviceInvocationsWithSpringAop()" classname="org.springframework.aop.aspectj.autoproxy.benchmark.BenchmarkTests" time="0.013"/>
+  <testcase name="testRepeatedMixWithAspectJ()" classname="org.springframework.aop.aspectj.autoproxy.benchmark.BenchmarkTests" time="0.014"/>
+  <system-out><![CDATA[StopWatch '': running time = 614068 ns
 ---------------------------------------------
 ns         %     Task name
 ---------------------------------------------
-001359257  100%  10 repeated mixed invocations with Spring AOP
+000614068  100%  10 repeated mixed invocations with Spring AOP
 
-StopWatch '': running time = 259310 ns
+StopWatch '': running time = 124635 ns
 ---------------------------------------------
 ns         %     Task name
 ---------------------------------------------
-000259310  100%  10 repeated around advice invocations with Spring AOP
+000124635  100%  10 repeated around advice invocations with Spring AOP
 
-StopWatch '': running time = 1384487 ns
+StopWatch '': running time = 372435 ns
 ---------------------------------------------
 ns         %     Task name
 ---------------------------------------------
-001384487  100%  10 repeated before advice invocations with AspectJ
+000372435  100%  10 repeated before advice invocations with AspectJ
 
-StopWatch '': running time = 295592 ns
+StopWatch '': running time = 188323 ns
 ---------------------------------------------
 ns         %     Task name
 ---------------------------------------------
-000295592  100%  10 repeated around advice invocations with AspectJ
+000188323  100%  10 repeated around advice invocations with AspectJ
 
-StopWatch '': running time = 667586 ns
+StopWatch '': running time = 435604 ns
 ---------------------------------------------
 ns         %     Task name
 ---------------------------------------------
-000667586  100%  10 repeated after returning advice invocations with AspectJ
+000435604  100%  10 repeated after returning advice invocations with AspectJ
 
-StopWatch '': running time = 204683 ns
+StopWatch '': running time = 113426 ns
 ---------------------------------------------
 ns         %     Task name
 ---------------------------------------------
-000204683  100%  10 repeated before advice invocations with Spring AOP
+000113426  100%  10 repeated before advice invocations with Spring AOP
 
-StopWatch '': running time = 255737 ns
+StopWatch '': running time = 180388 ns
 ---------------------------------------------
 ns         %     Task name
 ---------------------------------------------
-000255737  100%  10 repeated after returning advice invocations with Spring AOP
+000180388  100%  10 repeated after returning advice invocations with Spring AOP
 
-StopWatch '': running time = 1883760 ns
+StopWatch '': running time = 1111253 ns
 ---------------------------------------------
 ns         %     Task name
 ---------------------------------------------
-001883760  100%  10 repeated mixed invocations with AspectJ
+001111253  100%  10 repeated mixed invocations with AspectJ
 
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>

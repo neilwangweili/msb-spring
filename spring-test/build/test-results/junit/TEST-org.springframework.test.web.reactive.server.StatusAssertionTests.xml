@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.test.web.reactive.server.StatusAssertionTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:43:10" hostname="wangweilideMBP.lan" time="0.016">
+<testsuite name="org.springframework.test.web.reactive.server.StatusAssertionTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2021-05-09T12:42:24" hostname="wangweilidembp" time="0.039">
   <properties/>
-  <testcase name="isEqualTo()" classname="org.springframework.test.web.reactive.server.StatusAssertionTests" time="0.007"/>
+  <testcase name="isEqualTo()" classname="org.springframework.test.web.reactive.server.StatusAssertionTests" time="0.022"/>
   <testcase name="matchesCustomStatusValue()" classname="org.springframework.test.web.reactive.server.StatusAssertionTests" time="0.001"/>
-  <testcase name="reasonEquals()" classname="org.springframework.test.web.reactive.server.StatusAssertionTests" time="0.001"/>
-  <testcase name="statusSeries1xx()" classname="org.springframework.test.web.reactive.server.StatusAssertionTests" time="0.001"/>
-  <testcase name="statusSeries2xx()" classname="org.springframework.test.web.reactive.server.StatusAssertionTests" time="0.0"/>
+  <testcase name="reasonEquals()" classname="org.springframework.test.web.reactive.server.StatusAssertionTests" time="0.002"/>
+  <testcase name="statusSeries1xx()" classname="org.springframework.test.web.reactive.server.StatusAssertionTests" time="0.002"/>
+  <testcase name="statusSeries2xx()" classname="org.springframework.test.web.reactive.server.StatusAssertionTests" time="0.001"/>
   <testcase name="statusSeries3xx()" classname="org.springframework.test.web.reactive.server.StatusAssertionTests" time="0.001"/>
   <testcase name="statusSeries4xx()" classname="org.springframework.test.web.reactive.server.StatusAssertionTests" time="0.001"/>
-  <testcase name="statusSeries5xx()" classname="org.springframework.test.web.reactive.server.StatusAssertionTests" time="0.001"/>
-  <testcase name="matchesStatusValue()" classname="org.springframework.test.web.reactive.server.StatusAssertionTests" time="0.003"/>
-  <testcase name="isEqualToWithCustomStatus()" classname="org.springframework.test.web.reactive.server.StatusAssertionTests" time="0.0"/>
-  <system-out><![CDATA[17:43:10.763 [Test worker] ERROR o.s.t.w.r.s.ExchangeResult - Request details for assertion failure:
+  <testcase name="statusSeries5xx()" classname="org.springframework.test.web.reactive.server.StatusAssertionTests" time="0.002"/>
+  <testcase name="matchesStatusValue()" classname="org.springframework.test.web.reactive.server.StatusAssertionTests" time="0.005"/>
+  <testcase name="isEqualToWithCustomStatus()" classname="org.springframework.test.web.reactive.server.StatusAssertionTests" time="0.001"/>
+  <system-out><![CDATA[20:42:24.531 [Test worker] ERROR o.s.t.w.r.s.ExchangeResult - Request details for assertion failure:
 
 > GET /
 > 
@@ -23,7 +23,7 @@ No content
 
 No content
 
-17:43:10.763 [Test worker] ERROR o.s.t.w.r.s.ExchangeResult - Request details for assertion failure:
+20:42:24.532 [Test worker] ERROR o.s.t.w.r.s.ExchangeResult - Request details for assertion failure:
 
 > GET /
 > 
@@ -35,7 +35,7 @@ No content
 
 No content
 
-17:43:10.764 [Test worker] ERROR o.s.t.w.r.s.ExchangeResult - Request details for assertion failure:
+20:42:24.535 [Test worker] ERROR o.s.t.w.r.s.ExchangeResult - Request details for assertion failure:
 
 > GET /
 > 
@@ -47,7 +47,7 @@ No content
 
 No content
 
-17:43:10.765 [Test worker] ERROR o.s.t.w.r.s.ExchangeResult - Request details for assertion failure:
+20:42:24.537 [Test worker] ERROR o.s.t.w.r.s.ExchangeResult - Request details for assertion failure:
 
 > GET /
 > 
@@ -59,7 +59,7 @@ No content
 
 No content
 
-17:43:10.766 [Test worker] ERROR o.s.t.w.r.s.ExchangeResult - Request details for assertion failure:
+20:42:24.539 [Test worker] ERROR o.s.t.w.r.s.ExchangeResult - Request details for assertion failure:
 
 > GET /
 > 
@@ -71,7 +71,7 @@ No content
 
 No content
 
-17:43:10.767 [Test worker] ERROR o.s.t.w.r.s.ExchangeResult - Request details for assertion failure:
+20:42:24.540 [Test worker] ERROR o.s.t.w.r.s.ExchangeResult - Request details for assertion failure:
 
 > GET /
 > 
@@ -83,7 +83,7 @@ No content
 
 No content
 
-17:43:10.768 [Test worker] ERROR o.s.t.w.r.s.ExchangeResult - Request details for assertion failure:
+20:42:24.542 [Test worker] ERROR o.s.t.w.r.s.ExchangeResult - Request details for assertion failure:
 
 > GET /
 > 
@@ -95,7 +95,7 @@ No content
 
 No content
 
-17:43:10.769 [Test worker] ERROR o.s.t.w.r.s.ExchangeResult - Request details for assertion failure:
+20:42:24.543 [Test worker] ERROR o.s.t.w.r.s.ExchangeResult - Request details for assertion failure:
 
 > GET /
 > 
@@ -107,7 +107,7 @@ No content
 
 No content
 
-17:43:10.771 [Test worker] ERROR o.s.t.w.r.s.ExchangeResult - Request details for assertion failure:
+20:42:24.548 [Test worker] ERROR o.s.t.w.r.s.ExchangeResult - Request details for assertion failure:
 
 > GET /
 > 

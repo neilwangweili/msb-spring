@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.beans.BeanWrapperGenericsTests" tests="37" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:25:11" hostname="wangweilideMBP.lan" time="0.19">
+<testsuite name="org.springframework.beans.BeanWrapperGenericsTests" tests="37" skipped="0" failures="0" errors="0" timestamp="2021-05-09T12:39:58" hostname="wangweilidembp" time="0.147">
   <properties/>
-  <testcase name="testComplexGenericIndexedMapEntryWithCollectionConversion()" classname="org.springframework.beans.BeanWrapperGenericsTests" time="0.008"/>
+  <testcase name="testComplexGenericIndexedMapEntryWithCollectionConversion()" classname="org.springframework.beans.BeanWrapperGenericsTests" time="0.004"/>
   <testcase name="testComplexGenericMap()" classname="org.springframework.beans.BeanWrapperGenericsTests" time="0.001"/>
-  <testcase name="testGenericMapOfMapsWithElementConversion()" classname="org.springframework.beans.BeanWrapperGenericsTests" time="0.009"/>
-  <testcase name="testGenericLowerBoundedSet()" classname="org.springframework.beans.BeanWrapperGenericsTests" time="0.0"/>
-  <testcase name="testSettingGenericPropertyWithReadOnlyInterface()" classname="org.springframework.beans.BeanWrapperGenericsTests" time="0.082"/>
-  <testcase name="testComplexDerivedIndexedMapEntry()" classname="org.springframework.beans.BeanWrapperGenericsTests" time="0.0"/>
-  <testcase name="testGenericMapWithKeyType()" classname="org.springframework.beans.BeanWrapperGenericsTests" time="0.006"/>
-  <testcase name="testGenericTypeNestingMapOfListOfListOfInteger()" classname="org.springframework.beans.BeanWrapperGenericsTests" time="0.007"/>
-  <testcase name="testComplexGenericIndexedMapEntry()" classname="org.springframework.beans.BeanWrapperGenericsTests" time="0.0"/>
-  <testcase name="testGenericMapElement()" classname="org.springframework.beans.BeanWrapperGenericsTests" time="0.001"/>
+  <testcase name="testGenericMapOfMapsWithElementConversion()" classname="org.springframework.beans.BeanWrapperGenericsTests" time="0.016"/>
+  <testcase name="testGenericLowerBoundedSet()" classname="org.springframework.beans.BeanWrapperGenericsTests" time="0.001"/>
+  <testcase name="testSettingGenericPropertyWithReadOnlyInterface()" classname="org.springframework.beans.BeanWrapperGenericsTests" time="0.018"/>
+  <testcase name="testComplexDerivedIndexedMapEntry()" classname="org.springframework.beans.BeanWrapperGenericsTests" time="0.001"/>
+  <testcase name="testGenericMapWithKeyType()" classname="org.springframework.beans.BeanWrapperGenericsTests" time="0.001"/>
+  <testcase name="testGenericTypeNestingMapOfListOfListOfInteger()" classname="org.springframework.beans.BeanWrapperGenericsTests" time="0.005"/>
+  <testcase name="testComplexGenericIndexedMapEntry()" classname="org.springframework.beans.BeanWrapperGenericsTests" time="0.011"/>
+  <testcase name="testGenericMapElement()" classname="org.springframework.beans.BeanWrapperGenericsTests" time="0.0"/>
   <testcase name="testGenericMapOfLists()" classname="org.springframework.beans.BeanWrapperGenericsTests" time="0.0"/>
   <testcase name="testGenericMapOfMaps()" classname="org.springframework.beans.BeanWrapperGenericsTests" time="0.001"/>
-  <testcase name="testGenericSetWithConversionFailure()" classname="org.springframework.beans.BeanWrapperGenericsTests" time="0.002"/>
-  <testcase name="testUntypedPropertyWithMapAtRuntime()" classname="org.springframework.beans.BeanWrapperGenericsTests" time="0.005"/>
+  <testcase name="testGenericSetWithConversionFailure()" classname="org.springframework.beans.BeanWrapperGenericsTests" time="0.001"/>
+  <testcase name="testUntypedPropertyWithMapAtRuntime()" classname="org.springframework.beans.BeanWrapperGenericsTests" time="0.01"/>
   <testcase name="testGenericMapElementWithCollectionValue()" classname="org.springframework.beans.BeanWrapperGenericsTests" time="0.001"/>
-  <testcase name="testGenericTypeNestingMapOfListOfInteger()" classname="org.springframework.beans.BeanWrapperGenericsTests" time="0.001"/>
-  <testcase name="testGenericMap()" classname="org.springframework.beans.BeanWrapperGenericsTests" time="0.001"/>
+  <testcase name="testGenericTypeNestingMapOfListOfInteger()" classname="org.springframework.beans.BeanWrapperGenericsTests" time="0.0"/>
+  <testcase name="testGenericMap()" classname="org.springframework.beans.BeanWrapperGenericsTests" time="0.0"/>
   <testcase name="testGenericSet()" classname="org.springframework.beans.BeanWrapperGenericsTests" time="0.001"/>
   <testcase name="testGenericMapFromProperties()" classname="org.springframework.beans.BeanWrapperGenericsTests" time="0.0"/>
-  <testcase name="testGenericallyTypedSetOfIntegerBean()" classname="org.springframework.beans.BeanWrapperGenericsTests" time="0.004"/>
-  <testcase name="testGenericallyTypedIntegerBean()" classname="org.springframework.beans.BeanWrapperGenericsTests" time="0.003"/>
-  <testcase name="testGenericListOfArraysWithElementConversion()" classname="org.springframework.beans.BeanWrapperGenericsTests" time="0.0"/>
+  <testcase name="testGenericallyTypedSetOfIntegerBean()" classname="org.springframework.beans.BeanWrapperGenericsTests" time="0.005"/>
+  <testcase name="testGenericallyTypedIntegerBean()" classname="org.springframework.beans.BeanWrapperGenericsTests" time="0.004"/>
+  <testcase name="testGenericListOfArraysWithElementConversion()" classname="org.springframework.beans.BeanWrapperGenericsTests" time="0.001"/>
   <testcase name="testComplexGenericMapWithCollectionConversion()" classname="org.springframework.beans.BeanWrapperGenericsTests" time="0.0"/>
   <testcase name="testGenericTypeNestingMapOfInteger()" classname="org.springframework.beans.BeanWrapperGenericsTests" time="0.0"/>
-  <testcase name="testGenericTypeNestingListOfMapOfInteger()" classname="org.springframework.beans.BeanWrapperGenericsTests" time="0.001"/>
-  <testcase name="testGenericList()" classname="org.springframework.beans.BeanWrapperGenericsTests" time="0.043"/>
-  <testcase name="testGenericListOfMaps()" classname="org.springframework.beans.BeanWrapperGenericsTests" time="0.001"/>
-  <testcase name="testGenericListOfMapsWithElementConversion()" classname="org.springframework.beans.BeanWrapperGenericsTests" time="0.0"/>
-  <testcase name="testComplexDerivedIndexedMapEntryWithCollectionConversion()" classname="org.springframework.beans.BeanWrapperGenericsTests" time="0.001"/>
+  <testcase name="testGenericTypeNestingListOfMapOfInteger()" classname="org.springframework.beans.BeanWrapperGenericsTests" time="0.0"/>
+  <testcase name="testGenericList()" classname="org.springframework.beans.BeanWrapperGenericsTests" time="0.039"/>
+  <testcase name="testGenericListOfMaps()" classname="org.springframework.beans.BeanWrapperGenericsTests" time="0.003"/>
+  <testcase name="testGenericListOfMapsWithElementConversion()" classname="org.springframework.beans.BeanWrapperGenericsTests" time="0.001"/>
+  <testcase name="testComplexDerivedIndexedMapEntryWithCollectionConversion()" classname="org.springframework.beans.BeanWrapperGenericsTests" time="0.0"/>
   <testcase name="testGenericMapElementWithKeyType()" classname="org.springframework.beans.BeanWrapperGenericsTests" time="0.0"/>
   <testcase name="testGenericMapOfListsWithElementConversion()" classname="org.springframework.beans.BeanWrapperGenericsTests" time="0.001"/>
   <testcase name="testGenericListOfListsWithElementConversion()" classname="org.springframework.beans.BeanWrapperGenericsTests" time="0.0"/>
@@ -37,7 +37,7 @@
   <testcase name="testGenericListElement()" classname="org.springframework.beans.BeanWrapperGenericsTests" time="0.001"/>
   <testcase name="testGenericListOfLists()" classname="org.springframework.beans.BeanWrapperGenericsTests" time="0.0"/>
   <testcase name="testGenericMapWithCollectionValue()" classname="org.springframework.beans.BeanWrapperGenericsTests" time="0.001"/>
-  <testcase name="testSettingLongPropertyWithGenericInterface()" classname="org.springframework.beans.BeanWrapperGenericsTests" time="0.004"/>
+  <testcase name="testSettingLongPropertyWithGenericInterface()" classname="org.springframework.beans.BeanWrapperGenericsTests" time="0.008"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.context.annotation.CommonAnnotationBeanPostProcessorTests" tests="19" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:31:49" hostname="wangweilideMBP.lan" time="0.034">
+<testsuite name="org.springframework.context.annotation.CommonAnnotationBeanPostProcessorTests" tests="19" skipped="0" failures="0" errors="0" timestamp="2021-05-09T12:41:40" hostname="wangweilidembp" time="0.092">
   <properties/>
-  <testcase name="testResourceInjection()" classname="org.springframework.context.annotation.CommonAnnotationBeanPostProcessorTests" time="0.004"/>
-  <testcase name="testLazyResolutionWithResourceField()" classname="org.springframework.context.annotation.CommonAnnotationBeanPostProcessorTests" time="0.004"/>
-  <testcase name="testExtendedResourceInjection()" classname="org.springframework.context.annotation.CommonAnnotationBeanPostProcessorTests" time="0.007"/>
-  <testcase name="testSerialization()" classname="org.springframework.context.annotation.CommonAnnotationBeanPostProcessorTests" time="0.002"/>
-  <testcase name="testResourceInjectionWithDefaultMethod()" classname="org.springframework.context.annotation.CommonAnnotationBeanPostProcessorTests" time="0.003"/>
+  <testcase name="testResourceInjection()" classname="org.springframework.context.annotation.CommonAnnotationBeanPostProcessorTests" time="0.019"/>
+  <testcase name="testLazyResolutionWithResourceField()" classname="org.springframework.context.annotation.CommonAnnotationBeanPostProcessorTests" time="0.008"/>
+  <testcase name="testExtendedResourceInjection()" classname="org.springframework.context.annotation.CommonAnnotationBeanPostProcessorTests" time="0.015"/>
+  <testcase name="testSerialization()" classname="org.springframework.context.annotation.CommonAnnotationBeanPostProcessorTests" time="0.006"/>
+  <testcase name="testResourceInjectionWithDefaultMethod()" classname="org.springframework.context.annotation.CommonAnnotationBeanPostProcessorTests" time="0.006"/>
   <testcase name="testExtendedResourceInjectionWithOverriding()" classname="org.springframework.context.annotation.CommonAnnotationBeanPostProcessorTests" time="0.001"/>
-  <testcase name="testSerializationWithManualConfiguration()" classname="org.springframework.context.annotation.CommonAnnotationBeanPostProcessorTests" time="0.0"/>
+  <testcase name="testSerializationWithManualConfiguration()" classname="org.springframework.context.annotation.CommonAnnotationBeanPostProcessorTests" time="0.001"/>
   <testcase name="testResourceInjectionWithPrototypes()" classname="org.springframework.context.annotation.CommonAnnotationBeanPostProcessorTests" time="0.001"/>
-  <testcase name="testLazyResolutionWithCglibProxy()" classname="org.springframework.context.annotation.CommonAnnotationBeanPostProcessorTests" time="0.002"/>
-  <testcase name="testResourceInjectionFromJndi()" classname="org.springframework.context.annotation.CommonAnnotationBeanPostProcessorTests" time="0.0"/>
-  <testcase name="testPostConstructAndPreDestroyWithPostProcessor()" classname="org.springframework.context.annotation.CommonAnnotationBeanPostProcessorTests" time="0.001"/>
-  <testcase name="testResourceInjectionWithResolvableDependencyType()" classname="org.springframework.context.annotation.CommonAnnotationBeanPostProcessorTests" time="0.001"/>
-  <testcase name="testResourceInjectionWithTwoProcessors()" classname="org.springframework.context.annotation.CommonAnnotationBeanPostProcessorTests" time="0.0"/>
+  <testcase name="testLazyResolutionWithCglibProxy()" classname="org.springframework.context.annotation.CommonAnnotationBeanPostProcessorTests" time="0.003"/>
+  <testcase name="testResourceInjectionFromJndi()" classname="org.springframework.context.annotation.CommonAnnotationBeanPostProcessorTests" time="0.001"/>
+  <testcase name="testPostConstructAndPreDestroyWithPostProcessor()" classname="org.springframework.context.annotation.CommonAnnotationBeanPostProcessorTests" time="0.0"/>
+  <testcase name="testResourceInjectionWithResolvableDependencyType()" classname="org.springframework.context.annotation.CommonAnnotationBeanPostProcessorTests" time="0.012"/>
+  <testcase name="testResourceInjectionWithTwoProcessors()" classname="org.springframework.context.annotation.CommonAnnotationBeanPostProcessorTests" time="0.001"/>
   <testcase name="testLazyResolutionWithResourceMethod()" classname="org.springframework.context.annotation.CommonAnnotationBeanPostProcessorTests" time="0.002"/>
   <testcase name="testPostProcessorWithNullBean()" classname="org.springframework.context.annotation.CommonAnnotationBeanPostProcessorTests" time="0.0"/>
-  <testcase name="testPostConstructAndPreDestroyWithManualConfiguration()" classname="org.springframework.context.annotation.CommonAnnotationBeanPostProcessorTests" time="0.0"/>
-  <testcase name="testPostConstructAndPreDestroy()" classname="org.springframework.context.annotation.CommonAnnotationBeanPostProcessorTests" time="0.001"/>
-  <testcase name="testExtendedEjbInjection()" classname="org.springframework.context.annotation.CommonAnnotationBeanPostProcessorTests" time="0.003"/>
+  <testcase name="testPostConstructAndPreDestroyWithManualConfiguration()" classname="org.springframework.context.annotation.CommonAnnotationBeanPostProcessorTests" time="0.001"/>
+  <testcase name="testPostConstructAndPreDestroy()" classname="org.springframework.context.annotation.CommonAnnotationBeanPostProcessorTests" time="0.0"/>
+  <testcase name="testExtendedEjbInjection()" classname="org.springframework.context.annotation.CommonAnnotationBeanPostProcessorTests" time="0.008"/>
   <testcase name="testPostConstructAndPreDestroyWithApplicationContextAndPostProcessor()" classname="org.springframework.context.annotation.CommonAnnotationBeanPostProcessorTests" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

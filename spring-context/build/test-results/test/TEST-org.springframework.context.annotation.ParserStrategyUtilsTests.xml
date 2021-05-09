@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.context.annotation.ParserStrategyUtilsTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:31:28" hostname="wangweilideMBP.lan" time="2.419">
+<testsuite name="org.springframework.context.annotation.ParserStrategyUtilsTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2021-05-09T12:41:16" hostname="wangweilidembp" time="2.131">
   <properties/>
-  <testcase name="instantiateClassWhenHasSingleContructorAndAwareInjectsParamsAndCallsAware()" classname="org.springframework.context.annotation.ParserStrategyUtilsTests" time="2.377"/>
-  <testcase name="instantiateClassWhenHasNoBeanClassLoaderDoesNotCallAware()" classname="org.springframework.context.annotation.ParserStrategyUtilsTests" time="0.001"/>
-  <testcase name="instantiateClassWhenHasMultipleConstructorsUsesNoArgsConstructor()" classname="org.springframework.context.annotation.ParserStrategyUtilsTests" time="0.001"/>
-  <testcase name="instantiateClassWhenHasNoArgsConstructorCallsAware()" classname="org.springframework.context.annotation.ParserStrategyUtilsTests" time="0.001"/>
-  <testcase name="instantiateClassWhenHasSingleContructorInjectsParams()" classname="org.springframework.context.annotation.ParserStrategyUtilsTests" time="0.006"/>
-  <testcase name="instantiateClassHasSubclassParameterThrowsException()" classname="org.springframework.context.annotation.ParserStrategyUtilsTests" time="0.002"/>
-  <testcase name="instantiateClassWhenHasUnsupportedParameterThrowsException()" classname="org.springframework.context.annotation.ParserStrategyUtilsTests" time="0.002"/>
-  <testcase name="instantiateClassWhenHasNoBeanClassLoaderInjectsNull()" classname="org.springframework.context.annotation.ParserStrategyUtilsTests" time="0.002"/>
-  <testcase name="instantiateClassWhenHasMutlipleConstructorsAndNotDefaultThrowsException()" classname="org.springframework.context.annotation.ParserStrategyUtilsTests" time="0.002"/>
+  <testcase name="instantiateClassWhenHasSingleContructorAndAwareInjectsParamsAndCallsAware()" classname="org.springframework.context.annotation.ParserStrategyUtilsTests" time="2.086"/>
+  <testcase name="instantiateClassWhenHasNoBeanClassLoaderDoesNotCallAware()" classname="org.springframework.context.annotation.ParserStrategyUtilsTests" time="0.003"/>
+  <testcase name="instantiateClassWhenHasMultipleConstructorsUsesNoArgsConstructor()" classname="org.springframework.context.annotation.ParserStrategyUtilsTests" time="0.002"/>
+  <testcase name="instantiateClassWhenHasNoArgsConstructorCallsAware()" classname="org.springframework.context.annotation.ParserStrategyUtilsTests" time="0.002"/>
+  <testcase name="instantiateClassWhenHasSingleContructorInjectsParams()" classname="org.springframework.context.annotation.ParserStrategyUtilsTests" time="0.008"/>
+  <testcase name="instantiateClassHasSubclassParameterThrowsException()" classname="org.springframework.context.annotation.ParserStrategyUtilsTests" time="0.003"/>
+  <testcase name="instantiateClassWhenHasUnsupportedParameterThrowsException()" classname="org.springframework.context.annotation.ParserStrategyUtilsTests" time="0.003"/>
+  <testcase name="instantiateClassWhenHasNoBeanClassLoaderInjectsNull()" classname="org.springframework.context.annotation.ParserStrategyUtilsTests" time="0.009"/>
+  <testcase name="instantiateClassWhenHasMutlipleConstructorsAndNotDefaultThrowsException()" classname="org.springframework.context.annotation.ParserStrategyUtilsTests" time="0.003"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

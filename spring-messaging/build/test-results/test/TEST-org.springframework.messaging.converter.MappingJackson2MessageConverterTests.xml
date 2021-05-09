@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.messaging.converter.MappingJackson2MessageConverterTests" tests="14" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:29:39" hostname="wangweilideMBP.lan" time="0.236">
+<testsuite name="org.springframework.messaging.converter.MappingJackson2MessageConverterTests" tests="14" skipped="0" failures="0" errors="0" timestamp="2021-05-09T12:40:39" hostname="wangweilidembp" time="0.385">
   <properties/>
-  <testcase name="fromMessageToList()" classname="org.springframework.messaging.converter.MappingJackson2MessageConverterTests" time="0.057"/>
-  <testcase name="fromMessageInvalidJson()" classname="org.springframework.messaging.converter.MappingJackson2MessageConverterTests" time="0.033"/>
+  <testcase name="fromMessageToList()" classname="org.springframework.messaging.converter.MappingJackson2MessageConverterTests" time="0.07"/>
+  <testcase name="fromMessageInvalidJson()" classname="org.springframework.messaging.converter.MappingJackson2MessageConverterTests" time="0.057"/>
   <testcase name="fromMessageMatchingInstance()" classname="org.springframework.messaging.converter.MappingJackson2MessageConverterTests" time="0.002"/>
-  <testcase name="fromMessageToMessageWithPojo()" classname="org.springframework.messaging.converter.MappingJackson2MessageConverterTests" time="0.002"/>
-  <testcase name="mimetypesParametrizedConstructor()" classname="org.springframework.messaging.converter.MappingJackson2MessageConverterTests" time="0.0"/>
-  <testcase name="fromMessageValidJsonWithUnknownProperty()" classname="org.springframework.messaging.converter.MappingJackson2MessageConverterTests" time="0.002"/>
-  <testcase name="toMessage()" classname="org.springframework.messaging.converter.MappingJackson2MessageConverterTests" time="0.065"/>
-  <testcase name="toMessageJsonView()" classname="org.springframework.messaging.converter.MappingJackson2MessageConverterTests" time="0.035"/>
+  <testcase name="fromMessageToMessageWithPojo()" classname="org.springframework.messaging.converter.MappingJackson2MessageConverterTests" time="0.004"/>
+  <testcase name="mimetypesParametrizedConstructor()" classname="org.springframework.messaging.converter.MappingJackson2MessageConverterTests" time="0.001"/>
+  <testcase name="fromMessageValidJsonWithUnknownProperty()" classname="org.springframework.messaging.converter.MappingJackson2MessageConverterTests" time="0.003"/>
+  <testcase name="toMessage()" classname="org.springframework.messaging.converter.MappingJackson2MessageConverterTests" time="0.111"/>
+  <testcase name="toMessageJsonView()" classname="org.springframework.messaging.converter.MappingJackson2MessageConverterTests" time="0.07"/>
   <testcase name="defaultConstructor()" classname="org.springframework.messaging.converter.MappingJackson2MessageConverterTests" time="0.0"/>
   <testcase name="mimetypeParametrizedConstructor()" classname="org.springframework.messaging.converter.MappingJackson2MessageConverterTests" time="0.0"/>
-  <testcase name="toMessageUtf16String()" classname="org.springframework.messaging.converter.MappingJackson2MessageConverterTests" time="0.002"/>
-  <testcase name="fromMessageUntyped()" classname="org.springframework.messaging.converter.MappingJackson2MessageConverterTests" time="0.023"/>
-  <testcase name="fromMessage()" classname="org.springframework.messaging.converter.MappingJackson2MessageConverterTests" time="0.007"/>
-  <testcase name="toMessageUtf16()" classname="org.springframework.messaging.converter.MappingJackson2MessageConverterTests" time="0.002"/>
+  <testcase name="toMessageUtf16String()" classname="org.springframework.messaging.converter.MappingJackson2MessageConverterTests" time="0.015"/>
+  <testcase name="fromMessageUntyped()" classname="org.springframework.messaging.converter.MappingJackson2MessageConverterTests" time="0.024"/>
+  <testcase name="fromMessage()" classname="org.springframework.messaging.converter.MappingJackson2MessageConverterTests" time="0.009"/>
+  <testcase name="toMessageUtf16()" classname="org.springframework.messaging.converter.MappingJackson2MessageConverterTests" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

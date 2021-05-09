@@ -1,37 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.remoting.rmi.RmiSupportTests" tests="31" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:31:26" hostname="wangweilideMBP.lan" time="0.299">
+<testsuite name="org.springframework.remoting.rmi.RmiSupportTests" tests="31" skipped="0" failures="0" errors="0" timestamp="2021-05-09T12:41:14" hostname="wangweilidembp" time="0.243">
   <properties/>
-  <testcase name="rmiProxyFactoryBeanWithBusinessInterfaceAndUnknownHostExceptionAndRefresh()" classname="org.springframework.remoting.rmi.RmiSupportTests" time="0.112"/>
-  <testcase name="rmiProxyFactoryBeanWithBusinessInterfaceAndConnectIOException()" classname="org.springframework.remoting.rmi.RmiSupportTests" time="0.002"/>
-  <testcase name="rmiProxyFactoryBeanWithStubNotFoundExceptionAndRefresh()" classname="org.springframework.remoting.rmi.RmiSupportTests" time="0.006"/>
-  <testcase name="remoteInvocation()" classname="org.springframework.remoting.rmi.RmiSupportTests" time="0.011"/>
-  <testcase name="rmiProxyFactoryBean()" classname="org.springframework.remoting.rmi.RmiSupportTests" time="0.001"/>
+  <testcase name="rmiProxyFactoryBeanWithBusinessInterfaceAndUnknownHostExceptionAndRefresh()" classname="org.springframework.remoting.rmi.RmiSupportTests" time="0.085"/>
+  <testcase name="rmiProxyFactoryBeanWithBusinessInterfaceAndConnectIOException()" classname="org.springframework.remoting.rmi.RmiSupportTests" time="0.001"/>
+  <testcase name="rmiProxyFactoryBeanWithStubNotFoundExceptionAndRefresh()" classname="org.springframework.remoting.rmi.RmiSupportTests" time="0.014"/>
+  <testcase name="remoteInvocation()" classname="org.springframework.remoting.rmi.RmiSupportTests" time="0.017"/>
+  <testcase name="rmiProxyFactoryBean()" classname="org.springframework.remoting.rmi.RmiSupportTests" time="0.033"/>
   <testcase name="rmiProxyFactoryBeanWithBusinessInterfaceAndNoSuchObjectExceptionException()" classname="org.springframework.remoting.rmi.RmiSupportTests" time="0.001"/>
-  <testcase name="rmiProxyFactoryBeanWithNoSuchObjectExceptionAndRefresh()" classname="org.springframework.remoting.rmi.RmiSupportTests" time="0.0"/>
-  <testcase name="rmiProxyFactoryBeanWithBusinessInterfaceAndConnectIOExceptionAndRefresh()" classname="org.springframework.remoting.rmi.RmiSupportTests" time="0.0"/>
-  <testcase name="rmiProxyFactoryBeanWithNoSuchObjectException()" classname="org.springframework.remoting.rmi.RmiSupportTests" time="0.001"/>
-  <testcase name="rmiProxyFactoryBeanWithMarshalException()" classname="org.springframework.remoting.rmi.RmiSupportTests" time="0.001"/>
-  <testcase name="rmiProxyFactoryBeanWithUnknownHostExceptionAndRefresh()" classname="org.springframework.remoting.rmi.RmiSupportTests" time="0.001"/>
+  <testcase name="rmiProxyFactoryBeanWithNoSuchObjectExceptionAndRefresh()" classname="org.springframework.remoting.rmi.RmiSupportTests" time="0.002"/>
+  <testcase name="rmiProxyFactoryBeanWithBusinessInterfaceAndConnectIOExceptionAndRefresh()" classname="org.springframework.remoting.rmi.RmiSupportTests" time="0.004"/>
+  <testcase name="rmiProxyFactoryBeanWithNoSuchObjectException()" classname="org.springframework.remoting.rmi.RmiSupportTests" time="0.002"/>
+  <testcase name="rmiProxyFactoryBeanWithMarshalException()" classname="org.springframework.remoting.rmi.RmiSupportTests" time="0.002"/>
+  <testcase name="rmiProxyFactoryBeanWithUnknownHostExceptionAndRefresh()" classname="org.springframework.remoting.rmi.RmiSupportTests" time="0.002"/>
   <testcase name="rmiProxyFactoryBeanWithBusinessInterfaceAndRemoteException()" classname="org.springframework.remoting.rmi.RmiSupportTests" time="0.002"/>
-  <testcase name="rmiProxyFactoryBeanWithUnmarshalException()" classname="org.springframework.remoting.rmi.RmiSupportTests" time="0.001"/>
-  <testcase name="rmiProxyFactoryBeanWithConnectExceptionAndRefresh()" classname="org.springframework.remoting.rmi.RmiSupportTests" time="0.001"/>
-  <testcase name="rmiProxyFactoryBeanWithBusinessInterfaceAndRemoteExceptionAndRefresh()" classname="org.springframework.remoting.rmi.RmiSupportTests" time="0.043"/>
-  <testcase name="rmiProxyFactoryBeanWithBusinessInterfaceAndStubNotFoundExceptionAndRefresh()" classname="org.springframework.remoting.rmi.RmiSupportTests" time="0.001"/>
-  <testcase name="rmiProxyFactoryBeanWithBusinessInterfaceAndUnknownHostException()" classname="org.springframework.remoting.rmi.RmiSupportTests" time="0.001"/>
-  <testcase name="rmiClientInterceptorRequiresUrl()" classname="org.springframework.remoting.rmi.RmiSupportTests" time="0.004"/>
+  <testcase name="rmiProxyFactoryBeanWithUnmarshalException()" classname="org.springframework.remoting.rmi.RmiSupportTests" time="0.002"/>
+  <testcase name="rmiProxyFactoryBeanWithConnectExceptionAndRefresh()" classname="org.springframework.remoting.rmi.RmiSupportTests" time="0.006"/>
+  <testcase name="rmiProxyFactoryBeanWithBusinessInterfaceAndRemoteExceptionAndRefresh()" classname="org.springframework.remoting.rmi.RmiSupportTests" time="0.001"/>
+  <testcase name="rmiProxyFactoryBeanWithBusinessInterfaceAndStubNotFoundExceptionAndRefresh()" classname="org.springframework.remoting.rmi.RmiSupportTests" time="0.002"/>
+  <testcase name="rmiProxyFactoryBeanWithBusinessInterfaceAndUnknownHostException()" classname="org.springframework.remoting.rmi.RmiSupportTests" time="0.002"/>
+  <testcase name="rmiClientInterceptorRequiresUrl()" classname="org.springframework.remoting.rmi.RmiSupportTests" time="0.002"/>
   <testcase name="rmiProxyFactoryBeanWithWrongBusinessInterface()" classname="org.springframework.remoting.rmi.RmiSupportTests" time="0.008"/>
-  <testcase name="rmiProxyFactoryBeanWithConnectIOExceptionAndRefresh()" classname="org.springframework.remoting.rmi.RmiSupportTests" time="0.002"/>
-  <testcase name="rmiProxyFactoryBeanWithBusinessInterfaceAndNoSuchObjectExceptionAndRefresh()" classname="org.springframework.remoting.rmi.RmiSupportTests" time="0.024"/>
-  <testcase name="rmiProxyFactoryBeanWithBusinessInterface()" classname="org.springframework.remoting.rmi.RmiSupportTests" time="0.0"/>
+  <testcase name="rmiProxyFactoryBeanWithConnectIOExceptionAndRefresh()" classname="org.springframework.remoting.rmi.RmiSupportTests" time="0.001"/>
+  <testcase name="rmiProxyFactoryBeanWithBusinessInterfaceAndNoSuchObjectExceptionAndRefresh()" classname="org.springframework.remoting.rmi.RmiSupportTests" time="0.002"/>
+  <testcase name="rmiProxyFactoryBeanWithBusinessInterface()" classname="org.springframework.remoting.rmi.RmiSupportTests" time="0.002"/>
   <testcase name="rmiProxyFactoryBeanWithConnectIOException()" classname="org.springframework.remoting.rmi.RmiSupportTests" time="0.001"/>
   <testcase name="rmiProxyFactoryBeanWithBusinessInterfaceAndConnectExceptionAndRefresh()" classname="org.springframework.remoting.rmi.RmiSupportTests" time="0.001"/>
   <testcase name="rmiProxyFactoryBeanWithBusinessInterfaceAndStubNotFoundException()" classname="org.springframework.remoting.rmi.RmiSupportTests" time="0.001"/>
-  <testcase name="rmiProxyFactoryBeanWithStubNotFoundException()" classname="org.springframework.remoting.rmi.RmiSupportTests" time="0.001"/>
-  <testcase name="rmiProxyFactoryBeanWithBusinessInterfaceAndConnectException()" classname="org.springframework.remoting.rmi.RmiSupportTests" time="0.0"/>
-  <testcase name="rmiProxyFactoryBeanWithRemoteException()" classname="org.springframework.remoting.rmi.RmiSupportTests" time="0.0"/>
+  <testcase name="rmiProxyFactoryBeanWithStubNotFoundException()" classname="org.springframework.remoting.rmi.RmiSupportTests" time="0.002"/>
+  <testcase name="rmiProxyFactoryBeanWithBusinessInterfaceAndConnectException()" classname="org.springframework.remoting.rmi.RmiSupportTests" time="0.001"/>
+  <testcase name="rmiProxyFactoryBeanWithRemoteException()" classname="org.springframework.remoting.rmi.RmiSupportTests" time="0.007"/>
   <testcase name="rmiProxyFactoryBeanWithConnectException()" classname="org.springframework.remoting.rmi.RmiSupportTests" time="0.0"/>
-  <testcase name="rmiProxyFactoryBeanWithUnknownHostException()" classname="org.springframework.remoting.rmi.RmiSupportTests" time="0.022"/>
-  <testcase name="rmiInvokerWithSpecialLocalMethods()" classname="org.springframework.remoting.rmi.RmiSupportTests" time="0.014"/>
+  <testcase name="rmiProxyFactoryBeanWithUnknownHostException()" classname="org.springframework.remoting.rmi.RmiSupportTests" time="0.001"/>
+  <testcase name="rmiInvokerWithSpecialLocalMethods()" classname="org.springframework.remoting.rmi.RmiSupportTests" time="0.002"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

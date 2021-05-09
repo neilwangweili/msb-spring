@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.r2dbc.connection.init.H2DatabasePopulatorIntegrationTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:25:13" hostname="wangweilideMBP.lan" time="0.25">
+<testsuite name="org.springframework.r2dbc.connection.init.H2DatabasePopulatorIntegrationTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-05-09T12:40:21" hostname="wangweilidembp" time="0.55">
   <properties/>
-  <testcase name="scriptWithSingleLineCommentsAndFailedDrop()" classname="org.springframework.r2dbc.connection.init.H2DatabasePopulatorIntegrationTests" time="0.16"/>
-  <testcase name="scriptWithMultipleStatementsAndLongSeparator()" classname="org.springframework.r2dbc.connection.init.H2DatabasePopulatorIntegrationTests" time="0.027"/>
-  <testcase name="scriptWithMultipleStatements()" classname="org.springframework.r2dbc.connection.init.H2DatabasePopulatorIntegrationTests" time="0.013"/>
-  <testcase name="scriptWithStandardEscapedLiteral()" classname="org.springframework.r2dbc.connection.init.H2DatabasePopulatorIntegrationTests" time="0.012"/>
-  <testcase name="scriptWithMySqlEscapedLiteral()" classname="org.springframework.r2dbc.connection.init.H2DatabasePopulatorIntegrationTests" time="0.012"/>
-  <testcase name="shouldRunScript()" classname="org.springframework.r2dbc.connection.init.H2DatabasePopulatorIntegrationTests" time="0.014"/>
+  <testcase name="scriptWithSingleLineCommentsAndFailedDrop()" classname="org.springframework.r2dbc.connection.init.H2DatabasePopulatorIntegrationTests" time="0.306"/>
+  <testcase name="scriptWithMultipleStatementsAndLongSeparator()" classname="org.springframework.r2dbc.connection.init.H2DatabasePopulatorIntegrationTests" time="0.023"/>
+  <testcase name="scriptWithMultipleStatements()" classname="org.springframework.r2dbc.connection.init.H2DatabasePopulatorIntegrationTests" time="0.075"/>
+  <testcase name="scriptWithStandardEscapedLiteral()" classname="org.springframework.r2dbc.connection.init.H2DatabasePopulatorIntegrationTests" time="0.041"/>
+  <testcase name="scriptWithMySqlEscapedLiteral()" classname="org.springframework.r2dbc.connection.init.H2DatabasePopulatorIntegrationTests" time="0.038"/>
+  <testcase name="shouldRunScript()" classname="org.springframework.r2dbc.connection.init.H2DatabasePopulatorIntegrationTests" time="0.054"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

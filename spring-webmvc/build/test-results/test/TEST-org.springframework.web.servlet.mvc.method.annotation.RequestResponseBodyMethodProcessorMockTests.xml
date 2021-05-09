@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessorMockTests" tests="24" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:33:22" hostname="wangweilideMBP.lan" time="0.141">
+<testsuite name="org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessorMockTests" tests="24" skipped="0" failures="0" errors="0" timestamp="2021-05-09T12:41:39" hostname="wangweilidembp" time="0.257">
   <properties/>
-  <testcase name="handleReturnValueNotAcceptable()" classname="org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessorMockTests" time="0.015"/>
-  <testcase name="handleReturnValueMediaTypeSuffix()" classname="org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessorMockTests" time="0.004"/>
-  <testcase name="resolveArgumentNotRequiredNoContent()" classname="org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessorMockTests" time="0.008"/>
-  <testcase name="handleReturnTypeResourceIllegalByteRange()" classname="org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessorMockTests" time="0.006"/>
-  <testcase name="resolveArgumentNotRequiredNoContentNoContentType()" classname="org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessorMockTests" time="0.006"/>
-  <testcase name="resolveArgumentNotGetRequests()" classname="org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessorMockTests" time="0.008"/>
-  <testcase name="handleReturnValue()" classname="org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessorMockTests" time="0.003"/>
-  <testcase name="resolveArgumentNotRequiredWithContent()" classname="org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessorMockTests" time="0.008"/>
-  <testcase name="handleReturnValueNotAcceptableProduces()" classname="org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessorMockTests" time="0.004"/>
-  <testcase name="handleReturnTypeResourceByteRange()" classname="org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessorMockTests" time="0.005"/>
-  <testcase name="resolveArgumentCannotRead()" classname="org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessorMockTests" time="0.003"/>
-  <testcase name="resolveArgumentNoContentType()" classname="org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessorMockTests" time="0.003"/>
-  <testcase name="resolveArgumentNotValid()" classname="org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessorMockTests" time="0.012"/>
-  <testcase name="resolveArgumentOptionalNoContent()" classname="org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessorMockTests" time="0.006"/>
+  <testcase name="handleReturnValueNotAcceptable()" classname="org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessorMockTests" time="0.021"/>
+  <testcase name="handleReturnValueMediaTypeSuffix()" classname="org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessorMockTests" time="0.008"/>
+  <testcase name="resolveArgumentNotRequiredNoContent()" classname="org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessorMockTests" time="0.01"/>
+  <testcase name="handleReturnTypeResourceIllegalByteRange()" classname="org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessorMockTests" time="0.012"/>
+  <testcase name="resolveArgumentNotRequiredNoContentNoContentType()" classname="org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessorMockTests" time="0.01"/>
+  <testcase name="resolveArgumentNotGetRequests()" classname="org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessorMockTests" time="0.009"/>
+  <testcase name="handleReturnValue()" classname="org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessorMockTests" time="0.008"/>
+  <testcase name="resolveArgumentNotRequiredWithContent()" classname="org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessorMockTests" time="0.021"/>
+  <testcase name="handleReturnValueNotAcceptableProduces()" classname="org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessorMockTests" time="0.014"/>
+  <testcase name="handleReturnTypeResourceByteRange()" classname="org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessorMockTests" time="0.01"/>
+  <testcase name="resolveArgumentCannotRead()" classname="org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessorMockTests" time="0.007"/>
+  <testcase name="resolveArgumentNoContentType()" classname="org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessorMockTests" time="0.006"/>
+  <testcase name="resolveArgumentNotValid()" classname="org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessorMockTests" time="0.026"/>
+  <testcase name="resolveArgumentOptionalNoContent()" classname="org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessorMockTests" time="0.01"/>
   <testcase name="resolveArgumentRequiredNoContent()" classname="org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessorMockTests" time="0.006"/>
-  <testcase name="resolveArgument()" classname="org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessorMockTests" time="0.007"/>
-  <testcase name="resolveArgumentOptionalWithContent()" classname="org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessorMockTests" time="0.007"/>
-  <testcase name="handleReturnValueProduces()" classname="org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessorMockTests" time="0.002"/>
-  <testcase name="resolveArgumentInvalidContentType()" classname="org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessorMockTests" time="0.002"/>
-  <testcase name="handleReturnTypeResource()" classname="org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessorMockTests" time="0.002"/>
-  <testcase name="supportsParameter()" classname="org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessorMockTests" time="0.003"/>
-  <testcase name="resolveArgumentValid()" classname="org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessorMockTests" time="0.008"/>
-  <testcase name="resolveArgumentOptionalNoContentNoContentType()" classname="org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessorMockTests" time="0.006"/>
-  <testcase name="supportsReturnType()" classname="org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessorMockTests" time="0.002"/>
+  <testcase name="resolveArgument()" classname="org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessorMockTests" time="0.011"/>
+  <testcase name="resolveArgumentOptionalWithContent()" classname="org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessorMockTests" time="0.012"/>
+  <testcase name="handleReturnValueProduces()" classname="org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessorMockTests" time="0.006"/>
+  <testcase name="resolveArgumentInvalidContentType()" classname="org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessorMockTests" time="0.005"/>
+  <testcase name="handleReturnTypeResource()" classname="org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessorMockTests" time="0.008"/>
+  <testcase name="supportsParameter()" classname="org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessorMockTests" time="0.005"/>
+  <testcase name="resolveArgumentValid()" classname="org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessorMockTests" time="0.013"/>
+  <testcase name="resolveArgumentOptionalNoContentNoContentType()" classname="org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessorMockTests" time="0.011"/>
+  <testcase name="supportsReturnType()" classname="org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessorMockTests" time="0.004"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

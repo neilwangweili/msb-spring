@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.transaction.aspectj.TransactionAspectTests" tests="12" skipped="0" failures="0" errors="0" timestamp="2021-05-01T09:31:24" hostname="wangweilideMBP.lan" time="0.094">
+<testsuite name="org.springframework.transaction.aspectj.TransactionAspectTests" tests="12" skipped="0" failures="0" errors="0" timestamp="2021-05-09T12:40:59" hostname="wangweilidembp" time="0.061">
   <properties/>
-  <testcase name="commitOnAnnotatedPrivateMethod()" classname="org.springframework.transaction.aspectj.TransactionAspectTests" time="0.027"/>
+  <testcase name="commitOnAnnotatedPrivateMethod()" classname="org.springframework.transaction.aspectj.TransactionAspectTests" time="0.008"/>
   <testcase name="notTransactional()" classname="org.springframework.transaction.aspectj.TransactionAspectTests" time="0.001"/>
   <testcase name="noCommitOnImplementationOfAnnotatedInterface()" classname="org.springframework.transaction.aspectj.TransactionAspectTests" time="0.005"/>
-  <testcase name="defaultRollbackOnAnnotatedClass()" classname="org.springframework.transaction.aspectj.TransactionAspectTests" time="0.003"/>
+  <testcase name="defaultRollbackOnAnnotatedClass()" classname="org.springframework.transaction.aspectj.TransactionAspectTests" time="0.005"/>
   <testcase name="commitOnAnnotatedProtectedMethod()" classname="org.springframework.transaction.aspectj.TransactionAspectTests" time="0.001"/>
-  <testcase name="commitOnNonAnnotatedNonPublicMethodInTransactionalType()" classname="org.springframework.transaction.aspectj.TransactionAspectTests" time="0.001"/>
-  <testcase name="defaultCommitOnSubclassOfAnnotatedClass()" classname="org.springframework.transaction.aspectj.TransactionAspectTests" time="0.034"/>
-  <testcase name="testCommitOnAnnotatedClass()" classname="org.springframework.transaction.aspectj.TransactionAspectTests" time="0.009"/>
-  <testcase name="commitOnAnnotatedMethod()" classname="org.springframework.transaction.aspectj.TransactionAspectTests" time="0.001"/>
-  <testcase name="defaultCommitOnSubclassOfClassWithTransactionalMethodAnnotated()" classname="org.springframework.transaction.aspectj.TransactionAspectTests" time="0.002"/>
-  <testcase name="defaultCommitOnAnnotatedClass()" classname="org.springframework.transaction.aspectj.TransactionAspectTests" time="0.001"/>
-  <testcase name="noRollbackOnImplementationOfAnnotatedInterface()" classname="org.springframework.transaction.aspectj.TransactionAspectTests" time="0.0"/>
+  <testcase name="commitOnNonAnnotatedNonPublicMethodInTransactionalType()" classname="org.springframework.transaction.aspectj.TransactionAspectTests" time="0.002"/>
+  <testcase name="defaultCommitOnSubclassOfAnnotatedClass()" classname="org.springframework.transaction.aspectj.TransactionAspectTests" time="0.003"/>
+  <testcase name="testCommitOnAnnotatedClass()" classname="org.springframework.transaction.aspectj.TransactionAspectTests" time="0.001"/>
+  <testcase name="commitOnAnnotatedMethod()" classname="org.springframework.transaction.aspectj.TransactionAspectTests" time="0.007"/>
+  <testcase name="defaultCommitOnSubclassOfClassWithTransactionalMethodAnnotated()" classname="org.springframework.transaction.aspectj.TransactionAspectTests" time="0.004"/>
+  <testcase name="defaultCommitOnAnnotatedClass()" classname="org.springframework.transaction.aspectj.TransactionAspectTests" time="0.004"/>
+  <testcase name="noRollbackOnImplementationOfAnnotatedInterface()" classname="org.springframework.transaction.aspectj.TransactionAspectTests" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
