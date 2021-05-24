@@ -288,6 +288,7 @@ public class DefaultSingletonBeanRegistry extends SimpleAliasRegistry implements
 	 * @see #getSingletonMutex()
 	 */
 	protected void removeSingleton(String beanName) {
+		//对所有的Map remove掉
 		synchronized (this.singletonObjects) {
 			this.singletonObjects.remove(beanName);
 			this.singletonFactories.remove(beanName);

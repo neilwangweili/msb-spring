@@ -135,7 +135,7 @@
             1. 如果当前bean有父类关联，则同时注册父类的bean
             1. 例如abstract属性指定抽象Bean
         1. 判断非抽象、单例、非懒加载的bean进行处理
-        1. 如果是Bean工厂，则窗前该工厂想要创建的Bean的对象
+        1. 如果是Bean工厂，则创建该工厂想要创建的Bean的对象
             1. doGetBean()
                 1. getSingleton
                     1. 判断一级缓存中是否有该对象，有则直接获得单例bean
