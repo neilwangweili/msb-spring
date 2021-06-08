@@ -40,3 +40,9 @@
             1. springboot中有spring.active.profile设置 原因如上
     1. 根据refresh标识判断是否需要refresh 默认为true
     1. refresh方法
+        1. 同步监视器
+        1. prepareRefresh()
+            1. initPropertySources
+                1. 初始化任何资源属性，留给子类覆盖
+                1. 可以扩展 - MyClassPathXmlApplicationContext
+                1. WebApplicationContextUtils#initServletPropertySources()进行了扩展操作
