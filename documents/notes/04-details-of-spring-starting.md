@@ -60,3 +60,4 @@
 1. 运用设计模式:适配器模式XmlBeanDefinitionReader()并设置
    1. PluggableSchemaResolver的schemaMappings不在创建时加载，而是懒加载，在toString时将值加载，所以debug时可以看到该值
 1. 将beanFactory read入beanDefinition(后续工作)
+    1. getConfigLocations -> AbstractRefreshableConfigApplicationContext#getConfigLocations
