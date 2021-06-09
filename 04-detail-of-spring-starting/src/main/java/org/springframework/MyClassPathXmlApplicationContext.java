@@ -1,5 +1,6 @@
 package org.springframework;
 
+import org.springframework.beans.factory.support.DefaultListableBeanFactory;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 /**
@@ -21,4 +22,14 @@ public class MyClassPathXmlApplicationContext extends ClassPathXmlApplicationCon
         getEnvironment().setRequiredProperties("user.name");
         super.initPropertySources();
     }
+
+    @Override
+    protected void customizeBeanFactory(DefaultListableBeanFactory beanFactory) {
+        //不允许bean定义覆盖
+        beanFactory.setAllowBeanDefinitionOverriding(false);
+        //不允许循环依赖
+        beanFactory.setAllowCircularReferences(false);
+        super.customizeBeanFactory(beanFactory);
+    }
+
 }

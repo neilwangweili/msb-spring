@@ -46,3 +46,17 @@
                 1. 初始化任何资源属性，留给子类覆盖
                 1. 可以扩展 - MyClassPathXmlApplicationContext
                 1. WebApplicationContextUtils#initServletPropertySources()进行了扩展操作
+        1. obtainFreshBeanFactory()
+            1. refreshBeanFactory()
+                1. 如果有bean工厂，则销毁掉
+                1. 创建一个新的bean工厂
+                1. AbstractAutowireCapableBeanFactory#ignoreDependencyInterface
+                    1. 注册入缓存，过后统一处理
+            1. customizeBeanFactory
+                1. 如果属性allowBeanDefinitionOverriding不为空，设置给beanFactory对象相应属性，是否允许覆盖同名称的不同定义的对象
+                1. 如果属性allowCircularReferences不为空，设置给beanFactory，是否允许bean之间存在循环依赖(重写来修改规则)
+## doLoadBeanDefinitions(beanFactory)
+1. bean定义信息一开始是存储在xml中的，将工厂类当作参数传入，设置环境参数、Xsd解析器(读一个资源处理器(bean dtd处理器 xsd处理器))
+1. 运用设计模式:适配器模式XmlBeanDefinitionReader()并设置
+   1. PluggableSchemaResolver的schemaMappings不在创建时加载，而是懒加载，在toString时将值加载，所以debug时可以看到该值
+1. 将beanFactory read入beanDefinition(后续工作)
